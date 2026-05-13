@@ -34,6 +34,22 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn(".item{grid-template-columns:76px 1fr", HTML)
         self.assertIn(".detail-hero-card{grid-template-columns:1fr", HTML)
         self.assertIn(".product-media-thumb{width:76px", HTML)
+        self.assertIn("mobile-safe-text", HTML)
+        self.assertIn("stamp-line", HTML)
+        self.assertIn(".snapshot-grid,.evidence-matrix,.decision-grid,.owner-flow{grid-template-columns:1fr}", HTML)
+
+    def test_dedup_overlay_marks_and_folds_duplicate_candidates(self):
+        self.assertIn("const DEDUP_RULES", HTML)
+        self.assertIn("已存在", HTML)
+        self.assertIn("变体", HTML)
+        self.assertIn("isFoldedCandidate", HTML)
+        self.assertIn("dedupRelatedBlock", HTML)
+        self.assertIn("相关子方向 / 历史推荐", HTML)
+
+    def test_discovery_top10_has_dedup_status_column(self):
+        self.assertIn("Top10 候选池（新增 / 已存在 / 变体状态）", HTML)
+        self.assertIn("去重状态", HTML)
+        self.assertIn("dedupPill(rule.status,rule.type)", HTML)
 
     def test_sync_accepts_known_public_image_headers(self):
         row = {
