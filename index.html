@@ -64,7 +64,7 @@
         </section>
         <section class="panel">
           <div class="panel-head"><h2>产品详情</h2><a id="amazonLink" target="_blank" class="chip">Amazon直达</a></div>
-          <div class="tabs"><button class="tab active" data-tab="overview">证据/定义</button><button class="tab" data-tab="brief">开发Brief</button><button class="tab" data-tab="evidence">证据可信度</button><button class="tab" data-tab="profit">利润复算</button><button class="tab" data-tab="supply">供应链报价</button><button class="tab" data-tab="decision">刘希决策台</button><button class="tab" data-tab="next">下一步动作</button></div>
+          <div class="tabs"><button class="tab active" data-tab="overview">证据/定义</button><button class="tab" data-tab="brief">开发Brief</button><button class="tab" data-tab="evidence">证据可信度</button><button class="tab" data-tab="profit">利润复算</button><button class="tab" data-tab="supply">供应链报价</button><button class="tab" data-tab="next">下一步动作</button></div>
           <div class="detail" id="detail"></div>
         </section>
       </main>
@@ -94,7 +94,7 @@ let selected = 0, filter = 'all', tab = 'overview';
 const $ = s => document.querySelector(s);
 const QUEUE_KEY='coovoamae_inquiry_queue_v2';
 const STATE_KEY='coovoamae_product_action_state_v2';
-const PAGE_VERSION='2026-05-13 14:36 CST｜证据+利润+决策台版';
+const PAGE_VERSION='2026-05-13 14:49 CST｜保留顶部决策UI+数据补证版';
 function loadJSON(key, fallback){ try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback));}catch(e){return fallback;} }
 function saveJSON(key, val){ localStorage.setItem(key, JSON.stringify(val)); }
 function getQueue(){ return loadJSON(QUEUE_KEY, []); }
@@ -300,7 +300,7 @@ function detailDecision(x){
   return `<div class="analysis-stack"><div class="decision-note"><b>刘希只需要拍板一个动作：</b>不要在这个页面里做复杂判断，复杂判断交给证据/利润/供应链模块；这里负责把产品推到下一棒。</div><div class="decision-grid"><div class="decision-option primary" onclick="advanceInquiry()"><h4>允许询价</h4><p>生成供应链询价任务表，人工拿报价。</p></div><div class="decision-option" onclick="markNeedData()"><h4>继续补数据</h4><p>补 ABA/POE/VOC/H10 等证据缺口。</p></div><div class="decision-option" onclick="markPaused()"><h4>暂缓观察</h4><p>保留但不占用本周供应链资源。</p></div><div class="decision-option" onclick="markAbandoned()"><h4>放弃</h4><p>证据或利润不成立，归档避免重复研究。</p></div></div><div class="owner-flow">${flow.map((v,i)=>`<div class="owner-step"><b>第 ${i+1} 步</b>${v}</div>`).join('')}</div><div class="analysis-card"><h4>当前建议</h4><p>${x.decisionSuggestion}。原因：估算净利率 ${x.profit.margin}%，主要缺口 ${(x.gaps||[]).join('、')||'需报价复算'}。</p></div></div>`;
 }
 function detailNext(x){return `<div class="grid2"><div class="box"><h4>你现在怎么动作</h4><p><b>${x.decisionSuggestion}</b><br>建议在飞书「刘希决策台」对应行选择：允许询价 / 继续补数据 / 暂缓观察 / 放弃。</p></div><div class="box"><h4>触发下一棒</h4><p>${x.decisionSuggestion.includes('询价')?'供应链开发拿2家报价 → 财神爷复算 → 回到产品决策驾驶舱':'鹰眼/H10/VOC补缺口 → 猫头鹰修产品定义 → 回到开发闭环'}</p></div><div class="box"><h4>当前缺口</h4><p>${(x.gaps||[]).join('、')||'无显性缺口，但仍需报价复算'}</p></div><div class="box"><h4>负责人线索</h4><p>${x.owner||'总管家分派'}</p></div></div>`}
-function renderDetail(x){ $('#detail').innerHTML = tab==='overview'?detailOverview(x):tab==='brief'?detailBrief(x):tab==='evidence'?detailEvidence(x):tab==='profit'?detailProfit(x):tab==='supply'?detailSupply(x):tab==='decision'?detailDecision(x):detailNext(x); }
+function renderDetail(x){ $('#detail').innerHTML = tab==='overview'?detailOverview(x):tab==='brief'?detailBrief(x):tab==='evidence'?detailEvidence(x):tab==='profit'?detailProfit(x):tab==='supply'?detailSupply(x):detailNext(x); }
 function render(){ const x=DATA.items[selected]; $('#sheetLink').href=DATA.sheet_url; const ql=$('#queueSheetLink'); if(ql) ql.href=DATA.sheet_url; $('#stamp').textContent = `数据源：${DATA.updated_at||'见飞书'}｜页面版本：${PAGE_VERSION}`; renderMetrics(); renderList(); renderHero(x); renderDetail(x); renderQueue(); }
 document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.toggle('active',x===b));renderList();});
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{tab=b.dataset.tab;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));renderDetail(DATA.items[selected]);});
