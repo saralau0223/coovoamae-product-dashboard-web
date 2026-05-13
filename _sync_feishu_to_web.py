@@ -41,6 +41,7 @@ MAIN_TABS = [
 SUP_TABS = ["需要找供应商的产品表", "采样记录表"]
 
 PRIVATE_HEADERS = {"供应商名称", "供应商链接", "联系人/备注", "供应商名称/链接", "负责人"}
+IMAGE_HEADERS = ["imageUrl", "图片URL", "图片url", "图片链接", "主图URL", "主图链接", "H10图片URL", "H10主图URL"]
 
 
 def token() -> str:
@@ -142,6 +143,36 @@ def product_name_from_daily(cell: str) -> str:
 def asin_from_text(s: str) -> str:
     m = re.search(r"\b(B0[A-Z0-9]{8})\b", str(s or ""), re.I)
     return m.group(1).upper() if m else ""
+
+
+def clean_public_image_url(url: str) -> str:
+    raw = str(url or "").strip()
+    if not raw:
+        return ""
+    m = re.search(r"https?://[^\s\"'<>]+", raw)
+    if not m:
+        return ""
+    # Browser-visible images should be public/static URLs only; do not expose signed
+    # Feishu attachment URLs or any URL containing credential-like query parameters.
+    u = m.group(0).strip()
+    if re.search(r"(token|access_token|signature|X-Amz-|Expires=|Authorization=)", u, re.I):
+        return ""
+    return u
+
+
+def image_url_from_row(d: Dict[str, str]) -> str:
+    for key in IMAGE_HEADERS:
+        if d.get(key):
+            url = clean_public_image_url(d[key])
+            if url:
+                return url
+    return ""
+
+
+def apply_image_url(it: Dict[str, Any], d: Dict[str, str]) -> None:
+    url = image_url_from_row(d)
+    if url:
+        it["imageUrl"] = url
 
 
 def parse_rank_score(s: str) -> tuple[Optional[int], str, Optional[int]]:
@@ -416,6 +447,7 @@ def main() -> None:
         rank = int(float(rank_text))
         level, score = parse_priority_label(d.get("优先级", ""))
         it = ensure_item(items, product)
+        apply_image_url(it, d)
         it.update({
             "rank": rank,
             "level": level,
@@ -426,7 +458,7 @@ def main() -> None:
             "risk": d.get("需要补证", it.get("risk", "")),
             "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
             "decisionSuggestion": ("补数据后进入产品定义" if "是" in d.get("是否进入产品定义", "") else "暂缓观察"),
-            "discovery_source": clean_public_dict(d, ["请求ID", "排名", "优先级", "产品方向", "候选池状态", "一句话机会", "目标用户", "差异化假设", "关键证据", "需要补证", "是否进入产品定义"]),
+            "discovery_source": clean_public_dict(d, ["请求ID", "排名", "优先级", "产品方向", "候选池状态", "一句话机会", "目标用户", "差异化假设", "关键证据", "需要补证", "是否进入产品定义"] + IMAGE_HEADERS),
         })
         it["gaps"] = split_gaps(d.get("需要补证", ""))
         it["present"] = list(dict.fromkeys((it.get("present") or []) + ["H10", "VOC", "ABA" if "ABA" in d.get("关键证据", "") else "市场初筛"]))
@@ -469,6 +501,7 @@ def main() -> None:
             it = find_item(items, pname)
             if not it:
                 continue
+            apply_image_url(it, d)
             rank, level, score = parse_rank_score(d.get("等级", ""))
             if rank:
                 it["rank"] = rank

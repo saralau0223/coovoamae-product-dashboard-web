@@ -222,6 +222,7 @@
         "需要补证": "H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/41+yInFoa-L._SX450_.jpg",
         "一句话机会": "酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。",
         "产品方向": "手摇/手动酸面包切片器",
         "优先级": "P0/B+",
@@ -235,6 +236,7 @@
         "需要补证": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/71LtO9xU9WL._SX450_.jpg",
         "一句话机会": "DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。",
         "产品方向": "口袋孔夹具套装",
         "优先级": "P1/B",
@@ -261,6 +263,7 @@
         "需要补证": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/61dEqZ0ll7L._SX450_.jpg",
         "一句话机会": "汽车DIY工具有>$30需求，低评分样本说明漏气/适配/说明书痛点可产品化。",
         "产品方向": "刹车油排气/真空泵套装",
         "优先级": "P1/B-",
@@ -287,6 +290,7 @@
         "需要补证": "ABA/POE/H10、UV安全合规、电池认证、清洁剂荧光误判、侵权词。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/71RfKKn5tzL._SX450_.jpg",
         "一句话机会": "园艺种植支撑需求大，但当前形态偏长偏重，只有可压缩模块化才可能进入小批量测试。",
         "产品方向": "番茄支架/植物支撑",
         "优先级": "P1/B-",
@@ -300,6 +304,7 @@
         "需要补证": "季节曲线、压缩包装、FBA体积费、塑料老化、缺件率。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/51wvwlQKSyL._SX450_.jpg",
         "一句话机会": "自动浇水能解决每日重复劳动，但漏水风险把它从小件机会拉成高责任产品。",
         "产品方向": "浇灌定时器",
         "优先级": "P1-/观察",
@@ -313,6 +318,7 @@
         "需要补证": "ABA/H10/Xray、户外老化、漏水财产风险、售后成本。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/81kYoyE906L._SX450_.jpg",
         "一句话机会": "节后家庭整理需求存在，但强Q4季节和软袋低价感限制常年新品价值。",
         "产品方向": "礼品包装/礼品袋收纳",
         "优先级": "P2/季节",
@@ -354,6 +360,7 @@
         "需要补证": "H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/41+yInFoa-L._SX450_.jpg",
         "一句话机会": "酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。",
         "产品方向": "手摇/手动酸面包切片器",
         "优先级": "P0/B+",
@@ -367,6 +374,7 @@
         "需要补证": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。"
       },
       {
+        "imageUrl": "https://m.media-amazon.com/images/I/71LtO9xU9WL._SX450_.jpg",
         "一句话机会": "DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。",
         "产品方向": "口袋孔夹具套装",
         "优先级": "P1/B",
@@ -1075,7 +1083,7 @@
           "销量/收入": "Top20 proxy $0 / 0件"
         }
       ],
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/41+yInFoa-L._SX450_.jpg",
       "level": "B+ 重点补证",
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
       "present": [
@@ -1188,7 +1196,7 @@
           "销量/收入": "Top20 proxy $0 / 0件"
         }
       ],
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/71LtO9xU9WL._SX450_.jpg",
       "level": "B 补证",
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
       "present": [
@@ -1340,7 +1348,7 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/61dEqZ0ll7L._SX450_.jpg",
       "level": "B 补证",
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
       "present": [
@@ -1678,7 +1686,7 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/71RfKKn5tzL._SX450_.jpg",
       "level": "B 补证",
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
       "present": [
@@ -1740,7 +1748,7 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
-      "imageUrl": "",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wvwlQKSyL._SX450_.jpg",
       "level": "B 补证",
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
       "present": [
@@ -1837,7 +1845,7 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
-      "imageUrl": null,
+      "imageUrl": "https://m.media-amazon.com/images/I/81kYoyE906L._SX450_.jpg",
       "level": "C 观察",
       "market_competition": {
         "下一棒": "鹰眼/H10/VOC补齐关键缺口",
@@ -2494,7 +2502,7 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
-      "imageUrl": null,
+      "imageUrl": "https://m.media-amazon.com/images/I/71heAXfK5iL._SX450_.jpg",
       "level": "C 备选",
       "market_competition": {
         "下一棒": "鹰眼/H10/VOC补齐关键缺口",
@@ -2663,7 +2671,7 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
-      "imageUrl": null,
+      "imageUrl": "https://m.media-amazon.com/images/I/61tvt7wv4FL._SX450_.jpg",
       "level": "C 观察",
       "market_competition": {
         "下一棒": "鹰眼/H10/VOC补齐关键缺口",
@@ -2737,5 +2745,5 @@
     "missing_tabs": []
   },
   "updated_at": "2026-05-13 12:23 CST",
-  "web_synced_at": "2026-05-14 05:44 CST"
+  "web_synced_at": "2026-05-14 07:17 CST"
 }
