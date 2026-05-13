@@ -1,0 +1,532 @@
+{
+  "updated_at": "2026-05-13 10:29 CST",
+  "sheet_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc",
+  "items": [
+    {
+      "rank": 1,
+      "product": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+      "level": "B 重点补证",
+      "score": 78,
+      "price": [
+        29.99,
+        39.99
+      ],
+      "evidence": "H10 Products 2026-05-12：市场收入约$14.11M/月、销量210,873/月、价带$25-56、P75 Review 97、竞争低；Review Insights 5个竞品/16个痛点：亮度、续航、发热、磁吸、说明书。",
+      "diff": "365nm真UV+滤镜、LCD电量、温控降档/童锁、强磁尾盖、照距/续航实测卡；删除鸡肋RGB模式。",
+      "risk": "电池/充电安全、UV功效宣称、侵权词与平台合规；缺ABA/POE/CPC/认证记录。",
+      "owner": "鹰眼补ABA/POE；客户洞察补原始差评；梁毅丹仅准备L0/L1供应商关键词，不询价。",
+      "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0C7ZYQT2L",
+      "imageUrl": "https://m.media-amazon.com/images/I/61LAUA1YtUL._SX450_.jpg",
+      "title": "TNATRA UV 365nm 395nm Blacklight Flashlight for UV Glue Curing,Rocks & Minerals,Pet Stain Detector,Scorpion Finder, Dry Stain, Portable,Zoomable Handheld Ultrav",
+      "amazonUrl": "https://www.amazon.com/dp/B0C7ZYQT2L",
+      "present": [
+        "H10",
+        "VOC"
+      ],
+      "gaps": [
+        "ABA",
+        "POE",
+        "CPC",
+        "供应链",
+        "认证"
+      ],
+      "profit": {
+        "price_low": 29.99,
+        "target_price": 34.99,
+        "price_high": 39.99,
+        "cost_low": 9.8,
+        "cost_high": 12.25,
+        "landed_est": 11.03,
+        "referral": 5.25,
+        "fba_est": 5.2,
+        "ad_est": 5.25,
+        "reserve": 1.75,
+        "profit": 6.51,
+        "margin": 18.6,
+        "break_even_acos": 33.6,
+        "quote_target": 11.24,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "通过",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "先允许询价验证"
+    },
+    {
+      "rank": 2,
+      "product": "数显扭矩扳手｜DIY/自行车/汽车维护",
+      "level": "B 观察验证",
+      "score": 76,
+      "price": [
+        59.99,
+        89.99
+      ],
+      "evidence": "H10 Products 2026-05-12：市场收入约$13.26M/月、销量177,150/月、价带$54-128、P75 Review 54、竞争低。",
+      "diff": "预校准证书、双单位显示、蜂鸣+震动提醒、收纳盒+常用扭矩卡，避开专业级高价。",
+      "risk": "校准准确性/质保、电池、售后解释成本；缺ABA需求词和Cerebro入口词。",
+      "owner": "H10补Cerebro关键词；鹰眼查ABA/Top clicked；财神爷按$60-90测毛利。",
+      "cost_redline": "到岸成本红线假设$16.80-31.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0CLD2F2RF",
+      "imageUrl": "https://m.media-amazon.com/images/I/510JoKjHJiL._SX450_.jpg",
+      "title": "SHAHE Digital Torque Wrench 3/8 Inch drive 1.8-60N.m,Electronic Torque Wrench with Preset Value, Buzzer,Bicycle Torque Wrench Tool",
+      "amazonUrl": "https://www.amazon.com/dp/B0CLD2F2RF",
+      "present": [
+        "H10"
+      ],
+      "gaps": [
+        "ABA"
+      ],
+      "profit": {
+        "price_low": 59.99,
+        "target_price": 74.99,
+        "price_high": 89.99,
+        "cost_low": 21.0,
+        "cost_high": 26.25,
+        "landed_est": 23.62,
+        "referral": 11.25,
+        "fba_est": 9.5,
+        "ad_est": 11.25,
+        "reserve": 3.75,
+        "profit": 15.62,
+        "margin": 20.8,
+        "break_even_acos": 35.8,
+        "quote_target": 25.74,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "先允许询价验证"
+    },
+    {
+      "rank": 3,
+      "product": "咔哒式扭矩扳手｜低电/机械款",
+      "level": "B 观察验证",
+      "score": 74,
+      "price": [
+        39.99,
+        69.99
+      ],
+      "evidence": "H10 Products 2026-05-12：市场收入约$12.83M/月、销量260,082/月、价带$32-160、P75 Review 208、竞争中。",
+      "diff": "机械款降低电池风险；主打校准证书、清晰刻度、棘轮耐久、收纳盒和应用场景套装。",
+      "risk": "精度/质保是核心退货风险；需要排查专利结构和校准供应链。",
+      "owner": "客户洞察抓Review负面；梁毅丹做L0/L1工厂词；财神爷设到岸成本红线。",
+      "cost_redline": "到岸成本红线假设$11.20-24.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0CFL4LM19",
+      "imageUrl": "https://m.media-amazon.com/images/I/710AxUodKPL._SX450_.jpg",
+      "title": "SUERCUP 1/4-Inch Drive Click Torque Wrench, 18 PCS Bike Torque Wrench Set 3-25Nm, Dual-Direction Adjustable 72 Tooth Click Torque Wrench, Used for Bicycle Maint",
+      "amazonUrl": "https://www.amazon.com/dp/B0CFL4LM19",
+      "present": [
+        "H10"
+      ],
+      "gaps": [
+        "供应链"
+      ],
+      "profit": {
+        "price_low": 39.99,
+        "target_price": 54.99,
+        "price_high": 69.99,
+        "cost_low": 15.4,
+        "cost_high": 19.25,
+        "landed_est": 17.32,
+        "referral": 8.25,
+        "fba_est": 7.5,
+        "ad_est": 8.25,
+        "reserve": 2.75,
+        "profit": 10.92,
+        "margin": 19.9,
+        "break_even_acos": 34.9,
+        "quote_target": 18.34,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "先允许询价验证"
+    },
+    {
+      "rank": 4,
+      "product": "园艺跪凳/座椅｜kneeler and seat",
+      "level": "B 季节验证",
+      "score": 73,
+      "price": [
+        39.99,
+        59.99
+      ],
+      "evidence": "ABA 2026-05-03~09：garden kneeler and seat rank 5,081，较4月初21,583显著上升，Top3 click 31.5%；H10：收入约$10.57M/月、价带$35-60、P75 Review 492。",
+      "diff": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。",
+      "risk": "季节性、体积/重量、承重安全；供应链包装尺寸决定FBA可行性。",
+      "owner": "鹰眼补POE季节曲线；梁毅丹核包装尺寸/MOQ；财神爷算FBA体积费。",
+      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0GRYTV88T",
+      "imageUrl": "https://m.media-amazon.com/images/I/71SNdhy-TtL._SX450_.jpg",
+      "title": "Saker Garden Kneeler and Seat - Gardening Bench Gardening Stool Garden Seat with 500LB Heavy Duty Round-Tube Frame, Soft Kneeling Pad Foldable Support for Elder",
+      "amazonUrl": "https://www.amazon.com/dp/B0GRYTV88T",
+      "present": [
+        "ABA",
+        "H10"
+      ],
+      "gaps": [
+        "POE",
+        "供应链",
+        "MOQ",
+        "FBA",
+        "包装尺寸"
+      ],
+      "profit": {
+        "price_low": 39.99,
+        "target_price": 49.99,
+        "price_high": 59.99,
+        "cost_low": 14.0,
+        "cost_high": 17.5,
+        "landed_est": 15.75,
+        "referral": 7.5,
+        "fba_est": 6.2,
+        "ad_est": 7.5,
+        "reserve": 2.5,
+        "profit": 10.54,
+        "margin": 21.1,
+        "break_even_acos": 36.1,
+        "quote_target": 17.29,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "先允许询价验证"
+    },
+    {
+      "rank": 5,
+      "product": "桌面显示器架+收纳｜办公桌面整理",
+      "level": "B 数据缺口",
+      "score": 70,
+      "price": [
+        29.99,
+        49.99
+      ],
+      "evidence": "ABA 2026-05-03~09：desk accessories & workspace organizers rank 41,207，Top3 click 12.7%，需求分散、头部弱；本轮缺H10收入。",
+      "diff": "显示器增高+抽屉/线缆槽/手机支架组合，Warm Grey/Sand Beige家居办公风格。",
+      "risk": "材质同质化、尺寸/承重差评、木板/金属包装破损；缺H10 Xray与供应商成本。",
+      "owner": "H10补Products/Xray；客户洞察看尺寸/承重差评；梁毅丹只做材质成本预筛。",
+      "cost_redline": "到岸成本红线假设$8.40-17.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0C3MPDRPD",
+      "imageUrl": "https://m.media-amazon.com/images/I/71ELt445GZL._SX450_.jpg",
+      "title": "Adjustable Monitor Stand / Desktop Organizer sample",
+      "amazonUrl": "https://www.amazon.com/dp/B0C3MPDRPD",
+      "present": [
+        "ABA"
+      ],
+      "gaps": [
+        "H10",
+        "供应链",
+        "包装尺寸"
+      ],
+      "profit": {
+        "price_low": 29.99,
+        "target_price": 39.99,
+        "price_high": 49.99,
+        "cost_low": 11.2,
+        "cost_high": 14.0,
+        "landed_est": 12.6,
+        "referral": 6.0,
+        "fba_est": 6.2,
+        "ad_est": 6.0,
+        "reserve": 2.0,
+        "profit": 7.19,
+        "margin": 18.0,
+        "break_even_acos": 33.0,
+        "quote_target": 12.59,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "继续补数据/报价前验证"
+    },
+    {
+      "rank": 6,
+      "product": "加热/干眼眼罩迭代｜无线舒适款",
+      "level": "B 品线迭代",
+      "score": 70,
+      "price": [
+        39.99,
+        59.99
+      ],
+      "evidence": "ABA：heated eye mask rank 11,051，Top3 click 27.6%；dry eye mask rank 90,224，Top3 click 43.1%；SQP自有ASIN眼罩词购买率7.72%-9.63%。",
+      "diff": "无线/定时/恒温、安全断电、亲肤面料，合规表达从“dry eye relief”降到“warm compress comfort”。",
+      "risk": "医疗功效宣称、既有品线数据不足、自有曝光低；不作为全新品，只作为产品迭代候选。",
+      "owner": "鹰眼补自有SQP/广告搜索词；品牌/合规确认表达边界；供应链暂不询价。",
+      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0FQP1V81D",
+      "imageUrl": "https://m.media-amazon.com/images/I/71YfcU9jdoL._SX450_.jpg",
+      "title": "Heated Eye Mask Cordless,Silk Eyes Heating Pad for Sleeping,Washable Sleeping Dry Eye Mask for Dry Eyes, Blepharitis, Sinus Migraine",
+      "amazonUrl": "https://www.amazon.com/dp/B0FQP1V81D",
+      "present": [
+        "ABA",
+        "SQP"
+      ],
+      "gaps": [
+        "供应链"
+      ],
+      "profit": {
+        "price_low": 39.99,
+        "target_price": 49.99,
+        "price_high": 59.99,
+        "cost_low": 14.0,
+        "cost_high": 17.5,
+        "landed_est": 15.75,
+        "referral": 7.5,
+        "fba_est": 6.2,
+        "ad_est": 7.5,
+        "reserve": 2.5,
+        "profit": 10.54,
+        "margin": 21.1,
+        "break_even_acos": 36.1,
+        "quote_target": 17.29,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "继续补数据/报价前验证"
+    },
+    {
+      "rank": 7,
+      "product": "硅胶刮刀套装｜厨房烘焙工具",
+      "level": "C 备选",
+      "score": 64,
+      "price": [
+        25.99,
+        34.99
+      ],
+      "evidence": "ABA：silicone spatula rank 5,932，silicone spatula set rank 46,259，Top3 click 27.1%，非垄断；本轮缺H10收入/Review。",
+      "diff": "一体成型耐高温、硬度分级、收纳桶/磁吸挂孔、烘焙礼品化组合。",
+      "risk": "价格容易低于$25、食品接触合规、红海低价；必须证明套装能卖>$25。",
+      "owner": "鹰眼补POE价格/增长；H10补Xray；财神爷验证>$25仍有40%毛利。",
+      "cost_redline": "到岸成本红线假设$7.28-12.25（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": null,
+      "imageUrl": null,
+      "title": null,
+      "amazonUrl": "https://www.amazon.com/s?k=silicone+spatula",
+      "present": [
+        "ABA"
+      ],
+      "gaps": [
+        "H10",
+        "POE"
+      ],
+      "profit": {
+        "price_low": 25.99,
+        "target_price": 30.49,
+        "price_high": 34.99,
+        "cost_low": 8.54,
+        "cost_high": 10.67,
+        "landed_est": 9.61,
+        "referral": 4.57,
+        "fba_est": 5.2,
+        "ad_est": 4.57,
+        "reserve": 1.52,
+        "profit": 5.02,
+        "margin": 16.5,
+        "break_even_acos": 31.5,
+        "quote_target": 9.14,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "暂缓观察"
+    },
+    {
+      "rank": 8,
+      "product": "胶片相机｜复古入门拍照",
+      "level": "C 备选/趋势",
+      "score": 63,
+      "price": [
+        39.99,
+        69.99
+      ],
+      "evidence": "H10 Products 2026-05-12：市场收入约$17.38M/月、销量164,074/月、价带$14-80、P75 Review 86、竞争低。",
+      "diff": "入门礼盒、滤镜/胶卷/相册组合、复古外观、扫码教程，承接TikTok/礼品场景。",
+      "risk": "3C/售后、成像质量预期、品牌/IP和退货；低价段拉低利润。",
+      "owner": "客户洞察补差评；鹰眼查ABA是否趋势稳定；暂不进供应链。",
+      "cost_redline": "到岸成本红线假设$11.20-24.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": "B0D1LRWK7Q",
+      "imageUrl": "https://m.media-amazon.com/images/I/61hFvZmGq7L._SX450_.jpg",
+      "title": "Kodak Funsaver Disposable Camera Bulk one time Single use 7-Pack 27exp 35mm Camera Bundled with Balveli Premium Microfiber Cloths - Bulk Kodak Disposable Film C",
+      "amazonUrl": "https://www.amazon.com/dp/B0D1LRWK7Q",
+      "present": [
+        "H10"
+      ],
+      "gaps": [
+        "供应链"
+      ],
+      "profit": {
+        "price_low": 39.99,
+        "target_price": 54.99,
+        "price_high": 69.99,
+        "cost_low": 15.4,
+        "cost_high": 19.25,
+        "landed_est": 17.32,
+        "referral": 8.25,
+        "fba_est": 7.5,
+        "ad_est": 8.25,
+        "reserve": 2.75,
+        "profit": 10.92,
+        "margin": 19.9,
+        "break_even_acos": 34.9,
+        "quote_target": 18.34,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "暂缓观察"
+    },
+    {
+      "rank": 9,
+      "product": "礼品包装/礼品袋收纳｜节日整理",
+      "level": "C 季节备选",
+      "score": 62,
+      "price": [
+        29.99,
+        39.99
+      ],
+      "evidence": "ABA：gift wrapping organizer storage rank 117,981，Top3 click 28.3%；gift bag organizer rank 300,704，Top3 46.6%；gift wrap organizer rank 553,547。",
+      "diff": "床下/壁挂两用、硬挺隔层、标签卡、礼品袋/丝带/剪刀一体收纳。",
+      "risk": "强季节性、收纳袋体积、部分词集中偏高；缺H10收入和Review尺寸痛点。",
+      "owner": "鹰眼补多周季节曲线；H10补竞品收入；梁毅丹核可压缩包装。",
+      "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": null,
+      "imageUrl": null,
+      "title": null,
+      "amazonUrl": "https://www.amazon.com/s?k=gift+wrap+organizer",
+      "present": [
+        "ABA"
+      ],
+      "gaps": [
+        "H10",
+        "包装尺寸"
+      ],
+      "profit": {
+        "price_low": 29.99,
+        "target_price": 34.99,
+        "price_high": 39.99,
+        "cost_low": 9.8,
+        "cost_high": 12.25,
+        "landed_est": 11.03,
+        "referral": 5.25,
+        "fba_est": 5.2,
+        "ad_est": 5.25,
+        "reserve": 1.75,
+        "profit": 6.51,
+        "margin": 18.6,
+        "break_even_acos": 33.6,
+        "quote_target": 11.24,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "暂缓观察"
+    },
+    {
+      "rank": 10,
+      "product": "RV小空间收纳｜房车/露营整理",
+      "level": "C 观察",
+      "score": 60,
+      "price": [
+        29.99,
+        49.99
+      ],
+      "evidence": "ABA：rv storage organizer and space saver rank 235,983，Top3 click 13.5%，场景明确且头部分散；本轮缺H10/POE。",
+      "diff": "折叠挂袋、抗震固定、窄空间模块化、露营/RV真实场景内容。",
+      "risk": "关键词场景窄、尺寸兼容/承重、可能大件；缺销量、价格带和VOC。",
+      "owner": "鹰眼拆POE RV细分；H10补Products；客户洞察查安装/承重差评。",
+      "cost_redline": "到岸成本红线假设$8.40-17.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "asin": null,
+      "imageUrl": null,
+      "title": null,
+      "amazonUrl": "https://www.amazon.com/s?k=rv+storage+organizer",
+      "present": [
+        "ABA"
+      ],
+      "gaps": [
+        "H10",
+        "POE"
+      ],
+      "profit": {
+        "price_low": 29.99,
+        "target_price": 39.99,
+        "price_high": 49.99,
+        "cost_low": 11.2,
+        "cost_high": 14.0,
+        "landed_est": 12.6,
+        "referral": 6.0,
+        "fba_est": 6.2,
+        "ad_est": 6.0,
+        "reserve": 2.0,
+        "profit": 7.19,
+        "margin": 18.0,
+        "break_even_acos": 33.0,
+        "quote_target": 12.59,
+        "status": "需报价复算"
+      },
+      "gate": {
+        "demand": "通过",
+        "voc": "补VOC",
+        "product": "已定义",
+        "supply": "待报价",
+        "finance": "可试算",
+        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"
+      },
+      "decisionSuggestion": "暂缓观察"
+    }
+  ]
+}

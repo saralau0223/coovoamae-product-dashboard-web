@@ -1,0 +1,46 @@
+{
+  "name": "COOVOAMAE Web Dashboard V3 Data Spec",
+  "principle": "飞书共享表格继续作为主数据源和协作底座；网页做决策与流程推进层。",
+  "priority_modules": [
+    {
+      "module": "待刘希拍板区",
+      "priority": "P0",
+      "purpose": "让刘希一眼看到哪些产品能推进下一步，以及点哪个动作。",
+      "fields": ["product_id", "rank", "product", "recommendation", "reason", "next_action", "risk_boundary", "decision_status", "decision_time"]
+    },
+    {
+      "module": "供应链询价任务表",
+      "priority": "P0",
+      "purpose": "刘希点击允许询价后，自动生成给人工供应链执行的任务行。",
+      "fields": ["task_id", "created_at", "priority", "product", "spec_draft", "target_price", "target_landed_cost", "supplier_1", "quote_1", "supplier_2", "quote_2", "supplier_3", "quote_3", "moq", "sample_fee", "lead_time", "pack_size_weight", "certification", "supplier_questions", "acceptance_criteria", "owner", "status", "updated_at", "quote_attachment_url"]
+    },
+    {
+      "module": "财务复算区",
+      "priority": "P0",
+      "purpose": "供应链回填报价后，财神爷自动/半自动复算做不做。",
+      "fields": ["product", "selected_quote", "landed_cost", "target_price", "amazon_referral_fee", "fba_fee", "ad_budget_rate", "return_reserve", "unit_profit", "net_margin", "break_even_acos", "payback_assumption", "finance_verdict", "finance_owner", "finance_updated_at"]
+    },
+    {
+      "module": "产品定义卡",
+      "priority": "P1",
+      "purpose": "把供应链询价口径从泛泛差异化变成可执行规格。",
+      "fields": ["product", "must_have_specs", "optional_specs", "do_not_touch_compliance", "target_user", "use_case", "first_sku_shape", "package_requirement", "quality_check_points", "reference_asins"]
+    },
+    {
+      "module": "证据质量/可信度",
+      "priority": "P1",
+      "purpose": "避免看板数据看起来完整但不能决策。",
+      "fields": ["demand_evidence_score", "voc_score", "h10_score", "supply_score", "finance_score", "last_verified_date", "source_links", "missing_critical_data"]
+    }
+  ],
+  "recommended_next_build": [
+    "将网页底部供应链询价任务表升级为可编辑表格：供应商、报价、MOQ、交期、包装尺寸、认证、状态可人工填写。",
+    "新增一键复制/导出之外的飞书写回接口：点击允许询价后追加到飞书《供应链报价队列》。该动作属于内部表格写入，不外联供应商；但仍需刘希确认是否启用写回。",
+    "报价回填后生成财务复算卡：自动计算净利率、盈亏平衡 ACoS，并把结论回写到刘希决策台。",
+    "Top4 默认放入待拍板区；其余产品放入继续补数据/暂缓池。"
+  ],
+  "permission_boundary": {
+    "auto_allowed": ["内部网页状态变更", "本地任务表生成", "CSV/表格复制", "内部飞书表格追加写入（需确认启用范围）"],
+    "requires_confirmation": ["联系供应商", "正式询价", "索样", "下单", "付款", "合同", "外部发布", "Amazon后台改动"]
+  }
+}

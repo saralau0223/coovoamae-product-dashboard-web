@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>COOVOAMAE 产品开发闭环网页版</title>
+  <style>
+    :root{
+      --bg:#f6f2ec; --panel:#fffaf3; --card:#ffffff; --ink:#1d1a16; --muted:#756f66;
+      --line:#e5ded2; --accent:#9a5b2e; --accent2:#1f5f52; --red:#a33a2b; --amber:#b7791f; --green:#19745a;
+      --shadow:0 18px 50px rgba(37,27,16,.10); --radius:22px; --radius-sm:14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 20% 0%,#fff7e9 0,#f6f2ec 34%,#eee7dc 100%);color:var(--ink);font-family:var(--sans);}
+    a{color:inherit} .shell{max-width:1500px;margin:0 auto;padding:28px 30px 44px}.topbar{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;margin-bottom:22px}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:800}.title{font-size:34px;line-height:1.06;margin:8px 0 8px;letter-spacing:-.035em}.subtitle{color:var(--muted);max-width:840px;line-height:1.65;font-size:15px}.source-card{min-width:310px;background:#1f1b16;color:#fff;border-radius:20px;padding:17px 18px;box-shadow:var(--shadow)}.source-card .label{color:#d6c6b5;font-size:12px}.source-card a{display:block;margin-top:8px;color:#ffe4b8;font-weight:750;word-break:break-all}.source-card .stamp{margin-top:12px;color:#bfb4a8;font-size:12px}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:22px 0}.metric{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:18px;padding:16px 16px;box-shadow:0 8px 24px rgba(37,27,16,.05)}.metric .num{font-size:27px;font-weight:850;letter-spacing:-.04em}.metric .txt{font-size:12px;color:var(--muted);margin-top:4px}.layout{display:grid;grid-template-columns:360px minmax(0,1fr);gap:18px}.panel{background:rgba(255,250,243,.86);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.panel-head{padding:18px 18px 14px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px}.panel-head h2{font-size:16px;margin:0}.controls{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 11px;font-size:12px;color:var(--muted);cursor:pointer}.chip.active{background:#1f1b16;color:#fff;border-color:#1f1b16}.list{padding:10px;max-height:calc(100vh - 260px);overflow:auto}.item{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:12px;border:1px solid transparent;border-radius:18px;cursor:pointer;transition:.16s ease;background:transparent}.item:hover{background:#fff}.item.active{background:#fff;border-color:#cfb99f;box-shadow:0 10px 28px rgba(37,27,16,.08)}.thumb{width:64px;height:64px;border-radius:14px;background:#eee1d1;object-fit:cover;border:1px solid var(--line)}.rank{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:800}.name{font-size:14px;line-height:1.35;font-weight:790;margin-top:3px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.tag{font-size:11px;padding:4px 7px;border-radius:999px;background:#f2eadf;color:#6f6254}.tag.green{background:#e6f4ee;color:#14624c}.tag.amber{background:#fff2d2;color:#7b4b08}.tag.red{background:#ffe6df;color:#8c2c1f}.main{display:grid;grid-template-rows:auto 1fr;gap:18px}.hero{padding:18px}.decision-strip{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}.decision-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px}.decision-card h3{margin:0 0 10px;font-size:18px}.decision-card .big{font-size:28px;font-weight:900;letter-spacing:-.04em;margin:4px 0 8px}.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:14px}.action{border:1px solid var(--line);border-radius:14px;padding:11px 9px;background:#fbf7f0;text-align:center;font-size:12px;font-weight:800;cursor:pointer;font-family:var(--sans)}.action.primary{background:#1f5f52;color:#fff;border-color:#1f5f52}.pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:16px}.gate{background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px;min-height:92px}.gate .glabel{font-size:12px;color:var(--muted);font-weight:800}.gate .gstatus{margin-top:10px;font-weight:900;font-size:15px}.gate.ok{border-color:#b9ddcf;background:#f0fbf6}.gate.warn{border-color:#f1d18d;background:#fff8e6}.tabs{display:flex;gap:8px;padding:0 18px 14px}.tab{border:0;background:transparent;padding:9px 12px;border-radius:12px;font-weight:800;color:var(--muted);cursor:pointer}.tab.active{background:#1f1b16;color:#fff}.detail{padding:0 18px 18px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;min-height:110px}.box h4{margin:0 0 10px;font-size:13px;color:#4f473f}.box p{margin:0;color:#433d36;line-height:1.58;font-size:14px}.profit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.profit-cell{background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px}.profit-cell .k{font-size:11px;color:var(--muted)}.profit-cell .v{font-size:19px;font-weight:900;margin-top:5px}.supply-line{display:grid;grid-template-columns:150px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #eee4d6}.supply-line:last-child{border-bottom:0}.supply-line b{font-size:13px}.muted{color:var(--muted)}.risk{color:var(--red)}.footer-note{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.6}.empty-img{display:flex;align-items:center;justify-content:center;background:#efe6d9;color:#8b7b69;font-size:12px;text-align:center}.search{width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:11px 12px;margin-top:12px;outline:none}.search:focus{border-color:#b6885c;box-shadow:0 0 0 4px rgba(154,91,46,.10)}
+    .queue-panel{margin-top:18px;padding:18px}.queue-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}.queue-top h2{margin:0 0 6px;font-size:18px}.queue-actions{display:flex;gap:8px;flex-wrap:wrap}.mini-btn{border:1px solid var(--line);background:#fff;border-radius:12px;padding:9px 11px;font-size:12px;font-weight:800;cursor:pointer}.mini-btn.dark{background:#1f1b16;color:#fff;border-color:#1f1b16}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:#fff}.quote-table{width:100%;border-collapse:collapse;min-width:1100px}.quote-table th,.quote-table td{border-bottom:1px solid #eee4d6;padding:11px 10px;text-align:left;vertical-align:top;font-size:12px;line-height:1.45}.quote-table th{background:#f7efe4;color:#51483f;font-size:11px;letter-spacing:.04em;text-transform:uppercase}.quote-table tr:last-child td{border-bottom:0}.status-pill{display:inline-flex;border-radius:999px;background:#fff2d2;color:#7b4b08;padding:4px 8px;font-weight:850}.remove{color:#9b2c20;cursor:pointer;font-weight:850}.toast{position:fixed;right:24px;bottom:24px;background:#1f1b16;color:#fff;padding:12px 14px;border-radius:14px;box-shadow:var(--shadow);opacity:0;transform:translateY(8px);transition:.18s ease;z-index:10}.toast.show{opacity:1;transform:translateY(0)}.hint-card{background:#fef6e8;border:1px solid #efd3a3;color:#684b1b;border-radius:16px;padding:12px 14px;font-size:13px;line-height:1.5;margin-bottom:12px}.quote-input,.quote-select{width:100%;min-width:82px;border:1px solid #e2d7c8;border-radius:10px;background:#fffaf3;padding:8px 9px;font:inherit;font-size:12px}.quote-input:focus,.quote-select:focus{outline:2px solid rgba(154,91,46,.18);border-color:var(--accent)}.calc-good{color:var(--green);font-weight:900}.calc-warn{color:var(--amber);font-weight:900}.calc-bad{color:var(--red);font-weight:900}.small-note{font-size:11px;color:var(--muted);margin-top:4px}.num-cell{font-family:var(--mono);font-weight:850}
+    @media(max-width:1050px){.layout,.decision-strip,.grid2{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.pipeline{grid-template-columns:1fr}.source-card{min-width:0}.topbar{flex-direction:column}.list{max-height:none}.profit-grid{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">COOVOAMAE PRODUCT LOOP</div>
+        <h1 class="title">产品开发闭环网页版</h1>
+        <div class="subtitle">这是固定网页版本：飞书继续作为数据源和协作底座；网页作为交互决策台，负责让“找到需求 → 验证需求 → 定义产品 → 供应链报价 → 利润测算 → 刘希决策”更流畅、更好判断。</div>
+      </div>
+      <div class="source-card">
+        <div class="label">主数据源仍然是飞书共享表格</div>
+        <a id="sheetLink" href="#" target="_blank">打开飞书产品数据总看板</a>
+        <div class="stamp" id="stamp"></div>
+      </div>
+    </header>
+    <section class="metrics" id="metrics"></section>
+    <section class="layout">
+      <aside class="panel">
+        <div class="panel-head"><h2>产品候选池</h2><div class="controls"><button class="chip active" data-filter="all">全部</button><button class="chip" data-filter="quote">可询价</button><button class="chip" data-filter="data">补数据</button><button class="chip" data-filter="pause">暂缓</button></div></div>
+        <div style="padding:0 14px 8px"><input class="search" id="search" placeholder="搜产品 / 风险 / 差异化" /></div>
+        <div class="list" id="list"></div>
+      </aside>
+      <main class="main">
+        <section class="panel hero">
+          <div class="decision-strip">
+            <div class="decision-card">
+              <div class="rank" id="selRank"></div>
+              <h3 id="selName"></h3>
+              <div class="big" id="selDecision"></div>
+              <p class="muted" id="selWhy"></p>
+              <div class="actions"><button class="action primary" onclick="advanceInquiry()">允许询价</button><button class="action" onclick="markNeedData()">继续补数据</button><button class="action" onclick="markPaused()">暂缓观察</button><button class="action" onclick="markAbandoned()">放弃</button></div>
+            </div>
+            <div class="decision-card">
+              <h3>利润快照</h3>
+              <div class="profit-grid" id="profitMini"></div>
+            </div>
+          </div>
+          <div class="pipeline" id="pipeline"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head"><h2>产品详情</h2><a id="amazonLink" target="_blank" class="chip">Amazon直达</a></div>
+          <div class="tabs"><button class="tab active" data-tab="overview">证据/定义</button><button class="tab" data-tab="profit">利润测算</button><button class="tab" data-tab="supply">供应链报价</button><button class="tab" data-tab="next">下一步动作</button></div>
+          <div class="detail" id="detail"></div>
+        </section>
+      </main>
+    </section>
+    <section class="panel queue-panel">
+      <div class="queue-top">
+        <div>
+          <h2>供应链询价任务表</h2>
+          <div class="muted">这里收集你点“允许询价”的产品，给人工供应链同事执行。当前为网页本地暂存，可复制/导出；后续可接飞书写回，形成像飞书共享表一样的固定入口。</div>
+        </div>
+        <div class="queue-actions">
+          <button class="mini-btn dark" onclick="copyQueueTSV()">复制成表格</button>
+          <button class="mini-btn" onclick="downloadQueueCSV()">导出CSV</button>
+          <button class="mini-btn" onclick="clearQueue()">清空</button>
+          <a class="mini-btn" id="queueSheetLink" target="_blank">打开飞书源表</a>
+        </div>
+      </div>
+      <div class="hint-card">刘希动作：选中产品 → 点“允许询价” → 下方自动生成询价任务行。人工供应链可先复制/导出执行；下一版可改成直接写回飞书《供应链报价队列》，让这个网页像共享表一样长期使用。</div>
+      <div class="table-wrap"><table class="quote-table" id="quoteTable"></table></div>
+    </section>
+    <div id="toast" class="toast"></div>
+    <div class="footer-note">权限边界：本网页为内部原型；点击“允许询价”只生成内部询价任务表，不会自动联系供应商、不索样、不下单、不修改 Amazon 后台。正式外联/询价/采购仍需刘希确认。</div>
+  </div>
+<script>
+const DATA = {"updated_at": "2026-05-13 10:29 CST", "sheet_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc", "items": [{"rank": 1, "product": "365nm UV 可充电手电｜宠物尿渍/霉斑检测", "level": "B 重点补证", "score": 78, "price": [29.99, 39.99], "evidence": "H10 Products 2026-05-12：市场收入约$14.11M/月、销量210,873/月、价带$25-56、P75 Review 97、竞争低；Review Insights 5个竞品/16个痛点：亮度、续航、发热、磁吸、说明书。", "diff": "365nm真UV+滤镜、LCD电量、温控降档/童锁、强磁尾盖、照距/续航实测卡；删除鸡肋RGB模式。", "risk": "电池/充电安全、UV功效宣称、侵权词与平台合规；缺ABA/POE/CPC/认证记录。", "owner": "鹰眼补ABA/POE；客户洞察补原始差评；梁毅丹仅准备L0/L1供应商关键词，不询价。", "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0C7ZYQT2L", "imageUrl": "https://m.media-amazon.com/images/I/61LAUA1YtUL._SX450_.jpg", "title": "TNATRA UV 365nm 395nm Blacklight Flashlight for UV Glue Curing,Rocks & Minerals,Pet Stain Detector,Scorpion Finder, Dry Stain, Portable,Zoomable Handheld Ultrav", "amazonUrl": "https://www.amazon.com/dp/B0C7ZYQT2L", "present": ["H10", "VOC"], "gaps": ["ABA", "POE", "CPC", "供应链", "认证"], "profit": {"price_low": 29.99, "target_price": 34.99, "price_high": 39.99, "cost_low": 9.8, "cost_high": 12.25, "landed_est": 11.03, "referral": 5.25, "fba_est": 5.2, "ad_est": 5.25, "reserve": 1.75, "profit": 6.51, "margin": 18.6, "break_even_acos": 33.6, "quote_target": 11.24, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "通过", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "先允许询价验证"}, {"rank": 2, "product": "数显扭矩扳手｜DIY/自行车/汽车维护", "level": "B 观察验证", "score": 76, "price": [59.99, 89.99], "evidence": "H10 Products 2026-05-12：市场收入约$13.26M/月、销量177,150/月、价带$54-128、P75 Review 54、竞争低。", "diff": "预校准证书、双单位显示、蜂鸣+震动提醒、收纳盒+常用扭矩卡，避开专业级高价。", "risk": "校准准确性/质保、电池、售后解释成本；缺ABA需求词和Cerebro入口词。", "owner": "H10补Cerebro关键词；鹰眼查ABA/Top clicked；财神爷按$60-90测毛利。", "cost_redline": "到岸成本红线假设$16.80-31.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0CLD2F2RF", "imageUrl": "https://m.media-amazon.com/images/I/510JoKjHJiL._SX450_.jpg", "title": "SHAHE Digital Torque Wrench 3/8 Inch drive 1.8-60N.m,Electronic Torque Wrench with Preset Value, Buzzer,Bicycle Torque Wrench Tool", "amazonUrl": "https://www.amazon.com/dp/B0CLD2F2RF", "present": ["H10"], "gaps": ["ABA"], "profit": {"price_low": 59.99, "target_price": 74.99, "price_high": 89.99, "cost_low": 21.0, "cost_high": 26.25, "landed_est": 23.62, "referral": 11.25, "fba_est": 9.5, "ad_est": 11.25, "reserve": 3.75, "profit": 15.62, "margin": 20.8, "break_even_acos": 35.8, "quote_target": 25.74, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "先允许询价验证"}, {"rank": 3, "product": "咔哒式扭矩扳手｜低电/机械款", "level": "B 观察验证", "score": 74, "price": [39.99, 69.99], "evidence": "H10 Products 2026-05-12：市场收入约$12.83M/月、销量260,082/月、价带$32-160、P75 Review 208、竞争中。", "diff": "机械款降低电池风险；主打校准证书、清晰刻度、棘轮耐久、收纳盒和应用场景套装。", "risk": "精度/质保是核心退货风险；需要排查专利结构和校准供应链。", "owner": "客户洞察抓Review负面；梁毅丹做L0/L1工厂词；财神爷设到岸成本红线。", "cost_redline": "到岸成本红线假设$11.20-24.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0CFL4LM19", "imageUrl": "https://m.media-amazon.com/images/I/710AxUodKPL._SX450_.jpg", "title": "SUERCUP 1/4-Inch Drive Click Torque Wrench, 18 PCS Bike Torque Wrench Set 3-25Nm, Dual-Direction Adjustable 72 Tooth Click Torque Wrench, Used for Bicycle Maint", "amazonUrl": "https://www.amazon.com/dp/B0CFL4LM19", "present": ["H10"], "gaps": ["供应链"], "profit": {"price_low": 39.99, "target_price": 54.99, "price_high": 69.99, "cost_low": 15.4, "cost_high": 19.25, "landed_est": 17.32, "referral": 8.25, "fba_est": 7.5, "ad_est": 8.25, "reserve": 2.75, "profit": 10.92, "margin": 19.9, "break_even_acos": 34.9, "quote_target": 18.34, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "先允许询价验证"}, {"rank": 4, "product": "园艺跪凳/座椅｜kneeler and seat", "level": "B 季节验证", "score": 73, "price": [39.99, 59.99], "evidence": "ABA 2026-05-03~09：garden kneeler and seat rank 5,081，较4月初21,583显著上升，Top3 click 31.5%；H10：收入约$10.57M/月、价带$35-60、P75 Review 492。", "diff": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。", "risk": "季节性、体积/重量、承重安全；供应链包装尺寸决定FBA可行性。", "owner": "鹰眼补POE季节曲线；梁毅丹核包装尺寸/MOQ；财神爷算FBA体积费。", "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0GRYTV88T", "imageUrl": "https://m.media-amazon.com/images/I/71SNdhy-TtL._SX450_.jpg", "title": "Saker Garden Kneeler and Seat - Gardening Bench Gardening Stool Garden Seat with 500LB Heavy Duty Round-Tube Frame, Soft Kneeling Pad Foldable Support for Elder", "amazonUrl": "https://www.amazon.com/dp/B0GRYTV88T", "present": ["ABA", "H10"], "gaps": ["POE", "供应链", "MOQ", "FBA", "包装尺寸"], "profit": {"price_low": 39.99, "target_price": 49.99, "price_high": 59.99, "cost_low": 14.0, "cost_high": 17.5, "landed_est": 15.75, "referral": 7.5, "fba_est": 6.2, "ad_est": 7.5, "reserve": 2.5, "profit": 10.54, "margin": 21.1, "break_even_acos": 36.1, "quote_target": 17.29, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "先允许询价验证"}, {"rank": 5, "product": "桌面显示器架+收纳｜办公桌面整理", "level": "B 数据缺口", "score": 70, "price": [29.99, 49.99], "evidence": "ABA 2026-05-03~09：desk accessories & workspace organizers rank 41,207，Top3 click 12.7%，需求分散、头部弱；本轮缺H10收入。", "diff": "显示器增高+抽屉/线缆槽/手机支架组合，Warm Grey/Sand Beige家居办公风格。", "risk": "材质同质化、尺寸/承重差评、木板/金属包装破损；缺H10 Xray与供应商成本。", "owner": "H10补Products/Xray；客户洞察看尺寸/承重差评；梁毅丹只做材质成本预筛。", "cost_redline": "到岸成本红线假设$8.40-17.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0C3MPDRPD", "imageUrl": "https://m.media-amazon.com/images/I/71ELt445GZL._SX450_.jpg", "title": "Adjustable Monitor Stand / Desktop Organizer sample", "amazonUrl": "https://www.amazon.com/dp/B0C3MPDRPD", "present": ["ABA"], "gaps": ["H10", "供应链", "包装尺寸"], "profit": {"price_low": 29.99, "target_price": 39.99, "price_high": 49.99, "cost_low": 11.2, "cost_high": 14.0, "landed_est": 12.6, "referral": 6.0, "fba_est": 6.2, "ad_est": 6.0, "reserve": 2.0, "profit": 7.19, "margin": 18.0, "break_even_acos": 33.0, "quote_target": 12.59, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "继续补数据/报价前验证"}, {"rank": 6, "product": "加热/干眼眼罩迭代｜无线舒适款", "level": "B 品线迭代", "score": 70, "price": [39.99, 59.99], "evidence": "ABA：heated eye mask rank 11,051，Top3 click 27.6%；dry eye mask rank 90,224，Top3 click 43.1%；SQP自有ASIN眼罩词购买率7.72%-9.63%。", "diff": "无线/定时/恒温、安全断电、亲肤面料，合规表达从“dry eye relief”降到“warm compress comfort”。", "risk": "医疗功效宣称、既有品线数据不足、自有曝光低；不作为全新品，只作为产品迭代候选。", "owner": "鹰眼补自有SQP/广告搜索词；品牌/合规确认表达边界；供应链暂不询价。", "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0FQP1V81D", "imageUrl": "https://m.media-amazon.com/images/I/71YfcU9jdoL._SX450_.jpg", "title": "Heated Eye Mask Cordless,Silk Eyes Heating Pad for Sleeping,Washable Sleeping Dry Eye Mask for Dry Eyes, Blepharitis, Sinus Migraine", "amazonUrl": "https://www.amazon.com/dp/B0FQP1V81D", "present": ["ABA", "SQP"], "gaps": ["供应链"], "profit": {"price_low": 39.99, "target_price": 49.99, "price_high": 59.99, "cost_low": 14.0, "cost_high": 17.5, "landed_est": 15.75, "referral": 7.5, "fba_est": 6.2, "ad_est": 7.5, "reserve": 2.5, "profit": 10.54, "margin": 21.1, "break_even_acos": 36.1, "quote_target": 17.29, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "继续补数据/报价前验证"}, {"rank": 7, "product": "硅胶刮刀套装｜厨房烘焙工具", "level": "C 备选", "score": 64, "price": [25.99, 34.99], "evidence": "ABA：silicone spatula rank 5,932，silicone spatula set rank 46,259，Top3 click 27.1%，非垄断；本轮缺H10收入/Review。", "diff": "一体成型耐高温、硬度分级、收纳桶/磁吸挂孔、烘焙礼品化组合。", "risk": "价格容易低于$25、食品接触合规、红海低价；必须证明套装能卖>$25。", "owner": "鹰眼补POE价格/增长；H10补Xray；财神爷验证>$25仍有40%毛利。", "cost_redline": "到岸成本红线假设$7.28-12.25（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": null, "imageUrl": null, "title": null, "amazonUrl": "https://www.amazon.com/s?k=silicone+spatula", "present": ["ABA"], "gaps": ["H10", "POE"], "profit": {"price_low": 25.99, "target_price": 30.49, "price_high": 34.99, "cost_low": 8.54, "cost_high": 10.67, "landed_est": 9.61, "referral": 4.57, "fba_est": 5.2, "ad_est": 4.57, "reserve": 1.52, "profit": 5.02, "margin": 16.5, "break_even_acos": 31.5, "quote_target": 9.14, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "暂缓观察"}, {"rank": 8, "product": "胶片相机｜复古入门拍照", "level": "C 备选/趋势", "score": 63, "price": [39.99, 69.99], "evidence": "H10 Products 2026-05-12：市场收入约$17.38M/月、销量164,074/月、价带$14-80、P75 Review 86、竞争低。", "diff": "入门礼盒、滤镜/胶卷/相册组合、复古外观、扫码教程，承接TikTok/礼品场景。", "risk": "3C/售后、成像质量预期、品牌/IP和退货；低价段拉低利润。", "owner": "客户洞察补差评；鹰眼查ABA是否趋势稳定；暂不进供应链。", "cost_redline": "到岸成本红线假设$11.20-24.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": "B0D1LRWK7Q", "imageUrl": "https://m.media-amazon.com/images/I/61hFvZmGq7L._SX450_.jpg", "title": "Kodak Funsaver Disposable Camera Bulk one time Single use 7-Pack 27exp 35mm Camera Bundled with Balveli Premium Microfiber Cloths - Bulk Kodak Disposable Film C", "amazonUrl": "https://www.amazon.com/dp/B0D1LRWK7Q", "present": ["H10"], "gaps": ["供应链"], "profit": {"price_low": 39.99, "target_price": 54.99, "price_high": 69.99, "cost_low": 15.4, "cost_high": 19.25, "landed_est": 17.32, "referral": 8.25, "fba_est": 7.5, "ad_est": 8.25, "reserve": 2.75, "profit": 10.92, "margin": 19.9, "break_even_acos": 34.9, "quote_target": 18.34, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "暂缓观察"}, {"rank": 9, "product": "礼品包装/礼品袋收纳｜节日整理", "level": "C 季节备选", "score": 62, "price": [29.99, 39.99], "evidence": "ABA：gift wrapping organizer storage rank 117,981，Top3 click 28.3%；gift bag organizer rank 300,704，Top3 46.6%；gift wrap organizer rank 553,547。", "diff": "床下/壁挂两用、硬挺隔层、标签卡、礼品袋/丝带/剪刀一体收纳。", "risk": "强季节性、收纳袋体积、部分词集中偏高；缺H10收入和Review尺寸痛点。", "owner": "鹰眼补多周季节曲线；H10补竞品收入；梁毅丹核可压缩包装。", "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": null, "imageUrl": null, "title": null, "amazonUrl": "https://www.amazon.com/s?k=gift+wrap+organizer", "present": ["ABA"], "gaps": ["H10", "包装尺寸"], "profit": {"price_low": 29.99, "target_price": 34.99, "price_high": 39.99, "cost_low": 9.8, "cost_high": 12.25, "landed_est": 11.03, "referral": 5.25, "fba_est": 5.2, "ad_est": 5.25, "reserve": 1.75, "profit": 6.51, "margin": 18.6, "break_even_acos": 33.6, "quote_target": 11.24, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "暂缓观察"}, {"rank": 10, "product": "RV小空间收纳｜房车/露营整理", "level": "C 观察", "score": 60, "price": [29.99, 49.99], "evidence": "ABA：rv storage organizer and space saver rank 235,983，Top3 click 13.5%，场景明确且头部分散；本轮缺H10/POE。", "diff": "折叠挂袋、抗震固定、窄空间模块化、露营/RV真实场景内容。", "risk": "关键词场景窄、尺寸兼容/承重、可能大件；缺销量、价格带和VOC。", "owner": "鹰眼拆POE RV细分；H10补Products；客户洞察查安装/承重差评。", "cost_redline": "到岸成本红线假设$8.40-17.50（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）", "asin": null, "imageUrl": null, "title": null, "amazonUrl": "https://www.amazon.com/s?k=rv+storage+organizer", "present": ["ABA"], "gaps": ["H10", "POE"], "profit": {"price_low": 29.99, "target_price": 39.99, "price_high": 49.99, "cost_low": 11.2, "cost_high": 14.0, "landed_est": 12.6, "referral": 6.0, "fba_est": 6.2, "ad_est": 6.0, "reserve": 2.0, "profit": 7.19, "margin": 18.0, "break_even_acos": 33.0, "quote_target": 12.59, "status": "需报价复算"}, "gate": {"demand": "通过", "voc": "补VOC", "product": "已定义", "supply": "待报价", "finance": "可试算", "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价"}, "decisionSuggestion": "暂缓观察"}]};
+let selected = 0, filter = 'all', tab = 'overview';
+const $ = s => document.querySelector(s);
+const QUEUE_KEY='coovoamae_inquiry_queue_v2';
+const STATE_KEY='coovoamae_product_action_state_v2';
+function loadJSON(key, fallback){ try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback));}catch(e){return fallback;} }
+function saveJSON(key, val){ localStorage.setItem(key, JSON.stringify(val)); }
+function getQueue(){ return loadJSON(QUEUE_KEY, []); }
+function saveQueue(q){ saveJSON(QUEUE_KEY, q); }
+function getStates(){ return loadJSON(STATE_KEY, {}); }
+function saveStates(s){ saveJSON(STATE_KEY, s); }
+function showToast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'), 1800); }
+function current(){ return DATA.items[selected]; }
+function taskFromItem(x){
+  return {
+    id:'Q-'+new Date().toISOString().replace(/[-:.TZ]/g,'').slice(0,14)+'-'+x.rank,
+    createdAt:new Date().toLocaleString('zh-CN',{hour12:false}),
+    priority:x.rank<=4?'P1':'P2', product:x.product, rank:x.rank,
+    targetPrice:money(x.profit.target_price), targetPriceNum:Number(x.profit.target_price||0),
+    targetLanded:'≤'+money(x.profit.quote_target)+' / 件', targetLandedNum:Number(x.profit.quote_target||0),
+    supplier:'', quoteExw:'', landedCost:'', fbaFee:x.profit.fba_est||'', referralRate:15, adRate:15, reserveRate:5, quoteUpdated:'',
+    spec:x.diff||'', questions:'FOB/EXW价；MOQ；样品费；交期；包装尺寸/重量；认证；可改规格；质检点',
+    acceptance:'至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或说明做不到',
+    owner:'供应链开发 → 财神爷', status:'待人工询价', source:'网页决策台'
+  };
+}
+function advanceInquiry(){
+  const x=current(); const q=getQueue();
+  if(!q.some(t=>t.product===x.product)){ q.push(taskFromItem(x)); saveQueue(q); }
+  const states=getStates(); states[x.product]='已进入询价任务表'; saveStates(states);
+  tab='supply'; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab==='supply'));
+  render(); showToast('已加入供应链询价任务表');
+}
+function markNeedData(){ const x=current(); const states=getStates(); states[x.product]='继续补数据'; saveStates(states); render(); showToast('已标记继续补数据'); }
+function markPaused(){ const x=current(); const states=getStates(); states[x.product]='暂缓观察'; saveStates(states); render(); showToast('已标记暂缓观察'); }
+function markAbandoned(){ const x=current(); const states=getStates(); states[x.product]='放弃'; saveStates(states); render(); showToast('已标记放弃'); }
+function removeTask(id){ saveQueue(getQueue().filter(t=>t.id!==id)); renderQueue(); showToast('已移除询价任务'); }
+function clearQueue(){ if(confirm('清空本地询价任务表？')){ saveQueue([]); renderQueue(); showToast('已清空'); } }
+function toNum(v){ if(typeof v==='number') return v; const n=parseFloat(String(v||'').replace(/[^0-9.\-]/g,'')); return Number.isFinite(n)?n:0; }
+function escapeAttr(v){ return String(v||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+function escapeHtml(v){ return String(v||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function normalizeTask(t){
+  const item=DATA.items.find(x=>x.product===t.product)||{}; const p=item.profit||{};
+  return Object.assign({
+    targetPriceNum:toNum(t.targetPrice)||Number(p.target_price||0), targetLandedNum:toNum(t.targetLanded)||Number(p.quote_target||0),
+    supplier:'', quoteExw:'', landedCost:'', fbaFee:p.fba_est||'', referralRate:15, adRate:15, reserveRate:5, quoteUpdated:'',
+    status:'待人工询价', owner:'供应链开发 → 财神爷', source:'网页决策台'
+  }, t);
+}
+function queueRows(){ const q=getQueue().map(normalizeTask); saveQueue(q); return q; }
+function calcTask(t){
+  t=normalizeTask(t); const price=toNum(t.targetPriceNum)||toNum(t.targetPrice); const landed=toNum(t.landedCost); const fba=toNum(t.fbaFee);
+  const referral=price*toNum(t.referralRate)/100; const ad=price*toNum(t.adRate)/100; const reserve=price*toNum(t.reserveRate)/100;
+  const grossBeforeAd=price-landed-fba-referral-reserve; const profit=grossBeforeAd-ad; const margin=price?profit/price*100:0; const beAcos=price?grossBeforeAd/price*100:0;
+  let conclusion='待报价'; let cls='calc-warn';
+  if(!landed){ conclusion='待供应商报价'; cls='calc-warn'; }
+  else if(margin>=18 && (!t.targetLandedNum || landed<=t.targetLandedNum)){ conclusion='可提交财神爷复算'; cls='calc-good'; }
+  else if(margin>=10){ conclusion='需压价/优化包装'; cls='calc-warn'; }
+  else { conclusion='暂不建议推进'; cls='calc-bad'; }
+  return {price, landed, fba, referral, ad, reserve, profit, margin, beAcos, conclusion, cls};
+}
+function updateTaskField(id, field, val){
+  const q=getQueue().map(normalizeTask); const t=q.find(x=>x.id===id); if(!t) return;
+  t[field]=val; if(['supplier','quoteExw','landedCost','fbaFee','referralRate','adRate','reserveRate'].includes(field)){ t.quoteUpdated=new Date().toLocaleString('zh-CN',{hour12:false}); }
+  saveQueue(q); renderQueue(); showToast('已本地保存并复算');
+}
+function tsvForQueue(){
+  const headers=['任务ID','创建时间','优先级','产品方向','目标售价','目标到岸成本','供应商/工厂','工厂报价','实际到岸成本','FBA费','佣金%','广告%','售后损耗%','复算净利','复算净利率','盈亏平衡ACoS','复算结论','报价更新时间','询价规格草案','必须问供应商','报价验收标准','负责人','状态','来源'];
+  const rows=queueRows().map(t=>{const c=calcTask(t); return [t.id,t.createdAt,t.priority,t.product,t.targetPrice,t.targetLanded,t.supplier,t.quoteExw,t.landedCost,t.fbaFee,t.referralRate,t.adRate,t.reserveRate,money(c.profit),c.margin.toFixed(1)+'%',c.beAcos.toFixed(1)+'%',c.conclusion,t.quoteUpdated,t.spec,t.questions,t.acceptance,t.owner,t.status,t.source];});
+  return [headers,...rows].map(r=>r.map(v=>String(v||'').split('\t').join(' ').split('\n').join(' ')).join('\t')).join('\n');
+}
+async function copyQueueTSV(){ const text=tsvForQueue(); if(!queueRows().length){showToast('询价任务表为空');return;} try{await navigator.clipboard.writeText(text);showToast('已复制，可粘贴到飞书表格');}catch(e){showToast('复制失败，请用导出CSV');} }
+function downloadQueueCSV(){
+  if(!queueRows().length){showToast('询价任务表为空');return;}
+  const csv=tsvForQueue().split('\n').map(line=>line.split('\t').map(v=>'"'+v.replace(/"/g,'""')+'"').join(',')).join('\n');
+  const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}); const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download='COOVOAMAE_供应链询价任务表.csv'; a.click(); URL.revokeObjectURL(a.href);
+}
+function renderQueue(){
+  const q=queueRows(); const table=$('#quoteTable'); if(!table) return;
+  if(!q.length){ table.innerHTML='<tbody><tr><td style="padding:22px;color:#756f66">暂无询价任务。选中产品后点击上方“允许询价”，这里会自动生成给人工供应链执行的表格行。</td></tr></tbody>'; return; }
+  const statusOptions=['待人工询价','已发询价','已收到报价','待财神爷复算','可提交刘希','暂缓/放弃'];
+  table.innerHTML='<thead><tr>'+['任务/产品','目标','供应商/报价录入','费用假设','自动复算','状态/操作'].map(h=>`<th>${h}</th>`).join('')+'</tr></thead><tbody>'+q.map(t=>{ const c=calcTask(t); const sid=escapeAttr(t.id); return `<tr>
+    <td><b>${escapeHtml(t.product)}</b><br><span class="muted">${escapeHtml(t.id)}｜${escapeHtml(t.createdAt)}</span><div class="small-note">${escapeHtml(t.spec)}</div></td>
+    <td><div>目标售价 <span class="num-cell">${escapeHtml(t.targetPrice)}</span></div><div>到岸红线 <span class="num-cell">${escapeHtml(t.targetLanded)}</span></div></td>
+    <td><input class="quote-input" placeholder="供应商/工厂" value="${escapeAttr(t.supplier)}" onchange="updateTaskField('${sid}','supplier',this.value)"><input class="quote-input" placeholder="工厂报价 USD" value="${escapeAttr(t.quoteExw)}" onchange="updateTaskField('${sid}','quoteExw',this.value)" style="margin-top:6px"><input class="quote-input" placeholder="实际到岸成本 USD/件" value="${escapeAttr(t.landedCost)}" onchange="updateTaskField('${sid}','landedCost',this.value)" style="margin-top:6px"></td>
+    <td><input class="quote-input" placeholder="FBA费" value="${escapeAttr(t.fbaFee)}" onchange="updateTaskField('${sid}','fbaFee',this.value)"><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:6px"><input class="quote-input" title="佣金%" value="${escapeAttr(t.referralRate)}" onchange="updateTaskField('${sid}','referralRate',this.value)"><input class="quote-input" title="广告%" value="${escapeAttr(t.adRate)}" onchange="updateTaskField('${sid}','adRate',this.value)"><input class="quote-input" title="损耗%" value="${escapeAttr(t.reserveRate)}" onchange="updateTaskField('${sid}','reserveRate',this.value)"></div><div class="small-note">佣金% / 广告% / 损耗%</div></td>
+    <td><div>净利 <span class="num-cell ${c.cls}">${money(c.profit)}</span></div><div>净利率 <span class="num-cell ${c.cls}">${c.margin.toFixed(1)}%</span></div><div>盈亏ACoS <span class="num-cell">${c.beAcos.toFixed(1)}%</span></div><div class="${c.cls}">${c.conclusion}</div><div class="small-note">${t.quoteUpdated?('更新：'+escapeHtml(t.quoteUpdated)):'填到岸成本后自动复算'}</div></td>
+    <td><select class="quote-select" onchange="updateTaskField('${sid}','status',this.value)">${statusOptions.map(s=>`<option ${t.status===s?'selected':''}>${s}</option>`).join('')}</select><div style="margin-top:8px"><span class="remove" onclick="removeTask('${sid}')">移除</span></div></td>
+  </tr>`; }).join('')+'</tbody>';
+}
+
+function money(v){ return typeof v==='number' ? '$'+v.toFixed(2) : v; }
+function clsForItem(x){ if(x.decisionSuggestion.includes('询价')) return 'quote'; if(x.decisionSuggestion.includes('补数据')) return 'data'; return 'pause'; }
+function statusClass(s){ return /通过|已定义|可试算/.test(s) ? 'ok' : 'warn'; }
+function imgHtml(x){ return x.imageUrl ? `<img class="thumb" src="${x.imageUrl}" onerror="this.outerHTML='<div class=&quot;thumb empty-img&quot;>待补图</div>'">` : `<div class="thumb empty-img">待补图</div>`; }
+function renderMetrics(){
+  const quote = DATA.items.filter(x=>clsForItem(x)==='quote').length;
+  const avgMargin = (DATA.items.reduce((s,x)=>s+(x.profit.margin||0),0)/DATA.items.length).toFixed(1)+'%';
+  const gaps = DATA.items.reduce((s,x)=>s+(x.gaps||[]).length,0);
+  $('#metrics').innerHTML = [
+    ['10','候选产品'],[quote,'建议先询价验证'],[avgMargin,'平均估算净利率'],[gaps,'待闭环缺口'],['0','已执行外联/采购']
+  ].map(([n,t])=>`<div class="metric"><div class="num">${n}</div><div class="txt">${t}</div></div>`).join('');
+}
+function renderList(){
+  const q = $('#search').value.trim().toLowerCase();
+  const rows = DATA.items.filter(x => (filter==='all'||clsForItem(x)===filter) && JSON.stringify(x).toLowerCase().includes(q));
+  $('#list').innerHTML = rows.map(x=>`<div class="item ${DATA.items.indexOf(x)===selected?'active':''}" onclick="selected=${DATA.items.indexOf(x)};render()">${imgHtml(x)}<div><div class="rank">#${x.rank} · ${x.level} · ${x.score}分</div><div class="name">${x.product}</div><div class="tags"><span class="tag ${clsForItem(x)==='quote'?'green':clsForItem(x)==='data'?'amber':''}">${x.decisionSuggestion}</span><span class="tag">净利率 ${x.profit.margin}%</span><span class="tag green">${getStates()[x.product]||'未动作'}</span></div></div></div>`).join('') || '<div class="muted" style="padding:18px">没有匹配结果</div>';
+}
+function renderHero(x){
+  $('#selRank').textContent = `#${x.rank} · ${x.level} · ${x.score}分`;
+  $('#selName').textContent = x.product;
+  $('#selDecision').textContent = x.decisionSuggestion;
+  $('#selWhy').textContent = `${x.gate.demand} / ${x.gate.product} / ${x.gate.supply} / 估算净利率 ${x.profit.margin}% / 当前动作：${getStates()[x.product]||'未动作'}`;
+  $('#profitMini').innerHTML = [ ['目标售价', money(x.profit.target_price)], ['估算净利', money(x.profit.profit)], ['净利率', x.profit.margin+'%'], ['盈亏ACoS', x.profit.break_even_acos+'%'] ].map(([k,v])=>`<div class="profit-cell"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+  const gates = [['Gate1 需求',x.gate.demand],['Gate2 VOC',x.gate.voc],['Gate3 产品定义',x.gate.product],['Gate4 供应链',x.gate.supply],['Gate5 利润',x.gate.finance]];
+  $('#pipeline').innerHTML = gates.map(([k,v])=>`<div class="gate ${statusClass(v)}"><div class="glabel">${k}</div><div class="gstatus">${v}</div></div>`).join('');
+  $('#amazonLink').href = x.amazonUrl || '#';
+}
+function detailOverview(x){return `<div class="grid2"><div class="box"><h4>需求证据</h4><p>${x.evidence||'待补'}</p></div><div class="box"><h4>我们的产品定义 / 差异化</h4><p>${x.diff||'待补'}</p></div><div class="box"><h4>已证来源</h4><p>${(x.present||[]).join(' + ')||'未显性标注'}</p></div><div class="box"><h4>主要风险</h4><p class="risk">${x.risk||'待补'}</p></div></div>`}
+function detailProfit(x){const p=x.profit; const cells=[['目标售价',money(p.target_price)],['到岸成本红线',`${money(p.cost_low)}-${money(p.cost_high)}`],['当前估算成本',money(p.landed_est)],['Amazon佣金15%',money(p.referral)],['FBA占位',money(p.fba_est)],['广告占位15%',money(p.ad_est)],['售后/损耗5%',money(p.reserve)],['估算单件净利',money(p.profit)],['估算净利率',p.margin+'%'],['盈亏平衡ACoS',p.break_even_acos+'%'],['报价目标',`≤${money(p.quote_target)} 到岸/件`],['状态',p.status]]; return `<div class="profit-grid">${cells.map(([k,v])=>`<div class="profit-cell"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')}</div>`}
+function detailSupply(x){return `<div class="box"><div class="supply-line"><b>询价规格草案</b><span>${x.diff}</span></div><div class="supply-line"><b>目标到岸成本</b><span>≤${money(x.profit.quote_target)} / 件</span></div><div class="supply-line"><b>必须问供应商</b><span>FOB/EXW价、MOQ、样品费、交期、包装尺寸/重量、认证、可改规格、质检点</span></div><div class="supply-line"><b>报价验收标准</b><span>至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或说明做不到</span></div><div class="supply-line"><b>当前状态</b><span>待刘希确认是否允许外联询价</span></div></div>`}
+function detailNext(x){return `<div class="grid2"><div class="box"><h4>你现在怎么动作</h4><p><b>${x.decisionSuggestion}</b><br>建议在飞书「刘希决策台」对应行选择：允许询价 / 继续补数据 / 暂缓观察 / 放弃。</p></div><div class="box"><h4>触发下一棒</h4><p>${x.decisionSuggestion.includes('询价')?'供应链开发拿2家报价 → 财神爷复算 → 回到产品决策驾驶舱':'鹰眼/H10/VOC补缺口 → 猫头鹰修产品定义 → 回到开发闭环'}</p></div><div class="box"><h4>当前缺口</h4><p>${(x.gaps||[]).join('、')||'无显性缺口，但仍需报价复算'}</p></div><div class="box"><h4>负责人线索</h4><p>${x.owner||'总管家分派'}</p></div></div>`}
+function renderDetail(x){ $('#detail').innerHTML = tab==='overview'?detailOverview(x):tab==='profit'?detailProfit(x):tab==='supply'?detailSupply(x):detailNext(x); }
+function render(){ const x=DATA.items[selected]; $('#sheetLink').href=DATA.sheet_url; const ql=$('#queueSheetLink'); if(ql) ql.href=DATA.sheet_url; $('#stamp').textContent = `数据更新时间：${DATA.updated_at||'见飞书'}｜网页版交互原型`; renderMetrics(); renderList(); renderHero(x); renderDetail(x); renderQueue(); }
+document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.toggle('active',x===b));renderList();});
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{tab=b.dataset.tab;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));renderDetail(DATA.items[selected]);});
+$('#search').addEventListener('input', renderList);
+render();
+</script>
+</body>
+</html>
