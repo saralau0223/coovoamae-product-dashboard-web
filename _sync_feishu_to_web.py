@@ -30,6 +30,7 @@ MAIN_TABS = [
     "Top4H10补证",
     "Top4VOC补证",
     "Top4官方需求补证",
+    "补证任务队列",
 ]
 SUP_TABS = ["需要找供应商的产品表", "采样记录表"]
 
@@ -210,6 +211,8 @@ def main() -> None:
     for it in items:
         it.pop("supplyToken", None)
         it.pop("supplyKey", None)
+        # Rebuilt on every sync from 飞书《补证任务队列》F:J to avoid stale rows.
+        it.pop("evidence_tasks", None)
 
     tok = token()
     h = headers(tok)
@@ -343,6 +346,39 @@ def main() -> None:
             if grouped.get(it.get("product", "")):
                 it[field] = grouped[it["product"]][:6]
 
+    # Supplement task queue status from 飞书《补证任务队列》F:J.
+    # Only expose public status/result/judgement/source/update fields; no credentials or write tokens.
+    evidence_queue_rows: List[Dict[str, str]] = []
+    evidence_queue_latest = ""
+    for d in rows_by_header(fetched.get("主表/补证任务队列", []), 1):
+        product = d.get("产品方向") or d.get("产品") or ""
+        gap = d.get("补什么") or ""
+        if not product or not gap:
+            continue
+        public = clean_public_dict(d, ["补什么", "状态", "最新补证结果", "闭环判断", "来源任务/证据", "更新时间"])
+        if not public:
+            continue
+        # Keep product name only for global summary matching/display.
+        row = {"产品方向": product, **public}
+        evidence_queue_rows.append(row)
+        if row.get("更新时间") and row["更新时间"] > evidence_queue_latest:
+            evidence_queue_latest = row["更新时间"]
+        it = find_item(items, product)
+        if it:
+            it.setdefault("evidence_tasks", []).append(public)
+
+    def count_queue_status(pattern: str) -> int:
+        return sum(1 for r in evidence_queue_rows if pattern in (r.get("状态", "") + r.get("闭环判断", "")))
+
+    evidence_queue_summary = {
+        "total": len(evidence_queue_rows),
+        "partial": count_queue_status("部分补证"),
+        "unclosed": count_queue_status("未闭环"),
+        "manual_verify": count_queue_status("待人工验证"),
+        "not_updated": count_queue_status("未更新"),
+        "latest_update": evidence_queue_latest,
+    }
+
     # Human supply simple table.
     for d in rows_by_header(fetched.get("人工简表/需要找供应商的产品表", []), 1):
         if not d.get("产品ID") or not d.get("需要找供应商的产品"):
@@ -371,6 +407,10 @@ def main() -> None:
         "web_synced_at": now,
         "sheet_url": MAIN_URL,
         "human_supply_url": SUP_URL,
+        "evidence_queue_url": MAIN_URL,
+        "evidence_queue_updated_at": evidence_queue_latest,
+        "evidence_queue_summary": evidence_queue_summary,
+        "evidence_queue_rows": evidence_queue_rows[:80],
         "sync_scope": {
             "checked_main_tabs": MAIN_TABS,
             "checked_human_tabs": SUP_TABS,
@@ -414,6 +454,11 @@ def main() -> None:
         "items_with_deep_patrol": sum(1 for x in items if x.get("supply_deep")),
         "items_with_formal_quotes": sum(1 for x in items if x.get("formal_quotes")),
         "items_with_samples": sum(1 for x in items if x.get("sample_followups") or x.get("human_samples")),
+        "evidence_queue_total": evidence_queue_summary["total"],
+        "evidence_queue_partial": evidence_queue_summary["partial"],
+        "evidence_queue_unclosed": evidence_queue_summary["unclosed"],
+        "evidence_queue_manual_verify": evidence_queue_summary["manual_verify"],
+        "evidence_queue_latest_update": evidence_queue_latest,
     }
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
