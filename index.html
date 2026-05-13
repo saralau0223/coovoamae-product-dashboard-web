@@ -4,6 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>COOVOAMAE 产品开发闭环网页版</title>
   <style>
     :root{
@@ -90,6 +93,7 @@ let selected = 0, filter = 'all', tab = 'overview';
 const $ = s => document.querySelector(s);
 const QUEUE_KEY='coovoamae_inquiry_queue_v2';
 const STATE_KEY='coovoamae_product_action_state_v2';
+const PAGE_VERSION='2026-05-13 14:10 CST｜详细分析版';
 function loadJSON(key, fallback){ try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback));}catch(e){return fallback;} }
 function saveJSON(key, val){ localStorage.setItem(key, JSON.stringify(val)); }
 function getQueue(){ return loadJSON(QUEUE_KEY, []); }
@@ -236,7 +240,7 @@ function detailProfit(x){const p=x.profit; const cells=[['目标售价',money(p.
 function detailSupply(x){return `<div class="analysis-stack"><div class="box"><div class="supply-line"><b>询价规格草案</b><span>${x.diff}</span></div><div class="supply-line"><b>目标到岸成本</b><span>≤${money(x.profit.quote_target)} / 件；报价高于红线时优先让供应商拆包装/材质/配件成本。</span></div><div class="supply-line"><b>必须问供应商</b><span>FOB/EXW价、MOQ、样品费、交期、包装尺寸/重量、认证、可改规格、质检点、是否可做中性包装/说明书。</span></div><div class="supply-line"><b>报价验收标准</b><span>至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或明确说明做不到。</span></div><div class="supply-line"><b>当前状态</b><span>待刘希确认是否允许外联询价；网页点击“允许询价”只生成内部任务表，不会自动联系供应商。</span></div></div><div class="analysis-card"><h4>供应链同事拿到后应该怎么问</h4><p>先问标准品是否已有，再问我们定义里的关键差异化能否改；报价必须拆清楚产品单价、包装、配件、认证、样品费、交期和 MOQ。拿到报价后不要直接判断做不做，先把到岸成本、FBA、包装尺寸重量交给财神爷复算。</p></div></div>`}
 function detailNext(x){return `<div class="grid2"><div class="box"><h4>你现在怎么动作</h4><p><b>${x.decisionSuggestion}</b><br>建议在飞书「刘希决策台」对应行选择：允许询价 / 继续补数据 / 暂缓观察 / 放弃。</p></div><div class="box"><h4>触发下一棒</h4><p>${x.decisionSuggestion.includes('询价')?'供应链开发拿2家报价 → 财神爷复算 → 回到产品决策驾驶舱':'鹰眼/H10/VOC补缺口 → 猫头鹰修产品定义 → 回到开发闭环'}</p></div><div class="box"><h4>当前缺口</h4><p>${(x.gaps||[]).join('、')||'无显性缺口，但仍需报价复算'}</p></div><div class="box"><h4>负责人线索</h4><p>${x.owner||'总管家分派'}</p></div></div>`}
 function renderDetail(x){ $('#detail').innerHTML = tab==='overview'?detailOverview(x):tab==='profit'?detailProfit(x):tab==='supply'?detailSupply(x):detailNext(x); }
-function render(){ const x=DATA.items[selected]; $('#sheetLink').href=DATA.sheet_url; const ql=$('#queueSheetLink'); if(ql) ql.href=DATA.sheet_url; $('#stamp').textContent = `数据更新时间：${DATA.updated_at||'见飞书'}｜网页版交互原型`; renderMetrics(); renderList(); renderHero(x); renderDetail(x); renderQueue(); }
+function render(){ const x=DATA.items[selected]; $('#sheetLink').href=DATA.sheet_url; const ql=$('#queueSheetLink'); if(ql) ql.href=DATA.sheet_url; $('#stamp').textContent = `数据源：${DATA.updated_at||'见飞书'}｜页面版本：${PAGE_VERSION}`; renderMetrics(); renderList(); renderHero(x); renderDetail(x); renderQueue(); }
 document.querySelectorAll('.chip[data-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.filter;document.querySelectorAll('.chip[data-filter]').forEach(x=>x.classList.toggle('active',x===b));renderList();});
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{tab=b.dataset.tab;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));renderDetail(DATA.items[selected]);});
 $('#search').addEventListener('input', renderList);
