@@ -14,3 +14,8 @@
 ## 权限边界
 网页操作不会自动联系供应商、不索样、不下单、不改 Amazon 后台。
 正式接入飞书写回或公网/团队访问部署前，需要刘希确认。
+
+## 部署状态
+- 已创建 GitHub 私有仓库备份：saralau0223/coovoamae-product-dashboard-web
+- 当前账号不支持私有仓库 GitHub Pages，因此不能直接生成“仅团队可访问”的 GitHub Pages 链接。
+- 若改为公开 GitHub Pages，会暴露内部产品机会/成本/报价字段，需刘希单独确认后才能执行。
