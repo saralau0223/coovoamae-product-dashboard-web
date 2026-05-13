@@ -1,0 +1,1 @@
+{"name":"coovoamae-product-dashboard-web","version":"0.2.0","private":true,"description":"COOVOAMAE product dashboard with Feishu login protection","scripts":{"dev":"vercel dev","start":"vercel dev"},"engines":{"node":"22.x"},"dependencies":{}}
