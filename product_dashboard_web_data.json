@@ -1,4 +1,492 @@
 {
+  "discovery_result": {
+    "candidate_pool_rows": [
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "园艺跪凳/座椅",
+        "优先级": "P0",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top1；是｜但先设体积费和承重测试红线",
+        "来源": "方舟寻找需求收口",
+        "状态": "已收口｜待开发新需求/补证",
+        "补充说明": "寻找需求收口｜搜索需求和低星痛点同时成立，切入点不是普通跪凳，而是老人/膝背友好的安全起身园艺工作座椅。｜关键证据：ABA 2026-05-03周 rank 5081，Top3点击31.54%/转化22.06%；VOC P0指向螺丝短、管材弯、老人起身安全。｜需补证：H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。",
+        "请求ID": "WEB-A4D43BC96C39-R01"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "手摇/手动酸面包切片器",
+        "优先级": "P0",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top2；是｜优先做产品定义草案",
+        "来源": "方舟寻找需求收口",
+        "状态": "已收口｜待开发新需求/补证",
+        "补充说明": "寻找需求收口｜酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。｜关键证据：H10 BB词：manual bread slicer SV4799/Rev$92,590/Price$55.78；sourdough bread slicer SV14193/Rev$91,804/Price$42.6；样本ASIN最高Rev$281,056；VOC sourdough kit指出新手误解和配件价值。｜需补证：ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。",
+        "请求ID": "WEB-A4D43BC96C39-R02"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "口袋孔夹具套装",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top3；是｜IP和品牌集中不过则淘汰",
+        "来源": "方舟寻找需求收口",
+        "状态": "已收口｜待开发新需求/补证",
+        "补充说明": "寻找需求收口｜DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。｜关键证据：H10：pocket hole jig SV45,394，Rev$41,522，Price$50.33；pocket hole jig kit Rev$43,604；样本Kreg/TBVHOMM/VEVOR显示$26.99-$56.9价带。｜需补证：ABA集中度、Kreg专利/IP、Review workbook、是否能压到≤2lb、供应商精度/QC。",
+        "请求ID": "WEB-A4D43BC96C39-R03"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "数显/咔哒式扭矩扳手",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top4；暂不正式定义｜先补需求和供应链校准能力",
+        "来源": "方舟寻找需求收口",
+        "状态": "已收口｜先补证后定义",
+        "补充说明": "寻找需求收口｜用户真正买的是“可信精度”，不是扳手本身；如果能用校准证书和误握提示建立信任，有高客单空间。｜关键证据：VOC P0/P1：精度不信任、误握读数偏差、刻度难读、到货像二手；当前缺H10/ABA需求验证。｜需补证：H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。",
+        "请求ID": "WEB-A4D43BC96C39-R04"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "刹车油排气/真空泵套装",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top5；否｜作为工具类备选补证",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜汽车DIY工具有>$30需求，低评分样本说明漏气/适配/说明书痛点可产品化。｜关键证据：H10：brake bleeder kit SV34,418/Rev$26,360/Price$34.13；样本BILITOOLS Rev$55,464、DURATECH rating3.8、Beefire rating3.3。｜需补证：VOC低星原文、汽车液体兼容性、退货/客服成本、包装重量>2lb风险。",
+        "请求ID": "WEB-A4D43BC96C39-R05"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "365nm UV可充电手电",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top6；否｜仅保留观察/供应链快筛",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜宠物尿渍/霉斑检测有痛点，但功效、安全和电池认证决定是否能碰。｜关键证据：VOC P0：波段不清、滤镜缺失、续航衰减、猫尿识别失败。｜需补证：ABA/POE/H10、UV安全合规、电池认证、清洁剂荧光误判、侵权词。",
+        "请求ID": "WEB-A4D43BC96C39-R06"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "番茄支架/植物支撑",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top7；否｜体积费不过直接淘汰",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜园艺种植支撑需求大，但当前形态偏长偏重，只有可压缩模块化才可能进入小批量测试。｜关键证据：H10 tomato cage SV144,751；样本Legigo Rev$283,259、K-Brands Rev$95,564；VOC指出连接件、缺件、强风不稳。｜需补证：季节曲线、压缩包装、FBA体积费、塑料老化、缺件率。",
+        "请求ID": "WEB-A4D43BC96C39-R07"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "浇灌定时器",
+        "优先级": "P1",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top8；否｜先补退货和可靠性",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜自动浇水能解决每日重复劳动，但漏水风险把它从小件机会拉成高责任产品。｜关键证据：VOC P1：漏水、季节后失效、塑料接头不安心。｜需补证：ABA/H10/Xray、户外老化、漏水财产风险、售后成本。",
+        "请求ID": "WEB-A4D43BC96C39-R08"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "礼品包装/礼品袋收纳",
+        "优先级": "P2",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top9；否｜Q4前再复盘",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜节后家庭整理需求存在，但强Q4季节和软袋低价感限制常年新品价值。｜关键证据：ABA gift wrap organizer最新rank 553,547；VOC P2指向flimsy、卷纸不乱滚的明确场景。｜需补证：Q4季节曲线、压缩包装、>$25毛利、拉链寿命。",
+        "请求ID": "WEB-A4D43BC96C39-R09"
+      },
+      {
+        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+        "产品/关键词/链接": "加热/干眼眼罩迭代",
+        "优先级": "P2",
+        "创建方式": "寻找需求收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟处理记录": "父任务t_f629f09a；收口任务t_c78869ca；Top10；否｜转现有产品线迭代Brief",
+        "来源": "方舟寻找需求收口",
+        "状态": "观察池｜暂不进入产品定义",
+        "补充说明": "寻找需求收口｜现有wellness线可迭代无线低束缚热敷眼罩，但不适合作为全新品类A类推荐。｜关键证据：ABA heated eye mask rank 11,051，Top3点击27.58%/转化18.34%；SQP heated eye masks for dry eyes volume 2,804/purchase rate 9.63%；VOC指出头带和舒适痛点。｜需补证：FSA/HSA/医疗宣称合规、热安全、退货、是否蚕食现有SKU、目标ASP需>$25。",
+        "请求ID": "WEB-A4D43BC96C39-R10"
+      }
+    ],
+    "conclusion": "暂无A类直接推进；Top10入候选池；Top4进入补证/产品定义门",
+    "discovery_queue_rows": [
+      {
+        "H10任务ID": "t_24e5640c",
+        "VOC任务ID": "t_df79bacc",
+        "优先级": "P2",
+        "寻找范围/主题": "全品类机会扫描",
+        "当前阶段": "已收口",
+        "提交时间": "2026-05-13 22:48 CST",
+        "方舟汇总任务ID": "t_c78869ca",
+        "来源": "网页看板-寻找需求按钮",
+        "状态": "Top10已写入候选池；Top4待补证/产品定义",
+        "猫头鹰任务ID": "t_f629f09a",
+        "补充约束": "无",
+        "鹰眼任务ID": "t_0f47de71"
+      }
+    ],
+    "followup_summaries": [
+      {
+        "来源任务": "t_3b199d67",
+        "模块": "产品定义草案",
+        "结果": "酸面包切片器与园艺跪凳各完成1页定义草案；园艺跪凳已设置FBA包装/体积红线和承重测试红线。",
+        "缺口/下一步": "仍需ABA/POE/H10 Review、供应商MOQ/包装/食品接触或承重测试验证。"
+      },
+      {
+        "来源任务": "t_e4d138df",
+        "模块": "H10 / Black Box / Cerebro",
+        "结果": "Top4均已补Black Box Keywords、Black Box Products Top20 proxy、Cerebro聚合；酸面包最接近小批量定义，园艺跪凳需求最大但先过体积/承重，口袋孔先过IP/精度，数显扭矩暂缓。",
+        "缺口/下一步": "缺真实Xray导出和Review workbook，不能冒充完整Xray/低星原文证据。"
+      },
+      {
+        "来源任务": "t_7c1ef10d",
+        "模块": "官方需求 ABA / POE / SQP / CPC",
+        "结果": "酸面包切片器和园艺跪凳支持继续产品定义但不能直立A类；口袋孔夹具需求成立但Kreg/IP/品牌集中需先过闸门；扭矩扳手需拆规格并验证校准/售后。",
+        "缺口/下一步": "POE仅关键词缓存命中、无详情截图/导出；SQP Top4匹配0行；CPC未取得。"
+      },
+      {
+        "来源任务": "t_c5642404",
+        "模块": "供应链只读快筛",
+        "结果": "酸面包手摇目标形态公开MOQ/成本偏高；园艺跪凳供应成熟但FBA体积费与承重测试是硬门。",
+        "缺口/下一步": "1688/Alibaba触发风控未绕过；后续需人工登录态核MOQ、包装、食品接触或承重测试。"
+      }
+    ],
+    "next_steps": [
+      {
+        "一句话机会": "",
+        "产品方向": "酸面包切片器+园艺跪凳",
+        "优先级": "产品开发",
+        "候选池状态": "出1页产品定义草案；园艺跪凳先设体积费/包装尺寸红线",
+        "关键证据": "",
+        "差异化假设": "",
+        "排名": "P0",
+        "是否进入产品定义": "",
+        "目标用户": "",
+        "请求ID": "下一步",
+        "需要补证": ""
+      },
+      {
+        "一句话机会": "",
+        "产品方向": "酸面包/口袋孔/扭矩/园艺跪凳",
+        "优先级": "鹰眼/H10",
+        "候选池状态": "补ABA/POE/Xray/Review workbook/季节曲线",
+        "关键证据": "",
+        "差异化假设": "",
+        "排名": "P0",
+        "是否进入产品定义": "",
+        "目标用户": "",
+        "请求ID": "下一步",
+        "需要补证": ""
+      },
+      {
+        "一句话机会": "",
+        "产品方向": "酸面包切片器/园艺跪凳",
+        "优先级": "供应链",
+        "候选池状态": "只读快筛MOQ、材料、包装、承重；不外联",
+        "关键证据": "",
+        "差异化假设": "",
+        "排名": "P1",
+        "是否进入产品定义": "",
+        "目标用户": "",
+        "请求ID": "下一步",
+        "需要补证": ""
+      }
+    ],
+    "request_id": "WEB-A4D43BC96C39",
+    "top10": [
+      {
+        "一句话机会": "搜索需求和低星痛点同时成立，切入点不是普通跪凳，而是老人/膝背友好的安全起身园艺工作座椅。",
+        "产品方向": "园艺跪凳/座椅",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "ABA 2026-05-03周 rank 5081，Top3点击31.54%/转化22.06%；VOC P0指向螺丝短、管材弯、老人起身安全。",
+        "差异化假设": "500lb静态/动态承重证据、加厚管壁、长螺丝+锁紧螺母+备件包、半预装、厚跪垫和可拆工具袋。",
+        "排名": "1",
+        "是否进入产品定义": "是｜但先设体积费和承重测试红线",
+        "目标用户": "50+家庭园艺用户、膝盖/腰背不适但仍要户外种植的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。"
+      },
+      {
+        "一句话机会": "酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。",
+        "产品方向": "手摇/手动酸面包切片器",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10 BB词：manual bread slicer SV4799/Rev$92,590/Price$55.78；sourdough bread slicer SV14193/Rev$91,804/Price$42.6；样本ASIN最高Rev$281,056；VOC sourdough kit指出新手误解和配件价值。",
+        "差异化假设": "适配圆形酸面包、可调厚度、防滑底座、护手、集屑托盘、尺寸/面团重量指南，可与基础烘焙配件组合。",
+        "排名": "2",
+        "是否进入产品定义": "是｜优先做产品定义草案",
+        "目标用户": "家庭sourdough玩家、礼品型烘焙新手、追求均匀切片和少掉屑的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。"
+      },
+      {
+        "一句话机会": "DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。",
+        "产品方向": "口袋孔夹具套装",
+        "优先级": "P1/B",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10：pocket hole jig SV45,394，Rev$41,522，Price$50.33；pocket hole jig kit Rev$43,604；样本Kreg/TBVHOMM/VEVOR显示$26.99-$56.9价带。",
+        "差异化假设": "清晰定位尺、斜孔角度稳定、夹持防滑、常用螺丝/钻头/限位环套装、中文供应链需验证精度一致性。",
+        "排名": "3",
+        "是否进入产品定义": "是｜IP和品牌集中不过则淘汰",
+        "目标用户": "家庭DIY、木工初学者、轻装修用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA集中度、Kreg专利/IP、Review workbook、是否能压到≤2lb、供应商精度/QC。"
+      },
+      {
+        "一句话机会": "用户真正买的是“可信精度”，不是扳手本身；如果能用校准证书和误握提示建立信任，有高客单空间。",
+        "产品方向": "数显/咔哒式扭矩扳手",
+        "优先级": "P1/B-",
+        "候选池状态": "已收口｜先补证后定义",
+        "关键证据": "VOC P0/P1：精度不信任、误握读数偏差、刻度难读、到货像二手；当前缺H10/ABA需求验证。",
+        "差异化假设": "每件校准证书、大字号高对比刻度/背光、正确握持区标识、蜂鸣+震动+LED提示、封签与AQL外观检。",
+        "排名": "4",
+        "是否进入产品定义": "暂不正式定义｜先补需求和供应链校准能力",
+        "目标用户": "汽车/摩托/自行车DIY维修用户、小型工作室",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。"
+      },
+      {
+        "一句话机会": "汽车DIY工具有>$30需求，低评分样本说明漏气/适配/说明书痛点可产品化。",
+        "产品方向": "刹车油排气/真空泵套装",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "H10：brake bleeder kit SV34,418/Rev$26,360/Price$34.13；样本BILITOOLS Rev$55,464、DURATECH rating3.8、Beefire rating3.3。",
+        "差异化假设": "更稳定真空泵、耐油软管、常用转接头、透明集液瓶、防漏接头、图解流程卡。",
+        "排名": "5",
+        "是否进入产品定义": "否｜作为工具类备选补证",
+        "目标用户": "DIY汽修、车库工具用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "VOC低星原文、汽车液体兼容性、退货/客服成本、包装重量>2lb风险。"
+      },
+      {
+        "一句话机会": "宠物尿渍/霉斑检测有痛点，但功效、安全和电池认证决定是否能碰。",
+        "产品方向": "365nm UV可充电手电",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "VOC P0：波段不清、滤镜缺失、续航衰减、猫尿识别失败。",
+        "差异化假设": "真365nm+滤镜、365/395独立指示、恒流驱动、亮度保持曲线、童锁和安全提示卡。",
+        "排名": "6",
+        "是否进入产品定义": "否｜仅保留观察/供应链快筛",
+        "目标用户": "养宠家庭、清洁检查、酒店/租房检查人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/POE/H10、UV安全合规、电池认证、清洁剂荧光误判、侵权词。"
+      },
+      {
+        "一句话机会": "园艺种植支撑需求大，但当前形态偏长偏重，只有可压缩模块化才可能进入小批量测试。",
+        "产品方向": "番茄支架/植物支撑",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "H10 tomato cage SV144,751；样本Legigo Rev$283,259、K-Brands Rev$95,564；VOC指出连接件、缺件、强风不稳。",
+        "差异化假设": "加厚包塑钢管、锁扣连接件、备件包、模块化三角/方形组合、抗风/承重测试。",
+        "排名": "7",
+        "是否进入产品定义": "否｜体积费不过直接淘汰",
+        "目标用户": "庭院/阳台种植番茄和爬藤植物用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "季节曲线、压缩包装、FBA体积费、塑料老化、缺件率。"
+      },
+      {
+        "一句话机会": "自动浇水能解决每日重复劳动，但漏水风险把它从小件机会拉成高责任产品。",
+        "产品方向": "浇灌定时器",
+        "优先级": "P1-/观察",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "VOC P1：漏水、季节后失效、塑料接头不安心。",
+        "差异化假设": "黄铜接头、IPX防水电池仓、低电提醒、雨延迟、手动旁路、大屏旋钮。",
+        "排名": "8",
+        "是否进入产品定义": "否｜先补退货和可靠性",
+        "目标用户": "庭院/阳台植物用户、旅行期间需要自动浇水的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/H10/Xray、户外老化、漏水财产风险、售后成本。"
+      },
+      {
+        "一句话机会": "节后家庭整理需求存在，但强Q4季节和软袋低价感限制常年新品价值。",
+        "产品方向": "礼品包装/礼品袋收纳",
+        "优先级": "P2/季节",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "ABA gift wrap organizer最新rank 553,547；VOC P2指向flimsy、卷纸不乱滚的明确场景。",
+        "差异化假设": "床下/壁挂两用、硬挺底板、可调隔板、加固把手拉链、礼品袋/丝带/剪刀一体。",
+        "排名": "9",
+        "是否进入产品定义": "否｜Q4前再复盘",
+        "目标用户": "家庭节日礼品包装收纳用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "Q4季节曲线、压缩包装、>$25毛利、拉链寿命。"
+      },
+      {
+        "一句话机会": "现有wellness线可迭代无线低束缚热敷眼罩，但不适合作为全新品类A类推荐。",
+        "产品方向": "加热/干眼眼罩迭代",
+        "优先级": "P2/迭代",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "ABA heated eye mask rank 11,051，Top3点击27.58%/转化18.34%；SQP heated eye masks for dry eyes volume 2,804/purchase rate 9.63%；VOC指出头带和舒适痛点。",
+        "差异化假设": "无线/低束缚、3档恒温、定时断电、可拆洗亲肤外套、大头围弹力带、合规warm compress表达。",
+        "排名": "10",
+        "是否进入产品定义": "否｜转现有产品线迭代Brief",
+        "目标用户": "干眼/屏幕疲劳用户、睡前放松用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "FSA/HSA/医疗宣称合规、热安全、退货、是否蚕食现有SKU、目标ASP需>$25。"
+      }
+    ],
+    "top4": [
+      {
+        "一句话机会": "搜索需求和低星痛点同时成立，切入点不是普通跪凳，而是老人/膝背友好的安全起身园艺工作座椅。",
+        "产品方向": "园艺跪凳/座椅",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "ABA 2026-05-03周 rank 5081，Top3点击31.54%/转化22.06%；VOC P0指向螺丝短、管材弯、老人起身安全。",
+        "差异化假设": "500lb静态/动态承重证据、加厚管壁、长螺丝+锁紧螺母+备件包、半预装、厚跪垫和可拆工具袋。",
+        "排名": "1",
+        "是否进入产品定义": "是｜但先设体积费和承重测试红线",
+        "目标用户": "50+家庭园艺用户、膝盖/腰背不适但仍要户外种植的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。"
+      },
+      {
+        "一句话机会": "酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。",
+        "产品方向": "手摇/手动酸面包切片器",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10 BB词：manual bread slicer SV4799/Rev$92,590/Price$55.78；sourdough bread slicer SV14193/Rev$91,804/Price$42.6；样本ASIN最高Rev$281,056；VOC sourdough kit指出新手误解和配件价值。",
+        "差异化假设": "适配圆形酸面包、可调厚度、防滑底座、护手、集屑托盘、尺寸/面团重量指南，可与基础烘焙配件组合。",
+        "排名": "2",
+        "是否进入产品定义": "是｜优先做产品定义草案",
+        "目标用户": "家庭sourdough玩家、礼品型烘焙新手、追求均匀切片和少掉屑的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。"
+      },
+      {
+        "一句话机会": "DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。",
+        "产品方向": "口袋孔夹具套装",
+        "优先级": "P1/B",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10：pocket hole jig SV45,394，Rev$41,522，Price$50.33；pocket hole jig kit Rev$43,604；样本Kreg/TBVHOMM/VEVOR显示$26.99-$56.9价带。",
+        "差异化假设": "清晰定位尺、斜孔角度稳定、夹持防滑、常用螺丝/钻头/限位环套装、中文供应链需验证精度一致性。",
+        "排名": "3",
+        "是否进入产品定义": "是｜IP和品牌集中不过则淘汰",
+        "目标用户": "家庭DIY、木工初学者、轻装修用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA集中度、Kreg专利/IP、Review workbook、是否能压到≤2lb、供应商精度/QC。"
+      },
+      {
+        "一句话机会": "用户真正买的是“可信精度”，不是扳手本身；如果能用校准证书和误握提示建立信任，有高客单空间。",
+        "产品方向": "数显/咔哒式扭矩扳手",
+        "优先级": "P1/B-",
+        "候选池状态": "已收口｜先补证后定义",
+        "关键证据": "VOC P0/P1：精度不信任、误握读数偏差、刻度难读、到货像二手；当前缺H10/ABA需求验证。",
+        "差异化假设": "每件校准证书、大字号高对比刻度/背光、正确握持区标识、蜂鸣+震动+LED提示、封签与AQL外观检。",
+        "排名": "4",
+        "是否进入产品定义": "暂不正式定义｜先补需求和供应链校准能力",
+        "目标用户": "汽车/摩托/自行车DIY维修用户、小型工作室",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。"
+      }
+    ],
+    "top4_backfill_queue": [
+      {
+        "产品方向": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+        "优先级": "P0",
+        "具体动作": "查 pet urine UV flashlight / 365nm UV flashlight / blacklight pet stains 等词的ABA rank、Top clicked ASIN、click/conversion share；补POE需求簇和CPC/广告词成本",
+        "权限边界": "只读数据，不改后台",
+        "补证类型": "ABA/POE/CPC",
+        "负责人建议": "鹰眼",
+        "验收标准": "能给出3-5个真实需求词、Top3点击集中度、是否品牌垄断、CPC区间"
+      },
+      {
+        "产品方向": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+        "优先级": "P0",
+        "具体动作": "把已有Review Insights 16个痛点转成买家原话、痛点频次、功能优先级",
+        "权限边界": "只读评论，不联系买家",
+        "补证类型": "VOC原话",
+        "负责人建议": "客户洞察",
+        "验收标准": "至少10条可引用买家原话；亮度/续航/发热/磁吸/说明书按优先级排序"
+      },
+      {
+        "产品方向": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+        "优先级": "P0",
+        "具体动作": "仅准备L0/L1关键词，不外联；确认电池、Type-C、UN38.3/MSDS、说明书安全警示需报价字段",
+        "权限边界": "不询价、不旺旺、不下单",
+        "补证类型": "认证/供应链准备",
+        "负责人建议": "梁毅丹",
+        "验收标准": "形成关键词+必问问题；不把L0/L1当真实供应商推荐"
+      },
+      {
+        "产品方向": "数显扭矩扳手｜DIY/自行车/汽车维护",
+        "优先级": "P0",
+        "具体动作": "补 digital torque wrench / electronic torque wrench / bike torque wrench 等入口词，排除 impact wrench 误抓",
+        "权限边界": "只读数据",
+        "补证类型": "ABA+Cerebro入口词",
+        "负责人建议": "鹰眼/H10",
+        "验收标准": "明确主入口词和误抓词；能判断是否有低Review高销量窗口"
+      },
+      {
+        "产品方向": "数显扭矩扳手｜DIY/自行车/汽车维护",
+        "优先级": "P0",
+        "具体动作": "抓差评中的accuracy、calibration、battery、display、instruction、warranty问题",
+        "权限边界": "只读评论",
+        "补证类型": "VOC/售后风险",
+        "负责人建议": "客户洞察",
+        "验收标准": "输出差评主题频次+应写进规格/说明书的要求"
+      },
+      {
+        "产品方向": "数显扭矩扳手｜DIY/自行车/汽车维护",
+        "优先级": "P0",
+        "具体动作": "准备询价字段：校准证书样张、精度范围、复校政策、质保、电池类型、包装重量",
+        "权限边界": "不外联",
+        "补证类型": "校准资料字段",
+        "负责人建议": "梁毅丹",
+        "验收标准": "报价前字段模板完整，可给供应商执行"
+      },
+      {
+        "产品方向": "咔哒式扭矩扳手｜低电/机械款",
+        "优先级": "P1",
+        "具体动作": "抓机械款差评；准备咔哒式/自行车扭矩扳手中文关键词；排查明显专利结构",
+        "权限边界": "只读，不询价",
+        "补证类型": "VOC/IP/供应链风险",
+        "负责人建议": "客户洞察+梁毅丹",
+        "验收标准": "列出必须规避结构和QC测试点"
+      },
+      {
+        "产品方向": "咔哒式扭矩扳手｜低电/机械款",
+        "优先级": "P1",
+        "具体动作": "按$54.99售价、到岸≤$18.34做FBA/广告敏感性模板，等报价后复算",
+        "权限边界": "不做采购决策",
+        "补证类型": "利润复算准备",
+        "负责人建议": "财神爷",
+        "验收标准": "报价回来可直接判断净利率≥18%/毛利≥40%"
+      },
+      {
+        "产品方向": "园艺跪凳/座椅｜kneeler and seat",
+        "优先级": "P1",
+        "具体动作": "补POE/ABA历史曲线，确认是否只靠春夏旺季，估算淡季销量底盘",
+        "权限边界": "只读数据",
+        "补证类型": "POE季节曲线",
+        "负责人建议": "鹰眼",
+        "验收标准": "有旺季/淡季需求判断和下一次复核时间"
+      },
+      {
+        "产品方向": "园艺跪凳/座椅｜kneeler and seat",
+        "优先级": "P0",
+        "具体动作": "准备尺寸/毛重/折叠后体积/承重测试/装箱数回填字段；按报价尺寸测FBA费",
+        "权限边界": "不外联、不索样，待刘希确认",
+        "补证类型": "包装/FBA硬门槛",
+        "负责人建议": "梁毅丹+财神爷",
+        "验收标准": "若包装尺寸导致利润不达标，直接暂缓；不进入样品"
+      }
+    ],
+    "updated_at": "2026-05-13 22:48 CST"
+  },
   "evidence_queue_rows": [
     {
       "产品方向": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
@@ -257,6 +745,631 @@
   "human_supply_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/Se6OsbdbIhq73TtbQCPckIPrnsg",
   "items": [
     {
+      "amazonUrl": "https://www.amazon.com/dp/B0GRYTV88T",
+      "asin": "B0GRYTV88T",
+      "brief": {
+        "不要做": "不做过大过重或包装尺寸不确定的款；不虚标承重；不做复杂工具套装；未确认FBA体积费前不进入样品。",
+        "功能组合": "加宽加厚EVA/泡棉垫；可折叠轻量框架；扶手助起身；可拆洗工具袋；圆角防夹手；止滑脚套；礼品化包装。",
+        "图片卖点": "老人园艺跪/起/坐场景；加宽加厚软垫对比；折叠收纳尺寸；承重结构和安全细节；工具袋与礼品化包装。",
+        "核心场景": "除草、种植、修剪时跪下护膝；翻转成座椅休息；工具袋放剪刀手套小铲子；春夏礼品场景。",
+        "核心痛点": "垫子薄、宽度不够、框架晃、承重虚标、折叠后仍大、FBA/退货成本高、工具袋低质、低价铁架不适合作礼物。",
+        "目标用户": "45岁以上庭院/花园用户、膝盖不舒服但仍想园艺的人，以及给父母/祖父母/园艺爱好者送礼的购买者。",
+        "首版规格": "目标售价$49.99；到岸≤$17.29但以FBA体积费复算为准；供应商必须提供折叠后单箱尺寸、毛重、装箱数、承重测试和锁扣/焊点QC。",
+        "验收标准": "先拿包装尺寸/毛重/FBA费；2家供应商回填承重测试和QC；MOQ≤100优先；净利率≥18%；补POE季节曲线和VOC后再决定继续询价。"
+      },
+      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "decisionSuggestion": "补数据后进入产品定义",
+      "diff": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。",
+      "discovery_source": {
+        "一句话机会": "搜索需求和低星痛点同时成立，切入点不是普通跪凳，而是老人/膝背友好的安全起身园艺工作座椅。",
+        "产品方向": "园艺跪凳/座椅",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "ABA 2026-05-03周 rank 5081，Top3点击31.54%/转化22.06%；VOC P0指向螺丝短、管材弯、老人起身安全。",
+        "差异化假设": "500lb静态/动态承重证据、加厚管壁、长螺丝+锁紧螺母+备件包、半预装、厚跪垫和可拆工具袋。",
+        "排名": "1",
+        "是否进入产品定义": "是｜但先设体积费和承重测试红线",
+        "目标用户": "50+家庭园艺用户、膝盖/腰背不适但仍要户外种植的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10 Xray月营收、全年季节性、FBA体积费、承重责任/认证、供应商包装尺寸。"
+      },
+      "evidence": "已证：ABA+H10\n缺口：POE、供应链、MOQ、FBA\nABA 2026-05-03~09：garden kneeler and seat rank 5,081，较4月初21,583显著上升，Top3 click 31.5%；H10：…",
+      "evidence_tasks": [
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "ABA趋势强、Catalog BSR强，但POE季节曲线/SQP/CPC仍缺",
+          "来源任务/证据": "t_b0589289",
+          "状态": "未闭环｜POE/SQP/CPC缺",
+          "补什么": "POE",
+          "闭环判断": "官方需求较强但POE未闭环"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "补低价摘要和GARDMATE包装/重量占位；非同一供应商",
+          "来源任务/证据": "t_2499ed20+t_f5391e93",
+          "状态": "部分补证｜待人工验证",
+          "补什么": "供应链",
+          "闭环判断": "需人工核同一SKU、承重、包装、证书"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "有低价/MOQ线索但1688/供应商详情需登录态核实",
+          "来源任务/证据": "t_2499ed20",
+          "状态": "部分补证｜待人工验证",
+          "补什么": "MOQ",
+          "闭环判断": "MOQ未闭环"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "已做FBA敏感性；缺同一供应商真实箱规/GW/NW",
+          "来源任务/证据": "t_f5391e93",
+          "状态": "部分补证｜敏感性已算",
+          "补什么": "FBA",
+          "闭环判断": "FBA未闭环，需真实尺寸重量"
+        }
+      ],
+      "gaps": [
+        "H10 Xray月营收",
+        "全年季节性",
+        "FBA体积费",
+        "承重责任/认证",
+        "供应商包装尺寸。",
+        "ABA rank/top clicked ASIN/seasonality",
+        "H10/Xray Top20 monthly revenue, size, weight, FBA fee, review moat",
+        "VOC issue frequency",
+        "supplier folded size, gross weight, load-test evidence, quote, spare-pack and drop-test plan",
+        "Xray/Review workbook"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "是｜但先设体积费和承重测试红线",
+        "product": "进入产品定义",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "h10_evidence": [
+        {
+          "H10证据完整度": "Black Box Products+Cerebro+Black Box Keywords(Magnet proxy)+Xray竞品样本已补；仍缺真实ABA/POE/CPC或供应链项按网页缺口保留",
+          "Review门槛": "median 51; P75 302; P90 1001",
+          "产品": "园艺跪凳/座椅｜kneeler and seat",
+          "价格带": "$39.99-$59.99; median $49.99",
+          "入口词": "garden kneeler and seat SV38359; garden kneeler SV32860; garden bench SV17771; garden stool SV14367; gardening stool SV10203",
+          "区块": "数据完整度/开发Brief/报价队列",
+          "可粘贴结论/下一步": "可询价验证但要标季节性/大件风险。H10精确标题快照显示销量强、Review门槛高于前3个，供应链必须先核包装体积、承重和垫子差异化。",
+          "竞争强度": "中偏高：核心词SV高但density 94、P75 Review 302，且大件/季节性抬高进入门槛",
+          "竞品ASIN样本": "B0D8SF443G CZZXI $59.99 u2337 rev$136119 rv1080; B0B7KCG3GW Aimerla $59.99 u1599 rev$92919 rv976; B0D8SL6BB9 CZZXI $59.99 u1395 rev$81345 rv1080; B09P3RK967 OFFICEJOY $40.98 u1895 rev$74932 rv1293; B0B7KW6ZBY Aimerla $59.99 u1130 rev$66569 rv940",
+          "销量/收入": "精确标题快照 18,136件/月, $938,925/月; 网页宏观口径见报告"
+        }
+      ],
+      "human_supply": {
+        "产品ID": "P-SUP-004",
+        "优先级": "中",
+        "到岸成本红线": "≤$17.29 到岸/件",
+        "参考ASIN": "B0GRYTV88T",
+        "开发状态": "待开发",
+        "开发要求": "FOB/EXW价、MOQ、样品费、交期、包装尺寸/重量、认证、可改规格、质检点；至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或说明做不到",
+        "目标售价": "$49.99",
+        "要找什么/关键规格": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。",
+        "需要找供应商的产品": "园艺跪凳/座椅｜kneeler and seat"
+      },
+      "imageUrl": "https://m.media-amazon.com/images/I/71SNdhy-TtL._SX450_.jpg",
+      "inquiry_spec": {
+        "交期/MOQ字段": "MOQ、阶梯价100/300/500/1000；样品费；样品/大货交期；单箱装量；发货地",
+        "必须问供应商": "展开/折叠/包装尺寸；净重/毛重；管径/壁厚；承重测试；软垫材质和厚度；工具袋材质；是否有防夹手设计；包装跌落；可否压缩包装；是否有承重报告",
+        "报价验收口径": "到岸目标≤$17.29/件；必须先用包装尺寸/重量复算FBA；体积费导致利润低于红线则暂缓或改包装",
+        "样品要求": "1-2个样品；含工具袋和包装；要求承重/稳定性/折叠顺畅视频；样品需量尺寸重量",
+        "询价规格草案": "折叠园艺跪凳/座椅；加宽软垫；钢管/铝管材质待确认；工具袋；防滑脚垫；适合老人园艺；单品包装需适配FBA体积费",
+        "质检重点": "承重、焊点、折叠铰链、防夹手、软垫回弹、脚垫防滑、包装强度、尺寸重量"
+      },
+      "level": "B+ 重点补证",
+      "market_competition": {
+        "下一棒": "供应链开发-丹找5个产品一致/供应商优质/报价可参考链接，回填利润预估用价",
+        "主要缺口": "POE、供应链、MOQ、FBA、包装尺寸",
+        "利润快照": "目标售价 $49.99；净利率 21.1%；到岸红线 ≤$17.29",
+        "市场规模快照": "市场够大，可测试",
+        "市场规模说明": "月收入口径 $10.57M+；销量 待补；价格带 $39.99-$59.99",
+        "方舟建议总结": "进入供应链深度巡查",
+        "更新时间": "2026-05-13 15:01 CST",
+        "竞争分析快照": "竞争偏强，需谨慎",
+        "竞争分析说明": "竞争强度待补；P75 Review 492；缺口：POE、供应链、MOQ、FBA、包装尺寸"
+      },
+      "official_evidence": [
+        {
+          "下一步": "优先补POE季节曲线截图或导出；供应链拿包装尺寸/毛重/承重测试和管径/垫厚；财神爷用真实尺寸重量复算FBA与利润红线。",
+          "产品": "园艺跪凳/座椅｜garden kneeler and seat",
+          "关键词/ASIN证据": "Catalog：Saker Garden Kneeler and Seat，Workseats/Gardening Workseats，BSR Gardening Workseats #82 / Patio Lawn & Garden #67841；500LB、折叠、侧扶手、工具袋，item weight 11.7 lb，package 20.3×32.5×45.5 cm、5.39 kg。ABA garden kneeler and seat rank：21583(4/05)→11092(4/26)→5081(5/03)，改善76.46%；最新Top3 ASIN B0972Y5LTY/B0CJBF4VTX/B0D1DZLJD3，Top3 click share 31.54%，conv share 22.06%；garden kneeler 最新rank 5645。",
+          "写回时间/来源": "2026-05-13 17:55 CST｜鹰眼 t_b0589289 复核",
+          "官方需求来源": "真实数据：Amazon Catalog ASIN B0GRYTV88T 本次只读读取；已缓存数据：ABA garden kneeler and seat三周趋势、garden kneeler长尾；SQP缓存无匹配；后台截图/导出：POE季节曲线未取得，CPC未取得；推测假设：ABA趋势可代表需求走强但季节性需POE/历史更长周期验证",
+          "是否可进入询价": "足够进入询价验证；Top4中官方需求信号最强，建议P1，但必须把大件/季节/承重风险前置。",
+          "缺口": "仍缺POE季节曲线/SQP/CPC；包装尺寸、FBA体积费、承重测试、退货/售后风险未闭环。"
+        }
+      ],
+      "owner": "鹰眼补POE季节曲线；梁毅丹核包装尺寸/MOQ；财神爷算FBA体积费。",
+      "present": [
+        "ABA",
+        "H10",
+        "VOC"
+      ],
+      "price": [
+        39.99,
+        59.99
+      ],
+      "product": "园艺跪凳/座椅｜kneeler and seat",
+      "profit": {
+        "ad_est": 7.5,
+        "break_even_acos": 36.1,
+        "cost_high": 17.5,
+        "cost_low": 14.0,
+        "fba_est": 6.2,
+        "landed_est": 15.75,
+        "margin": 21.1,
+        "price_high": 59.99,
+        "price_low": 39.99,
+        "profit": 10.54,
+        "quote_target": 17.29,
+        "referral": 7.5,
+        "reserve": 2.5,
+        "status": "需报价复算",
+        "target_price": 49.99
+      },
+      "rank": 1,
+      "risk": "季节性、体积/重量、承重安全；供应链包装尺寸决定FBA可行性。",
+      "score": 82,
+      "supply_deep": [
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        }
+      ],
+      "supply_readonly_summary": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+      "title": "Saker Garden Kneeler and Seat - Gardening Bench Gardening Stool Garden Seat with 500LB Heavy Duty Round-Tube Frame, Soft Kneeling Pad Foldable Support for Elder",
+      "voc_evidence": [
+        {
+          "buyer_quote_or_gap": "直接 ASIN B0GRYTV88T 仅 2 条 Vine review；用 FLINTER 竞品补差评",
+          "expected_feature": "长螺丝+锁紧螺母、加厚管、快装、可拆工具袋",
+          "image_selling_point": "老人起身、承重测试、10min 组装",
+          "painpoint_or_need": "直接证据弱；安全/组装/承重风险高",
+          "priority": "P0",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "需 POE 季节曲线、FBA体积费、承重样品验证",
+          "section": "数据完整度"
+        },
+        {
+          "buyer_quote_or_gap": "“Provided screws are too short to even assemble, let alone be safe”",
+          "expected_feature": "长螺丝、锁紧螺母、备件包",
+          "image_selling_point": "upgraded longer bolts + lock nuts",
+          "painpoint_or_need": "螺丝错误导致无法组装/安全担忧",
+          "priority": "P0",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "无法组装/受伤投诉",
+          "section": "开发Brief"
+        },
+        {
+          "buyer_quote_or_gap": "“tube steel… flex or almost bend… over 200#… heavier duty model”",
+          "expected_feature": "加厚管、横向支撑、承重测试",
+          "image_selling_point": "500lb 动态承重测试",
+          "painpoint_or_need": "承重结构不可信",
+          "priority": "P0",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "承重虚标",
+          "section": "开发Brief"
+        },
+        {
+          "buyer_quote_or_gap": "“Very fiddly… Assembly took about 45 minutes”",
+          "expected_feature": "半预装/10分钟装完",
+          "image_selling_point": "10-min assembly",
+          "painpoint_or_need": "组装耗时长，老人不友好",
+          "priority": "P1",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "装不上退货",
+          "section": "开发Brief"
+        },
+        {
+          "buyer_quote_or_gap": "“tools… not very stout and start to strip” / “sharp burrs”",
+          "expected_feature": "更结实工具、倒角去毛刺",
+          "image_selling_point": "工具包升级+rounded edges",
+          "painpoint_or_need": "工具差、毛刺割手",
+          "priority": "P1",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "安全投诉",
+          "section": "开发Brief"
+        },
+        {
+          "buyer_quote_or_gap": "“tool pouch… would just get in the way” / “Does NOT Fold.”",
+          "expected_feature": "可拆工具袋、明确折叠尺寸",
+          "image_selling_point": "removable pouch + folded size",
+          "painpoint_or_need": "工具袋位置和折叠信息影响使用/误购",
+          "priority": "P2",
+          "product": "园艺跪凳/座椅",
+          "risk_or_next_step": "误购/体积退货",
+          "section": "开发Brief"
+        }
+      ]
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "brief": {
+        "不要做": "low-priced generic bamboo/wood slicer、electric slicer、bulky countertop machine、medical claims、uncontrolled bamboo/wood odor, burrs, cracking",
+        "核心场景": "圆形硬皮酸面包切片、早餐/三明治备餐、烘焙入门礼品",
+        "目标用户": "家庭 sourdough 玩家、烘焙新手/礼品用户、需要更安全低用力切片的人群",
+        "首版规格": "{\"structure\": \"non-electric manual guide/push slicing form\", \"loaf_fit\": \"8-10.5 in round or oval sourdough loaf; approx. 700g-1.2kg\", \"slice_thickness\": \"0.4/0.6/0.8/1.0/1.2 in adjustable\", \"safety\": \"hand guard, non-slip feet, blade lock/storage protection\", \"cleaning\": \"removable crumb tray, cleaning brush\", \"packaging_target\": \"<=15 x 10 x 3.5 in; <=2.5 lb\", \"packaging_redline\": \"<=17 x 11 x 4 in; <=3.5 lb\"}",
+        "验收标准": "P0 product-definition validation; closest to low-complexity small-batch model; not approved for launch until ABA/POE/Xray/Review/supplier evidence is complete"
+      },
+      "decisionSuggestion": "补数据后进入产品定义",
+      "diff": "适配圆形酸面包、可调厚度、防滑底座、护手、集屑托盘、尺寸/面团重量指南，可与基础烘焙配件组合。",
+      "discovery_source": {
+        "一句话机会": "酸面包家庭烘焙热度能支撑>$30工具升级，机会在“安全稳定切圆形硬皮面包”而非普通切片器。",
+        "产品方向": "手摇/手动酸面包切片器",
+        "优先级": "P0/B+",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10 BB词：manual bread slicer SV4799/Rev$92,590/Price$55.78；sourdough bread slicer SV14193/Rev$91,804/Price$42.6；样本ASIN最高Rev$281,056；VOC sourdough kit指出新手误解和配件价值。",
+        "差异化假设": "适配圆形酸面包、可调厚度、防滑底座、护手、集屑托盘、尺寸/面团重量指南，可与基础烘焙配件组合。",
+        "排名": "2",
+        "是否进入产品定义": "是｜优先做产品定义草案",
+        "目标用户": "家庭sourdough玩家、礼品型烘焙新手、追求均匀切片和少掉屑的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。"
+      },
+      "evidence": "H10 BB词：manual bread slicer SV4799/Rev$92,590/Price$55.78；sourdough bread slicer SV14193/Rev$91,804/Price$42.6；样本ASIN最高Rev$281,056；VOC sourdough kit指出新手误解和配件价值。",
+      "gaps": [
+        "ABA/POE官方需求",
+        "当前轮Xray Top20",
+        "Review workbook",
+        "食品接触材料/木竹霉味",
+        "供应商报价/MOQ。",
+        "ABA/POE demand",
+        "H10/Xray Top20 revenue/price/review/size/FBA fee",
+        "Review workbook pain points",
+        "supplier MOQ<=100, food-contact declarations, quote, packaging size/weight",
+        "Xray/Review workbook"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "是｜优先做产品定义草案",
+        "product": "进入产品定义",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "h10_evidence": [
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        }
+      ],
+      "imageUrl": "",
+      "level": "B+ 重点补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "市场初筛"
+      ],
+      "price": [],
+      "product": "手摇/手动酸面包切片器",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 2,
+      "risk": "ABA/POE官方需求、当前轮Xray Top20、Review workbook、食品接触材料/木竹霉味、供应商报价/MOQ。",
+      "score": 82,
+      "supply_deep": [
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        }
+      ],
+      "supply_readonly_summary": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification."
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "decisionSuggestion": "补数据后进入产品定义",
+      "diff": "清晰定位尺、斜孔角度稳定、夹持防滑、常用螺丝/钻头/限位环套装、中文供应链需验证精度一致性。",
+      "discovery_source": {
+        "一句话机会": "DIY木工存在明确高价工具需求，但必须避开Kreg品牌/结构壁垒，做更易用的新手套装。",
+        "产品方向": "口袋孔夹具套装",
+        "优先级": "P1/B",
+        "候选池状态": "已收口｜待开发新需求/补证",
+        "关键证据": "H10：pocket hole jig SV45,394，Rev$41,522，Price$50.33；pocket hole jig kit Rev$43,604；样本Kreg/TBVHOMM/VEVOR显示$26.99-$56.9价带。",
+        "差异化假设": "清晰定位尺、斜孔角度稳定、夹持防滑、常用螺丝/钻头/限位环套装、中文供应链需验证精度一致性。",
+        "排名": "3",
+        "是否进入产品定义": "是｜IP和品牌集中不过则淘汰",
+        "目标用户": "家庭DIY、木工初学者、轻装修用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA集中度、Kreg专利/IP、Review workbook、是否能压到≤2lb、供应商精度/QC。"
+      },
+      "evidence": "H10：pocket hole jig SV45,394，Rev$41,522，Price$50.33；pocket hole jig kit Rev$43,604；样本Kreg/TBVHOMM/VEVOR显示$26.99-$56.9价带。",
+      "gaps": [
+        "ABA集中度",
+        "Kreg专利/IP",
+        "Review workbook",
+        "是否能压到≤2lb",
+        "供应商精度/QC。",
+        "Xray/Review workbook"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "是｜IP和品牌集中不过则淘汰",
+        "product": "进入产品定义",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "h10_evidence": [
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        }
+      ],
+      "imageUrl": "",
+      "level": "B 补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "市场初筛"
+      ],
+      "price": [],
+      "product": "口袋孔夹具套装",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 3,
+      "risk": "ABA集中度、Kreg专利/IP、Review workbook、是否能压到≤2lb、供应商精度/QC。",
+      "score": 72
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "每件校准证书、大字号高对比刻度/背光、正确握持区标识、蜂鸣+震动+LED提示、封签与AQL外观检。",
+      "discovery_source": {
+        "一句话机会": "用户真正买的是“可信精度”，不是扳手本身；如果能用校准证书和误握提示建立信任，有高客单空间。",
+        "产品方向": "数显/咔哒式扭矩扳手",
+        "优先级": "P1/B-",
+        "候选池状态": "已收口｜先补证后定义",
+        "关键证据": "VOC P0/P1：精度不信任、误握读数偏差、刻度难读、到货像二手；当前缺H10/ABA需求验证。",
+        "差异化假设": "每件校准证书、大字号高对比刻度/背光、正确握持区标识、蜂鸣+震动+LED提示、封签与AQL外观检。",
+        "排名": "4",
+        "是否进入产品定义": "暂不正式定义｜先补需求和供应链校准能力",
+        "目标用户": "汽车/摩托/自行车DIY维修用户、小型工作室",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。"
+      },
+      "evidence": "VOC P0/P1：精度不信任、误握读数偏差、刻度难读、到货像二手；当前缺H10/ABA需求验证。",
+      "gaps": [
+        "H10/Xray/ABA需求",
+        "校准供应链能力",
+        "电池/质保/售后成本",
+        "专利结构",
+        "退货率。",
+        "Xray/Review workbook"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "暂不正式定义｜先补需求和供应链校准能力",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "h10_evidence": [
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        }
+      ],
+      "imageUrl": "",
+      "level": "B 补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "ABA"
+      ],
+      "price": [],
+      "product": "数显/咔哒式扭矩扳手",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 4,
+      "risk": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。",
+      "score": 72
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "更稳定真空泵、耐油软管、常用转接头、透明集液瓶、防漏接头、图解流程卡。",
+      "discovery_source": {
+        "一句话机会": "汽车DIY工具有>$30需求，低评分样本说明漏气/适配/说明书痛点可产品化。",
+        "产品方向": "刹车油排气/真空泵套装",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "H10：brake bleeder kit SV34,418/Rev$26,360/Price$34.13；样本BILITOOLS Rev$55,464、DURATECH rating3.8、Beefire rating3.3。",
+        "差异化假设": "更稳定真空泵、耐油软管、常用转接头、透明集液瓶、防漏接头、图解流程卡。",
+        "排名": "5",
+        "是否进入产品定义": "否｜作为工具类备选补证",
+        "目标用户": "DIY汽修、车库工具用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "VOC低星原文、汽车液体兼容性、退货/客服成本、包装重量>2lb风险。"
+      },
+      "evidence": "H10：brake bleeder kit SV34,418/Rev$26,360/Price$34.13；样本BILITOOLS Rev$55,464、DURATECH rating3.8、Beefire rating3.3。",
+      "gaps": [
+        "VOC低星原文",
+        "汽车液体兼容性",
+        "退货/客服成本",
+        "包装重量>2lb风险。"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜作为工具类备选补证",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "imageUrl": "",
+      "level": "B 补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "市场初筛"
+      ],
+      "price": [],
+      "product": "刹车油排气/真空泵套装",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 5,
+      "risk": "VOC低星原文、汽车液体兼容性、退货/客服成本、包装重量>2lb风险。",
+      "score": 72
+    },
+    {
       "amazonUrl": "https://www.amazon.com/dp/B0C7ZYQT2L",
       "asin": "B0C7ZYQT2L",
       "brief": {
@@ -270,8 +1383,21 @@
         "验收标准": "2家可报价；MOQ≤100优先；30-60cm可识别痕迹；连续10分钟无明显烫手；到岸≤$11.24；补ABA/POE/CPC/认证后再升A。"
       },
       "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
-      "decisionSuggestion": "进入供应链深度巡查",
+      "decisionSuggestion": "暂缓观察",
       "diff": "365nm真UV+滤镜、LCD电量、温控降档/童锁、强磁尾盖、照距/续航实测卡；删除鸡肋RGB模式。",
+      "discovery_source": {
+        "一句话机会": "宠物尿渍/霉斑检测有痛点，但功效、安全和电池认证决定是否能碰。",
+        "产品方向": "365nm UV可充电手电",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "VOC P0：波段不清、滤镜缺失、续航衰减、猫尿识别失败。",
+        "差异化假设": "真365nm+滤镜、365/395独立指示、恒流驱动、亮度保持曲线、童锁和安全提示卡。",
+        "排名": "6",
+        "是否进入产品定义": "否｜仅保留观察/供应链快筛",
+        "目标用户": "养宠家庭、清洁检查、酒店/租房检查人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/POE/H10、UV安全合规、电池认证、清洁剂荧光误判、侵权词。"
+      },
       "evidence": "已证：H10+VOC\n缺口：ABA、POE、CPC、供应链\nH10 Products 2026-05-12：市场收入约$14.11M/月、销量210,873/月、价带$25-56、P75 Review 97、竞争低；Review Insi…",
       "evidence_tasks": [
         {
@@ -308,19 +1434,19 @@
         }
       ],
       "gaps": [
-        "ABA",
-        "POE",
-        "CPC",
-        "供应链",
-        "认证"
+        "ABA/POE/H10",
+        "UV安全合规",
+        "电池认证",
+        "清洁剂荧光误判",
+        "侵权词。"
       ],
       "gate": {
-        "demand": "通过",
-        "finance": "可试算",
-        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价",
-        "product": "已定义",
-        "supply": "待报价",
-        "voc": "通过"
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜仅保留观察/供应链快筛",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
       },
       "h10_evidence": [
         {
@@ -337,6 +1463,34 @@
         }
       ],
       "human_samples": [
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
         {
           "产品": "365nm UV 可充电手电",
           "关联产品ID": "P-SUP-001",
@@ -372,7 +1526,7 @@
         "询价规格草案": "365nm UV可充电手电；真365nm灯珠；带滤镜；USB-C；LCD电量；温控降档/童锁；磁吸尾盖；配说明书和实测卡；单品彩盒/中性盒均报价",
         "质检重点": "波长实测、滤镜效果、发热、充电安全、跌落、按键寿命、磁吸、续航、说明书合规"
       },
-      "level": "B 重点补证",
+      "level": "B 补证",
       "market_competition": {
         "下一棒": "供应链开发-丹找5个产品一致/供应商优质/报价可参考链接，回填利润预估用价",
         "主要缺口": "ABA、POE、CPC、供应链、认证",
@@ -398,7 +1552,8 @@
       "owner": "鹰眼补ABA/POE；客户洞察补原始差评；梁毅丹仅准备L0/L1供应商关键词，不询价。",
       "present": [
         "H10",
-        "VOC"
+        "VOC",
+        "市场初筛"
       ],
       "price": [
         29.99,
@@ -422,9 +1577,9 @@
         "status": "需报价复算",
         "target_price": 34.99
       },
-      "rank": 1,
+      "rank": 6,
       "risk": "电池/充电安全、UV功效宣称、侵权词与平台合规；缺ABA/POE/CPC/认证记录。",
-      "score": 78,
+      "score": 72,
       "title": "TNATRA UV 365nm 395nm Blacklight Flashlight for UV Glue Curing,Rocks & Minerals,Pet Stain Detector,Scorpion Finder, Dry Stain, Portable,Zoomable Handheld Ultrav",
       "voc_evidence": [
         {
@@ -488,6 +1643,337 @@
           "section": "开发Brief"
         }
       ]
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "加厚包塑钢管、锁扣连接件、备件包、模块化三角/方形组合、抗风/承重测试。",
+      "discovery_source": {
+        "一句话机会": "园艺种植支撑需求大，但当前形态偏长偏重，只有可压缩模块化才可能进入小批量测试。",
+        "产品方向": "番茄支架/植物支撑",
+        "优先级": "P1/B-",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "H10 tomato cage SV144,751；样本Legigo Rev$283,259、K-Brands Rev$95,564；VOC指出连接件、缺件、强风不稳。",
+        "差异化假设": "加厚包塑钢管、锁扣连接件、备件包、模块化三角/方形组合、抗风/承重测试。",
+        "排名": "7",
+        "是否进入产品定义": "否｜体积费不过直接淘汰",
+        "目标用户": "庭院/阳台种植番茄和爬藤植物用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "季节曲线、压缩包装、FBA体积费、塑料老化、缺件率。"
+      },
+      "evidence": "H10 tomato cage SV144,751；样本Legigo Rev$283,259、K-Brands Rev$95,564；VOC指出连接件、缺件、强风不稳。",
+      "gaps": [
+        "季节曲线",
+        "压缩包装",
+        "FBA体积费",
+        "塑料老化",
+        "缺件率。"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜体积费不过直接淘汰",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "imageUrl": "",
+      "level": "B 补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "市场初筛"
+      ],
+      "price": [],
+      "product": "番茄支架/植物支撑",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 7,
+      "risk": "季节曲线、压缩包装、FBA体积费、塑料老化、缺件率。",
+      "score": 72
+    },
+    {
+      "amazonUrl": "",
+      "asin": "",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "黄铜接头、IPX防水电池仓、低电提醒、雨延迟、手动旁路、大屏旋钮。",
+      "discovery_source": {
+        "一句话机会": "自动浇水能解决每日重复劳动，但漏水风险把它从小件机会拉成高责任产品。",
+        "产品方向": "浇灌定时器",
+        "优先级": "P1-/观察",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "VOC P1：漏水、季节后失效、塑料接头不安心。",
+        "差异化假设": "黄铜接头、IPX防水电池仓、低电提醒、雨延迟、手动旁路、大屏旋钮。",
+        "排名": "8",
+        "是否进入产品定义": "否｜先补退货和可靠性",
+        "目标用户": "庭院/阳台植物用户、旅行期间需要自动浇水的人群",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "ABA/H10/Xray、户外老化、漏水财产风险、售后成本。"
+      },
+      "evidence": "VOC P1：漏水、季节后失效、塑料接头不安心。",
+      "gaps": [
+        "ABA/H10/Xray",
+        "户外老化",
+        "漏水财产风险",
+        "售后成本。"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜先补退货和可靠性",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "imageUrl": "",
+      "level": "B 补证",
+      "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
+      "present": [
+        "H10",
+        "VOC",
+        "市场初筛"
+      ],
+      "price": [],
+      "product": "浇灌定时器",
+      "profit": {
+        "ad_est": 0,
+        "break_even_acos": 0,
+        "cost_high": 0,
+        "cost_low": 0,
+        "fba_est": 0,
+        "landed_est": 0,
+        "margin": 0,
+        "profit": 0,
+        "quote_target": 0,
+        "referral": 0,
+        "reserve": 0,
+        "status": "待报价/待财神爷复算",
+        "target_price": 0
+      },
+      "rank": 8,
+      "risk": "ABA/H10/Xray、户外老化、漏水财产风险、售后成本。",
+      "score": 72
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/s?k=gift+wrap+organizer",
+      "asin": null,
+      "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "床下/壁挂两用、硬挺隔层、标签卡、礼品袋/丝带/剪刀一体收纳。",
+      "discovery_source": {
+        "一句话机会": "节后家庭整理需求存在，但强Q4季节和软袋低价感限制常年新品价值。",
+        "产品方向": "礼品包装/礼品袋收纳",
+        "优先级": "P2/季节",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "ABA gift wrap organizer最新rank 553,547；VOC P2指向flimsy、卷纸不乱滚的明确场景。",
+        "差异化假设": "床下/壁挂两用、硬挺底板、可调隔板、加固把手拉链、礼品袋/丝带/剪刀一体。",
+        "排名": "9",
+        "是否进入产品定义": "否｜Q4前再复盘",
+        "目标用户": "家庭节日礼品包装收纳用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "Q4季节曲线、压缩包装、>$25毛利、拉链寿命。"
+      },
+      "evidence": "已证：ABA\n缺口：H10、包装尺寸\nABA：gift wrapping organizer storage rank 117,981，Top3 click 28.3%；gift bag organizer rank…",
+      "evidence_tasks": [
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "新增10链路有官方/VOC，但H10完整样本未补",
+          "来源任务/证据": "t_325ba2c8",
+          "状态": "未闭环｜H10未补全",
+          "补什么": "H10",
+          "闭环判断": "仍待H10"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "gift organizer箱规/压缩包装仍未闭环",
+          "来源任务/证据": "t_325ba2c8",
+          "状态": "未闭环｜包装尺寸待补",
+          "补什么": "包装尺寸",
+          "闭环判断": "仍待供应链"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "未补高相关ASIN/imageUrl/样本指标",
+          "来源任务/证据": "t_325ba2c8",
+          "状态": "未闭环｜代表ASIN待补",
+          "补什么": "代表ASIN/图片",
+          "闭环判断": "仍待H10"
+        },
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "未形成完整ASIN、价格、月销额、Review、BSR",
+          "来源任务/证据": "t_325ba2c8",
+          "状态": "未闭环｜H10样本指标待补",
+          "补什么": "H10样本指标",
+          "闭环判断": "仍待H10"
+        }
+      ],
+      "gaps": [
+        "Q4季节曲线",
+        "压缩包装",
+        ">$25毛利",
+        "拉链寿命。"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜Q4前再复盘",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "imageUrl": null,
+      "level": "C 观察",
+      "market_competition": {
+        "下一棒": "鹰眼/H10/VOC补齐关键缺口",
+        "主要缺口": "H10、包装尺寸",
+        "利润快照": "目标售价 $34.99；净利率 18.6%；到岸红线 ≤$11.24",
+        "市场规模快照": "规模偏小，谨慎",
+        "市场规模说明": "月收入口径 待补；销量 待补；价格带 $29.99-$39.99",
+        "方舟建议总结": "继续补证后再判断",
+        "更新时间": "2026-05-13 15:01 CST",
+        "竞争分析快照": "中等竞争，需要差异化",
+        "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：H10、包装尺寸"
+      },
+      "owner": "鹰眼补多周季节曲线；H10补竞品收入；梁毅丹核可压缩包装。",
+      "present": [
+        "ABA",
+        "H10",
+        "VOC"
+      ],
+      "price": [
+        29.99,
+        39.99
+      ],
+      "product": "礼品包装/礼品袋收纳｜节日整理",
+      "profit": {
+        "ad_est": 5.25,
+        "break_even_acos": 33.6,
+        "cost_high": 12.25,
+        "cost_low": 9.8,
+        "fba_est": 5.2,
+        "landed_est": 11.03,
+        "margin": 18.6,
+        "price_high": 39.99,
+        "price_low": 29.99,
+        "profit": 6.51,
+        "quote_target": 11.24,
+        "referral": 5.25,
+        "reserve": 1.75,
+        "status": "需报价复算",
+        "target_price": 34.99
+      },
+      "rank": 9,
+      "risk": "强季节性、收纳袋体积、部分词集中偏高；缺H10收入和Review尺寸痛点。",
+      "score": 60,
+      "title": null
+    },
+    {
+      "amazonUrl": "https://www.amazon.com/dp/B0FQP1V81D",
+      "asin": "B0FQP1V81D",
+      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
+      "decisionSuggestion": "暂缓观察",
+      "diff": "无线/定时/恒温、安全断电、亲肤面料，合规表达从“dry eye relief”降到“warm compress comfort”。",
+      "discovery_source": {
+        "一句话机会": "现有wellness线可迭代无线低束缚热敷眼罩，但不适合作为全新品类A类推荐。",
+        "产品方向": "加热/干眼眼罩迭代",
+        "优先级": "P2/迭代",
+        "候选池状态": "观察池｜暂不进入产品定义",
+        "关键证据": "ABA heated eye mask rank 11,051，Top3点击27.58%/转化18.34%；SQP heated eye masks for dry eyes volume 2,804/purchase rate 9.63%；VOC指出头带和舒适痛点。",
+        "差异化假设": "无线/低束缚、3档恒温、定时断电、可拆洗亲肤外套、大头围弹力带、合规warm compress表达。",
+        "排名": "10",
+        "是否进入产品定义": "否｜转现有产品线迭代Brief",
+        "目标用户": "干眼/屏幕疲劳用户、睡前放松用户",
+        "请求ID": "WEB-A4D43BC96C39",
+        "需要补证": "FSA/HSA/医疗宣称合规、热安全、退货、是否蚕食现有SKU、目标ASP需>$25。"
+      },
+      "evidence": "已证：ABA+SQP\n缺口：供应链\nABA：heated eye mask rank 11,051，Top3 click 27.6%；dry eye mask rank 90,224，Top3 click 43.1…",
+      "evidence_tasks": [
+        {
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "新增10链路补到眼罩官方/VOC/合规风险，但供应商硬字段未闭环",
+          "来源任务/证据": "t_325ba2c8",
+          "状态": "部分补证｜合规/供应链待验证",
+          "补什么": "供应链",
+          "闭环判断": "作为现有品线迭代，需供应链小改款验证"
+        }
+      ],
+      "gaps": [
+        "FSA/HSA/医疗宣称合规",
+        "热安全",
+        "退货",
+        "是否蚕食现有SKU",
+        "目标ASP需>$25。"
+      ],
+      "gate": {
+        "demand": "已初筛，待补官方/H10闭环",
+        "finance": "待财神爷复算",
+        "next_action": "否｜转现有产品线迭代Brief",
+        "product": "观察池",
+        "supply": "只读快筛/待验证",
+        "voc": "有初筛痛点，待Review原文"
+      },
+      "imageUrl": "https://m.media-amazon.com/images/I/71YfcU9jdoL._SX450_.jpg",
+      "level": "C 观察",
+      "market_competition": {
+        "下一棒": "鹰眼/H10/VOC补齐关键缺口",
+        "主要缺口": "供应链",
+        "利润快照": "目标售价 $49.99；净利率 21.1%；到岸红线 ≤$17.29",
+        "市场规模快照": "规模偏小，谨慎",
+        "市场规模说明": "月收入口径 待补；销量 待补；价格带 $39.99-$59.99",
+        "方舟建议总结": "继续补证后再判断",
+        "更新时间": "2026-05-13 15:01 CST",
+        "竞争分析快照": "中等竞争，需要差异化",
+        "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：供应链"
+      },
+      "owner": "鹰眼补自有SQP/广告搜索词；品牌/合规确认表达边界；供应链暂不询价。",
+      "present": [
+        "ABA",
+        "SQP",
+        "H10",
+        "VOC"
+      ],
+      "price": [
+        39.99,
+        59.99
+      ],
+      "product": "加热/干眼眼罩迭代｜无线舒适款",
+      "profit": {
+        "ad_est": 7.5,
+        "break_even_acos": 36.1,
+        "cost_high": 17.5,
+        "cost_low": 14.0,
+        "fba_est": 6.2,
+        "landed_est": 15.75,
+        "margin": 21.1,
+        "price_high": 59.99,
+        "price_low": 39.99,
+        "profit": 10.54,
+        "quote_target": 17.29,
+        "referral": 7.5,
+        "reserve": 2.5,
+        "status": "需报价复算",
+        "target_price": 49.99
+      },
+      "rank": 10,
+      "risk": "医疗功效宣称、既有品线数据不足、自有曝光低；不作为全新品，只作为产品迭代候选。",
+      "score": 60,
+      "title": "Heated Eye Mask Cordless,Silk Eyes Heating Pad for Sleeping,Washable Sleeping Dry Eye Mask for Dry Eyes, Blepharitis, Sinus Migraine"
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0CLD2F2RF",
@@ -610,7 +2096,7 @@
         "status": "需报价复算",
         "target_price": 74.99
       },
-      "rank": 2,
+      "rank": 102,
       "risk": "校准准确性/质保、电池、售后解释成本；缺ABA需求词和Cerebro入口词。",
       "score": 76,
       "title": "SHAHE Digital Torque Wrench 3/8 Inch drive 1.8-60N.m,Electronic Torque Wrench with Preset Value, Buzzer,Bicycle Torque Wrench Tool",
@@ -798,7 +2284,7 @@
         "status": "需报价复算",
         "target_price": 54.99
       },
-      "rank": 3,
+      "rank": 103,
       "risk": "精度/质保是核心退货风险；需要排查专利结构和校准供应链。",
       "score": 74,
       "title": "SUERCUP 1/4-Inch Drive Click Torque Wrench, 18 PCS Bike Torque Wrench Set 3-25Nm, Dual-Direction Adjustable 72 Tooth Click Torque Wrench, Used for Bicycle Maint",
@@ -861,223 +2347,6 @@
           "priority": "P1",
           "product": "咔哒式扭矩扳手",
           "risk_or_next_step": "退货",
-          "section": "开发Brief"
-        }
-      ]
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0GRYTV88T",
-      "asin": "B0GRYTV88T",
-      "brief": {
-        "不要做": "不做过大过重或包装尺寸不确定的款；不虚标承重；不做复杂工具套装；未确认FBA体积费前不进入样品。",
-        "功能组合": "加宽加厚EVA/泡棉垫；可折叠轻量框架；扶手助起身；可拆洗工具袋；圆角防夹手；止滑脚套；礼品化包装。",
-        "图片卖点": "老人园艺跪/起/坐场景；加宽加厚软垫对比；折叠收纳尺寸；承重结构和安全细节；工具袋与礼品化包装。",
-        "核心场景": "除草、种植、修剪时跪下护膝；翻转成座椅休息；工具袋放剪刀手套小铲子；春夏礼品场景。",
-        "核心痛点": "垫子薄、宽度不够、框架晃、承重虚标、折叠后仍大、FBA/退货成本高、工具袋低质、低价铁架不适合作礼物。",
-        "目标用户": "45岁以上庭院/花园用户、膝盖不舒服但仍想园艺的人，以及给父母/祖父母/园艺爱好者送礼的购买者。",
-        "首版规格": "目标售价$49.99；到岸≤$17.29但以FBA体积费复算为准；供应商必须提供折叠后单箱尺寸、毛重、装箱数、承重测试和锁扣/焊点QC。",
-        "验收标准": "先拿包装尺寸/毛重/FBA费；2家供应商回填承重测试和QC；MOQ≤100优先；净利率≥18%；补POE季节曲线和VOC后再决定继续询价。"
-      },
-      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
-      "decisionSuggestion": "进入供应链深度巡查",
-      "diff": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。",
-      "evidence": "已证：ABA+H10\n缺口：POE、供应链、MOQ、FBA\nABA 2026-05-03~09：garden kneeler and seat rank 5,081，较4月初21,583显著上升，Top3 click 31.5%；H10：…",
-      "evidence_tasks": [
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "ABA趋势强、Catalog BSR强，但POE季节曲线/SQP/CPC仍缺",
-          "来源任务/证据": "t_b0589289",
-          "状态": "未闭环｜POE/SQP/CPC缺",
-          "补什么": "POE",
-          "闭环判断": "官方需求较强但POE未闭环"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "补低价摘要和GARDMATE包装/重量占位；非同一供应商",
-          "来源任务/证据": "t_2499ed20+t_f5391e93",
-          "状态": "部分补证｜待人工验证",
-          "补什么": "供应链",
-          "闭环判断": "需人工核同一SKU、承重、包装、证书"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "有低价/MOQ线索但1688/供应商详情需登录态核实",
-          "来源任务/证据": "t_2499ed20",
-          "状态": "部分补证｜待人工验证",
-          "补什么": "MOQ",
-          "闭环判断": "MOQ未闭环"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "已做FBA敏感性；缺同一供应商真实箱规/GW/NW",
-          "来源任务/证据": "t_f5391e93",
-          "状态": "部分补证｜敏感性已算",
-          "补什么": "FBA",
-          "闭环判断": "FBA未闭环，需真实尺寸重量"
-        }
-      ],
-      "gaps": [
-        "POE",
-        "供应链",
-        "MOQ",
-        "FBA",
-        "包装尺寸"
-      ],
-      "gate": {
-        "demand": "通过",
-        "finance": "可试算",
-        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价",
-        "product": "已定义",
-        "supply": "待报价",
-        "voc": "补VOC"
-      },
-      "h10_evidence": [
-        {
-          "H10证据完整度": "Black Box Products+Cerebro+Black Box Keywords(Magnet proxy)+Xray竞品样本已补；仍缺真实ABA/POE/CPC或供应链项按网页缺口保留",
-          "Review门槛": "median 51; P75 302; P90 1001",
-          "产品": "园艺跪凳/座椅｜kneeler and seat",
-          "价格带": "$39.99-$59.99; median $49.99",
-          "入口词": "garden kneeler and seat SV38359; garden kneeler SV32860; garden bench SV17771; garden stool SV14367; gardening stool SV10203",
-          "区块": "数据完整度/开发Brief/报价队列",
-          "可粘贴结论/下一步": "可询价验证但要标季节性/大件风险。H10精确标题快照显示销量强、Review门槛高于前3个，供应链必须先核包装体积、承重和垫子差异化。",
-          "竞争强度": "中偏高：核心词SV高但density 94、P75 Review 302，且大件/季节性抬高进入门槛",
-          "竞品ASIN样本": "B0D8SF443G CZZXI $59.99 u2337 rev$136119 rv1080; B0B7KCG3GW Aimerla $59.99 u1599 rev$92919 rv976; B0D8SL6BB9 CZZXI $59.99 u1395 rev$81345 rv1080; B09P3RK967 OFFICEJOY $40.98 u1895 rev$74932 rv1293; B0B7KW6ZBY Aimerla $59.99 u1130 rev$66569 rv940",
-          "销量/收入": "精确标题快照 18,136件/月, $938,925/月; 网页宏观口径见报告"
-        }
-      ],
-      "human_supply": {
-        "产品ID": "P-SUP-004",
-        "优先级": "中",
-        "到岸成本红线": "≤$17.29 到岸/件",
-        "参考ASIN": "B0GRYTV88T",
-        "开发状态": "待开发",
-        "开发要求": "FOB/EXW价、MOQ、样品费、交期、包装尺寸/重量、认证、可改规格、质检点；至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或说明做不到",
-        "目标售价": "$49.99",
-        "要找什么/关键规格": "加宽软垫、可折叠轻量框架、工具袋、老人园艺场景图；做家用礼品化而不是低价铁架。",
-        "需要找供应商的产品": "园艺跪凳/座椅｜kneeler and seat"
-      },
-      "imageUrl": "https://m.media-amazon.com/images/I/71SNdhy-TtL._SX450_.jpg",
-      "inquiry_spec": {
-        "交期/MOQ字段": "MOQ、阶梯价100/300/500/1000；样品费；样品/大货交期；单箱装量；发货地",
-        "必须问供应商": "展开/折叠/包装尺寸；净重/毛重；管径/壁厚；承重测试；软垫材质和厚度；工具袋材质；是否有防夹手设计；包装跌落；可否压缩包装；是否有承重报告",
-        "报价验收口径": "到岸目标≤$17.29/件；必须先用包装尺寸/重量复算FBA；体积费导致利润低于红线则暂缓或改包装",
-        "样品要求": "1-2个样品；含工具袋和包装；要求承重/稳定性/折叠顺畅视频；样品需量尺寸重量",
-        "询价规格草案": "折叠园艺跪凳/座椅；加宽软垫；钢管/铝管材质待确认；工具袋；防滑脚垫；适合老人园艺；单品包装需适配FBA体积费",
-        "质检重点": "承重、焊点、折叠铰链、防夹手、软垫回弹、脚垫防滑、包装强度、尺寸重量"
-      },
-      "level": "B 季节验证",
-      "market_competition": {
-        "下一棒": "供应链开发-丹找5个产品一致/供应商优质/报价可参考链接，回填利润预估用价",
-        "主要缺口": "POE、供应链、MOQ、FBA、包装尺寸",
-        "利润快照": "目标售价 $49.99；净利率 21.1%；到岸红线 ≤$17.29",
-        "市场规模快照": "市场够大，可测试",
-        "市场规模说明": "月收入口径 $10.57M+；销量 待补；价格带 $39.99-$59.99",
-        "方舟建议总结": "进入供应链深度巡查",
-        "更新时间": "2026-05-13 15:01 CST",
-        "竞争分析快照": "竞争偏强，需谨慎",
-        "竞争分析说明": "竞争强度待补；P75 Review 492；缺口：POE、供应链、MOQ、FBA、包装尺寸"
-      },
-      "official_evidence": [
-        {
-          "下一步": "优先补POE季节曲线截图或导出；供应链拿包装尺寸/毛重/承重测试和管径/垫厚；财神爷用真实尺寸重量复算FBA与利润红线。",
-          "产品": "园艺跪凳/座椅｜garden kneeler and seat",
-          "关键词/ASIN证据": "Catalog：Saker Garden Kneeler and Seat，Workseats/Gardening Workseats，BSR Gardening Workseats #82 / Patio Lawn & Garden #67841；500LB、折叠、侧扶手、工具袋，item weight 11.7 lb，package 20.3×32.5×45.5 cm、5.39 kg。ABA garden kneeler and seat rank：21583(4/05)→11092(4/26)→5081(5/03)，改善76.46%；最新Top3 ASIN B0972Y5LTY/B0CJBF4VTX/B0D1DZLJD3，Top3 click share 31.54%，conv share 22.06%；garden kneeler 最新rank 5645。",
-          "写回时间/来源": "2026-05-13 17:55 CST｜鹰眼 t_b0589289 复核",
-          "官方需求来源": "真实数据：Amazon Catalog ASIN B0GRYTV88T 本次只读读取；已缓存数据：ABA garden kneeler and seat三周趋势、garden kneeler长尾；SQP缓存无匹配；后台截图/导出：POE季节曲线未取得，CPC未取得；推测假设：ABA趋势可代表需求走强但季节性需POE/历史更长周期验证",
-          "是否可进入询价": "足够进入询价验证；Top4中官方需求信号最强，建议P1，但必须把大件/季节/承重风险前置。",
-          "缺口": "仍缺POE季节曲线/SQP/CPC；包装尺寸、FBA体积费、承重测试、退货/售后风险未闭环。"
-        }
-      ],
-      "owner": "鹰眼补POE季节曲线；梁毅丹核包装尺寸/MOQ；财神爷算FBA体积费。",
-      "present": [
-        "ABA",
-        "H10"
-      ],
-      "price": [
-        39.99,
-        59.99
-      ],
-      "product": "园艺跪凳/座椅｜kneeler and seat",
-      "profit": {
-        "ad_est": 7.5,
-        "break_even_acos": 36.1,
-        "cost_high": 17.5,
-        "cost_low": 14.0,
-        "fba_est": 6.2,
-        "landed_est": 15.75,
-        "margin": 21.1,
-        "price_high": 59.99,
-        "price_low": 39.99,
-        "profit": 10.54,
-        "quote_target": 17.29,
-        "referral": 7.5,
-        "reserve": 2.5,
-        "status": "需报价复算",
-        "target_price": 49.99
-      },
-      "rank": 4,
-      "risk": "季节性、体积/重量、承重安全；供应链包装尺寸决定FBA可行性。",
-      "score": 73,
-      "title": "Saker Garden Kneeler and Seat - Gardening Bench Gardening Stool Garden Seat with 500LB Heavy Duty Round-Tube Frame, Soft Kneeling Pad Foldable Support for Elder",
-      "voc_evidence": [
-        {
-          "buyer_quote_or_gap": "直接 ASIN B0GRYTV88T 仅 2 条 Vine review；用 FLINTER 竞品补差评",
-          "expected_feature": "长螺丝+锁紧螺母、加厚管、快装、可拆工具袋",
-          "image_selling_point": "老人起身、承重测试、10min 组装",
-          "painpoint_or_need": "直接证据弱；安全/组装/承重风险高",
-          "priority": "P0",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "需 POE 季节曲线、FBA体积费、承重样品验证",
-          "section": "数据完整度"
-        },
-        {
-          "buyer_quote_or_gap": "“Provided screws are too short to even assemble, let alone be safe”",
-          "expected_feature": "长螺丝、锁紧螺母、备件包",
-          "image_selling_point": "upgraded longer bolts + lock nuts",
-          "painpoint_or_need": "螺丝错误导致无法组装/安全担忧",
-          "priority": "P0",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "无法组装/受伤投诉",
-          "section": "开发Brief"
-        },
-        {
-          "buyer_quote_or_gap": "“tube steel… flex or almost bend… over 200#… heavier duty model”",
-          "expected_feature": "加厚管、横向支撑、承重测试",
-          "image_selling_point": "500lb 动态承重测试",
-          "painpoint_or_need": "承重结构不可信",
-          "priority": "P0",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "承重虚标",
-          "section": "开发Brief"
-        },
-        {
-          "buyer_quote_or_gap": "“Very fiddly… Assembly took about 45 minutes”",
-          "expected_feature": "半预装/10分钟装完",
-          "image_selling_point": "10-min assembly",
-          "painpoint_or_need": "组装耗时长，老人不友好",
-          "priority": "P1",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "装不上退货",
-          "section": "开发Brief"
-        },
-        {
-          "buyer_quote_or_gap": "“tools… not very stout and start to strip” / “sharp burrs”",
-          "expected_feature": "更结实工具、倒角去毛刺",
-          "image_selling_point": "工具包升级+rounded edges",
-          "painpoint_or_need": "工具差、毛刺割手",
-          "priority": "P1",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "安全投诉",
-          "section": "开发Brief"
-        },
-        {
-          "buyer_quote_or_gap": "“tool pouch… would just get in the way” / “Does NOT Fold.”",
-          "expected_feature": "可拆工具袋、明确折叠尺寸",
-          "image_selling_point": "removable pouch + folded size",
-          "painpoint_or_need": "工具袋位置和折叠信息影响使用/误购",
-          "priority": "P2",
-          "product": "园艺跪凳/座椅",
-          "risk_or_next_step": "误购/体积退货",
           "section": "开发Brief"
         }
       ]
@@ -1167,83 +2436,10 @@
         "status": "需报价复算",
         "target_price": 39.99
       },
-      "rank": 5,
+      "rank": 105,
       "risk": "材质同质化、尺寸/承重差评、木板/金属包装破损；缺H10 Xray与供应商成本。",
       "score": 70,
       "title": "Adjustable Monitor Stand / Desktop Organizer sample"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/dp/B0FQP1V81D",
-      "asin": "B0FQP1V81D",
-      "cost_redline": "到岸成本红线假设$11.20-21.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
-      "decisionSuggestion": "继续补证后再判断",
-      "diff": "无线/定时/恒温、安全断电、亲肤面料，合规表达从“dry eye relief”降到“warm compress comfort”。",
-      "evidence": "已证：ABA+SQP\n缺口：供应链\nABA：heated eye mask rank 11,051，Top3 click 27.6%；dry eye mask rank 90,224，Top3 click 43.1…",
-      "evidence_tasks": [
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "新增10链路补到眼罩官方/VOC/合规风险，但供应商硬字段未闭环",
-          "来源任务/证据": "t_325ba2c8",
-          "状态": "部分补证｜合规/供应链待验证",
-          "补什么": "供应链",
-          "闭环判断": "作为现有品线迭代，需供应链小改款验证"
-        }
-      ],
-      "gaps": [
-        "供应链"
-      ],
-      "gate": {
-        "demand": "通过",
-        "finance": "可试算",
-        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价",
-        "product": "已定义",
-        "supply": "待报价",
-        "voc": "补VOC"
-      },
-      "imageUrl": "https://m.media-amazon.com/images/I/71YfcU9jdoL._SX450_.jpg",
-      "level": "B 品线迭代",
-      "market_competition": {
-        "下一棒": "鹰眼/H10/VOC补齐关键缺口",
-        "主要缺口": "供应链",
-        "利润快照": "目标售价 $49.99；净利率 21.1%；到岸红线 ≤$17.29",
-        "市场规模快照": "规模偏小，谨慎",
-        "市场规模说明": "月收入口径 待补；销量 待补；价格带 $39.99-$59.99",
-        "方舟建议总结": "继续补证后再判断",
-        "更新时间": "2026-05-13 15:01 CST",
-        "竞争分析快照": "中等竞争，需要差异化",
-        "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：供应链"
-      },
-      "owner": "鹰眼补自有SQP/广告搜索词；品牌/合规确认表达边界；供应链暂不询价。",
-      "present": [
-        "ABA",
-        "SQP"
-      ],
-      "price": [
-        39.99,
-        59.99
-      ],
-      "product": "加热/干眼眼罩迭代｜无线舒适款",
-      "profit": {
-        "ad_est": 7.5,
-        "break_even_acos": 36.1,
-        "cost_high": 17.5,
-        "cost_low": 14.0,
-        "fba_est": 6.2,
-        "landed_est": 15.75,
-        "margin": 21.1,
-        "price_high": 59.99,
-        "price_low": 39.99,
-        "profit": 10.54,
-        "quote_target": 17.29,
-        "referral": 7.5,
-        "reserve": 2.5,
-        "status": "需报价复算",
-        "target_price": 49.99
-      },
-      "rank": 6,
-      "risk": "医疗功效宣称、既有品线数据不足、自有曝光低；不作为全新品，只作为产品迭代候选。",
-      "score": 70,
-      "title": "Heated Eye Mask Cordless,Silk Eyes Heating Pad for Sleeping,Washable Sleeping Dry Eye Mask for Dry Eyes, Blepharitis, Sinus Migraine"
     },
     {
       "amazonUrl": "https://www.amazon.com/s?k=silicone+spatula",
@@ -1337,7 +2533,7 @@
         "status": "需报价复算",
         "target_price": 30.49
       },
-      "rank": 7,
+      "rank": 107,
       "risk": "价格容易低于$25、食品接触合规、红海低价；必须证明套装能卖>$25。",
       "score": 64,
       "title": null
@@ -1409,107 +2605,10 @@
         "status": "需报价复算",
         "target_price": 54.99
       },
-      "rank": 8,
+      "rank": 108,
       "risk": "3C/售后、成像质量预期、品牌/IP和退货；低价段拉低利润。",
       "score": 63,
       "title": "Kodak Funsaver Disposable Camera Bulk one time Single use 7-Pack 27exp 35mm Camera Bundled with Balveli Premium Microfiber Cloths - Bulk Kodak Disposable Film C"
-    },
-    {
-      "amazonUrl": "https://www.amazon.com/s?k=gift+wrap+organizer",
-      "asin": null,
-      "cost_redline": "到岸成本红线假设$8.40-14.00（按售价约28%-35%粗估，未含精确FBA/广告；需报价后复算）",
-      "decisionSuggestion": "继续补证后再判断",
-      "diff": "床下/壁挂两用、硬挺隔层、标签卡、礼品袋/丝带/剪刀一体收纳。",
-      "evidence": "已证：ABA\n缺口：H10、包装尺寸\nABA：gift wrapping organizer storage rank 117,981，Top3 click 28.3%；gift bag organizer rank…",
-      "evidence_tasks": [
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "新增10链路有官方/VOC，但H10完整样本未补",
-          "来源任务/证据": "t_325ba2c8",
-          "状态": "未闭环｜H10未补全",
-          "补什么": "H10",
-          "闭环判断": "仍待H10"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "gift organizer箱规/压缩包装仍未闭环",
-          "来源任务/证据": "t_325ba2c8",
-          "状态": "未闭环｜包装尺寸待补",
-          "补什么": "包装尺寸",
-          "闭环判断": "仍待供应链"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "未补高相关ASIN/imageUrl/样本指标",
-          "来源任务/证据": "t_325ba2c8",
-          "状态": "未闭环｜代表ASIN待补",
-          "补什么": "代表ASIN/图片",
-          "闭环判断": "仍待H10"
-        },
-        {
-          "更新时间": "2026-05-13 19:16 CST",
-          "最新补证结果": "未形成完整ASIN、价格、月销额、Review、BSR",
-          "来源任务/证据": "t_325ba2c8",
-          "状态": "未闭环｜H10样本指标待补",
-          "补什么": "H10样本指标",
-          "闭环判断": "仍待H10"
-        }
-      ],
-      "gaps": [
-        "H10",
-        "包装尺寸"
-      ],
-      "gate": {
-        "demand": "通过",
-        "finance": "可试算",
-        "next_action": "到「供应链报价队列」选1-3个确认是否允许外联询价",
-        "product": "已定义",
-        "supply": "待报价",
-        "voc": "补VOC"
-      },
-      "imageUrl": null,
-      "level": "C 季节备选",
-      "market_competition": {
-        "下一棒": "鹰眼/H10/VOC补齐关键缺口",
-        "主要缺口": "H10、包装尺寸",
-        "利润快照": "目标售价 $34.99；净利率 18.6%；到岸红线 ≤$11.24",
-        "市场规模快照": "规模偏小，谨慎",
-        "市场规模说明": "月收入口径 待补；销量 待补；价格带 $29.99-$39.99",
-        "方舟建议总结": "继续补证后再判断",
-        "更新时间": "2026-05-13 15:01 CST",
-        "竞争分析快照": "中等竞争，需要差异化",
-        "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：H10、包装尺寸"
-      },
-      "owner": "鹰眼补多周季节曲线；H10补竞品收入；梁毅丹核可压缩包装。",
-      "present": [
-        "ABA"
-      ],
-      "price": [
-        29.99,
-        39.99
-      ],
-      "product": "礼品包装/礼品袋收纳｜节日整理",
-      "profit": {
-        "ad_est": 5.25,
-        "break_even_acos": 33.6,
-        "cost_high": 12.25,
-        "cost_low": 9.8,
-        "fba_est": 5.2,
-        "landed_est": 11.03,
-        "margin": 18.6,
-        "price_high": 39.99,
-        "price_low": 29.99,
-        "profit": 6.51,
-        "quote_target": 11.24,
-        "referral": 5.25,
-        "reserve": 1.75,
-        "status": "需报价复算",
-        "target_price": 34.99
-      },
-      "rank": 9,
-      "risk": "强季节性、收纳袋体积、部分词集中偏高；缺H10收入和Review尺寸痛点。",
-      "score": 62,
-      "title": null
     },
     {
       "amazonUrl": "https://www.amazon.com/s?k=rv+storage+organizer",
@@ -1603,7 +2702,7 @@
         "status": "需报价复算",
         "target_price": 39.99
       },
-      "rank": 10,
+      "rank": 110,
       "risk": "关键词场景窄、尺寸兼容/承重、可能大件；缺销量、价格带和VOC。",
       "score": 60,
       "title": null
@@ -1616,6 +2715,12 @@
       "采样记录表"
     ],
     "checked_main_tabs": [
+      "方舟寻找需求收口",
+      "网页新增候选池",
+      "网页寻找需求任务队列",
+      "Top4补证队列",
+      "官方源续补",
+      "H10剩余补证",
       "每日Top10推荐",
       "市场竞争方舟总结",
       "Top4产品定义Brief",
@@ -1632,5 +2737,5 @@
     "missing_tabs": []
   },
   "updated_at": "2026-05-13 12:23 CST",
-  "web_synced_at": "2026-05-13 19:22 CST"
+  "web_synced_at": "2026-05-14 05:44 CST"
 }
