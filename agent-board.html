@@ -683,7 +683,11 @@
   </div>
 
   <script>
-    const API_BASE = 'https://bouquet-portal-encryption-treatment.trycloudflare.com';
+    const API_BASES = [
+      'https://hermes.49.51.244.86.sslip.io',
+      'https://bouquet-portal-encryption-treatment.trycloudflare.com'
+    ];
+    let activeApiBase = API_BASES[0];
     const PRODUCT_DASHBOARD = 'https://saralau0223.github.io/coovoamae-product-dashboard-web/';
     const state = {
       currentBoard: '',
@@ -741,8 +745,8 @@
       return `${Math.floor(seconds / 86400)} 天前`;
     }
 
-    function endpoint(path, params = {}) {
-      const url = new URL(path, API_BASE);
+    function endpoint(base, path, params = {}) {
+      const url = new URL(path, base);
       Object.entries(params).forEach(([key, value]) => {
         if (value !== undefined && value !== null && value !== '') url.searchParams.set(key, value);
       });
@@ -750,12 +754,21 @@
     }
 
     async function fetchJson(path, params) {
-      const res = await fetch(endpoint(path, params), { cache: 'no-store' });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok || data.ok === false) {
-        throw new Error(data.error || `HTTP ${res.status}`);
+      const errors = [];
+      for (const base of API_BASES) {
+        try {
+          const res = await fetch(endpoint(base, path, params), { cache: 'no-store' });
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok || data.ok === false) {
+            throw new Error(data.error || `HTTP ${res.status}`);
+          }
+          activeApiBase = base;
+          return data;
+        } catch (err) {
+          errors.push(`${base}: ${err.message || err}`);
+        }
       }
-      return data;
+      throw new Error(errors.join(' / '));
     }
 
     function groupedTasks() {
@@ -883,7 +896,8 @@
         state.tasks = data.tasks || [];
         state.assignees = data.assignees || {};
         renderMetrics(data.counts || {});
-        $('subtitle').textContent = `Hermes Kanban · ${timeText(data.generated_at)}`;
+        const sourceLabel = activeApiBase.includes('sslip.io') ? '固定接口' : '备用隧道';
+        $('subtitle').textContent = `Hermes Kanban · ${sourceLabel} · ${timeText(data.generated_at)}`;
         render();
       } catch (err) {
         $('subtitle').textContent = 'Hermes Kanban · 读取失败';
