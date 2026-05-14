@@ -25,6 +25,7 @@ MAIN_TABS = [
     "Top4补证队列",
     "官方源续补",
     "H10剩余补证",
+    "供应链人工验证清单",
     "每日Top10推荐",
     "市场竞争方舟总结",
     "Top4产品定义Brief",
@@ -40,7 +41,7 @@ MAIN_TABS = [
 ]
 SUP_TABS = ["需要找供应商的产品表", "采样记录表"]
 
-PRIVATE_HEADERS = {"供应商名称", "供应商链接", "联系人/备注", "供应商名称/链接", "负责人"}
+PRIVATE_HEADERS = {"供应商名称", "供应商链接", "联系人", "联系方式", "备注", "负责人", "token", "key"}
 IMAGE_HEADERS = ["imageUrl", "图片URL", "图片url", "图片链接", "主图URL", "主图链接", "H10图片URL", "H10主图URL"]
 
 
@@ -379,10 +380,15 @@ def clean_public_dict(d: Dict[str, str], keep: List[str]) -> Dict[str, str]:
     out = {}
     for k in keep:
         if k in d and d.get(k):
-            if k in PRIVATE_HEADERS:
+            if is_private_header(k):
                 continue
             out[k] = d[k]
     return out
+
+
+def is_private_header(k: str) -> bool:
+    lk = str(k).lower()
+    return any(h.lower() in lk for h in PRIVATE_HEADERS)
 
 
 def is_example_row(d: Dict[str, str]) -> bool:
@@ -401,8 +407,13 @@ def main() -> None:
     for it in items:
         it.pop("supplyToken", None)
         it.pop("supplyKey", None)
+        it.pop("owner", None)
         # Rebuilt on every sync from 飞书《补证任务队列》F:J to avoid stale rows.
         it.pop("evidence_tasks", None)
+        # Rebuilt on every sync from the three supplement closure sheets.
+        it.pop("h10_remaining", None)
+        it.pop("official_followup", None)
+        it.pop("human_verification", None)
 
     tok = token()
     h = headers(tok)
@@ -522,8 +533,7 @@ def main() -> None:
                 it["diff"] = d["差异化"]
             if d.get("风险"):
                 it["risk"] = d["风险"]
-            if d.get("下一步") or d.get("下一步/负责人"):
-                it["owner"] = d.get("下一步") or d.get("下一步/负责人")
+            # Do not expose owner/person fields on the public static page.
 
     # Market / competition / Ark.
     for d in rows_by_header(fetched.get("主表/市场竞争方舟总结", []), 0):
@@ -599,7 +609,7 @@ def main() -> None:
             if not it:
                 continue
             # Limit to first 6 per source to keep page light.
-            public = {k: v for k, v in d.items() if k not in PRIVATE_HEADERS and v}
+            public = {k: v for k, v in d.items() if not is_private_header(k) and v}
             grouped.setdefault(it["product"], []).append(public)
         for it in items:
             if grouped.get(it.get("product", "")):
@@ -636,6 +646,70 @@ def main() -> None:
         "manual_verify": count_queue_status("待人工验证"),
         "not_updated": count_queue_status("未更新"),
         "latest_update": evidence_queue_latest,
+    }
+
+    # New supplement closure sheets written by specialist agents.
+    # Expose only public status/evidence/checklist fields; keep supplier identities,
+    # private links and any writeback credentials out of the browser dataset.
+    h10_remaining_rows: List[Dict[str, str]] = []
+    for d in rows_by_header(fetched.get("主表/H10剩余补证", []), 0):
+        product = d.get("产品") or ""
+        if not product or product.startswith("写回时间"):
+            continue
+        public = clean_public_dict(d, [
+            "产品", "补什么", "入口词", "ASIN", "imageUrl", "价格", "月销额", "Review", "BSR", "相关性判断", "仍缺字段"
+        ])
+        if not public:
+            continue
+        h10_remaining_rows.append(public)
+        it = find_item(items, product)
+        if it:
+            it.setdefault("h10_remaining", []).append({k: v for k, v in public.items() if k != "产品"})
+
+    official_followup_rows: List[Dict[str, str]] = []
+    for d in rows_by_header(fetched.get("主表/官方源续补", []), 0):
+        product = d.get("产品") or ""
+        if not product:
+            continue
+        public = clean_public_dict(d, ["产品", "缺口", "能否补到", "证据/失败原因", "下一步", "是否需要人工权限"])
+        if not public:
+            continue
+        official_followup_rows.append(public)
+        it = find_item(items, product)
+        if it:
+            it.setdefault("official_followup", []).append({k: v for k, v in public.items() if k != "产品"})
+
+    human_verification_rows: List[Dict[str, str]] = []
+    human_verification_latest = ""
+    for d in rows_by_header(fetched.get("主表/供应链人工验证清单", []), 0):
+        product = d.get("产品方向") or d.get("产品") or ""
+        if not product:
+            continue
+        public = clean_public_dict(d, [
+            "优先级", "产品方向", "未闭环字段", "当前F:J状态", "最新补证结果", "闭环判断", "只读验证清单", "人工登录/页面截图需核字段", "建议负责人/动作", "来源任务/证据", "更新时间", "执行边界"
+        ])
+        if not public:
+            continue
+        human_verification_rows.append(public)
+        if public.get("更新时间") and public["更新时间"] > human_verification_latest:
+            human_verification_latest = public["更新时间"]
+        it = find_item(items, product)
+        if it:
+            it.setdefault("human_verification", []).append({k: v for k, v in public.items() if k != "产品方向"})
+
+    def count_rows(rows: List[Dict[str, str]], *needles: str) -> int:
+        return sum(1 for r in rows if any(n in " ".join(r.values()) for n in needles))
+
+    supplement_three_summary = {
+        "h10_remaining_total": len(h10_remaining_rows),
+        "h10_fields_completed": count_rows(h10_remaining_rows, "已补"),
+        "h10_still_missing": count_rows(h10_remaining_rows, "仍缺"),
+        "official_followup_total": len(official_followup_rows),
+        "official_unclosed": count_rows(official_followup_rows, "未补", "不闭环", "缺口"),
+        "official_manual_required": sum(1 for r in official_followup_rows if "是" in r.get("是否需要人工权限", "")),
+        "human_verification_total": len(human_verification_rows),
+        "human_verification_p0": sum(1 for r in human_verification_rows if r.get("优先级") == "P0"),
+        "latest_update": max([evidence_queue_latest, human_verification_latest, ""]),
     }
 
     # Human supply simple table.
@@ -693,6 +767,10 @@ def main() -> None:
         "evidence_queue_updated_at": evidence_queue_latest,
         "evidence_queue_summary": evidence_queue_summary,
         "evidence_queue_rows": evidence_queue_rows[:80],
+        "h10_remaining_rows": h10_remaining_rows[:80],
+        "official_followup_rows": official_followup_rows[:80],
+        "human_verification_rows": human_verification_rows[:80],
+        "supplement_three_summary": supplement_three_summary,
         "discovery_result": discovery_result,
         "sync_scope": {
             "checked_main_tabs": MAIN_TABS,
@@ -717,7 +795,7 @@ def main() -> None:
         count=1,
         flags=re.S,
     )
-    page_version = f"{now}｜飞书最新展示字段同步"
+    page_version = f"{now}｜飞书最新展示字段同步｜手机端紧凑优化"
     html2 = re.sub(
         r"const PAGE_VERSION='[^']*';",
         lambda _m: "const PAGE_VERSION='" + page_version + "';",
@@ -742,6 +820,11 @@ def main() -> None:
         "evidence_queue_unclosed": evidence_queue_summary["unclosed"],
         "evidence_queue_manual_verify": evidence_queue_summary["manual_verify"],
         "evidence_queue_latest_update": evidence_queue_latest,
+        "h10_remaining_total": supplement_three_summary["h10_remaining_total"],
+        "official_followup_total": supplement_three_summary["official_followup_total"],
+        "official_manual_required": supplement_three_summary["official_manual_required"],
+        "human_verification_total": supplement_three_summary["human_verification_total"],
+        "supplement_three_latest_update": supplement_three_summary["latest_update"],
         "discovery_top10": len(discovery_result.get("top10", [])),
         "discovery_followups": len(discovery_result.get("followup_summaries", [])),
     }

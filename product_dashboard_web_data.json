@@ -2,7 +2,6 @@
   "discovery_result": {
     "candidate_pool_rows": [
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "园艺跪凳/座椅",
         "优先级": "P0",
         "创建方式": "寻找需求收口",
@@ -14,7 +13,6 @@
         "请求ID": "WEB-A4D43BC96C39-R01"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "手摇/手动酸面包切片器",
         "优先级": "P0",
         "创建方式": "寻找需求收口",
@@ -26,7 +24,6 @@
         "请求ID": "WEB-A4D43BC96C39-R02"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "口袋孔夹具套装",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -38,7 +35,6 @@
         "请求ID": "WEB-A4D43BC96C39-R03"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "数显/咔哒式扭矩扳手",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -50,7 +46,6 @@
         "请求ID": "WEB-A4D43BC96C39-R04"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "刹车油排气/真空泵套装",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -62,7 +57,6 @@
         "请求ID": "WEB-A4D43BC96C39-R05"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "365nm UV可充电手电",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -74,7 +68,6 @@
         "请求ID": "WEB-A4D43BC96C39-R06"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "番茄支架/植物支撑",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -86,7 +79,6 @@
         "请求ID": "WEB-A4D43BC96C39-R07"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "浇灌定时器",
         "优先级": "P1",
         "创建方式": "寻找需求收口",
@@ -98,7 +90,6 @@
         "请求ID": "WEB-A4D43BC96C39-R08"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "礼品包装/礼品袋收纳",
         "优先级": "P2",
         "创建方式": "寻找需求收口",
@@ -110,7 +101,6 @@
         "请求ID": "WEB-A4D43BC96C39-R09"
       },
       {
-        "下一步负责人": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
         "产品/关键词/链接": "加热/干眼眼罩迭代",
         "优先级": "P2",
         "创建方式": "寻找需求收口",
@@ -400,7 +390,6 @@
         "具体动作": "查 pet urine UV flashlight / 365nm UV flashlight / blacklight pet stains 等词的ABA rank、Top clicked ASIN、click/conversion share；补POE需求簇和CPC/广告词成本",
         "权限边界": "只读数据，不改后台",
         "补证类型": "ABA/POE/CPC",
-        "负责人建议": "鹰眼",
         "验收标准": "能给出3-5个真实需求词、Top3点击集中度、是否品牌垄断、CPC区间"
       },
       {
@@ -409,7 +398,6 @@
         "具体动作": "把已有Review Insights 16个痛点转成买家原话、痛点频次、功能优先级",
         "权限边界": "只读评论，不联系买家",
         "补证类型": "VOC原话",
-        "负责人建议": "客户洞察",
         "验收标准": "至少10条可引用买家原话；亮度/续航/发热/磁吸/说明书按优先级排序"
       },
       {
@@ -418,7 +406,6 @@
         "具体动作": "仅准备L0/L1关键词，不外联；确认电池、Type-C、UN38.3/MSDS、说明书安全警示需报价字段",
         "权限边界": "不询价、不旺旺、不下单",
         "补证类型": "认证/供应链准备",
-        "负责人建议": "梁毅丹",
         "验收标准": "形成关键词+必问问题；不把L0/L1当真实供应商推荐"
       },
       {
@@ -427,7 +414,6 @@
         "具体动作": "补 digital torque wrench / electronic torque wrench / bike torque wrench 等入口词，排除 impact wrench 误抓",
         "权限边界": "只读数据",
         "补证类型": "ABA+Cerebro入口词",
-        "负责人建议": "鹰眼/H10",
         "验收标准": "明确主入口词和误抓词；能判断是否有低Review高销量窗口"
       },
       {
@@ -436,7 +422,6 @@
         "具体动作": "抓差评中的accuracy、calibration、battery、display、instruction、warranty问题",
         "权限边界": "只读评论",
         "补证类型": "VOC/售后风险",
-        "负责人建议": "客户洞察",
         "验收标准": "输出差评主题频次+应写进规格/说明书的要求"
       },
       {
@@ -445,7 +430,6 @@
         "具体动作": "准备询价字段：校准证书样张、精度范围、复校政策、质保、电池类型、包装重量",
         "权限边界": "不外联",
         "补证类型": "校准资料字段",
-        "负责人建议": "梁毅丹",
         "验收标准": "报价前字段模板完整，可给供应商执行"
       },
       {
@@ -454,7 +438,6 @@
         "具体动作": "抓机械款差评；准备咔哒式/自行车扭矩扳手中文关键词；排查明显专利结构",
         "权限边界": "只读，不询价",
         "补证类型": "VOC/IP/供应链风险",
-        "负责人建议": "客户洞察+梁毅丹",
         "验收标准": "列出必须规避结构和QC测试点"
       },
       {
@@ -463,7 +446,6 @@
         "具体动作": "按$54.99售价、到岸≤$18.34做FBA/广告敏感性模板，等报价后复算",
         "权限边界": "不做采购决策",
         "补证类型": "利润复算准备",
-        "负责人建议": "财神爷",
         "验收标准": "报价回来可直接判断净利率≥18%/毛利≥40%"
       },
       {
@@ -472,7 +454,6 @@
         "具体动作": "补POE/ABA历史曲线，确认是否只靠春夏旺季，估算淡季销量底盘",
         "权限边界": "只读数据",
         "补证类型": "POE季节曲线",
-        "负责人建议": "鹰眼",
         "验收标准": "有旺季/淡季需求判断和下一次复核时间"
       },
       {
@@ -481,7 +462,6 @@
         "具体动作": "准备尺寸/毛重/折叠后体积/承重测试/装箱数回填字段；按报价尺寸测FBA费",
         "权限边界": "不外联、不索样，待刘希确认",
         "补证类型": "包装/FBA硬门槛",
-        "负责人建议": "梁毅丹+财神爷",
         "验收标准": "若包装尺寸导致利润不达标，直接暂缓；不进入样品"
       }
     ],
@@ -498,7 +478,188 @@
   },
   "evidence_queue_updated_at": "",
   "evidence_queue_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc",
+  "h10_remaining_rows": [
+    {
+      "ASIN": "B0DJKSMV2T",
+      "BSR": "Desktop & Off-Surface Shelves #1; salesRank 336",
+      "Review": "2643",
+      "imageUrl": "https://m.media-amazon.com/images/I/41gO3CCIg1L._SX450_.jpg",
+      "产品": "桌面显示器架+收纳｜办公桌面整理",
+      "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+      "价格": "$28.99",
+      "入口词": "monitor stand with drawer",
+      "月销额": "$201,907.30",
+      "相关性判断": "高相关：标题含 Dual Monitor Stand Riser / Desk Organizer / Drawer，符合显示器架+桌面收纳",
+      "补什么": "H10/代表ASIN/图片/样本指标"
+    },
+    {
+      "ASIN": "B0B7J62MV9",
+      "BSR": "Spatulas #8; salesRank 1027",
+      "Review": "4571",
+      "imageUrl": "https://m.media-amazon.com/images/I/41hB8REZ+aL._SX450_.jpg",
+      "产品": "硅胶刮刀套装｜厨房烘焙工具",
+      "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+      "价格": "$5.99",
+      "入口词": "silicone spatula set",
+      "月销额": "$34,818.31",
+      "相关性判断": "高相关：标题含 Silicone Spatula Set，子类 Spatulas",
+      "补什么": "H10/代表ASIN/图片/样本指标"
+    },
+    {
+      "ASIN": "B0C5RSGP9J",
+      "BSR": "Gift Wrap Storage #12; salesRank 40730",
+      "Review": "1022",
+      "imageUrl": "https://m.media-amazon.com/images/I/71aujZCx9oL._SX450_.jpg",
+      "产品": "礼品包装/礼品袋收纳｜节日整理",
+      "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+      "价格": "$19.99",
+      "入口词": "gift bag organizer storage",
+      "月销额": "$13,004.16",
+      "相关性判断": "高相关：标题含 Wrapping Paper Storage / Gift Wrap Organizer / Hanging Gift Bag Storage",
+      "补什么": "H10/代表ASIN/图片/样本指标"
+    },
+    {
+      "ASIN": "B0BHSLV537",
+      "BSR": "Hanging Shoe Organizers #14; salesRank 45452",
+      "Review": "738",
+      "imageUrl": "https://m.media-amazon.com/images/I/81T-Rha1NaL._SX450_.jpg",
+      "产品": "RV小空间收纳｜房车/露营整理",
+      "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+      "价格": "$17.99",
+      "入口词": "rv bedside storage organizer",
+      "月销额": "$13,026.72",
+      "相关性判断": "高相关：标题含 RV Shoe Pockets / Hanging Bedside Storage Organizer，符合房车床边/小空间悬挂收纳",
+      "补什么": "H10/代表ASIN/图片/样本指标"
+    }
+  ],
   "human_supply_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/Se6OsbdbIhq73TtbQCPckIPrnsg",
+  "human_verification_rows": [
+    {
+      "产品方向": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+      "人工登录/页面截图需核字段": "人工登录1688核offer 859816420001、954713555413、735466136044：价格阶梯、MOQ、店铺年限、厂家/贸易身份、是否同款Type-C/黑镜/四锂电；页面可见365±5nm实测/光谱图、ZWB2滤镜参数、MSDS/UN38.3/CE/FCC/RoHS、单品包装尺寸/GW/NW/装箱数；不可旺旺询价",
+      "优先级": "P0",
+      "只读验证清单": "只读整理MIC/公开页低价对照与1688 offer线索；对照Seatyle US$2.38-2.88/MOQ100、Tuliang US$5.00-7.50/MOQ20、已见包装17.5*7.5*4.5cm/0.3kg；标注所有价格非正式报价",
+      "当前F:J状态": "部分补证｜待人工验证",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "补到Seatyle公开低价参考；1688因风控缺价/MOQ；365nm/滤镜/电池/认证/包装仍缺",
+      "未闭环字段": "真365nm/滤镜/锂电认证/包装尺寸/MOQ/FBA",
+      "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第6行",
+      "闭环判断": "未闭环，需人工登录/正式报价/认证实证"
+    },
+    {
+      "产品方向": "数显扭矩扳手｜DIY/自行车/汽车维护",
+      "人工登录/页面截图需核字段": "人工登录1688核offer 927522751927：SWM-60是否1.8-60N.m/240mm、驱动头是否3/8、价格阶梯、MOQ、小单样品规则、精度±%、校准证书样张/编号追溯、包装尺寸/GW/NW、收纳盒、电池/说明书、质保、厂家/OEM身份；若源头价超红线再交产品开发判断是否改定义",
+      "优先级": "P0",
+      "只读验证清单": "只读对照思为SWM-60线索与MIC/Jiexili/QIDA公开价；记录Jiexili US$19.50-26.20仅规格泛化、QIDA US$105-195偏高；不把扭矩适配器替代完整数显扳手",
+      "当前F:J状态": "未闭环｜官方细分词缺口",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "digital/electronic/bike torque ABA三周0匹配；POE/SQP/CPC未取得；供应链侧SWM-60源头价未闭环",
+      "未闭环字段": "SWM-60价格/MOQ/3/8头/精度/校准证书/包装",
+      "来源任务/证据": "t_b0589289+t_3c673e94；t_2499ed20；F:J第7行",
+      "闭环判断": "低优先级，需官方词和源头价补证"
+    },
+    {
+      "产品方向": "咔哒式扭矩扳手｜低电/机械款",
+      "人工登录/页面截图需核字段": "人工登录1688 25nm扭矩扳手类目，优先核深圳万瑞特：¥43.88是否完整套装、1-25/2-25/3-25Nm、72齿、双向、±3/4%误差、校准证书/accuracy report、棘轮寿命、套筒/延长杆/收纳盒清单、单品包装尺寸/GW/NW、装箱数、MOQ、店铺年限/厂家身份",
+      "优先级": "P0",
+      "只读验证清单": "只读整理万瑞特¥43.88摘要、SHALL 2-25Nm 72齿21PCS US$11.80-13/MOQ300、Hongtu对照；拆分3/8 spark plug set与1/4 bike 3-25Nm两条规格",
+      "当前F:J状态": "部分补证｜可询价验证候选",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "补到万瑞特¥43.88、SHALL $11.80-13公开线索；利润情景达标但非正式报价/包装缺",
+      "未闭环字段": "校准证书/套装清单/包装尺寸/GW/MOQ",
+      "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第8行",
+      "闭环判断": "可进询价验证候选，不可采购结论"
+    },
+    {
+      "产品方向": "园艺跪凳/座椅｜kneeler and seat",
+      "人工登录/页面截图需核字段": "人工打开义乌/1688同款：同一SKU单支+工具袋组合价、MOQ、是否含工具袋/配件、折叠/展开/单品包装尺寸、GW/NW、外箱尺寸/装箱数、管径/壁厚、EVA厚度、承重测试报告、跌落/夹手安全、焊接/喷涂、是否能中性包装；100kg不能改写500lb",
+      "优先级": "P0",
+      "只读验证清单": "只读整理义乌/1688单支¥34.73+大布袋¥4.74、GARDMATE 60*27*14cm/2.5kg/100kg/1pc mail box占位；明确低价与包装不是同一供应商，不能拼成采购结论",
+      "当前F:J状态": "部分补证｜待人工验证/敏感性已算",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "补低价摘要和GARDMATE包装/重量占位；非同一供应商；有低价/MOQ线索但1688详情需登录态；已做FBA敏感性但缺真实箱规",
+      "未闭环字段": "同一SKU价格+工具袋+包装+承重+MOQ+FBA",
+      "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第10-12行",
+      "闭环判断": "需人工核同一SKU、承重、包装、证书；FBA未闭环，需真实尺寸重量"
+    },
+    {
+      "产品方向": "桌面显示器架+收纳｜办公桌面整理",
+      "人工登录/页面截图需核字段": "人工登录1688核显示器增高架 抽屉 竹制/木质/PVC：同款规格、单品包装尺寸/GW/NW、外箱/装箱数、承重测试、板材厚度/材质、气味/FSC或环保声明、EPE/护角/跌落包装、抽屉滑轨、MOQ、是否支持中性/彩盒",
+      "优先级": "P1",
+      "只读验证清单": "只读复核已有公开线索：PVC US$2.40-2.60/MOQ500、52*21*4cm/1.0kg；竹制US$12.10-13.40/MOQ500、55*33*13cm；金属/支架类不要混入木竹增高架定义",
+      "当前F:J状态": "未更新｜待供应链/待包装尺寸",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "未见新供应链硬字段输出；未见箱规/重量输出",
+      "未闭环字段": "供应链/包装尺寸/承重/跌落/MOQ",
+      "来源任务/证据": "巡检19:16；t_8a35e77c公开供应链预筛；F:J第14-15行",
+      "闭环判断": "仍待供应链只读预筛；仍待供应链/财神爷"
+    },
+    {
+      "产品方向": "加热/干眼眼罩迭代｜无线舒适款",
+      "人工登录/页面截图需核字段": "人工登录/现有供应商资料只读核：电池容量/型号、是否锂电、温控IC、加热片方案、过温保护、自动断电、3档温度、可拆洗结构、面料接触安全、CE/FCC/RoHS/MSDS/UN38.3、单品包装尺寸/GW/NW、装箱数、MOQ；页面不得出现治疗干眼/医疗功效承诺",
+      "优先级": "P1",
+      "只读验证清单": "只读复核公开线索：Texpro US$9.30/9.86、MOQ1000、30*10*5cm/0.2kg；Highview US$8-25/MOQ1000；先区分USB有线、锂电无线、一次性蒸汽眼罩路线",
+      "当前F:J状态": "部分补证｜合规/供应链待验证",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "新增10链路补到眼罩官方/VOC/合规风险，但供应商硬字段未闭环",
+      "未闭环字段": "供应链硬字段/电热认证/锂电/包装尺寸",
+      "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第16行",
+      "闭环判断": "作为现有品线迭代，需供应链小改款验证"
+    },
+    {
+      "产品方向": "胶片相机｜复古入门拍照",
+      "人工登录/页面截图需核字段": "人工登录核：是否真正35mm胶片/一次性/可重复装卷、是否含胶卷/电池/闪光灯、单品包装尺寸/GW/NW、纸盒/礼盒、MOQ、CE/FCC/RoHS/电池/3C或运输要求、镜头/成像样张、退货售后/IP外观风险；若只是儿童数码相机不能当复古胶片相机供应链",
+      "优先级": "P2",
+      "只读验证清单": "只读整理公开线索：一次性35mm纸盒US$2.65-5.19/MOQ100；儿童数码类US$21/MOQ100但偏离胶片定义；标注不建议优先",
+      "当前F:J状态": "未更新｜待供应链",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "胶片相机本轮无新供应链输出",
+      "未闭环字段": "供应链/包装尺寸/认证/成像质量/IP",
+      "来源任务/证据": "巡检19:16；t_8a35e77c；F:J第21行",
+      "闭环判断": "仍待供应链/产品开发判断"
+    },
+    {
+      "产品方向": "礼品包装/礼品袋收纳｜节日整理",
+      "人工登录/页面截图需核字段": "人工登录核：展开尺寸、折叠/压缩包装尺寸、单品GW/NW、外箱尺寸/装箱数、600D/210D克重、硬挺底板/隔板材质、拉链/把手强度、可容纳40in卷纸数量、礼品袋/丝带/剪刀分区、床下/壁挂两用结构、季节交期、MOQ是否可50-300小单试产",
+      "优先级": "P1",
+      "只读验证清单": "只读复核公开线索：Underbed US$19.99/MOQ3000/PE袋/33.9*11.81*4.72单位待确认；600D Oxford US$2.10-4.99/MOQ3000/0.5-1kg；区分gift wrap organizer、gift bag organizer、kitchen wrap organizer偏题款",
+      "当前F:J状态": "未闭环｜包装尺寸待补",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "gift organizer箱规/压缩包装仍未闭环",
+      "未闭环字段": "包装尺寸/MOQ/压缩包装/FBA/布料配件",
+      "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第23行",
+      "闭环判断": "仍待供应链"
+    },
+    {
+      "产品方向": "硅胶刮刀套装｜厨房烘焙工具",
+      "人工登录/页面截图需核字段": "人工登录核：食品接触FDA/LFGB测试报告样张、硅胶等级/硬度、耐温、低吸味/洗碗机测试、一体成型还是拼接、套装件数、礼盒/收纳桶包装尺寸/GW/NW、外箱、MOQ、是否可低MOQ做中高端礼盒",
+      "优先级": "P2",
+      "只读验证清单": "只读复核公开线索：US$0.10-0.50或5pcs US$0.49-0.64/MOQ1000，高端US$13-15/MOQ100；FDA/LFGB页面声明仅作线索",
+      "当前F:J状态": "未闭环｜H10未补全/代表ASIN待补",
+      "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+      "更新时间": "2026-05-13 19:16 CST",
+      "最新补证结果": "新增10链路未形成完整H10/Cerebro/Xray；供应链公开线索有FDA/LFGB但硬字段仍需核",
+      "未闭环字段": "食品接触认证/包装重量/MOQ/异味测试",
+      "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第17-20行",
+      "闭环判断": "仍待H10；供应链硬字段需人工验证"
+    },
+    {
+      "产品方向": "2026-05-13 20:05 CST",
+      "优先级": "写回时间",
+      "当前F:J状态": "t_a3919d86",
+      "最新补证结果": "边界",
+      "未闭环字段": "来源任务",
+      "闭环判断": "只读补证；未外联/未询价/未索样/未下单"
+    }
+  ],
   "items": [
     {
       "amazonUrl": "https://www.amazon.com/dp/B0GRYTV88T",
@@ -575,6 +736,20 @@
         "要找什么/关键规格": "折叠园艺跪凳/座椅；加宽软垫；钢管/铝管材质待确认；工具袋；防滑脚垫；适合老人园艺；单品包装需适配FBA体积费",
         "需要找供应商的产品": "园艺跪凳/座椅"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工打开义乌/1688同款：同一SKU单支+工具袋组合价、MOQ、是否含工具袋/配件、折叠/展开/单品包装尺寸、GW/NW、外箱尺寸/装箱数、管径/壁厚、EVA厚度、承重测试报告、跌落/夹手安全、焊接/喷涂、是否能中性包装；100kg不能改写500lb",
+          "优先级": "P0",
+          "只读验证清单": "只读整理义乌/1688单支¥34.73+大布袋¥4.74、GARDMATE 60*27*14cm/2.5kg/100kg/1pc mail box占位；明确低价与包装不是同一供应商，不能拼成采购结论",
+          "当前F:J状态": "部分补证｜待人工验证/敏感性已算",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "补低价摘要和GARDMATE包装/重量占位；非同一供应商；有低价/MOQ线索但1688详情需登录态；已做FBA敏感性但缺真实箱规",
+          "未闭环字段": "同一SKU价格+工具袋+包装+承重+MOQ+FBA",
+          "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第10-12行",
+          "闭环判断": "需人工核同一SKU、承重、包装、证书；FBA未闭环，需真实尺寸重量"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/71SNdhy-TtL._SX450_.jpg",
       "inquiry_spec": {
         "交期/MOQ字段": "MOQ、阶梯价100/300/500/1000；样品费；样品/大货交期；单箱装量；发货地",
@@ -602,6 +777,29 @@
           "官方需求来源": "真实数据：Amazon Catalog ASIN B0GRYTV88T 本次只读读取；已缓存数据：ABA garden kneeler and seat三周趋势、garden kneeler长尾；SQP缓存无匹配；后台截图/导出：POE季节曲线未取得，CPC未取得；推测假设：ABA趋势可代表需求走强但季节性需POE/历史更长周期验证",
           "是否可进入询价": "足够进入询价验证；Top4中官方需求信号最强，建议P1，但必须把大件/季节/承重风险前置。",
           "缺口": "仍缺POE季节曲线/SQP/CPC；包装尺寸、FBA体积费、承重测试、退货/售后风险未闭环。"
+        }
+      ],
+      "official_followup": [
+        {
+          "下一步": "官方需求可保留“ABA强、POE未闭环”；需要POE季节曲线/机会池规模后再给猫头鹰做机会卡。",
+          "是否需要人工权限": "是",
+          "缺口": "POE",
+          "能否补到": "未补到；ABA/Catalog旁证强",
+          "证据/失败原因": "已读飞书F:J 19:16：状态为“未闭环｜POE/SQP/CPC缺”。已缓存ABA显示需求强：garden kneeler and seat rank从2026-04-05_to_11的21,583升至2026-05-03_to_2026-05-09的5,081，Top clicked B0972Y5LTY 17.9% click/13.9% conv；garden kneeler最新rank 5,645。Catalog可读B0GRYTV88T，Gardening Workseats类目rank 81。但POE本轮未取得。"
+        },
+        {
+          "下一步": "如要SQP，需有相关自有ASIN或Seller Central SQP导出；当前只能用ABA+Catalog，不能标SQP已证。",
+          "是否需要人工权限": "是",
+          "缺口": "SQP",
+          "能否补到": "未补到",
+          "证据/失败原因": "SP-API SQP缓存仅有sqp_2026-04-05_to_2026-04-11共37条，filter garden kneeler/uv flashlight/torque wrench/silicone spatula均0匹配；当前SQP是自有ASIN搜索表现，不覆盖该新品细分。"
+        },
+        {
+          "下一步": "需要运营/Ads只读给建议竞价或关键词CPC导出；否则继续标“CPC缺”。",
+          "是否需要人工权限": "是",
+          "缺口": "CPC",
+          "能否补到": "未补到",
+          "证据/失败原因": "现有只读工具/缓存无garden kneeler Ads建议CPC；未进入广告后台，未做广告操作。"
         }
       ],
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
@@ -660,6 +858,666 @@
           "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
           "状态": "只读快筛完成",
           "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Folding garden kneeler seat + tool pouch，metal，folded/outdoor/garden；匹配目标基础款",
+          "供应商质量": "Gold Member + Audited Supplier，Zhejiang",
+          "利润预估用价": "采购参考US$8.5 / Piece；到岸估$12.32-14.88（中位$13.6），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Material: Metal；包装/承重/单重待验证",
+          "匹配评分": "88",
+          "参考单价": "US$8.5 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选；要求500lb/300lb承重测试、EVA厚度、管径、折叠尺寸/毛重",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/盐雾/跌落测试待确认",
+          "风险": "承重、管径、垫厚、包装尺寸缺失；工具袋质量待验"
+        },
+        {
+          "MOQ": "200 pc",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "GT208 garden kneeler seat/bench stool foldable with tool bag；尺寸L810*W445*H540mm，匹配度高",
+          "供应商质量": "Diamond Member + Audited Supplier，Shandong",
+          "利润预估用价": "采购参考US$11.5 / pc；到岸估$16.68-20.12（中位$18.4），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PCS/Carton；Standard: L810*W445*H540mm",
+          "匹配评分": "89",
+          "参考单价": "US$11.5 / pc",
+          "平台": "Made-in-China",
+          "建议": "优先做FBA体积费测算；确认折叠包装尺寸/GW/NW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/材料/盐雾待确认",
+          "风险": "体积偏大，FBA体积费敏感；承重未列"
+        },
+        {
+          "MOQ": "50 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Upgraded thicken/widen soft garden kneeler and seat，标准60x27x49cm，匹配差异化加宽软垫",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；ISO9001:2015",
+          "利润预估用价": "采购参考US$6.6 / Piece；到岸估$9.57-11.55（中位$10.56），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: Box；Standard: 60x27x49cm",
+          "匹配评分": "90",
+          "参考单价": "US$6.6 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选，低MOQ且匹配加宽软垫方向；追问包装尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/跌落待确认",
+          "风险": "贸易/综合供应链属性可能非源头；实际软垫厚度和管径待验"
+        },
+        {
+          "MOQ": "10 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Foldable kneeling chair seat + 360° wheels + 2 bags + thick EVA，差异化强但非基础款",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong",
+          "利润预估用价": "采购参考US$25.99 / Piece；到岸估$37.69-45.48（中位$41.58），高于红线，利润风险高；目标红线$11.2-21.0",
+          "包装/重量": "Material: EVA + Stainless Steel；工具袋/颜色可定制；包装尺寸待验证",
+          "匹配评分": "76",
+          "参考单价": "US$25.99 / Piece",
+          "平台": "Made-in-China",
+          "建议": "仅作为差异化高价对照，不用于初版利润复算",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "RoHS/CE/ISO；承重测试待确认",
+          "风险": "单价/体积明显超红线；带轮结构增加售后风险"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "23.6 x 19 x 10.6 folding garden seat/kneeler/fishing seat with tool bag，carbon steel，匹配基础折叠款",
+          "供应商质量": "Diamond Member + Audited Supplier，Hebei；ISO9001:2015",
+          "利润预估用价": "采购参考US$8.8 / Piece；到岸估$12.76-15.4（中位$14.08），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PC/Brown Carton, 4PCS/Master Carton；Standard: 28x26x13cm",
+          "匹配评分": "84",
+          "参考单价": "US$8.8 / Piece",
+          "平台": "Made-in-China",
+          "建议": "纳入备选；重点追问管径、壁厚、EVA厚度、单箱尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/涂层/盐雾待确认",
+          "风险": "包装信息疑似折叠尺寸，需核实；钣金/焊点承重风险"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G1｜tools/OEM supplier; factory status pending audit",
+          "供应商质量": "tools/OEM supplier; factory status pending audit",
+          "利润预估用价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "包装/重量": "61.5x28x12cm; 3.6-4.0kg; 4pcs carton 50.5x29.5x63cm/15kg",
+          "匹配评分": "G1",
+          "参考单价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "tube wall? static/dynamic/side-load test? screws/locknuts/spares? semi-assembled? pack compression?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal frame + EVA/Foam + PP/Polyester; capacity 200kg; tube dia 22mm; RoHS/FCC/CE line",
+          "风险": "Long side 24.2in; FBA large-size; 200kg claim needs test report; tube wall unknown"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G2｜name includes Manufacture; likely manufacturer but pending verification",
+          "供应商质量": "name includes Manufacture; likely manufacturer but pending verification",
+          "利润预估用价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "包装/重量": "62x28x15cm/2.6kg; 1pc/carton; spec 590x265x470mm",
+          "匹配评分": "G2",
+          "参考单价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "can upgrade to 200kg/500lb test? tube wall? tool bag/locknut/spare parts? carton optimization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Carbon steel + EVA; load capacity 100kg/250lbs; CE line",
+          "风险": "Capacity claim lower than target; long-side/FBA volume risk"
+        },
+        {
+          "MOQ": "待人工确认",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G3｜outdoor equipment supplier; factory status pending",
+          "供应商质量": "outdoor equipment supplier; factory status pending",
+          "利润预估用价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "包装/重量": "inner box 60x28.5x13.5cm; product 2.7kg; mail-order box 3kg",
+          "匹配评分": "G3",
+          "参考单价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "平台": "Made-in-China",
+          "建议": "thicker wall option? side-load/fall tests? bag and spares? MOQ for custom?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel pipe dia 22mm thickness 0.7mm; overall 60x27x50cm; folded 60x27x13.5cm",
+          "风险": "0.7mm wall may be weak for senior/500lb positioning; FBA large-size"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G4｜metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "供应商质量": "metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "利润预估用价": "US$7-10 MOQ200",
+          "包装/重量": "60x28x13cm/4kg; carton 28x28x60cm; 6 boxes/ctn; G.W.13kg",
+          "匹配评分": "G4",
+          "参考单价": "US$7-10 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "mass production case? tube/weld/hinge details? spray coating/weathering? FBA carton experience?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel/powder coated; metal material lines Q235/Q195 etc.",
+          "风险": "Less SKU detail; actual garden kneeler production need verify"
+        },
+        {
+          "MOQ": "MOQ10",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G5｜broad daily-use technology supplier; factory status pending",
+          "供应商质量": "broad daily-use technology supplier; factory status pending",
+          "利润预估用价": "US$21.79-25.99 MOQ10",
+          "包装/重量": "44x31x17cm/5.1kg",
+          "匹配评分": "G5",
+          "参考单价": "US$21.79-25.99 MOQ10",
+          "平台": "Made-in-China",
+          "建议": "why high cost? true unit carton? material grade? weight reduction?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "EVA + stainless steel; RoHS/CE/ISO line",
+          "风险": "Cost and weight high; price gap large"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Folding garden kneeler seat + tool pouch，metal，folded/outdoor/garden；匹配目标基础款",
+          "供应商质量": "Gold Member + Audited Supplier，Zhejiang",
+          "利润预估用价": "采购参考US$8.5 / Piece；到岸估$12.32-14.88（中位$13.6），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Material: Metal；包装/承重/单重待验证",
+          "匹配评分": "88",
+          "参考单价": "US$8.5 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选；要求500lb/300lb承重测试、EVA厚度、管径、折叠尺寸/毛重",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/盐雾/跌落测试待确认",
+          "风险": "承重、管径、垫厚、包装尺寸缺失；工具袋质量待验"
+        },
+        {
+          "MOQ": "200 pc",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "GT208 garden kneeler seat/bench stool foldable with tool bag；尺寸L810*W445*H540mm，匹配度高",
+          "供应商质量": "Diamond Member + Audited Supplier，Shandong",
+          "利润预估用价": "采购参考US$11.5 / pc；到岸估$16.68-20.12（中位$18.4），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PCS/Carton；Standard: L810*W445*H540mm",
+          "匹配评分": "89",
+          "参考单价": "US$11.5 / pc",
+          "平台": "Made-in-China",
+          "建议": "优先做FBA体积费测算；确认折叠包装尺寸/GW/NW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/材料/盐雾待确认",
+          "风险": "体积偏大，FBA体积费敏感；承重未列"
+        },
+        {
+          "MOQ": "50 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Upgraded thicken/widen soft garden kneeler and seat，标准60x27x49cm，匹配差异化加宽软垫",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；ISO9001:2015",
+          "利润预估用价": "采购参考US$6.6 / Piece；到岸估$9.57-11.55（中位$10.56），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: Box；Standard: 60x27x49cm",
+          "匹配评分": "90",
+          "参考单价": "US$6.6 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选，低MOQ且匹配加宽软垫方向；追问包装尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/跌落待确认",
+          "风险": "贸易/综合供应链属性可能非源头；实际软垫厚度和管径待验"
+        },
+        {
+          "MOQ": "10 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Foldable kneeling chair seat + 360° wheels + 2 bags + thick EVA，差异化强但非基础款",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong",
+          "利润预估用价": "采购参考US$25.99 / Piece；到岸估$37.69-45.48（中位$41.58），高于红线，利润风险高；目标红线$11.2-21.0",
+          "包装/重量": "Material: EVA + Stainless Steel；工具袋/颜色可定制；包装尺寸待验证",
+          "匹配评分": "76",
+          "参考单价": "US$25.99 / Piece",
+          "平台": "Made-in-China",
+          "建议": "仅作为差异化高价对照，不用于初版利润复算",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "RoHS/CE/ISO；承重测试待确认",
+          "风险": "单价/体积明显超红线；带轮结构增加售后风险"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "23.6 x 19 x 10.6 folding garden seat/kneeler/fishing seat with tool bag，carbon steel，匹配基础折叠款",
+          "供应商质量": "Diamond Member + Audited Supplier，Hebei；ISO9001:2015",
+          "利润预估用价": "采购参考US$8.8 / Piece；到岸估$12.76-15.4（中位$14.08），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PC/Brown Carton, 4PCS/Master Carton；Standard: 28x26x13cm",
+          "匹配评分": "84",
+          "参考单价": "US$8.8 / Piece",
+          "平台": "Made-in-China",
+          "建议": "纳入备选；重点追问管径、壁厚、EVA厚度、单箱尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/涂层/盐雾待确认",
+          "风险": "包装信息疑似折叠尺寸，需核实；钣金/焊点承重风险"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G1｜tools/OEM supplier; factory status pending audit",
+          "供应商质量": "tools/OEM supplier; factory status pending audit",
+          "利润预估用价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "包装/重量": "61.5x28x12cm; 3.6-4.0kg; 4pcs carton 50.5x29.5x63cm/15kg",
+          "匹配评分": "G1",
+          "参考单价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "tube wall? static/dynamic/side-load test? screws/locknuts/spares? semi-assembled? pack compression?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal frame + EVA/Foam + PP/Polyester; capacity 200kg; tube dia 22mm; RoHS/FCC/CE line",
+          "风险": "Long side 24.2in; FBA large-size; 200kg claim needs test report; tube wall unknown"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G2｜name includes Manufacture; likely manufacturer but pending verification",
+          "供应商质量": "name includes Manufacture; likely manufacturer but pending verification",
+          "利润预估用价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "包装/重量": "62x28x15cm/2.6kg; 1pc/carton; spec 590x265x470mm",
+          "匹配评分": "G2",
+          "参考单价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "can upgrade to 200kg/500lb test? tube wall? tool bag/locknut/spare parts? carton optimization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Carbon steel + EVA; load capacity 100kg/250lbs; CE line",
+          "风险": "Capacity claim lower than target; long-side/FBA volume risk"
+        },
+        {
+          "MOQ": "待人工确认",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G3｜outdoor equipment supplier; factory status pending",
+          "供应商质量": "outdoor equipment supplier; factory status pending",
+          "利润预估用价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "包装/重量": "inner box 60x28.5x13.5cm; product 2.7kg; mail-order box 3kg",
+          "匹配评分": "G3",
+          "参考单价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "平台": "Made-in-China",
+          "建议": "thicker wall option? side-load/fall tests? bag and spares? MOQ for custom?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel pipe dia 22mm thickness 0.7mm; overall 60x27x50cm; folded 60x27x13.5cm",
+          "风险": "0.7mm wall may be weak for senior/500lb positioning; FBA large-size"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G4｜metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "供应商质量": "metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "利润预估用价": "US$7-10 MOQ200",
+          "包装/重量": "60x28x13cm/4kg; carton 28x28x60cm; 6 boxes/ctn; G.W.13kg",
+          "匹配评分": "G4",
+          "参考单价": "US$7-10 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "mass production case? tube/weld/hinge details? spray coating/weathering? FBA carton experience?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel/powder coated; metal material lines Q235/Q195 etc.",
+          "风险": "Less SKU detail; actual garden kneeler production need verify"
+        },
+        {
+          "MOQ": "MOQ10",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G5｜broad daily-use technology supplier; factory status pending",
+          "供应商质量": "broad daily-use technology supplier; factory status pending",
+          "利润预估用价": "US$21.79-25.99 MOQ10",
+          "包装/重量": "44x31x17cm/5.1kg",
+          "匹配评分": "G5",
+          "参考单价": "US$21.79-25.99 MOQ10",
+          "平台": "Made-in-China",
+          "建议": "why high cost? true unit carton? material grade? weight reduction?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "EVA + stainless steel; RoHS/CE/ISO line",
+          "风险": "Cost and weight high; price gap large"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Folding garden kneeler seat + tool pouch，metal，folded/outdoor/garden；匹配目标基础款",
+          "供应商质量": "Gold Member + Audited Supplier，Zhejiang",
+          "利润预估用价": "采购参考US$8.5 / Piece；到岸估$12.32-14.88（中位$13.6），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Material: Metal；包装/承重/单重待验证",
+          "匹配评分": "88",
+          "参考单价": "US$8.5 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选；要求500lb/300lb承重测试、EVA厚度、管径、折叠尺寸/毛重",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/盐雾/跌落测试待确认",
+          "风险": "承重、管径、垫厚、包装尺寸缺失；工具袋质量待验"
+        },
+        {
+          "MOQ": "200 pc",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "GT208 garden kneeler seat/bench stool foldable with tool bag；尺寸L810*W445*H540mm，匹配度高",
+          "供应商质量": "Diamond Member + Audited Supplier，Shandong",
+          "利润预估用价": "采购参考US$11.5 / pc；到岸估$16.68-20.12（中位$18.4），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PCS/Carton；Standard: L810*W445*H540mm",
+          "匹配评分": "89",
+          "参考单价": "US$11.5 / pc",
+          "平台": "Made-in-China",
+          "建议": "优先做FBA体积费测算；确认折叠包装尺寸/GW/NW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/材料/盐雾待确认",
+          "风险": "体积偏大，FBA体积费敏感；承重未列"
+        },
+        {
+          "MOQ": "50 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Upgraded thicken/widen soft garden kneeler and seat，标准60x27x49cm，匹配差异化加宽软垫",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；ISO9001:2015",
+          "利润预估用价": "采购参考US$6.6 / Piece；到岸估$9.57-11.55（中位$10.56），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: Box；Standard: 60x27x49cm",
+          "匹配评分": "90",
+          "参考单价": "US$6.6 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选，低MOQ且匹配加宽软垫方向；追问包装尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/跌落待确认",
+          "风险": "贸易/综合供应链属性可能非源头；实际软垫厚度和管径待验"
+        },
+        {
+          "MOQ": "10 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Foldable kneeling chair seat + 360° wheels + 2 bags + thick EVA，差异化强但非基础款",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong",
+          "利润预估用价": "采购参考US$25.99 / Piece；到岸估$37.69-45.48（中位$41.58），高于红线，利润风险高；目标红线$11.2-21.0",
+          "包装/重量": "Material: EVA + Stainless Steel；工具袋/颜色可定制；包装尺寸待验证",
+          "匹配评分": "76",
+          "参考单价": "US$25.99 / Piece",
+          "平台": "Made-in-China",
+          "建议": "仅作为差异化高价对照，不用于初版利润复算",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "RoHS/CE/ISO；承重测试待确认",
+          "风险": "单价/体积明显超红线；带轮结构增加售后风险"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "23.6 x 19 x 10.6 folding garden seat/kneeler/fishing seat with tool bag，carbon steel，匹配基础折叠款",
+          "供应商质量": "Diamond Member + Audited Supplier，Hebei；ISO9001:2015",
+          "利润预估用价": "采购参考US$8.8 / Piece；到岸估$12.76-15.4（中位$14.08），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PC/Brown Carton, 4PCS/Master Carton；Standard: 28x26x13cm",
+          "匹配评分": "84",
+          "参考单价": "US$8.8 / Piece",
+          "平台": "Made-in-China",
+          "建议": "纳入备选；重点追问管径、壁厚、EVA厚度、单箱尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/涂层/盐雾待确认",
+          "风险": "包装信息疑似折叠尺寸，需核实；钣金/焊点承重风险"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G1｜tools/OEM supplier; factory status pending audit",
+          "供应商质量": "tools/OEM supplier; factory status pending audit",
+          "利润预估用价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "包装/重量": "61.5x28x12cm; 3.6-4.0kg; 4pcs carton 50.5x29.5x63cm/15kg",
+          "匹配评分": "G1",
+          "参考单价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "tube wall? static/dynamic/side-load test? screws/locknuts/spares? semi-assembled? pack compression?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal frame + EVA/Foam + PP/Polyester; capacity 200kg; tube dia 22mm; RoHS/FCC/CE line",
+          "风险": "Long side 24.2in; FBA large-size; 200kg claim needs test report; tube wall unknown"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G2｜name includes Manufacture; likely manufacturer but pending verification",
+          "供应商质量": "name includes Manufacture; likely manufacturer but pending verification",
+          "利润预估用价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "包装/重量": "62x28x15cm/2.6kg; 1pc/carton; spec 590x265x470mm",
+          "匹配评分": "G2",
+          "参考单价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "can upgrade to 200kg/500lb test? tube wall? tool bag/locknut/spare parts? carton optimization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Carbon steel + EVA; load capacity 100kg/250lbs; CE line",
+          "风险": "Capacity claim lower than target; long-side/FBA volume risk"
+        },
+        {
+          "MOQ": "待人工确认",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G3｜outdoor equipment supplier; factory status pending",
+          "供应商质量": "outdoor equipment supplier; factory status pending",
+          "利润预估用价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "包装/重量": "inner box 60x28.5x13.5cm; product 2.7kg; mail-order box 3kg",
+          "匹配评分": "G3",
+          "参考单价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "平台": "Made-in-China",
+          "建议": "thicker wall option? side-load/fall tests? bag and spares? MOQ for custom?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel pipe dia 22mm thickness 0.7mm; overall 60x27x50cm; folded 60x27x13.5cm",
+          "风险": "0.7mm wall may be weak for senior/500lb positioning; FBA large-size"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G4｜metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "供应商质量": "metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "利润预估用价": "US$7-10 MOQ200",
+          "包装/重量": "60x28x13cm/4kg; carton 28x28x60cm; 6 boxes/ctn; G.W.13kg",
+          "匹配评分": "G4",
+          "参考单价": "US$7-10 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "mass production case? tube/weld/hinge details? spray coating/weathering? FBA carton experience?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel/powder coated; metal material lines Q235/Q195 etc.",
+          "风险": "Less SKU detail; actual garden kneeler production need verify"
+        },
+        {
+          "MOQ": "MOQ10",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G5｜broad daily-use technology supplier; factory status pending",
+          "供应商质量": "broad daily-use technology supplier; factory status pending",
+          "利润预估用价": "US$21.79-25.99 MOQ10",
+          "包装/重量": "44x31x17cm/5.1kg",
+          "匹配评分": "G5",
+          "参考单价": "US$21.79-25.99 MOQ10",
+          "平台": "Made-in-China",
+          "建议": "why high cost? true unit carton? material grade? weight reduction?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "EVA + stainless steel; RoHS/CE/ISO line",
+          "风险": "Cost and weight high; price gap large"
+        },
+        {
+          "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Folding garden kneeler seat + tool pouch，metal，folded/outdoor/garden；匹配目标基础款",
+          "供应商质量": "Gold Member + Audited Supplier，Zhejiang",
+          "利润预估用价": "采购参考US$8.5 / Piece；到岸估$12.32-14.88（中位$13.6），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Material: Metal；包装/承重/单重待验证",
+          "匹配评分": "88",
+          "参考单价": "US$8.5 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选；要求500lb/300lb承重测试、EVA厚度、管径、折叠尺寸/毛重",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/盐雾/跌落测试待确认",
+          "风险": "承重、管径、垫厚、包装尺寸缺失；工具袋质量待验"
+        },
+        {
+          "MOQ": "200 pc",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "GT208 garden kneeler seat/bench stool foldable with tool bag；尺寸L810*W445*H540mm，匹配度高",
+          "供应商质量": "Diamond Member + Audited Supplier，Shandong",
+          "利润预估用价": "采购参考US$11.5 / pc；到岸估$16.68-20.12（中位$18.4），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PCS/Carton；Standard: L810*W445*H540mm",
+          "匹配评分": "89",
+          "参考单价": "US$11.5 / pc",
+          "平台": "Made-in-China",
+          "建议": "优先做FBA体积费测算；确认折叠包装尺寸/GW/NW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；承重/材料/盐雾待确认",
+          "风险": "体积偏大，FBA体积费敏感；承重未列"
+        },
+        {
+          "MOQ": "50 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Upgraded thicken/widen soft garden kneeler and seat，标准60x27x49cm，匹配差异化加宽软垫",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；ISO9001:2015",
+          "利润预估用价": "采购参考US$6.6 / Piece；到岸估$9.57-11.55（中位$10.56），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: Box；Standard: 60x27x49cm",
+          "匹配评分": "90",
+          "参考单价": "US$6.6 / Piece",
+          "平台": "Made-in-China",
+          "建议": "优先候选，低MOQ且匹配加宽软垫方向；追问包装尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/跌落待确认",
+          "风险": "贸易/综合供应链属性可能非源头；实际软垫厚度和管径待验"
+        },
+        {
+          "MOQ": "10 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "Foldable kneeling chair seat + 360° wheels + 2 bags + thick EVA，差异化强但非基础款",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong",
+          "利润预估用价": "采购参考US$25.99 / Piece；到岸估$37.69-45.48（中位$41.58），高于红线，利润风险高；目标红线$11.2-21.0",
+          "包装/重量": "Material: EVA + Stainless Steel；工具袋/颜色可定制；包装尺寸待验证",
+          "匹配评分": "76",
+          "参考单价": "US$25.99 / Piece",
+          "平台": "Made-in-China",
+          "建议": "仅作为差异化高价对照，不用于初版利润复算",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "RoHS/CE/ISO；承重测试待确认",
+          "风险": "单价/体积明显超红线；带轮结构增加售后风险"
+        },
+        {
+          "MOQ": "100 Pieces",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "23.6 x 19 x 10.6 folding garden seat/kneeler/fishing seat with tool bag，carbon steel，匹配基础折叠款",
+          "供应商质量": "Diamond Member + Audited Supplier，Hebei；ISO9001:2015",
+          "利润预估用价": "采购参考US$8.8 / Piece；到岸估$12.76-15.4（中位$14.08），低于/接近红线，可进报价复算；目标红线$11.2-21.0",
+          "包装/重量": "Packing: 1PC/Brown Carton, 4PCS/Master Carton；Standard: 28x26x13cm",
+          "匹配评分": "84",
+          "参考单价": "US$8.8 / Piece",
+          "平台": "Made-in-China",
+          "建议": "纳入备选；重点追问管径、壁厚、EVA厚度、单箱尺寸/GW",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "ISO9001:2015；承重/涂层/盐雾待确认",
+          "风险": "包装信息疑似折叠尺寸，需核实；钣金/焊点承重风险"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G1｜tools/OEM supplier; factory status pending audit",
+          "供应商质量": "tools/OEM supplier; factory status pending audit",
+          "利润预估用价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "包装/重量": "61.5x28x12cm; 3.6-4.0kg; 4pcs carton 50.5x29.5x63cm/15kg",
+          "匹配评分": "G1",
+          "参考单价": "US$8.50 100-499; US$8.00 500-1999; US$7.50 2000-4999; US$7.00 5000+; sibling US$7.60-9.00 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "tube wall? static/dynamic/side-load test? screws/locknuts/spares? semi-assembled? pack compression?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal frame + EVA/Foam + PP/Polyester; capacity 200kg; tube dia 22mm; RoHS/FCC/CE line",
+          "风险": "Long side 24.2in; FBA large-size; 200kg claim needs test report; tube wall unknown"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G2｜name includes Manufacture; likely manufacturer but pending verification",
+          "供应商质量": "name includes Manufacture; likely manufacturer but pending verification",
+          "利润预估用价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "包装/重量": "62x28x15cm/2.6kg; 1pc/carton; spec 590x265x470mm",
+          "匹配评分": "G2",
+          "参考单价": "US$7.00 500-999; US$6.50 1000-1999; US$6.00 2000+; GT208 US$11.5 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "can upgrade to 200kg/500lb test? tube wall? tool bag/locknut/spare parts? carton optimization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Carbon steel + EVA; load capacity 100kg/250lbs; CE line",
+          "风险": "Capacity claim lower than target; long-side/FBA volume risk"
+        },
+        {
+          "MOQ": "待人工确认",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G3｜outdoor equipment supplier; factory status pending",
+          "供应商质量": "outdoor equipment supplier; factory status pending",
+          "利润预估用价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "包装/重量": "inner box 60x28.5x13.5cm; product 2.7kg; mail-order box 3kg",
+          "匹配评分": "G3",
+          "参考单价": "US$10 1-9; US$9 10-99; US$8 100-999; US$7 1000+",
+          "平台": "Made-in-China",
+          "建议": "thicker wall option? side-load/fall tests? bag and spares? MOQ for custom?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel pipe dia 22mm thickness 0.7mm; overall 60x27x50cm; folded 60x27x13.5cm",
+          "风险": "0.7mm wall may be weak for senior/500lb positioning; FBA large-size"
+        },
+        {
+          "MOQ": "MOQ200",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G4｜metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "供应商质量": "metal products technology; likely metal fabrication capability, SKU maturity pending",
+          "利润预估用价": "US$7-10 MOQ200",
+          "包装/重量": "60x28x13cm/4kg; carton 28x28x60cm; 6 boxes/ctn; G.W.13kg",
+          "匹配评分": "G4",
+          "参考单价": "US$7-10 MOQ200",
+          "平台": "Made-in-China",
+          "建议": "mass production case? tube/weld/hinge details? spray coating/weathering? FBA carton experience?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Steel/powder coated; metal material lines Q235/Q195 etc.",
+          "风险": "Less SKU detail; actual garden kneeler production need verify"
+        },
+        {
+          "MOQ": "MOQ10",
+          "产品": "园艺跪凳/座椅",
+          "产品一致性": "G5｜broad daily-use technology supplier; factory status pending",
+          "供应商质量": "broad daily-use technology supplier; factory status pending",
+          "利润预估用价": "US$21.79-25.99 MOQ10",
+          "包装/重量": "44x31x17cm/5.1kg",
+          "匹配评分": "G5",
+          "参考单价": "US$21.79-25.99 MOQ10",
+          "平台": "Made-in-China",
+          "建议": "why high cost? true unit carton? material grade? weight reduction?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "EVA + stainless steel; RoHS/CE/ISO line",
+          "风险": "Cost and weight high; price gap large"
         },
         {
           "建议": "Supply is mature with FOB US$7-10 and MOQ 1-100+ possible; primary gate is FBA dimensional/large-size cost and credible load testing. Prioritize Greatcity, Workercare, Dengtu/Quanhao for verification.",
@@ -968,6 +1826,30 @@
           "入口词": "sourdough bread slicer SV",
           "可粘贴结论/下一步": "",
           "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "sourdough bread slicer SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
         }
       ],
       "human_supply": {
@@ -1111,6 +1993,282 @@
           "状态": "只读参考，未外联",
           "认证/质检": "Wood + stainless steel",
           "风险": "Category mismatch; low-end bow knife; food-contact validation needed"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "999pcs",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A1｜likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "供应商质量": "likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "利润预估用价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "包装/重量": "Spec 11.7x10x7.3in; public package 40x60x50cm/6kg or 40x35x30cm/15kg, likely carton/master carton pending verification",
+          "匹配评分": "A1",
+          "参考单价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "MOQ≤100? unit carton? FDA/LFGB/Prop65? blade/guard? thickness range?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal/Wood or carbon steel + stainless blade + wood base; color/brown box",
+          "风险": "MOQ 500; FOB high; food-contact/knife safety; single package unclear"
+        },
+        {
+          "MOQ": "MOQ500",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A2｜industry & trade; factory identity pending",
+          "供应商质量": "industry & trade; factory identity pending",
+          "利润预估用价": "US$4.20-6.20 MOQ500",
+          "包装/重量": "45x40x25cm/2kg; spec 15.9x8.8x2.75in; foam/cardboard/polybag",
+          "匹配评分": "A2",
+          "参考单价": "US$4.20-6.20 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "FSC/FDA/LFGB docs? moisture/mold control? MOQ≤100? anti-slip/crumb tray/guard customization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Bamboo; page line ISO9000/BSCI/FSC",
+          "风险": "Not hand-crank; bamboo mold/smell; food-contact glue/coating"
+        },
+        {
+          "MOQ": "MOQ50",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B1｜technology & trade / bakeware supplier; factory identity pending",
+          "供应商质量": "technology & trade / bakeware supplier; factory identity pending",
+          "利润预估用价": "US$2.99-4.99 MOQ50",
+          "包装/重量": "42x10x8cm/1kg; spec 400x70mm; OPP/standard carton",
+          "匹配评分": "B1",
+          "参考单价": "US$2.99-4.99 MOQ50",
+          "平台": "Made-in-China",
+          "建议": "steel grade/hardness? sheath/color box? food-contact report? combine with guide?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Stainless steel + wood; page says food grade quality",
+          "风险": "Only bread knife, not uniform slicer; cut safety"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B2｜general exporter; page self-description emphasizes toys/related products",
+          "供应商质量": "general exporter; page self-description emphasizes toys/related products",
+          "利润预估用价": "US$4.10-4.90 MOQ100",
+          "包装/重量": "12x10x3cm/0.6kg; product approx 40x7cm; carton",
+          "匹配评分": "B2",
+          "参考单价": "US$4.10-4.90 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "actual production source? food report? packaging/guard? smell/mold control?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Wood + stainless steel",
+          "风险": "Category mismatch; low-end bow knife; food-contact validation needed"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "999pcs",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A1｜likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "供应商质量": "likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "利润预估用价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "包装/重量": "Spec 11.7x10x7.3in; public package 40x60x50cm/6kg or 40x35x30cm/15kg, likely carton/master carton pending verification",
+          "匹配评分": "A1",
+          "参考单价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "MOQ≤100? unit carton? FDA/LFGB/Prop65? blade/guard? thickness range?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal/Wood or carbon steel + stainless blade + wood base; color/brown box",
+          "风险": "MOQ 500; FOB high; food-contact/knife safety; single package unclear"
+        },
+        {
+          "MOQ": "MOQ500",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A2｜industry & trade; factory identity pending",
+          "供应商质量": "industry & trade; factory identity pending",
+          "利润预估用价": "US$4.20-6.20 MOQ500",
+          "包装/重量": "45x40x25cm/2kg; spec 15.9x8.8x2.75in; foam/cardboard/polybag",
+          "匹配评分": "A2",
+          "参考单价": "US$4.20-6.20 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "FSC/FDA/LFGB docs? moisture/mold control? MOQ≤100? anti-slip/crumb tray/guard customization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Bamboo; page line ISO9000/BSCI/FSC",
+          "风险": "Not hand-crank; bamboo mold/smell; food-contact glue/coating"
+        },
+        {
+          "MOQ": "MOQ50",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B1｜technology & trade / bakeware supplier; factory identity pending",
+          "供应商质量": "technology & trade / bakeware supplier; factory identity pending",
+          "利润预估用价": "US$2.99-4.99 MOQ50",
+          "包装/重量": "42x10x8cm/1kg; spec 400x70mm; OPP/standard carton",
+          "匹配评分": "B1",
+          "参考单价": "US$2.99-4.99 MOQ50",
+          "平台": "Made-in-China",
+          "建议": "steel grade/hardness? sheath/color box? food-contact report? combine with guide?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Stainless steel + wood; page says food grade quality",
+          "风险": "Only bread knife, not uniform slicer; cut safety"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B2｜general exporter; page self-description emphasizes toys/related products",
+          "供应商质量": "general exporter; page self-description emphasizes toys/related products",
+          "利润预估用价": "US$4.10-4.90 MOQ100",
+          "包装/重量": "12x10x3cm/0.6kg; product approx 40x7cm; carton",
+          "匹配评分": "B2",
+          "参考单价": "US$4.10-4.90 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "actual production source? food report? packaging/guard? smell/mold control?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Wood + stainless steel",
+          "风险": "Category mismatch; low-end bow knife; food-contact validation needed"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "999pcs",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A1｜likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "供应商质量": "likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "利润预估用价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "包装/重量": "Spec 11.7x10x7.3in; public package 40x60x50cm/6kg or 40x35x30cm/15kg, likely carton/master carton pending verification",
+          "匹配评分": "A1",
+          "参考单价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "MOQ≤100? unit carton? FDA/LFGB/Prop65? blade/guard? thickness range?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal/Wood or carbon steel + stainless blade + wood base; color/brown box",
+          "风险": "MOQ 500; FOB high; food-contact/knife safety; single package unclear"
+        },
+        {
+          "MOQ": "MOQ500",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A2｜industry & trade; factory identity pending",
+          "供应商质量": "industry & trade; factory identity pending",
+          "利润预估用价": "US$4.20-6.20 MOQ500",
+          "包装/重量": "45x40x25cm/2kg; spec 15.9x8.8x2.75in; foam/cardboard/polybag",
+          "匹配评分": "A2",
+          "参考单价": "US$4.20-6.20 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "FSC/FDA/LFGB docs? moisture/mold control? MOQ≤100? anti-slip/crumb tray/guard customization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Bamboo; page line ISO9000/BSCI/FSC",
+          "风险": "Not hand-crank; bamboo mold/smell; food-contact glue/coating"
+        },
+        {
+          "MOQ": "MOQ50",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B1｜technology & trade / bakeware supplier; factory identity pending",
+          "供应商质量": "technology & trade / bakeware supplier; factory identity pending",
+          "利润预估用价": "US$2.99-4.99 MOQ50",
+          "包装/重量": "42x10x8cm/1kg; spec 400x70mm; OPP/standard carton",
+          "匹配评分": "B1",
+          "参考单价": "US$2.99-4.99 MOQ50",
+          "平台": "Made-in-China",
+          "建议": "steel grade/hardness? sheath/color box? food-contact report? combine with guide?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Stainless steel + wood; page says food grade quality",
+          "风险": "Only bread knife, not uniform slicer; cut safety"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B2｜general exporter; page self-description emphasizes toys/related products",
+          "供应商质量": "general exporter; page self-description emphasizes toys/related products",
+          "利润预估用价": "US$4.10-4.90 MOQ100",
+          "包装/重量": "12x10x3cm/0.6kg; product approx 40x7cm; carton",
+          "匹配评分": "B2",
+          "参考单价": "US$4.10-4.90 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "actual production source? food report? packaging/guard? smell/mold control?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Wood + stainless steel",
+          "风险": "Category mismatch; low-end bow knife; food-contact validation needed"
+        },
+        {
+          "建议": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification.",
+          "状态": "只读快筛完成",
+          "风险": "需人工登录态/正式报价验证，未外联未询价"
+        },
+        {
+          "MOQ": "999pcs",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A1｜likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "供应商质量": "likely trading/exporter; public page mentions import/export rights, 10+ years export, showroom/50k items",
+          "利润预估用价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "包装/重量": "Spec 11.7x10x7.3in; public package 40x60x50cm/6kg or 40x35x30cm/15kg, likely carton/master carton pending verification",
+          "匹配评分": "A1",
+          "参考单价": "US$27.80 500-999pcs; US$27.20 1000+; sibling page US$27.50 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "MOQ≤100? unit carton? FDA/LFGB/Prop65? blade/guard? thickness range?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Metal/Wood or carbon steel + stainless blade + wood base; color/brown box",
+          "风险": "MOQ 500; FOB high; food-contact/knife safety; single package unclear"
+        },
+        {
+          "MOQ": "MOQ500",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "A2｜industry & trade; factory identity pending",
+          "供应商质量": "industry & trade; factory identity pending",
+          "利润预估用价": "US$4.20-6.20 MOQ500",
+          "包装/重量": "45x40x25cm/2kg; spec 15.9x8.8x2.75in; foam/cardboard/polybag",
+          "匹配评分": "A2",
+          "参考单价": "US$4.20-6.20 MOQ500",
+          "平台": "Made-in-China",
+          "建议": "FSC/FDA/LFGB docs? moisture/mold control? MOQ≤100? anti-slip/crumb tray/guard customization?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Bamboo; page line ISO9000/BSCI/FSC",
+          "风险": "Not hand-crank; bamboo mold/smell; food-contact glue/coating"
+        },
+        {
+          "MOQ": "MOQ50",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B1｜technology & trade / bakeware supplier; factory identity pending",
+          "供应商质量": "technology & trade / bakeware supplier; factory identity pending",
+          "利润预估用价": "US$2.99-4.99 MOQ50",
+          "包装/重量": "42x10x8cm/1kg; spec 400x70mm; OPP/standard carton",
+          "匹配评分": "B1",
+          "参考单价": "US$2.99-4.99 MOQ50",
+          "平台": "Made-in-China",
+          "建议": "steel grade/hardness? sheath/color box? food-contact report? combine with guide?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Stainless steel + wood; page says food grade quality",
+          "风险": "Only bread knife, not uniform slicer; cut safety"
+        },
+        {
+          "MOQ": "MOQ100",
+          "产品": "手摇/手动酸面包切片器",
+          "产品一致性": "B2｜general exporter; page self-description emphasizes toys/related products",
+          "供应商质量": "general exporter; page self-description emphasizes toys/related products",
+          "利润预估用价": "US$4.10-4.90 MOQ100",
+          "包装/重量": "12x10x3cm/0.6kg; product approx 40x7cm; carton",
+          "匹配评分": "B2",
+          "参考单价": "US$4.10-4.90 MOQ100",
+          "平台": "Made-in-China",
+          "建议": "actual production source? food report? packaging/guard? smell/mold control?",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Wood + stainless steel",
+          "风险": "Category mismatch; low-end bow knife; food-contact validation needed"
         }
       ],
       "supply_readonly_summary": "Exact hand-crank/manual adjustable supply exists but public MOQ mainly 500 and FOB about US$27.5-27.8; MOQ≤100 only for simpler bow knife/wood-handle knife, not target hand-crank form. Continue only after route decision and login-state MOQ/packaging/food-contact verification."
@@ -1151,6 +2309,30 @@
         "voc": "有初筛痛点，待Review原文"
       },
       "h10_evidence": [
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "pocket hole jig kit SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
         {
           "Review门槛": "median ；Top5收入占比 0.0%",
           "入口词": "pocket hole jig kit SV",
@@ -1284,6 +2466,30 @@
           "入口词": "digital torque wrench SV",
           "可粘贴结论/下一步": "",
           "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
+        },
+        {
+          "Review门槛": "median ；Top5收入占比 0.0%",
+          "入口词": "digital torque wrench SV",
+          "可粘贴结论/下一步": "",
+          "销量/收入": "Top20 proxy $0 / 0件"
         }
       ],
       "imageUrl": "",
@@ -1336,6 +2542,646 @@
       "risk": "H10/Xray/ABA需求、校准供应链能力、电池/质保/售后成本、专利结构、退货率。",
       "score": 72,
       "supply_deep": [
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3-60 N.m + 3/8 inch adjustable digital torque wrench，目标SHAHE 1.8-60Nm高度接近",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Hubei；CE",
+          "利润预估用价": "采购参考US$102.00-127.00；到岸估$122.4-171.45（中位$145.99），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$102.00-127.00",
+          "平台": "Made-in-China",
+          "建议": "只作规格上限参照；需另找1688/OEM源头压到$20-26才可继续",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度等级/质保待确认",
+          "风险": "到岸远高于目标红线；工业/专业渠道价格不适合$75售价"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 inch + 2.025-135Nm + LED display，覆盖目标扭矩但上限偏大；蜂鸣/震动待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；4.3/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$38.35-50.15；到岸估$46.02-67.7（中位$56.42），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "76",
+          "参考单价": "US$38.35-50.15",
+          "平台": "Made-in-China",
+          "建议": "若愿意做大MOQ可作为次优；重点谈60Nm版本和校准证书",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准报告/CE/RoHS待确认",
+          "风险": "到岸仍超红线；MOQ 200；功能细节需确认"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 drive + digital + buzzer LED + bike/car repairs，功能匹配度高；具体量程待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$89.00-100.00；到岸估$106.8-135.0（中位$120.49），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "74",
+          "参考单价": "US$89.00-100.00",
+          "平台": "Made-in-China",
+          "建议": "保留为高质量/高价对照，不建议作为利润复算主报价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度待确认",
+          "风险": "价格高，不适合当前目标售价；量程未在列表页直接显示"
+        },
+        {
+          "MOQ": "2 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "高精度重型可调数显+LCD，量程/驱动尺寸待验证；偏工业款",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$50.97-67.04；到岸估$61.16-90.5（中位$75.23），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "68",
+          "参考单价": "US$50.97-67.04",
+          "平台": "Made-in-China",
+          "建议": "低MOQ适合买样对标结构，但不建议用作量产成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书待确认",
+          "风险": "到岸超红线；重型定位可能超出DIY/自行车需求"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Hand tool digital torque wrench，标题泛化；量程/3/8/蜂鸣震动待验证，产品一致性中等偏低",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Shandong",
+          "利润预估用价": "采购参考US$19.50-26.20；到岸估$23.4-35.37（中位$29.13），部分低于红线，需压价/核包装；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "62",
+          "参考单价": "US$19.50-26.20",
+          "平台": "Made-in-China",
+          "建议": "作为利润复算低价情景，不可直接定论；必须追问完整规格和实拍",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；GS在相邻页出现但本SKU待确认；校准证书待确认",
+          "风险": "唯一接近成本红线但规格缺失多；可能不是目标3/8 60Nm产品"
+        },
+        {
+          "MOQ": "30 Piece/Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "5-25Nm + 1/4 inch + 15PCS bits/extensions，接近目标18PCS bike torque set；缺3-25Nm低端",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$9.20-12.50；到岸估$11.04-16.88（中位$13.83），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/彩盒/单重待验证",
+          "匹配评分": "90",
+          "参考单价": "US$9.20-12.50",
+          "平台": "Made-in-China",
+          "建议": "优先候选；询价要求72齿、双向、校准证书、18/21件套配置",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/精度±3-4%待确认",
+          "风险": "缺3-5Nm覆盖；校准证书和棘轮寿命未见"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "32PCS + 1/4 inch + 5-25Nm，自行车/摩托车套装；件数高于目标，适合礼品化",
+          "供应商质量": "Diamond Member + Audited Supplier，Secured Trading Service，Zhejiang",
+          "利润预估用价": "采购参考US$15.04-15.70；到岸估$18.05-21.2（中位$19.6），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "87",
+          "参考单价": "US$15.04-15.70",
+          "平台": "Made-in-China",
+          "建议": "作为高配款重点询价，确认是否可改18/21件降低成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书待确认",
+          "风险": "件数多导致包装/FBA费上升；缺3Nm低端"
+        },
+        {
+          "MOQ": "100 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "21PCS + 1/4 drive + 5-25Nm + H5x75 bits，含GS/CE Approved描述；接近竞品",
+          "供应商质量": "Gold Member + Audited Supplier，Trading Company，Shanghai；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$10.00-20.00；到岸估$12.0-27.0（中位$19.12），部分低于红线，需压价/核包装；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "85",
+          "参考单价": "US$10.00-20.00",
+          "平台": "Made-in-China",
+          "建议": "作为报价对照；要求拆分不含税/含税、FOB/EXW和配置明细",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "标题GS/CE；校准证书/精度待确认",
+          "风险": "贸易商属性；价格跨度大；需确认源头和一致性"
+        },
+        {
+          "MOQ": "300 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "1/4 + 2-25Nm + dual-direction + 72-tooth + 21PCS，规格最贴近目标3-25Nm/72齿",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$11.80-13.00；到岸估$14.16-17.55（中位$15.81），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "91",
+          "参考单价": "US$11.80-13.00",
+          "平台": "Made-in-China",
+          "建议": "优先候选；适合谈定制包装、常用扭矩卡和低MOQ试单",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/CE待确认",
+          "风险": "MOQ 300偏高；需确认校准精度/售后退换"
+        },
+        {
+          "MOQ": "50 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Fanyaa 1/4 25Nm bike/bicycle repair torque wrench set，品牌化/专业感较强；套件明细待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong",
+          "利润预估用价": "采购参考US$23.00-35.00；到岸估$27.6-47.25（中位$36.97），高于红线，利润风险高；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "75",
+          "参考单价": "US$23.00-35.00",
+          "平台": "Made-in-China",
+          "建议": "作为高端质检对照，不建议作为主利润价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；ISO9001:2015在QIDA其他SKU；校准证书待确认",
+          "风险": "到岸大概率超红线；品牌款溢价高"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3-60 N.m + 3/8 inch adjustable digital torque wrench，目标SHAHE 1.8-60Nm高度接近",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Hubei；CE",
+          "利润预估用价": "采购参考US$102.00-127.00；到岸估$122.4-171.45（中位$145.99），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$102.00-127.00",
+          "平台": "Made-in-China",
+          "建议": "只作规格上限参照；需另找1688/OEM源头压到$20-26才可继续",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度等级/质保待确认",
+          "风险": "到岸远高于目标红线；工业/专业渠道价格不适合$75售价"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 inch + 2.025-135Nm + LED display，覆盖目标扭矩但上限偏大；蜂鸣/震动待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；4.3/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$38.35-50.15；到岸估$46.02-67.7（中位$56.42），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "76",
+          "参考单价": "US$38.35-50.15",
+          "平台": "Made-in-China",
+          "建议": "若愿意做大MOQ可作为次优；重点谈60Nm版本和校准证书",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准报告/CE/RoHS待确认",
+          "风险": "到岸仍超红线；MOQ 200；功能细节需确认"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 drive + digital + buzzer LED + bike/car repairs，功能匹配度高；具体量程待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$89.00-100.00；到岸估$106.8-135.0（中位$120.49），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "74",
+          "参考单价": "US$89.00-100.00",
+          "平台": "Made-in-China",
+          "建议": "保留为高质量/高价对照，不建议作为利润复算主报价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度待确认",
+          "风险": "价格高，不适合当前目标售价；量程未在列表页直接显示"
+        },
+        {
+          "MOQ": "2 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "高精度重型可调数显+LCD，量程/驱动尺寸待验证；偏工业款",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$50.97-67.04；到岸估$61.16-90.5（中位$75.23），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "68",
+          "参考单价": "US$50.97-67.04",
+          "平台": "Made-in-China",
+          "建议": "低MOQ适合买样对标结构，但不建议用作量产成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书待确认",
+          "风险": "到岸超红线；重型定位可能超出DIY/自行车需求"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Hand tool digital torque wrench，标题泛化；量程/3/8/蜂鸣震动待验证，产品一致性中等偏低",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Shandong",
+          "利润预估用价": "采购参考US$19.50-26.20；到岸估$23.4-35.37（中位$29.13），部分低于红线，需压价/核包装；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "62",
+          "参考单价": "US$19.50-26.20",
+          "平台": "Made-in-China",
+          "建议": "作为利润复算低价情景，不可直接定论；必须追问完整规格和实拍",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；GS在相邻页出现但本SKU待确认；校准证书待确认",
+          "风险": "唯一接近成本红线但规格缺失多；可能不是目标3/8 60Nm产品"
+        },
+        {
+          "MOQ": "30 Piece/Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "5-25Nm + 1/4 inch + 15PCS bits/extensions，接近目标18PCS bike torque set；缺3-25Nm低端",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$9.20-12.50；到岸估$11.04-16.88（中位$13.83），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/彩盒/单重待验证",
+          "匹配评分": "90",
+          "参考单价": "US$9.20-12.50",
+          "平台": "Made-in-China",
+          "建议": "优先候选；询价要求72齿、双向、校准证书、18/21件套配置",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/精度±3-4%待确认",
+          "风险": "缺3-5Nm覆盖；校准证书和棘轮寿命未见"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "32PCS + 1/4 inch + 5-25Nm，自行车/摩托车套装；件数高于目标，适合礼品化",
+          "供应商质量": "Diamond Member + Audited Supplier，Secured Trading Service，Zhejiang",
+          "利润预估用价": "采购参考US$15.04-15.70；到岸估$18.05-21.2（中位$19.6），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "87",
+          "参考单价": "US$15.04-15.70",
+          "平台": "Made-in-China",
+          "建议": "作为高配款重点询价，确认是否可改18/21件降低成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书待确认",
+          "风险": "件数多导致包装/FBA费上升；缺3Nm低端"
+        },
+        {
+          "MOQ": "100 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "21PCS + 1/4 drive + 5-25Nm + H5x75 bits，含GS/CE Approved描述；接近竞品",
+          "供应商质量": "Gold Member + Audited Supplier，Trading Company，Shanghai；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$10.00-20.00；到岸估$12.0-27.0（中位$19.12），部分低于红线，需压价/核包装；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "85",
+          "参考单价": "US$10.00-20.00",
+          "平台": "Made-in-China",
+          "建议": "作为报价对照；要求拆分不含税/含税、FOB/EXW和配置明细",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "标题GS/CE；校准证书/精度待确认",
+          "风险": "贸易商属性；价格跨度大；需确认源头和一致性"
+        },
+        {
+          "MOQ": "300 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "1/4 + 2-25Nm + dual-direction + 72-tooth + 21PCS，规格最贴近目标3-25Nm/72齿",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$11.80-13.00；到岸估$14.16-17.55（中位$15.81），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "91",
+          "参考单价": "US$11.80-13.00",
+          "平台": "Made-in-China",
+          "建议": "优先候选；适合谈定制包装、常用扭矩卡和低MOQ试单",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/CE待确认",
+          "风险": "MOQ 300偏高；需确认校准精度/售后退换"
+        },
+        {
+          "MOQ": "50 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Fanyaa 1/4 25Nm bike/bicycle repair torque wrench set，品牌化/专业感较强；套件明细待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong",
+          "利润预估用价": "采购参考US$23.00-35.00；到岸估$27.6-47.25（中位$36.97），高于红线，利润风险高；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "75",
+          "参考单价": "US$23.00-35.00",
+          "平台": "Made-in-China",
+          "建议": "作为高端质检对照，不建议作为主利润价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；ISO9001:2015在QIDA其他SKU；校准证书待确认",
+          "风险": "到岸大概率超红线；品牌款溢价高"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3-60 N.m + 3/8 inch adjustable digital torque wrench，目标SHAHE 1.8-60Nm高度接近",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Hubei；CE",
+          "利润预估用价": "采购参考US$102.00-127.00；到岸估$122.4-171.45（中位$145.99），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$102.00-127.00",
+          "平台": "Made-in-China",
+          "建议": "只作规格上限参照；需另找1688/OEM源头压到$20-26才可继续",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度等级/质保待确认",
+          "风险": "到岸远高于目标红线；工业/专业渠道价格不适合$75售价"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 inch + 2.025-135Nm + LED display，覆盖目标扭矩但上限偏大；蜂鸣/震动待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；4.3/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$38.35-50.15；到岸估$46.02-67.7（中位$56.42），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "76",
+          "参考单价": "US$38.35-50.15",
+          "平台": "Made-in-China",
+          "建议": "若愿意做大MOQ可作为次优；重点谈60Nm版本和校准证书",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准报告/CE/RoHS待确认",
+          "风险": "到岸仍超红线；MOQ 200；功能细节需确认"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 drive + digital + buzzer LED + bike/car repairs，功能匹配度高；具体量程待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$89.00-100.00；到岸估$106.8-135.0（中位$120.49），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "74",
+          "参考单价": "US$89.00-100.00",
+          "平台": "Made-in-China",
+          "建议": "保留为高质量/高价对照，不建议作为利润复算主报价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度待确认",
+          "风险": "价格高，不适合当前目标售价；量程未在列表页直接显示"
+        },
+        {
+          "MOQ": "2 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "高精度重型可调数显+LCD，量程/驱动尺寸待验证；偏工业款",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$50.97-67.04；到岸估$61.16-90.5（中位$75.23），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "68",
+          "参考单价": "US$50.97-67.04",
+          "平台": "Made-in-China",
+          "建议": "低MOQ适合买样对标结构，但不建议用作量产成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书待确认",
+          "风险": "到岸超红线；重型定位可能超出DIY/自行车需求"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Hand tool digital torque wrench，标题泛化；量程/3/8/蜂鸣震动待验证，产品一致性中等偏低",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Shandong",
+          "利润预估用价": "采购参考US$19.50-26.20；到岸估$23.4-35.37（中位$29.13），部分低于红线，需压价/核包装；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "62",
+          "参考单价": "US$19.50-26.20",
+          "平台": "Made-in-China",
+          "建议": "作为利润复算低价情景，不可直接定论；必须追问完整规格和实拍",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；GS在相邻页出现但本SKU待确认；校准证书待确认",
+          "风险": "唯一接近成本红线但规格缺失多；可能不是目标3/8 60Nm产品"
+        },
+        {
+          "MOQ": "30 Piece/Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "5-25Nm + 1/4 inch + 15PCS bits/extensions，接近目标18PCS bike torque set；缺3-25Nm低端",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$9.20-12.50；到岸估$11.04-16.88（中位$13.83），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/彩盒/单重待验证",
+          "匹配评分": "90",
+          "参考单价": "US$9.20-12.50",
+          "平台": "Made-in-China",
+          "建议": "优先候选；询价要求72齿、双向、校准证书、18/21件套配置",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/精度±3-4%待确认",
+          "风险": "缺3-5Nm覆盖；校准证书和棘轮寿命未见"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "32PCS + 1/4 inch + 5-25Nm，自行车/摩托车套装；件数高于目标，适合礼品化",
+          "供应商质量": "Diamond Member + Audited Supplier，Secured Trading Service，Zhejiang",
+          "利润预估用价": "采购参考US$15.04-15.70；到岸估$18.05-21.2（中位$19.6），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "87",
+          "参考单价": "US$15.04-15.70",
+          "平台": "Made-in-China",
+          "建议": "作为高配款重点询价，确认是否可改18/21件降低成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书待确认",
+          "风险": "件数多导致包装/FBA费上升；缺3Nm低端"
+        },
+        {
+          "MOQ": "100 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "21PCS + 1/4 drive + 5-25Nm + H5x75 bits，含GS/CE Approved描述；接近竞品",
+          "供应商质量": "Gold Member + Audited Supplier，Trading Company，Shanghai；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$10.00-20.00；到岸估$12.0-27.0（中位$19.12），部分低于红线，需压价/核包装；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "85",
+          "参考单价": "US$10.00-20.00",
+          "平台": "Made-in-China",
+          "建议": "作为报价对照；要求拆分不含税/含税、FOB/EXW和配置明细",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "标题GS/CE；校准证书/精度待确认",
+          "风险": "贸易商属性；价格跨度大；需确认源头和一致性"
+        },
+        {
+          "MOQ": "300 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "1/4 + 2-25Nm + dual-direction + 72-tooth + 21PCS，规格最贴近目标3-25Nm/72齿",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$11.80-13.00；到岸估$14.16-17.55（中位$15.81），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "91",
+          "参考单价": "US$11.80-13.00",
+          "平台": "Made-in-China",
+          "建议": "优先候选；适合谈定制包装、常用扭矩卡和低MOQ试单",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/CE待确认",
+          "风险": "MOQ 300偏高；需确认校准精度/售后退换"
+        },
+        {
+          "MOQ": "50 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Fanyaa 1/4 25Nm bike/bicycle repair torque wrench set，品牌化/专业感较强；套件明细待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong",
+          "利润预估用价": "采购参考US$23.00-35.00；到岸估$27.6-47.25（中位$36.97），高于红线，利润风险高；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "75",
+          "参考单价": "US$23.00-35.00",
+          "平台": "Made-in-China",
+          "建议": "作为高端质检对照，不建议作为主利润价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；ISO9001:2015在QIDA其他SKU；校准证书待确认",
+          "风险": "到岸大概率超红线；品牌款溢价高"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3-60 N.m + 3/8 inch adjustable digital torque wrench，目标SHAHE 1.8-60Nm高度接近",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Hubei；CE",
+          "利润预估用价": "采购参考US$102.00-127.00；到岸估$122.4-171.45（中位$145.99），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$102.00-127.00",
+          "平台": "Made-in-China",
+          "建议": "只作规格上限参照；需另找1688/OEM源头压到$20-26才可继续",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度等级/质保待确认",
+          "风险": "到岸远高于目标红线；工业/专业渠道价格不适合$75售价"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 inch + 2.025-135Nm + LED display，覆盖目标扭矩但上限偏大；蜂鸣/震动待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Zhejiang；4.3/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$38.35-50.15；到岸估$46.02-67.7（中位$56.42），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "76",
+          "参考单价": "US$38.35-50.15",
+          "平台": "Made-in-China",
+          "建议": "若愿意做大MOQ可作为次优；重点谈60Nm版本和校准证书",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准报告/CE/RoHS待确认",
+          "风险": "到岸仍超红线；MOQ 200；功能细节需确认"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "3/8 drive + digital + buzzer LED + bike/car repairs，功能匹配度高；具体量程待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$89.00-100.00；到岸估$106.8-135.0（中位$120.49），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "74",
+          "参考单价": "US$89.00-100.00",
+          "平台": "Made-in-China",
+          "建议": "保留为高质量/高价对照，不建议作为利润复算主报价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书/精度待确认",
+          "风险": "价格高，不适合当前目标售价；量程未在列表页直接显示"
+        },
+        {
+          "MOQ": "2 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "高精度重型可调数显+LCD，量程/驱动尺寸待验证；偏工业款",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$50.97-67.04；到岸估$61.16-90.5（中位$75.23），高于红线，利润风险高；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "68",
+          "参考单价": "US$50.97-67.04",
+          "平台": "Made-in-China",
+          "建议": "低MOQ适合买样对标结构，但不建议用作量产成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书待确认",
+          "风险": "到岸超红线；重型定位可能超出DIY/自行车需求"
+        },
+        {
+          "MOQ": "200 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Hand tool digital torque wrench，标题泛化；量程/3/8/蜂鸣震动待验证，产品一致性中等偏低",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Shandong",
+          "利润预估用价": "采购参考US$19.50-26.20；到岸估$23.4-35.37（中位$29.13），部分低于红线，需压价/核包装；目标红线$16.8-31.5",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "62",
+          "参考单价": "US$19.50-26.20",
+          "平台": "Made-in-China",
+          "建议": "作为利润复算低价情景，不可直接定论；必须追问完整规格和实拍",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；GS在相邻页出现但本SKU待确认；校准证书待确认",
+          "风险": "唯一接近成本红线但规格缺失多；可能不是目标3/8 60Nm产品"
+        },
+        {
+          "MOQ": "30 Piece/Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "5-25Nm + 1/4 inch + 15PCS bits/extensions，接近目标18PCS bike torque set；缺3-25Nm低端",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$9.20-12.50；到岸估$11.04-16.88（中位$13.83），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/彩盒/单重待验证",
+          "匹配评分": "90",
+          "参考单价": "US$9.20-12.50",
+          "平台": "Made-in-China",
+          "建议": "优先候选；询价要求72齿、双向、校准证书、18/21件套配置",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/精度±3-4%待确认",
+          "风险": "缺3-5Nm覆盖；校准证书和棘轮寿命未见"
+        },
+        {
+          "MOQ": "50 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "32PCS + 1/4 inch + 5-25Nm，自行车/摩托车套装；件数高于目标，适合礼品化",
+          "供应商质量": "Diamond Member + Audited Supplier，Secured Trading Service，Zhejiang",
+          "利润预估用价": "采购参考US$15.04-15.70；到岸估$18.05-21.2（中位$19.6），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "87",
+          "参考单价": "US$15.04-15.70",
+          "平台": "Made-in-China",
+          "建议": "作为高配款重点询价，确认是否可改18/21件降低成本",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "CE；校准证书待确认",
+          "风险": "件数多导致包装/FBA费上升；缺3Nm低端"
+        },
+        {
+          "MOQ": "100 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "21PCS + 1/4 drive + 5-25Nm + H5x75 bits，含GS/CE Approved描述；接近竞品",
+          "供应商质量": "Gold Member + Audited Supplier，Trading Company，Shanghai；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$10.00-20.00；到岸估$12.0-27.0（中位$19.12），部分低于红线，需压价/核包装；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "85",
+          "参考单价": "US$10.00-20.00",
+          "平台": "Made-in-China",
+          "建议": "作为报价对照；要求拆分不含税/含税、FOB/EXW和配置明细",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "标题GS/CE；校准证书/精度待确认",
+          "风险": "贸易商属性；价格跨度大；需确认源头和一致性"
+        },
+        {
+          "MOQ": "300 Pieces(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "1/4 + 2-25Nm + dual-direction + 72-tooth + 21PCS，规格最贴近目标3-25Nm/72齿",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Zhejiang",
+          "利润预估用价": "采购参考US$11.80-13.00；到岸估$14.16-17.55（中位$15.81），低于/接近红线，可进报价复算；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "91",
+          "参考单价": "US$11.80-13.00",
+          "平台": "Made-in-China",
+          "建议": "优先候选；适合谈定制包装、常用扭矩卡和低MOQ试单",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；校准证书/CE待确认",
+          "风险": "MOQ 300偏高；需确认校准精度/售后退换"
+        },
+        {
+          "MOQ": "50 Sets(MOQ)",
+          "产品": "数显/咔哒式扭矩扳手",
+          "产品一致性": "Fanyaa 1/4 25Nm bike/bicycle repair torque wrench set，品牌化/专业感较强；套件明细待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong",
+          "利润预估用价": "采购参考US$23.00-35.00；到岸估$27.6-47.25（中位$36.97），高于红线，利润风险高；目标红线$11.2-24.5",
+          "包装/重量": "收纳盒/包装尺寸/单重待验证",
+          "匹配评分": "75",
+          "参考单价": "US$23.00-35.00",
+          "平台": "Made-in-China",
+          "建议": "作为高端质检对照，不建议作为主利润价",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；ISO9001:2015在QIDA其他SKU；校准证书待确认",
+          "风险": "到岸大概率超红线；品牌款溢价高"
+        },
         {
           "MOQ": "1 Piece(MOQ)",
           "产品": "数显/咔哒式扭矩扳手",
@@ -1738,6 +3584,34 @@
           "样品ID": "SAMPLE-001",
           "样品状态": "待刘希确认",
           "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
+        },
+        {
+          "产品": "365nm UV 可充电手电",
+          "关联产品ID": "P-SUP-001",
+          "样品ID": "SAMPLE-001",
+          "样品状态": "待刘希确认",
+          "样品结论": "待评估"
         }
       ],
       "human_supply": {
@@ -1751,6 +3625,20 @@
         "要找什么/关键规格": "365nm真UV+滤镜、LCD电量、温控降档/童锁、强磁尾盖、照距/续航实测卡；删除鸡肋RGB模式。",
         "需要找供应商的产品": "365nm UV 可充电手电｜宠物尿渍/霉斑检测"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录1688核offer 859816420001、954713555413、735466136044：价格阶梯、MOQ、店铺年限、厂家/贸易身份、是否同款Type-C/黑镜/四锂电；页面可见365±5nm实测/光谱图、ZWB2滤镜参数、MSDS/UN38.3/CE/FCC/RoHS、单品包装尺寸/GW/NW/装箱数；不可旺旺询价",
+          "优先级": "P0",
+          "只读验证清单": "只读整理MIC/公开页低价对照与1688 offer线索；对照Seatyle US$2.38-2.88/MOQ100、Tuliang US$5.00-7.50/MOQ20、已见包装17.5*7.5*4.5cm/0.3kg；标注所有价格非正式报价",
+          "当前F:J状态": "部分补证｜待人工验证",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "补到Seatyle公开低价参考；1688因风控缺价/MOQ；365nm/滤镜/电池/认证/包装仍缺",
+          "未闭环字段": "真365nm/滤镜/锂电认证/包装尺寸/MOQ/FBA",
+          "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第6行",
+          "闭环判断": "未闭环，需人工登录/正式报价/认证实证"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/61LAUA1YtUL._SX450_.jpg",
       "inquiry_spec": {
         "交期/MOQ字段": "MOQ、阶梯价100/300/500/1000；样品费；样品交期；大货交期；发货地；装箱数；单箱尺寸/重量",
@@ -1778,6 +3666,29 @@
           "官方需求来源": "真实数据：Amazon Catalog ASIN B0C7ZYQT2L 本次只读读取；已缓存数据：ABA 2026-04-05_to_11、2026-04-26_to_2026-05-02、2026-05-03_to_2026-05-09 查询；SQP缓存仅眼罩ASIN无匹配；后台截图/导出：POE未取得，CPC未取得；推测假设：H10/VOC只作外部佐证",
           "是否可进入询价": "可小范围询价验证，但只能标“官方需求待补/低置信”；不建议凭官方需求放行优先立项。",
           "缺口": "官方需求硬缺口仍大：无有效ABA词、无POE机会池/趋势截图、无SQP自有搜索表现、无CPC；UV真365nm/滤镜/电池/认证仍需供应链实证。"
+        }
+      ],
+      "official_followup": [
+        {
+          "下一步": "保留“官方源缺口/需求未证实”标记；若继续，扩展到blacklight/flashlight更宽词并由H10/广告只读补量级，不建议把Catalog当需求证据。",
+          "是否需要人工权限": "否；如要POE/CPC则需要人工权限",
+          "缺口": "ABA",
+          "能否补到": "部分补到；仍不闭环",
+          "证据/失败原因": "已读飞书《补证任务队列》F:J，更新时间2026-05-13 19:16 CST：状态为“未闭环｜官方源缺口”。已缓存ABA三周（2026-04-05_to_11、2026-04-26_to_2026-05-02、2026-05-03_to_2026-05-09）复核：365nm uv flashlight、uv flashlight、black light flashlight、black light、pet urine detector、pet stain detector、uv flashlight for pet urine均无精确匹配；仅出现不相关uv light face mask rank 1,816,213。SP-API Catalog可读到B0C7ZYQT2L，证明该ASIN/类目存在但不能证明搜索需求。"
+        },
+        {
+          "下一步": "需要人工完成Seller Central登录或提供POE/Search Terms导出；拿到后再回填机会池规模、增长、竞品集中度。",
+          "是否需要人工权限": "是",
+          "缺口": "POE",
+          "能否补到": "未补到",
+          "证据/失败原因": "紫鸟只读店铺可启动，但Seller Central当前停在登录页/需密码，未能进入Product Opportunity Explorer；本轮无POE机会池、细分、趋势截图或导出。"
+        },
+        {
+          "下一步": "需要Ads后台只读建议竞价截图/导出，或由运营当当提供CPC区间；回填前继续标“CPC未取得”。",
+          "是否需要人工权限": "是",
+          "缺口": "CPC",
+          "能否补到": "未补到",
+          "证据/失败原因": "现有只读工具/缓存没有Ads建议CPC或关键词竞价导出；本轮未进入广告后台，未做任何广告修改。"
         }
       ],
       "owner": "方舟 → 产品开发/鹰眼/H10/VOC/供应链只读补证",
@@ -1817,6 +3728,326 @@
       "risk": "ABA/POE/H10、UV安全合规、电池认证、清洁剂荧光误判、侵权词。",
       "score": 72,
       "supply_deep": [
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "USB rechargeable + 365nm，场景为玉石/验钞，接近宠物尿渍检测；LCD电量/ZWB2滤镜/磁吸尾盖待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Fujian；4.9/5 Great Supplier；公司类型待验证",
+          "利润预估用价": "采购参考US$2.38-2.88；到岸估$2.86-3.89（中位$3.35），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "86",
+          "参考单价": "US$2.38-2.88",
+          "平台": "Made-in-China",
+          "建议": "优先要样参数：实测波长365±5nm、ZWB2滤镜、续航/发热、USB-C、电池容量、MSDS/UN38.3",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池UN38.3/MSDS/CE/RoHS待确认",
+          "风险": "低价款可能365nm真实性/光强不足；宣称场景非宠物；锂电运输资料未见"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Amazon hot sell + USB rechargeable + 365nm UV black light，低价迷你款；与LCD/强磁/高功率定义不完全一致",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$0.70-1.20；到岸估$0.84-1.62（中位$1.21），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$0.70-1.20",
+          "平台": "Made-in-China",
+          "建议": "可作为低成本参照，不建议直接定款；先索规格书/实拍光斑/电池资料",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/CE/RoHS待确认",
+          "风险": "价格异常低，可能为小功率促销款；真实365nm和电池安全风险高"
+        },
+        {
+          "MOQ": "500 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Rechargeable LED UV，365/395nm标题；接近但是否真365nm、是否带滤镜/LCD待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong；5.0/5 Reliable Supplier",
+          "利润预估用价": "采购参考US$1.35-1.41；到岸估$1.62-1.9（中位$1.76），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "80",
+          "参考单价": "US$1.35-1.41",
+          "平台": "Made-in-China",
+          "建议": "作为低价候选第二梯队，要求确认365nm LED品牌/波长测试报告",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；CE/RoHS/电池资料待确认",
+          "风险": "MOQ高；365/395混写，可能实际395nm；低价款质控不稳"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "365nm high power + zoom + rechargeable/USB，兼有395描述；高功率定位更接近差异化",
+          "供应商质量": "Gold Member + Audited Supplier，Tianjin；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$4.78-6.05；到岸估$5.74-8.17（中位$6.9），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "78",
+          "参考单价": "US$4.78-6.05",
+          "平台": "Made-in-China",
+          "建议": "适合打样验证光强/发热；询价时要求温控、续航、滤镜、电池容量",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池运输/CE/RoHS待确认",
+          "风险": "365/395标题混用；供应商类型待验证；高功率发热需测"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "60W UV 365nm black light，3档调光；高规格接近专业款，但是否可充电/LCD/宠物场景待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$16.00-18.00；到岸估$19.2-24.3（中位$21.67），高于红线，利润风险高；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "70",
+          "参考单价": "US$16.00-18.00",
+          "平台": "Made-in-China",
+          "建议": "作为高功率上限价参考，除非售价/差异化上调，否则不优先",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/认证待确认",
+          "风险": "单价高于UV红线；功能过度可能压缩毛利；规格细节缺"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "USB rechargeable + 365nm，场景为玉石/验钞，接近宠物尿渍检测；LCD电量/ZWB2滤镜/磁吸尾盖待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Fujian；4.9/5 Great Supplier；公司类型待验证",
+          "利润预估用价": "采购参考US$2.38-2.88；到岸估$2.86-3.89（中位$3.35），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "86",
+          "参考单价": "US$2.38-2.88",
+          "平台": "Made-in-China",
+          "建议": "优先要样参数：实测波长365±5nm、ZWB2滤镜、续航/发热、USB-C、电池容量、MSDS/UN38.3",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池UN38.3/MSDS/CE/RoHS待确认",
+          "风险": "低价款可能365nm真实性/光强不足；宣称场景非宠物；锂电运输资料未见"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Amazon hot sell + USB rechargeable + 365nm UV black light，低价迷你款；与LCD/强磁/高功率定义不完全一致",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$0.70-1.20；到岸估$0.84-1.62（中位$1.21），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$0.70-1.20",
+          "平台": "Made-in-China",
+          "建议": "可作为低成本参照，不建议直接定款；先索规格书/实拍光斑/电池资料",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/CE/RoHS待确认",
+          "风险": "价格异常低，可能为小功率促销款；真实365nm和电池安全风险高"
+        },
+        {
+          "MOQ": "500 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Rechargeable LED UV，365/395nm标题；接近但是否真365nm、是否带滤镜/LCD待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong；5.0/5 Reliable Supplier",
+          "利润预估用价": "采购参考US$1.35-1.41；到岸估$1.62-1.9（中位$1.76），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "80",
+          "参考单价": "US$1.35-1.41",
+          "平台": "Made-in-China",
+          "建议": "作为低价候选第二梯队，要求确认365nm LED品牌/波长测试报告",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；CE/RoHS/电池资料待确认",
+          "风险": "MOQ高；365/395混写，可能实际395nm；低价款质控不稳"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "365nm high power + zoom + rechargeable/USB，兼有395描述；高功率定位更接近差异化",
+          "供应商质量": "Gold Member + Audited Supplier，Tianjin；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$4.78-6.05；到岸估$5.74-8.17（中位$6.9），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "78",
+          "参考单价": "US$4.78-6.05",
+          "平台": "Made-in-China",
+          "建议": "适合打样验证光强/发热；询价时要求温控、续航、滤镜、电池容量",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池运输/CE/RoHS待确认",
+          "风险": "365/395标题混用；供应商类型待验证；高功率发热需测"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "60W UV 365nm black light，3档调光；高规格接近专业款，但是否可充电/LCD/宠物场景待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$16.00-18.00；到岸估$19.2-24.3（中位$21.67），高于红线，利润风险高；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "70",
+          "参考单价": "US$16.00-18.00",
+          "平台": "Made-in-China",
+          "建议": "作为高功率上限价参考，除非售价/差异化上调，否则不优先",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/认证待确认",
+          "风险": "单价高于UV红线；功能过度可能压缩毛利；规格细节缺"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "USB rechargeable + 365nm，场景为玉石/验钞，接近宠物尿渍检测；LCD电量/ZWB2滤镜/磁吸尾盖待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Fujian；4.9/5 Great Supplier；公司类型待验证",
+          "利润预估用价": "采购参考US$2.38-2.88；到岸估$2.86-3.89（中位$3.35），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "86",
+          "参考单价": "US$2.38-2.88",
+          "平台": "Made-in-China",
+          "建议": "优先要样参数：实测波长365±5nm、ZWB2滤镜、续航/发热、USB-C、电池容量、MSDS/UN38.3",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池UN38.3/MSDS/CE/RoHS待确认",
+          "风险": "低价款可能365nm真实性/光强不足；宣称场景非宠物；锂电运输资料未见"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Amazon hot sell + USB rechargeable + 365nm UV black light，低价迷你款；与LCD/强磁/高功率定义不完全一致",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$0.70-1.20；到岸估$0.84-1.62（中位$1.21），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$0.70-1.20",
+          "平台": "Made-in-China",
+          "建议": "可作为低成本参照，不建议直接定款；先索规格书/实拍光斑/电池资料",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/CE/RoHS待确认",
+          "风险": "价格异常低，可能为小功率促销款；真实365nm和电池安全风险高"
+        },
+        {
+          "MOQ": "500 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Rechargeable LED UV，365/395nm标题；接近但是否真365nm、是否带滤镜/LCD待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong；5.0/5 Reliable Supplier",
+          "利润预估用价": "采购参考US$1.35-1.41；到岸估$1.62-1.9（中位$1.76），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "80",
+          "参考单价": "US$1.35-1.41",
+          "平台": "Made-in-China",
+          "建议": "作为低价候选第二梯队，要求确认365nm LED品牌/波长测试报告",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；CE/RoHS/电池资料待确认",
+          "风险": "MOQ高；365/395混写，可能实际395nm；低价款质控不稳"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "365nm high power + zoom + rechargeable/USB，兼有395描述；高功率定位更接近差异化",
+          "供应商质量": "Gold Member + Audited Supplier，Tianjin；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$4.78-6.05；到岸估$5.74-8.17（中位$6.9），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "78",
+          "参考单价": "US$4.78-6.05",
+          "平台": "Made-in-China",
+          "建议": "适合打样验证光强/发热；询价时要求温控、续航、滤镜、电池容量",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池运输/CE/RoHS待确认",
+          "风险": "365/395标题混用；供应商类型待验证；高功率发热需测"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "60W UV 365nm black light，3档调光；高规格接近专业款，但是否可充电/LCD/宠物场景待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$16.00-18.00；到岸估$19.2-24.3（中位$21.67），高于红线，利润风险高；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "70",
+          "参考单价": "US$16.00-18.00",
+          "平台": "Made-in-China",
+          "建议": "作为高功率上限价参考，除非售价/差异化上调，否则不优先",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/认证待确认",
+          "风险": "单价高于UV红线；功能过度可能压缩毛利；规格细节缺"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "USB rechargeable + 365nm，场景为玉石/验钞，接近宠物尿渍检测；LCD电量/ZWB2滤镜/磁吸尾盖待验证",
+          "供应商质量": "Gold Member + Audited Supplier，Fujian；4.9/5 Great Supplier；公司类型待验证",
+          "利润预估用价": "采购参考US$2.38-2.88；到岸估$2.86-3.89（中位$3.35），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "86",
+          "参考单价": "US$2.38-2.88",
+          "平台": "Made-in-China",
+          "建议": "优先要样参数：实测波长365±5nm、ZWB2滤镜、续航/发热、USB-C、电池容量、MSDS/UN38.3",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池UN38.3/MSDS/CE/RoHS待确认",
+          "风险": "低价款可能365nm真实性/光强不足；宣称场景非宠物；锂电运输资料未见"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Amazon hot sell + USB rechargeable + 365nm UV black light，低价迷你款；与LCD/强磁/高功率定义不完全一致",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Dispatch",
+          "利润预估用价": "采购参考US$0.70-1.20；到岸估$0.84-1.62（中位$1.21），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "82",
+          "参考单价": "US$0.70-1.20",
+          "平台": "Made-in-China",
+          "建议": "可作为低成本参照，不建议直接定款；先索规格书/实拍光斑/电池资料",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/CE/RoHS待确认",
+          "风险": "价格异常低，可能为小功率促销款；真实365nm和电池安全风险高"
+        },
+        {
+          "MOQ": "500 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "Rechargeable LED UV，365/395nm标题；接近但是否真365nm、是否带滤镜/LCD待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Manufacturer/Factory & Trading Company，Guangdong；5.0/5 Reliable Supplier",
+          "利润预估用价": "采购参考US$1.35-1.41；到岸估$1.62-1.9（中位$1.76），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "80",
+          "参考单价": "US$1.35-1.41",
+          "平台": "Made-in-China",
+          "建议": "作为低价候选第二梯队，要求确认365nm LED品牌/波长测试报告",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；CE/RoHS/电池资料待确认",
+          "风险": "MOQ高；365/395混写，可能实际395nm；低价款质控不稳"
+        },
+        {
+          "MOQ": "1 Piece(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "365nm high power + zoom + rechargeable/USB，兼有395描述；高功率定位更接近差异化",
+          "供应商质量": "Gold Member + Audited Supplier，Tianjin；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$4.78-6.05；到岸估$5.74-8.17（中位$6.9），低于/接近红线，可进报价复算；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "78",
+          "参考单价": "US$4.78-6.05",
+          "平台": "Made-in-China",
+          "建议": "适合打样验证光强/发热；询价时要求温控、续航、滤镜、电池容量",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池运输/CE/RoHS待确认",
+          "风险": "365/395标题混用；供应商类型待验证；高功率发热需测"
+        },
+        {
+          "MOQ": "100 Pieces(MOQ)",
+          "产品": "365nm UV可充电手电",
+          "产品一致性": "60W UV 365nm black light，3档调光；高规格接近专业款，但是否可充电/LCD/宠物场景待验证",
+          "供应商质量": "Diamond Member + Audited Supplier，Guangdong；5.0/5 Fast Delivery",
+          "利润预估用价": "采购参考US$16.00-18.00；到岸估$19.2-24.3（中位$21.67），高于红线，利润风险高；目标红线$8.4-14.0",
+          "包装/重量": "包装/单重待验证",
+          "匹配评分": "70",
+          "参考单价": "US$16.00-18.00",
+          "平台": "Made-in-China",
+          "建议": "作为高功率上限价参考，除非售价/差异化上调，否则不优先",
+          "更新时间": "2026-05-14 09:18 CST",
+          "状态": "只读参考，未外联",
+          "认证/质检": "Audited；电池/认证待确认",
+          "风险": "单价高于UV红线；功能过度可能压缩毛利；规格细节缺"
+        },
         {
           "MOQ": "100 Pieces(MOQ)",
           "产品": "365nm UV可充电手电",
@@ -2137,6 +4368,34 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
+      "h10_remaining": [
+        {
+          "ASIN": "B0C5RSGP9J",
+          "BSR": "Gift Wrap Storage #12; salesRank 40730",
+          "Review": "1022",
+          "imageUrl": "https://m.media-amazon.com/images/I/71aujZCx9oL._SX450_.jpg",
+          "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+          "价格": "$19.99",
+          "入口词": "gift bag organizer storage",
+          "月销额": "$13,004.16",
+          "相关性判断": "高相关：标题含 Wrapping Paper Storage / Gift Wrap Organizer / Hanging Gift Bag Storage",
+          "补什么": "H10/代表ASIN/图片/样本指标"
+        }
+      ],
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录核：展开尺寸、折叠/压缩包装尺寸、单品GW/NW、外箱尺寸/装箱数、600D/210D克重、硬挺底板/隔板材质、拉链/把手强度、可容纳40in卷纸数量、礼品袋/丝带/剪刀分区、床下/壁挂两用结构、季节交期、MOQ是否可50-300小单试产",
+          "优先级": "P1",
+          "只读验证清单": "只读复核公开线索：Underbed US$19.99/MOQ3000/PE袋/33.9*11.81*4.72单位待确认；600D Oxford US$2.10-4.99/MOQ3000/0.5-1kg；区分gift wrap organizer、gift bag organizer、kitchen wrap organizer偏题款",
+          "当前F:J状态": "未闭环｜包装尺寸待补",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "gift organizer箱规/压缩包装仍未闭环",
+          "未闭环字段": "包装尺寸/MOQ/压缩包装/FBA/布料配件",
+          "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第23行",
+          "闭环判断": "仍待供应链"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/81kYoyE906L._SX450_.jpg",
       "level": "C 观察",
       "market_competition": {
@@ -2215,6 +4474,20 @@
         "supply": "只读快筛/待验证",
         "voc": "有初筛痛点，待Review原文"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录/现有供应商资料只读核：电池容量/型号、是否锂电、温控IC、加热片方案、过温保护、自动断电、3档温度、可拆洗结构、面料接触安全、CE/FCC/RoHS/MSDS/UN38.3、单品包装尺寸/GW/NW、装箱数、MOQ；页面不得出现治疗干眼/医疗功效承诺",
+          "优先级": "P1",
+          "只读验证清单": "只读复核公开线索：Texpro US$9.30/9.86、MOQ1000、30*10*5cm/0.2kg；Highview US$8-25/MOQ1000；先区分USB有线、锂电无线、一次性蒸汽眼罩路线",
+          "当前F:J状态": "部分补证｜合规/供应链待验证",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "新增10链路补到眼罩官方/VOC/合规风险，但供应商硬字段未闭环",
+          "未闭环字段": "供应链硬字段/电热认证/锂电/包装尺寸",
+          "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第16行",
+          "闭环判断": "作为现有品线迭代，需供应链小改款验证"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/71YfcU9jdoL._SX450_.jpg",
       "level": "C 观察",
       "market_competition": {
@@ -2312,6 +4585,20 @@
         "要找什么/关键规格": "预校准证书、双单位显示、蜂鸣+震动提醒、收纳盒+常用扭矩卡，避开专业级高价。",
         "需要找供应商的产品": "数显扭矩扳手｜DIY/自行车/汽车维护"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录1688核offer 927522751927：SWM-60是否1.8-60N.m/240mm、驱动头是否3/8、价格阶梯、MOQ、小单样品规则、精度±%、校准证书样张/编号追溯、包装尺寸/GW/NW、收纳盒、电池/说明书、质保、厂家/OEM身份；若源头价超红线再交产品开发判断是否改定义",
+          "优先级": "P0",
+          "只读验证清单": "只读对照思为SWM-60线索与MIC/Jiexili/QIDA公开价；记录Jiexili US$19.50-26.20仅规格泛化、QIDA US$105-195偏高；不把扭矩适配器替代完整数显扳手",
+          "当前F:J状态": "未闭环｜官方细分词缺口",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "digital/electronic/bike torque ABA三周0匹配；POE/SQP/CPC未取得；供应链侧SWM-60源头价未闭环",
+          "未闭环字段": "SWM-60价格/MOQ/3/8头/精度/校准证书/包装",
+          "来源任务/证据": "t_b0589289+t_3c673e94；t_2499ed20；F:J第7行",
+          "闭环判断": "低优先级，需官方词和源头价补证"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/510JoKjHJiL._SX450_.jpg",
       "inquiry_spec": {
         "交期/MOQ字段": "MOQ、阶梯价50/100/300/500；样品费；样品/大货交期；发货地；包装尺寸/重量；质保周期",
@@ -2344,7 +4631,22 @@
           "缺口": "缺digital/electronic专属ABA、POE、SQP、CPC和直接VOC；当前官方数据只能证明“扭矩扳手类目存在”，不能证明数显款需求强。"
         }
       ],
-      "owner": "H10补Cerebro关键词；鹰眼查ABA/Top clicked；财神爷按$60-90测毛利。",
+      "official_followup": [
+        {
+          "下一步": "数显方向继续标“官方细分词缺口”；可将咔哒/火花塞扭矩作为相邻机会另行验证，不建议用其替代digital demand。",
+          "是否需要人工权限": "否；如要POE则需要人工权限",
+          "缺口": "ABA",
+          "能否补到": "部分补到；细分词仍不闭环",
+          "证据/失败原因": "已读飞书F:J 19:16：状态为“未闭环｜官方细分词缺口”。已缓存ABA三周复核：digital torque wrench、electronic torque wrench、bike torque wrench、bicycle torque wrench、click torque wrench无精确匹配；仅spark plug torque wrench连续三周有词（最新2026-05-03_to_2026-05-09 rank 1,112,051，Top clicked B0FTVHRR8Y/B0FJRFNCXQ/B0C8MVHQ47），但偏火花塞/机械咔哒，不等于数显扭矩。Catalog可读B0CLD2F2RF，类目Torque Wrenches，BSR类目rank 2,817。"
+        },
+        {
+          "下一步": "需要人工登录Seller Central或提供POE导出；重点查digital/electronic torque wrench与bike torque wrench是否有独立细分。",
+          "是否需要人工权限": "是",
+          "缺口": "POE",
+          "能否补到": "未补到",
+          "证据/失败原因": "Seller Central/POE未进入；无数显扭矩POE机会池、细分需求、趋势、竞品集中度截图或导出。"
+        }
+      ],
       "present": [
         "H10"
       ],
@@ -2490,6 +4792,20 @@
         "要找什么/关键规格": "机械款降低电池风险；主打校准证书、清晰刻度、棘轮耐久、收纳盒和应用场景套装。",
         "需要找供应商的产品": "咔哒式扭矩扳手｜低电/机械款"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录1688 25nm扭矩扳手类目，优先核深圳万瑞特：¥43.88是否完整套装、1-25/2-25/3-25Nm、72齿、双向、±3/4%误差、校准证书/accuracy report、棘轮寿命、套筒/延长杆/收纳盒清单、单品包装尺寸/GW/NW、装箱数、MOQ、店铺年限/厂家身份",
+          "优先级": "P0",
+          "只读验证清单": "只读整理万瑞特¥43.88摘要、SHALL 2-25Nm 72齿21PCS US$11.80-13/MOQ300、Hongtu对照；拆分3/8 spark plug set与1/4 bike 3-25Nm两条规格",
+          "当前F:J状态": "部分补证｜可询价验证候选",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "补到万瑞特¥43.88、SHALL $11.80-13公开线索；利润情景达标但非正式报价/包装缺",
+          "未闭环字段": "校准证书/套装清单/包装尺寸/GW/MOQ",
+          "来源任务/证据": "t_2499ed20+t_f5391e93；F:J第8行",
+          "闭环判断": "可进询价验证候选，不可采购结论"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/710AxUodKPL._SX450_.jpg",
       "inquiry_spec": {
         "交期/MOQ字段": "MOQ、阶梯价100/300/500/1000；样品费；样品/大货交期；包装尺寸/重量；备件价格",
@@ -2522,7 +4838,6 @@
           "缺口": "缺POE机会池/SQP/CPC；ABA词偏spark plug/3/8汽车维护，1/4 bike set仍需专属词或H10补证；校准证书、棘轮寿命、专利/结构仍需供应链/产品复核。"
         }
       ],
-      "owner": "客户洞察抓Review负面；梁毅丹做L0/L1工厂词；财神爷设到岸成本红线。",
       "present": [
         "H10"
       ],
@@ -2635,6 +4950,34 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
+      "h10_remaining": [
+        {
+          "ASIN": "B0DJKSMV2T",
+          "BSR": "Desktop & Off-Surface Shelves #1; salesRank 336",
+          "Review": "2643",
+          "imageUrl": "https://m.media-amazon.com/images/I/41gO3CCIg1L._SX450_.jpg",
+          "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+          "价格": "$28.99",
+          "入口词": "monitor stand with drawer",
+          "月销额": "$201,907.30",
+          "相关性判断": "高相关：标题含 Dual Monitor Stand Riser / Desk Organizer / Drawer，符合显示器架+桌面收纳",
+          "补什么": "H10/代表ASIN/图片/样本指标"
+        }
+      ],
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录1688核显示器增高架 抽屉 竹制/木质/PVC：同款规格、单品包装尺寸/GW/NW、外箱/装箱数、承重测试、板材厚度/材质、气味/FSC或环保声明、EPE/护角/跌落包装、抽屉滑轨、MOQ、是否支持中性/彩盒",
+          "优先级": "P1",
+          "只读验证清单": "只读复核已有公开线索：PVC US$2.40-2.60/MOQ500、52*21*4cm/1.0kg；竹制US$12.10-13.40/MOQ500、55*33*13cm；金属/支架类不要混入木竹增高架定义",
+          "当前F:J状态": "未更新｜待供应链/待包装尺寸",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "未见新供应链硬字段输出；未见箱规/重量输出",
+          "未闭环字段": "供应链/包装尺寸/承重/跌落/MOQ",
+          "来源任务/证据": "巡检19:16；t_8a35e77c公开供应链预筛；F:J第14-15行",
+          "闭环判断": "仍待供应链只读预筛；仍待供应链/财神爷"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/71ELt445GZL._SX450_.jpg",
       "level": "B 数据缺口",
       "market_competition": {
@@ -2648,7 +4991,6 @@
         "竞争分析快照": "中等竞争，需要差异化",
         "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：H10、供应链、包装尺寸"
       },
-      "owner": "H10补Products/Xray；客户洞察看尺寸/承重差评；梁毅丹只做材质成本预筛。",
       "present": [
         "ABA"
       ],
@@ -2698,6 +5040,34 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
+      "h10_remaining": [
+        {
+          "ASIN": "B0B7J62MV9",
+          "BSR": "Spatulas #8; salesRank 1027",
+          "Review": "4571",
+          "imageUrl": "https://m.media-amazon.com/images/I/41hB8REZ+aL._SX450_.jpg",
+          "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+          "价格": "$5.99",
+          "入口词": "silicone spatula set",
+          "月销额": "$34,818.31",
+          "相关性判断": "高相关：标题含 Silicone Spatula Set，子类 Spatulas",
+          "补什么": "H10/代表ASIN/图片/样本指标"
+        }
+      ],
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录核：食品接触FDA/LFGB测试报告样张、硅胶等级/硬度、耐温、低吸味/洗碗机测试、一体成型还是拼接、套装件数、礼盒/收纳桶包装尺寸/GW/NW、外箱、MOQ、是否可低MOQ做中高端礼盒",
+          "优先级": "P2",
+          "只读验证清单": "只读复核公开线索：US$0.10-0.50或5pcs US$0.49-0.64/MOQ1000，高端US$13-15/MOQ100；FDA/LFGB页面声明仅作线索",
+          "当前F:J状态": "未闭环｜H10未补全/代表ASIN待补",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "新增10链路未形成完整H10/Cerebro/Xray；供应链公开线索有FDA/LFGB但硬字段仍需核",
+          "未闭环字段": "食品接触认证/包装重量/MOQ/异味测试",
+          "来源任务/证据": "t_325ba2c8；t_8a35e77c；F:J第17-20行",
+          "闭环判断": "仍待H10；供应链硬字段需人工验证"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/71heAXfK5iL._SX450_.jpg",
       "level": "C 备选",
       "market_competition": {
@@ -2711,7 +5081,15 @@
         "竞争分析快照": "中等竞争，需要差异化",
         "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：H10、POE"
       },
-      "owner": "鹰眼补POE价格/增长；H10补Xray；财神爷验证>$25仍有40%毛利。",
+      "official_followup": [
+        {
+          "下一步": "保持“POE未闭环”；若继续，POE重点看价格带、增长、低价集中度，验证是否能做>$25套装差异化。",
+          "是否需要人工权限": "是",
+          "缺口": "POE",
+          "能否补到": "未补到；ABA/Catalog旁证可补强",
+          "证据/失败原因": "已读飞书F:J 19:16：POE状态为“部分补证｜官方/VOC有新增”，闭环判断“POE未闭环”。已缓存ABA三周强：silicone spatula最新rank 5,932，Top clicked B0CHGFG64S 15.3% click/12.9% conv；silicone spatula set最新rank 46,259；rubber spatula最新rank 29,744。Catalog可读B0CHGFG64S，Spatulas类目rank 1、Kitchen & Dining rank 34，list_price $12.99，提示价格带/红海风险。但POE未取得。"
+        }
+      ],
       "present": [
         "ABA"
       ],
@@ -2760,6 +5138,20 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
+      "human_verification": [
+        {
+          "人工登录/页面截图需核字段": "人工登录核：是否真正35mm胶片/一次性/可重复装卷、是否含胶卷/电池/闪光灯、单品包装尺寸/GW/NW、纸盒/礼盒、MOQ、CE/FCC/RoHS/电池/3C或运输要求、镜头/成像样张、退货售后/IP外观风险；若只是儿童数码相机不能当复古胶片相机供应链",
+          "优先级": "P2",
+          "只读验证清单": "只读整理公开线索：一次性35mm纸盒US$2.65-5.19/MOQ100；儿童数码类US$21/MOQ100但偏离胶片定义；标注不建议优先",
+          "当前F:J状态": "未更新｜待供应链",
+          "执行边界": "只读；不联系供应商、不询价、不索样、不下单",
+          "更新时间": "2026-05-13 19:16 CST",
+          "最新补证结果": "胶片相机本轮无新供应链输出",
+          "未闭环字段": "供应链/包装尺寸/认证/成像质量/IP",
+          "来源任务/证据": "巡检19:16；t_8a35e77c；F:J第21行",
+          "闭环判断": "仍待供应链/产品开发判断"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/61hFvZmGq7L._SX450_.jpg",
       "level": "C 备选/趋势",
       "market_competition": {
@@ -2773,7 +5165,6 @@
         "竞争分析快照": "低/中 Review 门槛",
         "竞争分析说明": "竞争低；P75 Review 86；缺口：供应链"
       },
-      "owner": "客户洞察补差评；鹰眼查ABA是否趋势稳定；暂不进供应链。",
       "present": [
         "H10"
       ],
@@ -2823,6 +5214,20 @@
         "supply": "待报价",
         "voc": "补VOC"
       },
+      "h10_remaining": [
+        {
+          "ASIN": "B0BHSLV537",
+          "BSR": "Hanging Shoe Organizers #14; salesRank 45452",
+          "Review": "738",
+          "imageUrl": "https://m.media-amazon.com/images/I/81T-Rha1NaL._SX450_.jpg",
+          "仍缺字段": "本行ASIN/image/价格/月销额/Review/BSR已补；仍缺H10 Xray实时截图/Review Insights workbook；若要给方舟定稿，需再补Xray完整数据包。",
+          "价格": "$17.99",
+          "入口词": "rv bedside storage organizer",
+          "月销额": "$13,026.72",
+          "相关性判断": "高相关：标题含 RV Shoe Pockets / Hanging Bedside Storage Organizer，符合房车床边/小空间悬挂收纳",
+          "补什么": "H10/代表ASIN/图片/样本指标"
+        }
+      ],
       "imageUrl": "https://m.media-amazon.com/images/I/61tvt7wv4FL._SX450_.jpg",
       "level": "C 观察",
       "market_competition": {
@@ -2836,7 +5241,15 @@
         "竞争分析快照": "中等竞争，需要差异化",
         "竞争分析说明": "竞争强度待补；P75 Review 待补；缺口：H10、POE"
       },
-      "owner": "鹰眼拆POE RV细分；H10补Products；客户洞察查安装/承重差评。",
+      "official_followup": [
+        {
+          "下一步": "继续标“POE未补/场景窄”；POE需拆RV cabinet、under cabinet、shoe、towel、collapsible等子细分后再决定是否进入机会卡。",
+          "是否需要人工权限": "是",
+          "缺口": "POE",
+          "能否补到": "未补到；ABA只够弱旁证",
+          "证据/失败原因": "已读飞书F:J 19:16：状态“未更新｜待POE”。已缓存ABA：rv storage organizer and space saver三周均有精确词，最新rank 235,983，Top3 click share约13.4%，头部ASIN分散；相关shoe rack for small spaces最新rank 513,228，small space organizers and storage最新rank 1,578,279。场景词存在但量级和产品形态分散；POE未取得。"
+        }
+      ],
       "present": [
         "ABA"
       ],
@@ -2868,7 +5281,108 @@
       "title": null
     }
   ],
+  "official_followup_rows": [
+    {
+      "下一步": "保留“官方源缺口/需求未证实”标记；若继续，扩展到blacklight/flashlight更宽词并由H10/广告只读补量级，不建议把Catalog当需求证据。",
+      "产品": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+      "是否需要人工权限": "否；如要POE/CPC则需要人工权限",
+      "缺口": "ABA",
+      "能否补到": "部分补到；仍不闭环",
+      "证据/失败原因": "已读飞书《补证任务队列》F:J，更新时间2026-05-13 19:16 CST：状态为“未闭环｜官方源缺口”。已缓存ABA三周（2026-04-05_to_11、2026-04-26_to_2026-05-02、2026-05-03_to_2026-05-09）复核：365nm uv flashlight、uv flashlight、black light flashlight、black light、pet urine detector、pet stain detector、uv flashlight for pet urine均无精确匹配；仅出现不相关uv light face mask rank 1,816,213。SP-API Catalog可读到B0C7ZYQT2L，证明该ASIN/类目存在但不能证明搜索需求。"
+    },
+    {
+      "下一步": "需要人工完成Seller Central登录或提供POE/Search Terms导出；拿到后再回填机会池规模、增长、竞品集中度。",
+      "产品": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+      "是否需要人工权限": "是",
+      "缺口": "POE",
+      "能否补到": "未补到",
+      "证据/失败原因": "紫鸟只读店铺可启动，但Seller Central当前停在登录页/需密码，未能进入Product Opportunity Explorer；本轮无POE机会池、细分、趋势截图或导出。"
+    },
+    {
+      "下一步": "需要Ads后台只读建议竞价截图/导出，或由运营当当提供CPC区间；回填前继续标“CPC未取得”。",
+      "产品": "365nm UV 可充电手电｜宠物尿渍/霉斑检测",
+      "是否需要人工权限": "是",
+      "缺口": "CPC",
+      "能否补到": "未补到",
+      "证据/失败原因": "现有只读工具/缓存没有Ads建议CPC或关键词竞价导出；本轮未进入广告后台，未做任何广告修改。"
+    },
+    {
+      "下一步": "数显方向继续标“官方细分词缺口”；可将咔哒/火花塞扭矩作为相邻机会另行验证，不建议用其替代digital demand。",
+      "产品": "数显扭矩扳手｜DIY/自行车/汽车维护",
+      "是否需要人工权限": "否；如要POE则需要人工权限",
+      "缺口": "ABA",
+      "能否补到": "部分补到；细分词仍不闭环",
+      "证据/失败原因": "已读飞书F:J 19:16：状态为“未闭环｜官方细分词缺口”。已缓存ABA三周复核：digital torque wrench、electronic torque wrench、bike torque wrench、bicycle torque wrench、click torque wrench无精确匹配；仅spark plug torque wrench连续三周有词（最新2026-05-03_to_2026-05-09 rank 1,112,051，Top clicked B0FTVHRR8Y/B0FJRFNCXQ/B0C8MVHQ47），但偏火花塞/机械咔哒，不等于数显扭矩。Catalog可读B0CLD2F2RF，类目Torque Wrenches，BSR类目rank 2,817。"
+    },
+    {
+      "下一步": "需要人工登录Seller Central或提供POE导出；重点查digital/electronic torque wrench与bike torque wrench是否有独立细分。",
+      "产品": "数显扭矩扳手｜DIY/自行车/汽车维护",
+      "是否需要人工权限": "是",
+      "缺口": "POE",
+      "能否补到": "未补到",
+      "证据/失败原因": "Seller Central/POE未进入；无数显扭矩POE机会池、细分需求、趋势、竞品集中度截图或导出。"
+    },
+    {
+      "下一步": "官方需求可保留“ABA强、POE未闭环”；需要POE季节曲线/机会池规模后再给猫头鹰做机会卡。",
+      "产品": "园艺跪凳/座椅｜kneeler and seat",
+      "是否需要人工权限": "是",
+      "缺口": "POE",
+      "能否补到": "未补到；ABA/Catalog旁证强",
+      "证据/失败原因": "已读飞书F:J 19:16：状态为“未闭环｜POE/SQP/CPC缺”。已缓存ABA显示需求强：garden kneeler and seat rank从2026-04-05_to_11的21,583升至2026-05-03_to_2026-05-09的5,081，Top clicked B0972Y5LTY 17.9% click/13.9% conv；garden kneeler最新rank 5,645。Catalog可读B0GRYTV88T，Gardening Workseats类目rank 81。但POE本轮未取得。"
+    },
+    {
+      "下一步": "如要SQP，需有相关自有ASIN或Seller Central SQP导出；当前只能用ABA+Catalog，不能标SQP已证。",
+      "产品": "园艺跪凳/座椅｜kneeler and seat",
+      "是否需要人工权限": "是",
+      "缺口": "SQP",
+      "能否补到": "未补到",
+      "证据/失败原因": "SP-API SQP缓存仅有sqp_2026-04-05_to_2026-04-11共37条，filter garden kneeler/uv flashlight/torque wrench/silicone spatula均0匹配；当前SQP是自有ASIN搜索表现，不覆盖该新品细分。"
+    },
+    {
+      "下一步": "需要运营/Ads只读给建议竞价或关键词CPC导出；否则继续标“CPC缺”。",
+      "产品": "园艺跪凳/座椅｜kneeler and seat",
+      "是否需要人工权限": "是",
+      "缺口": "CPC",
+      "能否补到": "未补到",
+      "证据/失败原因": "现有只读工具/缓存无garden kneeler Ads建议CPC；未进入广告后台，未做广告操作。"
+    },
+    {
+      "下一步": "保持“POE未闭环”；若继续，POE重点看价格带、增长、低价集中度，验证是否能做>$25套装差异化。",
+      "产品": "硅胶刮刀套装｜厨房烘焙工具",
+      "是否需要人工权限": "是",
+      "缺口": "POE",
+      "能否补到": "未补到；ABA/Catalog旁证可补强",
+      "证据/失败原因": "已读飞书F:J 19:16：POE状态为“部分补证｜官方/VOC有新增”，闭环判断“POE未闭环”。已缓存ABA三周强：silicone spatula最新rank 5,932，Top clicked B0CHGFG64S 15.3% click/12.9% conv；silicone spatula set最新rank 46,259；rubber spatula最新rank 29,744。Catalog可读B0CHGFG64S，Spatulas类目rank 1、Kitchen & Dining rank 34，list_price $12.99，提示价格带/红海风险。但POE未取得。"
+    },
+    {
+      "下一步": "继续标“POE未补/场景窄”；POE需拆RV cabinet、under cabinet、shoe、towel、collapsible等子细分后再决定是否进入机会卡。",
+      "产品": "RV小空间收纳｜房车/露营整理",
+      "是否需要人工权限": "是",
+      "缺口": "POE",
+      "能否补到": "未补到；ABA只够弱旁证",
+      "证据/失败原因": "已读飞书F:J 19:16：状态“未更新｜待POE”。已缓存ABA：rv storage organizer and space saver三周均有精确词，最新rank 235,983，Top3 click share约13.4%，头部ASIN分散；相关shoe rack for small spaces最新rank 513,228，small space organizers and storage最新rank 1,578,279。场景词存在但量级和产品形态分散；POE未取得。"
+    },
+    {
+      "下一步": "边界",
+      "产品": "写回时间",
+      "是否需要人工权限": "只读补证；未外联/未询价/未索样/未下单",
+      "缺口": "2026-05-13 20:05 CST",
+      "能否补到": "来源任务",
+      "证据/失败原因": "t_d0844158"
+    }
+  ],
   "sheet_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc",
+  "supplement_three_summary": {
+    "h10_fields_completed": 4,
+    "h10_remaining_total": 4,
+    "h10_still_missing": 4,
+    "human_verification_p0": 4,
+    "human_verification_total": 10,
+    "latest_update": "2026-05-13 19:16 CST",
+    "official_followup_total": 11,
+    "official_manual_required": 8,
+    "official_unclosed": 10
+  },
   "sync_scope": {
     "checked_human_tabs": [
       "需要找供应商的产品表",
@@ -2881,6 +5395,7 @@
       "Top4补证队列",
       "官方源续补",
       "H10剩余补证",
+      "供应链人工验证清单",
       "每日Top10推荐",
       "市场竞争方舟总结",
       "Top4产品定义Brief",
@@ -2896,6 +5411,6 @@
     ],
     "missing_tabs": []
   },
-  "updated_at": "2026-05-14 09:32 CST",
-  "web_synced_at": "2026-05-14 09:32 CST"
+  "updated_at": "2026-05-14 11:15 CST",
+  "web_synced_at": "2026-05-14 11:15 CST"
 }
