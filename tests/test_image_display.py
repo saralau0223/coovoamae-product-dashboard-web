@@ -31,12 +31,28 @@ class ProductImageDisplayTests(unittest.TestCase):
 
     def test_mobile_styles_keep_images_from_squeezing_copy(self):
         self.assertIn("@media(max-width:640px)", HTML)
-        self.assertIn(".item{grid-template-columns:76px 1fr", HTML)
+        self.assertIn(".item{grid-template-columns:68px minmax(0,1fr)", HTML)
         self.assertIn(".detail-hero-card{grid-template-columns:1fr", HTML)
-        self.assertIn(".product-media-thumb{width:76px", HTML)
+        self.assertIn(".product-media-thumb{width:68px", HTML)
         self.assertIn("mobile-safe-text", HTML)
         self.assertIn("stamp-line", HTML)
         self.assertIn(".snapshot-grid,.evidence-matrix,.decision-grid,.owner-flow{grid-template-columns:1fr}", HTML)
+
+    def test_mobile_header_metrics_and_buttons_are_compact_and_tappable(self):
+        self.assertIn("html,body{max-width:100%;overflow-x:hidden}", HTML)
+        self.assertIn("-webkit-line-clamp:2", HTML)
+        self.assertIn(".source-card a{min-height:44px", HTML)
+        self.assertIn(".metrics{grid-template-columns:repeat(2,minmax(0,1fr))", HTML)
+        self.assertIn(".actions{grid-template-columns:repeat(2,minmax(0,1fr))", HTML)
+        self.assertIn(".action,.tab,.chip,.mini-btn{min-height:44px}", HTML)
+        self.assertIn(".tabs{overflow:visible;flex-wrap:wrap", HTML)
+        self.assertIn(".tab{display:flex;align-items:center;justify-content:center;flex:1 1 calc(50% - 4px)", HTML)
+        self.assertIn("手机端紧凑优化", HTML)
+        self.assertIn(".mini-table,.mini-table tbody,.mini-table tr,.mini-table td,.quote-table", HTML)
+        self.assertIn(".mini-table thead,.quote-table thead{display:none}", HTML)
+        self.assertIn(".quote-table td{border-bottom:0;padding:6px 0", HTML)
+        self.assertIn("top10-card-list", HTML)
+        self.assertIn("top10Cards=top10.map", HTML)
 
     def test_dedup_overlay_marks_and_folds_duplicate_candidates(self):
         self.assertIn("const DEDUP_RULES", HTML)
