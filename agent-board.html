@@ -684,10 +684,12 @@
 
   <script>
     const API_BASES = [
+      'https://hermes.coovoamae.com',
       'https://hermes.49.51.244.86.sslip.io',
       'https://bouquet-portal-encryption-treatment.trycloudflare.com'
     ];
     let activeApiBase = API_BASES[0];
+    const AUTO_REFRESH_MS = 60000;
     const PRODUCT_DASHBOARD = 'https://saralau0223.github.io/coovoamae-product-dashboard-web/';
     const state = {
       currentBoard: '',
@@ -896,7 +898,7 @@
         state.tasks = data.tasks || [];
         state.assignees = data.assignees || {};
         renderMetrics(data.counts || {});
-        const sourceLabel = activeApiBase.includes('sslip.io') ? '固定接口' : '备用隧道';
+        const sourceLabel = activeApiBase.includes('coovoamae.com') ? '正式域名' : activeApiBase.includes('sslip.io') ? '固定备用接口' : '备用隧道';
         $('subtitle').textContent = `Hermes Kanban · ${sourceLabel} · ${timeText(data.generated_at)}`;
         render();
       } catch (err) {
@@ -985,6 +987,9 @@
 
     document.querySelector('a[href="./"]').setAttribute('href', PRODUCT_DASHBOARD);
     loadSummary();
+    setInterval(() => {
+      if (!document.hidden && !state.loading) loadSummary();
+    }, AUTO_REFRESH_MS);
   </script>
 </body>
 </html>
