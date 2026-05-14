@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-05-14 13:01 CST",
-  "web_synced_at": "2026-05-14 13:01 CST",
+  "web_synced_at": "2026-05-14 13:12 CST",
   "sheet_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc",
   "human_supply_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/Se6OsbdbIhq73TtbQCPckIPrnsg",
   "evidence_queue_url": "https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc",
@@ -1053,15 +1053,16 @@
     ]
   },
   "sync_scope": {
-    "task_id": "t_e1cf0ddd",
-    "updated_at": "2026-05-14 13:01 CST",
+    "task_id": "t_f05254fa",
+    "updated_at": "2026-05-14 13:12 CST",
     "sources": {
       "voc": "t_e20fcf70/voc_four_piece_all_products_20260514.tsv",
       "h10": "t_33c7133f/h10_luming_gap_backfill_20260514_1248.tsv",
       "official": "t_47e78e84/eagle_eye_official_gap_backfill_20260514_1234.tsv",
       "supply": "t_cc8e79b4/supply_prescreen_gap_backfill_20260514.tsv",
       "profit": "t_e401ba35/profit_redline_recalc_20260514.tsv",
-      "definition": "t_e3d4332f/product_definition_recut_20260514.tsv"
+      "definition": "t_e3d4332f/product_definition_recut_20260514.tsv",
+      "supplier_recommendation": "t_1575a5c6/supplier_recommended_links_backfill_20260514.json"
     },
     "products_processed": 16,
     "boundary": "只做网页展示/同步；未新增外部权限，未修改 Amazon 后台/广告/Listing，未输出密钥。",
@@ -1071,7 +1072,8 @@
       "official": 16,
       "supply": 16,
       "profit": 16,
-      "definition": 16
+      "definition": 16,
+      "supplier_recommendation": 16
     }
   },
   "items": [
@@ -1322,7 +1324,31 @@
         "需要回写看板字段": "结论=补证；Gate=箱规/FBA/承重；产品定义=2-in-1园艺跪凳座椅；供应链动作=询价前箱规承重验证。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "补证｜需求成立，但大件/承重/FBA未过Gate前不进入采购承诺"
+      "definition_conclusion": "补证｜需求成立，但大件/承重/FBA未过Gate前不进入采购承诺",
+      "supplier_recommendation": {
+        "product_id": "P001",
+        "product_name": "园艺跪凳/座椅",
+        "grade": "B",
+        "action": "回填主推荐链接；询价前先卡箱规/FBA/承重证据",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Yiwu Greatcity 2-in-1 folding garden kneeler",
+        "url": "https://gcttool.en.made-in-china.com/product/jYTrCbfGbSkW/",
+        "backup_links": [
+          "https://workercare.en.made-in-china.com/product/ZwsTQYIBnvrt/",
+          "https://globecarve.en.made-in-china.com/product/PfhRywlEhYUd/",
+          "https://dengtuoutdoor.en.made-in-china.com/product/QEWpdcrumfYa/"
+        ],
+        "match_score": 85,
+        "match_reason": "2-in-1折叠kneeler/seat+EVA垫+工具袋，与定位一致；Greatcity公开MOQ 100且箱规/重量线索较完整。",
+        "reference_terms": "公开参考价Greatcity US$8.5→7.0；MOQ 100；交期待正式验证；单件约61.5*28*12cm/3.6-4kg，4pcs外箱50.5*29.5*63cm/15kg；需承重、焊点/铰链、管壁、夹手、跌落、外箱抗压测试。",
+        "link_status": "HEAD 200；公开页可访问，仍需人工确认同款SKU",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "是否含工具袋、管径/壁厚、EVA厚度、单品箱规/GW/NW/装箱数、承重测试报告/视频、100/200/500价阶、中性/彩盒、配件包、跌落/夹手测试。",
+        "risk": "FBA体积/大件费和承重虚标是硬门；承重宣传不可从100kg改写500lb。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -1564,7 +1590,30 @@
         "需要回写看板字段": "结论=开发；产品定义=导轨式酸面包切片器；供应链状态=待L2/L3报价；财务红线=到岸≤$8.5/FBA≤$6/售价≥$39.99；风险=食品接触+刀片安全。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "开发｜仅限“导轨式 sourdough bread slicer”，放弃手摇高成本路线"
+      "definition_conclusion": "开发｜仅限“导轨式 sourdough bread slicer”，放弃手摇高成本路线",
+      "supplier_recommendation": {
+        "product_id": "P002",
+        "product_name": "导轨式酸面包切片器（由“手摇/手动酸面包切片器”重定向）",
+        "grade": "A",
+        "action": "回填主推荐链接；按导轨式而非手摇款做规格确认",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Xiamen Chengfengxin 竹木导轨式 bread slicer",
+        "url": "https://xiamenchengfengxin.en.made-in-china.com/product/VToRxWiHXyhX/",
+        "backup_links": [
+          "https://huahanxing.en.made-in-china.com/product/WRIUkDlGXNcX/",
+          "https://muselect.en.made-in-china.com/product/GRgUprnPWDkT/（手摇高成本，仅作反证/备查）"
+        ],
+        "match_score": 88,
+        "match_reason": "猫头鹰已明确放弃高成本手摇路线，转向折叠竹木/食品级PP导轨；Chengfengxin竹木导轨公开价更接近到岸≤$8.5目标。",
+        "reference_terms": "Chengfengxin公开US$4.2-6.2、MOQ 500；Huahanxing塑料导轨US$4.99-5.39、MOQ 100；交期待验证；需确认真实单件彩盒尺寸/GW/NW；食品接触FDA/LFGB/Prop65、木竹含水率/防霉/胶水/涂层、刀片护罩、防滑与毛刺。",
+        "link_status": "HEAD 200；公开页可访问，仍需人工确认是否同款/可低MOQ",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "MOQ100/200试单、食品接触报告、FSC/竹木防霉、刀片材质/护罩、适配大圆sourdough尺寸、防滑底/屑盘、真实包装、样品费/打样周期。",
+        "risk": "手摇款FOB约US$27+且MOQ500，不符合当前开发定义；导轨路线需防霉和食品接触合规。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -1802,7 +1851,27 @@
         "需要回写看板字段": "结论=放弃；原因=IP/品牌集中+负利润；供应链=不询价。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "放弃｜Kreg/IP集中+完整套装成本为负"
+      "definition_conclusion": "放弃｜Kreg/IP集中+完整套装成本为负",
+      "supplier_recommendation": {
+        "product_id": "P003",
+        "product_name": "口袋孔夹具套装",
+        "grade": "C",
+        "action": "不回填推荐链接",
+        "status": "not_recommended",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "Kreg/IP集中、完整套装成本为负；当前不进入采购/推荐链路。",
+        "reference_terms": "历史公开线索仅作归档，不建议放到可点击推荐字段。",
+        "link_status": "不回填：产品已放弃",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "若未来复活，先做IP/专利和非仿外观Gate，而非询价。",
+        "risk": "IP/品牌集中、精度差退货、完整BOM超成本红线。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -2040,7 +2109,27 @@
         "下一步动作": "P0 看板合并为“扭矩机会组”，只保留咔哒机械子方向继续。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "补证｜本行拆分，不再作为单一产品定义"
+      "definition_conclusion": "补证｜本行拆分，不再作为单一产品定义",
+      "supplier_recommendation": {
+        "product_id": "P004",
+        "product_name": "数显/咔哒式扭矩扳手（机会组父项）",
+        "grade": "C",
+        "action": "父项不回填推荐链接；回填到P012机械咔哒子方向",
+        "status": "split_required",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "该行已拆为数显淘汰、机械咔哒继续；避免把两条SKU合并成一个可点击采购入口。",
+        "reference_terms": "详见P011数显放弃、P012机械咔哒推荐。",
+        "link_status": "不回填：需拆分",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "看板应将父项标记为“拆分/不作为独立询价对象”。",
+        "risk": "合并报价会导致量程、售后、校准责任和利润模型混乱。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -2276,7 +2365,27 @@
         "需要回写看板字段": "结论=放弃；原因=官方需求弱+安全责任+负利润。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "放弃｜安全相关+同款小套源头缺失+利润为负"
+      "definition_conclusion": "放弃｜安全相关+同款小套源头缺失+利润为负",
+      "supplier_recommendation": {
+        "product_id": "P005",
+        "product_name": "刹车油排气/真空泵套装",
+        "grade": "C",
+        "action": "不回填推荐链接",
+        "status": "not_recommended",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "安全相关+同款小套源头缺失+利润为负；不适合当前低复杂度模型。",
+        "reference_terms": "公开候选多为大型/专业设备，非目标小套；不建议放可点击推荐。",
+        "link_status": "不回填：产品已放弃",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "若复活，先用1688/Alibaba人工核手动小套同款和漏气/耐油测试。",
+        "risk": "刹车系统安全责任、耐DOT油液、漏气/漏液退货。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0C7ZYQT2L",
@@ -2606,7 +2715,30 @@
         "需要回写看板字段": "结论=观察；Gate=官方需求+真365nm+电池证书；供应链=条件性快筛，不派正式询价。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "观察｜H10/利润有吸引力，但官方需求弱且安全/锂电Gate未过"
+      "definition_conclusion": "观察｜H10/利润有吸引力，但官方需求弱且安全/锂电Gate未过",
+      "supplier_recommendation": {
+        "product_id": "P006",
+        "product_name": "365nm UV可充电手电",
+        "grade": "C",
+        "action": "可回填为观察/条件参考链接；不进入正式询价",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Shanghai Lanyou USB rechargeable mini 365nm",
+        "url": "https://lanyou1996.en.made-in-china.com/product/HFWADVzYHvau/",
+        "backup_links": [
+          "https://jian2013.en.made-in-china.com/product/bnKYWBlOnVUu/",
+          "https://jian2013.en.made-in-china.com/product/NmeYxGJcISRz/"
+        ],
+        "match_score": 60,
+        "match_reason": "365nm+可充电+公开低价/MOQ100线索存在，但官方需求和安全/锂电Gate未过，只能作为观察池链接。",
+        "reference_terms": "Lanyou公开US$1.15-1.88、MOQ100；Zhongyijian Type-C 26650公开US$8-9；需真365±5nm光谱、ZWB2/黑滤镜、辐照强度、温升/续航、UN38.3/MSDS、CE/FCC/RoHS、IEC62471/UV安全警示。",
+        "link_status": "HEAD 200；公开页可访问，仍需真365nm/电池证书验证",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "核光谱图、滤镜材质/厚度、电池容量/是否含电池、证书型号一致、包装尺寸/GW/NW、50/100/300/500价阶、去医疗化文案。",
+        "risk": "365/395nm混卖、假滤镜、锂电证书型号不一致、UV安全和夸张宣称。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -2843,7 +2975,30 @@
         "需要回写看板字段": "结论=观察；Gate=可压缩包装/MOQ/季节；供应链=暂停。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "观察｜理论利润好，但官方需求、季节、长件/MOQ风险未过"
+      "definition_conclusion": "观察｜理论利润好，但官方需求、季节、长件/MOQ风险未过",
+      "supplier_recommendation": {
+        "product_id": "P007",
+        "product_name": "番茄支架/植物支撑",
+        "grade": "C",
+        "action": "仅回填观察参考链接；当前暂停正式询价",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Hebei Innovat round plant support",
+        "url": "https://chinainnovat.en.made-in-china.com/product/xwaTVvXEvlYA/",
+        "backup_links": [
+          "https://bestogarden.en.made-in-china.com/product/PdjakRSblyTM/",
+          "https://cnhualude.en.made-in-china.com/product/ksPxIzwDXTcW/"
+        ],
+        "match_score": 62,
+        "match_reason": "普通tomato cage/plant support能匹配；Innovat MOQ100较适合小批量验证，但定位要求可压缩模块化，公开页仍需确认是否满足。",
+        "reference_terms": "Innovat公开US$0.05-0.30、MOQ100；BESTO US$1.98-2.97、MOQ2000；Hualude US$0.25、MOQ5000；需户外老化/UV、涂层防锈/盐雾、风稳/承重、连接件拉拔、缺件率、尖端安全、压缩包装/跌落。",
+        "link_status": "备选Hualude HEAD 200；主链接来自父任务公开线索待人工点开复核",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "核可压缩/分段结构、展开/折叠尺寸、单件袋/盒尺寸/GW/NW、连接件备件率、材料直径/涂层、MOQ100/500试单、缺件QC。",
+        "risk": "季节短、长件/FBA费、MOQ高、连接件缺失和强风不稳。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "",
@@ -3079,7 +3234,27 @@
         "需要回写看板字段": "结论=放弃；原因=官方需求未证+电子漏水售后+利润压力。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "放弃｜电子+户外漏水售后，不符合低复杂度模型"
+      "definition_conclusion": "放弃｜电子+户外漏水售后，不符合低复杂度模型",
+      "supplier_recommendation": {
+        "product_id": "P008",
+        "product_name": "浇灌定时器",
+        "grade": "C",
+        "action": "不回填推荐链接",
+        "status": "not_recommended",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "电子+户外漏水售后责任，不符合低复杂度模型。",
+        "reference_terms": "历史公开线索仅作归档；不建议作为推荐供应链入口。",
+        "link_status": "不回填：产品已放弃",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "除非用户明确接受户外漏水/电子售后风险，否则不复活。",
+        "risk": "漏水财产风险、电子失效、户外老化、售后压力。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/s?k=gift+wrap+organizer",
@@ -3322,7 +3497,30 @@
         "需要回写看板字段": "结论=观察；季节=Q4；供应链动作=暂不询价。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "观察｜仅Q4前复盘，当前不深推"
+      "definition_conclusion": "观察｜仅Q4前复盘，当前不深推",
+      "supplier_recommendation": {
+        "product_id": "P009",
+        "product_name": "礼品包装/礼品袋收纳",
+        "grade": "C",
+        "action": "仅Q4排期明确且低MOQ/压缩包装成立时回填参考",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Changsha Hetong gift/file wrap organizer",
+        "url": "https://hetongstationery.en.made-in-china.com/product/bOTawJEPYsGD/",
+        "backup_links": [
+          "https://mugeneralunion.en.made-in-china.com/product/jmtYWcbCZEhZ/",
+          "https://gwaybamboo.en.made-in-china.com/product/UJDrWcquIVRm/"
+        ],
+        "match_score": 62,
+        "match_reason": "General Union underbed形态更贴近但MOQ3000；Hetong公开MOQ100，更适合小批量验证，需确认是否真礼品包装收纳而非文件袋偏题。",
+        "reference_terms": "Hetong公开US$8-8.5、MOQ100；General Union US$19.99、MOQ3000；Gway US$6.98-7.98、MOQ300；需600D/210D克重、拉链/把手寿命、硬挺底板/隔板、40in卷纸兼容、压缩包装、跌落/拉扯、节前交期。",
+        "link_status": "HEAD 200；公开页可访问，仍需确认细分形态",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "核床下/壁挂两用结构、展开/折叠/压缩尺寸、单件GW/NW、装箱数、布料克重、底板/隔板、拉链/把手测试、50-300小单、Q4交期。",
+        "risk": "Q4季节性强、MOQ高、软塌/拉链坏/尺寸不符、淡季库存压力。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0FQP1V81D",
@@ -3567,7 +3765,30 @@
         "需要回写看板字段": "结论=开发-现有线迭代；产品定义=安全热敷/可清洗加热眼罩；供应链状态=现有链优先；风险=热安全/医疗宣称/MOQ。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "开发｜现有眼罩线迭代，不作为陌生新品类"
+      "definition_conclusion": "开发｜现有眼罩线迭代，不作为陌生新品类",
+      "supplier_recommendation": {
+        "product_id": "P010",
+        "product_name": "加热/干眼眼罩迭代",
+        "grade": "A",
+        "action": "回填为现有品线迭代参考链接；先做合规/热安全Gate",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Suzhou Highview/Pakcare USB heated eye mask",
+        "url": "https://highview.en.made-in-china.com/product/RtkpoUrMOeWY/",
+        "backup_links": [
+          "https://texpro.en.made-in-china.com/product/KAEUtiWHOOVT/",
+          "https://texpro.en.made-in-china.com/product/ofMYckFPSNhO/"
+        ],
+        "match_score": 82,
+        "match_reason": "定位要求优先低/中配USB有线或低锂电安全路线；Highview公开为OEM USB heated eye mask，更适合现有眼罩线迭代前置验证。",
+        "reference_terms": "Highview公开US$8-25、MOQ1000；Texpro公开US$9.54/9.86、MOQ1000；Texpro单件约20*10*5cm/0.2kg或30*10*5cm/0.2kg；需温控IC/加热片、过温保护、自动断电、面料接触安全、可拆洗、CE/FCC/RoHS、电池UN38.3/MSDS（若无线）。",
+        "link_status": "HEAD 200；公开页可访问，MOQ/型号/证书需人工确认",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "先核现有供应商能否低MOQ改款；再核Highview/Texpro温控方案、过温保护、自动断电、电池型号、证书型号一致、单件包装/GW/NW、面料/洗涤和医疗宣称边界。",
+        "risk": "热安全/烫伤、医疗干眼宣称、锂电运输、MOQ高、可能蚕食现有SKU。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0CLD2F2RF",
@@ -3795,7 +4016,27 @@
         "需要回写看板字段": "结论=放弃；父机会组=扭矩扳手；原因=负利润+校准售后。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "放弃｜数显路线成本/校准/售后不成立"
+      "definition_conclusion": "放弃｜数显路线成本/校准/售后不成立",
+      "supplier_recommendation": {
+        "product_id": "P011",
+        "product_name": "数显扭矩扳手｜DIY/自行车/汽车维护",
+        "grade": "C",
+        "action": "不回填推荐链接",
+        "status": "not_recommended",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "数显路线成本、校准、电子售后不成立；并入扭矩机会组的淘汰子方向。",
+        "reference_terms": "Union/QIDA等公开线索仅作归档；不建议作为可点击推荐。",
+        "link_status": "不回填：子方向已放弃",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "若复活，需源头价显著低于US$30且校准可追溯。",
+        "risk": "负利润、电子故障、校准信任、售后率高。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0CFL4LM19",
@@ -4023,7 +4264,30 @@
         "需要回写看板字段": "结论=补证；产品定义=机械咔哒扭矩扳手；拆分状态=保留机械/放弃数显；财务Gate=到岸≤$16+FBA≤$7。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "补证｜可作为扭矩机会组唯一继续方向，先压FBA和校准信任"
+      "definition_conclusion": "补证｜可作为扭矩机会组唯一继续方向，先压FBA和校准信任",
+      "supplier_recommendation": {
+        "product_id": "P012",
+        "product_name": "咔哒式扭矩扳手｜低电/机械款",
+        "grade": "B",
+        "action": "回填主推荐链接；作为扭矩机会组唯一继续方向",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Rayertal 3/8 10-60Nm click torque wrench set",
+        "url": "https://rayertal.en.made-in-china.com/product/NfMrWxYcORkL/",
+        "backup_links": [
+          "https://shall-tools.en.made-in-china.com/product/PGjURolMAScX/",
+          "https://lzqtools.en.made-in-china.com/product/bEjYUozPbkVq/"
+        ],
+        "match_score": 80,
+        "match_reason": "3/8 click torque wrench set与DIY汽车/摩托维修场景匹配，公开成本区间可进入红线验证，比数显低电/低售后。",
+        "reference_terms": "Rayertal公开US$10-20、MOQ100；SHALL公开US$13.5-15或US$11.8-13、MOQ100/300；单件尺寸/GW缺；需每件/批次校准证书、±3/4%误差、量程、棘轮寿命、套筒/延长杆清单、质保。",
+        "link_status": "HEAD 200；公开页可访问，仍需校准/包装验证",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "确认3/8 spark plug set vs 1/4 bike 3-25Nm路线、配件清单、校准报告样张/编号、单件包装/GW/NW、MOQ100/300、中性/彩盒、质保。",
+        "risk": "校准不准有安全和退货风险；量程/套装清单混乱；包装/GW缺导致FBA不可定稿。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0C3MPDRPD",
@@ -4253,7 +4517,29 @@
         "需要回写看板字段": "结论=观察；产品定义=PVC显示器增高收纳架待证；阻塞=官方需求缺口。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "观察｜PVC低价路线财务可看，但官方需求未闭环"
+      "definition_conclusion": "观察｜PVC低价路线财务可看，但官方需求未闭环",
+      "supplier_recommendation": {
+        "product_id": "P013",
+        "product_name": "桌面显示器架+收纳｜办公桌面整理",
+        "grade": "C",
+        "action": "仅PVC低价路线可回填观察参考；先补需求证据",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Good Seller PVC monitor stand",
+        "url": "https://goodseller-products.en.made-in-china.com/product/fJUrRyvZJpYh/",
+        "backup_links": [
+          "https://hoyeehousehold.en.made-in-china.com/product/qwsAvlOxGSWX/"
+        ],
+        "match_score": 72,
+        "match_reason": "PVC增高架+收纳最接近当前低成本模型；竹木成本/体积高，金属支臂偏离收纳定义需排除。",
+        "reference_terms": "PVC公开US$2.4-2.6、MOQ多500；包装52*21*4cm/1kg；竹制公开US$12.1-13.4；需承重、板材厚度、环保/气味、FSC/材料声明、跌落包装、抽屉滑轨耐久、表面划伤。",
+        "link_status": "HEAD 200；公开页可访问，仍需规格/承重/包装验证",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "核PVC/竹木路线、规格/厚度、承重kg与视频、单件包装/GW/NW/外箱、抽屉滑轨/分隔件、环保/气味、跌落包装、MOQ。",
+        "risk": "官方需求未闭环；PVC差异化弱/易破损/气味；竹木利润薄；包装破损退货。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/s?k=silicone+spatula",
@@ -4482,7 +4768,30 @@
         "需要回写看板字段": "结论=补证；产品定义=礼盒化食品级硅胶刮刀套装；风险=低价红海/食品接触；Gate=售价>$25+材料证书。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "补证｜只验证>$25礼盒化/食品级差异化，不做低价红海"
+      "definition_conclusion": "补证｜只验证>$25礼盒化/食品级差异化，不做低价红海",
+      "supplier_recommendation": {
+        "product_id": "P014",
+        "product_name": "硅胶刮刀套装｜厨房烘焙工具",
+        "grade": "B",
+        "action": "回填主推荐链接；只验证礼盒化/食品级中高端路线",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Zhongshan Mingxin silicone spatula set",
+        "url": "https://guipaisilicone.en.made-in-china.com/product/rXlnEfOJuThH/",
+        "backup_links": [
+          "https://homewaresupplier.en.made-in-china.com/product/SdzfNcmlLOts/",
+          "https://peaksilicone.en.made-in-china.com/product/LruUkOEvbocH/"
+        ],
+        "match_score": 78,
+        "match_reason": "一体/拼接硅胶刮刀供应成熟；Mingxin公开价低且MOQ500，适合先核食品级/低吸味/礼盒可行性。",
+        "reference_terms": "Mingxin公开US$0.26-0.28、MOQ500；E-BON 3PCS US$0.5-1.5、MOQ200；Peak US$0.4-0.68、MOQ1000；包装多疑似外箱，单件礼盒缺；需FDA/LFGB/SGS型号一致、BPA-free、耐温、硬度、低吸味、洗碗机、拉拔/拼接强度、色牢度。",
+        "link_status": "HEAD 200；公开页可访问，仍需证书/礼盒验证",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "核套装件数、硅胶等级/硬度、耐温、FDA/LFGB报告样张、低吸味测试、一体成型/拼接、礼盒/收纳桶包装尺寸/GW/NW、MOQ低中高端价阶。",
+        "risk": "低价红海；证书真实性和型号一致性；异味/染色/掉柄差评；包装重量字段异常。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/dp/B0D1LRWK7Q",
@@ -4683,7 +4992,27 @@
         "需要回写看板字段": "结论=放弃；原因=官方需求缺失+3C售后+产品定义混乱。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "放弃｜3C/成像售后和耗材预期不适合当前模型"
+      "definition_conclusion": "放弃｜3C/成像售后和耗材预期不适合当前模型",
+      "supplier_recommendation": {
+        "product_id": "P015",
+        "product_name": "胶片相机｜复古入门拍照",
+        "grade": "C",
+        "action": "不回填推荐链接",
+        "status": "not_recommended",
+        "platform": "",
+        "supplier_name": "",
+        "url": "",
+        "backup_links": [],
+        "match_score": 0,
+        "match_reason": "3C/成像售后和耗材预期不适合当前模型；产品定义混乱。",
+        "reference_terms": "Vekeduo等公开线索仅作归档；不建议作为推荐供应链入口。",
+        "link_status": "不回填：产品已放弃",
+        "read_only_reference": true,
+        "needs_human_confirm": false,
+        "human_confirm_items": "若复活，先明确35mm一次性/可重复路线、成像样张、耗材教育和IP外观风险。",
+        "risk": "照片模糊/成像预期、胶卷耗材、售后复杂、电池/闪光灯合规。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     },
     {
       "amazonUrl": "https://www.amazon.com/s?k=rv+storage+organizer",
@@ -4912,7 +5241,31 @@
         "需要回写看板字段": "结论=观察；产品定义=待拆细分；阻塞=使用场景与SKU形态未闭环。",
         "证据等级/限制": "父任务补齐证据；H10多为Black Box Products Top20 proxy，非真实Xray/非方舟定稿；Review Insights workbook与POE/CPC多未取得，结论用于产品定义/取舍，不用于采购承诺。"
       },
-      "definition_conclusion": "观察｜需求方向太散，必须拆细分后再判断"
+      "definition_conclusion": "观察｜需求方向太散，必须拆细分后再判断",
+      "supplier_recommendation": {
+        "product_id": "P016",
+        "product_name": "RV小空间收纳｜房车/露营整理",
+        "grade": "C",
+        "action": "不建议合并回填；若必须回填，仅作为壁挂袋细分观察参考",
+        "status": "matched",
+        "platform": "Made-in-China",
+        "supplier_name": "Xiamen Youngpack wall hanging bag",
+        "url": "https://young-pack.en.made-in-china.com/product/IGZUYgBOHTlR/",
+        "backup_links": [
+          "https://nbeasyget03.en.made-in-china.com/product/eZzTgfYObHAS/",
+          "https://yy-steelstructure.en.made-in-china.com/product/vUjrbxlcfKkX/",
+          "https://xingxiang.en.made-in-china.com/product/hrQUfVzoJPcC/"
+        ],
+        "match_score": 55,
+        "match_reason": "当前定位认为RV方向太散，必须拆壁挂袋/柜内架/鞋架/厨房架；Youngpack壁挂袋较轻量，作为临时观察链接比金属架更低FBA压力。",
+        "reference_terms": "壁挂袋旧线索US$0.95-1.5、MOQ100；厨房架US$4.01-4.65、MOQ300；篮筐US$2.22-2.78、MOQ100；需抗震固定、承重、安装件、材质克重/防霉、防锈、包装尺寸/GW/NW、说明书/安装模板。",
+        "link_status": "HEAD 200；公开页可访问，仍需确认是否适配RV场景",
+        "read_only_reference": true,
+        "needs_human_confirm": true,
+        "human_confirm_items": "先定细分：壁挂袋/柜内拉篮/鞋架/厨房架；核抗震固定设计、展开/折叠/包装尺寸、承重测试、安装件清单、材质克重/不锈钢规格、MOQ50-300、中性包装。",
+        "risk": "通用收纳不能证明RV适配；金属/鞋架重；安装/抗震失败退货；场景图和尺寸未闭环。",
+        "boundary_note": "只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。"
+      }
     }
   ],
   "voc_four_piece_rows": [
@@ -5706,5 +6059,36 @@
       "需要人工登录/正式报价验证事项": "先定细分：壁挂袋/柜内拉篮/鞋架/厨房架；核抗震固定设计、展开/折叠/包装尺寸、承重测试、安装件清单、材质克重/不锈钢规格、MOQ50-300、中性包装",
       "建议是否进入询价前准备": "暂不进入合并询价；拆成具体细分后再筛2-3家"
     }
-  ]
+  ],
+  "supplier_recommendation_summary": {
+    "updated_at": "2026-05-14 13:12 CST",
+    "source_task": "t_1575a5c6",
+    "source_file": "supplier_recommended_links_backfill_20260514.json",
+    "total_products": 16,
+    "items_matched": 16,
+    "clickable_main_links": 10,
+    "recommended_backfill_main_links": [
+      "园艺跪凳/座椅",
+      "导轨式酸面包切片器（由“手摇/手动酸面包切片器”重定向）",
+      "加热/干眼眼罩迭代",
+      "咔哒式扭矩扳手｜低电/机械款",
+      "硅胶刮刀套装｜厨房烘焙工具"
+    ],
+    "conditional_observation_links": [
+      "365nm UV可充电手电",
+      "番茄支架/植物支撑",
+      "礼品包装/礼品袋收纳",
+      "桌面显示器架+收纳｜办公桌面整理",
+      "RV小空间收纳｜房车/露营整理"
+    ],
+    "empty_link_products": [
+      "口袋孔夹具套装",
+      "数显/咔哒式扭矩扳手（机会组父项）",
+      "刹车油排气/真空泵套装",
+      "浇灌定时器",
+      "数显扭矩扳手｜DIY/自行车/汽车维护",
+      "胶片相机｜复古入门拍照"
+    ],
+    "boundary": "只读公开资料匹配；推荐链接仅作供应链推荐/参考链接；不外联、不正式询价、不索样、不下单、不付款、不签合同，正式采购仍需刘希确认。"
+  }
 }

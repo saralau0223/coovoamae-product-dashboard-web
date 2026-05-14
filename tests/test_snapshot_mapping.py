@@ -64,3 +64,34 @@ def test_all_products_have_backfilled_core_modules():
     assert DATA["sync_scope"]["matched_items"]["supply"] == 16
     assert DATA["sync_scope"]["matched_items"]["profit"] == 16
     assert DATA["sync_scope"]["matched_items"]["definition"] == 16
+
+
+def test_supplier_recommendation_links_are_synced_and_safe_to_render():
+    summary = DATA["supplier_recommendation_summary"]
+    assert summary["source_task"] == "t_1575a5c6"
+    assert summary["items_matched"] == 16
+    assert summary["clickable_main_links"] >= 10
+    assert DATA["sync_scope"]["matched_items"]["supplier_recommendation"] == 16
+
+    garden = find_product("园艺跪凳")
+    rec = garden["supplier_recommendation"]
+    assert rec["url"].startswith("https://")
+    assert rec["platform"] == "Made-in-China"
+    assert rec["supplier_name"]
+    assert rec["match_score"] >= 80
+    assert rec["read_only_reference"] is True
+    assert rec["needs_human_confirm"] is True
+
+    abandoned = find_product("口袋孔夹具")
+    assert abandoned["supplier_recommendation"]["url"] == ""
+    assert abandoned["supplier_recommendation"]["status"] == "not_recommended"
+
+
+def test_supplier_recommendation_ui_hooks_exist():
+    assert "function supplierRecommendationBlock" in HTML
+    assert "function supplierActionHtml" in HTML
+    assert "target=\"_blank\" rel=\"noopener noreferrer\"" in HTML
+    assert "待供应链匹配" in HTML
+    assert "供应链推荐链接" in HTML
+    assert "${supplierActionHtml(x,'list')}" in HTML
+    assert "${supplierActionHtml(r,'top4')}" in HTML
