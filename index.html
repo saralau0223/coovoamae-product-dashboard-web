@@ -33,6 +33,7 @@
 
     .supplier-mini{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}.supplier-link,.supplier-pending{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:950;text-decoration:none;line-height:1.25;max-width:100%;overflow-wrap:anywhere}.supplier-link{background:#1f5f52;color:#fff;box-shadow:0 6px 14px rgba(31,95,82,.14)}.supplier-link:hover{filter:brightness(.96)}.supplier-pending{background:#f3e8d7;color:#74501e;border:1px solid #e4cfb0}.supplier-meta{display:inline-flex;border-radius:999px;background:#fff7e8;border:1px solid #ead8c4;color:#6b5135;padding:5px 8px;font-size:11px;font-weight:850;max-width:100%;overflow-wrap:anywhere}.supplier-card{background:linear-gradient(180deg,#fbfffd 0%,#f4fbf7 100%);border:1px solid #b8dccb;border-radius:18px;padding:14px 15px}.supplier-card.pending{background:#fffaf3;border-color:#ead8c4}.supplier-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}.supplier-card h4{margin:0;font-size:14px;color:#1f5f52}.supplier-card.pending h4{color:#7b4b24}.supplier-open{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;background:#1f5f52;color:#fff;text-decoration:none;font-weight:950;font-size:12px;padding:9px 11px;min-height:40px}.supplier-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}.supplier-fact{background:#fff;border:1px solid #e0eadf;border-radius:13px;padding:9px 10px;min-width:0}.supplier-fact .k{font-size:11px;color:#637569;font-weight:900}.supplier-fact .v{font-size:13px;color:#241f1a;font-weight:850;margin-top:3px;overflow-wrap:anywhere}.supplier-copy{color:#51483f;line-height:1.55;font-size:13px;margin:8px 0 0;overflow-wrap:anywhere}.supplier-boundary{margin-top:10px;border:1px dashed #cba56f;background:#fff9ed;color:#6f4d18;border-radius:13px;padding:9px 10px;font-size:12px;line-height:1.45}.top4-content .supplier-mini{margin-top:7px}
     .non1688-reference{margin:8px 0 0;border:1px dashed #d3b17d;background:#fff7e8;border-radius:12px;padding:8px 10px;color:#684b1b;font-size:12px;line-height:1.45}.non1688-reference summary{cursor:pointer;font-weight:950}.non1688-reference p{margin:6px 0 0}
+    #amazonLink{white-space:nowrap;text-decoration:none}#amazonLink.is-direct{background:#1f5f52;color:#fff;border-color:#1f5f52}#amazonLink.is-search{background:#fff7e8;color:#7b4b24;border-color:#dfc69f}#amazonLink.is-disabled{background:#f3eee6;color:#8b7d6d;border-color:#e1d7ca;cursor:not-allowed;pointer-events:none}
 
     @media(max-width:1050px){.brief-hero,.brief-grid{grid-template-columns:1fr}.quote-spec{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:1050px){.layout,.decision-strip,.grid2{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.pipeline{grid-template-columns:1fr}.source-card{min-width:0;width:100%}.topbar{flex-direction:column}.list{max-height:none}.profit-grid{grid-template-columns:repeat(2,1fr)}.actions{grid-template-columns:1fr 1fr}.pool-grid{grid-template-columns:1fr}.pool-actions{grid-template-columns:1fr}.pool-btn{min-height:44px}.pool-title{align-items:flex-start;flex-direction:column}.detail-hero-card{min-height:0}.product-image-large{height:220px}.discovery-grid,.followup-list{grid-template-columns:1fr}}
@@ -364,6 +365,46 @@ function publicGap(r){ return cleanBusinessText(r['需要补证']||r['缺口/下
 function displayDecision(x){ return businessTerm((x&&x.decisionSuggestion)||'待判断'); }
 function releaseDecisionText(x){ const raw=displayDecision(x); if(/询价|供应链|推进|开发/.test(raw)) return `待复核推进（未放行）：${raw}`; if(/补资料|补证/.test(raw)) return `待补资料（未放行）：${raw}`; if(/暂缓|放弃/.test(raw)) return `未放行：${raw}`; return `未放行/只读参考：${raw}`; }
 function escapeJsArg(v){ return escapeAttr(JSON.stringify(String(v||''))); }
+function amazonLinkInfo(url){
+  const raw=String(url||'').trim();
+  if(!raw) return {kind:'missing', label:'待补ASIN直达', url:''};
+  try{
+    const u=new URL(raw);
+    const normalized=`${u.protocol}//${u.hostname}${u.pathname}${u.search}${u.hash}`;
+    const host=u.hostname.toLowerCase();
+    // Direct only when URL shape is amazon.com/(?:dp|gp/product)/[A-Z0-9]{10}
+    const directRe=/^https:\/\/(?:www\.)?amazon\.com\/(?:dp|gp\/product)\/[A-Z0-9]{10}(?:[\/?#].*)?$/i;
+    const searchRe=/^https:\/\/(?:www\.)?amazon\.com\/s\?k=/i;
+    if(host==='amazon.com'||host==='www.amazon.com'){
+      if(directRe.test(normalized)) return {kind:'direct', label:'Amazon直达', url:raw};
+      if(searchRe.test(normalized)) return {kind:'search', label:'Amazon搜索参考', url:raw};
+    }
+  }catch(e){ /* fall through to invalid */ }
+  return {kind:'invalid', label:'待补ASIN直达', url:''};
+}
+function updateAmazonLink(x){
+  const el=$('#amazonLink'); if(!el) return;
+  const info=amazonLinkInfo(x&&x.amazonUrl);
+  el.textContent = info.label;
+  el.classList.remove('is-direct','is-search','is-disabled');
+  el.removeAttribute('href');
+  el.removeAttribute('rel');
+  el.setAttribute('aria-disabled','true');
+  el.title = info.kind==='search' ? '搜索页仅作为参考，不是ASIN直达' : (info.kind==='direct' ? 'Amazon ASIN直达链接' : '当前产品没有合规ASIN直达链接');
+  if(info.kind==='direct'){
+    el.href = info.url;
+    el.rel = 'noopener noreferrer';
+    el.removeAttribute('aria-disabled');
+    el.classList.add('is-direct');
+  }else if(info.kind==='search'){
+    el.href = info.url;
+    el.rel = 'noopener noreferrer';
+    el.removeAttribute('aria-disabled');
+    el.classList.add('is-search');
+  }else{
+    el.classList.add('is-disabled');
+  }
+}
 function pickGaps(x,n=3){ const rows=(x.gaps||[]).filter(Boolean).slice(0,n); return rows.length?rows.map(businessTerm):['暂无明确缺口；仍需报价和利润复算确认']; }
 function riskItems(x,n=3){ const rows=String((x&&x.risk)||'待补风险').split(/[；;、/]/).map(s=>s.trim()).filter(Boolean).slice(0,n); return rows.length?rows.map(businessTerm):['资料不足风险','竞争或同质化风险','供应链报价不稳定风险']; }
 function supplyStatusText(x){
@@ -750,7 +791,7 @@ function renderHero(x){
   $('#profitMini').innerHTML = [ ['目标售价', pi.target], ['估算净利（非最终）', pi.profit], ['红线试算净利率', pi.margin], ['盈亏广告空间', pi.beAcos] ].map(([k,v])=>`<div class="profit-cell"><div class="k">${k}</div><div class="v">${businessTerm(v)}</div></div>`).join('');
   const stages = [['需求判断',x.gate.demand],['用户痛点',x.gate.voc],['产品定义',x.gate.product],['供应链资料',x.gate.supply],['利润判断',x.gate.finance]];
   $('#pipeline').innerHTML = stages.map(([k,v])=>`<div class="gate ${statusClass(v)}"><div class="glabel">${k}</div><div class="gstatus">${businessTerm(v)}</div></div>`).join('');
-  $('#amazonLink').href = x.amazonUrl || '#';
+  updateAmazonLink(x);
   renderHeroImage(x);
   renderSnapshots(x);
 }
