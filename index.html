@@ -610,12 +610,16 @@ function detailBrief(x){
 function hasGap(x, name){ return (x.gaps||[]).some(g=>String(g).toLowerCase().includes(String(name).toLowerCase())); }
 function hasPresent(x, name){ return (x.present||[]).some(g=>String(g).toLowerCase().includes(String(name).toLowerCase())); }
 function evidenceScore(x){
+  const h10Done=!!((x.h10_evidence||[]).length || (x.h10_remaining||[]).length || hasPresent(x,'H10'));
+  const vocDone=!!((x.voc_evidence||[]).length || hasPresent(x,'VOC'));
+  const officialDone=!!((x.official_evidence||[]).length || (x.official_followup||[]).length || hasPresent(x,'ABA'));
+  const supplyDone=!!(x.human_supply || (x.supply_deep||[]).length || (x.human_verification||[]).length);
   const checks=[
-    ['H10 市场', hasPresent(x,'H10') && !hasGap(x,'H10'), '有市场收入/销量/竞品样本支撑', '缺 H10 入口词或竞品池复核'],
-    ['VOC 痛点', hasPresent(x,'VOC') && !hasGap(x,'VOC'), '有差评痛点/买家语言输入', '缺原始差评、买家原话或痛点优先级'],
-    ['ABA/POE 官方需求', !hasGap(x,'ABA') && !hasGap(x,'POE'), '官方搜索/点击信号较完整', '缺 ABA/POE/Top clicked 证据'],
-    ['供应链可报价', !hasGap(x,'供应链') && !hasGap(x,'MOQ'), '已有或可快速拿报价', '缺供应商、MOQ、报价或包装尺寸重量'],
-    ['财务可试算', (x.profit||{}).margin>=18, '估算净利率达到测试线', '净利率不足或缺真实报价复算']
+    ['H10 市场', h10Done, '已补：入口词/代表ASIN/价格带/月销额/Review 等硬字段；仍缺项见下方 H10 表。', '仍缺：H10 入口词、代表ASIN、竞品池或月销额硬字段'],
+    ['VOC 痛点', vocDone, '已补：低星痛点/买家原话/风险或功能建议；仍需人工复核原始 workbook 时在表内标注。', '仍缺：原始差评、买家原话或痛点优先级'],
+    ['ABA/POE 官方需求', officialDone, '已补：ABA/Catalog/SQP/POE/CPC 中可取得的官方信号；POE/SQP/CPC 未闭环项继续标“需人工验证”。', '仍缺：ABA/POE/Top clicked/SQP/CPC 官方需求证据'],
+    ['供应链只读字段', supplyDone, '已补：公开价/MOQ/包装/认证线索或人工验证清单；正式报价、箱规、证书继续标“需人工验证”。', '仍缺：供应商只读线索、MOQ、报价或包装尺寸重量'],
+    ['财务可试算', (x.profit||{}).margin>=18, '已补：报价前利润/ACoS/成本红线复算；拿到报价后仍需财神爷复算。', '仍缺：净利率不足或缺真实报价复算']
   ];
   const ok=checks.filter(c=>c[1]).length;
   return {checks, ok, score:Math.round(ok/checks.length*100)};
@@ -666,13 +670,15 @@ function supplementClosureBlock(x){
 
 function detailEvidence(x){
   const e=evidenceScore(x);
-  const task=(e.checks.filter(c=>!c[1]).map(c=>c[0]).join('、') || '进入报价复算');
+  const stillGaps=(x.gaps||[]).filter(Boolean).slice(0,6).join('、');
+  const notDone=e.checks.filter(c=>!c[1]).map(c=>c[0]).join('、');
+  const task=notDone || (stillGaps ? `已补展示字段；仍需验证：${stillGaps}` : '进入报价/人工复核闭环');
   const queue=evidenceTaskQueueBlock(x);
   const supplement=supplementClosureBlock(x);
   const official=sourceEvidenceBlock('鹰眼官方需求复核｜ABA / POE / SQP / Catalog', x.official_evidence, [['官方需求来源','来源'],['关键词/ASIN证据','证据'],['缺口','缺口'],['是否可进入询价','判断'],['下一步','下一步']]);
   const h10=sourceEvidenceBlock('H10 市场/关键词补证', x.h10_evidence, [['入口词','入口词'],['销量/收入','销量/收入'],['Review门槛','Review'],['可粘贴结论/下一步','结论']]);
   const voc=sourceEvidenceBlock('VOC 买家痛点补证', x.voc_evidence, [['buyer_quote_or_gap','买家原话/缺口'],['painpoint_or_need','痛点'],['expected_feature','对应功能'],['risk_or_next_step','风险/下一步']]);
-  return `<div class="analysis-stack"><div class="brief-hero"><div class="brief-title"><div class="k">证据可信度</div><div class="v">${x.product}</div></div><div class="brief-status"><div class="score-ring" style="--p:${e.score}"><span>${e.score}%</span></div><div style="margin-top:8px"><b>下一步补证重点</b>${task}</div></div></div><div class="evidence-matrix">${e.checks.map(([k,ok,yes,no])=>`<div class="ev-card ${ok?'ok':'miss'}"><div class="k">${ok?'✓':'!'} ${k}</div><div class="v">${ok?yes:no}</div></div>`).join('')}</div>${queue}${supplement}${official}${h10}${voc}<div class="analysis-card"><h4>总管家验收口径</h4><p>一个产品不能只靠“看起来有需求”推进。至少要同时满足：市场容量能解释、用户痛点能复述、产品定义能差异化、供应链能报价、利润能过线。缺哪一项，就在这里生成下一步补证任务。</p></div></div>`;
+  return `<div class="analysis-stack"><div class="brief-hero"><div class="brief-title"><div class="k">补证覆盖度</div><div class="v">${x.product}</div></div><div class="brief-status"><div class="score-ring" style="--p:${e.score}"><span>${e.score}%</span></div><div style="margin-top:8px"><b>已补 / 仍缺 / 需人工验证</b>${task}</div></div></div><div class="evidence-matrix">${e.checks.map(([k,ok,yes,no])=>`<div class="ev-card ${ok?'ok':'miss'}"><div class="k">${ok?'✓':'!'} ${k}</div><div class="v">${ok?yes:no}</div></div>`).join('')}</div>${queue}${supplement}${official}${h10}${voc}<div class="analysis-card"><h4>总管家验收口径</h4><p>一个产品不能只靠“看起来有需求”推进。至少要同时满足：市场容量能解释、用户痛点能复述、产品定义能差异化、供应链能报价、利润能过线。缺哪一项，就在这里生成下一步补证任务；已补字段与仍需人工验证字段必须同时保留。</p></div></div>`;
 }
 function profitScenarioRows(x){
   const p=x.profit, base=Number(p.target_price||0), fba=Number(p.fba_est||0), referralRate=.15, adRate=.15, reserveRate=.05;
