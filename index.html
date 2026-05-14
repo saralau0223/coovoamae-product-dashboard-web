@@ -63,7 +63,7 @@
         <div class="stamp" id="stamp"></div>
       </div>
     </header>
-    <section class="release-banner" aria-label="放行口径提示"><b>未放行 / 待复核 / 只读参考</b><p>26 个候选/历史产品目前都不是“可立项/可采购/可开发”的放行清单。首屏指标、利润和供应链字段仅用于过程候选排队、红线试算和 1688 人工复核；利润红线均为试算且非最终，不代表供应链闭环或可采购。</p><div class="release-badges"><span class="release-badge">过程候选</span><span class="release-badge">待复核推进</span><span class="release-badge">利润红线试算/非最终</span><span class="release-badge">供应链只看1688安全校验</span></div></section>
+    <section class="release-banner" aria-label="放行口径提示"><b>未放行 / 待复核 / 只读参考</b><p>26 个候选/历史产品目前都不是“可立项/可采购/可开发”的放行清单。首屏指标、利润和供应链字段仅用于过程候选排队、红线试算和 1688 人工复核；利润红线均为试算且非最终，不代表供应链闭环或可采购。</p><div class="release-badges"><span class="release-badge">过程候选</span><span class="release-badge">待补证复核</span><span class="release-badge">利润红线试算/非最终</span><span class="release-badge">供应链只看1688安全校验</span></div></section>
     <section class="metrics" id="metrics"></section>
     
     <section class="panel discovery-panel" id="discoveryPanel"></section>
@@ -76,7 +76,7 @@
         <textarea class="pool-input" id="poolIdeas" rows="2" placeholder="可选：写品类范围、关键词方向或不要做的方向；留空就是全品类寻找需求"></textarea>
         <input class="pool-note" id="poolNote" placeholder="可选约束：价带 / 重量 / 类目排除 / 场景偏好" />
         <select class="pool-select" id="poolPriority">
-          <option value="P1">重点看</option>
+          <option value="P1">先看待补证</option>
           <option value="P2" selected>普通候选</option>
           <option value="P3">先存档</option>
         </select>
@@ -89,7 +89,7 @@
     </section>
     <section class="layout">
       <aside class="panel">
-        <div class="panel-head"><h2>产品候选池</h2><div class="controls"><button class="chip active" data-filter="all">全部</button><button class="chip" data-filter="quote">待复核推进</button><button class="chip" data-filter="data">待补资料</button><button class="chip" data-filter="pause">暂缓</button></div></div>
+        <div class="panel-head"><h2>产品候选池</h2><div class="controls"><button class="chip active" data-filter="all">全部</button><button class="chip" data-filter="quote">过程验证</button><button class="chip" data-filter="data">待补资料</button><button class="chip" data-filter="pause">暂缓</button></div></div>
         <div style="padding:0 14px 8px"><input class="search" id="search" placeholder="搜产品 / 风险 / 差异化" /></div>
         <div class="list" id="list"></div>
       </aside>
@@ -358,12 +358,24 @@ function businessTerm(v){ return String(v||'')
   .replace(/评论分析资料/g,'评论分析资料')
   .replace(/DATA\.profit/g,'利润数据字段')
   .replace(/Top10/g,'本轮候选'); }
-function priorityText(v){ const raw=String(v||'').trim(); if(!raw) return '待定优先级'; if(/^P0/i.test(raw)) return '高优先级（信心较高）'; if(/^P1/i.test(raw)) return '中高优先级'; if(/^P2/i.test(raw)) return '普通候选'; if(/^P3/i.test(raw)) return '先存档'; return businessTerm(raw); }
-function cleanBusinessText(v, max=78){ let t=businessTerm(v).replace(/rank\s*\d+/ig,'搜索热度有基础').replace(/Top\d+(?:\/Top\d+)?[^；;，,。]*/ig,'头部竞品集中度需复核').replace(/Rev(?:iew)?/ig,'评论门槛').replace(/Price/ig,'售价').replace(/MOQ/ig,'起订量').replace(/QC/ig,'质检').replace(/FBA/g,'履约费用').replace(/ACOS|ACoS/g,'广告空间').replace(/CPC/g,'点击成本').replace(/Top20/ig,'主要竞品').replace(/B\+|B-|P0|P1|P2|P3/g,''); t=t.replace(/\s+/g,' ').trim(); return t.length>max?t.slice(0,max-1)+'…':t; }
-function publicReason(r){ return cleanBusinessText(r['关键证据']||r['一句话机会']||r['候选池状态']||'待补关键原因'); }
+function priorityText(v){ const raw=String(v||'').trim(); if(!raw) return '待定状态'; if(/^P0/i.test(raw)) return '待补证｜过程验证'; if(/^P1/i.test(raw)) return '待补证｜普通复核'; if(/^P2/i.test(raw)) return '观察｜待补证'; if(/^P3/i.test(raw)) return '归档｜不推进'; return businessTerm(raw).replace(/进入产品定义-条件/g,'待补证过程验证').replace(/高优先级（信心[^）]*）/g,'待补证｜过程验证'); }
+function finalAuditOverrideByName(name){
+  const s=String(name||'');
+  if(/竹制密封袋|保鲜膜|ziplock|wrap drawer/i.test(s)) return {status:'未放行｜放弃/不进入二审', note:'白泽/猫头鹰最终复审：核心需求弱、利润待复算，本轮放弃/不进二审。', priority:'未放行｜关闭观察'};
+  if(/头皮按摩|scalp massager/i.test(s)) return {status:'未放行｜不进入二审', note:'白泽/猫头鹰最终复审：低价红海且证据不足，仅低价观察，不进本轮二审。', priority:'未放行｜低价观察'};
+  if(/园艺跪凳|园艺.*座椅|garden kneeler/i.test(s)) return {status:'过程验证｜只读二审/供应链+工程验证；未放行', priority:'待补证｜过程验证'};
+  if(/低吸味硅胶刮刀|烘焙小工具礼盒|silicone spatula/i.test(s)) return {status:'过程验证｜可作为二审补证对象；未放行', priority:'待补证｜过程验证'};
+  if(/加热\/干眼眼罩|heated eye mask|干眼眼罩/i.test(s)) return {status:'过程验证｜仅现有品线内部迭代评审；未放行', priority:'待补证｜过程验证'};
+  if(/酸面包|bread slicer/i.test(s)) return {status:'过程验证｜仅低成本竹木导轨只读报价验证；未放行', priority:'待补证｜过程验证'};
+  return null;
+}
+function auditedPriorityText(raw,name){ const o=finalAuditOverrideByName(name); return o ? o.priority : priorityText(raw); }
+function cleanBusinessText(v, max=78){ let t=businessTerm(v).replace(/rank\s*\d+/ig,'搜索热度有基础').replace(/Top\d+(?:\/Top\d+)?[^；;，,。]*/ig,'头部竞品集中度需复核').replace(/Rev(?:iew)?/ig,'评论门槛').replace(/Price/ig,'售价').replace(/MOQ/ig,'起订量').replace(/QC/ig,'质检').replace(/FBA/g,'履约费用').replace(/ACOS|ACoS/g,'广告空间').replace(/CPC/g,'点击成本').replace(/Top20/ig,'主要竞品').replace(/B\+|B-|P0|P1|P2|P3/g,'').replace(/判断：?是/g,'未放行｜待补证').replace(/^是[｜|]?/,'待补证｜').replace(/先定义/g,'先补证').replace(/高优先级（信心[^）]*）/g,'待补证｜过程验证').replace(/利润过线|过线|暂过/g,'待复核'); t=t.replace(/\s+/g,' ').trim(); return t.length>max?t.slice(0,max-1)+'…':t; }
+function publicReason(r){ const o=finalAuditOverrideByName(r&&r['产品方向']); return o ? o.note : cleanBusinessText(r['关键证据']||r['一句话机会']||r['候选池状态']||'待补关键原因'); }
 function publicGap(r){ return cleanBusinessText(r['需要补证']||r['缺口/下一步']||'待补资料'); }
+function auditedDiscoveryState(r){ const o=finalAuditOverrideByName(r&&r['产品方向']); if(o) return o.status; const raw=String((r&&(r['是否进入产品定义']||r['候选池状态']||''))||'待补证'); if(/^是|先定义|进入产品定义/.test(raw)) return '未放行｜待补证/过程验证，不代表已进入产品定义'; if(/^否/.test(raw)) return '未放行｜待补证后再评估'; return cleanBusinessText(raw,96); }
 function displayDecision(x){ return businessTerm((x&&x.decisionSuggestion)||'待判断'); }
-function releaseDecisionText(x){ const raw=displayDecision(x); if(/询价|供应链|推进|开发/.test(raw)) return `待复核推进（未放行）：${raw}`; if(/补资料|补证/.test(raw)) return `待补资料（未放行）：${raw}`; if(/暂缓|放弃/.test(raw)) return `未放行：${raw}`; return `未放行/只读参考：${raw}`; }
+function releaseDecisionText(x){ const o=finalAuditOverrideByName(x&&x.product); if(o) return o.status; const raw=displayDecision(x); if(/询价|供应链|推进|开发/.test(raw)) return `过程验证（未放行）：${raw.replace(/推进/g,'复核')}`; if(/补资料|补证/.test(raw)) return `待补资料（未放行）：${raw}`; if(/暂缓|放弃/.test(raw)) return `未放行：${raw}`; return `未放行/只读参考：${raw}`; }
 function escapeJsArg(v){ return escapeAttr(JSON.stringify(String(v||''))); }
 function amazonLinkInfo(url){
   const raw=String(url||'').trim();
@@ -663,7 +675,7 @@ function renderMetrics(){
   const avgMargin = margins.length ? (margins.reduce((s,n)=>s+n,0)/margins.length).toFixed(1)+'%' : '待复算';
   const profitPass = items.filter(x=>profitInfo(x).marginNum>=18).length;
   $('#metrics').innerHTML = [
-    [items.length,'过程候选数（未放行）'],[recommended,'过程候选 / 待复核推进'],[needData,'待补资料数'],[paused,'暂缓/观察数'],[`${avgMargin} / ${profitPass}`,'红线试算均值 / ≥18%待复核数']
+    [items.length,'过程候选数（未放行）'],[recommended,'过程验证待复核'],[needData,'待补资料数'],[paused,'暂缓/观察数'],[`${avgMargin} / ${profitPass}`,'红线试算均值 / ≥18%待复核数']
   ].map(([n,t])=>`<div class="metric"><div class="num">${n}</div><div class="txt">${t}</div></div>`).join('');
 }
 function renderList(){
@@ -671,7 +683,7 @@ function renderList(){
   const foldedCount = DATA.items.filter(isFoldedCandidate).length;
   const rows = visibleCandidateRows().filter(x => (filter==='all'||clsForItem(x)===filter) && JSON.stringify(x).toLowerCase().includes(q));
   const note = foldedCount ? `<div class="dedup-note"><b>已开启去重展示：</b>${foldedCount} 个完全重复/组合观察项不再作为独立候选占位，已折叠到主产品详情的“相关子方向/历史方向”。源数据不删除。</div>` : '';
-  $('#list').innerHTML = note + (rows.map(x=>{const r=dedupStatusFor(x); const pi=profitInfo(x); return `<div class="item ${DATA.items.indexOf(x)===selected?'active':''} ${isFoldedCandidate(x)?'folded':''}" onclick="selected=${DATA.items.indexOf(x)};render()">${imgHtml(x)}<div><div class="rank">#${x.rank} · ${priorityText(x.level)} · ${x.score}分</div><div class="name mobile-safe-text">${escapeHtml(x.product)}</div><div class="tags"><span class="tag">未放行/待复核</span><span class="tag ${clsForItem(x)==='quote'?'green':clsForItem(x)==='data'?'amber':''}">${escapeHtml(releaseDecisionText(x))}</span>${dedupPill(r.status,r.type)}<span class="tag">红线试算 ${escapeHtml(pi.margin)}｜非最终</span><span class="tag green">${escapeHtml(businessTerm(getStates()[x.product]||'未动作'))}</span></div>${supplierActionHtml(x,'list')}</div></div>`}).join('') || '<div class="muted" style="padding:18px">没有匹配结果</div>');
+  $('#list').innerHTML = note + (rows.map(x=>{const r=dedupStatusFor(x); const pi=profitInfo(x); return `<div class="item ${DATA.items.indexOf(x)===selected?'active':''} ${isFoldedCandidate(x)?'folded':''}" onclick="selected=${DATA.items.indexOf(x)};render()">${imgHtml(x)}<div><div class="rank">#${x.rank} · ${auditedPriorityText(x.level,x.product)} · ${x.score}分</div><div class="name mobile-safe-text">${escapeHtml(x.product)}</div><div class="tags"><span class="tag">未放行/待复核</span><span class="tag ${clsForItem(x)==='quote'?'green':clsForItem(x)==='data'?'amber':''}">${escapeHtml(releaseDecisionText(x))}</span>${dedupPill(r.status,r.type)}<span class="tag">红线试算 ${escapeHtml(pi.margin)}｜非最终</span><span class="tag green">${escapeHtml(businessTerm(getStates()[x.product]||'未动作'))}</span></div>${supplierActionHtml(x,'list')}</div></div>`}).join('') || '<div class="muted" style="padding:18px">没有匹配结果</div>');
 }
 
 function extractMoney(text){ const m=String(text||'').match(/\$?([0-9]+(?:\.[0-9]+)?)\s*M/i); return m?Number(m[1]):0; }
@@ -748,7 +760,7 @@ function profitInfo(x){
 }
 function profitSnapshot(x){
   const pi=profitInfo(x);
-  return {cls:pi.cls,title:'利润红线试算（非最终）',value:pi.marginNum>=18?'红线试算暂过｜待复核':pi.marginNum>=10?'需压价复算｜未放行':'待报价复算｜未放行',metrics:[['目标售价',pi.target,'价格/利润参考'],['估算净利/率',`${pi.profit} / ${pi.margin}`,'报价前红线试算'],['盈亏广告空间',pi.beAcos,'广告空间待复核'],['成本红线/结论',pi.redline,`${pi.status}｜非最终`]],desc:pi.fallback?'利润结构仍为 0，占用 price_reference/财神爷摘要作报价前估算；待正式报价、FBA 和包装尺寸复算。':'来自利润数据字段；拿到真实报价、FBA 和包装尺寸后仍需财神爷复算。本字段不作为立项/采购放行。'};
+  return {cls:pi.cls,title:'利润红线试算（非最终）',value:pi.marginNum>=18?'红线试算需复核｜未放行':pi.marginNum>=10?'需压价复算｜未放行':'待报价复算｜未放行',metrics:[['目标售价',pi.target,'价格/利润参考'],['估算净利/率',`${pi.profit} / ${pi.margin}`,'报价前红线试算'],['盈亏广告空间',pi.beAcos,'广告空间待复核'],['成本红线/结论',pi.redline,`${cleanBusinessText(pi.status,40)}｜非最终`]],desc:pi.fallback?'利润结构仍为 0，占用 price_reference/财神爷摘要作报价前估算；待正式报价、FBA 和包装尺寸复算。':'来自利润数据字段；拿到真实报价、FBA 和包装尺寸后仍需财神爷复算。本字段不作为立项/采购放行。'};
 }
 function competitionSnapshot(x){
   const ev=x.evidence||'', t=marketCompetitionTexts(x);
@@ -766,7 +778,7 @@ function competitionSnapshot(x){
 function arkSummary(x){
   const e=evidenceScore(x); const supplyMissing=hasGap(x,'供应链')||hasGap(x,'MOQ'); const officialMissing=hasGap(x,'ABA')||hasGap(x,'POE');
   let cls='warn', action='继续补资料', next='市场/竞品/用户痛点', reason='关键证据未齐';
-  if(x.decisionSuggestion.includes('询价') && profitInfo(x).marginNum>=18 && e.score>=60){ cls='good'; action='进入供应链深度巡查'; next='供应链开发-丹'; reason='市场规模、利润初判和证据可信度已达到可推进门槛'; }
+  if(x.decisionSuggestion.includes('询价') && profitInfo(x).marginNum>=18 && e.score>=60){ cls='good'; action='进入供应链只读深巡'; next='供应链开发-丹'; reason='市场规模、利润初判和证据可信度达到过程验证门槛，但仍未放行'; }
   if(profitInfo(x).marginNum<12 || e.score<40){ cls='bad'; action='暂缓，不占供应链资源'; next='总管家归档观察'; reason='利润空间或证据可信度不足'; }
   const gap = supplyMissing?'先补产品一致的报价链接、MOQ、包装重量和认证信息':officialMissing?'先补 Amazon搜索趋势 / 机会判断依据 / 官方需求证据':'拿参考价后交给财神爷做利润预估';
   const detail = x.decisionSuggestion.includes('询价')
@@ -783,7 +795,7 @@ function renderSnapshots(x){
   el.innerHTML=[marketSnapshot(x),profitSnapshot(x),competitionSnapshot(x)].map(snapshotHtml).join('');
 }
 function renderHero(x){
-  $('#selRank').textContent = `#${x.rank} · ${priorityText(x.level)} · ${x.score}分`;
+  $('#selRank').textContent = `#${x.rank} · ${auditedPriorityText(x.level,x.product)} · ${x.score}分`;
   $('#selName').textContent = x.product;
   $('#selDecision').textContent = releaseDecisionText(x);
   const pi=profitInfo(x);
@@ -978,9 +990,9 @@ function detailEvidence(x){
 function profitScenarioRows(x){
   const p=x.profit, base=Number(p.target_price||0), fba=Number(p.fba_est||0), referralRate=.15, adRate=.15, reserveRate=.05;
   const costs=[Number(p.quote_target||0)*0.9, Number(p.quote_target||0), Number(p.quote_target||0)*1.1].filter(Boolean);
-  return costs.map((landed,i)=>{const referral=base*referralRate, ad=base*adRate, reserve=base*reserveRate; const profit=base-landed-fba-referral-ad-reserve; const margin=base?profit/base*100:0; const conclusion=margin>=18?'可提交财神爷复算':margin>=10?'需压价/优化包装':'暂不建议推进'; return {label:['报价优于目标','达到红线','高于红线10%'][i], landed, profit, margin, conclusion};});
+  return costs.map((landed,i)=>{const referral=base*referralRate, ad=base*adRate, reserve=base*reserveRate; const profit=base-landed-fba-referral-ad-reserve; const margin=base?profit/base*100:0; const conclusion=margin>=18?'可提交财神爷复算（未放行）':margin>=10?'需压价/优化包装':'暂缓观察'; return {label:['报价优于目标','达到红线','高于红线10%'][i], landed, profit, margin, conclusion};});
 }
-function detailProfit(x){const p=x.profit||{}, pi=profitInfo(x); const rows=profitScenarioRows(x); const cells=[['目标售价',pi.target],['到岸成本红线/估算用价',pi.costRange],['当前估算成本',Number(p.landed_est||0)?money(p.landed_est):'待正式报价复算'],['Amazon佣金15%',Number(p.referral||0)?money(p.referral):'待正式报价复算'],['FBA占位',Number(p.fba_est||0)?money(p.fba_est):'待真实FBA/包装尺寸'],['广告占位15%',Number(p.ad_est||0)?money(p.ad_est):'待正式报价复算'],['售后/损耗5%',Number(p.reserve||0)?money(p.reserve):'待正式报价复算'],['估算单件净利（非最终）',pi.profit],['红线试算净利率',pi.margin],['盈亏平衡ACoS',pi.beAcos],['报价目标',pi.redline],['状态',pi.status]]; const scenario=rows.length?`<table class="sensitivity"><thead><tr><th>场景</th><th>到岸成本</th><th>预估净利</th><th>净利率</th><th>结论</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.label}</td><td>${money(r.landed)}</td><td>${money(r.profit)}</td><td>${r.margin.toFixed(1)}%</td><td>${r.conclusion}</td></tr>`).join('')}</tbody></table>`:`<p class="small-note">利润结构仍为 0，当前只展示 price_reference / 财神爷摘要的报价前估算；缺真实 FBA、包装尺寸和正式报价，所以不生成假敏感性表。</p>`; return `<div class="analysis-stack"><div class="decision-note"><b>利润红线试算：</b>当前只是报价前假设，非最终利润结论。真正决策要看供应商报价、包装尺寸重量、FBA、广告空间和退货损耗。目标是报价后仍能保持净利率 ≥18%。${pi.fallback?'（本产品使用估算/待正式报价复算 fallback，不把 0 占位当成真实利润。）':''}</div><div class="profit-grid">${cells.map(([k,v])=>`<div class="profit-cell"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')}</div><div class="analysis-card"><h4>报价敏感性</h4>${scenario}</div><div class="brief-warning">如果供应商报价高于红线，优先动作不是放弃，而是让供应链拆成本：包装、配件、材质、认证、MOQ、运输体积；拆完仍过不了 18% 净利率，再暂缓。</div></div>`}
+function detailProfit(x){const p=x.profit||{}, pi=profitInfo(x); const rows=profitScenarioRows(x); const cells=[['目标售价',pi.target],['到岸成本红线/估算用价',pi.costRange],['当前估算成本',Number(p.landed_est||0)?money(p.landed_est):'待正式报价复算'],['Amazon佣金15%',Number(p.referral||0)?money(p.referral):'待正式报价复算'],['FBA占位',Number(p.fba_est||0)?money(p.fba_est):'待真实FBA/包装尺寸'],['广告占位15%',Number(p.ad_est||0)?money(p.ad_est):'待正式报价复算'],['售后/损耗5%',Number(p.reserve||0)?money(p.reserve):'待正式报价复算'],['估算单件净利（非最终）',pi.profit],['红线试算净利率',pi.margin],['盈亏平衡ACoS',pi.beAcos],['报价目标',pi.redline],['状态',cleanBusinessText(pi.status,40)]]; const scenario=rows.length?`<table class="sensitivity"><thead><tr><th>场景</th><th>到岸成本</th><th>预估净利</th><th>净利率</th><th>结论</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.label}</td><td>${money(r.landed)}</td><td>${money(r.profit)}</td><td>${r.margin.toFixed(1)}%</td><td>${r.conclusion}</td></tr>`).join('')}</tbody></table>`:`<p class="small-note">利润结构仍为 0，当前只展示 price_reference / 财神爷摘要的报价前估算；缺真实 FBA、包装尺寸和正式报价，所以不生成假敏感性表。</p>`; return `<div class="analysis-stack"><div class="decision-note"><b>利润红线试算：</b>当前只是报价前假设，非最终利润结论。真正决策要看供应商报价、包装尺寸重量、FBA、广告空间和退货损耗。目标是报价后仍能保持净利率 ≥18%。${pi.fallback?'（本产品使用估算/待正式报价复算 fallback，不把 0 占位当成真实利润。）':''}</div><div class="profit-grid">${cells.map(([k,v])=>`<div class="profit-cell"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')}</div><div class="analysis-card"><h4>报价敏感性</h4>${scenario}</div><div class="brief-warning">如果供应商报价高于红线，优先动作不是放弃，而是让供应链拆成本：包装、配件、材质、认证、MOQ、运输体积；拆完仍过不了 18% 净利率，再暂缓。</div></div>`}
 function detailSupply(x){const readOnly=[...valueList(x.supply_deep,6),...valueList(x.human_supply,4),...valueList(x.human_verification,4)]; const pi=profitInfo(x); return `<div class="analysis-stack">${supplierRecommendationBlock(x)}<div class="box"><div class="supply-line"><b>询价规格草案</b><span>${x.diff}</span></div><div class="supply-line"><b>目标到岸成本</b><span>${pi.redline}；报价高于红线时优先让供应商拆包装/材质/配件成本。</span></div><div class="supply-line"><b>必须问供应商</b><span>FOB/EXW价、MOQ、样品费、交期、包装尺寸/重量、认证、可改规格、质检点、是否可做中性包装/说明书。</span></div><div class="supply-line"><b>报价验收标准</b><span>至少2家可比报价；含包装尺寸重量；能让财神爷复算净利≥18%或明确说明做不到。</span></div><div class="supply-line"><b>当前状态</b><span>待刘希确认是否允许外联询价；网页点击“开发供应商”只生成内部任务表，不会自动联系供应商。</span></div></div><div class="analysis-card"><h4>供应链只读巡查 / 人工验证清单</h4><p class="small-note">这里展示已同步的供应链只读巡查和人工核验字段，只读、不外联、不询价、不索样、不下单。</p>${miniListHtml(readOnly)}</div><div class="analysis-card"><h4>供应链同事拿到后应该怎么问</h4><p>先问标准品是否已有，再问我们定义里的关键差异化能否改；报价必须拆清楚产品单价、包装、配件、认证、样品费、交期和 MOQ。拿到报价后不要直接判断做不做，先把到岸成本、FBA、包装尺寸重量交给财神爷复算。</p></div></div>`}
 function decisionFlow(x){
   if(x.decisionSuggestion.includes('询价')) return ['供应链开发','拿至少2家可比报价+包装尺寸重量','财神爷复算后回到刘希决策台'];
@@ -998,16 +1010,16 @@ function renderDiscovery(){
   if(!top10.length && !follow.length){ el.style.display='none'; return; }
   el.style.display='block';
   const briefGap=r=>businessTerm(r['需要补证']||r['缺口/下一步']||'待补资料');
-  const top10Rows=top10.map(r=>{const rule=dedupStatusFor(r['产品方向']);return `<tr><td>#${escapeHtml(r['排名'])}</td><td>${escapeHtml(priorityText(r['优先级']))}</td><td><div class="discovery-product-cell">${discoveryProductImage(r)}<div class="discovery-product-meta"><b class="mobile-safe-text">${escapeHtml(r['产品方向'])}</b><span>${escapeHtml(r['候选池状态']||'')}</span></div></div></td><td class="table-status-cell">${dedupPill(rule.status,rule.type)}</td><td class="mobile-safe-text">${escapeHtml(businessTerm(r['一句话机会']||''))}</td><td class="mobile-safe-text">${escapeHtml(briefGap(r))}</td></tr>`}).join('');
+  const top10Rows=top10.map(r=>{const rule=dedupStatusFor(r['产品方向']);return `<tr><td>#${escapeHtml(r['排名'])}</td><td>${escapeHtml(auditedPriorityText(r['优先级'],r['产品方向']))}</td><td><div class="discovery-product-cell">${discoveryProductImage(r)}<div class="discovery-product-meta"><b class="mobile-safe-text">${escapeHtml(r['产品方向'])}</b><span>${escapeHtml(auditedDiscoveryState(r))}</span></div></div></td><td class="table-status-cell">${dedupPill(rule.status,rule.type)}</td><td class="mobile-safe-text">${escapeHtml(businessTerm(r['一句话机会']||''))}</td><td class="mobile-safe-text">${escapeHtml(briefGap(r))}</td></tr>`}).join('');
   const shortTop10=top10.slice(0,5);
-  const top10Cards=shortTop10.map(r=>{const rule=dedupStatusFor(r['产品方向']); const name=String(r['产品方向']||''); return `<div class="top10-card">${discoveryProductImage(r)}<div class="top10-card-body"><b class="mobile-safe-text">#${escapeHtml(r['排名'])} ${escapeHtml(name)}</b><div class="top10-meta"><span class="release-chip alert">未放行/只读参考</span><span class="tag">${escapeHtml(priorityText(r['优先级']))}</span><span class="tag">判断：${escapeHtml(businessTerm(rule.action||r['候选池状态']||'待判断'))}</span></div><span class="mobile-safe-text"><b>关键原因：</b>${escapeHtml(publicReason(r))}</span><span class="mobile-safe-text"><b>主要缺口：</b>${escapeHtml(publicGap(r))}</span><div class="top10-actions"><button class="mini-btn dark" onclick='selectProductByName(${escapeJsArg(name)})'>看详情</button><button class="mini-btn" onclick='selectProductByName(${escapeJsArg(name)})'>下一步动作</button></div></div></div>`}).join('');
+  const top10Cards=shortTop10.map(r=>{const rule=dedupStatusFor(r['产品方向']); const name=String(r['产品方向']||''); return `<div class="top10-card">${discoveryProductImage(r)}<div class="top10-card-body"><b class="mobile-safe-text">#${escapeHtml(r['排名'])} ${escapeHtml(name)}</b><div class="top10-meta"><span class="release-chip alert">未放行/只读参考</span><span class="tag">${escapeHtml(auditedPriorityText(r['优先级'],name))}</span><span class="tag">状态：${escapeHtml(auditedDiscoveryState(r))}</span></div><span class="mobile-safe-text"><b>关键原因：</b>${escapeHtml(publicReason(r))}</span><span class="mobile-safe-text"><b>主要缺口：</b>${escapeHtml(publicGap(r))}</span><div class="top10-actions"><button class="mini-btn dark" onclick='selectProductByName(${escapeJsArg(name)})'>看详情</button><button class="mini-btn" onclick='selectProductByName(${escapeJsArg(name)})'>下一步动作</button></div></div></div>`}).join('');
   const priorityRows=(top4.length?top4:top10.slice(0,4)).slice(0,4);
-  const priorityHtml=priorityRows.map(r=>{const name=String(r['产品方向']||''); return `<div class="today-card"><b>${escapeHtml(name)}</b><span class="release-chip alert">未放行/待1688复核</span><p>判断：${escapeHtml(businessTerm(r['是否进入产品定义']||r['候选池状态']||'待判断'))}</p><p>原因：${escapeHtml(publicReason(r))}</p><p>缺口：${escapeHtml(publicGap(r))}</p><div class="top10-actions"><button class="mini-btn dark" onclick='selectProductByName(${escapeJsArg(name)})'>看详情</button>${supplierActionHtml(r,'top4')}</div></div>`}).join('');
+  const priorityHtml=priorityRows.map(r=>{const name=String(r['产品方向']||''); return `<div class="today-card"><b>${escapeHtml(name)}</b><span class="release-chip alert">未放行/待1688复核</span><p>状态：${escapeHtml(auditedDiscoveryState(r))}</p><p>原因：${escapeHtml(publicReason(r))}</p><p>缺口：${escapeHtml(publicGap(r))}</p><div class="top10-actions"><button class="mini-btn dark" onclick='selectProductByName(${escapeJsArg(name)})'>看详情</button>${supplierActionHtml(r,'top4')}</div></div>`}).join('');
   const followHtml=follow.map(r=>`<div class="followup-card"><b>${escapeHtml(businessTerm(r['模块']))}</b><span>${escapeHtml(businessTerm(r['结果']))}</span><span class="small-note">${escapeHtml(businessTerm(r['缺口/下一步']||''))}</span><span class="small-note">来源：${escapeHtml(r['来源任务']||'')}</span></div>`).join('');
   const nextHtml=next.map(r=>`<div class="next-action-row"><b>${escapeHtml(r['排名']||r['优先级']||'下一步')}</b> ${escapeHtml(r['产品方向']||r['补证类型']||'')}｜${escapeHtml(businessTerm(r['候选池状态']||r['一句话机会']||r['目标用户']||''))}</div>`).join('');
-  el.innerHTML=`<div class="discovery-head"><div><h2>过程候选 / 待复核下一步</h2><div class="muted">最多先看 3-5 个产品；全部为未放行、只读参考，不代表可立项/采购/开发。</div></div><div class="discovery-badge"><span>过程候选：${top10.length}</span><span>待复核推进：${priorityRows.length}</span><span>待补资料：${follow.length}</span></div></div>
+  el.innerHTML=`<div class="discovery-head"><div><h2>过程候选 / 待补证下一步</h2><div class="muted">最多先看 3-5 个产品；全部为未放行、只读参考，不代表可立项/采购/开发。</div></div><div class="discovery-badge"><span>过程候选：${top10.length}</span><span>待补证复核：${priorityRows.length}</span><span>待补资料：${follow.length}</span></div></div>
   <div class="discovery-grid">
-    <div class="discovery-card"><h4>今日优先处理</h4><div class="today-list">${priorityHtml||'<p>暂无优先处理产品。</p>'}</div></div>
+    <div class="discovery-card"><h4>待补证 / 过程验证队列</h4><div class="today-list">${priorityHtml||'<p>暂无待补证产品。</p>'}</div></div>
     <div class="discovery-card"><h4>产品短列表</h4><div class="top10-card-list">${top10Cards}</div><div class="small-note" style="margin:8px 2px 0">默认只显示前 ${shortTop10.length} 个；其余候选在下方折叠表查看。</div><details class="raw-data-fold" style="margin-top:10px"><summary>查看完整原始候选表</summary><div class="table-wrap"><table class="mini-table"><thead><tr><th>排名</th><th>优先级</th><th>产品图 / 产品</th><th>去重状态</th><th>一句话机会</th><th>待补资料</th></tr></thead><tbody>${top10Rows}</tbody></table></div></details></div>
   </div>
   <details class="raw-data-fold" style="margin-top:12px"><summary>查看待补资料摘要 / 管理员信息</summary><div class="analysis-stack"><div class="discovery-card"><h4>方舟下一步动作</h4><div class="next-action-list">${nextHtml||'<p>暂无额外动作行。</p>'}</div></div><div class="discovery-card"><h4>后续待补资料结果摘要</h4><div class="followup-list">${followHtml||'<p>等待后续资料回流。</p>'}</div></div></div></details>`;

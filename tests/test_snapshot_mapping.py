@@ -128,6 +128,23 @@ def test_first_screen_release_wording_is_not_final_recommendation_language():
         "推荐动作",
         "新增推荐",
         "历史推荐",
+        "今日优先处理",
+        "待复核推进",
+        "红线试算暂过",
+        "可推进门槛",
     ]
     for text in forbidden:
         assert text not in UI_HTML
+
+
+def test_baize_final_audit_overrides_discovery_copy():
+    assert "function finalAuditOverrideByName" in UI_HTML
+    assert "function auditedDiscoveryState" in UI_HTML
+    assert "function auditedPriorityText" in UI_HTML
+    assert "竹制密封袋|保鲜膜|ziplock|wrap drawer" in UI_HTML
+    assert "未放行｜放弃/不进入二审" in UI_HTML
+    assert "头皮按摩|scalp massager" in UI_HTML
+    assert "未放行｜不进入二审" in UI_HTML
+    assert "状态：${escapeHtml(auditedDiscoveryState(r))}" in UI_HTML
+    assert "${escapeHtml(auditedPriorityText(r['优先级'],name))}" in UI_HTML
+    assert "<p>判断：" not in UI_HTML
