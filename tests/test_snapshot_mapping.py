@@ -66,7 +66,7 @@ def test_all_products_have_backfilled_core_modules():
     assert DATA["sync_scope"]["matched_items"]["definition"] == 16
 
 
-def test_supplier_recommendation_links_are_synced_and_safe_to_render():
+def test_supplier_recommendation_source_data_is_preserved_but_non1688_is_filtered():
     summary = DATA["supplier_recommendation_summary"]
     assert summary["source_task"] == "t_1575a5c6"
     assert summary["items_matched"] == 16
@@ -76,11 +76,21 @@ def test_supplier_recommendation_links_are_synced_and_safe_to_render():
     garden = find_product("园艺跪凳")
     rec = garden["supplier_recommendation"]
     assert rec["url"].startswith("https://")
+    assert "made-in-china.com" in rec["url"]
     assert rec["platform"] == "Made-in-China"
     assert rec["supplier_name"]
     assert rec["match_score"] >= 80
     assert rec["read_only_reference"] is True
     assert rec["needs_human_confirm"] is True
+
+    # Hotfix is display-layer only: Made-in-China source data can remain, but
+    # clickable supplier CTAs must pass the 1688 offer-page guard.
+    assert "function is1688SupplierOfferUrl" in HTML
+    assert "function safeExternalUrl(url){ const u=String(url||'').trim(); return is1688SupplierOfferUrl(u) ? u : ''; }" in HTML
+    assert "1688供应链链接 ↗" in HTML
+    assert "待1688复核" in HTML
+    assert "非1688临时参考 / 待1688复核" in HTML
+    assert "打开供应链推荐链接 ↗" not in HTML
 
     abandoned = find_product("口袋孔夹具")
     assert abandoned["supplier_recommendation"]["url"] == ""
@@ -92,6 +102,6 @@ def test_supplier_recommendation_ui_hooks_exist():
     assert "function supplierActionHtml" in HTML
     assert "target=\"_blank\" rel=\"noopener noreferrer\"" in HTML
     assert "待供应链匹配" in HTML
-    assert "供应链推荐链接" in HTML
+    assert "1688供应链链接" in HTML
     assert "${supplierActionHtml(x,'list')}" in HTML
     assert "${supplierActionHtml(r,'top4')}" in HTML

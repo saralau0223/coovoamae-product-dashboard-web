@@ -32,6 +32,7 @@
 
 
     .supplier-mini{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}.supplier-link,.supplier-pending{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:950;text-decoration:none;line-height:1.25;max-width:100%;overflow-wrap:anywhere}.supplier-link{background:#1f5f52;color:#fff;box-shadow:0 6px 14px rgba(31,95,82,.14)}.supplier-link:hover{filter:brightness(.96)}.supplier-pending{background:#f3e8d7;color:#74501e;border:1px solid #e4cfb0}.supplier-meta{display:inline-flex;border-radius:999px;background:#fff7e8;border:1px solid #ead8c4;color:#6b5135;padding:5px 8px;font-size:11px;font-weight:850;max-width:100%;overflow-wrap:anywhere}.supplier-card{background:linear-gradient(180deg,#fbfffd 0%,#f4fbf7 100%);border:1px solid #b8dccb;border-radius:18px;padding:14px 15px}.supplier-card.pending{background:#fffaf3;border-color:#ead8c4}.supplier-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}.supplier-card h4{margin:0;font-size:14px;color:#1f5f52}.supplier-card.pending h4{color:#7b4b24}.supplier-open{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;background:#1f5f52;color:#fff;text-decoration:none;font-weight:950;font-size:12px;padding:9px 11px;min-height:40px}.supplier-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}.supplier-fact{background:#fff;border:1px solid #e0eadf;border-radius:13px;padding:9px 10px;min-width:0}.supplier-fact .k{font-size:11px;color:#637569;font-weight:900}.supplier-fact .v{font-size:13px;color:#241f1a;font-weight:850;margin-top:3px;overflow-wrap:anywhere}.supplier-copy{color:#51483f;line-height:1.55;font-size:13px;margin:8px 0 0;overflow-wrap:anywhere}.supplier-boundary{margin-top:10px;border:1px dashed #cba56f;background:#fff9ed;color:#6f4d18;border-radius:13px;padding:9px 10px;font-size:12px;line-height:1.45}.top4-content .supplier-mini{margin-top:7px}
+    .non1688-reference{margin:8px 0 0;border:1px dashed #d3b17d;background:#fff7e8;border-radius:12px;padding:8px 10px;color:#684b1b;font-size:12px;line-height:1.45}.non1688-reference summary{cursor:pointer;font-weight:950}.non1688-reference p{margin:6px 0 0}
 
     @media(max-width:1050px){.brief-hero,.brief-grid{grid-template-columns:1fr}.quote-spec{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:1050px){.layout,.decision-strip,.grid2{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.pipeline{grid-template-columns:1fr}.source-card{min-width:0;width:100%}.topbar{flex-direction:column}.list{max-height:none}.profit-grid{grid-template-columns:repeat(2,1fr)}.actions{grid-template-columns:1fr 1fr}.pool-grid{grid-template-columns:1fr}.pool-actions{grid-template-columns:1fr}.pool-btn{min-height:44px}.pool-title{align-items:flex-start;flex-direction:column}.detail-hero-card{min-height:0}.product-image-large{height:220px}.discovery-grid,.followup-list{grid-template-columns:1fr}}
@@ -152,7 +153,7 @@ const POOL_WRITEBACK_URL='https://bouquet-portal-encryption-treatment.trycloudfl
 const DEMAND_WRITEBACK_URL='https://bouquet-portal-encryption-treatment.trycloudflare.com/demand/start';
 const DISCOVERY_WRITEBACK_URL='https://bouquet-portal-encryption-treatment.trycloudflare.com/discovery/start';
 const SUPPLY_SHEET_URL='https://bcn9zhmj0ib7.feishu.cn/sheets/Se6OsbdbIhq73TtbQCPckIPrnsg';
-const PAGE_VERSION='2026-05-14 14:12 CST｜简洁使用页 / 今日行动面板';
+const PAGE_VERSION='2026-05-14 16:35 CST｜简洁使用页 / 今日行动面板｜隐藏非1688供应链链接 / 待1688复核';
 function loadJSON(key, fallback){ try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback));}catch(e){return fallback;} }
 function saveJSON(key, val){ localStorage.setItem(key, JSON.stringify(val)); }
 function getQueue(){ return loadJSON(QUEUE_KEY, []); }
@@ -361,7 +362,13 @@ function displayDecision(x){ return businessTerm((x&&x.decisionSuggestion)||'待
 function escapeJsArg(v){ return escapeAttr(JSON.stringify(String(v||''))); }
 function pickGaps(x,n=3){ const rows=(x.gaps||[]).filter(Boolean).slice(0,n); return rows.length?rows.map(businessTerm):['暂无明确缺口；仍需报价和利润复算确认']; }
 function riskItems(x,n=3){ const rows=String((x&&x.risk)||'待补风险').split(/[；;、/]/).map(s=>s.trim()).filter(Boolean).slice(0,n); return rows.length?rows.map(businessTerm):['资料不足风险','竞争或同质化风险','供应链报价不稳定风险']; }
-function supplyStatusText(x){ const rec=supplierRecFor(x), url=safeExternalUrl(rec&&rec.url); if(url) return '已有供应链参考链接，可先打开核对；正式外联仍需确认。'; if(rec&&rec.status==='not_recommended') return '该产品当前不回填推荐链接，按待复核供应链链接处理。'; return '待开发供应商或待复核供应链链接。'; }
+function supplyStatusText(x){
+  const rec=supplierRecFor(x), url=safeExternalUrl(rec&&rec.url);
+  if(url) return '已有1688供应链链接，可先打开核对；正式外联仍需确认。';
+  if(rec&&rec.url) return '历史参考链接不是1688，已隐藏为待1688复核；不作为供应链推荐链接。';
+  if(rec&&rec.status==='not_recommended') return '该产品当前不回填推荐链接，按待复核供应链链接处理。';
+  return '待开发供应商或待复核供应链链接。';
+}
 function selectProductByName(name){ const item=itemForProductName(name); if(item){ selected=DATA.items.indexOf(item); tab='brief'; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab==='brief')); render(); document.querySelector('#detail')?.scrollIntoView({behavior:'smooth',block:'start'}); } }
 
 function normalizeTask(t){
@@ -438,29 +445,44 @@ function supplierRecFor(x){
 }
 function supplierStatusText(rec){
   if(!rec) return '待供应链匹配';
-  if(rec.url) return '供应链推荐链接';
+  if(safeExternalUrl(rec.url)) return '1688供应链链接';
+  if(rec.url) return '待1688复核';
   if(rec.status==='not_recommended') return '不回填推荐链接';
   if(rec.status==='split_required') return '待拆分后匹配';
   return '待供应链匹配';
 }
-function safeExternalUrl(url){ const u=String(url||'').trim(); return /^https:\/\//i.test(u)||/^http:\/\//i.test(u) ? u : ''; }
+function is1688SupplierOfferUrl(url){
+  const raw=String(url||'').trim();
+  if(!raw) return false;
+  try{
+    const u=new URL(raw);
+    const host=u.hostname.toLowerCase();
+    if(!/^https?:$/i.test(u.protocol)) return false;
+    if(!(host==='1688.com'||host.endsWith('.1688.com'))) return false;
+    const target=decodeURIComponent((u.hostname+u.pathname+u.search+u.hash).toLowerCase());
+    return /(^|[./_-])offer([./_-]|$)/.test(target) || /\/offer\//.test(target) || /offerid=/.test(target) || /^detail\.1688\.com\//.test(target);
+  }catch(e){ return false; }
+}
+function safeExternalUrl(url){ const u=String(url||'').trim(); return is1688SupplierOfferUrl(u) ? u : ''; }
 function supplierMetaText(rec){
   if(!rec) return '待供应链匹配';
+  if(rec.url && !safeExternalUrl(rec.url)) return ['非1688临时参考', '待1688复核', rec.match_score?`匹配度 ${rec.match_score}`:'匹配度待补'].filter(Boolean).join('｜');
   return [rec.platform||'平台待补', rec.supplier_name||'供应商待补', rec.match_score?`匹配度 ${rec.match_score}`:'匹配度待补', rec.read_only_reference?'只读参考':''].filter(Boolean).join('｜');
 }
 function supplierActionHtml(x, mode='mini'){
   const rec=supplierRecFor(x), url=safeExternalUrl(rec&&rec.url), meta=rec?supplierMetaText(rec):'待供应链匹配';
   if(url){
-    return `<div class="supplier-mini"><a class="supplier-link supplier-${mode}" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">供应链推荐链接 ↗</a><span class="supplier-meta">${escapeHtml(meta)}</span></div>`;
+    return `<div class="supplier-mini"><a class="supplier-link supplier-${mode}" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">1688供应链链接 ↗</a><span class="supplier-meta">${escapeHtml(meta)}</span></div>`;
   }
   return `<div class="supplier-mini"><span class="supplier-pending">${escapeHtml(supplierStatusText(rec))}</span><span class="supplier-meta">${escapeHtml(meta)}</span></div>`;
 }
 function supplierRecommendationBlock(x){
-  const rec=supplierRecFor(x), url=safeExternalUrl(rec&&rec.url);
+  const rec=supplierRecFor(x), url=safeExternalUrl(rec&&rec.url), hasHiddenNon1688=!!(rec&&rec.url&&!url);
   if(!rec){ return `<div class="analysis-card supplier-card pending"><h4>供应链推荐/参考链接</h4><p class="supplier-copy">待供应链匹配。产品定位确认后由供应链只读匹配公开供应商/产品链接，正式采购仍需刘希确认。</p></div>`; }
-  const facts=[['平台',rec.platform||'待补'],['供应商名',rec.supplier_name||'待补'],['匹配度',rec.match_score?`${rec.match_score}/100`:'待补'],['标签',rec.read_only_reference?'只读参考 / 非正式报价':'参考信息']];
-  const cta=url?`<a class="supplier-open" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">打开供应链推荐链接 ↗</a>`:`<span class="supplier-pending">${escapeHtml(supplierStatusText(rec))}</span>`;
-  return `<div class="analysis-card supplier-card ${url?'':'pending'}"><div class="supplier-card-head"><div><h4>供应链推荐/参考链接</h4><p class="small-note">类 Amazon 直达体验：点击后新开页；链接仅为只读公开资料推荐，不代表已询价或采购承诺。</p></div>${cta}</div><div class="supplier-grid">${facts.map(([k,v])=>`<div class="supplier-fact"><div class="k">${k}</div><div class="v">${escapeHtml(v)}</div></div>`).join('')}</div><p class="supplier-copy"><b>推荐动作：</b>${escapeHtml(rec.action||'待供应链匹配')}</p><p class="supplier-copy"><b>匹配理由：</b>${escapeHtml(rec.match_reason||rec.link_status||'待补')}</p><p class="supplier-copy"><b>参考价/MOQ/包装/认证风险：</b>${escapeHtml(rec.reference_terms||'待人工确认')}</p><p class="supplier-copy"><b>人工确认：</b>${escapeHtml(rec.human_confirm_items||'无需当前回填；如复活该产品，先走人工确认。')}</p><div class="supplier-boundary">${escapeHtml(rec.boundary_note||'只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。')}</div></div>`;
+  const facts=[['平台',hasHiddenNon1688?'非1688临时参考 / 待1688复核':(rec.platform||'待补')],['供应商名',hasHiddenNon1688?'已隐藏，待1688复核':(rec.supplier_name||'待补')],['匹配度',rec.match_score?`${rec.match_score}/100`:'待补'],['标签',url?'1688商品/offer页 / 只读参考':'不作为供应链推荐链接']];
+  const cta=url?`<a class="supplier-open" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">1688供应链链接 ↗</a>`:`<span class="supplier-pending">${escapeHtml(supplierStatusText(rec))}</span>`;
+  const non1688Note=hasHiddenNon1688?`<details class="non1688-reference"><summary>非1688临时参考 / 待1688复核</summary><p>历史链接域名不是1688，展示层已隐藏 URL 和可点击按钮；等待供应链重新匹配1688商品/offer/可询价页后再放开直达。</p></details>`:'';
+  return `<div class="analysis-card supplier-card ${url?'':'pending'}"><div class="supplier-card-head"><div><h4>供应链推荐/参考链接</h4><p class="small-note">只在链接确认属于1688商品/offer/可询价页时显示直达；非1688历史链接默认降级为待复核。</p></div>${cta}</div><div class="supplier-grid">${facts.map(([k,v])=>`<div class="supplier-fact"><div class="k">${k}</div><div class="v">${escapeHtml(v)}</div></div>`).join('')}</div>${non1688Note}<p class="supplier-copy"><b>推荐动作：</b>${escapeHtml(hasHiddenNon1688?'待供应链重新匹配1688链接':(rec.action||'待供应链匹配'))}</p><p class="supplier-copy"><b>匹配理由：</b>${escapeHtml(hasHiddenNon1688?'历史非1688参考已隐藏，不能作为推荐链接使用。':(rec.match_reason||rec.link_status||'待补'))}</p><p class="supplier-copy"><b>参考价/MOQ/包装/认证风险：</b>${escapeHtml(hasHiddenNon1688?'待1688复核后再展示。':(rec.reference_terms||'待人工确认'))}</p><p class="supplier-copy"><b>人工确认：</b>${escapeHtml(rec.human_confirm_items||'无需当前回填；如复活该产品，先走人工确认。')}</p><div class="supplier-boundary">${escapeHtml(rec.boundary_note||'只读公开资料匹配；非正式报价/非采购承诺；不外联、不询价、不索样、不下单、不付款、不签合同；正式采购仍需刘希确认。')}</div></div>`;
 }
 function imageUrlFromRow(r){ return (r&& (r.imageUrl || r['imageUrl'] || r['图片URL'] || r['图片url'] || r['图片链接'] || r['主图URL'] || r['主图链接'] || r['H10图片URL'] || r['H10主图URL'])) || ''; }
 function productMediaHtml(item, className='product-media-thumb', label='产品图片'){
