@@ -63,7 +63,7 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn("变体", HTML)
         self.assertIn("isFoldedCandidate", HTML)
         self.assertIn("dedupRelatedBlock", HTML)
-        self.assertIn("相关子方向 / 历史推荐", HTML)
+        self.assertIn("相关子方向 / 历史方向", HTML)
 
     def test_admin_sync_details_are_folded_out_of_first_screen(self):
         self.assertIn('id="syncPanel"', HTML)

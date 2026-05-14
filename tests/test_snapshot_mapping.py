@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = (ROOT / "index.html").read_text(encoding="utf-8")
+UI_HTML = re.sub(r"const DATA = .*?;\nlet selected", "const DATA = <DATA>;\nlet selected", HTML, flags=re.S)
 DATA = json.loads(re.search(r"const DATA = (.*?);\nlet selected", HTML, re.S).group(1))
 
 
@@ -101,7 +102,32 @@ def test_supplier_recommendation_ui_hooks_exist():
     assert "function supplierRecommendationBlock" in HTML
     assert "function supplierActionHtml" in HTML
     assert "target=\"_blank\" rel=\"noopener noreferrer\"" in HTML
-    assert "待供应链匹配" in HTML
+    assert "待1688人工复核" in HTML
     assert "1688供应链链接" in HTML
     assert "${supplierActionHtml(x,'list')}" in HTML
     assert "${supplierActionHtml(r,'top4')}" in HTML
+
+
+def test_first_screen_release_wording_is_not_final_recommendation_language():
+    assert "未放行 / 待复核 / 只读参考" in UI_HTML
+    assert "红线试算均值 / ≥18%待复核数" in UI_HTML
+    assert "用户痛点资料回流" in UI_HTML
+    assert "仍需VOC人工复核，不代表痛点闭环" in UI_HTML
+    assert "1688安全校验链接" in UI_HTML
+    assert "供应链只看1688安全校验" in UI_HTML
+
+    forbidden = [
+        "推荐推进数",
+        "平均净利率 / 利润过线",
+        "产品定义 / 利润是否过线",
+        "利润是否过线",
+        "试算是否过线",
+        "非最终过线",
+        "供应链推荐完成",
+        "采购推荐完成",
+        "推荐动作",
+        "新增推荐",
+        "历史推荐",
+    ]
+    for text in forbidden:
+        assert text not in UI_HTML
