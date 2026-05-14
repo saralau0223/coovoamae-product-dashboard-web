@@ -386,6 +386,28 @@ def clean_public_dict(d: Dict[str, str], keep: List[str]) -> Dict[str, str]:
     return out
 
 
+def merge_prefer_richer(existing: Any, incoming: Dict[str, str]) -> Dict[str, str]:
+    """Merge public display dictionaries without regressing richer backfilled text.
+
+    Some Feishu rows contain the latest short operational value while the checked-in
+    dashboard already carries a richer, public-safe specialist backfill (for example
+    route-specific price/profit notes). Keep the richer existing value for the same
+    key when the new value is only a much shorter summary; still add new fields and
+    replace genuinely comparable values.
+    """
+    out: Dict[str, str] = dict(existing) if isinstance(existing, dict) else {}
+    for k, v in incoming.items():
+        if not v:
+            continue
+        old = str(out.get(k, ""))
+        new = str(v)
+        old_has_detail = any(x in old for x in ["；", ";", "导轨", "手摇", "break-even", "成本红线", "路线", "主模型"])
+        if old and old_has_detail and len(old) >= max(24, int(len(new) * 1.35)):
+            continue
+        out[k] = v
+    return out
+
+
 def is_private_header(k: str) -> bool:
     lk = str(k).lower()
     return any(h.lower() in lk for h in PRIVATE_HEADERS)
@@ -572,9 +594,10 @@ def main() -> None:
             continue
         it = find_item(items, d.get("产品", ""))
         if it:
-            it["price_reference"] = clean_public_dict(d, [
+            incoming_price_reference = clean_public_dict(d, [
                 "目标售价", "目标到岸成本红线", "供应链参考价区间", "利润预估用价", "预估FBA/体积费", "佣金", "广告预留", "退货损耗", "预估净利", "预估净利率", "盈亏平衡ACoS", "结论", "需财神爷复算字段", "更新时间"
             ])
+            it["price_reference"] = merge_prefer_richer(it.get("price_reference"), incoming_price_reference)
 
     # Formal quote feedback (skip private contact/link fields).
     for d in rows_by_header(fetched.get("主表/供应商询价回传表", []), 1):
@@ -758,6 +781,42 @@ def main() -> None:
         it["decisionSuggestion"] = ("补数据后进入产品定义" if "是" in r.get("是否进入产品定义", "") else "暂缓观察")
     items.sort(key=lambda x: (int(x.get("rank") or 999), str(x.get("product") or "")))
 
+    matched_items = {
+        "voc": sum(1 for x in items if x.get("voc_evidence") or x.get("voc_four_piece")),
+        "h10": sum(1 for x in items if x.get("h10_evidence") or x.get("h10_remaining")),
+        "official": sum(1 for x in items if x.get("official_evidence") or x.get("official_followup")),
+        "supply": sum(1 for x in items if x.get("supply_deep") or x.get("human_supply") or x.get("supply_readonly_summary")),
+        "profit": sum(1 for x in items if x.get("price_reference") or x.get("profit_reference") or x.get("profit")),
+        "definition": sum(1 for x in items if x.get("brief") or x.get("product_definition") or x.get("definition_conclusion")),
+        "supplier_recommendation": sum(1 for x in items if x.get("supplier_recommendation")),
+    }
+
+    previous_supplement_summary = old_data.get("supplement_three_summary") if isinstance(old_data.get("supplement_three_summary"), dict) else {}
+    supplement_three_summary = {**previous_supplement_summary, **supplement_three_summary}
+    supplement_three_summary["voc_four_piece_total"] = matched_items["voc"]
+    supplement_three_summary["profit_redline_total"] = matched_items["profit"]
+    supplement_three_summary["product_definition_total"] = matched_items["definition"]
+
+    previous_sync_scope = old_data.get("sync_scope") if isinstance(old_data.get("sync_scope"), dict) else {}
+    sync_scope = {k: previous_sync_scope[k] for k in ["task_id", "updated_at", "sources", "products_processed", "boundary"] if k in previous_sync_scope}
+    sync_scope.update({
+        "checked_main_tabs": MAIN_TABS,
+        "checked_human_tabs": SUP_TABS,
+        "missing_tabs": missing,
+        "matched_items": matched_items,
+    })
+    sync_scope.setdefault("products_processed", len(items))
+    sync_scope.setdefault("boundary", "只做网页展示/同步；未新增外部权限，未修改 Amazon 后台/广告/Listing，未输出密钥。")
+
+    previous_supplier_summary = old_data.get("supplier_recommendation_summary") if isinstance(old_data.get("supplier_recommendation_summary"), dict) else {}
+    supplier_recommendations = [x.get("supplier_recommendation") for x in items if isinstance(x.get("supplier_recommendation"), dict)]
+    supplier_recommendation_summary = dict(previous_supplier_summary)
+    supplier_recommendation_summary.update({
+        "items_matched": len(supplier_recommendations),
+        "clickable_main_links": sum(1 for r in supplier_recommendations if str(r.get("url", "")).startswith("https://")),
+        "total_products": len(items),
+    })
+
     new_data = {
         "updated_at": source_stamp or now,
         "web_synced_at": now,
@@ -771,14 +830,14 @@ def main() -> None:
         "official_followup_rows": official_followup_rows[:80],
         "human_verification_rows": human_verification_rows[:80],
         "supplement_three_summary": supplement_three_summary,
+        "supplier_recommendation_summary": supplier_recommendation_summary,
         "discovery_result": discovery_result,
-        "sync_scope": {
-            "checked_main_tabs": MAIN_TABS,
-            "checked_human_tabs": SUP_TABS,
-            "missing_tabs": missing,
-        },
+        "sync_scope": sync_scope,
         "items": sorted(items, key=lambda x: int(x.get("rank") or 999)),
     }
+    for preserve_key in ["voc_four_piece_rows", "supply_prescreen_rows", "profit_redline_rows", "product_definition_rows"]:
+        if preserve_key in old_data and preserve_key not in new_data:
+            new_data[preserve_key] = old_data[preserve_key]
 
     old_json = DATA_JSON.read_text(encoding="utf-8") if DATA_JSON.exists() else ""
     new_json = json.dumps(new_data, ensure_ascii=False, indent=2, sort_keys=True)
