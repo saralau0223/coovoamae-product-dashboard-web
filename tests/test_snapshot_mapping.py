@@ -45,7 +45,7 @@ def test_acceptance_seed_values_exist_in_data_source():
 
 def test_voc_four_piece_visible_for_previous_gap_products():
     assert "function vocFourPieceBlock" in HTML
-    assert "VOC 四件套｜买家原话 / 痛点 / 频次 / 动作" in HTML
+    assert "用户痛点资料｜买家原话 / 痛点 / 频次 / 动作" in HTML
     assert DATA["supplement_three_summary"]["voc_four_piece_total"] == 16
     for name in ["酸面包切片器", "口袋孔夹具", "刹车油排气", "番茄支架"]:
         item = find_product(name)

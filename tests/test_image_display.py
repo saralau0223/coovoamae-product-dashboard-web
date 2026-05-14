@@ -23,11 +23,13 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn("renderHeroImage", HTML)
         self.assertIn("product-image-large", HTML)
 
-    def test_discovery_top10_and_top4_render_images_or_placeholders(self):
+    def test_discovery_top10_and_priority_cards_render_images_or_placeholders(self):
         self.assertIn("discoveryProductImage", HTML)
         self.assertIn("top10Rows=top10.map", HTML)
+        self.assertIn("top10Cards=shortTop10.map", HTML)
+        self.assertIn("priorityRows", HTML)
         self.assertRegex(HTML, r"top10Rows=top10\.map\(r=>.*discoveryProductImage\(r")
-        self.assertRegex(HTML, r"top4Html=top4\.map\(r=>.*discoveryProductImage\(r")
+        self.assertRegex(HTML, r"top10Cards=shortTop10\.map\(r=>.*discoveryProductImage\(r")
 
     def test_mobile_styles_keep_images_from_squeezing_copy(self):
         self.assertIn("@media(max-width:640px)", HTML)
@@ -47,12 +49,13 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn(".action,.tab,.chip,.mini-btn{min-height:44px}", HTML)
         self.assertIn(".tabs{overflow:visible;flex-wrap:wrap", HTML)
         self.assertIn(".tab{display:flex;align-items:center;justify-content:center;flex:1 1 calc(50% - 4px)", HTML)
-        self.assertIn("手机端紧凑优化", HTML)
+        self.assertIn("简洁使用页 / 今日行动面板", HTML)
         self.assertIn(".mini-table,.mini-table tbody,.mini-table tr,.mini-table td,.quote-table", HTML)
         self.assertIn(".mini-table thead,.quote-table thead{display:none}", HTML)
         self.assertIn(".quote-table td{border-bottom:0;padding:6px 0", HTML)
         self.assertIn("top10-card-list", HTML)
-        self.assertIn("top10Cards=top10.map", HTML)
+        self.assertIn("top10Cards=shortTop10.map", HTML)
+        self.assertIn("grid-template-columns:repeat(auto-fit,minmax(260px,1fr))", HTML)
 
     def test_dedup_overlay_marks_and_folds_duplicate_candidates(self):
         self.assertIn("const DEDUP_RULES", HTML)
@@ -62,27 +65,29 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn("dedupRelatedBlock", HTML)
         self.assertIn("相关子方向 / 历史推荐", HTML)
 
-    def test_product_development_sync_status_is_visible_on_first_screen(self):
+    def test_admin_sync_details_are_folded_out_of_first_screen(self):
         self.assertIn('id="syncPanel"', HTML)
         self.assertIn("function renderSyncStatus", HTML)
-        self.assertIn("产品开发数据同步状态", HTML)
-        self.assertIn("DATA.web_synced_at", HTML)
-        self.assertIn("H10 ${st.h10}｜官方${st.official}｜人工验证${st.human}", HTML)
-        self.assertIn("旧“补证任务队列状态行”当前为", HTML)
-        self.assertIn("产品开发数据可见性增强", HTML)
+        self.assertIn("数据详情 / 管理员信息", HTML)
+        self.assertIn("页面数据更新时间", HTML)
+        self.assertIn("待补资料来源行数", HTML)
+        self.assertIn("默认折叠", HTML)
+        self.assertNotIn("产品开发数据同步状态", HTML)
 
-    def test_detail_page_surfaces_synced_development_sections(self):
+    def test_detail_page_keeps_synced_development_sections_in_raw_data_fold(self):
         self.assertIn("function syncedDevelopmentBlock", HTML)
-        self.assertIn("同步字段一眼看｜产品开发数据已进入 DATA", HTML)
+        self.assertIn("同步字段一眼看｜产品开发数据已进入原始数据", HTML)
         self.assertIn("产品定义 Brief / 询价规格", HTML)
         self.assertIn("供应链只读巡查", HTML)
         self.assertIn("利润 / 价格参考", HTML)
         self.assertIn("人工验证清单", HTML)
-        self.assertIn("base + syncedDevelopmentBlock(x) + dedupRelatedBlock(x)", HTML)
+        self.assertIn("展开原始数据 / 同步字段", HTML)
 
-    def test_discovery_top10_has_dedup_status_column(self):
-        self.assertIn("Top10 候选池（新增 / 已存在 / 变体状态）", HTML)
-        self.assertIn("去重状态", HTML)
+    def test_discovery_top10_has_short_card_fields_and_folded_raw_table(self):
+        self.assertIn("产品短列表", HTML)
+        self.assertIn("关键原因", HTML)
+        self.assertIn("主要缺口", HTML)
+        self.assertIn("查看完整原始候选表", HTML)
         self.assertIn("dedupPill(rule.status,rule.type)", HTML)
 
     def test_sync_accepts_known_public_image_headers(self):
