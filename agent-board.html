@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COOVOAMAE Agent 工作看板</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --panel-soft: #f9fafb;
+      --text: #1f2933;
+      --muted: #64748b;
+      --line: #dde3ea;
+      --teal: #0f766e;
+      --teal-soft: #dff7f3;
+      --amber: #b45309;
+      --amber-soft: #fff1d6;
+      --red: #b42318;
+      --red-soft: #fee4e2;
+      --green: #18794e;
+      --green-soft: #dcfce7;
+      --violet: #6254d9;
+      --violet-soft: #ece9ff;
+      --shadow: 0 14px 36px rgba(15, 23, 42, .08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    .shell {
+      min-height: 100vh;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 72px;
+      padding: 14px clamp(16px, 4vw, 42px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, .92);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--teal), var(--violet));
+      color: #fff;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(20px, 2.2vw, 28px);
+      line-height: 1.15;
+    }
+
+    .subtle {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color .16s ease, transform .16s ease, background .16s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      border-color: #b8c2cc;
+      transform: translateY(-1px);
+    }
+
+    .btn.primary {
+      border-color: var(--teal);
+      background: var(--teal);
+      color: #fff;
+    }
+
+    main {
+      width: min(1480px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 24px 0 42px;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto;
+      gap: 16px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    .board-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      min-height: 38px;
+      padding: 0 12px;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .tab.active {
+      color: var(--teal);
+      border-color: var(--teal);
+      background: var(--teal-soft);
+      font-weight: 700;
+    }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .field {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 0 12px;
+      color: var(--text);
+      outline: none;
+    }
+
+    .field:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(15, 118, 110, .14);
+    }
+
+    .status-row {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      min-height: 92px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .metric .label {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .metric .value {
+      margin-top: 8px;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .metric .hint {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 54px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-title {
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .agent-list {
+      display: grid;
+      gap: 2px;
+      padding: 8px;
+      max-height: calc(100vh - 260px);
+      overflow: auto;
+    }
+
+    .agent-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .agent-row:hover,
+    .agent-row.active {
+      background: var(--panel-soft);
+    }
+
+    .agent-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .agent-count {
+      min-width: 26px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      background: var(--violet-soft);
+      color: var(--violet);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      align-items: start;
+    }
+
+    .column {
+      min-height: 520px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+
+    .column-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel-soft);
+    }
+
+    .column-title {
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .count {
+      min-width: 28px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      background: #edf2f7;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .tasks {
+      display: grid;
+      gap: 10px;
+      padding: 10px;
+      max-height: calc(100vh - 306px);
+      overflow: auto;
+    }
+
+    .task {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+      transition: border-color .16s ease, transform .16s ease;
+    }
+
+    .task:hover {
+      border-color: #b8c2cc;
+      transform: translateY(-1px);
+    }
+
+    .task-title {
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 750;
+    }
+
+    .task-meta {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 0 8px;
+      border-radius: 8px;
+      background: #edf2f7;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      max-width: 100%;
+    }
+
+    .pill.running {
+      background: var(--teal-soft);
+      color: var(--teal);
+    }
+
+    .pill.ready,
+    .pill.todo,
+    .pill.triage {
+      background: var(--amber-soft);
+      color: var(--amber);
+    }
+
+    .pill.blocked {
+      background: var(--red-soft);
+      color: var(--red);
+    }
+
+    .pill.done {
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .empty,
+    .error {
+      padding: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .error {
+      color: var(--red);
+    }
+
+    .drawer {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      display: none;
+      background: rgba(15, 23, 42, .28);
+    }
+
+    .drawer.open {
+      display: block;
+    }
+
+    .drawer-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: min(680px, 100vw);
+      height: 100%;
+      overflow: auto;
+      background: var(--panel);
+      box-shadow: -18px 0 46px rgba(15, 23, 42, .18);
+    }
+
+    .drawer-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, .94);
+      backdrop-filter: blur(14px);
+    }
+
+    .drawer-title {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    .icon-btn {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .detail {
+      display: grid;
+      gap: 16px;
+      padding: 18px 20px 30px;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .kv {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-soft);
+    }
+
+    .kv-label {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .kv-value {
+      margin-top: 6px;
+      font-size: 14px;
+      word-break: break-word;
+    }
+
+    .text-block {
+      white-space: pre-wrap;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: var(--panel-soft);
+      line-height: 1.65;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .section-title {
+      margin: 0 0 8px;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .statusline {
+      min-height: 22px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 1180px) {
+      .status-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .agent-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 920px) {
+      .topbar,
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .actions,
+      .filters {
+        justify-content: flex-start;
+      }
+
+      .board {
+        grid-template-columns: 1fr;
+      }
+
+      .column {
+        min-height: auto;
+      }
+
+      .tasks {
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 620px) {
+      main {
+        width: min(100vw - 20px, 1480px);
+      }
+
+      .status-row,
+      .detail-grid,
+      .agent-list {
+        grid-template-columns: 1fr;
+      }
+
+      .field {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="mark">A</div>
+        <div>
+          <h1>COOVOAMAE Agent 工作看板</h1>
+          <div class="subtle" id="subtitle">Hermes Kanban · 只读监控</div>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="./" aria-label="返回产品开发看板">产品看板</a>
+        <button class="btn primary" id="refreshBtn" type="button">刷新</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="看板控制区">
+        <div class="board-tabs" id="boardTabs"></div>
+        <div class="filters">
+          <input class="field" id="searchInput" type="search" placeholder="搜索任务 / Agent / ID">
+          <select class="field" id="statusFilter" aria-label="状态筛选">
+            <option value="">全部状态</option>
+            <option value="running">运行中</option>
+            <option value="ready,todo,triage">待执行</option>
+            <option value="blocked">卡住</option>
+            <option value="done">已完成</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="status-row" id="metrics" aria-label="任务指标"></section>
+
+      <section class="layout">
+        <aside class="panel">
+          <div class="panel-head">
+            <div class="panel-title">Agent 负载</div>
+            <div class="statusline" id="agentTotal"></div>
+          </div>
+          <div class="agent-list" id="agentList"></div>
+        </aside>
+
+        <section class="board" aria-label="任务列">
+          <div class="column" data-column="running">
+            <div class="column-head">
+              <div class="column-title">运行中</div>
+              <div class="count" id="count-running">0</div>
+            </div>
+            <div class="tasks" id="col-running"></div>
+          </div>
+          <div class="column" data-column="queue">
+            <div class="column-head">
+              <div class="column-title">待执行</div>
+              <div class="count" id="count-queue">0</div>
+            </div>
+            <div class="tasks" id="col-queue"></div>
+          </div>
+          <div class="column" data-column="blocked">
+            <div class="column-head">
+              <div class="column-title">卡住</div>
+              <div class="count" id="count-blocked">0</div>
+            </div>
+            <div class="tasks" id="col-blocked"></div>
+          </div>
+          <div class="column" data-column="done">
+            <div class="column-head">
+              <div class="column-title">已完成</div>
+              <div class="count" id="count-done">0</div>
+            </div>
+            <div class="tasks" id="col-done"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+      <div class="drawer-head">
+        <div>
+          <h2 class="drawer-title" id="drawerTitle">任务详情</h2>
+          <div class="subtle" id="drawerMeta"></div>
+        </div>
+        <button class="icon-btn" id="closeDrawer" type="button" aria-label="关闭">×</button>
+      </div>
+      <div class="detail" id="drawerBody"></div>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'https://bouquet-portal-encryption-treatment.trycloudflare.com';
+    const PRODUCT_DASHBOARD = 'https://saralau0223.github.io/coovoamae-product-dashboard-web/';
+    const state = {
+      currentBoard: '',
+      boards: [],
+      tasks: [],
+      assignees: {},
+      selectedAgent: '',
+      search: '',
+      statusFilter: '',
+      loading: false
+    };
+
+    const $ = (id) => document.getElementById(id);
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, (ch) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[ch]);
+    }
+
+    function statusName(status) {
+      return {
+        running: '运行中',
+        ready: '待执行',
+        todo: '待整理',
+        triage: '待分派',
+        blocked: '卡住',
+        done: '已完成',
+        archived: '已归档'
+      }[status] || status || '未知';
+    }
+
+    function timeText(value) {
+      if (!value) return '未记录';
+      const ms = Number(value) * 1000;
+      if (!Number.isFinite(ms)) return String(value);
+      return new Intl.DateTimeFormat('zh-CN', {
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit'
+      }).format(new Date(ms));
+    }
+
+    function ageText(value) {
+      if (!value) return '';
+      const seconds = Math.max(0, Math.floor(Date.now() / 1000 - Number(value)));
+      if (!Number.isFinite(seconds)) return '';
+      if (seconds < 3600) return `${Math.max(1, Math.floor(seconds / 60))} 分钟前`;
+      if (seconds < 86400) return `${Math.floor(seconds / 3600)} 小时前`;
+      return `${Math.floor(seconds / 86400)} 天前`;
+    }
+
+    function endpoint(path, params = {}) {
+      const url = new URL(path, API_BASE);
+      Object.entries(params).forEach(([key, value]) => {
+        if (value !== undefined && value !== null && value !== '') url.searchParams.set(key, value);
+      });
+      return url.toString();
+    }
+
+    async function fetchJson(path, params) {
+      const res = await fetch(endpoint(path, params), { cache: 'no-store' });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || data.ok === false) {
+        throw new Error(data.error || `HTTP ${res.status}`);
+      }
+      return data;
+    }
+
+    function groupedTasks() {
+      const q = state.search.trim().toLowerCase();
+      const statusSet = state.statusFilter ? new Set(state.statusFilter.split(',')) : null;
+      const filtered = state.tasks.filter((task) => {
+        const haystack = [task.id, task.title, task.assignee, task.created_by, task.body_preview].join(' ').toLowerCase();
+        if (q && !haystack.includes(q)) return false;
+        if (state.selectedAgent && task.assignee !== state.selectedAgent) return false;
+        if (statusSet && !statusSet.has(task.status)) return false;
+        return true;
+      });
+      return {
+        running: filtered.filter((task) => task.status === 'running'),
+        queue: filtered.filter((task) => ['ready', 'todo', 'triage'].includes(task.status)),
+        blocked: filtered.filter((task) => task.status === 'blocked'),
+        done: filtered.filter((task) => task.status === 'done').slice(0, 40)
+      };
+    }
+
+    function metricCard(label, value, hint, tone) {
+      return `<div class="metric" data-tone="${tone}">
+        <div class="label">${escapeHtml(label)}</div>
+        <div class="value">${escapeHtml(value)}</div>
+        <div class="hint">${escapeHtml(hint)}</div>
+      </div>`;
+    }
+
+    function renderMetrics(counts) {
+      $('metrics').innerHTML = [
+        metricCard('总任务', counts.total || 0, state.currentBoard || 'default', 'total'),
+        metricCard('运行中', counts.running || 0, '正在执行的 Agent', 'running'),
+        metricCard('待执行', (counts.ready || 0) + (counts.todo || 0) + (counts.triage || 0), '排队或待分派', 'queue'),
+        metricCard('卡住', counts.blocked || 0, '需要人工处理', 'blocked'),
+        metricCard('已完成', counts.done || 0, '历史完成任务', 'done'),
+        metricCard('已归档', counts.archived || 0, '隐藏收纳任务', 'archived')
+      ].join('');
+    }
+
+    function renderBoards() {
+      if (!state.boards.length) {
+        $('boardTabs').innerHTML = '<div class="empty">暂无看板</div>';
+        return;
+      }
+      $('boardTabs').innerHTML = state.boards.map((board) => {
+        const active = board.slug === state.currentBoard ? ' active' : '';
+        const total = Object.values(board.counts || {}).reduce((sum, n) => sum + Number(n || 0), 0);
+        return `<button class="tab${active}" type="button" data-board="${escapeHtml(board.slug)}">${escapeHtml(board.name || board.slug)} · ${total}</button>`;
+      }).join('');
+      document.querySelectorAll('[data-board]').forEach((btn) => {
+        btn.addEventListener('click', () => loadSummary(btn.dataset.board));
+      });
+    }
+
+    function renderAgents() {
+      const entries = Object.entries(state.assignees)
+        .sort((a, b) => (b[1].running || 0) - (a[1].running || 0) || (b[1].blocked || 0) - (a[1].blocked || 0) || b[1].total - a[1].total);
+      $('agentTotal').textContent = `${entries.length} 个`;
+      if (!entries.length) {
+        $('agentList').innerHTML = '<div class="empty">暂无 Agent</div>';
+        return;
+      }
+      $('agentList').innerHTML = [
+        `<div class="agent-row${state.selectedAgent ? '' : ' active'}" data-agent="">
+          <div class="agent-name">全部 Agent</div>
+          <div class="agent-count">${state.tasks.length}</div>
+        </div>`,
+        ...entries.map(([name, counts]) => `<div class="agent-row${state.selectedAgent === name ? ' active' : ''}" data-agent="${escapeHtml(name)}">
+          <div class="agent-name" title="${escapeHtml(name)}">${escapeHtml(name)}</div>
+          <div class="agent-count">${counts.total || 0}</div>
+        </div>`)
+      ].join('');
+      document.querySelectorAll('[data-agent]').forEach((row) => {
+        row.addEventListener('click', () => {
+          state.selectedAgent = row.dataset.agent || '';
+          render();
+        });
+      });
+    }
+
+    function taskCard(task) {
+      const priority = task.priority === null || task.priority === undefined ? '' : `<span class="pill">P ${escapeHtml(task.priority)}</span>`;
+      const age = ageText(task.created_at);
+      return `<article class="task" data-task-id="${escapeHtml(task.id)}">
+        <div class="task-title">${escapeHtml(task.title || task.id)}</div>
+        <div class="task-meta">
+          <span class="pill ${escapeHtml(task.status)}">${escapeHtml(statusName(task.status))}</span>
+          ${priority}
+          <span>${escapeHtml(task.assignee || '未分配')}</span>
+          <span>${escapeHtml(age || timeText(task.created_at))}</span>
+        </div>
+      </article>`;
+    }
+
+    function renderColumn(id, tasks) {
+      $(`count-${id}`).textContent = tasks.length;
+      const root = $(`col-${id}`);
+      root.innerHTML = tasks.length ? tasks.map(taskCard).join('') : '<div class="empty">暂无任务</div>';
+      root.querySelectorAll('[data-task-id]').forEach((node) => {
+        node.addEventListener('click', () => openTask(node.dataset.taskId));
+      });
+    }
+
+    function renderTasks() {
+      const groups = groupedTasks();
+      renderColumn('running', groups.running);
+      renderColumn('queue', groups.queue);
+      renderColumn('blocked', groups.blocked);
+      renderColumn('done', groups.done);
+    }
+
+    function render() {
+      renderBoards();
+      renderAgents();
+      renderTasks();
+    }
+
+    async function loadSummary(board = state.currentBoard) {
+      state.loading = true;
+      $('subtitle').textContent = 'Hermes Kanban · 正在读取';
+      try {
+        const data = await fetchJson('/kanban/summary', { board });
+        state.currentBoard = data.current_board || board || 'default';
+        state.boards = data.boards || [];
+        state.tasks = data.tasks || [];
+        state.assignees = data.assignees || {};
+        renderMetrics(data.counts || {});
+        $('subtitle').textContent = `Hermes Kanban · ${timeText(data.generated_at)}`;
+        render();
+      } catch (err) {
+        $('subtitle').textContent = 'Hermes Kanban · 读取失败';
+        $('metrics').innerHTML = `<div class="error">看板接口读取失败：${escapeHtml(err.message)}</div>`;
+      } finally {
+        state.loading = false;
+      }
+    }
+
+    async function openTask(id) {
+      if (!id) return;
+      $('drawer').classList.add('open');
+      $('drawer').setAttribute('aria-hidden', 'false');
+      $('drawerTitle').textContent = '任务详情';
+      $('drawerMeta').textContent = id;
+      $('drawerBody').innerHTML = '<div class="empty">正在读取任务详情</div>';
+      try {
+        const data = await fetchJson('/kanban/task', { board: state.currentBoard, id });
+        const task = data.task || {};
+        $('drawerTitle').textContent = task.title || id;
+        $('drawerMeta').textContent = `${task.id || id} · ${statusName(task.status)} · ${task.assignee || '未分配'}`;
+        $('drawerBody').innerHTML = detailHtml(task, data);
+      } catch (err) {
+        $('drawerBody').innerHTML = `<div class="error">任务详情读取失败：${escapeHtml(err.message)}</div>`;
+      }
+    }
+
+    function detailHtml(task, data) {
+      const comments = Array.isArray(data.comments) ? data.comments : [];
+      const runs = Array.isArray(data.runs) ? data.runs : [];
+      const runText = runs.length
+        ? runs.map((run) => `${timeText(run.started_at)} · ${run.profile || ''} · ${run.outcome || ''}\n${run.summary || ''}`).join('\n\n')
+        : '暂无运行记录';
+      const commentText = comments.length
+        ? comments.map((comment) => `${comment.author || 'unknown'}：${comment.body || ''}`).join('\n\n')
+        : '暂无评论';
+      return `
+        <div class="detail-grid">
+          <div class="kv"><div class="kv-label">Agent</div><div class="kv-value">${escapeHtml(task.assignee || '未分配')}</div></div>
+          <div class="kv"><div class="kv-label">状态</div><div class="kv-value"><span class="pill ${escapeHtml(task.status)}">${escapeHtml(statusName(task.status))}</span></div></div>
+          <div class="kv"><div class="kv-label">创建时间</div><div class="kv-value">${escapeHtml(timeText(task.created_at))}</div></div>
+          <div class="kv"><div class="kv-label">完成时间</div><div class="kv-value">${escapeHtml(timeText(task.completed_at))}</div></div>
+        </div>
+        <section>
+          <h3 class="section-title">任务正文</h3>
+          <div class="text-block">${escapeHtml(task.body || '暂无正文')}</div>
+        </section>
+        ${data.latest_summary ? `<section><h3 class="section-title">最新摘要</h3><div class="text-block">${escapeHtml(data.latest_summary)}</div></section>` : ''}
+        ${task.result ? `<section><h3 class="section-title">结果</h3><div class="text-block">${escapeHtml(task.result)}</div></section>` : ''}
+        <section>
+          <h3 class="section-title">运行记录</h3>
+          <div class="text-block">${escapeHtml(runText)}</div>
+        </section>
+        <section>
+          <h3 class="section-title">最近评论</h3>
+          <div class="text-block">${escapeHtml(commentText)}</div>
+        </section>`;
+    }
+
+    $('refreshBtn').addEventListener('click', () => loadSummary());
+    $('searchInput').addEventListener('input', (event) => {
+      state.search = event.target.value;
+      renderTasks();
+    });
+    $('statusFilter').addEventListener('change', (event) => {
+      state.statusFilter = event.target.value;
+      renderTasks();
+    });
+    $('closeDrawer').addEventListener('click', () => {
+      $('drawer').classList.remove('open');
+      $('drawer').setAttribute('aria-hidden', 'true');
+    });
+    $('drawer').addEventListener('click', (event) => {
+      if (event.target.id === 'drawer') {
+        $('drawer').classList.remove('open');
+        $('drawer').setAttribute('aria-hidden', 'true');
+      }
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        $('drawer').classList.remove('open');
+        $('drawer').setAttribute('aria-hidden', 'true');
+      }
+    });
+
+    document.querySelector('a[href="./"]').setAttribute('href', PRODUCT_DASHBOARD);
+    loadSummary();
+  </script>
+</body>
+</html>
