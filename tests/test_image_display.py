@@ -62,6 +62,24 @@ class ProductImageDisplayTests(unittest.TestCase):
         self.assertIn("dedupRelatedBlock", HTML)
         self.assertIn("相关子方向 / 历史推荐", HTML)
 
+    def test_product_development_sync_status_is_visible_on_first_screen(self):
+        self.assertIn('id="syncPanel"', HTML)
+        self.assertIn("function renderSyncStatus", HTML)
+        self.assertIn("产品开发数据同步状态", HTML)
+        self.assertIn("DATA.web_synced_at", HTML)
+        self.assertIn("H10 ${st.h10}｜官方${st.official}｜人工验证${st.human}", HTML)
+        self.assertIn("旧“补证任务队列状态行”当前为", HTML)
+        self.assertIn("产品开发数据可见性增强", HTML)
+
+    def test_detail_page_surfaces_synced_development_sections(self):
+        self.assertIn("function syncedDevelopmentBlock", HTML)
+        self.assertIn("同步字段一眼看｜产品开发数据已进入 DATA", HTML)
+        self.assertIn("产品定义 Brief / 询价规格", HTML)
+        self.assertIn("供应链只读巡查", HTML)
+        self.assertIn("利润 / 价格参考", HTML)
+        self.assertIn("人工验证清单", HTML)
+        self.assertIn("base + syncedDevelopmentBlock(x) + dedupRelatedBlock(x)", HTML)
+
     def test_discovery_top10_has_dedup_status_column(self):
         self.assertIn("Top10 候选池（新增 / 已存在 / 变体状态）", HTML)
         self.assertIn("去重状态", HTML)
