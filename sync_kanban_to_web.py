@@ -18,6 +18,10 @@ HERMES = "/root/.local/bin/hermes"
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "kanban_data.json"
 TZ = timezone(timedelta(hours=8))
+WEBROOT_DATA_TARGETS = [
+    Path("/var/www/product-dashboard/kanban_data.json"),
+    Path("/var/www/hermes-agent-board/kanban_data.json"),
+]
 FALLBACK_BOARDS = [
     {"slug": "default", "name": "Default", "counts": {}},
     {"slug": "coovoamae-design", "name": "COOVOAMAE Design Requests", "counts": {}},
@@ -188,6 +192,14 @@ def commit_and_push() -> None:
         raise RuntimeError("git push failed")
 
 
+def publish_snapshot_to_webroots() -> None:
+    data = OUT.read_bytes()
+    for target in WEBROOT_DATA_TARGETS:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+        target.chmod(0o644)
+
+
 def main() -> int:
     try:
         snapshot = build_snapshot()
@@ -201,6 +213,7 @@ def main() -> int:
             "errors=", len(snapshot["errors"]),
         )
         commit_and_push()
+        publish_snapshot_to_webroots()
         return 0
     except Exception as exc:  # noqa: BLE001 - cron should log concise failure
         print(f"kanban sync failed: {exc}", file=sys.stderr)
