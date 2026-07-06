@@ -74,6 +74,24 @@
     },
     {
       "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T054905Z-b0h6q684cj-p6-02-39a464ea - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T054905Z-b0h6q…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T054905Z-b0h6q684cj-p6-02-39a464ea - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T054905Z-b0h6q…",
+      "completed_at": null,
+      "created_at": 1783316946,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_4f006e0f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783316946,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
+      "updated_at": 1783316946,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
+    },
+    {
+      "assignee": "coovoamae-crm",
       "board": "default",
       "board_name": "Default",
       "body": "蝴蝶，请用 LinkFoxAI 生成雪茄盒 Listing #2 全套上架图。 项目ID: coovoa-20260625-cigar-case-7ct 参照图: /root/.hermes/shared/product-assets/coovoa-20260625-cigar-case-7ct/reference/ Brief: /root/.hermes/shared/design-handoff/inbox/2026-06-25-cigar-case-7ct-listing-images-brief.md 输出目录: /root/.hermes/shared/product-asset…",
@@ -175,8 +193,9 @@
     {
       "counts": {
         "archived": 53,
-        "done": 81,
+        "done": 82,
         "ready": 4,
+        "running": 1,
         "todo": 2
       },
       "name": "COOVOAMAE Design Requests",
@@ -221,12 +240,12 @@
       "total": 27
     },
     "coovoamae-crm": {
-      "active": 1,
+      "active": 2,
       "blocked": 0,
-      "done": 82,
+      "done": 83,
       "pending": 1,
-      "running": 0,
-      "total": 83
+      "running": 1,
+      "total": 85
     },
     "coovoamae-crow-qc": {
       "active": 2,
@@ -325,10 +344,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783314482,
-  "generated_at_iso": "2026-07-06T13:08:02+08:00",
+  "generated_at": 1783317602,
+  "generated_at_iso": "2026-07-06T14:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
+      "completed_at": 1783315235,
+      "created_at": 1783314588,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_f2ba03ae",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783314588,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图六轮优化：直接以当前Listing图片提取真实外观",
+      "updated_at": 1783315235,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ba03ae"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -850,37 +887,19 @@
       "title": "更新 B0GXVNPM68 Listing 标题：主词 Heated Eye Mask 前置",
       "updated_at": 1782091360,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_711b0f66"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-user-confirmed-20260621-114350 - project_id: photo-storage-4x6-6box-20260621-user-confirmed - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifes…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-user-confirmed-20260621-114350 - project_id: photo-storage-4x6-6box-20260621-user-confirmed - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifes…",
-      "completed_at": 1782013596,
-      "created_at": 1782013430,
-      "created_by": "coovoamae-crm",
-      "id": "t_adcac2d9",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782013431,
-      "status": "done",
-      "title": "[Product Asset Handoff] photo-storage-4x6-6box-20260621-user-confirmed -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782013596,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_adcac2d9"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 8,
+    "active": 9,
     "archived": 90,
     "blocked": 0,
-    "done": 662,
+    "done": 663,
     "pending": 1,
     "ready": 4,
-    "running": 0,
+    "running": 1,
     "todo": 3,
-    "total": 760,
+    "total": 762,
     "triage": 0
   },
   "tasks": [
@@ -11881,6 +11900,42 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图五轮优化：合并R4-01数量尺寸构图与R4-02真实外观",
       "updated_at": 1783313900,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_2e36036e"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
+      "completed_at": 1783315235,
+      "created_at": 1783314588,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_f2ba03ae",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783314588,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图六轮优化：直接以当前Listing图片提取真实外观",
+      "updated_at": 1783315235,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ba03ae"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T054905Z-b0h6q684cj-p6-02-39a464ea - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T054905Z-b0h6q…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T054905Z-b0h6q684cj-p6-02-39a464ea - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T054905Z-b0h6q…",
+      "completed_at": null,
+      "created_at": 1783316946,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_4f006e0f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783316946,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
+      "updated_at": 1783316946,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
     },
     {
       "assignee": "coovoamae-crm",
