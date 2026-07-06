@@ -1,77 +1,6 @@
 {
-  "active": [
-    {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "# 乌鸦QC任务｜相片收纳盒V3快修图包最终冷面质检 父任务：`t_569df839` ## 目标 蝴蝶完成 V3 快修后，请对 V3 输出做最终上传前冷面质检。V3 是基于 V2 的加速抛光：重点修主图偏淡、移动端小字、A+术语一致。 ## 必检项 1. 主图：纯白底、无文字/人物/场景/赠品误导；透明浅蓝产品搜索缩略图不发白不虚，边缘/内盒/白色U形提手清楚。 2. Listing副图：360px下大标题和核心标签可读；小字不能承载核心信息。 3. 产品身份：浅蓝/乳白半透明外盒、16内盒、两列排布、白色U/矩形提手/锁扣、单盒可打开；不得改变产品本体。 4. A+：6张单图均为1464…",
-      "body_preview": "# 乌鸦QC任务｜相片收纳盒V3快修图包最终冷面质检 父任务：`t_569df839` ## 目标 蝴蝶完成 V3 快修后，请对 V3 输出做最终上传前冷面质检。V3 是基于 V2 的加速抛光：重点修主图偏淡、移动端小字、A+术语一致。 ## 必检项 1. 主图：纯白底、无文字/人物/场景/赠品误导；透明浅蓝产品搜索缩略图不发白不虚，边缘/内盒/白色U形提手清楚。 2. Listing副图：360px下大标题和核心标签可读；小字不能承载核心信息。 3. 产品身份：浅蓝/乳白半透明外盒、16内盒、两列排布、白色U/矩形提手/锁扣、单盒可打开；不得改变产品本体。 4. A+：6张单图均为1464…",
-      "completed_at": null,
-      "created_at": 1780372317,
-      "created_by": "lion-amazon-ops",
-      "id": "t_f0e85935",
-      "priority": 195,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "P0质检｜相片收纳盒V3快修图包最终QA",
-      "updated_at": 1780372317,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "请复核蝴蝶交付的相片/相框收纳盒 Sara 3-ref 闭环候选包。 交付目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_closure_20260602 ZIP：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_clos…",
-      "body_preview": "请复核蝴蝶交付的相片/相框收纳盒 Sara 3-ref 闭环候选包。 交付目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_closure_20260602 ZIP：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_clos…",
-      "completed_at": null,
-      "created_at": 1780368425,
-      "created_by": "coovoamae-crm",
-      "id": "t_9539840e",
-      "priority": 185,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA复核｜相片收纳盒Sara三图闭环候选包上线前检查",
-      "updated_at": 1780368425,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "# QC Brief｜黑色眼罩外包PDF返修包上传前冷面质检 created-by: lion-amazon-ops assignee: coovoamae-crow-qc parent task: t_7f7068d2 priority: P0 ## 背景 Sara 提供外包黑色眼罩 10 页 PDF，Lion QA 判断方向有价值但不能直接上传。蝴蝶将按 `t_7f7068d2` 返修成 Listing 7 图上传前候选。你负责最终冷面质检。 ## 质检对象 待蝴蝶输出： `outputs/black_eyemask_external_pdf_rework_upload_candidat…",
-      "body_preview": "# QC Brief｜黑色眼罩外包PDF返修包上传前冷面质检 created-by: lion-amazon-ops assignee: coovoamae-crow-qc parent task: t_7f7068d2 priority: P0 ## 背景 Sara 提供外包黑色眼罩 10 页 PDF，Lion QA 判断方向有价值但不能直接上传。蝴蝶将按 `t_7f7068d2` 返修成 Listing 7 图上传前候选。你负责最终冷面质检。 ## 质检对象 待蝴蝶输出： `outputs/black_eyemask_external_pdf_rework_upload_candidat…",
-      "completed_at": null,
-      "created_at": 1780381087,
-      "created_by": "lion-amazon-ops",
-      "id": "t_40212585",
-      "priority": 145,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "QC｜黑色眼罩外包PDF返修包上传前质检",
-      "updated_at": 1780381087,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "蝴蝶已完成 t_5044c094 返修包，请按 Lion/Sara 上线前标准复核。 输出目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_full_pack_v2_20260602 关键文件： - Listing 合图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_…",
-      "body_preview": "蝴蝶已完成 t_5044c094 返修包，请按 Lion/Sara 上线前标准复核。 输出目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_full_pack_v2_20260602 关键文件： - Listing 合图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_…",
-      "completed_at": null,
-      "created_at": 1780404937,
-      "created_by": "coovoamae-crm",
-      "id": "t_c3991828",
-      "priority": 130,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "QA｜相片收纳盒透明色完整图包 V2 上线前复核",
-      "updated_at": 1780404937,
-      "workspace_path": ""
-    },
+  "active": [],
+  "blocked": [
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -85,92 +14,17 @@
       "priority": 100,
       "result": "",
       "started_at": 1783316946,
-      "status": "running",
+      "status": "blocked",
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
       "updated_at": 1783316946,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "default",
-      "board_name": "Default",
-      "body": "蝴蝶，请用 LinkFoxAI 生成雪茄盒 Listing #2 全套上架图。 项目ID: coovoa-20260625-cigar-case-7ct 参照图: /root/.hermes/shared/product-assets/coovoa-20260625-cigar-case-7ct/reference/ Brief: /root/.hermes/shared/design-handoff/inbox/2026-06-25-cigar-case-7ct-listing-images-brief.md 输出目录: /root/.hermes/shared/product-asset…",
-      "body_preview": "蝴蝶，请用 LinkFoxAI 生成雪茄盒 Listing #2 全套上架图。 项目ID: coovoa-20260625-cigar-case-7ct 参照图: /root/.hermes/shared/product-assets/coovoa-20260625-cigar-case-7ct/reference/ Brief: /root/.hermes/shared/design-handoff/inbox/2026-06-25-cigar-case-7ct-listing-images-brief.md 输出目录: /root/.hermes/shared/product-asset…",
-      "completed_at": null,
-      "created_at": 1782373807,
-      "created_by": "claude-sara-delegate",
-      "id": "t_cigar_img_373807",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "pending",
-      "title": "生成雪茄盒 Listing #2 全套上架图(CIGAR-CASE-BR-7CT)",
-      "updated_at": 1782373807,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "请对 t_00d633ed 产出的照片收纳盒 Amazon US Listing 7 图最终清理包做 Lion QA 放行。 交付路径： - 7 张 2000x2000 PNG：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/final_ordered/ - Contact sheet：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/photo_storage_box_listing_7_u…",
-      "body_preview": "请对 t_00d633ed 产出的照片收纳盒 Amazon US Listing 7 图最终清理包做 Lion QA 放行。 交付路径： - 7 张 2000x2000 PNG：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/final_ordered/ - Contact sheet：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/photo_storage_box_listing_7_u…",
-      "completed_at": null,
-      "created_at": 1779979701,
-      "created_by": "coovoamae-crm",
-      "id": "t_2f73827e",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA｜照片收纳盒 Listing 7图上传包放行检查",
-      "updated_at": 1779979701,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "蝴蝶已完成 t_e87ad443 清理包，请做最终运营/合规验收后决定是否标记 Amazon US upload-ready。 验收包：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e87ad443/2026-05-28-black-eyemask-listing-7slot-upload-clean 重点检查： - 7 张单图是否可作为 Amazon Listing 分别上传（不是上传 contact sheet）。 - 04/05/06/07 是否已删除内部 QA/设计说明文案：Light background、Cle…",
-      "body_preview": "蝴蝶已完成 t_e87ad443 清理包，请做最终运营/合规验收后决定是否标记 Amazon US upload-ready。 验收包：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e87ad443/2026-05-28-black-eyemask-listing-7slot-upload-clean 重点检查： - 7 张单图是否可作为 Amazon Listing 分别上传（不是上传 contact sheet）。 - 04/05/06/07 是否已删除内部 QA/设计说明文案：Light background、Cle…",
-      "completed_at": null,
-      "created_at": 1779979259,
-      "created_by": "coovoamae-crm",
-      "id": "t_cb10b9de",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA｜黑色眼罩 Listing 7图最终上传包验收",
-      "updated_at": 1779979259,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-product-auditor",
-      "board": "default",
-      "board_name": "Default",
-      "body": "产品ID：NEW-112 产品方向：Long Flight Comfort Seat Cushion / 长途飞行舒适坐垫 已写入：03_单品卡第42行；品类对比子表：品类对比_长途飞行舒适坐垫；品类对比队列已登记；04_待补数据已登记。 目标：把可用数据同步到飞书表格，不要只给口头结论。所有缺失字段必须写“待补/未抓到/数据延迟”，不得编造销量、价格、Review、CPC、VOC。 边界：Stage-1 only；不供应链、不询价、不采购、不付款、不改Amazon后台/Listing/广告。 关键验证：长途飞行坐垫是否有$30+溢价点；“便携+支撑/减压+适配飞机座椅”是否能区别普通低价坐…",
-      "body_preview": "产品ID：NEW-112 产品方向：Long Flight Comfort Seat Cushion / 长途飞行舒适坐垫 已写入：03_单品卡第42行；品类对比子表：品类对比_长途飞行舒适坐垫；品类对比队列已登记；04_待补数据已登记。 目标：把可用数据同步到飞书表格，不要只给口头结论。所有缺失字段必须写“待补/未抓到/数据延迟”，不得编造销量、价格、Review、CPC、VOC。 边界：Stage-1 only；不供应链、不询价、不采购、不付款、不改Amazon后台/Listing/广告。 关键验证：长途飞行坐垫是否有$30+溢价点；“便携+支撑/减压+适配飞机座椅”是否能区别普通低价坐…",
-      "completed_at": null,
-      "created_at": 1780479646,
-      "created_by": "coovoamae-chief-of-staff",
-      "id": "t_c4302dab",
-      "priority": 1,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "NEW-112 白泽证据审核",
-      "updated_at": 1780479646,
-      "workspace_path": ""
     }
   ],
-  "blocked": [],
   "boards": [
     {
       "counts": {
-        "archived": 34,
-        "done": 572,
-        "pending": 1,
-        "todo": 1
+        "archived": 37,
+        "done": 572
       },
       "name": "Default",
       "slug": "default"
@@ -192,11 +46,9 @@
     },
     {
       "counts": {
-        "archived": 53,
-        "done": 82,
-        "ready": 4,
-        "running": 1,
-        "todo": 2
+        "archived": 59,
+        "blocked": 1,
+        "done": 82
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -240,20 +92,18 @@
       "total": 27
     },
     "coovoamae-crm": {
-      "active": 2,
-      "blocked": 0,
+      "active": 0,
+      "blocked": 1,
       "done": 83,
-      "pending": 1,
-      "running": 1,
-      "total": 85
+      "running": 0,
+      "total": 84
     },
     "coovoamae-crow-qc": {
-      "active": 2,
+      "active": 0,
       "blocked": 0,
       "done": 3,
       "running": 0,
-      "todo": 2,
-      "total": 5
+      "total": 3
     },
     "coovoamae-eagle-eye": {
       "active": 0,
@@ -298,12 +148,11 @@
       "total": 142
     },
     "coovoamae-product-auditor": {
-      "active": 1,
+      "active": 0,
       "blocked": 0,
       "done": 53,
       "running": 0,
-      "todo": 1,
-      "total": 54
+      "total": 53
     },
     "coovoamae-product-dev": {
       "active": 0,
@@ -332,20 +181,12 @@
       "done": 27,
       "running": 0,
       "total": 27
-    },
-    "lion-amazon-ops": {
-      "active": 4,
-      "blocked": 0,
-      "done": 0,
-      "ready": 4,
-      "running": 0,
-      "total": 4
     }
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783317602,
-  "generated_at_iso": "2026-07-06T14:00:02+08:00",
+  "generated_at": 1783319458,
+  "generated_at_iso": "2026-07-06T14:30:58+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -891,15 +732,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 9,
-    "archived": 90,
-    "blocked": 0,
+    "active": 0,
+    "archived": 99,
+    "blocked": 1,
     "done": 663,
-    "pending": 1,
-    "ready": 4,
-    "running": 1,
-    "todo": 3,
-    "total": 762,
+    "pending": 0,
+    "ready": 0,
+    "running": 0,
+    "todo": 0,
+    "total": 763,
     "triage": 0
   },
   "tasks": [
@@ -2648,24 +2489,6 @@
       "title": "更新 B0GXVNPM68 Listing 标题：主词 Heated Eye Mask 前置",
       "updated_at": 1782091360,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_711b0f66"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "default",
-      "board_name": "Default",
-      "body": "蝴蝶，请用 LinkFoxAI 生成雪茄盒 Listing #2 全套上架图。 项目ID: coovoa-20260625-cigar-case-7ct 参照图: /root/.hermes/shared/product-assets/coovoa-20260625-cigar-case-7ct/reference/ Brief: /root/.hermes/shared/design-handoff/inbox/2026-06-25-cigar-case-7ct-listing-images-brief.md 输出目录: /root/.hermes/shared/product-asset…",
-      "body_preview": "蝴蝶，请用 LinkFoxAI 生成雪茄盒 Listing #2 全套上架图。 项目ID: coovoa-20260625-cigar-case-7ct 参照图: /root/.hermes/shared/product-assets/coovoa-20260625-cigar-case-7ct/reference/ Brief: /root/.hermes/shared/design-handoff/inbox/2026-06-25-cigar-case-7ct-listing-images-brief.md 输出目录: /root/.hermes/shared/product-asset…",
-      "completed_at": null,
-      "created_at": 1782373807,
-      "created_by": "claude-sara-delegate",
-      "id": "t_cigar_img_373807",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "pending",
-      "title": "生成雪茄盒 Listing #2 全套上架图(CIGAR-CASE-BR-7CT)",
-      "updated_at": 1782373807,
-      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-chief-of-staff",
@@ -9292,24 +9115,6 @@
       "workspace_path": "/root/.hermes/kanban/workspaces/t_cfb060ae"
     },
     {
-      "assignee": "coovoamae-product-auditor",
-      "board": "default",
-      "board_name": "Default",
-      "body": "产品ID：NEW-112 产品方向：Long Flight Comfort Seat Cushion / 长途飞行舒适坐垫 已写入：03_单品卡第42行；品类对比子表：品类对比_长途飞行舒适坐垫；品类对比队列已登记；04_待补数据已登记。 目标：把可用数据同步到飞书表格，不要只给口头结论。所有缺失字段必须写“待补/未抓到/数据延迟”，不得编造销量、价格、Review、CPC、VOC。 边界：Stage-1 only；不供应链、不询价、不采购、不付款、不改Amazon后台/Listing/广告。 关键验证：长途飞行坐垫是否有$30+溢价点；“便携+支撑/减压+适配飞机座椅”是否能区别普通低价坐…",
-      "body_preview": "产品ID：NEW-112 产品方向：Long Flight Comfort Seat Cushion / 长途飞行舒适坐垫 已写入：03_单品卡第42行；品类对比子表：品类对比_长途飞行舒适坐垫；品类对比队列已登记；04_待补数据已登记。 目标：把可用数据同步到飞书表格，不要只给口头结论。所有缺失字段必须写“待补/未抓到/数据延迟”，不得编造销量、价格、Review、CPC、VOC。 边界：Stage-1 only；不供应链、不询价、不采购、不付款、不改Amazon后台/Listing/广告。 关键验证：长途飞行坐垫是否有$30+溢价点；“便携+支撑/减压+适配飞机座椅”是否能区别普通低价坐…",
-      "completed_at": null,
-      "created_at": 1780479646,
-      "created_by": "coovoamae-chief-of-staff",
-      "id": "t_c4302dab",
-      "priority": 1,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "NEW-112 白泽证据审核",
-      "updated_at": 1780479646,
-      "workspace_path": ""
-    },
-    {
       "assignee": "coovoamae-luming",
       "board": "default",
       "board_name": "Default",
@@ -11290,24 +11095,6 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_7cbaf81f"
     },
     {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "# 乌鸦QC任务｜相片收纳盒V3快修图包最终冷面质检 父任务：`t_569df839` ## 目标 蝴蝶完成 V3 快修后，请对 V3 输出做最终上传前冷面质检。V3 是基于 V2 的加速抛光：重点修主图偏淡、移动端小字、A+术语一致。 ## 必检项 1. 主图：纯白底、无文字/人物/场景/赠品误导；透明浅蓝产品搜索缩略图不发白不虚，边缘/内盒/白色U形提手清楚。 2. Listing副图：360px下大标题和核心标签可读；小字不能承载核心信息。 3. 产品身份：浅蓝/乳白半透明外盒、16内盒、两列排布、白色U/矩形提手/锁扣、单盒可打开；不得改变产品本体。 4. A+：6张单图均为1464…",
-      "body_preview": "# 乌鸦QC任务｜相片收纳盒V3快修图包最终冷面质检 父任务：`t_569df839` ## 目标 蝴蝶完成 V3 快修后，请对 V3 输出做最终上传前冷面质检。V3 是基于 V2 的加速抛光：重点修主图偏淡、移动端小字、A+术语一致。 ## 必检项 1. 主图：纯白底、无文字/人物/场景/赠品误导；透明浅蓝产品搜索缩略图不发白不虚，边缘/内盒/白色U形提手清楚。 2. Listing副图：360px下大标题和核心标签可读；小字不能承载核心信息。 3. 产品身份：浅蓝/乳白半透明外盒、16内盒、两列排布、白色U/矩形提手/锁扣、单盒可打开；不得改变产品本体。 4. A+：6张单图均为1464…",
-      "completed_at": null,
-      "created_at": 1780372317,
-      "created_by": "lion-amazon-ops",
-      "id": "t_f0e85935",
-      "priority": 195,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "P0质检｜相片收纳盒V3快修图包最终QA",
-      "updated_at": 1780372317,
-      "workspace_path": ""
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -11360,24 +11147,6 @@
       "title": "P0恢复｜相片收纳盒按3张合格外观图补齐完整套图",
       "updated_at": 1780368446,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45"
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "请复核蝴蝶交付的相片/相框收纳盒 Sara 3-ref 闭环候选包。 交付目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_closure_20260602 ZIP：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_clos…",
-      "body_preview": "请复核蝴蝶交付的相片/相框收纳盒 Sara 3-ref 闭环候选包。 交付目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_closure_20260602 ZIP：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_741ffe45/outputs/photo_storage_box_listing_aplus_sara_3ref_clos…",
-      "completed_at": null,
-      "created_at": 1780368425,
-      "created_by": "coovoamae-crm",
-      "id": "t_9539840e",
-      "priority": 185,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA复核｜相片收纳盒Sara三图闭环候选包上线前检查",
-      "updated_at": 1780368425,
-      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-crm",
@@ -11434,24 +11203,6 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4338db00"
     },
     {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "# QC Brief｜黑色眼罩外包PDF返修包上传前冷面质检 created-by: lion-amazon-ops assignee: coovoamae-crow-qc parent task: t_7f7068d2 priority: P0 ## 背景 Sara 提供外包黑色眼罩 10 页 PDF，Lion QA 判断方向有价值但不能直接上传。蝴蝶将按 `t_7f7068d2` 返修成 Listing 7 图上传前候选。你负责最终冷面质检。 ## 质检对象 待蝴蝶输出： `outputs/black_eyemask_external_pdf_rework_upload_candidat…",
-      "body_preview": "# QC Brief｜黑色眼罩外包PDF返修包上传前冷面质检 created-by: lion-amazon-ops assignee: coovoamae-crow-qc parent task: t_7f7068d2 priority: P0 ## 背景 Sara 提供外包黑色眼罩 10 页 PDF，Lion QA 判断方向有价值但不能直接上传。蝴蝶将按 `t_7f7068d2` 返修成 Listing 7 图上传前候选。你负责最终冷面质检。 ## 质检对象 待蝴蝶输出： `outputs/black_eyemask_external_pdf_rework_upload_candidat…",
-      "completed_at": null,
-      "created_at": 1780381087,
-      "created_by": "lion-amazon-ops",
-      "id": "t_40212585",
-      "priority": 145,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "QC｜黑色眼罩外包PDF返修包上传前质检",
-      "updated_at": 1780381087,
-      "workspace_path": ""
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -11486,24 +11237,6 @@
       "title": "P0返修｜相片收纳盒透明色完整图包候选二次优化",
       "updated_at": 1780405521,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094"
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "蝴蝶已完成 t_5044c094 返修包，请按 Lion/Sara 上线前标准复核。 输出目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_full_pack_v2_20260602 关键文件： - Listing 合图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_…",
-      "body_preview": "蝴蝶已完成 t_5044c094 返修包，请按 Lion/Sara 上线前标准复核。 输出目录：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_full_pack_v2_20260602 关键文件： - Listing 合图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5044c094/outputs/photo_storage_box_transparent_…",
-      "completed_at": null,
-      "created_at": 1780404937,
-      "created_by": "coovoamae-crm",
-      "id": "t_c3991828",
-      "priority": 130,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "QA｜相片收纳盒透明色完整图包 V2 上线前复核",
-      "updated_at": 1780404937,
-      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-crm",
@@ -11932,7 +11665,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1783316946,
-      "status": "running",
+      "status": "blocked",
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
       "updated_at": 1783316946,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
@@ -12422,42 +12155,6 @@
       "title": "P0 黑色眼罩 Listing 7图最终上传清理｜删除内部QA文案",
       "updated_at": 1779979281,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e87ad443"
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "蝴蝶已完成 t_e87ad443 清理包，请做最终运营/合规验收后决定是否标记 Amazon US upload-ready。 验收包：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e87ad443/2026-05-28-black-eyemask-listing-7slot-upload-clean 重点检查： - 7 张单图是否可作为 Amazon Listing 分别上传（不是上传 contact sheet）。 - 04/05/06/07 是否已删除内部 QA/设计说明文案：Light background、Cle…",
-      "body_preview": "蝴蝶已完成 t_e87ad443 清理包，请做最终运营/合规验收后决定是否标记 Amazon US upload-ready。 验收包：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e87ad443/2026-05-28-black-eyemask-listing-7slot-upload-clean 重点检查： - 7 张单图是否可作为 Amazon Listing 分别上传（不是上传 contact sheet）。 - 04/05/06/07 是否已删除内部 QA/设计说明文案：Light background、Cle…",
-      "completed_at": null,
-      "created_at": 1779979259,
-      "created_by": "coovoamae-crm",
-      "id": "t_cb10b9de",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA｜黑色眼罩 Listing 7图最终上传包验收",
-      "updated_at": 1779979259,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "lion-amazon-ops",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "请对 t_00d633ed 产出的照片收纳盒 Amazon US Listing 7 图最终清理包做 Lion QA 放行。 交付路径： - 7 张 2000x2000 PNG：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/final_ordered/ - Contact sheet：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/photo_storage_box_listing_7_u…",
-      "body_preview": "请对 t_00d633ed 产出的照片收纳盒 Amazon US Listing 7 图最终清理包做 Lion QA 放行。 交付路径： - 7 张 2000x2000 PNG：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/final_ordered/ - Contact sheet：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_00d633ed/outputs/photo_storage_box_listing_7_u…",
-      "completed_at": null,
-      "created_at": 1779979701,
-      "created_by": "coovoamae-crm",
-      "id": "t_2f73827e",
-      "priority": 90,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "Lion QA｜照片收纳盒 Listing 7图上传包放行检查",
-      "updated_at": 1779979701,
-      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-crm",
