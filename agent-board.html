@@ -199,6 +199,41 @@
       margin-bottom: 18px;
     }
 
+    .blocked-summary {
+      display: none;
+      margin-bottom: 18px;
+      border: 1px solid var(--red-soft);
+      border-radius: 8px;
+      background: #fff8f7;
+      overflow: hidden;
+    }
+
+    .blocked-summary[data-visible="true"] {
+      display: block;
+    }
+
+    .blocked-summary-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--red-soft);
+    }
+
+    .blocked-summary-title {
+      margin: 0;
+      color: var(--red);
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .blocked-summary-list {
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+    }
+
     .metric {
       min-height: 92px;
       padding: 16px;
@@ -617,7 +652,7 @@
           <select class="field" id="statusFilter" aria-label="状态筛选">
             <option value="">全部状态</option>
             <option value="running">运行中</option>
-            <option value="ready,todo,triage">待执行</option>
+            <option value="ready,todo,triage,pending">待执行</option>
             <option value="blocked">卡住</option>
             <option value="done">已完成</option>
           </select>
@@ -625,6 +660,8 @@
       </section>
 
       <section class="status-row" id="metrics" aria-label="任务指标"></section>
+
+      <section class="blocked-summary" id="blockedSummary" data-visible="false" aria-label="卡住任务摘要"></section>
 
       <section class="layout">
         <aside class="panel">
@@ -683,19 +720,17 @@
   </div>
 
   <script>
-    const API_BASES = [
-      'https://hermes.coovoamae.com',
-      'https://hermes.49.51.244.86.sslip.io',
-      'https://bouquet-portal-encryption-treatment.trycloudflare.com'
-    ];
-    let activeApiBase = API_BASES[0];
+    const SNAPSHOT_URL = './kanban_data.json';
     const AUTO_REFRESH_MS = 60000;
     const PRODUCT_DASHBOARD = 'https://saralau0223.github.io/coovoamae-product-dashboard-web/';
     const state = {
       currentBoard: '',
       boards: [],
       tasks: [],
+      allTasks: [],
       assignees: {},
+      blockedTop: [],
+      generatedAt: null,
       selectedAgent: '',
       search: '',
       statusFilter: '',
@@ -720,6 +755,7 @@
         ready: '待执行',
         todo: '待整理',
         triage: '待分派',
+        pending: '待处理',
         blocked: '卡住',
         done: '已完成',
         archived: '已归档'
@@ -747,30 +783,37 @@
       return `${Math.floor(seconds / 86400)} 天前`;
     }
 
-    function endpoint(base, path, params = {}) {
-      const url = new URL(path, base);
-      Object.entries(params).forEach(([key, value]) => {
-        if (value !== undefined && value !== null && value !== '') url.searchParams.set(key, value);
-      });
-      return url.toString();
+    async function fetchSnapshot() {
+      const res = await fetch(SNAPSHOT_URL, { cache: 'no-store' });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || data.ok === false) {
+        throw new Error(data.error || `HTTP ${res.status}`);
+      }
+      return data;
     }
 
-    async function fetchJson(path, params) {
-      const errors = [];
-      for (const base of API_BASES) {
-        try {
-          const res = await fetch(endpoint(base, path, params), { cache: 'no-store' });
-          const data = await res.json().catch(() => ({}));
-          if (!res.ok || data.ok === false) {
-            throw new Error(data.error || `HTTP ${res.status}`);
-          }
-          activeApiBase = base;
-          return data;
-        } catch (err) {
-          errors.push(`${base}: ${err.message || err}`);
-        }
+    function computeAssignees(tasks) {
+      return tasks.reduce((acc, task) => {
+        const key = task.assignee || '未分配';
+        if (!acc[key]) acc[key] = { total: 0, running: 0, blocked: 0, done: 0, active: 0 };
+        acc[key].total += 1;
+        acc[key][task.status] = (acc[key][task.status] || 0) + 1;
+        if (!['blocked', 'done', 'archived'].includes(task.status)) acc[key].active += 1;
+        return acc;
+      }, {});
+    }
+
+    function computeCounts(tasks, fallback = {}) {
+      const counts = { ...fallback };
+      if (!Object.keys(counts).length) {
+        tasks.forEach((task) => {
+          counts[task.status] = (counts[task.status] || 0) + 1;
+        });
       }
-      throw new Error(errors.join(' / '));
+      counts.total = Object.entries(counts)
+        .filter(([key]) => key !== 'total')
+        .reduce((sum, [, value]) => sum + Number(value || 0), 0);
+      return counts;
     }
 
     function groupedTasks() {
@@ -785,7 +828,7 @@
       });
       return {
         running: filtered.filter((task) => task.status === 'running'),
-        queue: filtered.filter((task) => ['ready', 'todo', 'triage'].includes(task.status)),
+        queue: filtered.filter((task) => ['ready', 'todo', 'triage', 'pending'].includes(task.status)),
         blocked: filtered.filter((task) => task.status === 'blocked'),
         done: filtered.filter((task) => task.status === 'done').slice(0, 40)
       };
@@ -803,7 +846,7 @@
       $('metrics').innerHTML = [
         metricCard('总任务', counts.total || 0, state.currentBoard || 'default', 'total'),
         metricCard('运行中', counts.running || 0, '正在执行的 Agent', 'running'),
-        metricCard('待执行', (counts.ready || 0) + (counts.todo || 0) + (counts.triage || 0), '排队或待分派', 'queue'),
+        metricCard('待执行', (counts.ready || 0) + (counts.todo || 0) + (counts.triage || 0) + (counts.pending || 0), '排队或待分派', 'queue'),
         metricCard('卡住', counts.blocked || 0, '需要人工处理', 'blocked'),
         metricCard('已完成', counts.done || 0, '历史完成任务', 'done'),
         metricCard('已归档', counts.archived || 0, '隐藏收纳任务', 'archived')
@@ -882,28 +925,53 @@
       renderColumn('done', groups.done);
     }
 
+    function renderBlockedSummary() {
+      const root = $('blockedSummary');
+      const blocked = state.blockedTop || [];
+      root.dataset.visible = blocked.length ? 'true' : 'false';
+      if (!blocked.length) {
+        root.innerHTML = '';
+        return;
+      }
+      root.innerHTML = `
+        <div class="blocked-summary-head">
+          <h2 class="blocked-summary-title">卡住 ${blocked.length} 个</h2>
+          <div class="subtle">${escapeHtml(timeText(state.generatedAt))}</div>
+        </div>
+        <div class="blocked-summary-list">
+          ${blocked.slice(0, 12).map(taskCard).join('')}
+        </div>`;
+      root.querySelectorAll('[data-task-id]').forEach((node) => {
+        node.addEventListener('click', () => openTask(node.dataset.taskId));
+      });
+    }
+
     function render() {
       renderBoards();
       renderAgents();
+      renderBlockedSummary();
       renderTasks();
     }
 
     async function loadSummary(board = state.currentBoard) {
       state.loading = true;
-      $('subtitle').textContent = 'Hermes Kanban · 正在读取';
+      $('subtitle').textContent = 'Hermes Kanban · 正在读取静态快照';
       try {
-        const data = await fetchJson('/kanban/summary', { board });
-        state.currentBoard = data.current_board || board || 'default';
+        const data = await fetchSnapshot();
+        state.generatedAt = data.generated_at || null;
+        state.currentBoard = board || data.current_board || (data.boards && data.boards[0] && data.boards[0].slug) || 'default';
         state.boards = data.boards || [];
-        state.tasks = data.tasks || [];
-        state.assignees = data.assignees || {};
-        renderMetrics(data.counts || {});
-        const sourceLabel = activeApiBase.includes('coovoamae.com') ? '正式域名' : activeApiBase.includes('sslip.io') ? '固定备用接口' : '备用隧道';
-        $('subtitle').textContent = `Hermes Kanban · ${sourceLabel} · ${timeText(data.generated_at)}`;
+        state.allTasks = data.tasks || [];
+        state.tasks = state.allTasks.filter((task) => task.board === state.currentBoard);
+        state.assignees = computeAssignees(state.tasks);
+        state.blockedTop = data.blocked || [];
+        const board = state.boards.find((item) => item.slug === state.currentBoard);
+        renderMetrics(computeCounts(state.tasks, board ? board.counts : {}));
+        $('subtitle').textContent = `Hermes Kanban · 静态快照 · ${timeText(state.generatedAt)}`;
         render();
       } catch (err) {
-        $('subtitle').textContent = 'Hermes Kanban · 读取失败';
-        $('metrics').innerHTML = `<div class="error">看板接口读取失败：${escapeHtml(err.message)}</div>`;
+        $('subtitle').textContent = 'Hermes Kanban · 快照读取失败';
+        $('metrics').innerHTML = `<div class="error">看板快照读取失败：${escapeHtml(err.message)}</div>`;
       } finally {
         state.loading = false;
       }
@@ -917,8 +985,8 @@
       $('drawerMeta').textContent = id;
       $('drawerBody').innerHTML = '<div class="empty">正在读取任务详情</div>';
       try {
-        const data = await fetchJson('/kanban/task', { board: state.currentBoard, id });
-        const task = data.task || {};
+        const task = state.allTasks.find((item) => item.id === id) || state.tasks.find((item) => item.id === id) || {};
+        const data = { task, comments: [], runs: [], latest_summary: task.latest_summary || '' };
         $('drawerTitle').textContent = task.title || id;
         $('drawerMeta').textContent = `${task.id || id} · ${statusName(task.status)} · ${task.assignee || '未分配'}`;
         $('drawerBody').innerHTML = detailHtml(task, data);
