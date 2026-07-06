@@ -325,8 +325,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783310553,
-  "generated_at_iso": "2026-07-06T12:02:33+08:00",
+  "generated_at": 1783310607,
+  "generated_at_iso": "2026-07-06T12:03:27+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -874,10 +874,14 @@
   "summary": {
     "active": 8,
     "archived": 90,
+    "blocked": 0,
     "done": 659,
     "pending": 1,
     "ready": 4,
-    "todo": 3
+    "running": 0,
+    "todo": 3,
+    "total": 757,
+    "triage": 0
   },
   "tasks": [
     {
