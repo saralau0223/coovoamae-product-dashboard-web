@@ -870,19 +870,19 @@
         slug: 'all',
         name: '全部看板',
         label: `全部看板 · ${allActive} 当前`
-      }, ...state.boards.map((board) => {
-        const counts = board.counts || {};
+      }, ...state.boards.map((boardInfo) => {
+        const counts = boardInfo.counts || {};
         const active = (counts.running || 0) + (counts.ready || 0) + (counts.todo || 0) + (counts.triage || 0) + (counts.pending || 0);
         const total = Object.values(counts).reduce((sum, n) => sum + Number(n || 0), 0);
         return {
-          slug: board.slug,
-          name: board.name || board.slug,
-          label: `${board.name || board.slug} · ${active || total}`
+          slug: boardInfo.slug,
+          name: boardInfo.name || boardInfo.slug,
+          label: `${boardInfo.name || boardInfo.slug} · ${active || total}`
         };
       })];
-      $('boardTabs').innerHTML = tabs.map((board) => {
-        const active = board.slug === state.currentBoard ? ' active' : '';
-        return `<button class="tab${active}" type="button" data-board="${escapeHtml(board.slug)}">${escapeHtml(board.label)}</button>`;
+      $('boardTabs').innerHTML = tabs.map((boardTab) => {
+        const active = boardTab.slug === state.currentBoard ? ' active' : '';
+        return `<button class="tab${active}" type="button" data-board="${escapeHtml(boardTab.slug)}">${escapeHtml(boardTab.label)}</button>`;
       }).join('');
       document.querySelectorAll('[data-board]').forEach((btn) => {
         btn.addEventListener('click', () => loadSummary(btn.dataset.board));
@@ -980,13 +980,13 @@
       renderTasks();
     }
 
-    async function loadSummary(board = state.currentBoard) {
+    async function loadSummary(boardSlug = state.currentBoard) {
       state.loading = true;
       $('subtitle').textContent = 'Hermes Kanban · 正在读取静态快照';
       try {
         const data = await fetchSnapshot();
         state.generatedAt = data.generated_at || null;
-        state.currentBoard = board || state.currentBoard || 'all';
+        state.currentBoard = boardSlug || state.currentBoard || 'all';
         state.boards = data.boards || [];
         state.summary = data.summary || {};
         state.allTasks = data.tasks || [];
@@ -1081,6 +1081,7 @@
       }
     });
 
+    $('statusFilter').value = state.statusFilter;
     document.querySelector('a[href="./"]').setAttribute('href', PRODUCT_DASHBOARD);
     loadSummary();
     setInterval(() => {
