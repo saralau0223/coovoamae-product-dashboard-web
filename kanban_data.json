@@ -24,7 +24,7 @@
     {
       "counts": {
         "archived": 38,
-        "done": 572
+        "done": 573
       },
       "name": "Default",
       "slug": "default"
@@ -143,9 +143,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 142,
+      "done": 143,
       "running": 0,
-      "total": 142
+      "total": 143
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -185,10 +185,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783389601,
-  "generated_at_iso": "2026-07-07T10:00:01+08:00",
+  "generated_at": 1783390980,
+  "generated_at_iso": "2026-07-07T10:23:00+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-07 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-07 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783389852,
+      "created_at": 1783389724,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_4c3ae019",
+      "priority": 0,
+      "result": "",
+      "started_at": 1783389725,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-07 10:00",
+      "updated_at": 1783389852,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_4c3ae019"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -710,24 +728,6 @@
       "title": "更新 B0GXVNPM68 Listing 五点卖点",
       "updated_at": 1782091967,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_f8615519"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "default",
-      "board_name": "Default",
-      "body": "Sara 已确认：B0GXVNPM68 标题按主词前置版本优化。 执行范围：仅更新 SKU HEM-BK-Coov-2 / ASIN B0GXVNPM68 的 Listing Title，不改五点、描述、search terms、价格、图片、广告、活动或变体。 目标标题： Heated Eye Mask - Cordless Eye Mask for Dry Eyes, FSA-HSA Eligible, Warm Eye Compress with 100% Mulberry Silk Cover, Rechargeable Eye Heating Pad, 3 Heat Settings…",
-      "body_preview": "Sara 已确认：B0GXVNPM68 标题按主词前置版本优化。 执行范围：仅更新 SKU HEM-BK-Coov-2 / ASIN B0GXVNPM68 的 Listing Title，不改五点、描述、search terms、价格、图片、广告、活动或变体。 目标标题： Heated Eye Mask - Cordless Eye Mask for Dry Eyes, FSA-HSA Eligible, Warm Eye Compress with 100% Mulberry Silk Cover, Rechargeable Eye Heating Pad, 3 Heat Settings…",
-      "completed_at": 1782091360,
-      "created_at": 1782091270,
-      "created_by": "lion-amazon-ops",
-      "id": "t_711b0f66",
-      "priority": 90,
-      "result": "",
-      "started_at": 1782091270,
-      "status": "done",
-      "title": "更新 B0GXVNPM68 Listing 标题：主词 Heated Eye Mask 前置",
-      "updated_at": 1782091360,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_711b0f66"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -735,12 +735,12 @@
     "active": 0,
     "archived": 100,
     "blocked": 1,
-    "done": 663,
+    "done": 664,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 764,
+    "total": 765,
     "triage": 0
   },
   "tasks": [
@@ -11039,6 +11039,24 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260701",
       "updated_at": 1782871453,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_45d1986d"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-07 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-07 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783389852,
+      "created_at": 1783389724,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_4c3ae019",
+      "priority": 0,
+      "result": "",
+      "started_at": 1783389725,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-07 10:00",
+      "updated_at": 1783389852,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_4c3ae019"
     },
     {
       "assignee": "coovoamae-ads-manager",
