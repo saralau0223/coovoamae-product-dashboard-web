@@ -24,14 +24,14 @@
     {
       "counts": {
         "archived": 38,
-        "done": 573
+        "done": 574
       },
       "name": "Default",
       "slug": "default"
     },
     {
       "counts": {
-        "done": 1
+        "done": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -39,7 +39,7 @@
     {
       "counts": {
         "archived": 1,
-        "done": 1
+        "done": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -66,16 +66,16 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 0,
-      "done": 5,
+      "done": 6,
       "running": 0,
-      "total": 5
+      "total": 6
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 17,
+      "done": 18,
       "running": 0,
-      "total": 17
+      "total": 18
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -143,9 +143,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 143,
+      "done": 144,
       "running": 0,
-      "total": 143
+      "total": 144
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -185,10 +185,64 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783476002,
-  "generated_at_iso": "2026-07-08T10:00:02+08:00",
+  "generated_at": 1783479601,
+  "generated_at_iso": "2026-07-08T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
+      "completed_at": 1783479236,
+      "created_at": 1783476906,
+      "created_by": "coovoamae-lion",
+      "id": "t_8ecb047e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783476907,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P0｜B0GF1KXKJC 低迷流量后台/PDP购买路径只读预检",
+      "updated_at": 1783479236,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8ecb047e"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": 1783477275,
+      "created_at": 1783476902,
+      "created_by": "coovoamae-lion",
+      "id": "t_a5eaa563",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783476903,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P0｜B0GF1KXKJC 低迷流量广告侧诊断与10天合规推词dry-run",
+      "updated_at": 1783477275,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_a5eaa563"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-08 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-08 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783476220,
+      "created_at": 1783476099,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_a606fe88",
+      "priority": 50,
+      "result": "",
+      "started_at": 1783476099,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-08 10:00",
+      "updated_at": 1783476220,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_a606fe88"
+    },
     {
       "assignee": "coovoamae-luming",
       "board": "default",
@@ -674,60 +728,6 @@
       "title": "B0GXVNPM68 广告执行记录与72小时/7天复盘",
       "updated_at": 1782096375,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_537a4e6a"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "default",
-      "board_name": "Default",
-      "body": "【来源】狮子 lion-amazon-ops；刘希已在 Feishu DM 确认按方案 A 执行。 ASIN/SKU：B0GXVNPM68 / HEM-BK-Coov-2 站点：Amazon US / ATVPDKIKX0DER 当前前台价格口径：Prime 折后 $34.99；Regular Price $59.99 当前状态：图片和 coupon 用户确认暂时正常，不作为本轮阻塞。Listing 标题、五点、Search Terms、Description 已后台提交并读回一致，前台可能仍有缓存延迟。 核心诊断： - 2026-06-11 至 2026-06-21，目标 ASIN 广告聚…",
-      "body_preview": "【来源】狮子 lion-amazon-ops；刘希已在 Feishu DM 确认按方案 A 执行。 ASIN/SKU：B0GXVNPM68 / HEM-BK-Coov-2 站点：Amazon US / ATVPDKIKX0DER 当前前台价格口径：Prime 折后 $34.99；Regular Price $59.99 当前状态：图片和 coupon 用户确认暂时正常，不作为本轮阻塞。Listing 标题、五点、Search Terms、Description 已后台提交并读回一致，前台可能仍有缓存延迟。 核心诊断： - 2026-06-11 至 2026-06-21，目标 ASIN 广告聚…",
-      "completed_at": 1782096180,
-      "created_at": 1782095716,
-      "created_by": "lion-amazon-ops",
-      "id": "t_8f2c5056",
-      "priority": 95,
-      "result": "",
-      "started_at": 1782095717,
-      "status": "done",
-      "title": "B0GXVNPM68 广告冷启动结构落地：方案A 5/day",
-      "updated_at": 1782096180,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_8f2c5056"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "巡检来源：方舟后台巡检 2026-06-22 10:00 CST；飞书主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 幂等键：feishu-product-gap-patrol-luming-20260622-1000；24h内同类QA不重复派单。 任务范围：只做飞书产品数据表格字段QA/缺口状态巡检，优先读取飞书主表和最近任务产物；不要重新采集上游数据，不改非目标字段。 请重点检查：待补数据、官方源续补、H10剩余补证、VOC补证、产品定义Brief、白泽审核、03_单品卡/产品定义相关字段。…",
-      "body_preview": "巡检来源：方舟后台巡检 2026-06-22 10:00 CST；飞书主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 幂等键：feishu-product-gap-patrol-luming-20260622-1000；24h内同类QA不重复派单。 任务范围：只做飞书产品数据表格字段QA/缺口状态巡检，优先读取飞书主表和最近任务产物；不要重新采集上游数据，不改非目标字段。 请重点检查：待补数据、官方源续补、H10剩余补证、VOC补证、产品定义Brief、白泽审核、03_单品卡/产品定义相关字段。…",
-      "completed_at": 1782093875,
-      "created_at": 1782093773,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_531be542",
-      "priority": 0,
-      "result": "",
-      "started_at": 1782093779,
-      "status": "done",
-      "title": "20260622-1000巡检｜鹿鸣飞书产品数据缺口QA",
-      "updated_at": 1782093875,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_531be542"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "default",
-      "board_name": "Default",
-      "body": "Sara 已确认更新 COOVOAMAE Amazon US ASIN B0GXVNPM68 / SKU HEM-BK-Coov-2 的五点。请只执行 Listing bullet_points 更新，不要修改标题、价格、图片、广告、Search Terms、描述或其他字段。 Marketplace: ATVPDKIKX0DER SKU: HEM-BK-Coov-2 ASIN: B0GXVNPM68 Product type: 若工具要求可自动查询；不要猜错 SKU。 需要更新为以下 5 条 bullet points，用 ||| 分隔传入 update_listing： 1. 3 Heat…",
-      "body_preview": "Sara 已确认更新 COOVOAMAE Amazon US ASIN B0GXVNPM68 / SKU HEM-BK-Coov-2 的五点。请只执行 Listing bullet_points 更新，不要修改标题、价格、图片、广告、Search Terms、描述或其他字段。 Marketplace: ATVPDKIKX0DER SKU: HEM-BK-Coov-2 ASIN: B0GXVNPM68 Product type: 若工具要求可自动查询；不要猜错 SKU。 需要更新为以下 5 条 bullet points，用 ||| 分隔传入 update_listing： 1. 3 Heat…",
-      "completed_at": 1782091967,
-      "created_at": 1782091910,
-      "created_by": "lion-amazon-ops",
-      "id": "t_f8615519",
-      "priority": 92,
-      "result": "",
-      "started_at": 1782091914,
-      "status": "done",
-      "title": "更新 B0GXVNPM68 Listing 五点卖点",
-      "updated_at": 1782091967,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_f8615519"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -735,12 +735,12 @@
     "active": 0,
     "archived": 100,
     "blocked": 1,
-    "done": 664,
+    "done": 667,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 765,
+    "total": 768,
     "triage": 0
   },
   "tasks": [
@@ -5837,6 +5837,24 @@
       "title": "JMW-GAP5-20260523-AM｜鹿鸣飞书写回与字段QA",
       "updated_at": 1779503864,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_36777939"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-08 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-08 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783476220,
+      "created_at": 1783476099,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_a606fe88",
+      "priority": 50,
+      "result": "",
+      "started_at": 1783476099,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-08 10:00",
+      "updated_at": 1783476220,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_a606fe88"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -11077,6 +11095,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_061c7513"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": 1783477275,
+      "created_at": 1783476902,
+      "created_by": "coovoamae-lion",
+      "id": "t_a5eaa563",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783476903,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P0｜B0GF1KXKJC 低迷流量广告侧诊断与10天合规推词dry-run",
+      "updated_at": 1783477275,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_a5eaa563"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -11093,6 +11129,24 @@
       "title": "[Lion -> Dangdang] 眼罩 B0GF1KXKJC 前台转化预检 + Coupon可行性确认",
       "updated_at": 1783297826,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d8d9452d"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
+      "completed_at": 1783479236,
+      "created_at": 1783476906,
+      "created_by": "coovoamae-lion",
+      "id": "t_8ecb047e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783476907,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P0｜B0GF1KXKJC 低迷流量后台/PDP购买路径只读预检",
+      "updated_at": 1783479236,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8ecb047e"
     },
     {
       "assignee": "coovoamae-crm",
