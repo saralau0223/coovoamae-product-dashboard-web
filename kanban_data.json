@@ -1,5 +1,24 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783486212,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_ef2d67e9",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783486212,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] 补齐 B0H36RKCRS Photo Storage Box 4x6 Listing 图片/A+素材",
+      "updated_at": 1783486212,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ef2d67e9"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -31,7 +50,7 @@
     },
     {
       "counts": {
-        "done": 2
+        "done": 3
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -39,7 +58,7 @@
     {
       "counts": {
         "archived": 1,
-        "done": 2
+        "done": 3
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -48,7 +67,8 @@
       "counts": {
         "archived": 59,
         "blocked": 1,
-        "done": 82
+        "done": 82,
+        "running": 1
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -66,16 +86,16 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 0,
-      "done": 6,
+      "done": 7,
       "running": 0,
-      "total": 6
+      "total": 7
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 18,
+      "done": 19,
       "running": 0,
-      "total": 18
+      "total": 19
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -92,11 +112,11 @@
       "total": 27
     },
     "coovoamae-crm": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
       "done": 83,
-      "running": 0,
-      "total": 84
+      "running": 1,
+      "total": 85
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -185,10 +205,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783483201,
-  "generated_at_iso": "2026-07-08T12:00:01+08:00",
+  "generated_at": 1783486801,
+  "generated_at_iso": "2026-07-08T13:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T043748Z-b0h36rkcrs-pdp-6b56f230 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhuti…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T043748Z-b0h36rkcrs-pdp-6b56f230 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhuti…",
+      "completed_at": 1783486331,
+      "created_at": 1783485469,
+      "created_by": "coovoamae-lion",
+      "id": "t_1150ade1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783485469,
+      "status": "done",
+      "title": "[Lion -> Dangdang] 相片/相框收纳盒 B0H36RKCRS 到货核查 + PDP/链接优化预检",
+      "updated_at": 1783486331,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1150ade1"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "completed_at": 1783485818,
+      "created_at": 1783485474,
+      "created_by": "coovoamae-lion",
+      "id": "t_bcbb7094",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783485476,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] 相片/相框收纳盒 B0H36RKCRS 新品推广计划 dry-run",
+      "updated_at": 1783485818,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bcbb7094"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -692,55 +748,19 @@
       "title": "[Product Asset Handoff] coovoa-20260624-portable-cigar-humidor-case -> Dangdang Listing/A+ precheck",
       "updated_at": 1782292795,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_1e9e0b5a"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "你是鹿鸣，执行 2026-06-24 10:00 方舟后台巡检的飞书产品数据缺口 QA。飞书主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读检查飞书产品数据表格中第一阶段字段缺口，避免重复派上游。请优先读取表格/已有本地缓存/上一轮巡检产物，输出短报告和结构化 TSV/JSON 到任务工作区。 范围只限第一阶段链路字段： - 鹰眼：官方需求/ABA/SQP/POE/页面字段 - H10：市场/竞品/Xray/Review workbook - 客户洞察：VOC低星Review/痛点闭环…",
-      "body_preview": "你是鹿鸣，执行 2026-06-24 10:00 方舟后台巡检的飞书产品数据缺口 QA。飞书主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读检查飞书产品数据表格中第一阶段字段缺口，避免重复派上游。请优先读取表格/已有本地缓存/上一轮巡检产物，输出短报告和结构化 TSV/JSON 到任务工作区。 范围只限第一阶段链路字段： - 鹰眼：官方需求/ABA/SQP/POE/页面字段 - H10：市场/竞品/Xray/Review workbook - 客户洞察：VOC低星Review/痛点闭环…",
-      "completed_at": 1782266597,
-      "created_at": 1782266491,
-      "created_by": "user",
-      "id": "t_3498ab58",
-      "priority": 80,
-      "result": "",
-      "started_at": 1782266491,
-      "status": "done",
-      "title": "20260624-1000巡检｜鹿鸣飞书产品数据缺口QA",
-      "updated_at": 1782266597,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_3498ab58"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "default",
-      "board_name": "Default",
-      "body": "【来源】狮子 lion-amazon-ops；刘希已确认 B0GXVNPM68 广告方案 A 执行。此任务用于后台执行记录与复盘，不直接扩大预算。 执行对象： - ASIN：B0GXVNPM68 - SKU：HEM-BK-Coov-2 - 站点：Amazon US / ATVPDKIKX0DER - 关联广告投放师任务：t_8f2c5056 动作清单： 1. 等广告投放师完成/确认广告结构落地后，核对后台 campaign 是否符合方案 A： - 总预算不超过 $25/day - Exact $10/day - Phrase $7/day - Auto $4/day - Product Ta…",
-      "body_preview": "【来源】狮子 lion-amazon-ops；刘希已确认 B0GXVNPM68 广告方案 A 执行。此任务用于后台执行记录与复盘，不直接扩大预算。 执行对象： - ASIN：B0GXVNPM68 - SKU：HEM-BK-Coov-2 - 站点：Amazon US / ATVPDKIKX0DER - 关联广告投放师任务：t_8f2c5056 动作清单： 1. 等广告投放师完成/确认广告结构落地后，核对后台 campaign 是否符合方案 A： - 总预算不超过 $25/day - Exact $10/day - Phrase $7/day - Auto $4/day - Product Ta…",
-      "completed_at": 1782096375,
-      "created_at": 1782095739,
-      "created_by": "lion-amazon-ops",
-      "id": "t_537a4e6a",
-      "priority": 88,
-      "result": "",
-      "started_at": 1782096182,
-      "status": "done",
-      "title": "B0GXVNPM68 广告执行记录与72小时/7天复盘",
-      "updated_at": 1782096375,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_537a4e6a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 100,
     "blocked": 1,
-    "done": 667,
+    "done": 669,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 768,
+    "total": 771,
     "triage": 0
   },
   "tasks": [
@@ -11113,6 +11133,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_a5eaa563"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "completed_at": 1783485818,
+      "created_at": 1783485474,
+      "created_by": "coovoamae-lion",
+      "id": "t_bcbb7094",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783485476,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] 相片/相框收纳盒 B0H36RKCRS 新品推广计划 dry-run",
+      "updated_at": 1783485818,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bcbb7094"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -11147,6 +11185,24 @@
       "title": "[Lion -> Dangdang] P0｜B0GF1KXKJC 低迷流量后台/PDP购买路径只读预检",
       "updated_at": 1783479236,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8ecb047e"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T043748Z-b0h36rkcrs-pdp-6b56f230 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhuti…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T043748Z-b0h36rkcrs-pdp-6b56f230 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhuti…",
+      "completed_at": 1783486331,
+      "created_at": 1783485469,
+      "created_by": "coovoamae-lion",
+      "id": "t_1150ade1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783485469,
+      "status": "done",
+      "title": "[Lion -> Dangdang] 相片/相框收纳盒 B0H36RKCRS 到货核查 + PDP/链接优化预检",
+      "updated_at": 1783486331,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1150ade1"
     },
     {
       "assignee": "coovoamae-crm",
@@ -12533,6 +12589,24 @@
       "title": "新款4x6相片收纳盒Listing图｜LinkFoxAI首轮3张样本",
       "updated_at": 1780796272,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a20453ff"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783486212,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_ef2d67e9",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783486212,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] 补齐 B0H36RKCRS Photo Storage Box 4x6 Listing 图片/A+素材",
+      "updated_at": 1783486212,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ef2d67e9"
     },
     {
       "assignee": "coovoamae-crm",
