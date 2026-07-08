@@ -74,7 +74,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 7
+        "done": 8
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -91,9 +91,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 19,
+      "done": 20,
       "running": 0,
-      "total": 19
+      "total": 20
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -203,10 +203,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783501201,
-  "generated_at_iso": "2026-07-08T17:00:01+08:00",
+  "generated_at": 1783504801,
+  "generated_at_iso": "2026-07-08T18:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36PPZHM-20260708-170952 - project_id: B0H36PPZHM - product_name: COOVOAMAE Photo Storage Box 4x6, Clear, 6 Inner Cases - marketplace: US - asin: B0H36PPZHM - sku: B0H36PPZHM - manifest_path: /root/.hermes/shared/produ…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36PPZHM-20260708-170952 - project_id: B0H36PPZHM - product_name: COOVOAMAE Photo Storage Box 4x6, Clear, 6 Inner Cases - marketplace: US - asin: B0H36PPZHM - sku: B0H36PPZHM - manifest_path: /root/.hermes/shared/produ…",
+      "completed_at": 1783501922,
+      "created_at": 1783501793,
+      "created_by": "coovoamae-crm",
+      "id": "t_03d93b9b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783501794,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36PPZHM -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783501922,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_03d93b9b"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -728,24 +746,6 @@
       "title": "[Product Asset Handoff] coovoa-20260624-portable-cigar-humidor-case -> Dangdang Listing/A+ precheck",
       "updated_at": 1782296804,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_96abb094"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260624-171823 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260624-171823 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "completed_at": 1782292795,
-      "created_at": 1782292704,
-      "created_by": "coovoamae-crm",
-      "id": "t_1e9e0b5a",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782292704,
-      "status": "done",
-      "title": "[Product Asset Handoff] coovoa-20260624-portable-cigar-humidor-case -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782292795,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_1e9e0b5a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -753,12 +753,12 @@
     "active": 0,
     "archived": 100,
     "blocked": 2,
-    "done": 669,
+    "done": 670,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 771,
+    "total": 772,
     "triage": 0
   },
   "tasks": [
@@ -12839,6 +12839,24 @@
       "title": "[Product Asset Handoff] coovoa-20260625-cigar-case-7ct -> Dangdang Listing/A+ precheck",
       "updated_at": 1782394518,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_70c866f2"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36PPZHM-20260708-170952 - project_id: B0H36PPZHM - product_name: COOVOAMAE Photo Storage Box 4x6, Clear, 6 Inner Cases - marketplace: US - asin: B0H36PPZHM - sku: B0H36PPZHM - manifest_path: /root/.hermes/shared/produ…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36PPZHM-20260708-170952 - project_id: B0H36PPZHM - product_name: COOVOAMAE Photo Storage Box 4x6, Clear, 6 Inner Cases - marketplace: US - asin: B0H36PPZHM - sku: B0H36PPZHM - manifest_path: /root/.hermes/shared/produ…",
+      "completed_at": 1783501922,
+      "created_at": 1783501793,
+      "created_by": "coovoamae-crm",
+      "id": "t_03d93b9b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783501794,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36PPZHM -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783501922,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_03d93b9b"
     }
   ]
 }
