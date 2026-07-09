@@ -100,7 +100,7 @@
     },
     {
       "counts": {
-        "archived": 59,
+        "archived": 60,
         "blocked": 4,
         "done": 82
       },
@@ -239,8 +239,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783587601,
-  "generated_at_iso": "2026-07-09T17:00:01+08:00",
+  "generated_at": 1783591201,
+  "generated_at_iso": "2026-07-09T18:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -787,14 +787,14 @@
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 0,
-    "archived": 100,
+    "archived": 101,
     "blocked": 4,
     "done": 675,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 779,
+    "total": 780,
     "triage": 0
   },
   "tasks": [
