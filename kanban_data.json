@@ -67,7 +67,7 @@
     },
     {
       "counts": {
-        "done": 3
+        "done": 4
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -92,7 +92,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 10
+        "done": 11
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -102,16 +102,16 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 0,
-      "done": 7,
+      "done": 8,
       "running": 0,
-      "total": 7
+      "total": 8
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 22,
+      "done": 23,
       "running": 0,
-      "total": 22
+      "total": 23
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -221,10 +221,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783569602,
-  "generated_at_iso": "2026-07-09T12:00:02+08:00",
+  "generated_at": 1783573201,
+  "generated_at_iso": "2026-07-09T13:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "用户刘希在 2026-07-09 当前 Codex 线程已明确确认：你可以推给广告投放师，并告诉他问题，让他继续创建广告。 问题根因：上一轮 Photo Box Plan A 创建广告失败，不是广告账户错，也不是 ASIN 本身不可投，而是脚本里 3 个 SKU 大小写写错。Amazon SP-API listing SKU 是大小写敏感的；错误 SKU 查询返回 404，导致 Ads 创建 Product Ad 阶段 ad ineligible。 已修复脚本：/root/coovoamae_ads_daily/scripts/create_photo_box_plan_a_campaign…",
+      "body_preview": "用户刘希在 2026-07-09 当前 Codex 线程已明确确认：你可以推给广告投放师，并告诉他问题，让他继续创建广告。 问题根因：上一轮 Photo Box Plan A 创建广告失败，不是广告账户错，也不是 ASIN 本身不可投，而是脚本里 3 个 SKU 大小写写错。Amazon SP-API listing SKU 是大小写敏感的；错误 SKU 查询返回 404，导致 Ads 创建 Product Ad 阶段 ad ineligible。 已修复脚本：/root/coovoamae_ads_daily/scripts/create_photo_box_plan_a_campaign…",
+      "completed_at": 1783572722,
+      "created_at": 1783572278,
+      "created_by": "codex",
+      "id": "t_3c6ffb97",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783572280,
+      "status": "done",
+      "title": "Continue Photo Box Plan A ads creation after SKU case fix",
+      "updated_at": 1783572722,
+      "workspace_path": "/root/coovoamae_ads_daily"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-120303 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-120303 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783569854,
+      "created_at": 1783569784,
+      "created_by": "coovoamae-crm",
+      "id": "t_76dd422b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783569785,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783569854,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_76dd422b"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
@@ -728,42 +764,6 @@
       "title": "[Product Asset Handoff] coovoa-20260625-cigar-case-7ct -> Dangdang Listing/A+ precheck",
       "updated_at": 1782394518,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_70c866f2"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260625-155404 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260625-155404 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "completed_at": 1782374209,
-      "created_at": 1782374045,
-      "created_by": "coovoamae-crm",
-      "id": "t_7dd5bfa7",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782374045,
-      "status": "done",
-      "title": "[Product Asset Handoff] coovoa-20260624-portable-cigar-humidor-case -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782374209,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_7dd5bfa7"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-user-confirmed-20260625-155418 - project_id: photo-storage-4x6-6box-20260621-user-confirmed - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifes…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-user-confirmed-20260625-155418 - project_id: photo-storage-4x6-6box-20260621-user-confirmed - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifes…",
-      "completed_at": 1782374167,
-      "created_at": 1782374061,
-      "created_by": "coovoamae-crm",
-      "id": "t_1f38594e",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782374063,
-      "status": "done",
-      "title": "[Product Asset Handoff] photo-storage-4x6-6box-20260621-user-confirmed -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782374167,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_1f38594e"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -771,12 +771,12 @@
     "active": 0,
     "archived": 100,
     "blocked": 3,
-    "done": 673,
+    "done": 675,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 776,
+    "total": 778,
     "triage": 0
   },
   "tasks": [
@@ -11185,6 +11185,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bcbb7094"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "用户刘希在 2026-07-09 当前 Codex 线程已明确确认：你可以推给广告投放师，并告诉他问题，让他继续创建广告。 问题根因：上一轮 Photo Box Plan A 创建广告失败，不是广告账户错，也不是 ASIN 本身不可投，而是脚本里 3 个 SKU 大小写写错。Amazon SP-API listing SKU 是大小写敏感的；错误 SKU 查询返回 404，导致 Ads 创建 Product Ad 阶段 ad ineligible。 已修复脚本：/root/coovoamae_ads_daily/scripts/create_photo_box_plan_a_campaign…",
+      "body_preview": "用户刘希在 2026-07-09 当前 Codex 线程已明确确认：你可以推给广告投放师，并告诉他问题，让他继续创建广告。 问题根因：上一轮 Photo Box Plan A 创建广告失败，不是广告账户错，也不是 ASIN 本身不可投，而是脚本里 3 个 SKU 大小写写错。Amazon SP-API listing SKU 是大小写敏感的；错误 SKU 查询返回 404，导致 Ads 创建 Product Ad 阶段 ad ineligible。 已修复脚本：/root/coovoamae_ads_daily/scripts/create_photo_box_plan_a_campaign…",
+      "completed_at": 1783572722,
+      "created_at": 1783572278,
+      "created_by": "codex",
+      "id": "t_3c6ffb97",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783572280,
+      "status": "done",
+      "title": "Continue Photo Box Plan A ads creation after SKU case fix",
+      "updated_at": 1783572722,
+      "workspace_path": "/root/coovoamae_ads_daily"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -12947,6 +12965,24 @@
       "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
       "updated_at": 1783566720,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_a8d96f6b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-120303 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-120303 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783569854,
+      "created_at": 1783569784,
+      "created_by": "coovoamae-crm",
+      "id": "t_76dd422b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783569785,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783569854,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_76dd422b"
     }
   ]
 }
