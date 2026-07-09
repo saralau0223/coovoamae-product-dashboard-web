@@ -38,22 +38,22 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
     },
     {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
-      "body_preview": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
+      "body_preview": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
       "completed_at": null,
-      "created_at": 1783586234,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_edfaaf14",
+      "created_at": 1783595411,
+      "created_by": "coovoamae-crm",
+      "id": "t_84ecdc5d",
       "priority": 80,
       "result": "",
-      "started_at": 1783586234,
+      "started_at": 1783595412,
       "status": "blocked",
-      "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
-      "updated_at": 1783586234,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
+      "title": "[Butterfly -> Ads Manager] B0GF1KXKJC SB black eye-mask custom images ready for launch",
+      "updated_at": 1783595412,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_84ecdc5d"
     },
     {
       "assignee": "coovoamae-crm",
@@ -85,6 +85,7 @@
     },
     {
       "counts": {
+        "blocked": 1,
         "done": 4
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -101,8 +102,8 @@
     {
       "counts": {
         "archived": 60,
-        "blocked": 4,
-        "done": 82
+        "blocked": 3,
+        "done": 83
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -119,10 +120,10 @@
   "by_agent": {
     "coovoamae-ads-manager": {
       "active": 0,
-      "blocked": 0,
+      "blocked": 1,
       "done": 8,
       "running": 0,
-      "total": 8
+      "total": 9
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -147,8 +148,8 @@
     },
     "coovoamae-crm": {
       "active": 0,
-      "blocked": 4,
-      "done": 83,
+      "blocked": 3,
+      "done": 84,
       "running": 0,
       "total": 87
     },
@@ -239,10 +240,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783594801,
-  "generated_at_iso": "2026-07-09T19:00:01+08:00",
+  "generated_at": 1783598401,
+  "generated_at_iso": "2026-07-09T20:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "body_preview": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "completed_at": 1783595286,
+      "created_at": 1783586234,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_edfaaf14",
+      "priority": 80,
+      "result": "Delivered 2 QA-passed black heated eye mask SB custom images (1200x628 JPG), v3a recommended first-test.",
+      "started_at": 1783586234,
+      "status": "done",
+      "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
+      "updated_at": 1783595286,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -764,24 +783,6 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260626",
       "updated_at": 1782439557,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_ce01e113"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260625-cigar-case-7ct-20260625-213401 - project_id: coovoa-20260625-cigar-case-7ct - product_name: - marketplace: - asin: - sku: CIGAR-CASE-BR-7CT - manifest_path: /root/.hermes/shared/product-assets/coovoa-2026…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260625-cigar-case-7ct-20260625-213401 - project_id: coovoa-20260625-cigar-case-7ct - product_name: - marketplace: - asin: - sku: CIGAR-CASE-BR-7CT - manifest_path: /root/.hermes/shared/product-assets/coovoa-2026…",
-      "completed_at": 1782394518,
-      "created_at": 1782394443,
-      "created_by": "coovoamae-crm",
-      "id": "t_70c866f2",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782394443,
-      "status": "done",
-      "title": "[Product Asset Handoff] coovoa-20260625-cigar-case-7ct -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782394518,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_70c866f2"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -789,12 +790,12 @@
     "active": 0,
     "archived": 101,
     "blocked": 4,
-    "done": 675,
+    "done": 676,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 780,
+    "total": 781,
     "triage": 0
   },
   "tasks": [
@@ -11221,6 +11222,24 @@
       "workspace_path": "/root/coovoamae_ads_daily"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
+      "body_preview": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
+      "completed_at": null,
+      "created_at": 1783595411,
+      "created_by": "coovoamae-crm",
+      "id": "t_84ecdc5d",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783595412,
+      "status": "blocked",
+      "title": "[Butterfly -> Ads Manager] B0GF1KXKJC SB black eye-mask custom images ready for launch",
+      "updated_at": 1783595412,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_84ecdc5d"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -12702,16 +12721,16 @@
       "board_name": "COOVOAMAE Design Requests",
       "body": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
       "body_preview": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
-      "completed_at": null,
+      "completed_at": 1783595286,
       "created_at": 1783586234,
       "created_by": "coovoamae-ads-manager",
       "id": "t_edfaaf14",
       "priority": 80,
-      "result": "",
+      "result": "Delivered 2 QA-passed black heated eye mask SB custom images (1200x628 JPG), v3a recommended first-test.",
       "started_at": 1783586234,
-      "status": "blocked",
+      "status": "done",
       "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
-      "updated_at": 1783586234,
+      "updated_at": 1783595286,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
     },
     {
