@@ -1,5 +1,6 @@
 {
-  "active": [
+  "active": [],
+  "blocked": [
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -13,13 +14,11 @@
       "priority": 100,
       "result": "",
       "started_at": 1783565090,
-      "status": "running",
+      "status": "blocked",
       "title": "[Dangdang -> Butterfly] B0H36PPZHM Premium A+ rework after Seller preview QA failure",
       "updated_at": 1783565090,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_beaaedee"
-    }
-  ],
-  "blocked": [
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -84,9 +83,8 @@
     {
       "counts": {
         "archived": 59,
-        "blocked": 2,
-        "done": 82,
-        "running": 1
+        "blocked": 3,
+        "done": 82
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -94,7 +92,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 8
+        "done": 10
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -111,9 +109,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 20,
+      "done": 22,
       "running": 0,
-      "total": 20
+      "total": 22
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -130,10 +128,10 @@
       "total": 27
     },
     "coovoamae-crm": {
-      "active": 1,
-      "blocked": 2,
+      "active": 0,
+      "blocked": 3,
       "done": 83,
-      "running": 1,
+      "running": 0,
       "total": 86
     },
     "coovoamae-crow-qc": {
@@ -223,10 +221,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783566001,
-  "generated_at_iso": "2026-07-09T11:00:01+08:00",
+  "generated_at": 1783569602,
+  "generated_at_iso": "2026-07-09T12:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-111001 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-111001 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783566720,
+      "created_at": 1783566602,
+      "created_by": "coovoamae-crm",
+      "id": "t_a8d96f6b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783566603,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783566720,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_a8d96f6b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-110926 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-110926 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783566673,
+      "created_at": 1783566567,
+      "created_by": "coovoamae-crm",
+      "id": "t_3cbfa5c6",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783566567,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783566673,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_3cbfa5c6"
+    },
     {
       "assignee": "coovoamae-luming",
       "board": "default",
@@ -730,55 +764,19 @@
       "title": "[Product Asset Handoff] photo-storage-4x6-6box-20260621-user-confirmed -> Dangdang Listing/A+ precheck",
       "updated_at": 1782374167,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_1f38594e"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-20260625-155406 - project_id: photo-storage-4x6-6box-20260621 - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifest_path: /root/.hermes/shared/p…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: photo-storage-4x6-6box-20260621-20260625-155406 - project_id: photo-storage-4x6-6box-20260621 - product_name: 4x6 6-Box Photo Storage Organizer - marketplace: Amazon - asin: - sku: - manifest_path: /root/.hermes/shared/p…",
-      "completed_at": 1782374143,
-      "created_at": 1782374048,
-      "created_by": "coovoamae-crm",
-      "id": "t_f0547f33",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782374048,
-      "status": "done",
-      "title": "[Product Asset Handoff] photo-storage-4x6-6box-20260621 -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782374143,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_f0547f33"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "body_preview": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "completed_at": 1782353149,
-      "created_at": 1782352879,
-      "created_by": "user",
-      "id": "t_18722ae6",
-      "priority": 30,
-      "result": "",
-      "started_at": 1782352879,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260625",
-      "updated_at": 1782353149,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_18722ae6"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 1,
+    "active": 0,
     "archived": 100,
-    "blocked": 2,
-    "done": 671,
+    "blocked": 3,
+    "done": 673,
     "pending": 0,
     "ready": 0,
-    "running": 1,
+    "running": 0,
     "todo": 0,
-    "total": 774,
+    "total": 776,
     "triage": 0
   },
   "tasks": [
@@ -11847,7 +11845,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1783565090,
-      "status": "running",
+      "status": "blocked",
       "title": "[Dangdang -> Butterfly] B0H36PPZHM Premium A+ rework after Seller preview QA failure",
       "updated_at": 1783565090,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_beaaedee"
@@ -12913,6 +12911,42 @@
       "title": "[Product Asset Handoff] B0H36PPZHM -> Dangdang Listing/A+ precheck",
       "updated_at": 1783501922,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_03d93b9b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-110926 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-110926 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783566673,
+      "created_at": 1783566567,
+      "created_by": "coovoamae-crm",
+      "id": "t_3cbfa5c6",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783566567,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783566673,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_3cbfa5c6"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-111001 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H36RKCRS-20260709-111001 - project_id: B0H36RKCRS - product_name: COOVOAMAE Photo Storage Box 4x6, 16 Inner Cases, Frosted Translucent Clear/White Plastic - marketplace: US - asin: B0H36RKCRS - sku: B0H36RKCRS - manife…",
+      "completed_at": 1783566720,
+      "created_at": 1783566602,
+      "created_by": "coovoamae-crm",
+      "id": "t_a8d96f6b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783566603,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783566720,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_a8d96f6b"
     }
   ]
 }
