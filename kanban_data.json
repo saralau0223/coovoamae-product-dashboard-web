@@ -1,5 +1,24 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260709T024449Z-b0h36ppzhm-premium-a-rework-after--c53e05c1 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260709T024449Z-b0h36ppzhm-premium-a-rework-after--c53e05c1 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783565090,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_beaaedee",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783565090,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] B0H36PPZHM Premium A+ rework after Seller preview QA failure",
+      "updated_at": 1783565090,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_beaaedee"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -42,7 +61,7 @@
     {
       "counts": {
         "archived": 38,
-        "done": 574
+        "done": 575
       },
       "name": "Default",
       "slug": "default"
@@ -66,7 +85,8 @@
       "counts": {
         "archived": 59,
         "blocked": 2,
-        "done": 82
+        "done": 82,
+        "running": 1
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -110,11 +130,11 @@
       "total": 27
     },
     "coovoamae-crm": {
-      "active": 0,
+      "active": 1,
       "blocked": 2,
       "done": 83,
-      "running": 0,
-      "total": 85
+      "running": 1,
+      "total": 86
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -161,9 +181,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 144,
+      "done": 145,
       "running": 0,
-      "total": 144
+      "total": 145
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -203,10 +223,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783562402,
-  "generated_at_iso": "2026-07-09T10:00:02+08:00",
+  "generated_at": 1783566001,
+  "generated_at_iso": "2026-07-09T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-09 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-09 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783562678,
+      "created_at": 1783562491,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_5a1c2045",
+      "priority": 0,
+      "result": "",
+      "started_at": 1783562492,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-09 10:00",
+      "updated_at": 1783562678,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_5a1c2045"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
@@ -728,37 +766,19 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260625",
       "updated_at": 1782353149,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_18722ae6"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260624-182444 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260624-portable-cigar-humidor-case-20260624-182444 - project_id: coovoa-20260624-portable-cigar-humidor-case - product_name: COOVOA Portable Cigar Humidor Case - marketplace: Amazon US - asin: - sku: - manifest_…",
-      "completed_at": 1782296804,
-      "created_at": 1782296685,
-      "created_by": "coovoamae-crm",
-      "id": "t_96abb094",
-      "priority": 100,
-      "result": "",
-      "started_at": 1782296685,
-      "status": "done",
-      "title": "[Product Asset Handoff] coovoa-20260624-portable-cigar-humidor-case -> Dangdang Listing/A+ precheck",
-      "updated_at": 1782296804,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_96abb094"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 100,
     "blocked": 2,
-    "done": 670,
+    "done": 671,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 772,
+    "total": 774,
     "triage": 0
   },
   "tasks": [
@@ -11095,6 +11115,24 @@
       "workspace_path": "/root/.hermes/kanban/workspaces/t_4c3ae019"
     },
     {
+      "assignee": "coovoamae-luming",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-09 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-09 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
+      "completed_at": 1783562678,
+      "created_at": 1783562491,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_5a1c2045",
+      "priority": 0,
+      "result": "",
+      "started_at": 1783562492,
+      "status": "done",
+      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-09 10:00",
+      "updated_at": 1783562678,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_5a1c2045"
+    },
+    {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -11795,6 +11833,24 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
       "updated_at": 1783316946,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260709T024449Z-b0h36ppzhm-premium-a-rework-after--c53e05c1 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260709T024449Z-b0h36ppzhm-premium-a-rework-after--c53e05c1 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783565090,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_beaaedee",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783565090,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] B0H36PPZHM Premium A+ rework after Seller preview QA failure",
+      "updated_at": 1783565090,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_beaaedee"
     },
     {
       "assignee": "coovoamae-crm",
