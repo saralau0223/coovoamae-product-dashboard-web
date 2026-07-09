@@ -41,6 +41,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "body_preview": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "completed_at": null,
+      "created_at": 1783586234,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_edfaaf14",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783586234,
+      "status": "blocked",
+      "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
+      "updated_at": 1783586234,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
       "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260708T045011Z-b0h36rkcrs-photo-storage-box-4x6-l-b3729313 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
       "completed_at": null,
@@ -83,7 +101,7 @@
     {
       "counts": {
         "archived": 59,
-        "blocked": 3,
+        "blocked": 4,
         "done": 82
       },
       "name": "COOVOAMAE Design Requests",
@@ -129,10 +147,10 @@
     },
     "coovoamae-crm": {
       "active": 0,
-      "blocked": 3,
+      "blocked": 4,
       "done": 83,
       "running": 0,
-      "total": 86
+      "total": 87
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -221,8 +239,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783584001,
-  "generated_at_iso": "2026-07-09T16:00:01+08:00",
+  "generated_at": 1783587601,
+  "generated_at_iso": "2026-07-09T17:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -770,13 +788,13 @@
   "summary": {
     "active": 0,
     "archived": 100,
-    "blocked": 3,
+    "blocked": 4,
     "done": 675,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 778,
+    "total": 779,
     "triage": 0
   },
   "tasks": [
@@ -12677,6 +12695,24 @@
       "title": "[Dangdang -> Butterfly] 补齐 B0H36RKCRS Photo Storage Box 4x6 Listing 图片/A+素材",
       "updated_at": 1783486212,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ef2d67e9"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "body_preview": "Ads Manager created this structured design request for Butterfly. ## Request - request_id: ads-manager-butterfly-20260709T083713Z-sb-heated-eye-mask-warm-compre-ea364666 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/ads-manager-butterfly…",
+      "completed_at": null,
+      "created_at": 1783586234,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_edfaaf14",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783586234,
+      "status": "blocked",
+      "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
+      "updated_at": 1783586234,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
     },
     {
       "assignee": "coovoamae-crm",
