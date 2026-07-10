@@ -118,7 +118,7 @@
     },
     {
       "counts": {
-        "done": 1
+        "done": 2
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -170,9 +170,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 0,
-      "done": 61,
+      "done": 62,
       "running": 0,
-      "total": 61
+      "total": 62
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -247,10 +247,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783670401,
-  "generated_at_iso": "2026-07-10T16:00:01+08:00",
+  "generated_at": 1783674002,
+  "generated_at_iso": "2026-07-10T17:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T083421Z-christmas-ornament-storage-box-ama-1e5c1e5c - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T083421Z-christmas-ornament-storage-box-ama-1e5c1e5c - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "completed_at": 1783673094,
+      "created_at": 1783672462,
+      "created_by": "coovoamae-crm",
+      "id": "t_a6afd950",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783672463,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] Christmas ornament storage box Amazon image suite selling-point check",
+      "updated_at": 1783673094,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a6afd950"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -772,24 +790,6 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260701",
       "updated_at": 1782871453,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_45d1986d"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "body_preview": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "completed_at": 1782698676,
-      "created_at": 1782698512,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_9a8c3d40",
-      "priority": 0,
-      "result": "",
-      "started_at": 1782698513,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260629",
-      "updated_at": 1782698676,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_9a8c3d40"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -797,12 +797,12 @@
     "active": 0,
     "archived": 101,
     "blocked": 4,
-    "done": 678,
+    "done": 679,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 783,
+    "total": 784,
     "triage": 0
   },
   "tasks": [
@@ -13081,6 +13081,24 @@
       "title": "[Butterfly -> Eagle Intel] 高级可折叠圣诞装饰球收纳箱 Amazon 套图卖点情报",
       "updated_at": 1783657980,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_8ad5f341"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T083421Z-christmas-ornament-storage-box-ama-1e5c1e5c - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T083421Z-christmas-ornament-storage-box-ama-1e5c1e5c - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "completed_at": 1783673094,
+      "created_at": 1783672462,
+      "created_by": "coovoamae-crm",
+      "id": "t_a6afd950",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783672463,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] Christmas ornament storage box Amazon image suite selling-point check",
+      "updated_at": 1783673094,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a6afd950"
     }
   ]
 }
