@@ -111,7 +111,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 11
+        "done": 13
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -135,9 +135,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 23,
+      "done": 25,
       "running": 0,
-      "total": 23
+      "total": 25
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -247,10 +247,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783677601,
-  "generated_at_iso": "2026-07-10T18:00:01+08:00",
+  "generated_at": 1783681201,
+  "generated_at_iso": "2026-07-10T19:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181402 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181402 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "completed_at": 1783678650,
+      "created_at": 1783678443,
+      "created_by": "coovoamae-crm",
+      "id": "t_26db782b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783678444,
+      "status": "done",
+      "title": "[Product Asset Handoff] christmas-ornament-storage-20260710 -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783678650,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_26db782b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181342 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181342 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "completed_at": 1783678556,
+      "created_at": 1783678423,
+      "created_by": "coovoamae-crm",
+      "id": "t_7b5979fa",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783678423,
+      "status": "done",
+      "title": "[Product Asset Handoff] christmas-ornament-storage-20260710 -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783678556,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_7b5979fa"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -754,42 +790,6 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260703",
       "updated_at": 1783044282,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_187da22e"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "背景：这是总管家 2026-07-02 10:00 后台巡检派给鹿鸣的低风险跟进任务。飞书主表是唯一主入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只做飞书产品数据表格缺口巡检、字段QA和本地产物沉淀；如发现仍缺字段，输出“缺字段→建议路由 agent→是否权限/额度类阻塞→是否 24h 内已有同类任务”的最小清单，避免重复派单。 必须遵守： 1) 只围绕第一阶段链路：鹰眼官方需求、H10市场/竞品、客户洞察VOC、猫头鹰产品定义、白泽复审、鹿鸣飞书回写/字段QA。 2) 不派供应链/财神爷/织…",
-      "body_preview": "背景：这是总管家 2026-07-02 10:00 后台巡检派给鹿鸣的低风险跟进任务。飞书主表是唯一主入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只做飞书产品数据表格缺口巡检、字段QA和本地产物沉淀；如发现仍缺字段，输出“缺字段→建议路由 agent→是否权限/额度类阻塞→是否 24h 内已有同类任务”的最小清单，避免重复派单。 必须遵守： 1) 只围绕第一阶段链路：鹰眼官方需求、H10市场/竞品、客户洞察VOC、猫头鹰产品定义、白泽复审、鹿鸣飞书回写/字段QA。 2) 不派供应链/财神爷/织…",
-      "completed_at": 1782957813,
-      "created_at": 1782957689,
-      "created_by": "coovoamae-chief-cron",
-      "id": "t_d97115f4",
-      "priority": 60,
-      "result": "",
-      "started_at": 1782957694,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260702",
-      "updated_at": 1782957813,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_d97115f4"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "背景：COOVOAMAE 总管家10:00后台巡检。飞书主表（唯一主入口）：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc。 任务：请只读/轻量检查飞书产品数据表格中第一阶段链路字段缺口，重点看仍需补：鹰眼官方需求、H10市场/竞品、客户洞察VOC、猫头鹰产品定义、白泽复审、鹿鸣飞书回写QA。 要求： 1) 先检查已有任务/近24h产物，避免重复派单；不要启动供应链/财神爷/织页。 2) 若飞书API写入/读取 Forbidden，停止上游重复采集，在本地输出缺口清单并标明“飞书写权限阻塞”。 3) H10额…",
-      "body_preview": "背景：COOVOAMAE 总管家10:00后台巡检。飞书主表（唯一主入口）：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc。 任务：请只读/轻量检查飞书产品数据表格中第一阶段链路字段缺口，重点看仍需补：鹰眼官方需求、H10市场/竞品、客户洞察VOC、猫头鹰产品定义、白泽复审、鹿鸣飞书回写QA。 要求： 1) 先检查已有任务/近24h产物，避免重复派单；不要启动供应链/财神爷/织页。 2) 若飞书API写入/读取 Forbidden，停止上游重复采集，在本地输出缺口清单并标明“飞书写权限阻塞”。 3) H10额…",
-      "completed_at": 1782871453,
-      "created_at": 1782871294,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_45d1986d",
-      "priority": 0,
-      "result": "",
-      "started_at": 1782871295,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260701",
-      "updated_at": 1782871453,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_45d1986d"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -797,12 +797,12 @@
     "active": 0,
     "archived": 101,
     "blocked": 4,
-    "done": 679,
+    "done": 681,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 784,
+    "total": 786,
     "triage": 0
   },
   "tasks": [
@@ -13063,6 +13063,42 @@
       "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
       "updated_at": 1783569854,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_76dd422b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181342 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181342 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "completed_at": 1783678556,
+      "created_at": 1783678423,
+      "created_by": "coovoamae-crm",
+      "id": "t_7b5979fa",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783678423,
+      "status": "done",
+      "title": "[Product Asset Handoff] christmas-ornament-storage-20260710 -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783678556,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_7b5979fa"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181402 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片后台交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: christmas-ornament-storage-20260710-20260710-181402 - project_id: christmas-ornament-storage-20260710 - product_name: Christmas Ornament Storage Box - marketplace: Amazon US - asin: - sku: - manifest_path: /root/.hermes/…",
+      "completed_at": 1783678650,
+      "created_at": 1783678443,
+      "created_by": "coovoamae-crm",
+      "id": "t_26db782b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783678444,
+      "status": "done",
+      "title": "[Product Asset Handoff] christmas-ornament-storage-20260710 -> Dangdang Listing/A+ precheck",
+      "updated_at": 1783678650,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_26db782b"
     },
     {
       "assignee": "coovoamae-eagle-eye",
