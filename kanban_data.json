@@ -115,6 +115,13 @@
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
+    },
+    {
+      "counts": {
+        "done": 1
+      },
+      "name": "COOVOAMAE Product Intelligence Requests",
+      "slug": "coovoamae-product-intel"
     }
   ],
   "by_agent": {
@@ -163,9 +170,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 0,
-      "done": 60,
+      "done": 61,
       "running": 0,
-      "total": 60
+      "total": 61
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -240,10 +247,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783656001,
-  "generated_at_iso": "2026-07-10T12:00:01+08:00",
+  "generated_at": 1783659601,
+  "generated_at_iso": "2026-07-10T13:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T042258Z-amazon-946fbfe1 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/butterfly-eagl…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T042258Z-amazon-946fbfe1 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/butterfly-eagl…",
+      "completed_at": 1783657980,
+      "created_at": 1783657379,
+      "created_by": "coovoamae-crm",
+      "id": "t_8ad5f341",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783657380,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] 高级可折叠圣诞装饰球收纳箱 Amazon 套图卖点情报",
+      "updated_at": 1783657980,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_8ad5f341"
+    },
     {
       "assignee": "coovoamae-luming",
       "board": "default",
@@ -765,24 +790,6 @@
       "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260629",
       "updated_at": 1782698676,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_9a8c3d40"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "body_preview": "【方舟后台巡检派单｜第一阶段飞书产品数据缺口QA】 主表唯一入口：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：只读/低风险复核飞书主表中第一阶段产品开发相关页签的仍缺字段，并判断是否存在“非权限/非额度/非人工验证”的新缺口，需要方舟继续窄派鹰眼/H10/VOC/猫头鹰/白泽。 范围： - 只围绕第一阶段链路：官方需求、H10市场/竞品、VOC、产品定义、白泽审核、飞书字段QA。 - 不默认处理供应链、利润、Listing、广告、上架、图片、网页代码。 - 如飞书 API Forbidden：不要重…",
-      "completed_at": 1782612333,
-      "created_at": 1782612072,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_7f924ecb",
-      "priority": 0,
-      "result": "",
-      "started_at": 1782612075,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260628",
-      "updated_at": 1782612333,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_7f924ecb"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -790,12 +797,12 @@
     "active": 0,
     "archived": 101,
     "blocked": 4,
-    "done": 677,
+    "done": 678,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 782,
+    "total": 783,
     "triage": 0
   },
   "tasks": [
@@ -13056,6 +13063,24 @@
       "title": "[Product Asset Handoff] B0H36RKCRS -> Dangdang Listing/A+ precheck",
       "updated_at": 1783569854,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_76dd422b"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T042258Z-amazon-946fbfe1 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/butterfly-eagl…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260710T042258Z-amazon-946fbfe1 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/butterfly-eagl…",
+      "completed_at": 1783657980,
+      "created_at": 1783657379,
+      "created_by": "coovoamae-crm",
+      "id": "t_8ad5f341",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783657380,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] 高级可折叠圣诞装饰球收纳箱 Amazon 套图卖点情报",
+      "updated_at": 1783657980,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_8ad5f341"
     }
   ]
 }
