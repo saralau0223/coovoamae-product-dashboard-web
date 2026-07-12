@@ -86,7 +86,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 4
+        "done": 5
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -94,10 +94,17 @@
     {
       "counts": {
         "archived": 1,
-        "done": 3
+        "done": 4
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
+    },
+    {
+      "counts": {
+        "done": 2
+      },
+      "name": "COOVOAMAE COO Control Tower",
+      "slug": "coovoamae-coo"
     },
     {
       "counts": {
@@ -128,16 +135,16 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 8,
+      "done": 9,
       "running": 0,
-      "total": 9
+      "total": 10
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 25,
+      "done": 26,
       "running": 0,
-      "total": 25
+      "total": 26
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -149,9 +156,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 27,
+      "done": 28,
       "running": 0,
-      "total": 27
+      "total": 28
     },
     "coovoamae-crm": {
       "active": 0,
@@ -205,9 +212,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 146,
+      "done": 147,
       "running": 0,
-      "total": 146
+      "total": 147
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -247,10 +254,82 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783821601,
-  "generated_at_iso": "2026-07-12T10:00:01+08:00",
+  "generated_at": 1783825201,
+  "generated_at_iso": "2026-07-12T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
+      "completed_at": 1783824876,
+      "created_at": 1783824575,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_187b7e7a",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783824575,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
+      "updated_at": 1783824876,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_187b7e7a"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
+      "completed_at": 1783824599,
+      "created_at": 1783824178,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_4a355983",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783824178,
+      "status": "done",
+      "title": "[Cross-lane Advice: Ads->Dangdang] Photo storage box variants",
+      "updated_at": 1783824599,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4a355983"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
+      "completed_at": 1783822171,
+      "created_at": 1783821756,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_65067fdd",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783822077,
+      "status": "done",
+      "title": "方舟验收｜20260712飞书产品开发缺口巡检",
+      "updated_at": 1783822171,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_65067fdd"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
+      "completed_at": 1783822076,
+      "created_at": 1783821755,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_010decd1",
+      "priority": 120,
+      "result": "",
+      "started_at": 1783821756,
+      "status": "done",
+      "title": "20260712巡检｜飞书产品主表03单品卡与Stage-1缺口QA",
+      "updated_at": 1783822076,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_010decd1"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
@@ -718,78 +797,6 @@
       "title": "[Lion -> Ads Manager] P0｜眼罩 B0GF1KXKJC 广告救量：高意图词预算/结构/出价预检与执行清单",
       "updated_at": 1783298732,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_061c7513"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260706T002111Z-b0gf1kxkjc-coupon-6999789e - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260706T002111Z-b0gf1kxkjc-coupon-6999789e - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
-      "completed_at": 1783297826,
-      "created_at": 1783297272,
-      "created_by": "coovoamae-lion",
-      "id": "t_d8d9452d",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783297272,
-      "status": "done",
-      "title": "[Lion -> Dangdang] 眼罩 B0GF1KXKJC 前台转化预检 + Coupon可行性确认",
-      "updated_at": 1783297826,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d8d9452d"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-05 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
-      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。本轮为 2026-07-05 10:00 巡检。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录…",
-      "completed_at": 1783217221,
-      "created_at": 1783216927,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_6bffaea3",
-      "priority": 3,
-      "result": "",
-      "started_at": 1783216927,
-      "status": "done",
-      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-05 10:00",
-      "updated_at": 1783217221,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_6bffaea3"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录阻塞，只标记缺口，不重复空跑 - 客户洞察：VO…",
-      "body_preview": "# 鹿鸣飞书产品数据缺口巡检（Stage-1 only） 主表：https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 目标：白天持续跟进飞书产品数据表格缺口。请读取飞书主表/可访问页签，输出当前缺字段、状态行、owner分布和与上一轮差异；如能写回，则只写缺口标记/QA状态，不覆盖已有业务数据。 范围只限第一阶段链路： - 鹰眼：Amazon官方需求/ABA/SP-API/POE/SQP来源标注 - H10：市场/竞品；若额度/授权/Review workbook登录阻塞，只标记缺口，不重复空跑 - 客户洞察：VO…",
-      "completed_at": 1783130618,
-      "created_at": 1783130483,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_4fdb7892",
-      "priority": 3,
-      "result": "",
-      "started_at": 1783130485,
-      "status": "done",
-      "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-04 10:00",
-      "updated_at": 1783130618,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_4fdb7892"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "default",
-      "board_name": "Default",
-      "body": "固定背景：飞书主表 https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 是唯一主入口。 任务：执行 2026-07-03 10:00 后台巡检，只做第一阶段产品数据缺口 QA 与最小写回/产物，不跑供应链/财神爷/织页，不外联、不询价、不索样、不下单、不付款、不改后台。 请按以下边界执行： 1. 读取飞书主表相关页签，围绕第一阶段链路字段：鹰眼官方需求、H10市场/竞品、VOC、猫头鹰产品定义、白泽审核、鹿鸣表格回写/字段QA。 2. 与上一轮 t_d97115f4（20260702）产物对比：是否有新增行、新增…",
-      "body_preview": "固定背景：飞书主表 https://bcn9zhmj0ib7.feishu.cn/sheets/JMW5sATAkhxy8DtTGsAcyesdnOc 是唯一主入口。 任务：执行 2026-07-03 10:00 后台巡检，只做第一阶段产品数据缺口 QA 与最小写回/产物，不跑供应链/财神爷/织页，不外联、不询价、不索样、不下单、不付款、不改后台。 请按以下边界执行： 1. 读取飞书主表相关页签，围绕第一阶段链路字段：鹰眼官方需求、H10市场/竞品、VOC、猫头鹰产品定义、白泽审核、鹿鸣表格回写/字段QA。 2. 与上一轮 t_d97115f4（20260702）产物对比：是否有新增行、新增…",
-      "completed_at": 1783044282,
-      "created_at": 1783044127,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_187da22e",
-      "priority": 60,
-      "result": "",
-      "started_at": 1783044127,
-      "status": "done",
-      "title": "10:00巡检｜鹿鸣飞书产品数据缺口QA 20260703",
-      "updated_at": 1783044282,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_187da22e"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -797,12 +804,12 @@
     "active": 0,
     "archived": 101,
     "blocked": 4,
-    "done": 681,
+    "done": 685,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 786,
+    "total": 790,
     "triage": 0
   },
   "tasks": [
@@ -11265,6 +11272,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_84ecdc5d"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
+      "completed_at": 1783824876,
+      "created_at": 1783824575,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_187b7e7a",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783824575,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
+      "updated_at": 1783824876,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_187b7e7a"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -11317,6 +11342,60 @@
       "title": "[Lion -> Dangdang] 相片/相框收纳盒 B0H36RKCRS 到货核查 + PDP/链接优化预检",
       "updated_at": 1783486331,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1150ade1"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
+      "completed_at": 1783824599,
+      "created_at": 1783824178,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_4a355983",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783824178,
+      "status": "done",
+      "title": "[Cross-lane Advice: Ads->Dangdang] Photo storage box variants",
+      "updated_at": 1783824599,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4a355983"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
+      "completed_at": 1783822076,
+      "created_at": 1783821755,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_010decd1",
+      "priority": 120,
+      "result": "",
+      "started_at": 1783821756,
+      "status": "done",
+      "title": "20260712巡检｜飞书产品主表03单品卡与Stage-1缺口QA",
+      "updated_at": 1783822076,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_010decd1"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
+      "completed_at": 1783822171,
+      "created_at": 1783821756,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_65067fdd",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783822077,
+      "status": "done",
+      "title": "方舟验收｜20260712飞书产品开发缺口巡检",
+      "updated_at": 1783822171,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_65067fdd"
     },
     {
       "assignee": "coovoamae-crm",
