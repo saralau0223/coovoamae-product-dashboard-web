@@ -1,5 +1,24 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "completed_at": null,
+      "created_at": 1783903520,
+      "created_by": "coovoamae-crm",
+      "id": "t_ee6cf4f3",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783903521,
+      "status": "running",
+      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
+      "updated_at": 1783903521,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -125,7 +144,8 @@
     },
     {
       "counts": {
-        "done": 2
+        "done": 2,
+        "running": 1
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -175,11 +195,11 @@
       "total": 3
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 62,
-      "running": 0,
-      "total": 62
+      "running": 1,
+      "total": 63
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -254,8 +274,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783900801,
-  "generated_at_iso": "2026-07-13T08:00:01+08:00",
+  "generated_at": 1783904402,
+  "generated_at_iso": "2026-07-13T09:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -801,15 +821,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 101,
     "blocked": 4,
     "done": 685,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 790,
+    "total": 791,
     "triage": 0
   },
   "tasks": [
@@ -13214,6 +13234,24 @@
       "title": "[Butterfly -> Eagle Intel] Christmas ornament storage box Amazon image suite selling-point check",
       "updated_at": 1783673094,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a6afd950"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "completed_at": null,
+      "created_at": 1783903520,
+      "created_by": "coovoamae-crm",
+      "id": "t_ee6cf4f3",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783903521,
+      "status": "running",
+      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
+      "updated_at": 1783903521,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
     }
   ]
 }
