@@ -38,6 +38,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
     },
     {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783935241,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_fc5aa2ad",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783935242,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] COOVOAMAE Amazon US Brand Story｜首版 Hero 视觉与素材 QA（蝴蝶）",
+      "updated_at": 1783935242,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fc5aa2ad"
+    },
+    {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
@@ -126,8 +144,8 @@
     },
     {
       "counts": {
-        "archived": 60,
-        "blocked": 3,
+        "archived": 61,
+        "blocked": 4,
         "done": 83
       },
       "name": "COOVOAMAE Design Requests",
@@ -181,10 +199,10 @@
     },
     "coovoamae-crm": {
       "active": 0,
-      "blocked": 3,
+      "blocked": 4,
       "done": 84,
       "running": 0,
-      "total": 87
+      "total": 88
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -273,8 +291,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783933201,
-  "generated_at_iso": "2026-07-13T17:00:01+08:00",
+  "generated_at": 1783936802,
+  "generated_at_iso": "2026-07-13T18:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -821,14 +839,14 @@
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 0,
-    "archived": 101,
-    "blocked": 5,
+    "archived": 102,
+    "blocked": 6,
     "done": 686,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 792,
+    "total": 794,
     "triage": 0
   },
   "tasks": [
@@ -12873,6 +12891,24 @@
       "title": "[Ads Manager -> Butterfly] 眼罩 SB 图片广告素材需求 - Heated Eye Mask Warm Compress",
       "updated_at": 1783595286,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_edfaaf14"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1783935241,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_fc5aa2ad",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783935242,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] COOVOAMAE Amazon US Brand Story｜首版 Hero 视觉与素材 QA（蝴蝶）",
+      "updated_at": 1783935242,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fc5aa2ad"
     },
     {
       "assignee": "coovoamae-crm",
