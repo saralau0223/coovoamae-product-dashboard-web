@@ -1,24 +1,5 @@
 {
-  "active": [
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
-      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
-      "completed_at": null,
-      "created_at": 1783911551,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_ec1513a9",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783911552,
-      "status": "running",
-      "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
-      "updated_at": 1783911552,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
-    }
-  ],
+  "active": [],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -131,8 +112,7 @@
     {
       "counts": {
         "archived": 1,
-        "done": 4,
-        "running": 1
+        "done": 5
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -179,10 +159,10 @@
       "total": 10
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
+      "active": 0,
       "blocked": 0,
-      "done": 26,
-      "running": 1,
+      "done": 27,
+      "running": 0,
       "total": 27
     },
     "coovoamae-bazi": {
@@ -293,10 +273,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783911601,
-  "generated_at_iso": "2026-07-13T11:00:01+08:00",
+  "generated_at": 1783915202,
+  "generated_at_iso": "2026-07-13T12:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
+      "completed_at": 1783911925,
+      "created_at": 1783911551,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_ec1513a9",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783911552,
+      "status": "done",
+      "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
+      "updated_at": 1783911925,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -818,35 +816,17 @@
       "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-06 10:00",
       "updated_at": 1783303695,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_ed7d8fc3"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260706T003742Z-p0-b0gf1kxkjc-9136a415 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manage…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260706T003742Z-p0-b0gf1kxkjc-9136a415 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manage…",
-      "completed_at": 1783298732,
-      "created_at": 1783298263,
-      "created_by": "coovoamae-lion",
-      "id": "t_061c7513",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783298264,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P0｜眼罩 B0GF1KXKJC 广告救量：高意图词预算/结构/出价预检与执行清单",
-      "updated_at": 1783298732,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_061c7513"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 1,
+    "active": 0,
     "archived": 101,
     "blocked": 5,
-    "done": 685,
+    "done": 686,
     "pending": 0,
     "ready": 0,
-    "running": 1,
+    "running": 0,
     "todo": 0,
     "total": 792,
     "triage": 0
@@ -11406,16 +11386,16 @@
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
       "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
-      "completed_at": null,
+      "completed_at": 1783911925,
       "created_at": 1783911551,
       "created_by": "coovoamae-ads-manager",
       "id": "t_ec1513a9",
       "priority": 80,
       "result": "",
       "started_at": 1783911552,
-      "status": "running",
+      "status": "done",
       "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
-      "updated_at": 1783911552,
+      "updated_at": 1783911925,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
     },
     {
