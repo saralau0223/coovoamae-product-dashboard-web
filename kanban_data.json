@@ -1,22 +1,22 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
       "completed_at": null,
-      "created_at": 1783903520,
-      "created_by": "coovoamae-crm",
-      "id": "t_ee6cf4f3",
+      "created_at": 1783911551,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_ec1513a9",
       "priority": 80,
       "result": "",
-      "started_at": 1783903521,
+      "started_at": 1783911552,
       "status": "running",
-      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
-      "updated_at": 1783903521,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
+      "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
+      "updated_at": 1783911552,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
     }
   ],
   "blocked": [
@@ -55,6 +55,24 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图七轮优化：保留P6-02袋子外观，重做电泵外观并严格预检",
       "updated_at": 1783316946,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f006e0f"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "completed_at": null,
+      "created_at": 1783903520,
+      "created_by": "coovoamae-crm",
+      "id": "t_ee6cf4f3",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783903521,
+      "status": "blocked",
+      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
+      "updated_at": 1783903521,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
     },
     {
       "assignee": "coovoamae-ads-manager",
@@ -113,7 +131,8 @@
     {
       "counts": {
         "archived": 1,
-        "done": 4
+        "done": 4,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -144,8 +163,8 @@
     },
     {
       "counts": {
-        "done": 2,
-        "running": 1
+        "blocked": 1,
+        "done": 2
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -160,11 +179,11 @@
       "total": 10
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 26,
-      "running": 0,
-      "total": 26
+      "running": 1,
+      "total": 27
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -195,10 +214,10 @@
       "total": 3
     },
     "coovoamae-eagle-eye": {
-      "active": 1,
-      "blocked": 0,
+      "active": 0,
+      "blocked": 1,
       "done": 62,
-      "running": 1,
+      "running": 0,
       "total": 63
     },
     "coovoamae-engineering-solidworks": {
@@ -274,8 +293,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783908001,
-  "generated_at_iso": "2026-07-13T10:00:01+08:00",
+  "generated_at": 1783911601,
+  "generated_at_iso": "2026-07-13T11:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -823,13 +842,13 @@
   "summary": {
     "active": 1,
     "archived": 101,
-    "blocked": 4,
+    "blocked": 5,
     "done": 685,
     "pending": 0,
     "ready": 0,
     "running": 1,
     "todo": 0,
-    "total": 791,
+    "total": 792,
     "triage": 0
   },
   "tasks": [
@@ -11382,6 +11401,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4a355983"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
+      "completed_at": null,
+      "created_at": 1783911551,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_ec1513a9",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783911552,
+      "status": "running",
+      "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
+      "updated_at": 1783911552,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
+    },
+    {
       "assignee": "coovoamae-luming",
       "board": "coovoamae-coo",
       "board_name": "COOVOAMAE COO Control Tower",
@@ -13248,7 +13285,7 @@
       "priority": 80,
       "result": "",
       "started_at": 1783903521,
-      "status": "running",
+      "status": "blocked",
       "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
       "updated_at": 1783903521,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
