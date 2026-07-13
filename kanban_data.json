@@ -1,5 +1,24 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
+      "body_preview": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
+      "completed_at": null,
+      "created_at": 1783937049,
+      "created_by": "coovoamae-crm",
+      "id": "t_ad57ffb7",
+      "priority": 90,
+      "result": "",
+      "started_at": 1783937071,
+      "status": "running",
+      "title": "[Butterfly -> Dangdang] 只读核验 Brand Story Hero 当前槽位规格",
+      "updated_at": 1783937071,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ad57ffb7"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -146,7 +165,8 @@
       "counts": {
         "archived": 61,
         "blocked": 4,
-        "done": 83
+        "done": 83,
+        "running": 1
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -177,11 +197,11 @@
       "total": 10
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 27,
-      "running": 0,
-      "total": 27
+      "running": 1,
+      "total": 28
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -291,8 +311,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783936802,
-  "generated_at_iso": "2026-07-13T18:00:02+08:00",
+  "generated_at": 1783940401,
+  "generated_at_iso": "2026-07-13T19:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -838,15 +858,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 102,
     "blocked": 6,
     "done": 686,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 794,
+    "total": 795,
     "triage": 0
   },
   "tasks": [
@@ -12585,6 +12605,24 @@
       "title": "新款4x6相片收纳盒Listing图｜V3修正内盒真实外观",
       "updated_at": 1780801270,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a20453ff"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
+      "body_preview": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
+      "completed_at": null,
+      "created_at": 1783937049,
+      "created_by": "coovoamae-crm",
+      "id": "t_ad57ffb7",
+      "priority": 90,
+      "result": "",
+      "started_at": 1783937071,
+      "status": "running",
+      "title": "[Butterfly -> Dangdang] 只读核验 Brand Story Hero 当前槽位规格",
+      "updated_at": 1783937071,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ad57ffb7"
     },
     {
       "assignee": "coovoamae-crm",
