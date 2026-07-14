@@ -137,7 +137,7 @@
     },
     {
       "counts": {
-        "done": 2
+        "done": 4
       },
       "name": "COOVOAMAE COO Control Tower",
       "slug": "coovoamae-coo"
@@ -193,9 +193,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 28,
+      "done": 29,
       "running": 0,
-      "total": 28
+      "total": 29
     },
     "coovoamae-crm": {
       "active": 0,
@@ -249,9 +249,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 147,
+      "done": 148,
       "running": 0,
-      "total": 147
+      "total": 148
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -291,10 +291,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783994402,
-  "generated_at_iso": "2026-07-14T10:00:02+08:00",
+  "generated_at": 1783998001,
+  "generated_at_iso": "2026-07-14T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_f01eda95。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定单一owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_f01eda95 的交付与2026-07-12已验收基线。 交付物：验收结论，含新派/未派原因、仍缺字段、…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_f01eda95。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定单一owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_f01eda95 的交付与2026-07-12已验收基线。 交付物：验收结论，含新派/未派原因、仍缺字段、…",
+      "completed_at": 1783994910,
+      "created_at": 1783994559,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_c4fa3962",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783994809,
+      "status": "done",
+      "title": "方舟验收｜20260714飞书产品开发缺口巡检",
+      "updated_at": 1783994910,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_c4fa3962"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
+      "completed_at": 1783994807,
+      "created_at": 1783994559,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_f01eda95",
+      "priority": 120,
+      "result": "",
+      "started_at": 1783994568,
+      "status": "done",
+      "title": "20260714巡检｜飞书产品主表03单品卡与Stage-1缺口复测",
+      "updated_at": 1783994807,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_f01eda95"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -798,42 +834,6 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图四轮优化：从旧Listing图提取真实产品外观",
       "updated_at": 1783312716,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_51f61579"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T040329Z-b0h6q684cj-r2-01-75f5bb87 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T040329Z-b0h6q…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T040329Z-b0h6q684cj-r2-01-75f5bb87 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T040329Z-b0h6q…",
-      "completed_at": 1783311163,
-      "created_at": 1783310610,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_d4df7a7e",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783310611,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图三轮优化：保留R2-01构图，修正产品外观",
-      "updated_at": 1783311163,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_d4df7a7e"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T034022Z-b0h6q684cj-12-6c2dce69 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T034022Z-b0h6q684…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T034022Z-b0h6q684cj-12-6c2dce69 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T034022Z-b0h6q684…",
-      "completed_at": 1783309905,
-      "created_at": 1783309223,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_6e03912a",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783309224,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图二轮优化：真实电商白底图，12个袋子必须可数",
-      "updated_at": 1783309905,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_6e03912a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -841,12 +841,12 @@
     "active": 0,
     "archived": 102,
     "blocked": 6,
-    "done": 688,
+    "done": 690,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 796,
+    "total": 798,
     "triage": 0
   },
   "tasks": [
@@ -11453,6 +11453,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_010decd1"
     },
     {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
+      "completed_at": 1783994807,
+      "created_at": 1783994559,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_f01eda95",
+      "priority": 120,
+      "result": "",
+      "started_at": 1783994568,
+      "status": "done",
+      "title": "20260714巡检｜飞书产品主表03单品卡与Stage-1缺口复测",
+      "updated_at": 1783994807,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_f01eda95"
+    },
+    {
       "assignee": "coovoamae-chief-of-staff",
       "board": "coovoamae-coo",
       "board_name": "COOVOAMAE COO Control Tower",
@@ -11469,6 +11487,24 @@
       "title": "方舟验收｜20260712飞书产品开发缺口巡检",
       "updated_at": 1783822171,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_65067fdd"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_f01eda95。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定单一owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_f01eda95 的交付与2026-07-12已验收基线。 交付物：验收结论，含新派/未派原因、仍缺字段、…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_f01eda95。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定单一owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_f01eda95 的交付与2026-07-12已验收基线。 交付物：验收结论，含新派/未派原因、仍缺字段、…",
+      "completed_at": 1783994910,
+      "created_at": 1783994559,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_c4fa3962",
+      "priority": 100,
+      "result": "",
+      "started_at": 1783994809,
+      "status": "done",
+      "title": "方舟验收｜20260714飞书产品开发缺口巡检",
+      "updated_at": 1783994910,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_c4fa3962"
     },
     {
       "assignee": "coovoamae-crm",
