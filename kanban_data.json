@@ -122,7 +122,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 5
+        "done": 6
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -172,9 +172,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 9,
+      "done": 10,
       "running": 0,
-      "total": 10
+      "total": 11
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -291,10 +291,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1783990801,
-  "generated_at_iso": "2026-07-14T09:00:01+08:00",
+  "generated_at": 1783994402,
+  "generated_at_iso": "2026-07-14T10:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
+      "completed_at": 1783993409,
+      "created_at": 1783992796,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_bc744c3a",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783992797,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
+      "updated_at": 1783993409,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bc744c3a"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-design",
@@ -816,24 +834,6 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图二轮优化：真实电商白底图，12个袋子必须可数",
       "updated_at": 1783309905,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_6e03912a"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T024736Z-b0h6q684cj-amazon-search-suppressi-02b2a319 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T024736Z-b0h6q684cj-amazon-search-suppressi-02b2a319 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
-      "completed_at": 1783308352,
-      "created_at": 1783306058,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_71551029",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783306058,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图重做需求：解除 Amazon Search Suppression",
-      "updated_at": 1783308352,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_71551029"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -841,12 +841,12 @@
     "active": 0,
     "archived": 102,
     "blocked": 6,
-    "done": 687,
+    "done": 688,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 795,
+    "total": 796,
     "triage": 0
   },
   "tasks": [
@@ -11325,6 +11325,24 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
       "updated_at": 1783824876,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_187b7e7a"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
+      "completed_at": 1783993409,
+      "created_at": 1783992796,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_bc744c3a",
+      "priority": 80,
+      "result": "",
+      "started_at": 1783992797,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
+      "updated_at": 1783993409,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bc744c3a"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
