@@ -1,24 +1,5 @@
 {
-  "active": [
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
-      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
-      "completed_at": null,
-      "created_at": 1784001892,
-      "created_by": "coovoamae-crm",
-      "id": "t_3db1ed26",
-      "priority": 80,
-      "result": "",
-      "started_at": 1784001892,
-      "status": "running",
-      "title": "[Butterfly -> Eagle Intel] [Butterfly -> Eagle Eye] B0H6Q684CJ Premium A+ selling-point and visual intelligence",
-      "updated_at": 1784001892,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_3db1ed26"
-    }
-  ],
+  "active": [],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -199,8 +180,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 3,
-        "running": 1
+        "done": 4
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -250,10 +230,10 @@
       "total": 3
     },
     "coovoamae-eagle-eye": {
-      "active": 1,
+      "active": 0,
       "blocked": 1,
-      "done": 63,
-      "running": 1,
+      "done": 64,
+      "running": 0,
       "total": 65
     },
     "coovoamae-engineering-solidworks": {
@@ -329,10 +309,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784012401,
-  "generated_at_iso": "2026-07-14T15:00:01+08:00",
+  "generated_at": 1784016001,
+  "generated_at_iso": "2026-07-14T16:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "completed_at": 1784013009,
+      "created_at": 1784001892,
+      "created_by": "coovoamae-crm",
+      "id": "t_3db1ed26",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784001892,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] [Butterfly -> Eagle Eye] B0H6Q684CJ Premium A+ selling-point and visual intelligence",
+      "updated_at": 1784013009,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_3db1ed26"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -854,35 +852,17 @@
       "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图六轮优化：直接以当前Listing图片提取真实外观",
       "updated_at": 1783315235,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ba03ae"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T044743Z-b0h6q684cj-r4-01-r4-02-f7c329fc - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T044743Z…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T044743Z-b0h6q684cj-r4-01-r4-02-f7c329fc - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T044743Z…",
-      "completed_at": 1783313900,
-      "created_at": 1783313264,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_2e36036e",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783313264,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图五轮优化：合并R4-01数量尺寸构图与R4-02真实外观",
-      "updated_at": 1783313900,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_2e36036e"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 1,
+    "active": 0,
     "archived": 102,
     "blocked": 7,
-    "done": 691,
+    "done": 692,
     "pending": 0,
     "ready": 0,
-    "running": 1,
+    "running": 0,
     "todo": 0,
     "total": 801,
     "triage": 0
@@ -13440,16 +13420,16 @@
       "board_name": "COOVOAMAE Product Intelligence Requests",
       "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
       "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260714T040451Z-butterfly-eagle-eye-b0h6q684cj-pre-aa2bcaad - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
-      "completed_at": null,
+      "completed_at": 1784013009,
       "created_at": 1784001892,
       "created_by": "coovoamae-crm",
       "id": "t_3db1ed26",
       "priority": 80,
       "result": "",
       "started_at": 1784001892,
-      "status": "running",
+      "status": "done",
       "title": "[Butterfly -> Eagle Intel] [Butterfly -> Eagle Eye] B0H6Q684CJ Premium A+ selling-point and visual intelligence",
-      "updated_at": 1784001892,
+      "updated_at": 1784013009,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_3db1ed26"
     },
     {
