@@ -172,7 +172,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 13
+        "done": 14
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -197,9 +197,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 28,
+      "done": 29,
       "running": 0,
-      "total": 28
+      "total": 29
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -309,10 +309,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784016001,
-  "generated_at_iso": "2026-07-14T16:00:01+08:00",
+  "generated_at": 1784019601,
+  "generated_at_iso": "2026-07-14T17:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b - project_id: B0H6Q684CJ-main-image-fix - product_name: Travel Vacuum Compression Bags — 12 Bags + Electric Pump - marketplace: Amazon US - asin: B0H6Q684CJ - sku:…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b - project_id: B0H6Q684CJ-main-image-fix - product_name: Travel Vacuum Compression Bags — 12 Bags + Electric Pump - marketplace: Amazon US - asin: B0H6Q684CJ - sku:…",
+      "completed_at": 1784019155,
+      "created_at": 1784018217,
+      "created_by": "coovoamae-crm",
+      "id": "t_2ce2727e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784018217,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H6Q684CJ-main-image-fix -> Dangdang Listing/A+ precheck",
+      "updated_at": 1784019155,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_2ce2727e"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -834,24 +852,6 @@
       "title": "鹿鸣巡检｜飞书产品数据缺口QA 2026-07-07 10:00",
       "updated_at": 1783389852,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_4c3ae019"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260706T050947Z-b0h6q684cj-listing-c7d95695 - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260706T050947Z-b0h…",
-      "completed_at": 1783315235,
-      "created_at": 1783314588,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_f2ba03ae",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783314588,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0H6Q684CJ 主图六轮优化：直接以当前Listing图片提取真实外观",
-      "updated_at": 1783315235,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ba03ae"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -859,12 +859,12 @@
     "active": 0,
     "archived": 102,
     "blocked": 7,
-    "done": 692,
+    "done": 693,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 801,
+    "total": 802,
     "triage": 0
   },
   "tasks": [
@@ -13359,6 +13359,24 @@
       "title": "[Product Asset Handoff] christmas-ornament-storage-20260710 -> Dangdang Listing/A+ precheck",
       "updated_at": 1783678650,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_26db782b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b - project_id: B0H6Q684CJ-main-image-fix - product_name: Travel Vacuum Compression Bags — 12 Bags + Electric Pump - marketplace: Amazon US - asin: B0H6Q684CJ - sku:…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b - project_id: B0H6Q684CJ-main-image-fix - product_name: Travel Vacuum Compression Bags — 12 Bags + Electric Pump - marketplace: Amazon US - asin: B0H6Q684CJ - sku:…",
+      "completed_at": 1784019155,
+      "created_at": 1784018217,
+      "created_by": "coovoamae-crm",
+      "id": "t_2ce2727e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784018217,
+      "status": "done",
+      "title": "[Product Asset Handoff] B0H6Q684CJ-main-image-fix -> Dangdang Listing/A+ precheck",
+      "updated_at": 1784019155,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_2ce2727e"
     },
     {
       "assignee": "coovoamae-eagle-eye",
