@@ -1,5 +1,60 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095904Z-ops-20260715-p0-b0gwzsn32d-0a6e6f6f - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095904Z-ops-20260715-p0-b0gwzsn32d-0a6e6f6f - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1784109547,
+      "created_by": "coovoamae-lion",
+      "id": "t_ed2d170b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784109548,
+      "status": "running",
+      "title": "[Lion -> Dangdang] [OPS-20260715][P0][B0GWZSN32D] 粉色眼罩缺货与入库/前台可售路径预检",
+      "updated_at": 1784109548,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ed2d170b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": null,
+      "created_at": 1784109568,
+      "created_by": "coovoamae-lion",
+      "id": "t_ebc3f334",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784109569,
+      "status": "running",
+      "title": "[Lion -> Dangdang] [OPS-20260715][P1][B0GQ2ZR81S] 云台实际成交价与促销/Buy Box路径核验",
+      "updated_at": 1784109569,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ebc3f334"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T095910Z-ops-20260715-p1-b0gxvnpm68-752d9d39 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T095910Z-ops-20260715-p1-b0gxvnpm68-752d9d39 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": null,
+      "created_at": 1784109557,
+      "created_by": "coovoamae-lion",
+      "id": "t_e49b2d52",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784109558,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] [OPS-20260715][P1][B0GXVNPM68] 黑色眼罩低效流量诊断与收口草案",
+      "updated_at": 1784109558,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e49b2d52"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -140,7 +195,8 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 8
+        "done": 8,
+        "running": 1
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -148,7 +204,8 @@
     {
       "counts": {
         "archived": 1,
-        "done": 6
+        "done": 6,
+        "running": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -188,18 +245,18 @@
   ],
   "by_agent": {
     "coovoamae-ads-manager": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
       "done": 12,
-      "running": 0,
-      "total": 13
+      "running": 1,
+      "total": 14
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 2,
       "blocked": 0,
       "done": 31,
-      "running": 0,
-      "total": 31
+      "running": 2,
+      "total": 33
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -309,8 +366,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784106001,
-  "generated_at_iso": "2026-07-15T17:00:01+08:00",
+  "generated_at": 1784109601,
+  "generated_at_iso": "2026-07-15T18:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -856,15 +913,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 3,
     "archived": 102,
     "blocked": 7,
     "done": 699,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 3,
     "todo": 0,
-    "total": 808,
+    "total": 811,
     "triage": 0
   },
   "tasks": [
@@ -11399,6 +11456,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_9598c368"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T095910Z-ops-20260715-p1-b0gxvnpm68-752d9d39 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T095910Z-ops-20260715-p1-b0gxvnpm68-752d9d39 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": null,
+      "created_at": 1784109557,
+      "created_by": "coovoamae-lion",
+      "id": "t_e49b2d52",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784109558,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] [OPS-20260715][P1][B0GXVNPM68] 黑色眼罩低效流量诊断与收口草案",
+      "updated_at": 1784109558,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e49b2d52"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -11456,6 +11531,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095904Z-ops-20260715-p0-b0gwzsn32d-0a6e6f6f - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095904Z-ops-20260715-p0-b0gwzsn32d-0a6e6f6f - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1784109547,
+      "created_by": "coovoamae-lion",
+      "id": "t_ed2d170b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784109548,
+      "status": "running",
+      "title": "[Lion -> Dangdang] [OPS-20260715][P0][B0GWZSN32D] 粉色眼罩缺货与入库/前台可售路径预检",
+      "updated_at": 1784109548,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ed2d170b"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "completed_at": 1783824599,
@@ -11505,6 +11598,24 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] B0GF1KXKJC",
       "updated_at": 1784088596,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_3edb8a4e"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": null,
+      "created_at": 1784109568,
+      "created_by": "coovoamae-lion",
+      "id": "t_ebc3f334",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784109569,
+      "status": "running",
+      "title": "[Lion -> Dangdang] [OPS-20260715][P1][B0GQ2ZR81S] 云台实际成交价与促销/Buy Box路径核验",
+      "updated_at": 1784109569,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ebc3f334"
     },
     {
       "assignee": "coovoamae-luming",
