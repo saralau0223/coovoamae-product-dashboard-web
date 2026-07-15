@@ -112,7 +112,7 @@
     {
       "counts": {
         "archived": 1,
-        "done": 11
+        "done": 12
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -161,9 +161,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 0,
-      "done": 38,
+      "done": 39,
       "running": 0,
-      "total": 38
+      "total": 39
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -273,10 +273,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784127601,
-  "generated_at_iso": "2026-07-15T23:00:01+08:00",
+  "generated_at": 1784131201,
+  "generated_at_iso": "2026-07-16T00:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
+      "body_preview": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
+      "completed_at": 1784129340,
+      "created_at": 1784128667,
+      "created_by": "coovoamae-crm",
+      "id": "t_cd011fb2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784128675,
+      "status": "done",
+      "title": "[Butterfly -> Dangdang] P0 B0GF1KXKJC Brand Story Hero槽位尺寸只读读回",
+      "updated_at": 1784129340,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_cd011fb2"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -798,24 +816,6 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
       "updated_at": 1783911925,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
-      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260712T024934Z-photo-box-featured-offer-listing-f-0bc611c7 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/da…",
-      "completed_at": 1783824876,
-      "created_at": 1783824575,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_187b7e7a",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783824575,
-      "status": "done",
-      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
-      "updated_at": 1783824876,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_187b7e7a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -823,12 +823,12 @@
     "active": 0,
     "archived": 102,
     "blocked": 5,
-    "done": 714,
+    "done": 715,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 821,
+    "total": 822,
     "triage": 0
   },
   "tasks": [
@@ -11523,6 +11523,24 @@
       "title": "[Lion -> Dangdang] P0｜PHOTO-BOX 5x7 与真空袋库存/补货核算",
       "updated_at": 1784112611,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_0e1abbbb"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
+      "body_preview": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
+      "completed_at": 1784129340,
+      "created_at": 1784128667,
+      "created_by": "coovoamae-crm",
+      "id": "t_cd011fb2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784128675,
+      "status": "done",
+      "title": "[Butterfly -> Dangdang] P0 B0GF1KXKJC Brand Story Hero槽位尺寸只读读回",
+      "updated_at": 1784129340,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_cd011fb2"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
