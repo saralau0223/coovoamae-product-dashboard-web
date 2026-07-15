@@ -104,7 +104,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 11
+        "done": 12
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -154,9 +154,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 15,
+      "done": 16,
       "running": 0,
-      "total": 16
+      "total": 17
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -273,10 +273,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784124001,
-  "generated_at_iso": "2026-07-15T22:00:01+08:00",
+  "generated_at": 1784127601,
+  "generated_at_iso": "2026-07-15T23:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
+      "completed_at": 1784125764,
+      "created_at": 1784125500,
+      "created_by": "coovoamae-lion",
+      "id": "t_c25f917f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784125501,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P0｜执行已确认24条SP批量降预算：全账户配置压至$60",
+      "updated_at": 1784125764,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c25f917f"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
@@ -798,24 +816,6 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
       "updated_at": 1783824876,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_187b7e7a"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
-      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
-      "completed_at": 1783824599,
-      "created_at": 1783824178,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_4a355983",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783824178,
-      "status": "done",
-      "title": "[Cross-lane Advice: Ads->Dangdang] Photo storage box variants",
-      "updated_at": 1783824599,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4a355983"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -823,12 +823,12 @@
     "active": 0,
     "archived": 102,
     "blocked": 5,
-    "done": 713,
+    "done": 714,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 820,
+    "total": 821,
     "triage": 0
   },
   "tasks": [
@@ -11307,6 +11307,24 @@
       "title": "[Lion -> Ads Manager] P0｜执行已确认的 t_42cd4c90：24 条 SP 日预算下调至全账户 $60",
       "updated_at": 1784114171,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_02e8dfe5"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
+      "completed_at": 1784125764,
+      "created_at": 1784125500,
+      "created_by": "coovoamae-lion",
+      "id": "t_c25f917f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784125501,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P0｜执行已确认24条SP批量降预算：全账户配置压至$60",
+      "updated_at": 1784125764,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c25f917f"
     },
     {
       "assignee": "coovoamae-ads-manager",
