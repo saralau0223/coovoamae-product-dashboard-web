@@ -1,5 +1,24 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "body_preview": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "completed_at": null,
+      "created_at": 1784078916,
+      "created_by": "codex-liuxi-confirmation-20260715",
+      "id": "t_94a79931",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784078919,
+      "status": "running",
+      "title": "[Confirmed Upload] B0H6Q684CJ Listing MAIN + A+",
+      "updated_at": 1784078919,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_94a79931"
+    }
+  ],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -172,7 +191,8 @@
     {
       "counts": {
         "archived": 2,
-        "done": 14
+        "done": 14,
+        "running": 1
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -195,11 +215,11 @@
       "total": 11
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 29,
-      "running": 0,
-      "total": 29
+      "running": 1,
+      "total": 30
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -309,8 +329,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784077201,
-  "generated_at_iso": "2026-07-15T09:00:01+08:00",
+  "generated_at": 1784080802,
+  "generated_at_iso": "2026-07-15T10:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -856,15 +876,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 102,
     "blocked": 7,
     "done": 693,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 802,
+    "total": 803,
     "triage": 0
   },
   "tasks": [
@@ -13377,6 +13397,24 @@
       "title": "[Product Asset Handoff] B0H6Q684CJ-main-image-fix -> Dangdang Listing/A+ precheck",
       "updated_at": 1784019155,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_2ce2727e"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "body_preview": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "completed_at": null,
+      "created_at": 1784078916,
+      "created_by": "codex-liuxi-confirmation-20260715",
+      "id": "t_94a79931",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784078919,
+      "status": "running",
+      "title": "[Confirmed Upload] B0H6Q684CJ Listing MAIN + A+",
+      "updated_at": 1784078919,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_94a79931"
     },
     {
       "assignee": "coovoamae-eagle-eye",
