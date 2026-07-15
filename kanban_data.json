@@ -1,24 +1,5 @@
 {
-  "active": [
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
-      "body_preview": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
-      "completed_at": null,
-      "created_at": 1784115430,
-      "created_by": "codex-ops",
-      "id": "t_c3c3ec72",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784115430,
-      "status": "running",
-      "title": "[P0 Precheck] 当当复核 PHOTO-BOX 等 5 个 canonical 图片交付并发上传确认",
-      "updated_at": 1784115430,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_c3c3ec72"
-    }
-  ],
+  "active": [],
   "blocked": [
     {
       "assignee": "coovoamae-ads-manager",
@@ -155,8 +136,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 16,
-        "running": 1
+        "done": 18
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -179,11 +159,11 @@
       "total": 16
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
+      "active": 0,
       "blocked": 0,
-      "done": 36,
-      "running": 1,
-      "total": 37
+      "done": 38,
+      "running": 0,
+      "total": 38
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -293,10 +273,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784116801,
-  "generated_at_iso": "2026-07-15T20:00:01+08:00",
+  "generated_at": 1784120401,
+  "generated_at_iso": "2026-07-15T21:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
+      "body_preview": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
+      "completed_at": 1784117990,
+      "created_at": 1784115430,
+      "created_by": "codex-ops",
+      "id": "t_c3c3ec72",
+      "priority": 100,
+      "result": "Five canonical product-assets handoffs validated. Final corrected packages and audit installed; Dangdang sent one consolidated Feishu confirmation message via t_93563ed2. No Amazon write by this precheck.",
+      "started_at": 1784115430,
+      "status": "done",
+      "title": "[P0 Precheck] 当当复核 PHOTO-BOX 等 5 个 canonical 图片交付并发上传确认",
+      "updated_at": 1784117990,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_c3c3ec72"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你是当当。只执行一次最终交付消息发送，不再做图片校验、浏览器、Amazon、Seller Central、SP-API、文件改写或其他业务动作。 1. 读取 `/root/.hermes/shared/product-assets/audits/pending5-feishu-message-20260715.txt`。 2. 计算 SHA-256，必须等于 `44f153de5e8d3a85db4137845db3542dbeeb1bb93f41a97f102fb85b4f470812`；不匹配立即 block，不发送。 3. 用当当 Feishu home channel 向刘希发送该文…",
+      "body_preview": "你是当当。只执行一次最终交付消息发送，不再做图片校验、浏览器、Amazon、Seller Central、SP-API、文件改写或其他业务动作。 1. 读取 `/root/.hermes/shared/product-assets/audits/pending5-feishu-message-20260715.txt`。 2. 计算 SHA-256，必须等于 `44f153de5e8d3a85db4137845db3542dbeeb1bb93f41a97f102fb85b4f470812`；不匹配立即 block，不发送。 3. 用当当 Feishu home channel 向刘希发送该文…",
+      "completed_at": 1784117900,
+      "created_at": 1784117841,
+      "created_by": "codex-ops",
+      "id": "t_93563ed2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784117842,
+      "status": "done",
+      "title": "[P0 Delivery] 当当发送 pending 5 最终校验/上传确认消息",
+      "updated_at": 1784117900,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_93563ed2"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -800,55 +816,19 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] Photo storage box variants",
       "updated_at": 1783824599,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4a355983"
-    },
-    {
-      "assignee": "coovoamae-chief-of-staff",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_010decd1，仅在证据/readback齐全时收口；发现真实新增的Stage-1证据缺口时，再按 Registry 指定单一owner创建窄任务，避免旧固定链。 输入：父任务 t_010decd1 的交付与证据。 交付物：验收结论，包含新派/未派原因、仍缺字段、owner、SLA、下次检查点。 SLA/due_at：父任务完…",
-      "completed_at": 1783822171,
-      "created_at": 1783821756,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_65067fdd",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783822077,
-      "status": "done",
-      "title": "方舟验收｜20260712飞书产品开发缺口巡检",
-      "updated_at": 1783822171,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_65067fdd"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260712 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：只读核验飞书产品主表当前页签/字段缺口，重点确认 `03_单品卡` 是否被删除、改名、隐藏或未授权，并对比已验收基线 t_30fc5065；不得重跑上游取数。 输入：飞书产品主表（既有授权 token JMW5sATAkhxy8DtTGsAcyesdnOc）；基线任务 default/t_30fc5065；2026-07-12 09:00 同步任务因 `03_单…",
-      "completed_at": 1783822076,
-      "created_at": 1783821755,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_010decd1",
-      "priority": 120,
-      "result": "",
-      "started_at": 1783821756,
-      "status": "done",
-      "title": "20260712巡检｜飞书产品主表03单品卡与Stage-1缺口QA",
-      "updated_at": 1783822076,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_010decd1"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 1,
+    "active": 0,
     "archived": 102,
     "blocked": 5,
-    "done": 711,
+    "done": 713,
     "pending": 0,
     "ready": 0,
-    "running": 1,
+    "running": 0,
     "todo": 0,
-    "total": 819,
+    "total": 820,
     "triage": 0
   },
   "tasks": [
@@ -13656,17 +13636,35 @@
       "board_name": "COOVOAMAE Product Asset Handoffs",
       "body": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
       "body_preview": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
-      "completed_at": null,
+      "completed_at": 1784117990,
       "created_at": 1784115430,
       "created_by": "codex-ops",
       "id": "t_c3c3ec72",
       "priority": 100,
-      "result": "",
+      "result": "Five canonical product-assets handoffs validated. Final corrected packages and audit installed; Dangdang sent one consolidated Feishu confirmation message via t_93563ed2. No Amazon write by this precheck.",
       "started_at": 1784115430,
-      "status": "running",
+      "status": "done",
       "title": "[P0 Precheck] 当当复核 PHOTO-BOX 等 5 个 canonical 图片交付并发上传确认",
-      "updated_at": 1784115430,
+      "updated_at": 1784117990,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_c3c3ec72"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你是当当。只执行一次最终交付消息发送，不再做图片校验、浏览器、Amazon、Seller Central、SP-API、文件改写或其他业务动作。 1. 读取 `/root/.hermes/shared/product-assets/audits/pending5-feishu-message-20260715.txt`。 2. 计算 SHA-256，必须等于 `44f153de5e8d3a85db4137845db3542dbeeb1bb93f41a97f102fb85b4f470812`；不匹配立即 block，不发送。 3. 用当当 Feishu home channel 向刘希发送该文…",
+      "body_preview": "你是当当。只执行一次最终交付消息发送，不再做图片校验、浏览器、Amazon、Seller Central、SP-API、文件改写或其他业务动作。 1. 读取 `/root/.hermes/shared/product-assets/audits/pending5-feishu-message-20260715.txt`。 2. 计算 SHA-256，必须等于 `44f153de5e8d3a85db4137845db3542dbeeb1bb93f41a97f102fb85b4f470812`；不匹配立即 block，不发送。 3. 用当当 Feishu home channel 向刘希发送该文…",
+      "completed_at": 1784117900,
+      "created_at": 1784117841,
+      "created_by": "codex-ops",
+      "id": "t_93563ed2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784117842,
+      "status": "done",
+      "title": "[P0 Delivery] 当当发送 pending 5 最终校验/上传确认消息",
+      "updated_at": 1784117900,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_93563ed2"
     },
     {
       "assignee": "coovoamae-eagle-eye",
