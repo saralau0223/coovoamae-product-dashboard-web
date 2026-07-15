@@ -1,42 +1,5 @@
 {
-  "active": [
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
-      "body_preview": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
-      "completed_at": null,
-      "created_at": 1784078916,
-      "created_by": "codex-liuxi-confirmation-20260715",
-      "id": "t_94a79931",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784078919,
-      "status": "running",
-      "title": "[Confirmed Upload] B0H6Q684CJ Listing MAIN + A+",
-      "updated_at": 1784078919,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_94a79931"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
-      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
-      "completed_at": null,
-      "created_at": 1784084357,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_3bed00a5",
-      "priority": 80,
-      "result": "",
-      "started_at": 1784084358,
-      "status": "running",
-      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
-      "updated_at": 1784084358,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_3bed00a5"
-    }
-  ],
+  "active": [],
   "blocked": [
     {
       "assignee": "coovoamae-crm",
@@ -177,8 +140,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 6,
-        "running": 1
+        "done": 8
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -210,8 +172,7 @@
     {
       "counts": {
         "archived": 2,
-        "done": 14,
-        "running": 1
+        "done": 15
       },
       "name": "COOVOAMAE Product Asset Handoffs",
       "slug": "coovoamae-product-assets"
@@ -227,17 +188,17 @@
   ],
   "by_agent": {
     "coovoamae-ads-manager": {
-      "active": 1,
+      "active": 0,
       "blocked": 1,
-      "done": 10,
-      "running": 1,
-      "total": 12
+      "done": 12,
+      "running": 0,
+      "total": 13
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
+      "active": 0,
       "blocked": 0,
-      "done": 29,
-      "running": 1,
+      "done": 30,
+      "running": 0,
       "total": 30
     },
     "coovoamae-bazi": {
@@ -348,10 +309,64 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784084401,
-  "generated_at_iso": "2026-07-15T11:00:01+08:00",
+  "generated_at": 1784088001,
+  "generated_at_iso": "2026-07-15T12:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "body_preview": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
+      "completed_at": 1784086394,
+      "created_at": 1784078916,
+      "created_by": "codex-liuxi-confirmation-20260715",
+      "id": "t_94a79931",
+      "priority": 100,
+      "result": "Listing MAIN slot 1 submitted and catalog readback matched; Standard A+ c13426fc-abf3-4f29-aed1-d8d95db0211a submitted with ASIN B0H6Q684CJ and all six approved images; current state waiting Amazon approval.",
+      "started_at": 1784078919,
+      "status": "done",
+      "title": "[Confirmed Upload] B0H6Q684CJ Listing MAIN + A+",
+      "updated_at": 1784086394,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_94a79931"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T030642Z-q08-8bec9dba - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T030642Z-q08…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T030642Z-q08-8bec9dba - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T030642Z-q08…",
+      "completed_at": 1784085676,
+      "created_at": 1784084803,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9598c368",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784084803,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] COOVOAMAE Amazon US portfolio",
+      "updated_at": 1784085676,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_9598c368"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
+      "completed_at": 1784085350,
+      "created_at": 1784084357,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_3bed00a5",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784084358,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
+      "updated_at": 1784085350,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_3bed00a5"
+    },
     {
       "assignee": "coovoamae-chief-of-staff",
       "board": "coovoamae-coo",
@@ -837,73 +852,19 @@
       "title": "[Lion -> Dangdang] 相片/相框收纳盒 B0H36RKCRS 到货核查 + PDP/链接优化预检",
       "updated_at": 1783486331,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1150ade1"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T043751Z-b0h36rkcrs-dry-run-3cb3ac77 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
-      "completed_at": 1783485818,
-      "created_at": 1783485474,
-      "created_by": "coovoamae-lion",
-      "id": "t_bcbb7094",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783485476,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] 相片/相框收纳盒 B0H36RKCRS 新品推广计划 dry-run",
-      "updated_at": 1783485818,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bcbb7094"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260708T021504Z-p0-b0gf1kxkjc-pdp-08472b36 - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
-      "completed_at": 1783479236,
-      "created_at": 1783476906,
-      "created_by": "coovoamae-lion",
-      "id": "t_8ecb047e",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783476907,
-      "status": "done",
-      "title": "[Lion -> Dangdang] P0｜B0GF1KXKJC 低迷流量后台/PDP购买路径只读预检",
-      "updated_at": 1783479236,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8ecb047e"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260708T021501Z-p0-b0gf1kxkjc-10-dry-run-137938ab - priority: P0 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoama…",
-      "completed_at": 1783477275,
-      "created_at": 1783476902,
-      "created_by": "coovoamae-lion",
-      "id": "t_a5eaa563",
-      "priority": 100,
-      "result": "",
-      "started_at": 1783476903,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P0｜B0GF1KXKJC 低迷流量广告侧诊断与10天合规推词dry-run",
-      "updated_at": 1783477275,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_a5eaa563"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 2,
+    "active": 0,
     "archived": 102,
     "blocked": 7,
-    "done": 695,
+    "done": 698,
     "pending": 0,
     "ready": 0,
-    "running": 2,
+    "running": 0,
     "todo": 0,
-    "total": 806,
+    "total": 807,
     "triage": 0
   },
   "tasks": [
@@ -11407,17 +11368,35 @@
       "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
       "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T025916Z-b0h36rkcrs-f96cc87d - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T0259…",
-      "completed_at": null,
+      "completed_at": 1784085350,
       "created_at": 1784084357,
       "created_by": "coovoamae-amazon-ops-lizhutian",
       "id": "t_3bed00a5",
       "priority": 80,
       "result": "",
       "started_at": 1784084358,
-      "status": "running",
+      "status": "done",
       "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
-      "updated_at": 1784084358,
+      "updated_at": 1784085350,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_3bed00a5"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T030642Z-q08-8bec9dba - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T030642Z-q08…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260715T030642Z-q08-8bec9dba - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260715T030642Z-q08…",
+      "completed_at": 1784085676,
+      "created_at": 1784084803,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9598c368",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784084803,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] COOVOAMAE Amazon US portfolio",
+      "updated_at": 1784085676,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_9598c368"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -13477,16 +13456,16 @@
       "board_name": "COOVOAMAE Product Asset Handoffs",
       "body": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
       "body_preview": "刘希已在当前 Codex 会话于 2026-07-15 明确确认：当当现在有一个图片上传的任务，你帮他处理一下可以吗，直接上传。此确认绑定最新唯一待上传交接 project_id=B0H6Q684CJ-main-image-fix，handoff_id=B0H6Q684CJ-main-image-fix-20260714-163656-072224-0b633b，视为对前置任务 t_2ce2727e 所请求上传范围的当前明确后台写入授权。目标固定：伟鹏｜亚马逊，美国站，ASIN B0H6Q684CJ，Seller SKU VACUUM-BAGS-8PK-PUMP；本次只更新 Listing…",
-      "completed_at": null,
+      "completed_at": 1784086394,
       "created_at": 1784078916,
       "created_by": "codex-liuxi-confirmation-20260715",
       "id": "t_94a79931",
       "priority": 100,
-      "result": "",
+      "result": "Listing MAIN slot 1 submitted and catalog readback matched; Standard A+ c13426fc-abf3-4f29-aed1-d8d95db0211a submitted with ASIN B0H6Q684CJ and all six approved images; current state waiting Amazon approval.",
       "started_at": 1784078919,
-      "status": "running",
+      "status": "done",
       "title": "[Confirmed Upload] B0H6Q684CJ Listing MAIN + A+",
-      "updated_at": 1784078919,
+      "updated_at": 1784086394,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_94a79931"
     },
     {
