@@ -299,7 +299,7 @@
       "counts": {
         "archived": 61,
         "blocked": 5,
-        "done": 88
+        "done": 89
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -370,9 +370,9 @@
     "coovoamae-crm": {
       "active": 0,
       "blocked": 4,
-      "done": 87,
+      "done": 88,
       "running": 0,
-      "total": 91
+      "total": 92
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -470,10 +470,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784192402,
-  "generated_at_iso": "2026-07-16T17:00:02+08:00",
+  "generated_at": 1784196001,
+  "generated_at_iso": "2026-07-16T18:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "body_preview": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "completed_at": 1784194491,
+      "created_at": 1784194488,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_4175c2cf",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "started_at": 1784194489,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_78f6e53d",
+      "updated_at": 1784194491,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4175c2cf"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -995,24 +1013,6 @@
       "title": "[Lion -> Ads Manager] P0｜执行已确认24条SP批量降预算：全账户配置压至$60",
       "updated_at": 1784125764,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c25f917f"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
-      "body_preview": "处理 product-assets/handoff_queue/pending 中下列 5 个 canonical 交付。你是当当，必须重新做当前时点的只读校验，然后按现有确认流程给刘希发送一条合并的一屏确认消息；不得上传、保存、提交或修改 Seller Central/Listing/A+/广告。 ## 唯一处理范围（按顺序） 1. `B0H36RKCRS-20260709-120303`（PHOTO-BOX，project `B0H36RKCRS`） 2. `B0H6Q684CJ-main-image-fix-20260715-190025-044956-02352f` 3. `chri…",
-      "completed_at": 1784117990,
-      "created_at": 1784115430,
-      "created_by": "codex-ops",
-      "id": "t_c3c3ec72",
-      "priority": 100,
-      "result": "Five canonical product-assets handoffs validated. Final corrected packages and audit installed; Dangdang sent one consolidated Feishu confirmation message via t_93563ed2. No Amazon write by this precheck.",
-      "started_at": 1784115430,
-      "status": "done",
-      "title": "[P0 Precheck] 当当复核 PHOTO-BOX 等 5 个 canonical 图片交付并发上传确认",
-      "updated_at": 1784117990,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_c3c3ec72"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1020,12 +1020,12 @@
     "active": 3,
     "archived": 102,
     "blocked": 11,
-    "done": 742,
+    "done": 743,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 858,
+    "total": 859,
     "triage": 3
   },
   "tasks": [
@@ -13034,6 +13034,24 @@
       "title": "[Auto Continue 1/3] work kanban task t_43057ea5",
       "updated_at": 1784190877,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_78f6e53d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "body_preview": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "completed_at": 1784194491,
+      "created_at": 1784194488,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_4175c2cf",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
+      "started_at": 1784194489,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_78f6e53d",
+      "updated_at": 1784194491,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4175c2cf"
     },
     {
       "assignee": "coovoamae-crm",
