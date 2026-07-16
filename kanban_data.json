@@ -2,6 +2,24 @@
   "active": [],
   "blocked": [
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "# Butterfly → Dangdang: Brand Story Hero V6/V7 QA handoff - Request: `dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09` - Kanban: `t_fc5aa2ad` - ASIN: `B0GF1KXKJC` - Status: `blocked_not_uploadable` - Desktop candidate: `linkfox/outputs/hero_linkfox_raw_98776667_v7.jp…",
+      "body_preview": "# Butterfly → Dangdang: Brand Story Hero V6/V7 QA handoff - Request: `dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09` - Kanban: `t_fc5aa2ad` - ASIN: `B0GF1KXKJC` - Status: `blocked_not_uploadable` - Desktop candidate: `linkfox/outputs/hero_linkfox_raw_98776667_v7.jp…",
+      "completed_at": null,
+      "created_at": 1784162497,
+      "created_by": "coovoamae-crm",
+      "id": "t_53e4278e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784162512,
+      "status": "blocked",
+      "title": "[Butterfly -> Dangdang] Brand Story Hero V6/V7 QA：blocked，禁止上传",
+      "updated_at": 1784162512,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_53e4278e"
+    },
+    {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -112,6 +130,7 @@
     {
       "counts": {
         "archived": 1,
+        "blocked": 1,
         "done": 12
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -160,10 +179,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 0,
+      "blocked": 1,
       "done": 39,
       "running": 0,
-      "total": 39
+      "total": 40
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -273,8 +292,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784160001,
-  "generated_at_iso": "2026-07-16T08:00:01+08:00",
+  "generated_at": 1784163601,
+  "generated_at_iso": "2026-07-16T09:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -822,13 +841,13 @@
   "summary": {
     "active": 0,
     "archived": 102,
-    "blocked": 5,
+    "blocked": 6,
     "done": 715,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 822,
+    "total": 823,
     "triage": 0
   },
   "tasks": [
@@ -11541,6 +11560,24 @@
       "title": "[Butterfly -> Dangdang] P0 B0GF1KXKJC Brand Story Hero槽位尺寸只读读回",
       "updated_at": 1784129340,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_cd011fb2"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "# Butterfly → Dangdang: Brand Story Hero V6/V7 QA handoff - Request: `dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09` - Kanban: `t_fc5aa2ad` - ASIN: `B0GF1KXKJC` - Status: `blocked_not_uploadable` - Desktop candidate: `linkfox/outputs/hero_linkfox_raw_98776667_v7.jp…",
+      "body_preview": "# Butterfly → Dangdang: Brand Story Hero V6/V7 QA handoff - Request: `dangdang-butterfly-20260713T093400Z-coovoamae-amazon-us-brand-story-he-f8d61f09` - Kanban: `t_fc5aa2ad` - ASIN: `B0GF1KXKJC` - Status: `blocked_not_uploadable` - Desktop candidate: `linkfox/outputs/hero_linkfox_raw_98776667_v7.jp…",
+      "completed_at": null,
+      "created_at": 1784162497,
+      "created_by": "coovoamae-crm",
+      "id": "t_53e4278e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784162512,
+      "status": "blocked",
+      "title": "[Butterfly -> Dangdang] Brand Story Hero V6/V7 QA：blocked，禁止上传",
+      "updated_at": 1784162512,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_53e4278e"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
