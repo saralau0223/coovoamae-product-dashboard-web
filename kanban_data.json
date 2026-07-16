@@ -53,6 +53,24 @@
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "completed_at": null,
+      "created_at": 1784199388,
+      "created_by": "Codex",
+      "id": "t_50ac1464",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784199388,
+      "status": "running",
+      "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
+      "updated_at": 1784199388,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
     }
   ],
   "blocked": [
@@ -73,6 +91,42 @@
       "title": "P0后置｜当当抽检蝴蝶图库批次20%并条件发布",
       "updated_at": 1784190877,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44044458"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784198359,
+      "created_by": "coovoamae-lion",
+      "id": "t_79bc8204",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198360,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
+      "updated_at": 1784198360,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "刘希在 Feishu DM 当前明确授权：“可以安排进入共享图库”。本任务属于 coovoamae-product-assets 车道，report owner 为狮子；蝴蝶仅转交，不得代汇报、代确认或执行 promote。 对象： - ASIN / project_id: B0H6Q684CJ - 产品：Travel Vacuum Compression Storage Bags + mini USB-C rechargeable electric pump - batch_id: B0H6Q684CJ-liuxi-realrefs-20260716-1759 - staging root…",
+      "body_preview": "刘希在 Feishu DM 当前明确授权：“可以安排进入共享图库”。本任务属于 coovoamae-product-assets 车道，report owner 为狮子；蝴蝶仅转交，不得代汇报、代确认或执行 promote。 对象： - ASIN / project_id: B0H6Q684CJ - 产品：Travel Vacuum Compression Storage Bags + mini USB-C rechargeable electric pump - batch_id: B0H6Q684CJ-liuxi-realrefs-20260716-1759 - staging root…",
+      "completed_at": null,
+      "created_at": 1784198242,
+      "created_by": "coovoamae-crm",
+      "id": "t_417f427c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198268,
+      "status": "blocked",
+      "title": "[Butterfly -> Lion] B0H6Q684CJ 实拍参考图共享图库审核与发布",
+      "updated_at": 1784198268,
+      "workspace_path": "/root/.hermes/shared/product-truth/reference-photo-staging/B0H6Q684CJ-liuxi-realrefs-20260716-1759"
     },
     {
       "assignee": "coovoamae-crm",
@@ -235,24 +289,6 @@
       "title": "[Dangdang -> Butterfly] COOVOAMAE Amazon US Brand Story｜首版 Hero 视觉与素材 QA（蝴蝶）",
       "updated_at": 1783935242,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fc5aa2ad"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "completed_at": null,
-      "created_at": 1783903520,
-      "created_by": "coovoamae-crm",
-      "id": "t_ee6cf4f3",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783903521,
-      "status": "blocked",
-      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
-      "updated_at": 1783903521,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
     }
   ],
   "boards": [
@@ -275,8 +311,9 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 1,
-        "done": 16
+        "blocked": 2,
+        "done": 16,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -307,6 +344,7 @@
     {
       "counts": {
         "archived": 2,
+        "blocked": 1,
         "done": 18
       },
       "name": "COOVOAMAE Product Asset Handoffs",
@@ -314,8 +352,7 @@
     },
     {
       "counts": {
-        "blocked": 1,
-        "done": 4
+        "done": 7
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -336,6 +373,13 @@
       },
       "name": "COOVOAMAE Website Assets",
       "slug": "coovoamae-website-assets"
+    },
+    {
+      "counts": {
+        "done": 1
+      },
+      "name": "Hermes Auto Continue",
+      "slug": "hermes-auto-continue"
     }
   ],
   "by_agent": {
@@ -347,11 +391,11 @@
       "total": 20
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
-      "blocked": 2,
+      "active": 1,
+      "blocked": 3,
       "done": 45,
-      "running": 0,
-      "total": 47
+      "running": 1,
+      "total": 49
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -370,9 +414,9 @@
     "coovoamae-crm": {
       "active": 0,
       "blocked": 4,
-      "done": 88,
+      "done": 89,
       "running": 0,
-      "total": 92
+      "total": 93
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -384,10 +428,10 @@
     },
     "coovoamae-eagle-eye": {
       "active": 0,
-      "blocked": 1,
-      "done": 64,
+      "blocked": 0,
+      "done": 67,
       "running": 0,
-      "total": 65
+      "total": 67
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -419,10 +463,10 @@
     },
     "coovoamae-lion": {
       "active": 0,
-      "blocked": 0,
+      "blocked": 1,
       "done": 3,
       "running": 0,
-      "total": 3
+      "total": 4
     },
     "coovoamae-luming": {
       "active": 0,
@@ -470,10 +514,82 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784196001,
-  "generated_at_iso": "2026-07-16T18:00:01+08:00",
+  "generated_at": 1784199602,
+  "generated_at_iso": "2026-07-16T19:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
+      "completed_at": 1784199508,
+      "created_at": 1784198624,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_338007a8",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198629,
+      "status": "done",
+      "title": "[Auto Continue 2/3] work kanban task t_ee6cf4f3",
+      "updated_at": 1784199508,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_338007a8"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
+      "completed_at": 1784198624,
+      "created_at": 1784198139,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_2dff272b",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_338007a8.",
+      "started_at": 1784198147,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_ee6cf4f3",
+      "updated_at": 1784198624,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_2dff272b"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
+      "completed_at": 1784198139,
+      "created_at": 1783903520,
+      "created_by": "coovoamae-crm",
+      "id": "t_ee6cf4f3",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_2dff272b.",
+      "started_at": 1783903521,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
+      "updated_at": 1784198139,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
+      "completed_at": 1784196343,
+      "created_at": 1784196212,
+      "created_by": "coovoamae-crm",
+      "id": "t_fec32389",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784196223,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你能自己下载好之后，打包成zip 文件吗",
+      "updated_at": 1784196343,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fec32389"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -941,91 +1057,19 @@
       "title": "[Lion -> Ads Manager] [OPS-20260716][P1] B0GF1KXKJC 成熟款流量恢复可行性与干跑方案",
       "updated_at": 1784170107,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4e277e47"
-    },
-    {
-      "assignee": "coovoamae-chief-of-staff",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
-      "completed_at": 1784167619,
-      "created_at": 1784167369,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_19288163",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784167503,
-      "status": "done",
-      "title": "方舟验收｜20260716飞书产品开发缺口巡检",
-      "updated_at": 1784167619,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_19288163"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
-      "completed_at": 1784167502,
-      "created_at": 1784167354,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_cb55f633",
-      "priority": 120,
-      "result": "",
-      "started_at": 1784167354,
-      "status": "done",
-      "title": "20260716巡检｜飞书产品主表与Stage-1缺口复测",
-      "updated_at": 1784167502,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_cb55f633"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
-      "body_preview": "# [Butterfly -> Dangdang] Brand Story Hero 槽位尺寸只读读回 - priority: P0 - project/ASIN: B0GF1KXKJC - source_request: f8d61f09 - source_supplement: `/root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/liuxi-butterfly-20260716T020000Z-brand-story-slot-specs-supplement.md` - requested_by:…",
-      "completed_at": 1784129340,
-      "created_at": 1784128667,
-      "created_by": "coovoamae-crm",
-      "id": "t_cd011fb2",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784128675,
-      "status": "done",
-      "title": "[Butterfly -> Dangdang] P0 B0GF1KXKJC Brand Story Hero槽位尺寸只读读回",
-      "updated_at": 1784129340,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_cd011fb2"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
-      "completed_at": 1784125764,
-      "created_at": 1784125500,
-      "created_by": "coovoamae-lion",
-      "id": "t_c25f917f",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784125501,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P0｜执行已确认24条SP批量降预算：全账户配置压至$60",
-      "updated_at": 1784125764,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c25f917f"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 3,
+    "active": 4,
     "archived": 102,
-    "blocked": 11,
-    "done": 743,
+    "blocked": 12,
+    "done": 747,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 859,
+    "total": 865,
     "triage": 3
   },
   "tasks": [
@@ -11923,6 +11967,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784198359,
+      "created_by": "coovoamae-lion",
+      "id": "t_79bc8204",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198360,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
+      "updated_at": 1784198360,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "completed_at": 1783824599,
@@ -12026,6 +12088,24 @@
       "title": "[Lion -> Dangdang] B0H36RKCRS Photo Box：重点推广前零售就绪预检",
       "updated_at": 1784171264,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2cf3cba8"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "completed_at": null,
+      "created_at": 1784199388,
+      "created_by": "Codex",
+      "id": "t_50ac1464",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784199388,
+      "status": "running",
+      "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
+      "updated_at": 1784199388,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
     },
     {
       "assignee": "coovoamae-finance",
@@ -14368,6 +14448,60 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_93563ed2"
     },
     {
+      "assignee": "coovoamae-lion",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "刘希在 Feishu DM 当前明确授权：“可以安排进入共享图库”。本任务属于 coovoamae-product-assets 车道，report owner 为狮子；蝴蝶仅转交，不得代汇报、代确认或执行 promote。 对象： - ASIN / project_id: B0H6Q684CJ - 产品：Travel Vacuum Compression Storage Bags + mini USB-C rechargeable electric pump - batch_id: B0H6Q684CJ-liuxi-realrefs-20260716-1759 - staging root…",
+      "body_preview": "刘希在 Feishu DM 当前明确授权：“可以安排进入共享图库”。本任务属于 coovoamae-product-assets 车道，report owner 为狮子；蝴蝶仅转交，不得代汇报、代确认或执行 promote。 对象： - ASIN / project_id: B0H6Q684CJ - 产品：Travel Vacuum Compression Storage Bags + mini USB-C rechargeable electric pump - batch_id: B0H6Q684CJ-liuxi-realrefs-20260716-1759 - staging root…",
+      "completed_at": null,
+      "created_at": 1784198242,
+      "created_by": "coovoamae-crm",
+      "id": "t_417f427c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198268,
+      "status": "blocked",
+      "title": "[Butterfly -> Lion] B0H6Q684CJ 实拍参考图共享图库审核与发布",
+      "updated_at": 1784198268,
+      "workspace_path": "/root/.hermes/shared/product-truth/reference-photo-staging/B0H6Q684CJ-liuxi-realrefs-20260716-1759"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
+      "completed_at": 1784198624,
+      "created_at": 1784198139,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_2dff272b",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_338007a8.",
+      "started_at": 1784198147,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_ee6cf4f3",
+      "updated_at": 1784198624,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_2dff272b"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
+      "completed_at": 1784199508,
+      "created_at": 1784198624,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_338007a8",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784198629,
+      "status": "done",
+      "title": "[Auto Continue 2/3] work kanban task t_ee6cf4f3",
+      "updated_at": 1784199508,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_338007a8"
+    },
+    {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
@@ -14409,16 +14543,16 @@
       "board_name": "COOVOAMAE Product Intelligence Requests",
       "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
       "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "completed_at": null,
+      "completed_at": 1784198139,
       "created_at": 1783903520,
       "created_by": "coovoamae-crm",
       "id": "t_ee6cf4f3",
       "priority": 80,
-      "result": "",
+      "result": "Auto-continuation round 0 handed off to t_2dff272b.",
       "started_at": 1783903521,
-      "status": "blocked",
+      "status": "done",
       "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
-      "updated_at": 1783903521,
+      "updated_at": 1784198139,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
     },
     {
@@ -14654,6 +14788,24 @@
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
+      "completed_at": 1784196343,
+      "created_at": 1784196212,
+      "created_by": "coovoamae-crm",
+      "id": "t_fec32389",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784196223,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你能自己下载好之后，打包成zip 文件吗",
+      "updated_at": 1784196343,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fec32389"
     }
   ]
 }
