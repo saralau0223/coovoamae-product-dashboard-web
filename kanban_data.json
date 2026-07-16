@@ -350,7 +350,7 @@
     {
       "counts": {
         "blocked": 3,
-        "done": 4,
+        "done": 5,
         "triage": 1
       },
       "name": "COOVOAMAE Website Assets",
@@ -490,17 +490,35 @@
     "coovoamae-web-builder": {
       "active": 0,
       "blocked": 0,
-      "done": 29,
+      "done": 30,
       "running": 0,
-      "total": 29
+      "total": 30
     }
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784203201,
-  "generated_at_iso": "2026-07-16T20:00:01+08:00",
+  "generated_at": 1784206801,
+  "generated_at_iso": "2026-07-16T21:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-web-builder",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
+      "body_preview": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
+      "completed_at": 1784205008,
+      "created_at": 1784204782,
+      "created_by": "user",
+      "id": "t_33853c14",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784204790,
+      "status": "done",
+      "title": "织页官网渠道接管自检与第一周计划",
+      "updated_at": 1784205008,
+      "workspace_path": "/root/.hermes/profiles/coovoamae-web-builder/workspace/channel-command-3200"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -1022,24 +1040,6 @@
       "title": "[Lion -> Ads Manager] B0H36RKCRS Photo Box：首轮推广广告诊断与 Dry-run",
       "updated_at": 1784172050,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_f7450baf"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260716T030509Z-photo-box-verify-offer-price-mappi-5a13a4c3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
-      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260716T030509Z-photo-box-verify-offer-price-mappi-5a13a4c3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
-      "completed_at": 1784172048,
-      "created_at": 1784171111,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_20591af5",
-      "priority": 80,
-      "result": "",
-      "started_at": 1784171111,
-      "status": "done",
-      "title": "[Cross-lane Advice: Ads->Dangdang] B0H36RKCRS",
-      "updated_at": 1784172048,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_20591af5"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1047,12 +1047,12 @@
     "active": 4,
     "archived": 102,
     "blocked": 11,
-    "done": 752,
+    "done": 753,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 869,
+    "total": 870,
     "triage": 4
   },
   "tasks": [
@@ -14825,6 +14825,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_c1823ee2",
       "updated_at": 1784189360,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_77721daa"
+    },
+    {
+      "assignee": "coovoamae-web-builder",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
+      "body_preview": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
+      "completed_at": 1784205008,
+      "created_at": 1784204782,
+      "created_by": "user",
+      "id": "t_33853c14",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784204790,
+      "status": "done",
+      "title": "织页官网渠道接管自检与第一周计划",
+      "updated_at": 1784205008,
+      "workspace_path": "/root/.hermes/profiles/coovoamae-web-builder/workspace/channel-command-3200"
     },
     {
       "assignee": "coovoamae-crow-qc",
