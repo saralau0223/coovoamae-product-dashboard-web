@@ -17,6 +17,78 @@
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Ads dry-run for B0H36RKCRS is blocked from even tool-layer bid preflight: both SP campaigns lack a verified campaign→ASIN inventory binding despite official advertised-product report mapping the campaigns to B0H36RKCRS/SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE. Please route/establish the authoritati…",
+      "body_preview": "Ads dry-run for B0H36RKCRS is blocked from even tool-layer bid preflight: both SP campaigns lack a verified campaign→ASIN inventory binding despite official advertised-product report mapping the campaigns to B0H36RKCRS/SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE. Please route/establish the authoritati…",
+      "completed_at": null,
+      "created_at": 1784170560,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_23040aa6",
+      "priority": 70,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Lion] Repair B0H36RKCRS campaign→ASIN inventory guardrail binding",
+      "updated_at": 1784170560,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-finance",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "For B0H36RKCRS / SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE, prepare a read-only, unsigned financial floor draft for Ads Manager's 7-day clearance test. Liu Xi's operating context: standard selling price $23.99; absolute floor $19.99; 16 units only. Use verified landed/FBA/refund/other variable costs…",
+      "body_preview": "For B0H36RKCRS / SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE, prepare a read-only, unsigned financial floor draft for Ads Manager's 7-day clearance test. Liu Xi's operating context: standard selling price $23.99; absolute floor $19.99; 16 units only. Use verified landed/FBA/refund/other variable costs…",
+      "completed_at": null,
+      "created_at": 1784170559,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_ab5d605c",
+      "priority": 70,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Finance] B0H36RKCRS clearance test: CPA/ACoS price-floor draft",
+      "updated_at": 1784170559,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784169546,
+      "created_by": "coovoamae-lion",
+      "id": "t_2cf3cba8",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784169548,
+      "status": "running",
+      "title": "[Lion -> Dangdang] B0H36RKCRS Photo Box：重点推广前零售就绪预检",
+      "updated_at": 1784169548,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2cf3cba8"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T023900Z-b0h36rkcrs-photo-box-dry-run-c1eaed4d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovo…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T023900Z-b0h36rkcrs-photo-box-dry-run-c1eaed4d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovo…",
+      "completed_at": null,
+      "created_at": 1784169542,
+      "created_by": "coovoamae-lion",
+      "id": "t_f7450baf",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784169543,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] B0H36RKCRS Photo Box：首轮推广广告诊断与 Dry-run",
+      "updated_at": 1784169543,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_f7450baf"
     }
   ],
   "blocked": [
@@ -159,7 +231,9 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 12
+        "done": 14,
+        "running": 1,
+        "todo": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -168,14 +242,15 @@
       "counts": {
         "archived": 1,
         "blocked": 1,
-        "done": 12
+        "done": 12,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
     },
     {
       "counts": {
-        "done": 6
+        "done": 8
       },
       "name": "COOVOAMAE COO Control Tower",
       "slug": "coovoamae-coo"
@@ -216,18 +291,18 @@
   ],
   "by_agent": {
     "coovoamae-ads-manager": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
-      "done": 16,
-      "running": 0,
-      "total": 17
+      "done": 17,
+      "running": 1,
+      "total": 19
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
       "done": 39,
-      "running": 0,
-      "total": 40
+      "running": 1,
+      "total": 41
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -239,9 +314,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 30,
+      "done": 31,
       "running": 0,
-      "total": 30
+      "total": 31
     },
     "coovoamae-crm": {
       "active": 0,
@@ -253,9 +328,9 @@
     "coovoamae-crow-qc": {
       "active": 1,
       "blocked": 1,
-      "done": 3,
+      "done": 4,
       "running": 0,
-      "total": 5,
+      "total": 6,
       "triage": 1
     },
     "coovoamae-eagle-eye": {
@@ -280,11 +355,12 @@
       "total": 1
     },
     "coovoamae-finance": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 24,
       "running": 0,
-      "total": 24
+      "todo": 1,
+      "total": 25
     },
     "coovoamae-h10": {
       "active": 0,
@@ -293,12 +369,20 @@
       "running": 0,
       "total": 65
     },
+    "coovoamae-lion": {
+      "active": 1,
+      "blocked": 0,
+      "done": 0,
+      "running": 0,
+      "todo": 1,
+      "total": 1
+    },
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 149,
+      "done": 150,
       "running": 0,
-      "total": 149
+      "total": 150
     },
     "coovoamae-product-auditor": {
       "active": 0,
@@ -338,10 +422,82 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784167202,
-  "generated_at_iso": "2026-07-16T10:00:02+08:00",
+  "generated_at": 1784170801,
+  "generated_at_iso": "2026-07-16T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
+      "body_preview": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
+      "completed_at": 1784170237,
+      "created_at": 1784170060,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_bedba8cd",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784170114,
+      "status": "done",
+      "title": "[Crow QC] B0GF1KXKJC P1 no-write PPC proposal quality review",
+      "updated_at": 1784170237,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bedba8cd"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": 1784170107,
+      "created_at": 1784168009,
+      "created_by": "coovoamae-lion",
+      "id": "t_4e277e47",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784168010,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [OPS-20260716][P1] B0GF1KXKJC 成熟款流量恢复可行性与干跑方案",
+      "updated_at": 1784170107,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4e277e47"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
+      "completed_at": 1784167619,
+      "created_at": 1784167369,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_19288163",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784167503,
+      "status": "done",
+      "title": "方舟验收｜20260716飞书产品开发缺口巡检",
+      "updated_at": 1784167619,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_19288163"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
+      "completed_at": 1784167502,
+      "created_at": 1784167354,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_cb55f633",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784167354,
+      "status": "done",
+      "title": "20260716巡检｜飞书产品主表与Stage-1缺口复测",
+      "updated_at": 1784167502,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_cb55f633"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -809,91 +965,19 @@
       "title": "方舟验收｜20260714飞书产品开发缺口巡检",
       "updated_at": 1783994910,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_c4fa3962"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260714 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-14 09:00「单品卡→品类对比选择同步（日更）」再次以 KeyError 失败；2026-07-12 已验收基线显示当前授权 metainfo 中 `03_单品卡` 不可见，且 Stage-1 108 条缺口/90 条阻塞当时无变化。 目标：只读复测飞书产品主表的页签 metainfo 与既有缺口视图，判断 `03_单品卡` 是否恢复、改名或…",
-      "completed_at": 1783994807,
-      "created_at": 1783994559,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_f01eda95",
-      "priority": 120,
-      "result": "",
-      "started_at": 1783994568,
-      "status": "done",
-      "title": "20260714巡检｜飞书产品主表03单品卡与Stage-1缺口复测",
-      "updated_at": 1783994807,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_f01eda95"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
-      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260714T013315Z-b0h36rkcrs-20f2bddd - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260714T0133…",
-      "completed_at": 1783993409,
-      "created_at": 1783992796,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_bc744c3a",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783992797,
-      "status": "done",
-      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
-      "updated_at": 1783993409,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bc744c3a"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
-      "body_preview": "## 目标 只读核验 Amazon US Seller Central 当前 Standard Brand Story v2 首位 Hero 模块的真实上传规格，返回给蝴蝶用于 COOVOAMAE-brand-story-us-20260713 设计。 ## 用户授权 刘希在当前DM明确同意让当当读取并返回规格。 ## 只读范围 - 进入当前 Seller Central A+ / Brand Story 编辑器，只查看，不保存、不上传、不提交、不发布、不修改任何线上内容。 - 不复制或回传账号凭证、Cookie、Token。 ## 必须返回 1. 模块的当前准确名称/类型（确认是否 bra…",
-      "completed_at": 1783941044,
-      "created_at": 1783937049,
-      "created_by": "coovoamae-crm",
-      "id": "t_ad57ffb7",
-      "priority": 90,
-      "result": "",
-      "started_at": 1783937071,
-      "status": "done",
-      "title": "[Butterfly -> Dangdang] 只读核验 Brand Story Hero 当前槽位规格",
-      "updated_at": 1783941044,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ad57ffb7"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
-      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260713T025910Z-b0gxvnpm68-heated-eye-mask-7-10-0-9e4aada3 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads…",
-      "completed_at": 1783911925,
-      "created_at": 1783911551,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_ec1513a9",
-      "priority": 80,
-      "result": "",
-      "started_at": 1783911552,
-      "status": "done",
-      "title": "[Cross-lane Advice: Ads->Dangdang] B0GXVNPM68",
-      "updated_at": 1783911925,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ec1513a9"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 1,
+    "active": 5,
     "archived": 102,
     "blocked": 7,
-    "done": 715,
+    "done": 719,
     "pending": 0,
     "ready": 0,
-    "running": 0,
-    "todo": 0,
-    "total": 825,
+    "running": 2,
+    "todo": 2,
+    "total": 833,
     "triage": 1
   },
   "tasks": [
@@ -11482,6 +11566,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_9598c368"
     },
     {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
+      "body_preview": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
+      "completed_at": 1784170237,
+      "created_at": 1784170060,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_bedba8cd",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784170114,
+      "status": "done",
+      "title": "[Crow QC] B0GF1KXKJC P1 no-write PPC proposal quality review",
+      "updated_at": 1784170237,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bedba8cd"
+    },
+    {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -11498,6 +11600,78 @@
       "title": "[Lion -> Ads Manager] [OPS-20260715][P1][B0GXVNPM68] 黑色眼罩低效流量诊断与收口草案",
       "updated_at": 1784110283,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e49b2d52"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": 1784170107,
+      "created_at": 1784168009,
+      "created_by": "coovoamae-lion",
+      "id": "t_4e277e47",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784168010,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [OPS-20260716][P1] B0GF1KXKJC 成熟款流量恢复可行性与干跑方案",
+      "updated_at": 1784170107,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4e277e47"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T023900Z-b0h36rkcrs-photo-box-dry-run-c1eaed4d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovo…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T023900Z-b0h36rkcrs-photo-box-dry-run-c1eaed4d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovo…",
+      "completed_at": null,
+      "created_at": 1784169542,
+      "created_by": "coovoamae-lion",
+      "id": "t_f7450baf",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784169543,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] B0H36RKCRS Photo Box：首轮推广广告诊断与 Dry-run",
+      "updated_at": 1784169543,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_f7450baf"
+    },
+    {
+      "assignee": "coovoamae-finance",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "For B0H36RKCRS / SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE, prepare a read-only, unsigned financial floor draft for Ads Manager's 7-day clearance test. Liu Xi's operating context: standard selling price $23.99; absolute floor $19.99; 16 units only. Use verified landed/FBA/refund/other variable costs…",
+      "body_preview": "For B0H36RKCRS / SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE, prepare a read-only, unsigned financial floor draft for Ads Manager's 7-day clearance test. Liu Xi's operating context: standard selling price $23.99; absolute floor $19.99; 16 units only. Use verified landed/FBA/refund/other variable costs…",
+      "completed_at": null,
+      "created_at": 1784170559,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_ab5d605c",
+      "priority": 70,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Finance] B0H36RKCRS clearance test: CPA/ACoS price-floor draft",
+      "updated_at": 1784170559,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Ads dry-run for B0H36RKCRS is blocked from even tool-layer bid preflight: both SP campaigns lack a verified campaign→ASIN inventory binding despite official advertised-product report mapping the campaigns to B0H36RKCRS/SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE. Please route/establish the authoritati…",
+      "body_preview": "Ads dry-run for B0H36RKCRS is blocked from even tool-layer bid preflight: both SP campaigns lack a verified campaign→ASIN inventory binding despite official advertised-product report mapping the campaigns to B0H36RKCRS/SKU PHOTO-BOX-4x6-16IN-CLEAR-WITH-HANDLE. Please route/establish the authoritati…",
+      "completed_at": null,
+      "created_at": 1784170560,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_23040aa6",
+      "priority": 70,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Lion] Repair B0H36RKCRS campaign→ASIN inventory guardrail binding",
+      "updated_at": 1784170560,
+      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -11698,6 +11872,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ebc3f334"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784169546,
+      "created_by": "coovoamae-lion",
+      "id": "t_2cf3cba8",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784169548,
+      "status": "running",
+      "title": "[Lion -> Dangdang] B0H36RKCRS Photo Box：重点推广前零售就绪预检",
+      "updated_at": 1784169548,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2cf3cba8"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -11788,6 +11980,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_aa3e4f3a"
     },
     {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-16 09:00 Stage1轻量巡检显示“飞书写回未找到最近结果JSON”；2026-07-15已验收基线为37个可见页签无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。 目标：只读复测飞书产品主表 metainfo、`03_单品卡`状态与既有Stage-1缺口视图；核验“无最近写回结果JSON”是否仅为既有页签/授权…",
+      "completed_at": 1784167502,
+      "created_at": 1784167354,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_cb55f633",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784167354,
+      "status": "done",
+      "title": "20260716巡检｜飞书产品主表与Stage-1缺口复测",
+      "updated_at": 1784167502,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_cb55f633"
+    },
+    {
       "assignee": "coovoamae-chief-of-staff",
       "board": "coovoamae-coo",
       "board_name": "COOVOAMAE COO Control Tower",
@@ -11840,6 +12050,24 @@
       "title": "方舟验收｜20260715飞书产品开发缺口巡检",
       "updated_at": 1784081269,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_c5d4b6ab"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260716 board=coovoamae-coo owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_cb55f633。仅在交付物、证据/readback、剩余风险和下一owner齐全时收口；若出现真实新增Stage-1证据缺口，再按 Registry 指定一个主责owner创建窄补证任务，禁止恢复旧固定链。 输入：父任务 t_cb55f633 的交付；2026-07-15已验收基线 t_aa3e4f3a/t_c5d4b6ab。…",
+      "completed_at": 1784167619,
+      "created_at": 1784167369,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_19288163",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784167503,
+      "status": "done",
+      "title": "方舟验收｜20260716飞书产品开发缺口巡检",
+      "updated_at": 1784167619,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_19288163"
     },
     {
       "assignee": "coovoamae-crm",
