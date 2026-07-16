@@ -55,22 +55,22 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
-      "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
+      "body_preview": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
       "completed_at": null,
-      "created_at": 1784199388,
+      "created_at": 1784199634,
       "created_by": "Codex",
-      "id": "t_50ac1464",
+      "id": "t_a6a9ce7d",
       "priority": 70,
       "result": "",
-      "started_at": 1784199388,
-      "status": "running",
-      "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
-      "updated_at": 1784199388,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
+      "started_at": null,
+      "status": "triage",
+      "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
+      "updated_at": 1784199634,
+      "workspace_path": ""
     }
   ],
   "blocked": [
@@ -91,24 +91,6 @@
       "title": "P0后置｜当当抽检蝴蝶图库批次20%并条件发布",
       "updated_at": 1784190877,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44044458"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "completed_at": null,
-      "created_at": 1784198359,
-      "created_by": "coovoamae-lion",
-      "id": "t_79bc8204",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784198360,
-      "status": "blocked",
-      "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
-      "updated_at": 1784198360,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
     },
     {
       "assignee": "coovoamae-lion",
@@ -311,16 +293,15 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 2,
-        "done": 16,
-        "running": 1
+        "blocked": 1,
+        "done": 19
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
     },
     {
       "counts": {
-        "done": 10
+        "done": 11
       },
       "name": "COOVOAMAE COO Control Tower",
       "slug": "coovoamae-coo"
@@ -336,7 +317,8 @@
       "counts": {
         "archived": 61,
         "blocked": 5,
-        "done": 89
+        "done": 89,
+        "triage": 1
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -359,7 +341,7 @@
     },
     {
       "counts": {
-        "done": 1,
+        "done": 2,
         "triage": 2
       },
       "name": "COOVOAMAE Video Assets",
@@ -391,11 +373,11 @@
       "total": 20
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
-      "blocked": 3,
-      "done": 45,
-      "running": 1,
-      "total": 49
+      "active": 0,
+      "blocked": 2,
+      "done": 48,
+      "running": 0,
+      "total": 50
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -412,11 +394,12 @@
       "total": 31
     },
     "coovoamae-crm": {
-      "active": 0,
+      "active": 1,
       "blocked": 4,
       "done": 89,
       "running": 0,
-      "total": 93
+      "total": 94,
+      "triage": 1
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -478,9 +461,9 @@
     "coovoamae-product-auditor": {
       "active": 2,
       "blocked": 0,
-      "done": 57,
+      "done": 58,
       "running": 0,
-      "total": 59,
+      "total": 60,
       "triage": 2
     },
     "coovoamae-product-dev": {
@@ -493,9 +476,9 @@
     "coovoamae-supply-dev": {
       "active": 0,
       "blocked": 0,
-      "done": 29,
+      "done": 30,
       "running": 0,
-      "total": 29
+      "total": 30
     },
     "coovoamae-voc": {
       "active": 0,
@@ -514,10 +497,100 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784199602,
-  "generated_at_iso": "2026-07-16T19:00:02+08:00",
+  "generated_at": 1784203201,
+  "generated_at_iso": "2026-07-16T20:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": 1784200531,
+      "created_at": 1784198359,
+      "created_by": "coovoamae-lion",
+      "id": "t_79bc8204",
+      "priority": 100,
+      "result": "结论摘要：B0H6Q684CJ 暂存校验与固定 2/6 Vision 抽样均通过，旧 guard 的错误 owner 映射导致完成动作被拦 5 次；热修后由任务 assignee 当当正常收口。 确认包或产出路径：/root/.hermes/shared/product-truth/reference-photo-staging/B0H6Q684CJ-liuxi-realrefs-20260716-1759/dangdang-vision-audit.json 需刘希动作：无；本任务只完成内部审计，不含 promote 或后台写入。 可复制确认话术：无需回复。 确认后会发生什么：不会自动 p…",
+      "started_at": 1784198360,
+      "status": "done",
+      "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
+      "updated_at": 1784200531,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
+      "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
+      "completed_at": 1784200194,
+      "created_at": 1784199628,
+      "created_by": "Codex",
+      "id": "t_9295b8f1",
+      "priority": 85,
+      "result": "",
+      "started_at": 1784199630,
+      "status": "done",
+      "title": "[ORNBOX Q4] 新 Listing 身份与终装准备包",
+      "updated_at": 1784200194,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_9295b8f1"
+    },
+    {
+      "assignee": "coovoamae-supply-dev",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
+      "body_preview": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
+      "completed_at": 1784199995,
+      "created_at": 1784199625,
+      "created_by": "Codex",
+      "id": "t_7c8d9bac",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784199626,
+      "status": "done",
+      "title": "[ORNBOX Q4] 三情景备货与现金模型（只读内部）",
+      "updated_at": 1784199995,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_7c8d9bac"
+    },
+    {
+      "assignee": "coovoamae-product-auditor",
+      "board": "coovoamae-video-assets",
+      "board_name": "COOVOAMAE Video Assets",
+      "body": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
+      "body_preview": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
+      "completed_at": 1784199816,
+      "created_at": 1784199643,
+      "created_by": "Codex",
+      "id": "t_82ee1d9c",
+      "priority": 65,
+      "result": "",
+      "started_at": 1784199644,
+      "status": "done",
+      "title": "[ORNBOX Q4] 收纳前后对比视频镜头表（零费用内部）",
+      "updated_at": 1784199816,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82ee1d9c"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
+      "completed_at": 1784199624,
+      "created_at": 1784199388,
+      "created_by": "Codex",
+      "id": "t_50ac1464",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784199388,
+      "status": "done",
+      "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
+      "updated_at": 1784199624,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -967,110 +1040,20 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] B0H36RKCRS",
       "updated_at": 1784172048,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_20591af5"
-    },
-    {
-      "assignee": "coovoamae-product-auditor",
-      "board": "coovoamae-video-assets",
-      "board_name": "COOVOAMAE Video Assets",
-      "body": "产出 TikTok/Instagram 首月内容日历草案：4 周、每周 3 条，覆盖收纳前后对比、睡前场景、云台跟拍演示。每条写 hook、真实素材需求、5 镜以内分镜、字幕/CTA 草案、可复用到 Amazon/官网的素材位和合规风险。不得开号、联系创作者、发布或生成付费视频。",
-      "body_preview": "产出 TikTok/Instagram 首月内容日历草案：4 周、每周 3 条，覆盖收纳前后对比、睡前场景、云台跟拍演示。每条写 hook、真实素材需求、5 镜以内分镜、字幕/CTA 草案、可复用到 Amazon/官网的素材位和合规风险。不得开号、联系创作者、发布或生成付费视频。",
-      "completed_at": 1784172016,
-      "created_at": 1784171835,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_4c40eb3f",
-      "priority": 50,
-      "result": "",
-      "started_at": 1784171843,
-      "status": "done",
-      "title": "TikTok/Instagram 首月内容日历草案（只规划不发布）",
-      "updated_at": 1784172016,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_4c40eb3f"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260716T030551Z-b0h36rkcrs-7-89650705 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260716T03…",
-      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260716T030551Z-b0h36rkcrs-7-89650705 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260716T03…",
-      "completed_at": 1784171948,
-      "created_at": 1784171153,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_dfa14f5e",
-      "priority": 80,
-      "result": "",
-      "started_at": 1784171153,
-      "status": "done",
-      "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
-      "updated_at": 1784171948,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_dfa14f5e"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T023905Z-b0h36rkcrs-photo-box-c03a60fb - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "completed_at": 1784171264,
-      "created_at": 1784169546,
-      "created_by": "coovoamae-lion",
-      "id": "t_2cf3cba8",
-      "priority": 70,
-      "result": "",
-      "started_at": 1784169548,
-      "status": "done",
-      "title": "[Lion -> Dangdang] B0H36RKCRS Photo Box：重点推广前零售就绪预检",
-      "updated_at": 1784171264,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2cf3cba8"
-    },
-    {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
-      "body_preview": "Cold-review the attached no-write B0GF1KXKJC PPC decision package before any Liu Xi confirmation message is sent. Focus on: (1) official 2026-07-09..15 report vs SQL-cache source hierarchy, (2) small-sample inference and whether Top-of-Search 20%->0% and dry-eye exact $1.55->$1.24 are proportionate…",
-      "completed_at": 1784170237,
-      "created_at": 1784170060,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_bedba8cd",
-      "priority": 80,
-      "result": "",
-      "started_at": 1784170114,
-      "status": "done",
-      "title": "[Crow QC] B0GF1KXKJC P1 no-write PPC proposal quality review",
-      "updated_at": 1784170237,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_bedba8cd"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260716T021328Z-ops-20260716-p1-b0gf1kxkjc-045969f7 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
-      "completed_at": 1784170107,
-      "created_at": 1784168009,
-      "created_by": "coovoamae-lion",
-      "id": "t_4e277e47",
-      "priority": 70,
-      "result": "",
-      "started_at": 1784168010,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] [OPS-20260716][P1] B0GF1KXKJC 成熟款流量恢复可行性与干跑方案",
-      "updated_at": 1784170107,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4e277e47"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 4,
     "archived": 102,
-    "blocked": 12,
-    "done": 747,
+    "blocked": 11,
+    "done": 752,
     "pending": 0,
     "ready": 0,
-    "running": 1,
+    "running": 0,
     "todo": 0,
-    "total": 865,
-    "triage": 3
+    "total": 869,
+    "triage": 4
   },
   "tasks": [
     {
@@ -11969,17 +11952,35 @@
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "completed_at": null,
+      "completed_at": 1784200531,
       "created_at": 1784198359,
       "created_by": "coovoamae-lion",
       "id": "t_79bc8204",
       "priority": 100,
-      "result": "",
+      "result": "结论摘要：B0H6Q684CJ 暂存校验与固定 2/6 Vision 抽样均通过，旧 guard 的错误 owner 映射导致完成动作被拦 5 次；热修后由任务 assignee 当当正常收口。 确认包或产出路径：/root/.hermes/shared/product-truth/reference-photo-staging/B0H6Q684CJ-liuxi-realrefs-20260716-1759/dangdang-vision-audit.json 需刘希动作：无；本任务只完成内部审计，不含 promote 或后台写入。 可复制确认话术：无需回复。 确认后会发生什么：不会自动 p…",
       "started_at": 1784198360,
-      "status": "blocked",
+      "status": "done",
       "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
-      "updated_at": 1784198360,
+      "updated_at": 1784200531,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
+      "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
+      "completed_at": 1784200194,
+      "created_at": 1784199628,
+      "created_by": "Codex",
+      "id": "t_9295b8f1",
+      "priority": 85,
+      "result": "",
+      "started_at": 1784199630,
+      "status": "done",
+      "title": "[ORNBOX Q4] 新 Listing 身份与终装准备包",
+      "updated_at": 1784200194,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_9295b8f1"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -12095,16 +12096,16 @@
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
       "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
-      "completed_at": null,
+      "completed_at": 1784199624,
       "created_at": 1784199388,
       "created_by": "Codex",
       "id": "t_50ac1464",
       "priority": 70,
       "result": "",
       "started_at": 1784199388,
-      "status": "running",
+      "status": "done",
       "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
-      "updated_at": 1784199388,
+      "updated_at": 1784199624,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
     },
     {
@@ -12322,6 +12323,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_994e0acf",
       "updated_at": 1784179898,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_7011572d"
+    },
+    {
+      "assignee": "coovoamae-supply-dev",
+      "board": "coovoamae-coo",
+      "board_name": "COOVOAMAE COO Control Tower",
+      "body": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
+      "body_preview": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
+      "completed_at": 1784199995,
+      "created_at": 1784199625,
+      "created_by": "Codex",
+      "id": "t_7c8d9bac",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784199626,
+      "status": "done",
+      "title": "[ORNBOX Q4] 三情景备货与现金模型（只读内部）",
+      "updated_at": 1784199995,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_7c8d9bac"
     },
     {
       "assignee": "coovoamae-product-auditor",
@@ -14055,6 +14074,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
+      "body_preview": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
+      "completed_at": null,
+      "created_at": 1784199634,
+      "created_by": "Codex",
+      "id": "t_a6a9ce7d",
+      "priority": 70,
+      "result": "",
+      "started_at": null,
+      "status": "triage",
+      "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
+      "updated_at": 1784199634,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# 任务：COOVOAMAE Agent 头像 V2 小尺寸优化与对比板 来源：闭环任务 t_05769f12。刘希要求头像更换要做完闭环：版本、反馈、定稿、执行、记录。 ## 输入 - V1 总览图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/output/coovoamae_agent_avatars_contact_sheet_v1.png - 飞书小尺寸预览：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/fe…",
       "body_preview": "# 任务：COOVOAMAE Agent 头像 V2 小尺寸优化与对比板 来源：闭环任务 t_05769f12。刘希要求头像更换要做完闭环：版本、反馈、定稿、执行、记录。 ## 输入 - V1 总览图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/output/coovoamae_agent_avatars_contact_sheet_v1.png - 飞书小尺寸预览：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/fe…",
       "completed_at": 1779940429,
@@ -14626,6 +14663,24 @@
       "title": "相片盒 B0H36RKCRS Listing 主视频（等待真实素材）",
       "updated_at": 1784171833,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-product-auditor",
+      "board": "coovoamae-video-assets",
+      "board_name": "COOVOAMAE Video Assets",
+      "body": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
+      "body_preview": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
+      "completed_at": 1784199816,
+      "created_at": 1784199643,
+      "created_by": "Codex",
+      "id": "t_82ee1d9c",
+      "priority": 65,
+      "result": "",
+      "started_at": 1784199644,
+      "status": "done",
+      "title": "[ORNBOX Q4] 收纳前后对比视频镜头表（零费用内部）",
+      "updated_at": 1784199816,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82ee1d9c"
     },
     {
       "assignee": "coovoamae-product-auditor",
