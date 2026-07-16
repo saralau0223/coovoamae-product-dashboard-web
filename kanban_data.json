@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
+      "body_preview": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
+      "completed_at": null,
+      "created_at": 1784187926,
+      "created_by": "codex-1900-authorization",
+      "id": "t_a79d7c7f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784187931,
+      "status": "running",
+      "title": "P0｜1900 转化面实时只读核查与 Vine 核算",
+      "updated_at": 1784187931,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a79d7c7f"
+    },
+    {
       "assignee": "coovoamae-product-auditor",
       "board": "coovoamae-video-assets",
       "board_name": "COOVOAMAE Video Assets",
@@ -56,6 +74,24 @@
     }
   ],
   "blocked": [
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-reset-remaining10-p-photo-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-reset-remaining10-p-photo-20260716.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essentials - design_di…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-reset-remaining10-p-photo-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-reset-remaining10-p-photo-20260716.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essentials - design_di…",
+      "completed_at": null,
+      "created_at": 1784185647,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_c1823ee2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784185648,
+      "status": "blocked",
+      "title": "[Website Asset Brief] site-image-reset-remaining10-p-photo-20260716",
+      "updated_at": 1784185648,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c1823ee2"
+    },
     {
       "assignee": "coovoamae-crow-qc",
       "board": "coovoamae-website-assets",
@@ -222,7 +258,8 @@
       "counts": {
         "archived": 1,
         "blocked": 1,
-        "done": 14
+        "done": 14,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -276,7 +313,7 @@
     },
     {
       "counts": {
-        "blocked": 2,
+        "blocked": 3,
         "done": 3,
         "triage": 1
       },
@@ -293,11 +330,11 @@
       "total": 20
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
       "done": 43,
-      "running": 0,
-      "total": 44
+      "running": 1,
+      "total": 45
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -322,10 +359,10 @@
     },
     "coovoamae-crow-qc": {
       "active": 1,
-      "blocked": 2,
+      "blocked": 3,
       "done": 6,
       "running": 0,
-      "total": 9,
+      "total": 10,
       "triage": 1
     },
     "coovoamae-eagle-eye": {
@@ -416,8 +453,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784185201,
-  "generated_at_iso": "2026-07-16T15:00:01+08:00",
+  "generated_at": 1784188801,
+  "generated_at_iso": "2026-07-16T16:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -963,15 +1000,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 3,
+    "active": 4,
     "archived": 102,
-    "blocked": 8,
+    "blocked": 9,
     "done": 738,
     "pending": 0,
     "ready": 0,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 851,
+    "total": 853,
     "triage": 3
   },
   "tasks": [
@@ -11833,6 +11870,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
+      "body_preview": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
+      "completed_at": null,
+      "created_at": 1784187926,
+      "created_by": "codex-1900-authorization",
+      "id": "t_a79d7c7f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784187931,
+      "status": "running",
+      "title": "P0｜1900 转化面实时只读核查与 Vine 核算",
+      "updated_at": 1784187931,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a79d7c7f"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260712T024256Z-photo-box-featured-offer-1fd82b48 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangd…",
       "completed_at": 1783824599,
@@ -14438,6 +14493,24 @@
       "title": "[Website Asset Handoff] site-image-reset-direction-first2-20260716 -> Zhiye preview",
       "updated_at": 1784181439,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_e13cae30"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-reset-remaining10-p-photo-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-reset-remaining10-p-photo-20260716.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essentials - design_di…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-reset-remaining10-p-photo-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-reset-remaining10-p-photo-20260716.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essentials - design_di…",
+      "completed_at": null,
+      "created_at": 1784185647,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_c1823ee2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784185648,
+      "status": "blocked",
+      "title": "[Website Asset Brief] site-image-reset-remaining10-p-photo-20260716",
+      "updated_at": 1784185648,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c1823ee2"
     },
     {
       "assignee": "coovoamae-crow-qc",
