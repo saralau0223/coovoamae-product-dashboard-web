@@ -1,6 +1,43 @@
 {
-  "active": [],
+  "active": [
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase1-first8-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase1-first8-20260716.json - priority: P1 - brand_system: Warm Paper v2 pending Phase 0 selection - design_direction: Registered backlog only. D…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase1-first8-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase1-first8-20260716.json - priority: P1 - brand_system: Warm Paper v2 pending Phase 0 selection - design_direction: Registered backlog only. D…",
+      "completed_at": null,
+      "created_at": 1784164374,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_dc183028",
+      "priority": 80,
+      "result": "",
+      "started_at": null,
+      "status": "triage",
+      "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
+      "updated_at": 1784164374,
+      "workspace_path": ""
+    }
+  ],
   "blocked": [
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase0-compare-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase0-compare-20260716.json - priority: P0 - brand_system: Warm Paper v2 candidates, pending Liu Xi choice - design_direction: Produce two 4:5…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase0-compare-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase0-compare-20260716.json - priority: P0 - brand_system: Warm Paper v2 candidates, pending Liu Xi choice - design_direction: Produce two 4:5…",
+      "completed_at": null,
+      "created_at": 1784164369,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_30a3ded1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784164370,
+      "status": "blocked",
+      "title": "[Website Asset Brief] warm-paper-phase0-compare-20260716",
+      "updated_at": 1784164370,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_30a3ded1"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -167,6 +204,14 @@
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
+    },
+    {
+      "counts": {
+        "blocked": 1,
+        "triage": 1
+      },
+      "name": "COOVOAMAE Website Assets",
+      "slug": "coovoamae-website-assets"
     }
   ],
   "by_agent": {
@@ -206,11 +251,12 @@
       "total": 89
     },
     "coovoamae-crow-qc": {
-      "active": 0,
-      "blocked": 0,
+      "active": 1,
+      "blocked": 1,
       "done": 3,
       "running": 0,
-      "total": 3
+      "total": 5,
+      "triage": 1
     },
     "coovoamae-eagle-eye": {
       "active": 0,
@@ -292,8 +338,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784163601,
-  "generated_at_iso": "2026-07-16T09:00:01+08:00",
+  "generated_at": 1784167202,
+  "generated_at_iso": "2026-07-16T10:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -839,16 +885,16 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 0,
+    "active": 1,
     "archived": 102,
-    "blocked": 6,
+    "blocked": 7,
     "done": 715,
     "pending": 0,
     "ready": 0,
     "running": 0,
     "todo": 0,
-    "total": 823,
-    "triage": 0
+    "total": 825,
+    "triage": 1
   },
   "tasks": [
     {
@@ -13828,6 +13874,42 @@
       "title": "[Butterfly -> Eagle Intel] B0H36RKCRS photo-first A+ positioning validation",
       "updated_at": 1784008206,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_eb95e66c"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase0-compare-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase0-compare-20260716.json - priority: P0 - brand_system: Warm Paper v2 candidates, pending Liu Xi choice - design_direction: Produce two 4:5…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase0-compare-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase0-compare-20260716.json - priority: P0 - brand_system: Warm Paper v2 candidates, pending Liu Xi choice - design_direction: Produce two 4:5…",
+      "completed_at": null,
+      "created_at": 1784164369,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_30a3ded1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784164370,
+      "status": "blocked",
+      "title": "[Website Asset Brief] warm-paper-phase0-compare-20260716",
+      "updated_at": 1784164370,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_30a3ded1"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase1-first8-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase1-first8-20260716.json - priority: P1 - brand_system: Warm Paper v2 pending Phase 0 selection - design_direction: Registered backlog only. D…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: warm-paper-phase1-first8-20260716 - brief_path: /root/.hermes/shared/website-assets/briefs/warm-paper-phase1-first8-20260716.json - priority: P1 - brand_system: Warm Paper v2 pending Phase 0 selection - design_direction: Registered backlog only. D…",
+      "completed_at": null,
+      "created_at": 1784164374,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_dc183028",
+      "priority": 80,
+      "result": "",
+      "started_at": null,
+      "status": "triage",
+      "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
+      "updated_at": 1784164374,
+      "workspace_path": ""
     }
   ]
 }
