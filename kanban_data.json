@@ -449,7 +449,7 @@
     },
     {
       "counts": {
-        "done": 2,
+        "done": 3,
         "ready": 1
       },
       "name": "Hermes Auto Continue",
@@ -488,9 +488,9 @@
     "coovoamae-crm": {
       "active": 1,
       "blocked": 5,
-      "done": 89,
+      "done": 90,
       "running": 0,
-      "total": 95,
+      "total": 96,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -597,10 +597,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784278802,
-  "generated_at_iso": "2026-07-17T17:00:02+08:00",
+  "generated_at": 1784282401,
+  "generated_at_iso": "2026-07-17T18:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_7b047429d6dd_20260717_170021\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_7b047429d6dd_20260717_170021\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": 1784279359,
+      "created_at": 1784279128,
+      "created_by": "coovoamae-crm",
+      "id": "t_e789f320",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784279134,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784279359,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e789f320"
+    },
     {
       "assignee": "coovoamae-web-builder",
       "board": "coovoamae-website-assets",
@@ -1122,24 +1140,6 @@
       "title": "P0｜设计 SLA 红色告警｜t_c1823ee2",
       "updated_at": 1784189360,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_77721daa"
-    },
-    {
-      "assignee": "coovoamae-web-builder",
-      "board": "coovoamae-website-assets",
-      "board_name": "COOVOAMAE Website Assets",
-      "body": "乌鸦已通过 website-assets 管线交付官网视觉。这个任务只做内部 QA、静态比稿/主题副本预览和刘希确认包，不允许发布 MAIN。 ## Handoff - handoff_id: website-site-image-reset-direction-first2-20260716-ac64fa796b95 - brief_id: site-image-reset-direction-first2-20260716 - queue_record: /root/.hermes/shared/website-assets/handoff_queue/pending/website-s…",
-      "body_preview": "乌鸦已通过 website-assets 管线交付官网视觉。这个任务只做内部 QA、静态比稿/主题副本预览和刘希确认包，不允许发布 MAIN。 ## Handoff - handoff_id: website-site-image-reset-direction-first2-20260716-ac64fa796b95 - brief_id: site-image-reset-direction-first2-20260716 - queue_record: /root/.hermes/shared/website-assets/handoff_queue/pending/website-s…",
-      "completed_at": 1784181439,
-      "created_at": 1784181111,
-      "created_by": "coovoamae-crow-qc",
-      "id": "t_e13cae30",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784181111,
-      "status": "done",
-      "title": "[Website Asset Handoff] site-image-reset-direction-first2-20260716 -> Zhiye preview",
-      "updated_at": 1784181439,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_e13cae30"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1147,12 +1147,12 @@
     "active": 5,
     "archived": 102,
     "blocked": 15,
-    "done": 767,
+    "done": 768,
     "pending": 0,
     "ready": 1,
     "running": 0,
     "todo": 0,
-    "total": 889,
+    "total": 890,
     "triage": 4
   },
   "tasks": [
@@ -15321,6 +15321,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
       "updated_at": 1784254915,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_7b047429d6dd_20260717_170021\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_7b047429d6dd_20260717_170021\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": 1784279359,
+      "created_at": 1784279128,
+      "created_by": "coovoamae-crm",
+      "id": "t_e789f320",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784279134,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784279359,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e789f320"
     }
   ]
 }
