@@ -398,7 +398,7 @@
     },
     {
       "counts": {
-        "done": 6
+        "done": 7
       },
       "name": "COOVOAMAE Creator Collaborations",
       "slug": "coovoamae-creator-collabs"
@@ -467,9 +467,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 2,
-      "done": 52,
+      "done": 53,
       "running": 0,
-      "total": 54
+      "total": 55
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -597,10 +597,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784282401,
-  "generated_at_iso": "2026-07-17T18:00:01+08:00",
+  "generated_at": 1784286001,
+  "generated_at_iso": "2026-07-17T19:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-creator-collabs",
+      "board_name": "COOVOAMAE Creator Collaborations",
+      "body": "initiative_id=CC2100 board=coovoamae-creator-collabs owner=coovoamae-amazon-ops-lizhutian（当当） reviewer=coovoamae-product-auditor（蜂鸟，板级 report owner） 目标：基于刘希 2026-07-17 当前明确确认，选择 coovoamae 并打开 B0GQ2ZR81S Creator Connections 创建表单，仅做只读核对。 输入：ASIN B0GQ2ZR81S；确认范围=产品资格、实时佣金、预算、日期、交付字段。 交付物：回传上述字段的只读核对结果…",
+      "body_preview": "initiative_id=CC2100 board=coovoamae-creator-collabs owner=coovoamae-amazon-ops-lizhutian（当当） reviewer=coovoamae-product-auditor（蜂鸟，板级 report owner） 目标：基于刘希 2026-07-17 当前明确确认，选择 coovoamae 并打开 B0GQ2ZR81S Creator Connections 创建表单，仅做只读核对。 输入：ASIN B0GQ2ZR81S；确认范围=产品资格、实时佣金、预算、日期、交付字段。 交付物：回传上述字段的只读核对结果…",
+      "completed_at": 1784285264,
+      "created_at": 1784284466,
+      "created_by": "coovoamae-chief-of-staff",
+      "id": "t_ede8465a",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784284471,
+      "status": "done",
+      "title": "CC2100｜B0GQ2ZR81S Creator Connections 只读开表核对",
+      "updated_at": 1784285264,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-creator-collabs/workspaces/t_ede8465a"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1122,24 +1140,6 @@
       "title": "P0｜2300修订版：蝴蝶整理历史实拍并暂存建库",
       "updated_at": 1784190871,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_43057ea5"
-    },
-    {
-      "assignee": "coovoamae-web-builder",
-      "board": "coovoamae-website-assets",
-      "board_name": "COOVOAMAE Website Assets",
-      "body": "结论摘要：设计任务 t_c1823ee2 已静默/阻塞 61 分钟，当前状态=blocked；卡点：缺少 BrandDesigner approved image roots 内的真实产品源图；现有 shared product-truth 未包含本 brief 所需眼罩/收纳盒/真空袋/gimbal 可用实图，跨 profile 候选图被 LinkFox 拒绝为 outside approved image roots。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-website-assets/logs/t_c1823ee2.log 需刘希…",
-      "body_preview": "结论摘要：设计任务 t_c1823ee2 已静默/阻塞 61 分钟，当前状态=blocked；卡点：缺少 BrandDesigner approved image roots 内的真实产品源图；现有 shared product-truth 未包含本 brief 所需眼罩/收纳盒/真空袋/gimbal 可用实图，跨 profile 候选图被 LinkFox 拒绝为 outside approved image roots。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-website-assets/logs/t_c1823ee2.log 需刘希…",
-      "completed_at": 1784189360,
-      "created_at": 1784189360,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_77721daa",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_c1823ee2 已静默/阻塞 61 分钟，当前状态=blocked；卡点：缺少 BrandDesigner approved image roots 内的真实产品源图；现有 shared product-truth 未包含本 brief 所需眼罩/收纳盒/真空袋/gimbal 可用实图，跨 profile 候选图被 LinkFox 拒绝为 outside approved image roots。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-website-assets/logs/t_c1823ee2.log 需刘希…",
-      "started_at": 1784189360,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_c1823ee2",
-      "updated_at": 1784189360,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_77721daa"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1147,12 +1147,12 @@
     "active": 5,
     "archived": 102,
     "blocked": 15,
-    "done": 768,
+    "done": 769,
     "pending": 0,
     "ready": 1,
     "running": 0,
     "todo": 0,
-    "total": 890,
+    "total": 891,
     "triage": 4
   },
   "tasks": [
@@ -12675,6 +12675,24 @@
       "title": "首批 YouTube/Instagram 创作者 Top 20 公开核验与评分",
       "updated_at": 1784177027,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-creator-collabs/workspaces/t_4d5e8bca"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-creator-collabs",
+      "board_name": "COOVOAMAE Creator Collaborations",
+      "body": "initiative_id=CC2100 board=coovoamae-creator-collabs owner=coovoamae-amazon-ops-lizhutian（当当） reviewer=coovoamae-product-auditor（蜂鸟，板级 report owner） 目标：基于刘希 2026-07-17 当前明确确认，选择 coovoamae 并打开 B0GQ2ZR81S Creator Connections 创建表单，仅做只读核对。 输入：ASIN B0GQ2ZR81S；确认范围=产品资格、实时佣金、预算、日期、交付字段。 交付物：回传上述字段的只读核对结果…",
+      "body_preview": "initiative_id=CC2100 board=coovoamae-creator-collabs owner=coovoamae-amazon-ops-lizhutian（当当） reviewer=coovoamae-product-auditor（蜂鸟，板级 report owner） 目标：基于刘希 2026-07-17 当前明确确认，选择 coovoamae 并打开 B0GQ2ZR81S Creator Connections 创建表单，仅做只读核对。 输入：ASIN B0GQ2ZR81S；确认范围=产品资格、实时佣金、预算、日期、交付字段。 交付物：回传上述字段的只读核对结果…",
+      "completed_at": 1784285264,
+      "created_at": 1784284466,
+      "created_by": "coovoamae-chief-of-staff",
+      "id": "t_ede8465a",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784284471,
+      "status": "done",
+      "title": "CC2100｜B0GQ2ZR81S Creator Connections 只读开表核对",
+      "updated_at": 1784285264,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-creator-collabs/workspaces/t_ede8465a"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
