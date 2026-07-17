@@ -1,6 +1,60 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "completed_at": null,
+      "created_at": 1784274967,
+      "created_by": "coovoamae-lion",
+      "id": "t_90703e29",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274969,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P0｜B0H36RKCRS 新品零流量：零售就绪与可售库存预检（只读）",
+      "updated_at": 1784274969,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_90703e29"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "completed_at": null,
+      "created_at": 1784274960,
+      "created_by": "coovoamae-lion",
+      "id": "t_cdc9a925",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274961,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] P0｜B0H36RKCRS 新品到货一周仍零流量：7天启动方案（只读/dry-run）",
+      "updated_at": 1784274961,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_cdc9a925"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_152442_edabdb\", \"goal\": \"work kanban task t_678e098c\", \"completed\": [ \"brief回读完成\", \"真实素材manifest与部分positioning已回读\", \"眼罩/真空袋/收纳箱关键产品真相已vision核对\", \"深色软控眼罩与灰色外置圆控眼罩已生成、保存并vision QA\", \"装饰球收纳箱商品主图已生成并保存但未QA\", \"真空袋scene_f…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_152442_edabdb\", \"goal\": \"work kanban task t_678e098c\", \"completed\": [ \"brief回读完成\", \"真实素材manifest与部分positioning已回读\", \"眼罩/真空袋/收纳箱关键产品真相已vision核对\", \"深色软控眼罩与灰色外置圆控眼罩已生成、保存并vision QA\", \"装饰球收纳箱商品主图已生成并保存但未QA\", \"真空袋scene_f…",
+      "completed_at": null,
+      "created_at": 1784274031,
+      "created_by": "coovoamae-crow-qc",
+      "id": "t_c9cd489b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274443,
+      "status": "running",
+      "title": "[Auto Continue 1/3] work kanban task t_678e098c",
+      "updated_at": 1784274443,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c9cd489b"
+    },
+    {
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -37,6 +91,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260717T075629Z-b0gf1kxkjc-cvr-decline-warrants-li-d51e36ab - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260717T075629Z-b0gf1kxkjc-cvr-decline-warrants-li-d51e36ab - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
+      "completed_at": null,
+      "created_at": 1784274990,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_82c7f4f7",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784274990,
+      "status": "running",
+      "title": "[Cross-lane Advice: Ads->Dangdang] B0GF1KXKJC",
+      "updated_at": 1784274990,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_82c7f4f7"
+    },
+    {
       "assignee": "coovoamae-product-auditor",
       "board": "coovoamae-video-assets",
       "board_name": "COOVOAMAE Video Assets",
@@ -71,6 +143,24 @@
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T074947Z-p1-b0gf1kxkjc-7-dry-run-ba1a9daf - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T074947Z-p1-b0gf1kxkjc-7-dry-run-ba1a9daf - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "completed_at": null,
+      "created_at": 1784274589,
+      "created_by": "coovoamae-lion",
+      "id": "t_664c04cc",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784274589,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] P1｜B0GF1KXKJC 眼罩：7天高意图流量恢复方案（只读/dry-run）",
+      "updated_at": 1784274589,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_664c04cc"
     },
     {
       "assignee": "coovoamae-crm",
@@ -339,7 +429,8 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 19
+        "done": 19,
+        "running": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -348,7 +439,8 @@
       "counts": {
         "archived": 1,
         "blocked": 1,
-        "done": 22
+        "done": 22,
+        "running": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -405,7 +497,8 @@
     {
       "counts": {
         "blocked": 4,
-        "done": 6,
+        "done": 7,
+        "running": 1,
         "triage": 1
       },
       "name": "COOVOAMAE Website Assets",
@@ -422,18 +515,18 @@
   ],
   "by_agent": {
     "coovoamae-ads-manager": {
-      "active": 0,
+      "active": 2,
       "blocked": 1,
       "done": 19,
-      "running": 0,
-      "total": 20
+      "running": 2,
+      "total": 22
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 2,
       "blocked": 2,
       "done": 50,
-      "running": 0,
-      "total": 52
+      "running": 2,
+      "total": 54
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -458,11 +551,11 @@
       "triage": 1
     },
     "coovoamae-crow-qc": {
-      "active": 1,
+      "active": 2,
       "blocked": 4,
-      "done": 7,
-      "running": 0,
-      "total": 12,
+      "done": 8,
+      "running": 1,
+      "total": 14,
       "triage": 1
     },
     "coovoamae-eagle-eye": {
@@ -561,10 +654,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784271601,
-  "generated_at_iso": "2026-07-17T15:00:01+08:00",
+  "generated_at": 1784275202,
+  "generated_at_iso": "2026-07-17T16:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-full-release-eye-vacuum-ornbox-20260717-1523 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-full-release-eye-vacuum-ornbox-20260717-1523.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday es…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-full-release-eye-vacuum-ornbox-20260717-1523 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-full-release-eye-vacuum-ornbox-20260717-1523.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday es…",
+      "completed_at": 1784274421,
+      "created_at": 1784273074,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_678e098c",
+      "priority": 100,
+      "result": "Auto-continuation round 0 handed off to t_c9cd489b.",
+      "started_at": 1784273075,
+      "status": "done",
+      "title": "[Website Asset Brief] site-image-full-release-eye-vacuum-ornbox-20260717-1523",
+      "updated_at": 1784274421,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_678e098c"
+    },
     {
       "assignee": "coovoamae-chief-of-staff",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -1086,37 +1197,19 @@
       "title": "[Auto Continue 1/3] work kanban task t_02c67c20",
       "updated_at": 1784177887,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-creator-collabs/workspaces/t_a04e5c1a"
-    },
-    {
-      "assignee": "coovoamae-product-auditor",
-      "board": "coovoamae-creator-collabs",
-      "board_name": "COOVOAMAE Creator Collaborations",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_123904_9d410b\", \"goal\": \"work kanban task t_4d5e8bca\", \"completed\": [ \"oriented kanban task t_4d5e8bca\", \"checked creator research tool health\", \"checked creator CRM connection\", \"confirmed CRM candidate list return…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_123904_9d410b\", \"goal\": \"work kanban task t_4d5e8bca\", \"completed\": [ \"oriented kanban task t_4d5e8bca\", \"checked creator research tool health\", \"checked creator CRM connection\", \"confirmed CRM candidate list return…",
-      "completed_at": 1784177865,
-      "created_at": 1784177027,
-      "created_by": "coovoamae-product-auditor",
-      "id": "t_ebcef460",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784177038,
-      "status": "done",
-      "title": "[Auto Continue 1/3] work kanban task t_4d5e8bca",
-      "updated_at": 1784177865,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-creator-collabs/workspaces/t_ebcef460"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 5,
+    "active": 10,
     "archived": 102,
     "blocked": 13,
-    "done": 760,
+    "done": 761,
     "pending": 0,
     "ready": 1,
-    "running": 0,
+    "running": 5,
     "todo": 0,
-    "total": 880,
+    "total": 886,
     "triage": 4
   },
   "tasks": [
@@ -11636,6 +11729,24 @@
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "completed_at": null,
+      "created_at": 1784274960,
+      "created_by": "coovoamae-lion",
+      "id": "t_cdc9a925",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274961,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] P0｜B0H36RKCRS 新品到货一周仍零流量：7天启动方案（只读/dry-run）",
+      "updated_at": 1784274961,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_cdc9a925"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
       "body_preview": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
       "completed_at": 1784115566,
@@ -11849,6 +11960,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_23040aa6"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T074947Z-p1-b0gf1kxkjc-7-dry-run-ba1a9daf - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T074947Z-p1-b0gf1kxkjc-7-dry-run-ba1a9daf - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
+      "completed_at": null,
+      "created_at": 1784274589,
+      "created_by": "coovoamae-lion",
+      "id": "t_664c04cc",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784274589,
+      "status": "running",
+      "title": "[Lion -> Ads Manager] P1｜B0GF1KXKJC 眼罩：7天高意图流量恢复方案（只读/dry-run）",
+      "updated_at": 1784274589,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_664c04cc"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -12032,6 +12161,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "completed_at": null,
+      "created_at": 1784274967,
+      "created_by": "coovoamae-lion",
+      "id": "t_90703e29",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274969,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P0｜B0H36RKCRS 新品零流量：零售就绪与可售库存预检（只读）",
+      "updated_at": 1784274969,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_90703e29"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "completed_at": 1784200194,
@@ -12117,6 +12264,24 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] B0H36RKCRS",
       "updated_at": 1784172048,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_20591af5"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260717T075629Z-b0gf1kxkjc-cvr-decline-warrants-li-d51e36ab - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260717T075629Z-b0gf1kxkjc-cvr-decline-warrants-li-d51e36ab - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ad…",
+      "completed_at": null,
+      "created_at": 1784274990,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_82c7f4f7",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784274990,
+      "status": "running",
+      "title": "[Cross-lane Advice: Ads->Dangdang] B0GF1KXKJC",
+      "updated_at": 1784274990,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_82c7f4f7"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -15033,6 +15198,42 @@
       "title": "[Auto Continue 1/3] work kanban task t_595213d3",
       "updated_at": 1784244139,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_01a39630"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-full-release-eye-vacuum-ornbox-20260717-1523 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-full-release-eye-vacuum-ornbox-20260717-1523.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday es…",
+      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-full-release-eye-vacuum-ornbox-20260717-1523 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-full-release-eye-vacuum-ornbox-20260717-1523.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday es…",
+      "completed_at": 1784274421,
+      "created_at": 1784273074,
+      "created_by": "coovoamae-web-builder",
+      "id": "t_678e098c",
+      "priority": 100,
+      "result": "Auto-continuation round 0 handed off to t_c9cd489b.",
+      "started_at": 1784273075,
+      "status": "done",
+      "title": "[Website Asset Brief] site-image-full-release-eye-vacuum-ornbox-20260717-1523",
+      "updated_at": 1784274421,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_678e098c"
+    },
+    {
+      "assignee": "coovoamae-crow-qc",
+      "board": "coovoamae-website-assets",
+      "board_name": "COOVOAMAE Website Assets",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_152442_edabdb\", \"goal\": \"work kanban task t_678e098c\", \"completed\": [ \"brief回读完成\", \"真实素材manifest与部分positioning已回读\", \"眼罩/真空袋/收纳箱关键产品真相已vision核对\", \"深色软控眼罩与灰色外置圆控眼罩已生成、保存并vision QA\", \"装饰球收纳箱商品主图已生成并保存但未QA\", \"真空袋scene_f…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_152442_edabdb\", \"goal\": \"work kanban task t_678e098c\", \"completed\": [ \"brief回读完成\", \"真实素材manifest与部分positioning已回读\", \"眼罩/真空袋/收纳箱关键产品真相已vision核对\", \"深色软控眼罩与灰色外置圆控眼罩已生成、保存并vision QA\", \"装饰球收纳箱商品主图已生成并保存但未QA\", \"真空袋scene_f…",
+      "completed_at": null,
+      "created_at": 1784274031,
+      "created_by": "coovoamae-crow-qc",
+      "id": "t_c9cd489b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784274443,
+      "status": "running",
+      "title": "[Auto Continue 1/3] work kanban task t_678e098c",
+      "updated_at": 1784274443,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c9cd489b"
     },
     {
       "assignee": "coovoamae-web-builder",
