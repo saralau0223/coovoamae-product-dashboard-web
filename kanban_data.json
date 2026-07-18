@@ -4,6 +4,24 @@
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": null,
+      "created_at": 1784341460,
+      "created_by": "main",
+      "id": "t_927b53e5",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784341460,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "main",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260717_102027\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260717_102027\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
       "completed_at": null,
@@ -127,24 +145,6 @@
       "title": "[Auto Continue 1/3] work kanban task t_678e098c",
       "updated_at": 1784274443,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c9cd489b"
-    },
-    {
-      "assignee": "coovoamae-chief-of-staff",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
-      "completed_at": null,
-      "created_at": 1784253775,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_a7a4f5eb",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784254179,
-      "status": "blocked",
-      "title": "方舟验收｜20260717飞书产品开发缺口与路由QA",
-      "updated_at": 1784254179,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a7a4f5eb"
     },
     {
       "assignee": "coovoamae-crow-qc",
@@ -375,7 +375,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 22
+        "done": 25
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -424,8 +424,7 @@
     },
     {
       "counts": {
-        "blocked": 1,
-        "done": 9
+        "done": 10
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -450,7 +449,7 @@
     {
       "counts": {
         "done": 4,
-        "ready": 1
+        "ready": 2
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -460,9 +459,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 22,
+      "done": 25,
       "running": 0,
-      "total": 23
+      "total": 26
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -480,8 +479,8 @@
     },
     "coovoamae-chief-of-staff": {
       "active": 0,
-      "blocked": 1,
-      "done": 32,
+      "blocked": 0,
+      "done": 33,
       "running": 0,
       "total": 33
     },
@@ -587,20 +586,92 @@
       "total": 31
     },
     "main": {
-      "active": 1,
+      "active": 2,
       "blocked": 0,
       "done": 0,
-      "ready": 1,
+      "ready": 2,
       "running": 0,
-      "total": 1
+      "total": 2
     }
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784340001,
-  "generated_at_iso": "2026-07-18T10:00:01+08:00",
+  "generated_at": 1784343602,
+  "generated_at_iso": "2026-07-18T11:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T024545Z-p1-7-17-ccb5fd60 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T024545Z-p1-7-17-ccb5fd60 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "completed_at": 1784343382,
+      "created_at": 1784342746,
+      "created_by": "coovoamae-lion",
+      "id": "t_e95fa674",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784342747,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜云台 7/17 广告交付与订单骤降诊断（只读）",
+      "updated_at": 1784343382,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e95fa674"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_101138_a6b53f\", \"goal\": \"work kanban task t_5ecdfec2\", \"completed\": [ \"Pulled and downloaded ASIN/SKU-verified official V3 campaign, advertised-product, targeting, and search-term evidence for both complete windows\"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_101138_a6b53f\", \"goal\": \"work kanban task t_5ecdfec2\", \"completed\": [ \"Pulled and downloaded ASIN/SKU-verified official V3 campaign, advertised-product, targeting, and search-term evidence for both complete windows\"…",
+      "completed_at": 1784341223,
+      "created_at": 1784341162,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_cc7d77ac",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784341171,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_5ecdfec2",
+      "updated_at": 1784341223,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_cc7d77ac"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T020706Z-p1-q08-sp-dry-run-11dc07b1 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-ma…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T020706Z-p1-q08-sp-dry-run-11dc07b1 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-ma…",
+      "completed_at": 1784341162,
+      "created_at": 1784340427,
+      "created_by": "coovoamae-lion",
+      "id": "t_5ecdfec2",
+      "priority": 70,
+      "result": "Auto-continuation round 0 handed off to t_cc7d77ac.",
+      "started_at": 1784340427,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [P1][Q08] 精准词SP效率复核与收口dry-run（无写入）",
+      "updated_at": 1784341162,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_5ecdfec2"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
+      "completed_at": 1784340157,
+      "created_at": 1784253775,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_a7a4f5eb",
+      "priority": 100,
+      "result": "验收通过：续跑交付证据/readback齐全；无新增缺口，不重复派单。",
+      "started_at": 1784254179,
+      "status": "done",
+      "title": "方舟验收｜20260717飞书产品开发缺口与路由QA",
+      "updated_at": 1784340157,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a7a4f5eb"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -1068,91 +1139,19 @@
       "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
       "updated_at": 1784198139,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_175538_4d5a33\", \"goal\": \"你能自己下载好之后，打包成zip 文件吗\", \"completed\": [ \"下载并保存6张B0H6Q684CJ实拍原图\", \"核验尺寸与SHA-256\", \"生成来源证明和素材清单\", \"暂存为pending_dangdang_20pct_vision_audit\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm…",
-      "completed_at": 1784196343,
-      "created_at": 1784196212,
-      "created_by": "coovoamae-crm",
-      "id": "t_fec32389",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784196223,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 你能自己下载好之后，打包成zip 文件吗",
-      "updated_at": 1784196343,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fec32389"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
-      "body_preview": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
-      "completed_at": 1784194491,
-      "created_at": 1784194488,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_4175c2cf",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_78f6e53d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：0/105 candidates pass the revised provenance gate. To continue, provide at least one camera-original priority-product file in Butterfly’s fixed source root plus an admissible receipt recording source type, received_at, subject, project ID/ASIN, and…",
-      "started_at": 1784194489,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_78f6e53d",
-      "updated_at": 1784194491,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4175c2cf"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_160231_ea3c77\", \"goal\": \"work kanban task t_a79d7c7f\", \"completed\": [ \"紫鸟及伟鹏美国站只读身份核验\", \"19个活跃ASIN主视频位前台盘点\", \"19个活跃ASIN前台Q&A基线核验\", \"Brand Store前台覆盖核验\", \"Vine候选4个ASIN状态/注册/认领/评论读回\" ], \"artifacts\": [ \"t_a79d7c7f\" ], \"…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_160231_ea3c77\", \"goal\": \"work kanban task t_a79d7c7f\", \"completed\": [ \"紫鸟及伟鹏美国站只读身份核验\", \"19个活跃ASIN主视频位前台盘点\", \"19个活跃ASIN前台Q&A基线核验\", \"Brand Store前台覆盖核验\", \"Vine候选4个ASIN状态/注册/认领/评论读回\" ], \"artifacts\": [ \"t_a79d7c7f\" ], \"…",
-      "completed_at": 1784192393,
-      "created_at": 1784189565,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_d0fb132c",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784192327,
-      "status": "done",
-      "title": "[Auto Continue 1/3] work kanban task t_a79d7c7f",
-      "updated_at": 1784192393,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d0fb132c"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
-      "body_preview": "刘希于 2026-07-16 当前消息明确授权：索评引擎按方案启动；Listing 视频盘点、Brand Store 现状核查、Q&A 值守启动；Vine 只核算并逐 ASIN 待批。你是当当，只执行本任务的实时只读核查与核算，不做 Request a Review（由确定性 SP-API 引擎负责），不得生成/上传视频、不得修改或发布 Brand Store、不得回复 Q&A、不得报名 Vine、不得产生费用。必须优先用 superbrowser-coovoamae MCP，确认 伟鹏｜亚马逊 / 美国。交付到 /root/.hermes/shared/conversion-ops/lau…",
-      "completed_at": 1784192326,
-      "created_at": 1784187926,
-      "created_by": "codex-1900-authorization",
-      "id": "t_a79d7c7f",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784187931,
-      "status": "done",
-      "title": "P0｜1900 转化面实时只读核查与 Vine 核算",
-      "updated_at": 1784192326,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a79d7c7f"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 5,
+    "active": 6,
     "archived": 102,
-    "blocked": 15,
-    "done": 770,
+    "blocked": 14,
+    "done": 774,
     "pending": 0,
-    "ready": 1,
+    "ready": 2,
     "running": 0,
     "todo": 0,
-    "total": 892,
+    "total": 896,
     "triage": 4
   },
   "tasks": [
@@ -11708,6 +11707,24 @@
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_101138_a6b53f\", \"goal\": \"work kanban task t_5ecdfec2\", \"completed\": [ \"Pulled and downloaded ASIN/SKU-verified official V3 campaign, advertised-product, targeting, and search-term evidence for both complete windows\"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_101138_a6b53f\", \"goal\": \"work kanban task t_5ecdfec2\", \"completed\": [ \"Pulled and downloaded ASIN/SKU-verified official V3 campaign, advertised-product, targeting, and search-term evidence for both complete windows\"…",
+      "completed_at": 1784341223,
+      "created_at": 1784341162,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_cc7d77ac",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784341171,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_5ecdfec2",
+      "updated_at": 1784341223,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_cc7d77ac"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
       "body_preview": "Butterfly has delivered QA-passed SB Product Collection custom images for B0GF1KXKJC and Liu Xi authorized handoff to Ads Manager for use in advertising. Handoff files: - /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/ads-manager-handoffs/butterfly-ads-manager-20260709T110926Z-b0gf1kx…",
       "completed_at": 1784115566,
@@ -11937,6 +11954,42 @@
       "title": "[Lion -> Ads Manager] P1｜B0GF1KXKJC 眼罩：7天高意图流量恢复方案（只读/dry-run）",
       "updated_at": 1784276011,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_664c04cc"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T020706Z-p1-q08-sp-dry-run-11dc07b1 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-ma…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T020706Z-p1-q08-sp-dry-run-11dc07b1 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-ma…",
+      "completed_at": 1784341162,
+      "created_at": 1784340427,
+      "created_by": "coovoamae-lion",
+      "id": "t_5ecdfec2",
+      "priority": 70,
+      "result": "Auto-continuation round 0 handed off to t_cc7d77ac.",
+      "started_at": 1784340427,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [P1][Q08] 精准词SP效率复核与收口dry-run（无写入）",
+      "updated_at": 1784341162,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_5ecdfec2"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T024545Z-p1-7-17-ccb5fd60 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260718T024545Z-p1-7-17-ccb5fd60 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "completed_at": 1784343382,
+      "created_at": 1784342746,
+      "created_by": "coovoamae-lion",
+      "id": "t_e95fa674",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784342747,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜云台 7/17 广告交付与订单骤降诊断（只读）",
+      "updated_at": 1784343382,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e95fa674"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -14842,16 +14895,16 @@
       "board_name": "COOVOAMAE Product Intelligence Requests",
       "body": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
       "body_preview": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_3e7e62cd；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。真实新增Stage-1证据缺口才按Registry给一个主责owner建立窄任务；禁止恢复旧固定链，禁止派猫头鹰或已退役白泽。 输入：父任务 t_3e7e62cd；已验收基线 coovoam…",
-      "completed_at": null,
+      "completed_at": 1784340157,
       "created_at": 1784253775,
       "created_by": "coovoamae-chief-of-staff-cron",
       "id": "t_a7a4f5eb",
       "priority": 100,
-      "result": "",
+      "result": "验收通过：续跑交付证据/readback齐全；无新增缺口，不重复派单。",
       "started_at": 1784254179,
-      "status": "blocked",
+      "status": "done",
       "title": "方舟验收｜20260717飞书产品开发缺口与路由QA",
-      "updated_at": 1784254179,
+      "updated_at": 1784340157,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_a7a4f5eb"
     },
     {
@@ -15375,6 +15428,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
       "updated_at": 1784337580,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_35c5be30"
+    },
+    {
+      "assignee": "main",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": null,
+      "created_at": 1784341460,
+      "created_by": "main",
+      "id": "t_927b53e5",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784341460,
+      "workspace_path": ""
     }
   ]
 }
