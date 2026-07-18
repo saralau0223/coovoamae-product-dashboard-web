@@ -449,7 +449,7 @@
     },
     {
       "counts": {
-        "done": 3,
+        "done": 4,
         "ready": 1
       },
       "name": "Hermes Auto Continue",
@@ -467,9 +467,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 2,
-      "done": 53,
+      "done": 54,
       "running": 0,
-      "total": 55
+      "total": 56
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -597,10 +597,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784336401,
-  "generated_at_iso": "2026-07-18T09:00:01+08:00",
+  "generated_at": 1784340001,
+  "generated_at_iso": "2026-07-18T10:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_090949_f6bf3b\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_090949_f6bf3b\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": 1784337580,
+      "created_at": 1784337269,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_35c5be30",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784337281,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1784337580,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_35c5be30"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-creator-collabs",
@@ -1122,24 +1140,6 @@
       "title": "P0｜1900 转化面实时只读核查与 Vine 核算",
       "updated_at": 1784192326,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a79d7c7f"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "# P0｜共享实物参考图库历史素材整理与暂存建库 当前授权：`刘希 2026-07-16：应用 2300 修订版，建库任务派给蝴蝶`。 你是本任务执行者和历史素材保管人。目标是整理蝴蝶过去做过的产品图项目，只把有可追溯来源的相机原始实拍放入受控暂存批次；不得凭主观外观把图片认作实拍。 固定工具：`/root/.hermes/bin/product-reference-library` 固定批次：`butterfly-backfill-20260716-2300` 公开库：`/root/.hermes/shared/product-truth/reference-photos/` 私有暂存：`…",
-      "body_preview": "# P0｜共享实物参考图库历史素材整理与暂存建库 当前授权：`刘希 2026-07-16：应用 2300 修订版，建库任务派给蝴蝶`。 你是本任务执行者和历史素材保管人。目标是整理蝴蝶过去做过的产品图项目，只把有可追溯来源的相机原始实拍放入受控暂存批次；不得凭主观外观把图片认作实拍。 固定工具：`/root/.hermes/bin/product-reference-library` 固定批次：`butterfly-backfill-20260716-2300` 公开库：`/root/.hermes/shared/product-truth/reference-photos/` 私有暂存：`…",
-      "completed_at": 1784190871,
-      "created_at": 1784190684,
-      "created_by": "Codex / Liu Xi authorized 2300 revision",
-      "id": "t_43057ea5",
-      "priority": 230,
-      "result": "Auto-continuation round 0 handed off to t_78f6e53d.",
-      "started_at": 1784190695,
-      "status": "done",
-      "title": "P0｜2300修订版：蝴蝶整理历史实拍并暂存建库",
-      "updated_at": 1784190871,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_43057ea5"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1147,12 +1147,12 @@
     "active": 5,
     "archived": 102,
     "blocked": 15,
-    "done": 769,
+    "done": 770,
     "pending": 0,
     "ready": 1,
     "running": 0,
     "todo": 0,
-    "total": 891,
+    "total": 892,
     "triage": 4
   },
   "tasks": [
@@ -15357,6 +15357,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
       "updated_at": 1784279359,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e789f320"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_090949_f6bf3b\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260718_090949_f6bf3b\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": 1784337580,
+      "created_at": 1784337269,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_35c5be30",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784337281,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1784337580,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_35c5be30"
     }
   ]
 }
