@@ -147,6 +147,42 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44044458"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260719T031449Z-pd-ornbox-7-2-vision-ebcc0c4b - priority: P0 - task_type: product_asset_audit - inbox_json: /root/.hermes/profiles/coovoamae-ama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260719T031449Z-pd-ornbox-7-2-vision-ebcc0c4b - priority: P0 - task_type: product_asset_audit - inbox_json: /root/.hermes/profiles/coovoamae-ama…",
+      "completed_at": null,
+      "created_at": 1784430890,
+      "created_by": "coovoamae-lion",
+      "id": "t_61a1fc76",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430890,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] PD-ORNBOX 7张实拍：固定2样本独立Vision抽检并写入治理报告",
+      "updated_at": 1784430890,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_61a1fc76"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "目标车道/板：coovoamae-product-assets 目标：完成圣诞收纳箱新增 7 张来源可追溯实拍的受治理入库；当前仅在私有 staging，尚未公开。 项目：PD-ORNBOX-20260701（ASIN 暂无） Batch：PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 Staging：/root/.hermes/shared/product-truth/reference-photo-staging/PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 来源证明：/root/.herm…",
+      "body_preview": "目标车道/板：coovoamae-product-assets 目标：完成圣诞收纳箱新增 7 张来源可追溯实拍的受治理入库；当前仅在私有 staging，尚未公开。 项目：PD-ORNBOX-20260701（ASIN 暂无） Batch：PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 Staging：/root/.hermes/shared/product-truth/reference-photo-staging/PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 来源证明：/root/.herm…",
+      "completed_at": null,
+      "created_at": 1784430777,
+      "created_by": "coovoamae-crm",
+      "id": "t_e954d7a9",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430810,
+      "status": "blocked",
+      "title": "[coovoamae-product-assets] 圣诞收纳箱 7 张实拍 20% 抽检与受治理入库",
+      "updated_at": 1784430810,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e954d7a9"
+    },
+    {
       "assignee": "coovoamae-lion",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -420,7 +456,7 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 1,
+        "blocked": 2,
         "done": 24
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -485,8 +521,8 @@
     },
     {
       "counts": {
-        "blocked": 1,
-        "done": 4,
+        "blocked": 2,
+        "done": 6,
         "ready": 2
       },
       "name": "Hermes Auto Continue",
@@ -503,10 +539,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 2,
+      "blocked": 3,
       "done": 54,
       "running": 0,
-      "total": 56
+      "total": 57
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -525,9 +561,9 @@
     "coovoamae-crm": {
       "active": 1,
       "blocked": 5,
-      "done": 90,
+      "done": 92,
       "running": 0,
-      "total": 96,
+      "total": 98,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -575,10 +611,10 @@
     },
     "coovoamae-lion": {
       "active": 0,
-      "blocked": 2,
+      "blocked": 3,
       "done": 4,
       "running": 0,
-      "total": 6
+      "total": 7
     },
     "coovoamae-luming": {
       "active": 0,
@@ -642,10 +678,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784430001,
-  "generated_at_iso": "2026-07-19T11:00:01+08:00",
+  "generated_at": 1784433601,
+  "generated_at_iso": "2026-07-19T12:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"回读来源证明、intake manifest、stage plan及staging manifests\", \"重新执行validate-staging并通过\", \"核验7张staging图片SHA-256全部匹配manifest\" ], \"artifacts\": [ \"/roo…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"回读来源证明、intake manifest、stage plan及staging manifests\", \"重新执行validate-staging并通过\", \"核验7张staging图片SHA-256全部匹配manifest\" ], \"artifacts\": [ \"/roo…",
+      "completed_at": 1784430806,
+      "created_at": 1784430598,
+      "created_by": "coovoamae-crm",
+      "id": "t_cd48721d",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430602,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去",
+      "updated_at": 1784430806,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cd48721d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"核验7张刘希直传实拍\", \"确认与公开图库既有12张无SHA-256重复\", \"完成provenance与intake manifest\", \"stage并通过validate-staging\" ], \"artifacts\": [ \"/root/.hermes/profiles…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"核验7张刘希直传实拍\", \"确认与公开图库既有12张无SHA-256重复\", \"完成provenance与intake manifest\", \"stage并通过validate-staging\" ], \"artifacts\": [ \"/root/.hermes/profiles…",
+      "completed_at": 1784430598,
+      "created_at": 1784430432,
+      "created_by": "coovoamae-crm",
+      "id": "t_7bbc7739",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_cd48721d.",
+      "started_at": 1784430437,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去",
+      "updated_at": 1784430598,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7bbc7739"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -1149,55 +1221,19 @@
       "title": "[ORNBOX Q4] 新 Listing 身份与终装准备包",
       "updated_at": 1784200194,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_9295b8f1"
-    },
-    {
-      "assignee": "coovoamae-supply-dev",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
-      "body_preview": "为 PD-ORNBOX-20260701 建立保守/基准/旺季三情景模型。先读 Q4_CAMPAIGN_2026.md、product-truth、产品情报和现有内部供应/成本资料。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/SUPPLY_SCENARIOS_20260724.md`，逐项列真实证据与 DATA_GAP：MOQ、unit/landed cost、包装尺寸/重量、全链路交期、FBA buffer、数量、总现金暴露、最晚下单决策日、缺货/滞销风险。没有真实报价就不要用目标价冒充；不得联系/承诺供应商、下单、…",
-      "completed_at": 1784199995,
-      "created_at": 1784199625,
-      "created_by": "Codex",
-      "id": "t_7c8d9bac",
-      "priority": 90,
-      "result": "",
-      "started_at": 1784199626,
-      "status": "done",
-      "title": "[ORNBOX Q4] 三情景备货与现金模型（只读内部）",
-      "updated_at": 1784199995,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_7c8d9bac"
-    },
-    {
-      "assignee": "coovoamae-product-auditor",
-      "board": "coovoamae-video-assets",
-      "board_name": "COOVOAMAE Video Assets",
-      "body": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
-      "body_preview": "基于 ORNBOX Q4_CAMPAIGN、12 张实拍和已核实结构，输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/VIDEO_SHOTLIST_V1.md`。只做 15–30 秒视频脚本/镜头表：节后装箱、浅色隔板分隔、拉链闭合、提手搬运、标签识别、下一年快速取用；未知容量/尺寸/材质用待拍占位。列必须补拍的真人/手部/衣橱场景。不得付费生成、不得调用外部视频工具、不得寄样或发布。",
-      "completed_at": 1784199816,
-      "created_at": 1784199643,
-      "created_by": "Codex",
-      "id": "t_82ee1d9c",
-      "priority": 65,
-      "result": "",
-      "started_at": 1784199644,
-      "status": "done",
-      "title": "[ORNBOX Q4] 收纳前后对比视频镜头表（零费用内部）",
-      "updated_at": 1784199816,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82ee1d9c"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 7,
     "archived": 102,
-    "blocked": 15,
-    "done": 778,
+    "blocked": 17,
+    "done": 780,
     "pending": 0,
     "ready": 3,
     "running": 0,
     "todo": 0,
-    "total": 902,
+    "total": 906,
     "triage": 4
   },
   "tasks": [
@@ -12293,6 +12329,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260719T031449Z-pd-ornbox-7-2-vision-ebcc0c4b - priority: P0 - task_type: product_asset_audit - inbox_json: /root/.hermes/profiles/coovoamae-ama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260719T031449Z-pd-ornbox-7-2-vision-ebcc0c4b - priority: P0 - task_type: product_asset_audit - inbox_json: /root/.hermes/profiles/coovoamae-ama…",
+      "completed_at": null,
+      "created_at": 1784430890,
+      "created_by": "coovoamae-lion",
+      "id": "t_61a1fc76",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430890,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] PD-ORNBOX 7张实拍：固定2样本独立Vision抽检并写入治理报告",
+      "updated_at": 1784430890,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_61a1fc76"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "completed_at": 1784200194,
@@ -15600,6 +15654,60 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1784427218,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9bd9c9d9"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"核验7张刘希直传实拍\", \"确认与公开图库既有12张无SHA-256重复\", \"完成provenance与intake manifest\", \"stage并通过validate-staging\" ], \"artifacts\": [ \"/root/.hermes/profiles…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"核验7张刘希直传实拍\", \"确认与公开图库既有12张无SHA-256重复\", \"完成provenance与intake manifest\", \"stage并通过validate-staging\" ], \"artifacts\": [ \"/root/.hermes/profiles…",
+      "completed_at": 1784430598,
+      "created_at": 1784430432,
+      "created_by": "coovoamae-crm",
+      "id": "t_7bbc7739",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_cd48721d.",
+      "started_at": 1784430437,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去",
+      "updated_at": 1784430598,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7bbc7739"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"回读来源证明、intake manifest、stage plan及staging manifests\", \"重新执行validate-staging并通过\", \"核验7张staging图片SHA-256全部匹配manifest\" ], \"artifacts\": [ \"/roo…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260719_110034_71fb070e\", \"goal\": \"你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去\", \"completed\": [ \"回读来源证明、intake manifest、stage plan及staging manifests\", \"重新执行validate-staging并通过\", \"核验7张staging图片SHA-256全部匹配manifest\" ], \"artifacts\": [ \"/roo…",
+      "completed_at": 1784430806,
+      "created_at": 1784430598,
+      "created_by": "coovoamae-crm",
+      "id": "t_cd48721d",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430602,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去",
+      "updated_at": 1784430806,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cd48721d"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "目标车道/板：coovoamae-product-assets 目标：完成圣诞收纳箱新增 7 张来源可追溯实拍的受治理入库；当前仅在私有 staging，尚未公开。 项目：PD-ORNBOX-20260701（ASIN 暂无） Batch：PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 Staging：/root/.hermes/shared/product-truth/reference-photo-staging/PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 来源证明：/root/.herm…",
+      "body_preview": "目标车道/板：coovoamae-product-assets 目标：完成圣诞收纳箱新增 7 张来源可追溯实拍的受治理入库；当前仅在私有 staging，尚未公开。 项目：PD-ORNBOX-20260701（ASIN 暂无） Batch：PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 Staging：/root/.hermes/shared/product-truth/reference-photo-staging/PD-ORNBOX-20260701-liuxi-realrefs-20260719-1104 来源证明：/root/.herm…",
+      "completed_at": null,
+      "created_at": 1784430777,
+      "created_by": "coovoamae-crm",
+      "id": "t_e954d7a9",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784430810,
+      "status": "blocked",
+      "title": "[coovoamae-product-assets] 圣诞收纳箱 7 张实拍 20% 抽检与受治理入库",
+      "updated_at": 1784430810,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e954d7a9"
     }
   ]
 }
