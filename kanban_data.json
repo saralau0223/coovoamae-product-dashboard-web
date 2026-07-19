@@ -107,6 +107,24 @@
       "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
       "updated_at": 1784199634,
       "workspace_path": ""
+    },
+    {
+      "assignee": "ops",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Investigate and remediate the confirmed read-only data incident for Amazon US SP window 2026-07-11..2026-07-17. Evidence: completed official V3 spCampaigns report 655143b6-8397-4b40-9611-7b3de69e6dbf and spAdvertisedProduct report 0bbbec03-c1fd-4fe1-9b9c-287d7c92d086 both total 27,779 impressions /…",
+      "body_preview": "Investigate and remediate the confirmed read-only data incident for Amazon US SP window 2026-07-11..2026-07-17. Evidence: completed official V3 spCampaigns report 655143b6-8397-4b40-9611-7b3de69e6dbf and spAdvertisedProduct report 0bbbec03-c1fd-4fe1-9b9c-287d7c92d086 both total 27,779 impressions /…",
+      "completed_at": null,
+      "created_at": 1784427984,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_2b253918",
+      "priority": 2,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "Backfill and reconcile SP SQL cache incident for 2026-07-11..17",
+      "updated_at": 1784427984,
+      "workspace_path": ""
     }
   ],
   "blocked": [
@@ -127,6 +145,24 @@
       "title": "P0后置｜当当抽检蝴蝶图库批次20%并条件发布",
       "updated_at": 1784190877,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44044458"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_100842_91473a\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_100842_91473a\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": null,
+      "created_at": 1784427215,
+      "created_by": "coovoamae-lion",
+      "id": "t_9bd9c9d9",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784427218,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784427218,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9bd9c9d9"
     },
     {
       "assignee": "coovoamae-crow-qc",
@@ -375,7 +411,8 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 25
+        "done": 27,
+        "ready": 1
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -424,7 +461,7 @@
     },
     {
       "counts": {
-        "done": 10
+        "done": 12
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -448,6 +485,7 @@
     },
     {
       "counts": {
+        "blocked": 1,
         "done": 4,
         "ready": 2
       },
@@ -459,9 +497,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 25,
+      "done": 27,
       "running": 0,
-      "total": 26
+      "total": 28
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -480,9 +518,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 33,
+      "done": 34,
       "running": 0,
-      "total": 33
+      "total": 34
     },
     "coovoamae-crm": {
       "active": 1,
@@ -537,17 +575,17 @@
     },
     "coovoamae-lion": {
       "active": 0,
-      "blocked": 1,
+      "blocked": 2,
       "done": 4,
       "running": 0,
-      "total": 5
+      "total": 6
     },
     "coovoamae-luming": {
       "active": 0,
       "blocked": 0,
-      "done": 152,
+      "done": 153,
       "running": 0,
-      "total": 152
+      "total": 153
     },
     "coovoamae-product-auditor": {
       "active": 2,
@@ -592,14 +630,94 @@
       "ready": 2,
       "running": 0,
       "total": 2
+    },
+    "ops": {
+      "active": 1,
+      "blocked": 0,
+      "done": 0,
+      "ready": 1,
+      "running": 0,
+      "total": 1
     }
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784426401,
-  "generated_at_iso": "2026-07-19T10:00:01+08:00",
+  "generated_at": 1784430001,
+  "generated_at_iso": "2026-07-19T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
+      "completed_at": 1784428817,
+      "created_at": 1784427122,
+      "created_by": "coovoamae-lion",
+      "id": "t_1869b432",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784427123,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜7/11–17 Ads 官方报告与SQL缓存差异核对 + live预算读回（只读）",
+      "updated_at": 1784428817,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_1869b432"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021554Z-p1-ads-v3-sql-live-43004910 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021554Z-p1-ads-v3-sql-live-43004910 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "completed_at": 1784428155,
+      "created_at": 1784427355,
+      "created_by": "coovoamae-lion",
+      "id": "t_e7a77f7c",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784427355,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜收口官方 Ads V3 与 SQL 缓存口径差异并回读 live 预算",
+      "updated_at": 1784428155,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e7a77f7c"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_7eea2188；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。仅真实新增Stage-1证据缺口才按Registry建立一个窄任务；禁止旧固定链、猫头鹰和已退役白泽。 输入：父任务 t_7eea2188；已验收基线 t_b1caa5f5/t_a7a4f5…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_7eea2188；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。仅真实新增Stage-1证据缺口才按Registry建立一个窄任务；禁止旧固定链、猫头鹰和已退役白泽。 输入：父任务 t_7eea2188；已验收基线 t_b1caa5f5/t_a7a4f5…",
+      "completed_at": 1784427079,
+      "created_at": 1784426660,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_4a9e62e5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784426936,
+      "status": "done",
+      "title": "方舟验收｜20260719飞书产品开发缺口与路由QA",
+      "updated_at": 1784427079,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_4a9e62e5"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-19 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，并把按Registry预期暂停的H10/VOC/猫头鹰及已退役白泽旧marker列为异常；最近已验收live基线为 product-intel/t_b1caa5f5、t_a7a4f5eb：37个可见页签、无 exact `03_单品卡`、Stage-…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-19 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，并把按Registry预期暂停的H10/VOC/猫头鹰及已退役白泽旧marker列为异常；最近已验收live基线为 product-intel/t_b1caa5f5、t_a7a4f5eb：37个可见页签、无 exact `03_单品卡`、Stage-…",
+      "completed_at": 1784426930,
+      "created_at": 1784426626,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_7eea2188",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784426626,
+      "status": "done",
+      "title": "20260719巡检｜飞书产品主表Stage-1缺口与current owner路由QA",
+      "updated_at": 1784426930,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_7eea2188"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -1067,91 +1185,19 @@
       "title": "[ORNBOX Q4] 收纳前后对比视频镜头表（零费用内部）",
       "updated_at": 1784199816,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82ee1d9c"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
-      "body_preview": "刘希已把两套实拍图交给 Codex 继续安排存档。请做内部、独立的相机原图抽样审计；不要上传 Amazon，不要对外发消息，不要生成图片。 批次：`liuxi-direct-photos-20260716-1852` 治理工具：`/root/.hermes/bin/product-reference-library` 来源证明：`/root/.hermes/profiles/coovoamae-crm/workspace/incoming/product-reference-uploads/20260716-1852/provenance.json` 审计输出：`/root/.hermes/…",
-      "completed_at": 1784199624,
-      "created_at": 1784199388,
-      "created_by": "Codex",
-      "id": "t_50ac1464",
-      "priority": 70,
-      "result": "",
-      "started_at": 1784199388,
-      "status": "done",
-      "title": "[Dangdang QA] Liu Xi camera-original archive 20260716",
-      "updated_at": 1784199624,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_50ac1464"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"核实B0H36GYL99目录结构、尺寸、价格、六盒规格及现有图片数量\", \"完成Lifewit、FAAYUCK、Himake竞品规格与定位对标\", \"补齐Lifewit与FAAYUCK的Amazon前台VOC证据及Top3痛点\", \"形成主卖点、图序方向、合规边界与反方风险结论\" ],…",
-      "completed_at": 1784199508,
-      "created_at": 1784198624,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_338007a8",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784198629,
-      "status": "done",
-      "title": "[Auto Continue 2/3] work kanban task t_ee6cf4f3",
-      "updated_at": 1784199508,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_338007a8"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260716_183152_0b54e8\", \"goal\": \"work kanban task t_ee6cf4f3\", \"completed\": [ \"读取并核对任务及Butterfly情报请求\", \"核实B0H36GYL99 Amazon Catalog结构、尺寸、标题、图片和类目\", \"完成目标ASIN现有六张图片的视觉审查\", \"查询Amazon ABA可用周及相关搜索词\", \"完成SIF关键词历史、竞争结构和ASIN关键词信号分…",
-      "completed_at": 1784198624,
-      "created_at": 1784198139,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_2dff272b",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_338007a8.",
-      "started_at": 1784198147,
-      "status": "done",
-      "title": "[Auto Continue 1/3] work kanban task t_ee6cf4f3",
-      "updated_at": 1784198624,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_2dff272b"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260713T004519Z-b0h36gyl99-amazon-9ce15674 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-requests/but…",
-      "completed_at": 1784198139,
-      "created_at": 1783903520,
-      "created_by": "coovoamae-crm",
-      "id": "t_ee6cf4f3",
-      "priority": 80,
-      "result": "Auto-continuation round 0 handed off to t_2dff272b.",
-      "started_at": 1783903521,
-      "status": "done",
-      "title": "[Butterfly -> Eagle Intel] B0H36GYL99 Amazon 套图重做：定位、卖点与竞品视觉情报",
-      "updated_at": 1784198139,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_ee6cf4f3"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 6,
+    "active": 7,
     "archived": 102,
-    "blocked": 14,
-    "done": 774,
+    "blocked": 15,
+    "done": 778,
     "pending": 0,
-    "ready": 2,
+    "ready": 3,
     "running": 0,
     "todo": 0,
-    "total": 896,
+    "total": 902,
     "triage": 4
   },
   "tasks": [
@@ -11992,6 +12038,60 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e95fa674"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
+      "completed_at": 1784428817,
+      "created_at": 1784427122,
+      "created_by": "coovoamae-lion",
+      "id": "t_1869b432",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784427123,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜7/11–17 Ads 官方报告与SQL缓存差异核对 + live预算读回（只读）",
+      "updated_at": 1784428817,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_1869b432"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021554Z-p1-ads-v3-sql-live-43004910 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021554Z-p1-ads-v3-sql-live-43004910 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-m…",
+      "completed_at": 1784428155,
+      "created_at": 1784427355,
+      "created_by": "coovoamae-lion",
+      "id": "t_e7a77f7c",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784427355,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜收口官方 Ads V3 与 SQL 缓存口径差异并回读 live 预算",
+      "updated_at": 1784428155,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e7a77f7c"
+    },
+    {
+      "assignee": "ops",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Investigate and remediate the confirmed read-only data incident for Amazon US SP window 2026-07-11..2026-07-17. Evidence: completed official V3 spCampaigns report 655143b6-8397-4b40-9611-7b3de69e6dbf and spAdvertisedProduct report 0bbbec03-c1fd-4fe1-9b9c-287d7c92d086 both total 27,779 impressions /…",
+      "body_preview": "Investigate and remediate the confirmed read-only data incident for Amazon US SP window 2026-07-11..2026-07-17. Evidence: completed official V3 spCampaigns report 655143b6-8397-4b40-9611-7b3de69e6dbf and spAdvertisedProduct report 0bbbec03-c1fd-4fe1-9b9c-287d7c92d086 both total 27,779 impressions /…",
+      "completed_at": null,
+      "created_at": 1784427984,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_2b253918",
+      "priority": 2,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "Backfill and reconcile SP SQL cache incident for 2026-07-11..17",
+      "updated_at": 1784427984,
+      "workspace_path": ""
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -14854,6 +14954,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_3e7e62cd"
     },
     {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-19 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，并把按Registry预期暂停的H10/VOC/猫头鹰及已退役白泽旧marker列为异常；最近已验收live基线为 product-intel/t_b1caa5f5、t_a7a4f5eb：37个可见页签、无 exact `03_单品卡`、Stage-…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-19 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，并把按Registry预期暂停的H10/VOC/猫头鹰及已退役白泽旧marker列为异常；最近已验收live基线为 product-intel/t_b1caa5f5、t_a7a4f5eb：37个可见页签、无 exact `03_单品卡`、Stage-…",
+      "completed_at": 1784426930,
+      "created_at": 1784426626,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_7eea2188",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784426626,
+      "status": "done",
+      "title": "20260719巡检｜飞书产品主表Stage-1缺口与current owner路由QA",
+      "updated_at": 1784426930,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_7eea2188"
+    },
+    {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
@@ -14924,6 +15042,24 @@
       "title": "[Auto Continue 1/3] work kanban task t_3e7e62cd",
       "updated_at": 1784254364,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_b1caa5f5"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_7eea2188；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。仅真实新增Stage-1证据缺口才按Registry建立一个窄任务；禁止旧固定链、猫头鹰和已退役白泽。 输入：父任务 t_7eea2188；已验收基线 t_b1caa5f5/t_a7a4f5…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260719 board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：最终验收鹿鸣任务 t_7eea2188；仅在live证据/readback、基线差异、current owner映射和剩余风险齐全时收口。仅真实新增Stage-1证据缺口才按Registry建立一个窄任务；禁止旧固定链、猫头鹰和已退役白泽。 输入：父任务 t_7eea2188；已验收基线 t_b1caa5f5/t_a7a4f5…",
+      "completed_at": 1784427079,
+      "created_at": 1784426660,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_4a9e62e5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784426936,
+      "status": "done",
+      "title": "方舟验收｜20260719飞书产品开发缺口与路由QA",
+      "updated_at": 1784427079,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_4a9e62e5"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -15446,6 +15582,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
       "updated_at": 1784341460,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_100842_91473a\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260719_100842_91473a\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": null,
+      "created_at": 1784427215,
+      "created_by": "coovoamae-lion",
+      "id": "t_9bd9c9d9",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784427218,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784427218,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9bd9c9d9"
     }
   ]
 }
