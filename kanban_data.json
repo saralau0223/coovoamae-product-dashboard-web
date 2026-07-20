@@ -540,7 +540,7 @@
     {
       "counts": {
         "blocked": 2,
-        "done": 6,
+        "done": 7,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -630,9 +630,9 @@
     "coovoamae-lion": {
       "active": 0,
       "blocked": 3,
-      "done": 4,
+      "done": 5,
       "running": 0,
-      "total": 7
+      "total": 8
     },
     "coovoamae-luming": {
       "active": 0,
@@ -696,10 +696,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784538001,
-  "generated_at_iso": "2026-07-20T17:00:01+08:00",
+  "generated_at": 1784541602,
+  "generated_at_iso": "2026-07-20T18:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_173545_ae5a30\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_173545_ae5a30\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": 1784540661,
+      "created_at": 1784540526,
+      "created_by": "coovoamae-lion",
+      "id": "t_8a2d4844",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784540526,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784540661,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a2d4844"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -1221,24 +1239,6 @@
       "title": "[Website Asset Brief] site-image-partial-release-eye-vacuum-ornbox-20260717",
       "updated_at": 1784244120,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_595213d3"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_063014_b4aa1c97\", \"goal\": \"把云台的coupon 取消掉\", \"completed\": [ \"紫鸟/Seller Central 预检通过\", \"已核实伟鹏美国站目标优惠券存在且为 RUNNING\", \"已读取目标券折扣、预算、日期及可取消状态\", \"未提交任何取消动作\" ], \"artifacts\": [ \"/tmp/promotion_api_network.json\", \"d233ebdb-af…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260717_063014_b4aa1c97\", \"goal\": \"把云台的coupon 取消掉\", \"completed\": [ \"紫鸟/Seller Central 预检通过\", \"已核实伟鹏美国站目标优惠券存在且为 RUNNING\", \"已读取目标券折扣、预算、日期及可取消状态\", \"未提交任何取消动作\" ], \"artifacts\": [ \"/tmp/promotion_api_network.json\", \"d233ebdb-af…",
-      "completed_at": 1784242422,
-      "created_at": 1784241589,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_ccf466d0",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784241614,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 把云台的coupon 取消掉",
-      "updated_at": 1784242422,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ccf466d0"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1246,12 +1246,12 @@
     "active": 8,
     "archived": 102,
     "blocked": 17,
-    "done": 783,
+    "done": 784,
     "pending": 0,
     "ready": 4,
     "running": 0,
     "todo": 0,
-    "total": 910,
+    "total": 911,
     "triage": 4
   },
   "tasks": [
@@ -15798,6 +15798,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
       "updated_at": 1784514192,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_173545_ae5a30\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_173545_ae5a30\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": 1784540661,
+      "created_at": 1784540526,
+      "created_by": "coovoamae-lion",
+      "id": "t_8a2d4844",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784540526,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784540661,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a2d4844"
     }
   ]
 }
