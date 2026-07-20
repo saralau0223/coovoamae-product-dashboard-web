@@ -4,6 +4,24 @@
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260720_102058\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260720_102058\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": null,
+      "created_at": 1784514192,
+      "created_by": "main",
+      "id": "t_a433cddf",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784514192,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "main",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260718_102035\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
       "completed_at": null,
@@ -457,7 +475,7 @@
       "counts": {
         "archived": 1,
         "blocked": 2,
-        "done": 24
+        "done": 27
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -523,7 +541,7 @@
       "counts": {
         "blocked": 2,
         "done": 6,
-        "ready": 2
+        "ready": 3
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -540,9 +558,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 3,
-      "done": 54,
+      "done": 57,
       "running": 0,
-      "total": 57
+      "total": 60
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -660,12 +678,12 @@
       "total": 31
     },
     "main": {
-      "active": 2,
+      "active": 3,
       "blocked": 0,
       "done": 0,
-      "ready": 2,
+      "ready": 3,
       "running": 0,
-      "total": 2
+      "total": 3
     },
     "ops": {
       "active": 1,
@@ -678,10 +696,64 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784512801,
-  "generated_at_iso": "2026-07-20T10:00:01+08:00",
+  "generated_at": 1784516402,
+  "generated_at_iso": "2026-07-20T11:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_102536_c1bb43\", \"goal\": \"work kanban task t_6197d016\", \"completed\": [ \"已完成Q08-US/B0GQ2ZR81S前台PDP价格与CTA只读核验\", \"已完成Seller Central Coupon状态、截止日、预算和费用条款只读回读\", \"已完成SP-API价格栈与Inventory Health库存交叉核验\", \"已生成并核验一页只读证据包\" ], \"a…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_102536_c1bb43\", \"goal\": \"work kanban task t_6197d016\", \"completed\": [ \"已完成Q08-US/B0GQ2ZR81S前台PDP价格与CTA只读核验\", \"已完成Seller Central Coupon状态、截止日、预算和费用条款只读回读\", \"已完成SP-API价格栈与Inventory Health库存交叉核验\", \"已生成并核验一页只读证据包\" ], \"a…",
+      "completed_at": 1784516031,
+      "created_at": 1784514778,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_d863c4ef",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784515936,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_6197d016",
+      "updated_at": 1784516031,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d863c4ef"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021144Z-lion-dangdang-p1-q08-coupon-f96dfb22 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021144Z-lion-dangdang-p1-q08-coupon-f96dfb22 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "completed_at": 1784515933,
+      "created_at": 1784513505,
+      "created_by": "coovoamae-lion",
+      "id": "t_6197d016",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784513506,
+      "status": "done",
+      "title": "[Lion -> Dangdang] [Lion→Dangdang][P1] Q08 实际成交价、Coupon 与费用卡重新核验（只读）",
+      "updated_at": 1784515933,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_6197d016"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021147Z-lion-dangdang-p1-photo-box-listing-de6213a9 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021147Z-lion-dangdang-p1-photo-box-listing-de6213a9 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": 1784513767,
+      "created_at": 1784513513,
+      "created_by": "coovoamae-lion",
+      "id": "t_fa5cd1de",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784513514,
+      "status": "done",
+      "title": "[Lion -> Dangdang] [Lion→Dangdang][P1] PHOTO-BOX Listing 快照缺行修复与低库存监控（只读）",
+      "updated_at": 1784513767,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_fa5cd1de"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1167,73 +1239,19 @@
       "title": "[Auto Continue 1/3] 把云台的coupon 取消掉",
       "updated_at": 1784242422,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ccf466d0"
-    },
-    {
-      "assignee": "coovoamae-web-builder",
-      "board": "coovoamae-website-assets",
-      "board_name": "COOVOAMAE Website Assets",
-      "body": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
-      "body_preview": "initiative_id=ZHIYE_CHANNEL_COMMANDER_3200_20260716。刘希已任命你为与狮子对等的官网渠道指挥。请只做只读/内部治理自检：读取 AGENT_REGISTRY、LANE_BOARD_MAPPING、你当前 SOUL、官网 BACKLOG/ROADMAP、site-audits/latest、website-sync/latest，并分别调用 website-assets-bridge 与 video-assets-bridge 的 health/list 能力确认通路。交付一份 channel_takeover_checklist.md，固定三段…",
-      "completed_at": 1784205008,
-      "created_at": 1784204782,
-      "created_by": "user",
-      "id": "t_33853c14",
-      "priority": 90,
-      "result": "",
-      "started_at": 1784204790,
-      "status": "done",
-      "title": "织页官网渠道接管自检与第一周计划",
-      "updated_at": 1784205008,
-      "workspace_path": "/root/.hermes/profiles/coovoamae-web-builder/workspace/channel-command-3200"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260716T103918Z-b0h6q684cj-20-vision-9d939f9b - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
-      "completed_at": 1784200531,
-      "created_at": 1784198359,
-      "created_by": "coovoamae-lion",
-      "id": "t_79bc8204",
-      "priority": 100,
-      "result": "结论摘要：B0H6Q684CJ 暂存校验与固定 2/6 Vision 抽样均通过，旧 guard 的错误 owner 映射导致完成动作被拦 5 次；热修后由任务 assignee 当当正常收口。 确认包或产出路径：/root/.hermes/shared/product-truth/reference-photo-staging/B0H6Q684CJ-liuxi-realrefs-20260716-1759/dangdang-vision-audit.json 需刘希动作：无；本任务只完成内部审计，不含 promote 或后台写入。 可复制确认话术：无需回复。 确认后会发生什么：不会自动 p…",
-      "started_at": 1784198360,
-      "status": "done",
-      "title": "[Lion -> Dangdang] B0H6Q684CJ 实拍参考图：暂存校验与20% Vision 审核",
-      "updated_at": 1784200531,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_79bc8204"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
-      "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
-      "completed_at": 1784200194,
-      "created_at": 1784199628,
-      "created_by": "Codex",
-      "id": "t_9295b8f1",
-      "priority": 85,
-      "result": "",
-      "started_at": 1784199630,
-      "status": "done",
-      "title": "[ORNBOX Q4] 新 Listing 身份与终装准备包",
-      "updated_at": 1784200194,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_9295b8f1"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 7,
+    "active": 8,
     "archived": 102,
     "blocked": 17,
-    "done": 780,
+    "done": 783,
     "pending": 0,
-    "ready": 3,
+    "ready": 4,
     "running": 0,
     "todo": 0,
-    "total": 906,
+    "total": 910,
     "triage": 4
   },
   "tasks": [
@@ -12347,6 +12365,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_102536_c1bb43\", \"goal\": \"work kanban task t_6197d016\", \"completed\": [ \"已完成Q08-US/B0GQ2ZR81S前台PDP价格与CTA只读核验\", \"已完成Seller Central Coupon状态、截止日、预算和费用条款只读回读\", \"已完成SP-API价格栈与Inventory Health库存交叉核验\", \"已生成并核验一页只读证据包\" ], \"a…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_102536_c1bb43\", \"goal\": \"work kanban task t_6197d016\", \"completed\": [ \"已完成Q08-US/B0GQ2ZR81S前台PDP价格与CTA只读核验\", \"已完成Seller Central Coupon状态、截止日、预算和费用条款只读回读\", \"已完成SP-API价格栈与Inventory Health库存交叉核验\", \"已生成并核验一页只读证据包\" ], \"a…",
+      "completed_at": 1784516031,
+      "created_at": 1784514778,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_d863c4ef",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784515936,
+      "status": "done",
+      "title": "[Auto Continue 1/3] work kanban task t_6197d016",
+      "updated_at": 1784516031,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d863c4ef"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "completed_at": 1784200194,
@@ -12540,6 +12576,42 @@
       "title": "[Data pipeline][P1] 补齐 HEM-BK-Coov-2 / B0GXVNPM68 的 listing_snapshot 日快照覆盖",
       "updated_at": 1784255368,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_4d5084eb"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021144Z-lion-dangdang-p1-q08-coupon-f96dfb22 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021144Z-lion-dangdang-p1-q08-coupon-f96dfb22 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "completed_at": 1784515933,
+      "created_at": 1784513505,
+      "created_by": "coovoamae-lion",
+      "id": "t_6197d016",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784513506,
+      "status": "done",
+      "title": "[Lion -> Dangdang] [Lion→Dangdang][P1] Q08 实际成交价、Coupon 与费用卡重新核验（只读）",
+      "updated_at": 1784515933,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_6197d016"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021147Z-lion-dangdang-p1-photo-box-listing-de6213a9 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260720T021147Z-lion-dangdang-p1-photo-box-listing-de6213a9 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
+      "completed_at": 1784513767,
+      "created_at": 1784513513,
+      "created_by": "coovoamae-lion",
+      "id": "t_fa5cd1de",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784513514,
+      "status": "done",
+      "title": "[Lion -> Dangdang] [Lion→Dangdang][P1] PHOTO-BOX Listing 快照缺行修复与低库存监控（只读）",
+      "updated_at": 1784513767,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_fa5cd1de"
     },
     {
       "assignee": "coovoamae-finance",
@@ -15708,6 +15780,24 @@
       "title": "[coovoamae-product-assets] 圣诞收纳箱 7 张实拍 20% 抽检与受治理入库",
       "updated_at": 1784430810,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e954d7a9"
+    },
+    {
+      "assignee": "main",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260720_102058\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_6ad64ad79848_20260720_102058\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the outp…",
+      "completed_at": null,
+      "created_at": 1784514192,
+      "created_by": "main",
+      "id": "t_a433cddf",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "ready",
+      "title": "[Auto Continue 1/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
+      "updated_at": 1784514192,
+      "workspace_path": ""
     }
   ]
 }
