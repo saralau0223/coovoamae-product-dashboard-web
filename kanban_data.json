@@ -540,7 +540,7 @@
     {
       "counts": {
         "blocked": 2,
-        "done": 7,
+        "done": 9,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -595,9 +595,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 0,
-      "done": 67,
+      "done": 69,
       "running": 0,
-      "total": 67
+      "total": 69
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -696,10 +696,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784545201,
-  "generated_at_iso": "2026-07-20T19:00:01+08:00",
+  "generated_at": 1784548801,
+  "generated_at_iso": "2026-07-20T20:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"完成并回读核验真空封口机单品机会判断报告\", \"整合POE、ABA、Amazon Catalog、SIF、包装计费重和现金压力测试\", \"加入产品定义、VOC缺口、下一步门槛及反方陈述\", \"将needs_data判断记录到产品机会学习库\" ], \"artifacts\": [ \"/roo…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"完成并回读核验真空封口机单品机会判断报告\", \"整合POE、ABA、Amazon Catalog、SIF、包装计费重和现金压力测试\", \"加入产品定义、VOC缺口、下一步门槛及反方陈述\", \"将needs_data判断记录到产品机会学习库\" ], \"artifacts\": [ \"/roo…",
+      "completed_at": 1784546848,
+      "created_at": 1784546780,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_9dcc3e0e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784546795,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 好的，我们再回到我们自己的选品上，你再推荐一个产品给我",
+      "updated_at": 1784546848,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9dcc3e0e"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"查利润测算表和产品学习库去重\", \"用Amazon美国站POE筛选两轮候选\", \"用SIF验证真空封口机需求与竞争\", \"识别并否决可回收式棘轮绑带的宽泛流量污染\", \"检查最新本地ABA缓存的相关精确词\" ], \"artifacts\": [ \"/root/coovoamae_ads_d…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"查利润测算表和产品学习库去重\", \"用Amazon美国站POE筛选两轮候选\", \"用SIF验证真空封口机需求与竞争\", \"识别并否决可回收式棘轮绑带的宽泛流量污染\", \"检查最新本地ABA缓存的相关精确词\" ], \"artifacts\": [ \"/root/coovoamae_ads_d…",
+      "completed_at": 1784546780,
+      "created_at": 1784546194,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_fcf295e0",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_9dcc3e0e.",
+      "started_at": 1784546195,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 好的，我们再回到我们自己的选品上，你再推荐一个产品给我",
+      "updated_at": 1784546780,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fcf295e0"
+    },
     {
       "assignee": "coovoamae-lion",
       "board": "hermes-auto-continue",
@@ -1203,42 +1239,6 @@
       "title": "[Auto Continue 1/3] work kanban task t_3e7e62cd",
       "updated_at": 1784254364,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_b1caa5f5"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "coovoamae-product-intel",
-      "board_name": "COOVOAMAE Product Intelligence Requests",
-      "body": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-17 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，且沿用已过期角色提示（猫头鹰停机被当异常、最近证据仍引用白泽/猫头鹰旧链）；2026-07-16已验收基线为37个可见页签、无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。Registry当前明确：鹰眼为首阶段lead；猫头…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260717 board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-17 09:00 Stage1轻量巡检仍报“飞书写回未找到最近结果JSON”，且沿用已过期角色提示（猫头鹰停机被当异常、最近证据仍引用白泽/猫头鹰旧链）；2026-07-16已验收基线为37个可见页签、无 exact `03_单品卡`、Stage-1缺口108行/阻塞90行。Registry当前明确：鹰眼为首阶段lead；猫头…",
-      "completed_at": 1784254169,
-      "created_at": 1784253774,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_3e7e62cd",
-      "priority": 120,
-      "result": "Auto-continuation round 0 handed off to t_b1caa5f5.",
-      "started_at": 1784253776,
-      "status": "done",
-      "title": "20260717巡检｜飞书产品主表Stage-1缺口与owner路由QA",
-      "updated_at": 1784254169,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_3e7e62cd"
-    },
-    {
-      "assignee": "coovoamae-crow-qc",
-      "board": "coovoamae-website-assets",
-      "board_name": "COOVOAMAE Website Assets",
-      "body": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-partial-release-eye-vacuum-ornbox-20260717 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-partial-release-eye-vacuum-ornbox-20260717.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essent…",
-      "body_preview": "织页通过 website-assets 管线给乌鸦的官网视觉任务。 ## 先读 - brief_id: site-image-partial-release-eye-vacuum-ornbox-20260717 - brief_path: /root/.hermes/shared/website-assets/briefs/site-image-partial-release-eye-vacuum-ornbox-20260717.json - priority: P0 - brand_system: Warm Paper P — photography-led everyday essent…",
-      "completed_at": 1784244120,
-      "created_at": 1784243563,
-      "created_by": "coovoamae-web-builder",
-      "id": "t_595213d3",
-      "priority": 100,
-      "result": "Auto-continuation round 0 handed off to t_01a39630.",
-      "started_at": 1784243564,
-      "status": "done",
-      "title": "[Website Asset Brief] site-image-partial-release-eye-vacuum-ornbox-20260717",
-      "updated_at": 1784244120,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_595213d3"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1246,12 +1246,12 @@
     "active": 8,
     "archived": 102,
     "blocked": 17,
-    "done": 784,
+    "done": 786,
     "pending": 0,
     "ready": 4,
     "running": 0,
     "todo": 0,
-    "total": 911,
+    "total": 913,
     "triage": 4
   },
   "tasks": [
@@ -15816,6 +15816,42 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1784540661,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a2d4844"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"查利润测算表和产品学习库去重\", \"用Amazon美国站POE筛选两轮候选\", \"用SIF验证真空封口机需求与竞争\", \"识别并否决可回收式棘轮绑带的宽泛流量污染\", \"检查最新本地ABA缓存的相关精确词\" ], \"artifacts\": [ \"/root/coovoamae_ads_d…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"查利润测算表和产品学习库去重\", \"用Amazon美国站POE筛选两轮候选\", \"用SIF验证真空封口机需求与竞争\", \"识别并否决可回收式棘轮绑带的宽泛流量污染\", \"检查最新本地ABA缓存的相关精确词\" ], \"artifacts\": [ \"/root/coovoamae_ads_d…",
+      "completed_at": 1784546780,
+      "created_at": 1784546194,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_fcf295e0",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_9dcc3e0e.",
+      "started_at": 1784546195,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 好的，我们再回到我们自己的选品上，你再推荐一个产品给我",
+      "updated_at": 1784546780,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fcf295e0"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"完成并回读核验真空封口机单品机会判断报告\", \"整合POE、ABA、Amazon Catalog、SIF、包装计费重和现金压力测试\", \"加入产品定义、VOC缺口、下一步门槛及反方陈述\", \"将needs_data判断记录到产品机会学习库\" ], \"artifacts\": [ \"/roo…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260720_191226_ccf7ef\", \"goal\": \"好的，我们再回到我们自己的选品上，你再推荐一个产品给我\", \"completed\": [ \"完成并回读核验真空封口机单品机会判断报告\", \"整合POE、ABA、Amazon Catalog、SIF、包装计费重和现金压力测试\", \"加入产品定义、VOC缺口、下一步门槛及反方陈述\", \"将needs_data判断记录到产品机会学习库\" ], \"artifacts\": [ \"/roo…",
+      "completed_at": 1784546848,
+      "created_at": 1784546780,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_9dcc3e0e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784546795,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 好的，我们再回到我们自己的选品上，你再推荐一个产品给我",
+      "updated_at": 1784546848,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9dcc3e0e"
     }
   ]
 }
