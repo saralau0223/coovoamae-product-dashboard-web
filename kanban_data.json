@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260721_185339_3f44b2\", \"goal\": \"[Replying to: \\\"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。\\n已切换并直接从 伟鹏｜亚马逊美国站官方标签页读回后生成：\\n\\\\- ASIN：B0GQ2ZR81S\\n\\\\- SKU：Q08\\\\-Coovo\\n\\\\- FNSKU：X0054DCQPL\\n\\\\- 数量：500 张产品 FNSKU 标签\\n\\\\- Letter 30 格式，17 页；…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260721_185339_3f44b2\", \"goal\": \"[Replying to: \\\"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。\\n已切换并直接从 伟鹏｜亚马逊美国站官方标签页读回后生成：\\n\\\\- ASIN：B0GQ2ZR81S\\n\\\\- SKU：Q08\\\\-Coovo\\n\\\\- FNSKU：X0054DCQPL\\n\\\\- 数量：500 张产品 FNSKU 标签\\n\\\\- Letter 30 格式，17 页；…",
+      "completed_at": null,
+      "created_at": 1784631287,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_41e83391",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784631289,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [Replying to: \"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。",
+      "updated_at": 1784631289,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_41e83391"
+    },
+    {
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -109,6 +127,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104317Z-p1-d3a3f0a2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104317Z-p1-d3a3f0a2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace…",
+      "completed_at": null,
+      "created_at": 1784630602,
+      "created_by": "coovoamae-lion",
+      "id": "t_d2e4c5e5",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784630606,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜无线黑色眼罩低流量：先做零售就绪预检（只读）",
+      "updated_at": 1784630606,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d2e4c5e5"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -125,6 +161,24 @@
       "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
       "updated_at": 1784199634,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T110000Z-p2-photo-box-8db2c5ef - priority: P2 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T110000Z-p2-photo-box-8db2c5ef - priority: P2 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian…",
+      "completed_at": null,
+      "created_at": 1784631602,
+      "created_by": "coovoamae-lion",
+      "id": "t_2ccdc8be",
+      "priority": 40,
+      "result": "",
+      "started_at": 1784631603,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P2｜Photo Box新品两周无反应：零售就绪与价格叠加预检（只读）",
+      "updated_at": 1784631603,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2ccdc8be"
     },
     {
       "assignee": "ops",
@@ -537,7 +591,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 27,
+        "done": 28,
         "ready": 1
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -547,7 +601,9 @@
       "counts": {
         "archived": 1,
         "blocked": 5,
-        "done": 29
+        "done": 30,
+        "ready": 1,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -614,7 +670,8 @@
       "counts": {
         "blocked": 2,
         "done": 10,
-        "ready": 3
+        "ready": 3,
+        "running": 1
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -624,16 +681,16 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 27,
+      "done": 28,
       "running": 0,
-      "total": 28
+      "total": 29
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 3,
       "blocked": 5,
-      "done": 59,
-      "running": 0,
-      "total": 64
+      "done": 60,
+      "running": 3,
+      "total": 68
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -769,10 +826,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784628001,
-  "generated_at_iso": "2026-07-21T18:00:01+08:00",
+  "generated_at": 1784631601,
+  "generated_at_iso": "2026-07-21T19:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
+      "completed_at": 1784631425,
+      "created_at": 1784630595,
+      "created_by": "coovoamae-lion",
+      "id": "t_075a2ae6",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784630596,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜Q08 云台：验证有效广告词并产出7天放量dry-run",
+      "updated_at": 1784631425,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_075a2ae6"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
+      "completed_at": 1784631236,
+      "created_at": 1784630585,
+      "created_by": "coovoamae-lion",
+      "id": "t_43385515",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784630586,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P0｜Q08 云台实际成交价与零售就绪核验（只读）",
+      "updated_at": 1784631236,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_43385515"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -1276,55 +1369,19 @@
       "title": "P0｜设计 SLA 红色告警｜t_c9cd489b",
       "updated_at": 1784278136,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-website-assets/workspaces/t_c5a7122a"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260717T075602Z-p0-b0h36rkcrs-dce6418c - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
-      "completed_at": 1784276561,
-      "created_at": 1784274967,
-      "created_by": "coovoamae-lion",
-      "id": "t_90703e29",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784274969,
-      "status": "done",
-      "title": "[Lion -> Dangdang] P0｜B0H36RKCRS 新品零流量：零售就绪与可售库存预检（只读）",
-      "updated_at": 1784276561,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_90703e29"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260717T075600Z-p0-b0h36rkcrs-7-dry-run-779d3ef6 - priority: P0 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "completed_at": 1784276239,
-      "created_at": 1784274960,
-      "created_by": "coovoamae-lion",
-      "id": "t_cdc9a925",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784274961,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P0｜B0H36RKCRS 新品到货一周仍零流量：7天启动方案（只读/dry-run）",
-      "updated_at": 1784276239,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_cdc9a925"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 8,
+    "active": 11,
     "archived": 102,
     "blocked": 21,
-    "done": 794,
+    "done": 796,
     "pending": 0,
-    "ready": 4,
-    "running": 0,
+    "ready": 5,
+    "running": 2,
     "todo": 0,
-    "total": 925,
+    "total": 930,
     "triage": 4
   },
   "tasks": [
@@ -12201,6 +12258,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_e7a77f7c"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
+      "completed_at": 1784631425,
+      "created_at": 1784630595,
+      "created_by": "coovoamae-lion",
+      "id": "t_075a2ae6",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784630596,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜Q08 云台：验证有效广告词并产出7天放量dry-run",
+      "updated_at": 1784631425,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_075a2ae6"
+    },
+    {
       "assignee": "ops",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -12451,6 +12526,24 @@
       "title": "[Auto Continue 1/3] work kanban task t_6197d016",
       "updated_at": 1784516031,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d863c4ef"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
+      "completed_at": 1784631236,
+      "created_at": 1784630585,
+      "created_by": "coovoamae-lion",
+      "id": "t_43385515",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784630586,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P0｜Q08 云台实际成交价与零售就绪核验（只读）",
+      "updated_at": 1784631236,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_43385515"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -12759,6 +12852,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a4a2dc0d"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104317Z-p1-d3a3f0a2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104317Z-p1-d3a3f0a2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace…",
+      "completed_at": null,
+      "created_at": 1784630602,
+      "created_by": "coovoamae-lion",
+      "id": "t_d2e4c5e5",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784630606,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜无线黑色眼罩低流量：先做零售就绪预检（只读）",
+      "updated_at": 1784630606,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d2e4c5e5"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -12811,6 +12922,24 @@
       "title": "[Cross-lane Advice: Ads->Dangdang] LION-B0GXVNPM68",
       "updated_at": 1784110389,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d137fc16"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T110000Z-p2-photo-box-8db2c5ef - priority: P2 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T110000Z-p2-photo-box-8db2c5ef - priority: P2 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian…",
+      "completed_at": null,
+      "created_at": 1784631602,
+      "created_by": "coovoamae-lion",
+      "id": "t_2ccdc8be",
+      "priority": 40,
+      "result": "",
+      "started_at": 1784631603,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P2｜Photo Box新品两周无反应：零售就绪与价格叠加预检（只读）",
+      "updated_at": 1784631603,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_2ccdc8be"
     },
     {
       "assignee": "coovoamae-lion",
@@ -16141,6 +16270,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1784600618,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_524a5fcd"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260721_185339_3f44b2\", \"goal\": \"[Replying to: \\\"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。\\n已切换并直接从 伟鹏｜亚马逊美国站官方标签页读回后生成：\\n\\\\- ASIN：B0GQ2ZR81S\\n\\\\- SKU：Q08\\\\-Coovo\\n\\\\- FNSKU：X0054DCQPL\\n\\\\- 数量：500 张产品 FNSKU 标签\\n\\\\- Letter 30 格式，17 页；…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260721_185339_3f44b2\", \"goal\": \"[Replying to: \\\"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。\\n已切换并直接从 伟鹏｜亚马逊美国站官方标签页读回后生成：\\n\\\\- ASIN：B0GQ2ZR81S\\n\\\\- SKU：Q08\\\\-Coovo\\n\\\\- FNSKU：X0054DCQPL\\n\\\\- 数量：500 张产品 FNSKU 标签\\n\\\\- Letter 30 格式，17 页；…",
+      "completed_at": null,
+      "created_at": 1784631287,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_41e83391",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784631289,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [Replying to: \"你说得对，前一份是 coovoamae 账号的，不能用于伟鹏。",
+      "updated_at": 1784631289,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_41e83391"
     }
   ]
 }
