@@ -91,6 +91,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260722T085936Z-butterfly-eagle-eye-bbq-f2f45bd2 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-reques…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260722T085936Z-butterfly-eagle-eye-bbq-f2f45bd2 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-reques…",
+      "completed_at": null,
+      "created_at": 1784710778,
+      "created_by": "coovoamae-crm",
+      "id": "t_f414f6be",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784710778,
+      "status": "running",
+      "title": "[Butterfly -> Eagle Intel] [Butterfly→Eagle Eye] BBQ夹装调料工具置物架完整套图卖点情报",
+      "updated_at": 1784710778,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_f414f6be"
+    },
+    {
       "assignee": "coovoamae-product-auditor",
       "board": "coovoamae-video-assets",
       "board_name": "COOVOAMAE Video Assets",
@@ -624,7 +642,8 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 19
+        "done": 19,
+        "running": 1
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -702,11 +721,11 @@
       "triage": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 70,
-      "running": 0,
-      "total": 70
+      "running": 1,
+      "total": 71
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -805,8 +824,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784707202,
-  "generated_at_iso": "2026-07-22T16:00:02+08:00",
+  "generated_at": 1784710801,
+  "generated_at_iso": "2026-07-22T17:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -1352,15 +1371,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 9,
+    "active": 10,
     "archived": 102,
     "blocked": 22,
     "done": 808,
     "pending": 0,
     "ready": 5,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 941,
+    "total": 942,
     "triage": 4
   },
   "tasks": [
@@ -15817,6 +15836,24 @@
       "title": "20260721巡检｜单品卡同步后飞书主表Stage-1缺口readback",
       "updated_at": 1784600051,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_c7f64020"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260722T085936Z-butterfly-eagle-eye-bbq-f2f45bd2 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-reques…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260722T085936Z-butterfly-eagle-eye-bbq-f2f45bd2 - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/intel-reques…",
+      "completed_at": null,
+      "created_at": 1784710778,
+      "created_by": "coovoamae-crm",
+      "id": "t_f414f6be",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784710778,
+      "status": "running",
+      "title": "[Butterfly -> Eagle Intel] [Butterfly→Eagle Eye] BBQ夹装调料工具置物架完整套图卖点情报",
+      "updated_at": 1784710778,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_f414f6be"
     },
     {
       "assignee": "coovoamae-chief-of-staff",
