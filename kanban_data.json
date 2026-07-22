@@ -583,7 +583,7 @@
       "counts": {
         "archived": 1,
         "blocked": 5,
-        "done": 35
+        "done": 36
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -667,9 +667,9 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
       "blocked": 6,
-      "done": 65,
+      "done": 66,
       "running": 0,
-      "total": 71
+      "total": 72
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -805,10 +805,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784689201,
-  "generated_at_iso": "2026-07-22T11:00:01+08:00",
+  "generated_at": 1784692801,
+  "generated_at_iso": "2026-07-22T12:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260722T030710Z-q08-coupon-6058b2cd - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/w…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260722T030710Z-q08-coupon-6058b2cd - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/w…",
+      "completed_at": 1784690296,
+      "created_at": 1784689632,
+      "created_by": "coovoamae-lion",
+      "id": "t_1255035b",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784689632,
+      "status": "done",
+      "title": "[Lion -> Dangdang] 核验云台 Q08 当前 Coupon 的精确结束时间（只读）",
+      "updated_at": 1784690296,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1255035b"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -1330,24 +1348,6 @@
       "title": "[Auto Continue 1/3] 你更新了一些我们圣诞收纳箱的实拍图，你可以同步到图片库里面去",
       "updated_at": 1784430598,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7bbc7739"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260719T021200Z-p1-7-11-17-ads-sql-live-26b861e2 - priority: P1 - task_type: ads_diagnosis - inbox_json: /root/.hermes/profiles/coovoamae…",
-      "completed_at": 1784428817,
-      "created_at": 1784427122,
-      "created_by": "coovoamae-lion",
-      "id": "t_1869b432",
-      "priority": 70,
-      "result": "",
-      "started_at": 1784427123,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P1｜7/11–17 Ads 官方报告与SQL缓存差异核对 + live预算读回（只读）",
-      "updated_at": 1784428817,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_1869b432"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1355,12 +1355,12 @@
     "active": 9,
     "archived": 102,
     "blocked": 22,
-    "done": 807,
+    "done": 808,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 940,
+    "total": 941,
     "triage": 4
   },
   "tasks": [
@@ -12973,6 +12973,24 @@
       "title": "[Lion -> Dangdang] P1｜inventory-watch 缺失：监控覆盖核验与恢复草稿（只读）",
       "updated_at": 1784686574,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_aacf5e40"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260722T030710Z-q08-coupon-6058b2cd - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/w…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260722T030710Z-q08-coupon-6058b2cd - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/w…",
+      "completed_at": 1784690296,
+      "created_at": 1784689632,
+      "created_by": "coovoamae-lion",
+      "id": "t_1255035b",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784689632,
+      "status": "done",
+      "title": "[Lion -> Dangdang] 核验云台 Q08 当前 Coupon 的精确结束时间（只读）",
+      "updated_at": 1784690296,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_1255035b"
     },
     {
       "assignee": "coovoamae-finance",
