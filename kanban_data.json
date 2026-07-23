@@ -804,7 +804,7 @@
       "counts": {
         "archived": 61,
         "blocked": 11,
-        "done": 98,
+        "done": 99,
         "triage": 1
       },
       "name": "COOVOAMAE Design Requests",
@@ -886,9 +886,9 @@
     "coovoamae-crm": {
       "active": 1,
       "blocked": 14,
-      "done": 112,
+      "done": 113,
       "running": 0,
-      "total": 127,
+      "total": 128,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1003,10 +1003,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784790002,
-  "generated_at_iso": "2026-07-23T15:00:02+08:00",
+  "generated_at": 1784793601,
+  "generated_at_iso": "2026-07-23T16:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "body_preview": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "completed_at": 1784792426,
+      "created_at": 1784792424,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_0317cab8",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "started_at": 1784792424,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_45b6bce3",
+      "updated_at": 1784792426,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0317cab8"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -1528,24 +1546,6 @@
       "title": "[Lion -> Ads Manager] P1｜核心眼罩广告投放骤降归因与只读修复方案",
       "updated_at": 1784713625,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_db9e7cae"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260722_165427_8f1cf93b\", \"goal\": \"[The user sent a document: '长形篮烧烤调料置物架.zip'. The file is saved at: /root/.hermes/profiles/coovoamae-crm/cache/documents/doc_88cc3596051c_长形篮烧烤调料置物架.zip. Ask the user what they'd like you t…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260722_165427_8f1cf93b\", \"goal\": \"[The user sent a document: '长形篮烧烤调料置物架.zip'. The file is saved at: /root/.hermes/profiles/coovoamae-crm/cache/documents/doc_88cc3596051c_长形篮烧烤调料置物架.zip. Ask the user what they'd like you t…",
-      "completed_at": 1784712069,
-      "created_at": 1784711618,
-      "created_by": "coovoamae-crm",
-      "id": "t_5488fa37",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_2c3d9f32.",
-      "started_at": 1784711622,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [The user sent a document: '长形篮烧烤调料置物架.zip'. The file is saved at: /root/.hermes/profiles/coovoa",
-      "updated_at": 1784712069,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_5488fa37"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1553,12 +1553,12 @@
     "active": 9,
     "archived": 102,
     "blocked": 33,
-    "done": 838,
+    "done": 839,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 982,
+    "total": 983,
     "triage": 4
   },
   "tasks": [
@@ -14593,6 +14593,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_f2ebf1c4",
       "updated_at": 1784789485,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9495bb0a"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "body_preview": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "completed_at": 1784792426,
+      "created_at": 1784792424,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_0317cab8",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
+      "started_at": 1784792424,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_45b6bce3",
+      "updated_at": 1784792426,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0317cab8"
     },
     {
       "assignee": "coovoamae-crm",
