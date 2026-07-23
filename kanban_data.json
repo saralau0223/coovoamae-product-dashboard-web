@@ -1,6 +1,42 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_102010_7772ee\", \"goal\": \"work kanban task t_215da7b1\", \"completed\": [ \"获取NEW-003与NEW-024的Amazon官方POE niche数据\", \"流式扫描2026-07-05至2026-07-11官方ABA缓存50566行\", \"核实NEW-024核心POE指标\", \"公开Amazon页面核实B0D9QDP13P商品重量2.2 lb\" ], \"art…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_102010_7772ee\", \"goal\": \"work kanban task t_215da7b1\", \"completed\": [ \"获取NEW-003与NEW-024的Amazon官方POE niche数据\", \"流式扫描2026-07-05至2026-07-11官方ABA缓存50566行\", \"核实NEW-024核心POE指标\", \"公开Amazon页面核实B0D9QDP13P商品重量2.2 lb\" ], \"art…",
+      "completed_at": null,
+      "created_at": 1784773359,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_c2bf96c8",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/3] work kanban task t_215da7b1",
+      "updated_at": 1784773359,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 背景：已验收 t_f0f3f8d2/t_76e18d7b 将10个候选收敛为 NEW-003、NEW-022、NEW-024；NEW-003 与 NEW-024 的下一步均为一次低成本 fres…",
+      "body_preview": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 背景：已验收 t_f0f3f8d2/t_76e18d7b 将10个候选收敛为 NEW-003、NEW-022、NEW-024；NEW-003 与 NEW-024 的下一步均为一次低成本 fres…",
+      "completed_at": null,
+      "created_at": 1784772246,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_215da7b1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784772252,
+      "status": "running",
+      "title": "鹰眼官方门｜NEW-003+NEW-024 fresh需求与低成本否决验证",
+      "updated_at": 1784772252,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_215da7b1"
+    },
+    {
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -70,6 +106,24 @@
       "status": "triage",
       "title": "云台 B0GQ2ZR81S Listing 主视频（等待真实素材）",
       "updated_at": 1784171832,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-chief-of-staff reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：最终验收鹰眼任务 t_215da7b1，只在fresh来源、门槛判断、每项>=3条证据反方陈述及readback齐全时收口；不足则退回原owner，不代做。 输入：父任务 t_2…",
+      "body_preview": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-chief-of-staff reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：最终验收鹰眼任务 t_215da7b1，只在fresh来源、门槛判断、每项>=3条证据反方陈述及readback齐全时收口；不足则退回原owner，不代做。 输入：父任务 t_2…",
+      "completed_at": null,
+      "created_at": 1784772246,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_5707868f",
+      "priority": 90,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "方舟验收｜NEW-003+NEW-024 fresh官方否决门",
+      "updated_at": 1784772246,
       "workspace_path": ""
     },
     {
@@ -181,6 +235,24 @@
       "title": "P0后置｜当当抽检蝴蝶图库批次20%并条件发布",
       "updated_at": 1784190877,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44044458"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": null,
+      "created_at": 1784775277,
+      "created_by": "coovoamae-crm",
+      "id": "t_473086b8",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784775281,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] [Image]",
+      "updated_at": 1784775281,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_473086b8"
     },
     {
       "assignee": "coovoamae-crm",
@@ -714,7 +786,9 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 23
+        "done": 23,
+        "running": 1,
+        "todo": 2
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -738,8 +812,8 @@
     },
     {
       "counts": {
-        "blocked": 6,
-        "done": 20,
+        "blocked": 7,
+        "done": 22,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -769,18 +843,19 @@
       "total": 2
     },
     "coovoamae-chief-of-staff": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 36,
       "running": 0,
-      "total": 36
+      "todo": 1,
+      "total": 37
     },
     "coovoamae-crm": {
       "active": 1,
-      "blocked": 8,
-      "done": 101,
+      "blocked": 9,
+      "done": 103,
       "running": 0,
-      "total": 110,
+      "total": 113,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -792,11 +867,12 @@
       "triage": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 2,
       "blocked": 0,
       "done": 74,
-      "running": 0,
-      "total": 74
+      "running": 1,
+      "todo": 1,
+      "total": 76
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -895,10 +971,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784772001,
-  "generated_at_iso": "2026-07-23T10:00:01+08:00",
+  "generated_at": 1784775601,
+  "generated_at_iso": "2026-07-23T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": 1784775277,
+      "created_at": 1784774709,
+      "created_by": "coovoamae-crm",
+      "id": "t_92c32750",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_473086b8.",
+      "started_at": 1784774718,
+      "status": "done",
+      "title": "[Auto Continue 2/3] [Image]",
+      "updated_at": 1784775277,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_92c32750"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": 1784774709,
+      "created_at": 1784774325,
+      "created_by": "coovoamae-crm",
+      "id": "t_7d2b8c35",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_92c32750.",
+      "started_at": 1784774334,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [Image]",
+      "updated_at": 1784774709,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7d2b8c35"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1402,55 +1514,19 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0GXVNPM68",
       "updated_at": 1784631981,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c30dc89e"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T104307Z-p1-q08-7-dry-run-08a6de12 - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-man…",
-      "completed_at": 1784631425,
-      "created_at": 1784630595,
-      "created_by": "coovoamae-lion",
-      "id": "t_075a2ae6",
-      "priority": 70,
-      "result": "",
-      "started_at": 1784630596,
-      "status": "done",
-      "title": "[Lion -> Ads Manager] P1｜Q08 云台：验证有效广告词并产出7天放量dry-run",
-      "updated_at": 1784631425,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_075a2ae6"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260721T104304Z-p0-q08-e0add1ed - priority: P0 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/works…",
-      "completed_at": 1784631236,
-      "created_at": 1784630585,
-      "created_by": "coovoamae-lion",
-      "id": "t_43385515",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784630586,
-      "status": "done",
-      "title": "[Lion -> Dangdang] P0｜Q08 云台实际成交价与零售就绪核验（只读）",
-      "updated_at": 1784631236,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_43385515"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 9,
+    "active": 12,
     "archived": 102,
-    "blocked": 27,
-    "done": 824,
+    "blocked": 28,
+    "done": 826,
     "pending": 0,
     "ready": 5,
-    "running": 0,
-    "todo": 0,
-    "total": 962,
+    "running": 1,
+    "todo": 2,
+    "total": 968,
     "triage": 4
   },
   "tasks": [
@@ -15912,6 +15988,42 @@
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 背景：已验收 t_f0f3f8d2/t_76e18d7b 将10个候选收敛为 NEW-003、NEW-022、NEW-024；NEW-003 与 NEW-024 的下一步均为一次低成本 fres…",
+      "body_preview": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 背景：已验收 t_f0f3f8d2/t_76e18d7b 将10个候选收敛为 NEW-003、NEW-022、NEW-024；NEW-003 与 NEW-024 的下一步均为一次低成本 fres…",
+      "completed_at": null,
+      "created_at": 1784772246,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_215da7b1",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784772252,
+      "status": "running",
+      "title": "鹰眼官方门｜NEW-003+NEW-024 fresh需求与低成本否决验证",
+      "updated_at": 1784772252,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_215da7b1"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_102010_7772ee\", \"goal\": \"work kanban task t_215da7b1\", \"completed\": [ \"获取NEW-003与NEW-024的Amazon官方POE niche数据\", \"流式扫描2026-07-05至2026-07-11官方ABA缓存50566行\", \"核实NEW-024核心POE指标\", \"公开Amazon页面核实B0D9QDP13P商品重量2.2 lb\" ], \"art…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_102010_7772ee\", \"goal\": \"work kanban task t_215da7b1\", \"completed\": [ \"获取NEW-003与NEW-024的Amazon官方POE niche数据\", \"流式扫描2026-07-05至2026-07-11官方ABA缓存50566行\", \"核实NEW-024核心POE指标\", \"公开Amazon页面核实B0D9QDP13P商品重量2.2 lb\" ], \"art…",
+      "completed_at": null,
+      "created_at": 1784773359,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_c2bf96c8",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/3] work kanban task t_215da7b1",
+      "updated_at": 1784773359,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
       "body": "initiative_id: PD-GAP-PATROL-20260721-EVIDENCE-TRIAGE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：承接 2026-07-21 已同步的 10 个候选（NEW-003, NEW-017, NEW-022, NEW-041, NEW-019, NEW-001, NEW-006,…",
       "body_preview": "initiative_id: PD-GAP-PATROL-20260721-EVIDENCE-TRIAGE board: coovoamae-product-intel owner: coovoamae-eagle-eye reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：承接 2026-07-21 已同步的 10 个候选（NEW-003, NEW-017, NEW-022, NEW-041, NEW-019, NEW-001, NEW-006,…",
       "completed_at": 1784600891,
@@ -15925,6 +16037,24 @@
       "title": "鹰眼收敛｜10个同步候选Stage-1证据分层与Top3反方陈述",
       "updated_at": 1784600891,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_f0f3f8d2"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-chief-of-staff reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：最终验收鹰眼任务 t_215da7b1，只在fresh来源、门槛判断、每项>=3条证据反方陈述及readback齐全时收口；不足则退回原owner，不代做。 输入：父任务 t_2…",
+      "body_preview": "initiative_id: PD-GAP-PATROL-20260723-FRESH-GATE board: coovoamae-product-intel owner: coovoamae-chief-of-staff reviewer: coovoamae-chief-of-staff risk_tier: low_readonly report_to: coovoamae-chief-of-staff 目标：最终验收鹰眼任务 t_215da7b1，只在fresh来源、门槛判断、每项>=3条证据反方陈述及readback齐全时收口；不足则退回原owner，不代做。 输入：父任务 t_2…",
+      "completed_at": null,
+      "created_at": 1784772246,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_5707868f",
+      "priority": 90,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "方舟验收｜NEW-003+NEW-024 fresh官方否决门",
+      "updated_at": 1784772246,
+      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-luming",
@@ -16933,6 +17063,60 @@
       "title": "[Auto Continue 2/3] 做好了吗，发图片格式给我",
       "updated_at": 1784765620,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_29b27d76"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": 1784774709,
+      "created_at": 1784774325,
+      "created_by": "coovoamae-crm",
+      "id": "t_7d2b8c35",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_92c32750.",
+      "started_at": 1784774334,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [Image]",
+      "updated_at": 1784774709,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7d2b8c35"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": 1784775277,
+      "created_at": 1784774709,
+      "created_by": "coovoamae-crm",
+      "id": "t_92c32750",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_473086b8.",
+      "started_at": 1784774718,
+      "status": "done",
+      "title": "[Auto Continue 2/3] [Image]",
+      "updated_at": 1784775277,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_92c32750"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
+      "completed_at": null,
+      "created_at": 1784775277,
+      "created_by": "coovoamae-crm",
+      "id": "t_473086b8",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784775281,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] [Image]",
+      "updated_at": 1784775281,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_473086b8"
     }
   ]
 }
