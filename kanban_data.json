@@ -744,6 +744,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "completed_at": null,
+      "created_at": 1784821866,
+      "created_by": "coovoamae-lion",
+      "id": "t_67636171",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784821866,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 核验云台 Q08-US Coupon 使用率与成本",
+      "updated_at": 1784821866,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_67636171"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T111227Z-p1-b0h36rkcrs-fba-9a9349ac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T111227Z-p1-b0h36rkcrs-fba-9a9349ac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizh…",
       "completed_at": null,
@@ -870,7 +888,7 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 8,
+        "blocked": 9,
         "done": 37
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -954,10 +972,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 11,
+      "blocked": 12,
       "done": 68,
       "running": 0,
-      "total": 79
+      "total": 80
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1093,8 +1111,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784818801,
-  "generated_at_iso": "2026-07-23T23:00:01+08:00",
+  "generated_at": 1784822401,
+  "generated_at_iso": "2026-07-24T00:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -1642,13 +1660,13 @@
   "summary": {
     "active": 9,
     "archived": 102,
-    "blocked": 38,
+    "blocked": 39,
     "done": 847,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 996,
+    "total": 997,
     "triage": 4
   },
   "tasks": [
@@ -13387,6 +13405,24 @@
       "title": "[Lion -> Dangdang] P1｜B0H36RKCRS 后台核验真实 FBA 配送费与订单费用",
       "updated_at": 1784805148,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_180c02c3"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
+      "completed_at": null,
+      "created_at": 1784821866,
+      "created_by": "coovoamae-lion",
+      "id": "t_67636171",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784821866,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 核验云台 Q08-US Coupon 使用率与成本",
+      "updated_at": 1784821866,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_67636171"
     },
     {
       "assignee": "coovoamae-finance",
