@@ -744,6 +744,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784844194,
+      "created_by": "coovoamae-lion",
+      "id": "t_3da22c45",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784844195,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] Q08 Coupon 订单分母只读核验｜总订单 vs 使用 Coupon 订单",
+      "updated_at": 1784844195,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_3da22c45"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T155105Z-q08-us-coupon-96a67fd2 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutia…",
       "completed_at": null,
@@ -888,7 +906,7 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 9,
+        "blocked": 10,
         "done": 37
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -955,7 +973,7 @@
     {
       "counts": {
         "blocked": 11,
-        "done": 30,
+        "done": 31,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -972,10 +990,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 12,
+      "blocked": 13,
       "done": 68,
       "running": 0,
-      "total": 80
+      "total": 81
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -994,9 +1012,9 @@
     "coovoamae-crm": {
       "active": 1,
       "blocked": 16,
-      "done": 120,
+      "done": 121,
       "running": 0,
-      "total": 137,
+      "total": 138,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1111,10 +1129,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784844001,
-  "generated_at_iso": "2026-07-24T06:00:01+08:00",
+  "generated_at": 1784847601,
+  "generated_at_iso": "2026-07-24T07:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
+      "completed_at": 1784846969,
+      "created_at": 1784846354,
+      "created_by": "coovoamae-crm",
+      "id": "t_66ddbc2f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784846354,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [Replying to: \"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失",
+      "updated_at": 1784846969,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_66ddbc2f"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -1636,37 +1672,19 @@
       "title": "[Auto Continue 3/3] 你自己解决",
       "updated_at": 1784721275,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_752edcf9"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260722_190435_90e5d995\", \"goal\": \"你自己解决\", \"completed\": [ \"Slot 3结构、文案、指示点及10%安全区QA通过\", \"导出Slot 3安装卖点终图\", \"制作并修正Slot 4储物分区V3\", \"制作并修正Slot 5开放式篮筐V3\", \"生成Slot 4/5与源锚点对照图\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-cr…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260722_190435_90e5d995\", \"goal\": \"你自己解决\", \"completed\": [ \"Slot 3结构、文案、指示点及10%安全区QA通过\", \"导出Slot 3安装卖点终图\", \"制作并修正Slot 4储物分区V3\", \"制作并修正Slot 5开放式篮筐V3\", \"生成Slot 4/5与源锚点对照图\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-cr…",
-      "completed_at": 1784721088,
-      "created_at": 1784720696,
-      "created_by": "coovoamae-crm",
-      "id": "t_4199f978",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_752edcf9.",
-      "started_at": 1784720703,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 你自己解决",
-      "updated_at": 1784721088,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_4199f978"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 9,
     "archived": 102,
-    "blocked": 39,
-    "done": 847,
+    "blocked": 40,
+    "done": 848,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 997,
+    "total": 999,
     "triage": 4
   },
   "tasks": [
@@ -13425,6 +13443,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_67636171"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
+      "completed_at": null,
+      "created_at": 1784844194,
+      "created_by": "coovoamae-lion",
+      "id": "t_3da22c45",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784844195,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] Q08 Coupon 订单分母只读核验｜总订单 vs 使用 Coupon 订单",
+      "updated_at": 1784844195,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_3da22c45"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -17779,6 +17815,24 @@
       "title": "[Auto Continue 2/3] 我们的完整发货地址，之前就有重复确定过，国内我们统一用账号上的国内地址就行，你以后要记住",
       "updated_at": 1784807421,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_249cc81b"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
+      "completed_at": 1784846969,
+      "created_at": 1784846354,
+      "created_by": "coovoamae-crm",
+      "id": "t_66ddbc2f",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784846354,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [Replying to: \"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失",
+      "updated_at": 1784846969,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_66ddbc2f"
     }
   ]
 }
