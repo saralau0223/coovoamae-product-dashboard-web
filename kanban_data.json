@@ -127,6 +127,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260724T034920Z-p1-q08-coupon-7-18-7-22-pt-09feb457 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260724T034920Z-p1-q08-coupon-7-18-7-22-pt-09feb457 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1784864961,
+      "created_by": "coovoamae-lion",
+      "id": "t_d44fe118",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784864962,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜Q08 Coupon 精确订单与件数归因只读核验（7/18–7/22 PT）",
+      "updated_at": 1784864962,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d44fe118"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -925,7 +943,8 @@
       "counts": {
         "archived": 1,
         "blocked": 10,
-        "done": 37
+        "done": 37,
+        "running": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -991,7 +1010,7 @@
     {
       "counts": {
         "blocked": 12,
-        "done": 37,
+        "done": 38,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -1007,11 +1026,11 @@
       "total": 34
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 0,
+      "active": 1,
       "blocked": 13,
       "done": 68,
-      "running": 0,
-      "total": 81
+      "running": 1,
+      "total": 82
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1030,9 +1049,9 @@
     "coovoamae-crm": {
       "active": 1,
       "blocked": 17,
-      "done": 126,
+      "done": 127,
       "running": 0,
-      "total": 144,
+      "total": 145,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1147,10 +1166,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784862001,
-  "generated_at_iso": "2026-07-24T11:00:01+08:00",
+  "generated_at": 1784865602,
+  "generated_at_iso": "2026-07-24T12:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_111512_156eb8\", \"goal\": \"是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了\", \"completed\": [ \"读取产品档案并锁定夹装式垂直烧烤收纳工作站定位\", \"建立Before/After样图brief\", \"完成2次LinkFoxAI生成\", \"第1张严格QA失败并标记废弃\", \"第2张通过结构锚点、375px移动端、定位和文字品牌QA\" ], \"artifa…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_111512_156eb8\", \"goal\": \"是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了\", \"completed\": [ \"读取产品档案并锁定夹装式垂直烧烤收纳工作站定位\", \"建立Before/After样图brief\", \"完成2次LinkFoxAI生成\", \"第1张严格QA失败并标记废弃\", \"第2张通过结构锚点、375px移动端、定位和文字品牌QA\" ], \"artifa…",
+      "completed_at": 1784864444,
+      "created_at": 1784864168,
+      "created_by": "coovoamae-crm",
+      "id": "t_866f4eaa",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784864172,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了",
+      "updated_at": 1784864444,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_866f4eaa"
+    },
     {
       "assignee": "coovoamae-lion",
       "board": "hermes-auto-continue",
@@ -1672,37 +1709,19 @@
       "title": "[Auto Continue 2/3] [Image]",
       "updated_at": 1784775277,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_92c32750"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_103713_355856\", \"goal\": \"[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n[Image]\\n这是我们最近新立项的产品图片，户外烧烤用品收纳提篮，你结…",
-      "completed_at": 1784774709,
-      "created_at": 1784774325,
-      "created_by": "coovoamae-crm",
-      "id": "t_7d2b8c35",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_92c32750.",
-      "started_at": 1784774334,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [Image]",
-      "updated_at": 1784774709,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7d2b8c35"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 9,
+    "active": 10,
     "archived": 102,
     "blocked": 41,
-    "done": 854,
+    "done": 855,
     "pending": 0,
     "ready": 5,
-    "running": 0,
+    "running": 1,
     "todo": 0,
-    "total": 1006,
+    "total": 1008,
     "triage": 4
   },
   "tasks": [
@@ -13479,6 +13498,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_3da22c45"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260724T034920Z-p1-q08-coupon-7-18-7-22-pt-09feb457 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260724T034920Z-p1-q08-coupon-7-18-7-22-pt-09feb457 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1784864961,
+      "created_by": "coovoamae-lion",
+      "id": "t_d44fe118",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784864962,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜Q08 Coupon 精确订单与件数归因只读核验（7/18–7/22 PT）",
+      "updated_at": 1784864962,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_d44fe118"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -17977,6 +18014,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1784859595,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ce4f1960"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_111512_156eb8\", \"goal\": \"是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了\", \"completed\": [ \"读取产品档案并锁定夹装式垂直烧烤收纳工作站定位\", \"建立Before/After样图brief\", \"完成2次LinkFoxAI生成\", \"第1张严格QA失败并标记废弃\", \"第2张通过结构锚点、375px移动端、定位和文字品牌QA\" ], \"artifa…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_111512_156eb8\", \"goal\": \"是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了\", \"completed\": [ \"读取产品档案并锁定夹装式垂直烧烤收纳工作站定位\", \"建立Before/After样图brief\", \"完成2次LinkFoxAI生成\", \"第1张严格QA失败并标记废弃\", \"第2张通过结构锚点、375px移动端、定位和文字品牌QA\" ], \"artifa…",
+      "completed_at": 1784864444,
+      "created_at": 1784864168,
+      "created_by": "coovoamae-crm",
+      "id": "t_866f4eaa",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784864172,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了",
+      "updated_at": 1784864444,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_866f4eaa"
     }
   ]
 }
