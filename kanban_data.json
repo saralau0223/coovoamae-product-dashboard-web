@@ -1,24 +1,6 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
-      "completed_at": null,
-      "created_at": 1784869065,
-      "created_by": "coovoamae-crm",
-      "id": "t_d058ebd0",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784869074,
-      "status": "running",
-      "title": "[Auto Continue 2/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
-      "updated_at": 1784869074,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_d058ebd0"
-    },
-    {
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -235,6 +217,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
+      "completed_at": null,
+      "created_at": 1784869870,
+      "created_by": "coovoamae-crm",
+      "id": "t_bb644b90",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784869885,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
+      "updated_at": 1784869885,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_bb644b90"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1008,10 +1008,9 @@
     },
     {
       "counts": {
-        "blocked": 12,
-        "done": 39,
-        "ready": 3,
-        "running": 1
+        "blocked": 13,
+        "done": 40,
+        "ready": 3
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1047,11 +1046,11 @@
       "total": 37
     },
     "coovoamae-crm": {
-      "active": 2,
-      "blocked": 17,
-      "done": 128,
-      "running": 1,
-      "total": 147,
+      "active": 1,
+      "blocked": 18,
+      "done": 129,
+      "running": 0,
+      "total": 148,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1166,10 +1165,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784869201,
-  "generated_at_iso": "2026-07-24T13:00:01+08:00",
+  "generated_at": 1784872801,
+  "generated_at_iso": "2026-07-24T14:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
+      "completed_at": 1784869870,
+      "created_at": 1784869065,
+      "created_by": "coovoamae-crm",
+      "id": "t_d058ebd0",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_bb644b90.",
+      "started_at": 1784869074,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
+      "updated_at": 1784869870,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_d058ebd0"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1691,37 +1708,19 @@
       "title": "[Auto Continue 2/3] work kanban task t_ad83ee5f",
       "updated_at": 1784784420,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fde48818"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_120801_68679c\", \"goal\": \"work kanban task t_ad83ee5f\", \"completed\": [ \"读取并核对Kanban工单、inbox JSON/Markdown及授权\", \"锁定LinkFoxAI-only路线、产品结构和10次调用上限\", \"MAIN像素与语义QA通过\", \"PT01四篮卖点图QA通过\", \"PT06开放线篮图QA通过\", \"完成PT03/PT04/PT05首轮…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_120801_68679c\", \"goal\": \"work kanban task t_ad83ee5f\", \"completed\": [ \"读取并核对Kanban工单、inbox JSON/Markdown及授权\", \"锁定LinkFoxAI-only路线、产品结构和10次调用上限\", \"MAIN像素与语义QA通过\", \"PT01四篮卖点图QA通过\", \"PT06开放线篮图QA通过\", \"完成PT03/PT04/PT05首轮…",
-      "completed_at": 1784781934,
-      "created_at": 1784780460,
-      "created_by": "coovoamae-crm",
-      "id": "t_c92277ba",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_fde48818.",
-      "started_at": 1784780470,
-      "status": "done",
-      "title": "[Auto Continue 1/3] work kanban task t_ad83ee5f",
-      "updated_at": 1784781934,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_c92277ba"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 10,
+    "active": 9,
     "archived": 102,
-    "blocked": 41,
-    "done": 860,
+    "blocked": 42,
+    "done": 861,
     "pending": 0,
     "ready": 5,
-    "running": 1,
+    "running": 0,
     "todo": 0,
-    "total": 1013,
+    "total": 1014,
     "triage": 4
   },
   "tasks": [
@@ -18111,17 +18110,35 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"核验PT04有序容量图结构、文案与品牌合规\", \"核验PT06开放备餐台面生活方式图结构与文案\", \"生成PT05工具随手取用LinkFoxAI新图\", \"PT05通过真实锚点结构对比和375px移动端QA\", \"组装7图V5 owner-preview候选套图及移动端联系表\" ],…",
-      "completed_at": null,
+      "completed_at": 1784869870,
       "created_at": 1784869065,
       "created_by": "coovoamae-crm",
       "id": "t_d058ebd0",
       "priority": 100,
-      "result": "",
+      "result": "Auto-continuation round 2 handed off to t_bb644b90.",
       "started_at": 1784869074,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 2/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
-      "updated_at": 1784869074,
+      "updated_at": 1784869870,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_d058ebd0"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
+      "completed_at": null,
+      "created_at": 1784869870,
+      "created_by": "coovoamae-crm",
+      "id": "t_bb644b90",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784869885,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
+      "updated_at": 1784869885,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_bb644b90"
     }
   ]
 }
