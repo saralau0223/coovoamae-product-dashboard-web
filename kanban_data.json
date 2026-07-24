@@ -1,6 +1,42 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
+      "completed_at": null,
+      "created_at": 1784883696,
+      "created_by": "coovoamae-crm",
+      "id": "t_c85bd371",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784883701,
+      "status": "running",
+      "title": "[Auto Continue 1/3] 确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计",
+      "updated_at": 1784883701,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_c85bd371"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
+      "completed_at": null,
+      "created_at": 1784880715,
+      "created_by": "coovoamae-crm",
+      "id": "t_cf2a2773",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 2/3] 确认 C2：最多6次，按上述3个槽位补齐",
+      "updated_at": 1784880715,
+      "workspace_path": ""
+    },
+    {
       "assignee": "main",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -217,6 +253,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"C2授权已登记并执行\", \"LinkFoxAI付费生成5次\", \"MAIN通过结构、合规及375px QA\", \"PT01第二版通过结构、文案及375px QA\", \"PT06完成两次生成并严格判退\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoama…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"C2授权已登记并执行\", \"LinkFoxAI付费生成5次\", \"MAIN通过结构、合规及375px QA\", \"PT01第二版通过结构、文案及375px QA\", \"PT06完成两次生成并严格判退\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoama…",
+      "completed_at": null,
+      "created_at": 1784880395,
+      "created_by": "coovoamae-crm",
+      "id": "t_5cce462e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784880395,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 确认 C2：最多6次，按上述3个槽位补齐",
+      "updated_at": 1784880395,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_5cce462e"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1026,9 +1080,10 @@
     },
     {
       "counts": {
-        "blocked": 14,
+        "blocked": 15,
         "done": 40,
-        "ready": 3
+        "ready": 3,
+        "todo": 1
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1064,11 +1119,12 @@
       "total": 37
     },
     "coovoamae-crm": {
-      "active": 1,
-      "blocked": 19,
+      "active": 3,
+      "blocked": 20,
       "done": 129,
-      "running": 0,
-      "total": 149,
+      "running": 1,
+      "todo": 1,
+      "total": 152,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1183,8 +1239,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784880001,
-  "generated_at_iso": "2026-07-24T16:00:01+08:00",
+  "generated_at": 1784883602,
+  "generated_at_iso": "2026-07-24T17:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -1730,15 +1786,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 9,
+    "active": 11,
     "archived": 102,
-    "blocked": 43,
+    "blocked": 44,
     "done": 861,
     "pending": 0,
     "ready": 5,
     "running": 0,
-    "todo": 0,
-    "total": 1015,
+    "todo": 1,
+    "total": 1017,
     "triage": 4
   },
   "tasks": [
@@ -18175,6 +18231,60 @@
       "title": "[Auto Continue 1/3] 确认 C1：最多5次，按上述范围补齐",
       "updated_at": 1784874609,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_953fd44a"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"C2授权已登记并执行\", \"LinkFoxAI付费生成5次\", \"MAIN通过结构、合规及375px QA\", \"PT01第二版通过结构、文案及375px QA\", \"PT06完成两次生成并严格判退\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoama…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"C2授权已登记并执行\", \"LinkFoxAI付费生成5次\", \"MAIN通过结构、合规及375px QA\", \"PT01第二版通过结构、文案及375px QA\", \"PT06完成两次生成并严格判退\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoama…",
+      "completed_at": null,
+      "created_at": 1784880395,
+      "created_by": "coovoamae-crm",
+      "id": "t_5cce462e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784880395,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 确认 C2：最多6次，按上述3个槽位补齐",
+      "updated_at": 1784880395,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_5cce462e"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
+      "completed_at": null,
+      "created_at": 1784880715,
+      "created_by": "coovoamae-crm",
+      "id": "t_cf2a2773",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 2/3] 确认 C2：最多6次，按上述3个槽位补齐",
+      "updated_at": 1784880715,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
+      "completed_at": null,
+      "created_at": 1784883696,
+      "created_by": "coovoamae-crm",
+      "id": "t_c85bd371",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784883701,
+      "status": "running",
+      "title": "[Auto Continue 1/3] 确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计",
+      "updated_at": 1784883701,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_c85bd371"
     }
   ]
 }
