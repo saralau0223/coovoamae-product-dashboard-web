@@ -222,6 +222,24 @@
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_142409_0877bf\", \"goal\": \"确认 C1：最多5次，按上述范围补齐\", \"completed\": [ \"记录并执行C1授权\", \"完成4次LinkFoxAI生成调用\", \"PT05通过全尺寸、375px移动端、产品拓扑与手部动作QA\", \"失败候选已移入QA隔离目录\", \"生成C1严格QA总结与授权回读\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_142409_0877bf\", \"goal\": \"确认 C1：最多5次，按上述范围补齐\", \"completed\": [ \"记录并执行C1授权\", \"完成4次LinkFoxAI生成调用\", \"PT05通过全尺寸、375px移动端、产品拓扑与手部动作QA\", \"失败候选已移入QA隔离目录\", \"生成C1严格QA总结与授权回读\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae…",
+      "completed_at": null,
+      "created_at": 1784874608,
+      "created_by": "coovoamae-crm",
+      "id": "t_953fd44a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784874609,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 确认 C1：最多5次，按上述范围补齐",
+      "updated_at": 1784874609,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_953fd44a"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_123059_e826fd\", \"goal\": \"那你继续把你发现的这些图片的问题整理一下，然后开始优化呢\", \"completed\": [ \"完成V5七图、联系表及375px移动端逐图QA\", \"确认PT01安全边界通过，PT01/PT06角色可区分\", \"确认PT02/PT04角色区分失败，PT04需替换\", \"确认PT01-PT06本地可见合成违反LinkFoxAI-only项目路由\", \"回写owner_preview…",
       "completed_at": null,
@@ -1008,7 +1026,7 @@
     },
     {
       "counts": {
-        "blocked": 13,
+        "blocked": 14,
         "done": 40,
         "ready": 3
       },
@@ -1047,10 +1065,10 @@
     },
     "coovoamae-crm": {
       "active": 1,
-      "blocked": 18,
+      "blocked": 19,
       "done": 129,
       "running": 0,
-      "total": 148,
+      "total": 149,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1165,8 +1183,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784872801,
-  "generated_at_iso": "2026-07-24T14:00:01+08:00",
+  "generated_at": 1784876401,
+  "generated_at_iso": "2026-07-24T15:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -1714,13 +1732,13 @@
   "summary": {
     "active": 9,
     "archived": 102,
-    "blocked": 42,
+    "blocked": 43,
     "done": 861,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 1014,
+    "total": 1015,
     "triage": 4
   },
   "tasks": [
@@ -18139,6 +18157,24 @@
       "title": "[Auto Continue 3/3] 那你继续把你发现的这些图片的问题整理一下，然后开始优化呢",
       "updated_at": 1784869885,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_bb644b90"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_142409_0877bf\", \"goal\": \"确认 C1：最多5次，按上述范围补齐\", \"completed\": [ \"记录并执行C1授权\", \"完成4次LinkFoxAI生成调用\", \"PT05通过全尺寸、375px移动端、产品拓扑与手部动作QA\", \"失败候选已移入QA隔离目录\", \"生成C1严格QA总结与授权回读\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_142409_0877bf\", \"goal\": \"确认 C1：最多5次，按上述范围补齐\", \"completed\": [ \"记录并执行C1授权\", \"完成4次LinkFoxAI生成调用\", \"PT05通过全尺寸、375px移动端、产品拓扑与手部动作QA\", \"失败候选已移入QA隔离目录\", \"生成C1严格QA总结与授权回读\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae…",
+      "completed_at": null,
+      "created_at": 1784874608,
+      "created_by": "coovoamae-crm",
+      "id": "t_953fd44a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784874609,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 确认 C1：最多5次，按上述范围补齐",
+      "updated_at": 1784874609,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_953fd44a"
     }
   ]
 }
