@@ -991,7 +991,7 @@
     {
       "counts": {
         "blocked": 12,
-        "done": 36,
+        "done": 37,
         "ready": 3
       },
       "name": "Hermes Auto Continue",
@@ -1081,9 +1081,9 @@
     "coovoamae-lion": {
       "active": 0,
       "blocked": 4,
-      "done": 7,
+      "done": 8,
       "running": 0,
-      "total": 11
+      "total": 12
     },
     "coovoamae-luming": {
       "active": 0,
@@ -1147,10 +1147,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784858401,
-  "generated_at_iso": "2026-07-24T10:00:01+08:00",
+  "generated_at": 1784862001,
+  "generated_at_iso": "2026-07-24T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": 1784859595,
+      "created_at": 1784859407,
+      "created_by": "coovoamae-lion",
+      "id": "t_ce4f1960",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784859410,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784859595,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ce4f1960"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1672,24 +1690,6 @@
       "title": "[Auto Continue 1/3] [Image]",
       "updated_at": 1784774709,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7d2b8c35"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_074925_e001c6\", \"goal\": \"做好了吗，发图片格式给我\", \"completed\": [ \"修正LinkFoxAI脚本过期参数并成功生成纯白主图\", \"下载并保留LinkFoxAI原始JPEG及原始响应\", \"导出并验证2048×2048 RGB PNG\", \"完成四篮结构、收纳包、白底、安全边距和375px移动端QA\", \"更新CONTINUE_BRIEF、候选manifest及QA报告\" ], \"art…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_074925_e001c6\", \"goal\": \"做好了吗，发图片格式给我\", \"completed\": [ \"修正LinkFoxAI脚本过期参数并成功生成纯白主图\", \"下载并保留LinkFoxAI原始JPEG及原始响应\", \"导出并验证2048×2048 RGB PNG\", \"完成四篮结构、收纳包、白底、安全边距和375px移动端QA\", \"更新CONTINUE_BRIEF、候选manifest及QA报告\" ], \"art…",
-      "completed_at": 1784765620,
-      "created_at": 1784765569,
-      "created_by": "coovoamae-crm",
-      "id": "t_29b27d76",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784765579,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 做好了吗，发图片格式给我",
-      "updated_at": 1784765620,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_29b27d76"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1697,12 +1697,12 @@
     "active": 9,
     "archived": 102,
     "blocked": 41,
-    "done": 853,
+    "done": 854,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 0,
-    "total": 1005,
+    "total": 1006,
     "triage": 4
   },
   "tasks": [
@@ -17959,6 +17959,24 @@
       "title": "[Auto Continue 3/3] [Replying to: \"None\"]",
       "updated_at": 1784853611,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_11529064"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": 1784859595,
+      "created_at": 1784859407,
+      "created_by": "coovoamae-lion",
+      "id": "t_ce4f1960",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784859410,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1784859595,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ce4f1960"
     }
   ]
 }
