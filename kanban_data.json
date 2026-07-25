@@ -240,6 +240,24 @@
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"等待并确认LinkFoxAI Slot 2 Call 2进程正常结束\", \"确认返回code=0、msg=SUCCESS且无error\", \"确认Call 2 request_id为fd71c2036ed94764a755622151f66651\" ],…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"等待并确认LinkFoxAI Slot 2 Call 2进程正常结束\", \"确认返回code=0、msg=SUCCESS且无error\", \"确认Call 2 request_id为fd71c2036ed94764a755622151f66651\" ],…",
+      "completed_at": null,
+      "created_at": 1784958605,
+      "created_by": "coovoamae-crm",
+      "id": "t_cce22529",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784958774,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cce22529"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_171812_68ee2e\", \"goal\": \"文字的排版和格式，参考用pt01 的呢\", \"completed\": [ \"运行V2排版脚本并生成PT02-PT06五张2048×2048候选图\", \"PT03改用全不透明文字面板并扩大ATTACH与IT的物理间距\", \"PT03完成2048px与375px严格视觉QA并通过\", \"PT04完成2048px与375px图例、标记、遮挡和可读性QA并通过\", \"生成记录确认五张图…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_171812_68ee2e\", \"goal\": \"文字的排版和格式，参考用pt01 的呢\", \"completed\": [ \"运行V2排版脚本并生成PT02-PT06五张2048×2048候选图\", \"PT03改用全不透明文字面板并扩大ATTACH与IT的物理间距\", \"PT03完成2048px与375px严格视觉QA并通过\", \"PT04完成2048px与375px图例、标记、遮挡和可读性QA并通过\", \"生成记录确认五张图…",
       "completed_at": null,
@@ -795,6 +813,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_beaaedee"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "项目ID：PD-ROLLINGSHARPENER-20260703 批次ID：PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318 目标：按共享实物参考图库规则完成20%独立视觉审计，仅出审计结论，不执行promote。 必做： 1) 运行 `/root/.hermes/bin/product-reference-library validate-staging --batch-id PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318` 取得不可变清单； 2) 按 `…",
+      "body_preview": "项目ID：PD-ROLLINGSHARPENER-20260703 批次ID：PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318 目标：按共享实物参考图库规则完成20%独立视觉审计，仅出审计结论，不执行promote。 必做： 1) 运行 `/root/.hermes/bin/product-reference-library validate-staging --batch-id PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318` 取得不可变清单； 2) 按 `…",
+      "completed_at": null,
+      "created_at": 1784957749,
+      "created_by": "coovoamae-crm",
+      "id": "t_f5d59ab5",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784958774,
+      "status": "blocked",
+      "title": "[Dangdang 20% Audit] PD-ROLLINGSHARPENER-20260703 实拍暂存批次独立抽检（禁止promote）",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_f5d59ab5"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -1074,7 +1110,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 29
+        "done": 30
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -1098,8 +1134,8 @@
     },
     {
       "counts": {
-        "blocked": 17,
-        "done": 43,
+        "blocked": 19,
+        "done": 45,
         "ready": 3,
         "todo": 1
       },
@@ -1117,10 +1153,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 13,
+      "blocked": 14,
       "done": 70,
       "running": 0,
-      "total": 83
+      "total": 84
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1138,11 +1174,11 @@
     },
     "coovoamae-crm": {
       "active": 2,
-      "blocked": 22,
-      "done": 132,
+      "blocked": 23,
+      "done": 134,
       "running": 0,
       "todo": 1,
-      "total": 156,
+      "total": 159,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1156,9 +1192,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 0,
-      "done": 77,
+      "done": 78,
       "running": 0,
-      "total": 77
+      "total": 78
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -1257,10 +1293,64 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784955601,
-  "generated_at_iso": "2026-07-25T13:00:01+08:00",
+  "generated_at": 1784959201,
+  "generated_at_iso": "2026-07-25T14:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"建立Amazon 7图设计brief与素材缺口矩阵\", \"核验并私有暂存刘希直传的8张实拍\", \"再次运行validate-staging并确认8文件、最少抽检2张、零错误\", \"创建任务接力文件\" ], \"artifacts\": [ \"t_1d92583…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"建立Amazon 7图设计brief与素材缺口矩阵\", \"核验并私有暂存刘希直传的8张实拍\", \"再次运行validate-staging并确认8文件、最少抽检2张、零错误\", \"创建任务接力文件\" ], \"artifacts\": [ \"t_1d92583…",
+      "completed_at": 1784958774,
+      "created_at": 1784957543,
+      "created_by": "coovoamae-crm",
+      "id": "t_88b0ce42",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_cce22529.",
+      "started_at": 1784957544,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_88b0ce42"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260725T051708Z-pd-rollingsharpener-20260703-amazo-f327e7ae - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260725T051708Z-pd-rollingsharpener-20260703-amazo-f327e7ae - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "completed_at": 1784958120,
+      "created_at": 1784956629,
+      "created_by": "coovoamae-crm",
+      "id": "t_d9076ffc",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784956629,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] PD-ROLLINGSHARPENER-20260703 Amazon US 完整套图情报请求",
+      "updated_at": 1784958120,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_d9076ffc"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"读取产品定位档案v0.2并提取视觉与合规边界\", \"核对并保存刘希直传的8张实物照片\", \"完成实物照片SHA-256来源记录与图库扫描\", \"建立Amazon 7图初步槽位方向\", \"向鹰眼发起只读竞品/VOC情报请求\" ], \"artifacts\":…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"读取产品定位档案v0.2并提取视觉与合规边界\", \"核对并保存刘希直传的8张实物照片\", \"完成实物照片SHA-256来源记录与图库扫描\", \"建立Amazon 7图初步槽位方向\", \"向鹰眼发起只读竞品/VOC情报请求\" ], \"artifacts\":…",
+      "completed_at": 1784957543,
+      "created_at": 1784956910,
+      "created_by": "coovoamae-crm",
+      "id": "t_1d925838",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_88b0ce42.",
+      "started_at": 1784956923,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784957543,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1d925838"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
@@ -1746,73 +1836,19 @@
       "title": "[Auto Continue 1/3] 这个风格可以，你再继续生成全套的图片吧",
       "updated_at": 1784802174,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_732fc43b"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_171636_4f78f1\", \"goal\": \"那你去返工，尽快出图给我\", \"completed\": [ \"执行PT01真实源图保结构LinkFoxAI高清化\", \"生成并验证2048×2048 JPEG\", \"完成结构、标签、移动端与视觉推进QA\", \"已通过飞书原生图片发送刘希\" ], \"artifacts\": [ \"/root/.hermes/shared/product-assets/coovoa-20260723…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260723_171636_4f78f1\", \"goal\": \"那你去返工，尽快出图给我\", \"completed\": [ \"执行PT01真实源图保结构LinkFoxAI高清化\", \"生成并验证2048×2048 JPEG\", \"完成结构、标签、移动端与视觉推进QA\", \"已通过飞书原生图片发送刘希\" ], \"artifacts\": [ \"/root/.hermes/shared/product-assets/coovoa-20260723…",
-      "completed_at": 1784800776,
-      "created_at": 1784799474,
-      "created_by": "coovoamae-crm",
-      "id": "t_c796e097",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_3ef148ef.",
-      "started_at": 1784799478,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 那你去返工，尽快出图给我",
-      "updated_at": 1784800776,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_c796e097"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_171636_4f78f1\", \"goal\": \"那你去返工，尽快出图给我\", \"completed\": [ \"锁定7图多角度视觉推进方案\", \"LinkFoxAI生成PT01满载场景与PT02容量细节各1张\", \"完成两张源图对照严格QA并判定均不交付\", \"解决LinkFox上传超时并记录复用方法\", \"准备PT01真实源图保结构高清化脚本\" ], \"artifacts\": [ \"/root/.hermes/shared/…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_171636_4f78f1\", \"goal\": \"那你去返工，尽快出图给我\", \"completed\": [ \"锁定7图多角度视觉推进方案\", \"LinkFoxAI生成PT01满载场景与PT02容量细节各1张\", \"完成两张源图对照严格QA并判定均不交付\", \"解决LinkFox上传超时并记录复用方法\", \"准备PT01真实源图保结构高清化脚本\" ], \"artifacts\": [ \"/root/.hermes/shared/…",
-      "completed_at": 1784799474,
-      "created_at": 1784799132,
-      "created_by": "coovoamae-crm",
-      "id": "t_8e3628e8",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_c796e097.",
-      "started_at": 1784799134,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 那你去返工，尽快出图给我",
-      "updated_at": 1784799474,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8e3628e8"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "body_preview": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "completed_at": 1784792426,
-      "created_at": 1784792424,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_0317cab8",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_45b6bce3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_45b6bce3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_45b6bce3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "started_at": 1784792424,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_45b6bce3",
-      "updated_at": 1784792426,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0317cab8"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 10,
     "archived": 102,
-    "blocked": 46,
-    "done": 868,
+    "blocked": 48,
+    "done": 871,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 1,
-    "total": 1026,
+    "total": 1031,
     "triage": 4
   },
   "tasks": [
@@ -16955,6 +16991,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_f414f6be"
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260725T051708Z-pd-rollingsharpener-20260703-amazo-f327e7ae - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "body_preview": "Butterfly requested read-only selling-point intelligence from Eagle Eye before important visual work. ## Request - request_id: butterfly-eagle-20260725T051708Z-pd-rollingsharpener-20260703-amazo-f327e7ae - priority: P1 - eagle_inbox_json: /root/.hermes/profiles/coovoamae-eagle-eye/workspace/inbox/i…",
+      "completed_at": 1784958120,
+      "created_at": 1784956629,
+      "created_by": "coovoamae-crm",
+      "id": "t_d9076ffc",
+      "priority": 80,
+      "result": "",
+      "started_at": 1784956629,
+      "status": "done",
+      "title": "[Butterfly -> Eagle Intel] PD-ROLLINGSHARPENER-20260703 Amazon US 完整套图情报请求",
+      "updated_at": 1784958120,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_d9076ffc"
+    },
+    {
       "assignee": "coovoamae-chief-of-staff",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
@@ -18447,6 +18501,78 @@
       "title": "[Auto Continue 3/3] 文字的排版和格式，参考用pt01 的呢",
       "updated_at": 1784885548,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_38104f81"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"读取产品定位档案v0.2并提取视觉与合规边界\", \"核对并保存刘希直传的8张实物照片\", \"完成实物照片SHA-256来源记录与图库扫描\", \"建立Amazon 7图初步槽位方向\", \"向鹰眼发起只读竞品/VOC情报请求\" ], \"artifacts\":…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"读取产品定位档案v0.2并提取视觉与合规边界\", \"核对并保存刘希直传的8张实物照片\", \"完成实物照片SHA-256来源记录与图库扫描\", \"建立Amazon 7图初步槽位方向\", \"向鹰眼发起只读竞品/VOC情报请求\" ], \"artifacts\":…",
+      "completed_at": 1784957543,
+      "created_at": 1784956910,
+      "created_by": "coovoamae-crm",
+      "id": "t_1d925838",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_88b0ce42.",
+      "started_at": 1784956923,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784957543,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1d925838"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"建立Amazon 7图设计brief与素材缺口矩阵\", \"核验并私有暂存刘希直传的8张实拍\", \"再次运行validate-staging并确认8文件、最少抽检2张、零错误\", \"创建任务接力文件\" ], \"artifacts\": [ \"t_1d92583…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"建立Amazon 7图设计brief与素材缺口矩阵\", \"核验并私有暂存刘希直传的8张实拍\", \"再次运行validate-staging并确认8文件、最少抽检2张、零错误\", \"创建任务接力文件\" ], \"artifacts\": [ \"t_1d92583…",
+      "completed_at": 1784958774,
+      "created_at": 1784957543,
+      "created_by": "coovoamae-crm",
+      "id": "t_88b0ce42",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_cce22529.",
+      "started_at": 1784957544,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_88b0ce42"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"等待并确认LinkFoxAI Slot 2 Call 2进程正常结束\", \"确认返回code=0、msg=SUCCESS且无error\", \"确认Call 2 request_id为fd71c2036ed94764a755622151f66651\" ],…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260725_131156_bc3766\", \"goal\": \"这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计\", \"completed\": [ \"等待并确认LinkFoxAI Slot 2 Call 2进程正常结束\", \"确认返回code=0、msg=SUCCESS且无error\", \"确认Call 2 request_id为fd71c2036ed94764a755622151f66651\" ],…",
+      "completed_at": null,
+      "created_at": 1784958605,
+      "created_by": "coovoamae-crm",
+      "id": "t_cce22529",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784958774,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 这是我们新开发的产品，滚轮式磨刀器套装，你去产品档案看产品信息之后，安排亚马逊套图设计",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cce22529"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "项目ID：PD-ROLLINGSHARPENER-20260703 批次ID：PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318 目标：按共享实物参考图库规则完成20%独立视觉审计，仅出审计结论，不执行promote。 必做： 1) 运行 `/root/.hermes/bin/product-reference-library validate-staging --batch-id PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318` 取得不可变清单； 2) 按 `…",
+      "body_preview": "项目ID：PD-ROLLINGSHARPENER-20260703 批次ID：PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318 目标：按共享实物参考图库规则完成20%独立视觉审计，仅出审计结论，不执行promote。 必做： 1) 运行 `/root/.hermes/bin/product-reference-library validate-staging --batch-id PD-ROLLINGSHARPENER-20260703-liuxi-realrefs-20260725-1318` 取得不可变清单； 2) 按 `…",
+      "completed_at": null,
+      "created_at": 1784957749,
+      "created_by": "coovoamae-crm",
+      "id": "t_f5d59ab5",
+      "priority": 90,
+      "result": "",
+      "started_at": 1784958774,
+      "status": "blocked",
+      "title": "[Dangdang 20% Audit] PD-ROLLINGSHARPENER-20260703 实拍暂存批次独立抽检（禁止promote）",
+      "updated_at": 1784958774,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_f5d59ab5"
     }
   ]
 }
