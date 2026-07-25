@@ -1023,7 +1023,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 36,
+        "done": 37,
         "ready": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -1074,7 +1074,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 26
+        "done": 29
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -1111,9 +1111,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 34,
+      "done": 35,
       "running": 0,
-      "total": 35
+      "total": 36
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -1132,9 +1132,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 37,
+      "done": 38,
       "running": 0,
-      "total": 37
+      "total": 38
     },
     "coovoamae-crm": {
       "active": 2,
@@ -1156,9 +1156,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 0,
-      "done": 76,
+      "done": 77,
       "running": 0,
-      "total": 76
+      "total": 77
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -1198,9 +1198,9 @@
     "coovoamae-luming": {
       "active": 0,
       "blocked": 1,
-      "done": 157,
+      "done": 158,
       "running": 0,
-      "total": 158
+      "total": 159
     },
     "coovoamae-product-auditor": {
       "active": 2,
@@ -1257,10 +1257,82 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1784944801,
-  "generated_at_iso": "2026-07-25T10:00:01+08:00",
+  "generated_at": 1784948401,
+  "generated_at_iso": "2026-07-25T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-eagle-eye reviewer=coovoamae-chief-of-staff 目标：只读定义“品类对比_待分析队列”的唯一目标 schema，解决 live 表头与同步脚本 11 列 schema 不一致；不得写飞书、不得改正式脚本。 输入：父任务 t_94107e76 验收报告；鹿鸣任务 t_e9a55d0e 的 deleted_token_recovery_readback_2026072…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-eagle-eye reviewer=coovoamae-chief-of-staff 目标：只读定义“品类对比_待分析队列”的唯一目标 schema，解决 live 表头与同步脚本 11 列 schema 不一致；不得写飞书、不得改正式脚本。 输入：父任务 t_94107e76 验收报告；鹿鸣任务 t_e9a55d0e 的 deleted_token_recovery_readback_2026072…",
+      "completed_at": 1784946183,
+      "created_at": 1784945441,
+      "created_by": "coovoamae-chief-of-staff",
+      "id": "t_2ddef746",
+      "priority": 110,
+      "result": "",
+      "started_at": 1784945527,
+      "status": "done",
+      "title": "鹰眼只读定义｜品类对比队列唯一schema与写入Gate",
+      "updated_at": 1784946183,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_2ddef746"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260725T021203Z-p1-70-amazon-us-5bbce93e - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-mana…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260725T021203Z-p1-70-amazon-us-5bbce93e - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-mana…",
+      "completed_at": 1784946171,
+      "created_at": 1784945524,
+      "created_by": "coovoamae-lion",
+      "id": "t_525d53a4",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784945524,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [P1/70] Amazon US｜广告配置预算与实际花费映射核对（只读）",
+      "updated_at": 1784946171,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_525d53a4"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_e9a55d0e。仅在 replacement live readback、dry-run、最小 diff 草案、回滚点和剩余风险齐全时收口；不得把脚本修复草案视为已授权执行。 输入：父任务 t_e9a55d0e 的交付、评论及 evidence/readback；2026-07-…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_e9a55d0e。仅在 replacement live readback、dry-run、最小 diff 草案、回滚点和剩余风险齐全时收口；不得把脚本修复草案视为已授权执行。 输入：父任务 t_e9a55d0e 的交付、评论及 evidence/readback；2026-07-…",
+      "completed_at": 1784945521,
+      "created_at": 1784945040,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_94107e76",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784945294,
+      "status": "done",
+      "title": "方舟验收｜20260725已删除token导致的产品同步缺口",
+      "updated_at": 1784945521,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_94107e76"
+    },
+    {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：对 2026-07-25 09:00 单品卡同步失败做窄范围只读诊断：确认脚本仍指向已删除旧产品主表 token，而 Registry 已记录 replacement 产品主表；核验 replacement 表可见页签、`03_单品卡`/`80新需求Top10单品卡`状态及同步所需字段，不重跑上游取数。 输入：cr…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：对 2026-07-25 09:00 单品卡同步失败做窄范围只读诊断：确认脚本仍指向已删除旧产品主表 token，而 Registry 已记录 replacement 产品主表；核验 replacement 表可见页签、`03_单品卡`/`80新需求Top10单品卡`状态及同步所需字段，不重跑上游取数。 输入：cr…",
+      "completed_at": 1784945288,
+      "created_at": 1784945017,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_e9a55d0e",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784945018,
+      "status": "done",
+      "title": "20260725巡检｜恢复产品主表后同步脚本仍指向已删除token",
+      "updated_at": 1784945288,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_e9a55d0e"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1728,78 +1800,6 @@
       "title": "P0｜设计 SLA 红色告警｜t_45b6bce3",
       "updated_at": 1784792426,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0317cab8"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_f2ebf1c4 已静默/阻塞 61 分钟，当前状态=blocked；卡点：superseded: broad upload-batch task caused repeated LinkFoxAI upload-base64 timeouts and reclaim spawned duplicate worker 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_f2ebf1c4.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_f…",
-      "body_preview": "结论摘要：设计任务 t_f2ebf1c4 已静默/阻塞 61 分钟，当前状态=blocked；卡点：superseded: broad upload-batch task caused repeated LinkFoxAI upload-base64 timeouts and reclaim spawned duplicate worker 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_f2ebf1c4.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_f…",
-      "completed_at": 1784789485,
-      "created_at": 1784789484,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_9495bb0a",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_f2ebf1c4 已静默/阻塞 61 分钟，当前状态=blocked；卡点：superseded: broad upload-batch task caused repeated LinkFoxAI upload-base64 timeouts and reclaim spawned duplicate worker 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_f2ebf1c4.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_f…",
-      "started_at": 1784789485,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_f2ebf1c4",
-      "updated_at": 1784789485,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9495bb0a"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_9b8da25d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_9b8da25d.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_9b8da25d：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "body_preview": "结论摘要：设计任务 t_9b8da25d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_9b8da25d.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_9b8da25d：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "completed_at": 1784789365,
-      "created_at": 1784789364,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_db3275ea",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_9b8da25d 已静默/阻塞 60 分钟，当前状态=blocked；卡点：60 分钟内未完成可验收图片交付 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_9b8da25d.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_9b8da25d：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。 no_business_write=true",
-      "started_at": 1784789365,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_9b8da25d",
-      "updated_at": 1784789365,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_db3275ea"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang narrow continuation after PT04 pass. Project: coovoa-20260723-long-grill-caddy Product asset dir: /root/.hermes/shared/product-assets/coovoa-20260723-long-grill-caddy Use existing uploaded source6 only: /root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ebf1c4/runtime/uploads/sour…",
-      "body_preview": "Dangdang narrow continuation after PT04 pass. Project: coovoa-20260723-long-grill-caddy Product asset dir: /root/.hermes/shared/product-assets/coovoa-20260723-long-grill-caddy Use existing uploaded source6 only: /root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f2ebf1c4/runtime/uploads/sour…",
-      "completed_at": 1784788754,
-      "created_at": 1784788314,
-      "created_by": "user",
-      "id": "t_2a9618f7",
-      "priority": 0,
-      "result": "Auto-continuation round 0 handed off to t_45b6bce3.",
-      "started_at": 1784788317,
-      "status": "done",
-      "title": "[Narrow LinkFoxAI PT05] coovoa long grill caddy source6 hand-use scene",
-      "updated_at": 1784788754,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_2a9618f7"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_e03bca14 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_e03bca14.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_e03bca14：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "body_preview": "结论摘要：设计任务 t_e03bca14 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_e03bca14.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_e03bca14：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "completed_at": 1784788025,
-      "created_at": 1784788024,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_752da521",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_e03bca14 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_e03bca14.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_e03bca14：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "started_at": 1784788025,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_e03bca14",
-      "updated_at": 1784788025,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_752da521"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1807,12 +1807,12 @@
     "active": 10,
     "archived": 102,
     "blocked": 46,
-    "done": 864,
+    "done": 868,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 1,
-    "total": 1022,
+    "total": 1026,
     "triage": 4
   },
   "tasks": [
@@ -12854,6 +12854,24 @@
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260725T021203Z-p1-70-amazon-us-5bbce93e - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-mana…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260725T021203Z-p1-70-amazon-us-5bbce93e - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-mana…",
+      "completed_at": 1784946171,
+      "created_at": 1784945524,
+      "created_by": "coovoamae-lion",
+      "id": "t_525d53a4",
+      "priority": 70,
+      "result": "",
+      "started_at": 1784945524,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] [P1/70] Amazon US｜广告配置预算与实际花费映射核对（只读）",
+      "updated_at": 1784946171,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_525d53a4"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T110004Z-p2-photo-box-7-dry-run-d5f4c2b6 - priority: P2 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-a…",
       "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T110004Z-p2-photo-box-7-dry-run-d5f4c2b6 - priority: P2 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-a…",
       "completed_at": 1784632408,
@@ -16469,6 +16487,42 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_1ee25e93"
     },
     {
+      "assignee": "coovoamae-luming",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：对 2026-07-25 09:00 单品卡同步失败做窄范围只读诊断：确认脚本仍指向已删除旧产品主表 token，而 Registry 已记录 replacement 产品主表；核验 replacement 表可见页签、`03_单品卡`/`80新需求Top10单品卡`状态及同步所需字段，不重跑上游取数。 输入：cr…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 目标：对 2026-07-25 09:00 单品卡同步失败做窄范围只读诊断：确认脚本仍指向已删除旧产品主表 token，而 Registry 已记录 replacement 产品主表；核验 replacement 表可见页签、`03_单品卡`/`80新需求Top10单品卡`状态及同步所需字段，不重跑上游取数。 输入：cr…",
+      "completed_at": 1784945288,
+      "created_at": 1784945017,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_e9a55d0e",
+      "priority": 120,
+      "result": "",
+      "started_at": 1784945018,
+      "status": "done",
+      "title": "20260725巡检｜恢复产品主表后同步脚本仍指向已删除token",
+      "updated_at": 1784945288,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_e9a55d0e"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-eagle-eye reviewer=coovoamae-chief-of-staff 目标：只读定义“品类对比_待分析队列”的唯一目标 schema，解决 live 表头与同步脚本 11 列 schema 不一致；不得写飞书、不得改正式脚本。 输入：父任务 t_94107e76 验收报告；鹿鸣任务 t_e9a55d0e 的 deleted_token_recovery_readback_2026072…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-eagle-eye reviewer=coovoamae-chief-of-staff 目标：只读定义“品类对比_待分析队列”的唯一目标 schema，解决 live 表头与同步脚本 11 列 schema 不一致；不得写飞书、不得改正式脚本。 输入：父任务 t_94107e76 验收报告；鹿鸣任务 t_e9a55d0e 的 deleted_token_recovery_readback_2026072…",
+      "completed_at": 1784946183,
+      "created_at": 1784945441,
+      "created_by": "coovoamae-chief-of-staff",
+      "id": "t_2ddef746",
+      "priority": 110,
+      "result": "",
+      "started_at": 1784945527,
+      "status": "done",
+      "title": "鹰眼只读定义｜品类对比队列唯一schema与写入Gate",
+      "updated_at": 1784946183,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_2ddef746"
+    },
+    {
       "assignee": "coovoamae-eagle-eye",
       "board": "coovoamae-product-intel",
       "board_name": "COOVOAMAE Product Intelligence Requests",
@@ -16701,6 +16755,24 @@
       "title": "[Auto Continue 1/3] work kanban task t_215da7b1",
       "updated_at": 1784776861,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_c2bf96c8"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_e9a55d0e。仅在 replacement live readback、dry-run、最小 diff 草案、回滚点和剩余风险齐全时收口；不得把脚本修复草案视为已授权执行。 输入：父任务 t_e9a55d0e 的交付、评论及 evidence/readback；2026-07-…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-DELETED-TOKEN board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 目标：验收鹿鸣任务 t_e9a55d0e。仅在 replacement live readback、dry-run、最小 diff 草案、回滚点和剩余风险齐全时收口；不得把脚本修复草案视为已授权执行。 输入：父任务 t_e9a55d0e 的交付、评论及 evidence/readback；2026-07-…",
+      "completed_at": 1784945521,
+      "created_at": 1784945040,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_94107e76",
+      "priority": 100,
+      "result": "",
+      "started_at": 1784945294,
+      "status": "done",
+      "title": "方舟验收｜20260725已删除token导致的产品同步缺口",
+      "updated_at": 1784945521,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_94107e76"
     },
     {
       "assignee": "coovoamae-eagle-eye",
