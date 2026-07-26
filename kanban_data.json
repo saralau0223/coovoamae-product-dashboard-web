@@ -1,40 +1,22 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"回读并验证Slot3 b5：2048×2048，但无刀、无手且滚轮竖立，判定REWORK_REQUIRED\", \"改用竞品41L动作姿态执行Slot3 b6 LinkFox image-edit，验证文件尺寸与SHA-256\", \"Slot3 b…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"回读并验证Slot3 b5：2048×2048，但无刀、无手且滚轮竖立，判定REWORK_REQUIRED\", \"改用竞品41L动作姿态执行Slot3 b6 LinkFox image-edit，验证文件尺寸与SHA-256\", \"Slot3 b…",
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_115429_6dbaf6\", \"goal\": \"work kanban task t_6876ed36\", \"completed\": [ \"Loaded Seller Central operations workflow\", \"Reached US Selling on Amazon Create new issue form\", \"Staged and length-verified canonical support-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_115429_6dbaf6\", \"goal\": \"work kanban task t_6876ed36\", \"completed\": [ \"Loaded Seller Central operations workflow\", \"Reached US Selling on Amazon Create new issue form\", \"Staged and length-verified canonical support-…",
       "completed_at": null,
-      "created_at": 1785038327,
-      "created_by": "coovoamae-crm",
-      "id": "t_06e402b9",
+      "created_at": 1785038445,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9b056da8",
       "priority": 100,
       "result": "",
       "started_at": null,
       "status": "todo",
-      "title": "[Auto Continue 3/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
-      "updated_at": 1785038327,
+      "title": "[Auto Continue 1/3] work kanban task t_6876ed36",
+      "updated_at": 1785038445,
       "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
-      "completed_at": null,
-      "created_at": 1785037317,
-      "created_by": "coovoamae-crm",
-      "id": "t_746acb7d",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785037318,
-      "status": "running",
-      "title": "[Auto Continue 2/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
-      "updated_at": 1785037318,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_746acb7d"
     },
     {
       "assignee": "coovoamae-crm",
@@ -181,24 +163,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T034004Z-55d7cb9b-55d7cb9b - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T034004Z-55d7cb9b-55d7cb9b - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
-      "completed_at": null,
-      "created_at": 1785037205,
-      "created_by": "coovoamae-lion",
-      "id": "t_6876ed36",
-      "priority": 70,
-      "result": "",
-      "started_at": 1785037205,
-      "status": "running",
-      "title": "[Lion -> Dangdang] 修复校验后首次提交：伟鹏美国站照片收纳盒评论聚合核验工单",
-      "updated_at": 1785037205,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_6876ed36"
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -289,6 +253,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"回读并验证Slot3 b5：2048×2048，但无刀、无手且滚轮竖立，判定REWORK_REQUIRED\", \"改用竞品41L动作姿态执行Slot3 b6 LinkFox image-edit，验证文件尺寸与SHA-256\", \"Slot3 b…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"回读并验证Slot3 b5：2048×2048，但无刀、无手且滚轮竖立，判定REWORK_REQUIRED\", \"改用竞品41L动作姿态执行Slot3 b6 LinkFox image-edit，验证文件尺寸与SHA-256\", \"Slot3 b…",
+      "completed_at": null,
+      "created_at": 1785038327,
+      "created_by": "coovoamae-crm",
+      "id": "t_06e402b9",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785038842,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
+      "updated_at": 1785038842,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_06e402b9"
     },
     {
       "assignee": "coovoamae-crm",
@@ -978,6 +960,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T034004Z-55d7cb9b-55d7cb9b - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T034004Z-55d7cb9b-55d7cb9b - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "completed_at": null,
+      "created_at": 1785037205,
+      "created_by": "coovoamae-lion",
+      "id": "t_6876ed36",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785037205,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 修复校验后首次提交：伟鹏美国站照片收纳盒评论聚合核验工单",
+      "updated_at": 1785037205,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_6876ed36"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T032648Z-1-101830b4 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T032648Z-1-101830b4 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-…",
       "completed_at": null,
@@ -1176,9 +1176,9 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 12,
+        "blocked": 13,
         "done": 42,
-        "running": 1
+        "todo": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -1243,11 +1243,10 @@
     },
     {
       "counts": {
-        "blocked": 20,
-        "done": 48,
+        "blocked": 21,
+        "done": 49,
         "ready": 3,
-        "running": 1,
-        "todo": 2
+        "todo": 1
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1263,10 +1262,11 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 1,
-      "blocked": 16,
+      "blocked": 17,
       "done": 74,
-      "running": 1,
-      "total": 91
+      "running": 0,
+      "todo": 1,
+      "total": 92
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1283,11 +1283,11 @@
       "total": 39
     },
     "coovoamae-crm": {
-      "active": 4,
-      "blocked": 24,
-      "done": 137,
-      "running": 1,
-      "todo": 2,
+      "active": 2,
+      "blocked": 25,
+      "done": 138,
+      "running": 0,
+      "todo": 1,
       "total": 165,
       "triage": 1
     },
@@ -1403,10 +1403,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785038402,
-  "generated_at_iso": "2026-07-26T12:00:02+08:00",
+  "generated_at": 1785042001,
+  "generated_at_iso": "2026-07-26T13:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
+      "completed_at": 1785038841,
+      "created_at": 1785037317,
+      "created_by": "coovoamae-crm",
+      "id": "t_746acb7d",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_06e402b9.",
+      "started_at": 1785037318,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
+      "updated_at": 1785038841,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_746acb7d"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1928,37 +1946,19 @@
       "title": "[Auto Continue 1/3] [Replying to: \"None\"]",
       "updated_at": 1784853280,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_008e1733"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_070248_b9d13a\", \"goal\": \"可以，你再把整套图整理发给我\", \"completed\": [ \"建立7张owner-review套图目录\", \"核验7张图片均为2048×2048且SHA-256唯一\", \"生成owner-review Manifest、联系表及严格套图QA\", \"飞书原生图片发送MAIN、PT01、PT02并取得成功回执\" ], \"artifacts\": [ \"/root/.hermes/…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260724_070248_b9d13a\", \"goal\": \"可以，你再把整套图整理发给我\", \"completed\": [ \"建立7张owner-review套图目录\", \"核验7张图片均为2048×2048且SHA-256唯一\", \"生成owner-review Manifest、联系表及严格套图QA\", \"飞书原生图片发送MAIN、PT01、PT02并取得成功回执\" ], \"artifacts\": [ \"/root/.hermes/…",
-      "completed_at": 1784848804,
-      "created_at": 1784848712,
-      "created_by": "coovoamae-crm",
-      "id": "t_a6b94285",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784848712,
-      "status": "done",
-      "title": "[Auto Continue 3/3] 可以，你再把整套图整理发给我",
-      "updated_at": 1784848804,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_a6b94285"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 13,
+    "active": 11,
     "archived": 102,
-    "blocked": 51,
-    "done": 880,
+    "blocked": 53,
+    "done": 881,
     "pending": 0,
     "ready": 5,
-    "running": 2,
+    "running": 0,
     "todo": 2,
-    "total": 1046,
+    "total": 1047,
     "triage": 4
   },
   "tasks": [
@@ -13396,6 +13396,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_115429_6dbaf6\", \"goal\": \"work kanban task t_6876ed36\", \"completed\": [ \"Loaded Seller Central operations workflow\", \"Reached US Selling on Amazon Create new issue form\", \"Staged and length-verified canonical support-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_115429_6dbaf6\", \"goal\": \"work kanban task t_6876ed36\", \"completed\": [ \"Loaded Seller Central operations workflow\", \"Reached US Selling on Amazon Create new issue form\", \"Staged and length-verified canonical support-…",
+      "completed_at": null,
+      "created_at": 1785038445,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9b056da8",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/3] work kanban task t_6876ed36",
+      "updated_at": 1785038445,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "completed_at": 1784200194,
@@ -13963,7 +13981,7 @@
       "priority": 70,
       "result": "",
       "started_at": 1785037205,
-      "status": "running",
+      "status": "blocked",
       "title": "[Lion -> Dangdang] 修复校验后首次提交：伟鹏美国站照片收纳盒评论聚合核验工单",
       "updated_at": 1785037205,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_6876ed36"
@@ -18906,16 +18924,16 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_112039_3b1af2\", \"goal\": \"产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图\\n[Image]\", \"completed\": [ \"核对竞品B0CRDK541R的正确操作几何与双手位置\", \"确认Slot5 b4存在重复滚轮、重复角度块、中文及接触关系不清等问题\", \"将Slot3改为单场景正确操作brief\", \"将Slot5升级为b5单一连续厨房场景并禁止底部面板、重复产…",
-      "completed_at": null,
+      "completed_at": 1785038841,
       "created_at": 1785037317,
       "created_by": "coovoamae-crm",
       "id": "t_746acb7d",
       "priority": 100,
-      "result": "",
+      "result": "Auto-continuation round 2 handed off to t_06e402b9.",
       "started_at": 1785037318,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 2/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
-      "updated_at": 1785037318,
+      "updated_at": 1785038841,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_746acb7d"
     },
     {
@@ -18930,11 +18948,11 @@
       "id": "t_06e402b9",
       "priority": 100,
       "result": "",
-      "started_at": null,
-      "status": "todo",
+      "started_at": 1785038842,
+      "status": "blocked",
       "title": "[Auto Continue 3/3] 产品正确的使用方式不对呢，你参考一下竞品的asin ：B0CRDK541R的图",
-      "updated_at": 1785038327,
-      "workspace_path": ""
+      "updated_at": 1785038842,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_06e402b9"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
