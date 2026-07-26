@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
+      "completed_at": null,
+      "created_at": 1785058170,
+      "created_by": "coovoamae-crm",
+      "id": "t_0cb7761e",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 3/3] 那你继续呢",
+      "updated_at": 1785058170,
+      "workspace_path": ""
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -253,6 +271,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号受控排版V4已生成\", \"5号产品真实性、英文和375px手机端Creative QA通过\", \"QA报告已生成\", \"delivery_state已将5号加入current_set并仅保留3号缺口\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/works…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号受控排版V4已生成\", \"5号产品真实性、英文和375px手机端Creative QA通过\", \"QA报告已生成\", \"delivery_state已将5号加入current_set并仅保留3号缺口\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/works…",
+      "completed_at": null,
+      "created_at": 1785057982,
+      "created_by": "coovoamae-crm",
+      "id": "t_8152f6b5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785057983,
+      "status": "blocked",
+      "title": "[Auto Continue 2/3] 那你继续呢",
+      "updated_at": 1785057983,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8152f6b5"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1261,10 +1297,10 @@
     },
     {
       "counts": {
-        "blocked": 22,
-        "done": 51,
+        "blocked": 23,
+        "done": 52,
         "ready": 3,
-        "todo": 1
+        "todo": 2
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1301,12 +1337,12 @@
       "total": 39
     },
     "coovoamae-crm": {
-      "active": 2,
-      "blocked": 26,
-      "done": 140,
+      "active": 3,
+      "blocked": 27,
+      "done": 141,
       "running": 0,
-      "todo": 1,
-      "total": 168,
+      "todo": 2,
+      "total": 171,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1421,10 +1457,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785056401,
-  "generated_at_iso": "2026-07-26T17:00:01+08:00",
+  "generated_at": 1785060001,
+  "generated_at_iso": "2026-07-26T18:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号LinkFox产品锁定厨房场景B18已生成\", \"B18产品真实性与厨房场景QA通过\", \"5号受控排版V3已生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rolling-k…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号LinkFox产品锁定厨房场景B18已生成\", \"B18产品真实性与厨房场景QA通过\", \"5号受控排版V3已生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rolling-k…",
+      "completed_at": 1785057982,
+      "created_at": 1785057582,
+      "created_by": "coovoamae-crm",
+      "id": "t_7b4f0bab",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_8152f6b5.",
+      "started_at": 1785057583,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 那你继续呢",
+      "updated_at": 1785057982,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7b4f0bab"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -1946,37 +2000,19 @@
       "title": "[Auto Continue 1/3] 是的，你要在结合产品定位的基础上，用LInkfox ai 来作图，而不是随便就作图了",
       "updated_at": 1784864444,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_866f4eaa"
-    },
-    {
-      "assignee": "coovoamae-lion",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_100940_5dd5af\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
-      "completed_at": 1784859595,
-      "created_at": 1784859407,
-      "created_by": "coovoamae-lion",
-      "id": "t_ce4f1960",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784859410,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
-      "updated_at": 1784859595,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ce4f1960"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 11,
+    "active": 12,
     "archived": 102,
-    "blocked": 54,
-    "done": 883,
+    "blocked": 55,
+    "done": 884,
     "pending": 0,
     "ready": 5,
     "running": 0,
-    "todo": 2,
-    "total": 1050,
+    "todo": 3,
+    "total": 1053,
     "triage": 4
   },
   "tasks": [
@@ -19025,6 +19061,60 @@
       "title": "[Auto Continue 3/3] 图片做好了吗",
       "updated_at": 1785049924,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_42f10d90"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号LinkFox产品锁定厨房场景B18已生成\", \"B18产品真实性与厨房场景QA通过\", \"5号受控排版V3已生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rolling-k…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号LinkFox产品锁定厨房场景B18已生成\", \"B18产品真实性与厨房场景QA通过\", \"5号受控排版V3已生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rolling-k…",
+      "completed_at": 1785057982,
+      "created_at": 1785057582,
+      "created_by": "coovoamae-crm",
+      "id": "t_7b4f0bab",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_8152f6b5.",
+      "started_at": 1785057583,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 那你继续呢",
+      "updated_at": 1785057982,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7b4f0bab"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号受控排版V4已生成\", \"5号产品真实性、英文和375px手机端Creative QA通过\", \"QA报告已生成\", \"delivery_state已将5号加入current_set并仅保留3号缺口\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/works…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"5号受控排版V4已生成\", \"5号产品真实性、英文和375px手机端Creative QA通过\", \"QA报告已生成\", \"delivery_state已将5号加入current_set并仅保留3号缺口\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/works…",
+      "completed_at": null,
+      "created_at": 1785057982,
+      "created_by": "coovoamae-crm",
+      "id": "t_8152f6b5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785057983,
+      "status": "blocked",
+      "title": "[Auto Continue 2/3] 那你继续呢",
+      "updated_at": 1785057983,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8152f6b5"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
+      "completed_at": null,
+      "created_at": 1785058170,
+      "created_by": "coovoamae-crm",
+      "id": "t_0cb7761e",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 3/3] 那你继续呢",
+      "updated_at": 1785058170,
+      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
