@@ -924,6 +924,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T013513Z-5a033369-5a033369 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T013513Z-5a033369-5a033369 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "completed_at": null,
+      "created_at": 1785029714,
+      "created_by": "coovoamae-lion",
+      "id": "t_8a579a73",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785029715,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 已确认：提交照片收纳盒变体评论聚合目录核验工单",
+      "updated_at": 1785029715,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8a579a73"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260723T220313Z-q08-coupon-vs-coupon-2dd9ab15 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-l…",
       "completed_at": null,
@@ -1086,7 +1104,7 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 10,
+        "blocked": 11,
         "done": 41
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -1171,10 +1189,10 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
-      "blocked": 14,
+      "blocked": 15,
       "done": 73,
       "running": 0,
-      "total": 87
+      "total": 88
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1311,8 +1329,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785027602,
-  "generated_at_iso": "2026-07-26T09:00:02+08:00",
+  "generated_at": 1785031201,
+  "generated_at_iso": "2026-07-26T10:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -1860,13 +1878,13 @@
   "summary": {
     "active": 10,
     "archived": 102,
-    "blocked": 49,
+    "blocked": 50,
     "done": 876,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 1,
-    "total": 1037,
+    "total": 1038,
     "triage": 4
   },
   "tasks": [
@@ -13785,6 +13803,24 @@
       "title": "[Lion -> Dangdang] 核验照片收纳盒变体的评论聚合异常（只读）",
       "updated_at": 1785025806,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_3fc6c8e9"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T013513Z-5a033369-5a033369 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260726T013513Z-5a033369-5a033369 - priority: P1 - task_type: seller_central_case_submission - inbox_json: /root/.hermes/profiles/coovoamae-amaz…",
+      "completed_at": null,
+      "created_at": 1785029714,
+      "created_by": "coovoamae-lion",
+      "id": "t_8a579a73",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785029715,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 已确认：提交照片收纳盒变体评论聚合目录核验工单",
+      "updated_at": 1785029715,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_8a579a73"
     },
     {
       "assignee": "coovoamae-finance",
