@@ -1291,7 +1291,7 @@
       "counts": {
         "archived": 61,
         "blocked": 12,
-        "done": 102,
+        "done": 103,
         "triage": 1
       },
       "name": "COOVOAMAE Design Requests",
@@ -1375,10 +1375,10 @@
     "coovoamae-crm": {
       "active": 3,
       "blocked": 28,
-      "done": 147,
+      "done": 148,
       "running": 0,
       "todo": 2,
-      "total": 178,
+      "total": 179,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1493,10 +1493,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785070801,
-  "generated_at_iso": "2026-07-26T21:00:01+08:00",
+  "generated_at": 1785074401,
+  "generated_at_iso": "2026-07-26T22:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "body_preview": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "completed_at": 1785071650,
+      "created_at": 1785071648,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_38462d2d",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "started_at": 1785071648,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_c681b373",
+      "updated_at": 1785071650,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_38462d2d"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -2018,24 +2036,6 @@
       "title": "20260725巡检｜恢复产品主表后同步脚本仍指向已删除token",
       "updated_at": 1784945288,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_e9a55d0e"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_171812_68ee2e\", \"goal\": \"文字的排版和格式，参考用pt01 的呢\", \"completed\": [ \"读取并核对Kanban任务、授权记录、CONTINUE_BRIEF及V1生成记录\", \"确认PT03旧文案残影与PT04标签遮挡问题\", \"创建并修改V2排版脚本：PT03使用全不透明遮罩并缩小标题字号；PT04使用顶部四区图例和四个编号标记\", \"保持0次付费生成且未上传\" ], \"artifacts…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_171812_68ee2e\", \"goal\": \"文字的排版和格式，参考用pt01 的呢\", \"completed\": [ \"读取并核对Kanban任务、授权记录、CONTINUE_BRIEF及V1生成记录\", \"确认PT03旧文案残影与PT04标签遮挡问题\", \"创建并修改V2排版脚本：PT03使用全不透明遮罩并缩小标题字号；PT04使用顶部四区图例和四个编号标记\", \"保持0次付费生成且未上传\" ], \"artifacts…",
-      "completed_at": 1784885546,
-      "created_at": 1784885206,
-      "created_by": "coovoamae-crm",
-      "id": "t_ab768e25",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_38104f81.",
-      "started_at": 1784885208,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 文字的排版和格式，参考用pt01 的呢",
-      "updated_at": 1784885546,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ab768e25"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -2043,12 +2043,12 @@
     "active": 12,
     "archived": 102,
     "blocked": 57,
-    "done": 893,
+    "done": 894,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 3,
-    "total": 1064,
+    "total": 1065,
     "triage": 4
   },
   "tasks": [
@@ -15461,6 +15461,24 @@
       "title": "[Auto Continue 3/3] work kanban task t_34e292ac",
       "updated_at": 1785067936,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_c681b373"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "body_preview": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "completed_at": 1785071650,
+      "created_at": 1785071648,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_38462d2d",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_c681b373 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 3 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_c681b373.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_c681b373：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
+      "started_at": 1785071648,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_c681b373",
+      "updated_at": 1785071650,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_38462d2d"
     },
     {
       "assignee": "coovoamae-crm",
