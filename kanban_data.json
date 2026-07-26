@@ -1095,7 +1095,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 37,
+        "done": 38,
         "ready": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -1146,7 +1146,7 @@
     {
       "counts": {
         "blocked": 1,
-        "done": 30
+        "done": 31
       },
       "name": "COOVOAMAE Product Intelligence Requests",
       "slug": "coovoamae-product-intel"
@@ -1183,9 +1183,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 35,
+      "done": 36,
       "running": 0,
-      "total": 36
+      "total": 37
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 0,
@@ -1204,9 +1204,9 @@
     "coovoamae-chief-of-staff": {
       "active": 0,
       "blocked": 0,
-      "done": 38,
+      "done": 39,
       "running": 0,
-      "total": 38
+      "total": 39
     },
     "coovoamae-crm": {
       "active": 2,
@@ -1329,10 +1329,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785031201,
-  "generated_at_iso": "2026-07-26T10:00:01+08:00",
+  "generated_at": 1785034801,
+  "generated_at_iso": "2026-07-26T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260726T021249Z-p1-amazon-us-v3-7-18-24-sp-143c865d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260726T021249Z-p1-amazon-us-v3-7-18-24-sp-143c865d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": 1785032288,
+      "created_at": 1785031970,
+      "created_by": "coovoamae-lion",
+      "id": "t_4cabb892",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785031971,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜Amazon US 广告同窗官方V3对账：7/18–24 SP 产品映射",
+      "updated_at": 1785032288,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4cabb892"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 背景：2026-07-26 09:00 同步脚本再次以 deleted spreadsheet token 失败；该错误与 2026-07-25 已验收 t_e9a55d0e/t_94107e76 同源同参，不得重复派上游。鹰眼 t_2ddef746 已交付 canonical v3 schema 与写入…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 背景：2026-07-26 09:00 同步脚本再次以 deleted spreadsheet token 失败；该错误与 2026-07-25 已验收 t_e9a55d0e/t_94107e76 同源同参，不得重复派上游。鹰眼 t_2ddef746 已交付 canonical v3 schema 与写入…",
+      "completed_at": 1785031702,
+      "created_at": 1785031349,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_806b9501",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785031349,
+      "status": "done",
+      "title": "方舟最终验收｜20260726品类对比队列schema与重复失败巡检",
+      "updated_at": 1785031702,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_806b9501"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -1836,42 +1872,6 @@
       "title": "[Auto Continue 1/3] 可以，你再把整套图整理发给我",
       "updated_at": 1784848426,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_843aa6e5"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_063153_60a16c9f\", \"goal\": \"[Replying to: \\\"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失败；已保留你确认的支架，不会改坏后交付。\\n已转入任务板自动续跑，任务号 t_f94e1c14\\n主图已修正为：你确认的支架结构不变，补充 1 个确认收纳包；无重复包、无重叠、无底角…",
-      "completed_at": 1784846969,
-      "created_at": 1784846354,
-      "created_by": "coovoamae-crm",
-      "id": "t_66ddbc2f",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784846354,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [Replying to: \"已按你的要求生成“支架＋收纳包”候选，但我拦下了：它错误生成两个包、一个压住支架，且带米色底角，不合格。第二次精准清理尚未产生付费结果，因 LinkFox 上传失",
-      "updated_at": 1784846969,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_66ddbc2f"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_192927_0b9572\", \"goal\": \"我们的完整发货地址，之前就有重复确定过，国内我们统一用账号上的国内地址就行，你以后要记住\", \"completed\": [ \"已实时读取伟鹏US账号保存的国内发货地址\", \"已创建Send to Amazon workflow wfbc31e3d1-c3c3-4a14-8ff4-9f92bc64f4ab\", \"已保存Case pack模板：8件/箱、53×33.5×45cm、2…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260723_192927_0b9572\", \"goal\": \"我们的完整发货地址，之前就有重复确定过，国内我们统一用账号上的国内地址就行，你以后要记住\", \"completed\": [ \"已实时读取伟鹏US账号保存的国内发货地址\", \"已创建Send to Amazon workflow wfbc31e3d1-c3c3-4a14-8ff4-9f92bc64f4ab\", \"已保存Case pack模板：8件/箱、53×33.5×45cm、2…",
-      "completed_at": 1784807416,
-      "created_at": 1784806514,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_da3e4499",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_249cc81b.",
-      "started_at": 1784806519,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 我们的完整发货地址，之前就有重复确定过，国内我们统一用账号上的国内地址就行，你以后要记住",
-      "updated_at": 1784807416,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_da3e4499"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -1879,12 +1879,12 @@
     "active": 10,
     "archived": 102,
     "blocked": 50,
-    "done": 876,
+    "done": 878,
     "pending": 0,
     "ready": 5,
     "running": 0,
     "todo": 1,
-    "total": 1038,
+    "total": 1040,
     "triage": 4
   },
   "tasks": [
@@ -12944,6 +12944,24 @@
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260726T021249Z-p1-amazon-us-v3-7-18-24-sp-143c865d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260726T021249Z-p1-amazon-us-v3-7-18-24-sp-143c865d - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoam…",
+      "completed_at": 1785032288,
+      "created_at": 1785031970,
+      "created_by": "coovoamae-lion",
+      "id": "t_4cabb892",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785031971,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜Amazon US 广告同窗官方V3对账：7/18–24 SP 产品映射",
+      "updated_at": 1785032288,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4cabb892"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T110004Z-p2-photo-box-7-dry-run-d5f4c2b6 - priority: P2 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-a…",
       "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260721T110004Z-p2-photo-box-7-dry-run-d5f4c2b6 - priority: P2 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-a…",
       "completed_at": 1784632408,
@@ -16917,6 +16935,24 @@
       "title": "方舟验收｜20260725已删除token导致的产品同步缺口",
       "updated_at": 1784945521,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_94107e76"
+    },
+    {
+      "assignee": "coovoamae-chief-of-staff",
+      "board": "coovoamae-product-intel",
+      "board_name": "COOVOAMAE Product Intelligence Requests",
+      "body": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 背景：2026-07-26 09:00 同步脚本再次以 deleted spreadsheet token 失败；该错误与 2026-07-25 已验收 t_e9a55d0e/t_94107e76 同源同参，不得重复派上游。鹰眼 t_2ddef746 已交付 canonical v3 schema 与写入…",
+      "body_preview": "initiative_id=PD-GAP-PATROL-20260725-QUEUE-SCHEMA board=coovoamae-product-intel owner=coovoamae-chief-of-staff reviewer=coovoamae-chief-of-staff 背景：2026-07-26 09:00 同步脚本再次以 deleted spreadsheet token 失败；该错误与 2026-07-25 已验收 t_e9a55d0e/t_94107e76 同源同参，不得重复派上游。鹰眼 t_2ddef746 已交付 canonical v3 schema 与写入…",
+      "completed_at": 1785031702,
+      "created_at": 1785031349,
+      "created_by": "coovoamae-chief-of-staff-cron",
+      "id": "t_806b9501",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785031349,
+      "status": "done",
+      "title": "方舟最终验收｜20260726品类对比队列schema与重复失败巡检",
+      "updated_at": 1785031702,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-intel/workspaces/t_806b9501"
     },
     {
       "assignee": "coovoamae-eagle-eye",
