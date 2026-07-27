@@ -1,22 +1,22 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
+      "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_144759_49d80d\", \"goal\": \"确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100），并新建10% Coupon，预算$1000，日期7/29–8/16；若平台不允许该日期则停止提交。\", \"completed\": [ \"取消伟鹏美国站旧云台10% Coupon\", \"回…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_144759_49d80d\", \"goal\": \"确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100），并新建10% Coupon，预算$1000，日期7/29–8/16；若平台不允许该日期则停止提交。\", \"completed\": [ \"取消伟鹏美国站旧云台10% Coupon\", \"回…",
       "completed_at": null,
-      "created_at": 1785130809,
-      "created_by": "coovoamae-crm",
-      "id": "t_34e074a2",
+      "created_at": 1785135028,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_83bf41c7",
       "priority": 100,
       "result": "",
-      "started_at": 1785131219,
+      "started_at": 1785135031,
       "status": "running",
-      "title": "[Auto Continue 2/3] 做好了吗",
-      "updated_at": 1785131219,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_34e074a2"
+      "title": "[Auto Continue 1/3] 确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100）",
+      "updated_at": 1785135031,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_83bf41c7"
     },
     {
       "assignee": "coovoamae-crm",
@@ -307,6 +307,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"完成R12七图逐图真实性、转化与Amazon合规QA\", \"确认R12主图存在重复导向块，特写存在端面结构错误\", \"保留当前可用槽位3/4/5，冻结槽位1/2/6/7\", \"创建并启动失败槽位1/2/6/7的LinkFox第一轮两候选修复\" ], \"artifacts\": [ \"/root/.hermes/profiles/c…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"完成R12七图逐图真实性、转化与Amazon合规QA\", \"确认R12主图存在重复导向块，特写存在端面结构错误\", \"保留当前可用槽位3/4/5，冻结槽位1/2/6/7\", \"创建并启动失败槽位1/2/6/7的LinkFox第一轮两候选修复\" ], \"artifacts\": [ \"/root/.hermes/profiles/c…",
+      "completed_at": null,
+      "created_at": 1785132325,
+      "created_by": "coovoamae-crm",
+      "id": "t_37bb9419",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785132686,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 做好了吗",
+      "updated_at": 1785132686,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37bb9419"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1441,8 +1459,8 @@
     },
     {
       "counts": {
-        "blocked": 26,
-        "done": 71,
+        "blocked": 27,
+        "done": 73,
         "ready": 4,
         "running": 1,
         "todo": 2
@@ -1460,12 +1478,12 @@
       "total": 41
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
+      "active": 2,
       "blocked": 19,
       "done": 79,
-      "running": 0,
+      "running": 1,
       "todo": 1,
-      "total": 99
+      "total": 100
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1482,12 +1500,12 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 4,
-      "blocked": 31,
-      "done": 156,
-      "running": 1,
+      "active": 3,
+      "blocked": 32,
+      "done": 157,
+      "running": 0,
       "todo": 2,
-      "total": 191,
+      "total": 192,
       "triage": 1
     },
     "coovoamae-crow-qc": {
@@ -1536,9 +1554,9 @@
     "coovoamae-lion": {
       "active": 0,
       "blocked": 4,
-      "done": 16,
+      "done": 17,
       "running": 0,
-      "total": 20
+      "total": 21
     },
     "coovoamae-luming": {
       "active": 0,
@@ -1610,10 +1628,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785132001,
-  "generated_at_iso": "2026-07-27T14:00:01+08:00",
+  "generated_at": 1785135601,
+  "generated_at_iso": "2026-07-27T15:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_142059_2fd411\", \"goal\": \"确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天\", \"completed\": [ \"HEM-BK-Coov-2五点已正确更新为5条并独立回读，风险词已清除\", \"Campaign 121489620563869预算已从2美元/天调整为1美元/天并回读\", \"Campaign 73357839045137已暂停并回读\" ], \"artifacts\": [ \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_142059_2fd411\", \"goal\": \"确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天\", \"completed\": [ \"HEM-BK-Coov-2五点已正确更新为5条并独立回读，风险词已清除\", \"Campaign 121489620563869预算已从2美元/天调整为1美元/天并回读\", \"Campaign 73357839045137已暂停并回读\" ], \"artifacts\": [ \"…",
+      "completed_at": 1785133685,
+      "created_at": 1785133298,
+      "created_by": "coovoamae-lion",
+      "id": "t_50dd2966",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785133301,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天",
+      "updated_at": 1785133685,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_50dd2966"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
+      "completed_at": 1785132686,
+      "created_at": 1785130809,
+      "created_by": "coovoamae-crm",
+      "id": "t_34e074a2",
+      "priority": 100,
+      "result": "Auto-continuation round 2 handed off to t_37bb9419.",
+      "started_at": 1785131219,
+      "status": "done",
+      "title": "[Auto Continue 2/3] 做好了吗",
+      "updated_at": 1785132686,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_34e074a2"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -2117,55 +2171,19 @@
       "title": "P0｜设计 SLA 红色告警｜t_c681b373",
       "updated_at": 1785071650,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_38462d2d"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_193951_1e19fa\", \"goal\": \"work kanban task t_34e292ac\", \"completed\": [ \"读取原任务、结构化需求、产品真相源、现有manifest与QA\", \"基于刘希实拍生成三张2048×2048无角度声明R2候选\", \"完成尺寸、OCR、375px与严格视觉QA\", \"将主图纯白无阴影及图2大标签修正写入R2脚本\" ], \"artifacts\": [ \"/root/.he…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260726_193951_1e19fa\", \"goal\": \"work kanban task t_34e292ac\", \"completed\": [ \"读取原任务、结构化需求、产品真相源、现有manifest与QA\", \"基于刘希实拍生成三张2048×2048无角度声明R2候选\", \"完成尺寸、OCR、375px与严格视觉QA\", \"将主图纯白无阴影及图2大标签修正写入R2脚本\" ], \"artifacts\": [ \"/root/.he…",
-      "completed_at": 1785067928,
-      "created_at": 1785067452,
-      "created_by": "coovoamae-crm",
-      "id": "t_5124e2c8",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_c681b373.",
-      "started_at": 1785067455,
-      "status": "done",
-      "title": "[Auto Continue 2/3] work kanban task t_34e292ac",
-      "updated_at": 1785067928,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_5124e2c8"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_193951_1e19fa\", \"goal\": \"work kanban task t_34e292ac\", \"completed\": [ \"读取当当结构化需求、产品真相源、现有manifest与QA\", \"确认liuxi_01和liuxi_04实拍视角无可读15°/20°标记\", \"生成3张2048×2048无角度声明候选及375px预览\", \"完成单图与三图系统首轮严格视觉QA\" ], \"artifacts\": [ \"/r…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260726_193951_1e19fa\", \"goal\": \"work kanban task t_34e292ac\", \"completed\": [ \"读取当当结构化需求、产品真相源、现有manifest与QA\", \"确认liuxi_01和liuxi_04实拍视角无可读15°/20°标记\", \"生成3张2048×2048无角度声明候选及375px预览\", \"完成单图与三图系统首轮严格视觉QA\" ], \"artifacts\": [ \"/r…",
-      "completed_at": 1785067452,
-      "created_at": 1785066636,
-      "created_by": "coovoamae-crm",
-      "id": "t_fb95eb39",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_5124e2c8.",
-      "started_at": 1785066637,
-      "status": "done",
-      "title": "[Auto Continue 1/3] work kanban task t_34e292ac",
-      "updated_at": 1785067452,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fb95eb39"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 14,
     "archived": 102,
-    "blocked": 61,
-    "done": 921,
+    "blocked": 62,
+    "done": 923,
     "pending": 0,
     "ready": 6,
     "running": 1,
     "todo": 3,
-    "total": 1098,
+    "total": 1101,
     "triage": 4
   },
   "tasks": [
@@ -19995,16 +20013,16 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"恢复已有LinkFox任务3833268870258409472的两张2048×2048原始候选，未重新付费提交\", \"完成安全槽位7严格QA：候选1重复滚轮和导向块，候选2遗漏真实说明书并改变套件组成，均拒绝发送\", \"将delivery_state.json的当前有效槽位2/3/4状态规范为creative_candidat…",
-      "completed_at": null,
+      "completed_at": 1785132686,
       "created_at": 1785130809,
       "created_by": "coovoamae-crm",
       "id": "t_34e074a2",
       "priority": 100,
-      "result": "",
+      "result": "Auto-continuation round 2 handed off to t_37bb9419.",
       "started_at": 1785131219,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 2/3] 做好了吗",
-      "updated_at": 1785131219,
+      "updated_at": 1785132686,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_34e074a2"
     },
     {
@@ -20060,6 +20078,60 @@
       "title": "[Auto Continue 3/3] 这几张图的风格可以，但是外观变形了，你需要说清楚外观的情况，我给你发的这张图的外观是正确的",
       "updated_at": 1785131579,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_89f370c9"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"完成R12七图逐图真实性、转化与Amazon合规QA\", \"确认R12主图存在重复导向块，特写存在端面结构错误\", \"保留当前可用槽位3/4/5，冻结槽位1/2/6/7\", \"创建并启动失败槽位1/2/6/7的LinkFox第一轮两候选修复\" ], \"artifacts\": [ \"/root/.hermes/profiles/c…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260727_131227_7db66141\", \"goal\": \"做好了吗\", \"completed\": [ \"完成R12七图逐图真实性、转化与Amazon合规QA\", \"确认R12主图存在重复导向块，特写存在端面结构错误\", \"保留当前可用槽位3/4/5，冻结槽位1/2/6/7\", \"创建并启动失败槽位1/2/6/7的LinkFox第一轮两候选修复\" ], \"artifacts\": [ \"/root/.hermes/profiles/c…",
+      "completed_at": null,
+      "created_at": 1785132325,
+      "created_by": "coovoamae-crm",
+      "id": "t_37bb9419",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785132686,
+      "status": "blocked",
+      "title": "[Auto Continue 3/3] 做好了吗",
+      "updated_at": 1785132686,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37bb9419"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_142059_2fd411\", \"goal\": \"确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天\", \"completed\": [ \"HEM-BK-Coov-2五点已正确更新为5条并独立回读，风险词已清除\", \"Campaign 121489620563869预算已从2美元/天调整为1美元/天并回读\", \"Campaign 73357839045137已暂停并回读\" ], \"artifacts\": [ \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_142059_2fd411\", \"goal\": \"确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天\", \"completed\": [ \"HEM-BK-Coov-2五点已正确更新为5条并独立回读，风险词已清除\", \"Campaign 121489620563869预算已从2美元/天调整为1美元/天并回读\", \"Campaign 73357839045137已暂停并回读\" ], \"artifacts\": [ \"…",
+      "completed_at": 1785133685,
+      "created_at": 1785133298,
+      "created_by": "coovoamae-lion",
+      "id": "t_50dd2966",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785133301,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 确认 C3 短版五点；回读合规后按已列对象收缩广告至总预算2美元/天",
+      "updated_at": 1785133685,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_50dd2966"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_144759_49d80d\", \"goal\": \"确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100），并新建10% Coupon，预算$1000，日期7/29–8/16；若平台不允许该日期则停止提交。\", \"completed\": [ \"取消伟鹏美国站旧云台10% Coupon\", \"回…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_144759_49d80d\", \"goal\": \"确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100），并新建10% Coupon，预算$1000，日期7/29–8/16；若平台不允许该日期则停止提交。\", \"completed\": [ \"取消伟鹏美国站旧云台10% Coupon\", \"回…",
+      "completed_at": null,
+      "created_at": 1785135028,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_83bf41c7",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785135031,
+      "status": "running",
+      "title": "[Auto Continue 1/3] 确认 2：取消伟鹏美国站 B0GQ2ZR81S 现有10% Coupon（活动ID f8e9e3b4-1b57-467d-8cdf-0e3ac90c875e，7/18–8/16，预算$100）",
+      "updated_at": 1785135031,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_83bf41c7"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
