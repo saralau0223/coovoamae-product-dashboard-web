@@ -1,24 +1,6 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
-      "completed_at": null,
-      "created_at": 1785058170,
-      "created_by": "coovoamae-crm",
-      "id": "t_0cb7761e",
-      "priority": 100,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "[Auto Continue 3/3] 那你继续呢",
-      "updated_at": 1785058170,
-      "workspace_path": ""
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -34,24 +16,6 @@
       "status": "todo",
       "title": "[Auto Continue 1/3] work kanban task t_6876ed36",
       "updated_at": 1785038445,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
-      "completed_at": null,
-      "created_at": 1784880715,
-      "created_by": "coovoamae-crm",
-      "id": "t_cf2a2773",
-      "priority": 100,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "[Auto Continue 2/3] 确认 C2：最多6次，按上述3个槽位补齐",
-      "updated_at": 1784880715,
       "workspace_path": ""
     },
     {
@@ -178,24 +142,6 @@
       "status": "triage",
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
-      "body_preview": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
-      "completed_at": null,
-      "created_at": 1784199634,
-      "created_by": "Codex",
-      "id": "t_a6a9ce7d",
-      "priority": 70,
-      "result": "",
-      "started_at": null,
-      "status": "triage",
-      "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
-      "updated_at": 1784199634,
       "workspace_path": ""
     },
     {
@@ -1433,10 +1379,9 @@
     },
     {
       "counts": {
-        "archived": 61,
+        "archived": 62,
         "blocked": 12,
-        "done": 103,
-        "triage": 1
+        "done": 103
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -1477,11 +1422,10 @@
     },
     {
       "counts": {
-        "archived": 8,
+        "archived": 10,
         "blocked": 29,
         "done": 89,
-        "ready": 4,
-        "todo": 2
+        "ready": 4
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1518,13 +1462,11 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 3,
+      "active": 0,
       "blocked": 34,
       "done": 164,
       "running": 0,
-      "todo": 2,
-      "total": 201,
-      "triage": 1
+      "total": 198
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -1646,8 +1588,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785153601,
-  "generated_at_iso": "2026-07-27T20:00:01+08:00",
+  "generated_at": 1785157201,
+  "generated_at_iso": "2026-07-27T21:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -2193,16 +2135,16 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 13,
-    "archived": 110,
+    "active": 10,
+    "archived": 113,
     "blocked": 64,
     "done": 939,
     "pending": 0,
     "ready": 6,
     "running": 0,
-    "todo": 3,
+    "todo": 1,
     "total": 1126,
-    "triage": 4
+    "triage": 3
   },
   "tasks": [
     {
@@ -16825,24 +16767,6 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
-      "body": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
-      "body_preview": "读取 `/root/.hermes/shared/product-assets/christmas-ornament-storage-20260710/briefs/revision-brief-20260716.md`、taste QA 和 12 张实拍。只在 triage 中校验逐图事实缺口、补充拍摄清单、构图草案和 prompt 风险；图 04/05 必须按真实浅色隔板与两大内区/中央分隔修正。没有确切规格和刘希当前生成授权前，不调用 LinkFoxAI/Image2/Kling，不生成图片，不上传 Amazon，不对外发消息。",
-      "completed_at": null,
-      "created_at": 1784199634,
-      "created_by": "Codex",
-      "id": "t_a6a9ce7d",
-      "priority": 70,
-      "result": "",
-      "started_at": null,
-      "status": "triage",
-      "title": "[ORNBOX Q4] 真实性修订 brief 持有（待规格/授权）",
-      "updated_at": 1784199634,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
       "body": "# 任务：COOVOAMAE Agent 头像 V2 小尺寸优化与对比板 来源：闭环任务 t_05769f12。刘希要求头像更换要做完闭环：版本、反馈、定稿、执行、记录。 ## 输入 - V1 总览图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/output/coovoamae_agent_avatars_contact_sheet_v1.png - 飞书小尺寸预览：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/fe…",
       "body_preview": "# 任务：COOVOAMAE Agent 头像 V2 小尺寸优化与对比板 来源：闭环任务 t_05769f12。刘希要求头像更换要做完闭环：版本、反馈、定稿、执行、记录。 ## 输入 - V1 总览图：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/output/coovoamae_agent_avatars_contact_sheet_v1.png - 飞书小尺寸预览：/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_60625293/fe…",
       "completed_at": 1779940429,
@@ -19309,24 +19233,6 @@
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260724_154605_55742f\", \"goal\": \"确认 C2：最多6次，按上述3个槽位补齐\", \"completed\": [ \"核验MAIN与PT01的2048×2048文件、SHA-256及视觉QA均通过\", \"确认PT06在375px下挂钩遮挡TO PREP且2/2次均失败\", \"将C2授权及调用台账关闭为closed_at_slot_caps_partial_pass\", \"更新项目CONTINUE_BRIEF与C2 Q…",
-      "completed_at": null,
-      "created_at": 1784880715,
-      "created_by": "coovoamae-crm",
-      "id": "t_cf2a2773",
-      "priority": 100,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "[Auto Continue 2/3] 确认 C2：最多6次，按上述3个槽位补齐",
-      "updated_at": 1784880715,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260724_165608_78d8e6\", \"goal\": \"确认 C3-2,C3-3,C3-4，不上传，结合1，5，6的风格，继续完成整套图的设计\", \"completed\": [ \"C3-2：接受PT02/PT03现有可控排版\", \"C3-3：完成PT04四区标注图\", \"组装V7七图套装\", \"七图通过全尺寸及375px冷审\", \"已发送飞书原生整套预览\", \"未上传、未交接\" ], \"artifacts\": [ \"/root/.h…",
       "completed_at": null,
@@ -19664,24 +19570,6 @@
       "title": "[Auto Continue 2/3] 那你继续呢",
       "updated_at": 1785057983,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8152f6b5"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260726_155410_11dc6121\", \"goal\": \"那你继续呢\", \"completed\": [ \"核验5号V4为2048×2048可读PNG且哈希与QA报告一致\", \"5号V4已通过飞书原生图片发送给刘希\", \"delivery_state已回写sent、current_set、last_outbound及message_id\", \"等待刘希登记已更新为仅缺Slot 3真实操作证据\", \"Kanban任务已标记blocke…",
-      "completed_at": null,
-      "created_at": 1785058170,
-      "created_by": "coovoamae-crm",
-      "id": "t_0cb7761e",
-      "priority": 100,
-      "result": "",
-      "started_at": null,
-      "status": "todo",
-      "title": "[Auto Continue 3/3] 那你继续呢",
-      "updated_at": 1785058170,
-      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-crm",
