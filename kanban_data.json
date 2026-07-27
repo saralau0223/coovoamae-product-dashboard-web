@@ -1435,7 +1435,7 @@
       "counts": {
         "archived": 62,
         "blocked": 13,
-        "done": 105
+        "done": 106
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -1518,9 +1518,9 @@
     "coovoamae-crm": {
       "active": 0,
       "blocked": 37,
-      "done": 168,
+      "done": 169,
       "running": 0,
-      "total": 205
+      "total": 206
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -1642,10 +1642,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785164401,
-  "generated_at_iso": "2026-07-27T23:00:01+08:00",
+  "generated_at": 1785168001,
+  "generated_at_iso": "2026-07-28T00:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "body_preview": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "completed_at": 1785167332,
+      "created_at": 1785167331,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_790af68d",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "started_at": 1785167332,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_89bd7069",
+      "updated_at": 1785167332,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_790af68d"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -2167,24 +2185,6 @@
       "title": "[Auto Continue 3/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
       "updated_at": 1785124492,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_00b7df3e"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_112446_1b1155\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the output yourself…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_112446_1b1155\", \"goal\": \"[IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be automatically delivered to the user — do NOT use send_message or try to deliver the output yourself…",
-      "completed_at": 1785124118,
-      "created_at": 1785123423,
-      "created_by": "coovoamae-ads-manager",
-      "id": "t_225234a9",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_00b7df3e.",
-      "started_at": 1785123426,
-      "status": "done",
-      "title": "[Auto Continue 2/3] [IMPORTANT: You are running as a scheduled cron job. DELIVERY: Your final response will be autom",
-      "updated_at": 1785124118,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_225234a9"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -2192,12 +2192,12 @@
     "active": 10,
     "archived": 113,
     "blocked": 67,
-    "done": 944,
+    "done": 945,
     "pending": 0,
     "ready": 6,
     "running": 0,
     "todo": 1,
-    "total": 1134,
+    "total": 1135,
     "triage": 3
   },
   "tasks": [
@@ -15880,6 +15880,24 @@
       "title": "[Auto Continue 2/2] work kanban task t_2d7a93be",
       "updated_at": 1785163693,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_89bd7069"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "body_preview": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "completed_at": 1785167332,
+      "created_at": 1785167331,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_790af68d",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_89bd7069 已静默/阻塞 60 分钟，当前状态=blocked；卡点：请刘希确认：是否接受已发送的“5 内＋1 外、无提手、冷白磨砂半透明”方向，并提供正式项目 ID；确认后才能继续生成 MAIN＋PT01–PT06 完整 7 图。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89bd7069.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89bd7069：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复…",
+      "started_at": 1785167332,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_89bd7069",
+      "updated_at": 1785167332,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_790af68d"
     },
     {
       "assignee": "coovoamae-crm",
