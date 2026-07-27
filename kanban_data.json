@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "completed_at": null,
+      "created_at": 1785160641,
+      "created_by": "coovoamae-crm",
+      "id": "t_4468340b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785160642,
+      "status": "running",
+      "title": "[Auto Continue 2/2] [System note: Your previous turn was interrupted before you could process the last tool result(s",
+      "updated_at": 1785160642,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_4468340b"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -107,6 +125,24 @@
       "title": "Repair B0H36RKCRS Ads inventory binding and complete V3 evidence",
       "updated_at": 1784632386,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260727T133955Z-p1-b0h36gyl99-listing-8d1d36c9 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangdang…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260727T133955Z-p1-b0h36gyl99-listing-8d1d36c9 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangdang…",
+      "completed_at": null,
+      "created_at": 1785159596,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_0372e5f3",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785159597,
+      "status": "running",
+      "title": "[Cross-lane Advice: Ads->Dangdang] PHOTO-BOX",
+      "updated_at": 1785159597,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_0372e5f3"
     },
     {
       "assignee": "coovoamae-product-auditor",
@@ -1358,6 +1394,7 @@
         "archived": 1,
         "blocked": 14,
         "done": 52,
+        "running": 1,
         "todo": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -1424,8 +1461,9 @@
       "counts": {
         "archived": 10,
         "blocked": 29,
-        "done": 89,
-        "ready": 4
+        "done": 90,
+        "ready": 4,
+        "running": 1
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1440,12 +1478,12 @@
       "total": 41
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 1,
+      "active": 2,
       "blocked": 19,
       "done": 83,
-      "running": 0,
+      "running": 1,
       "todo": 1,
-      "total": 103
+      "total": 104
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -1462,11 +1500,11 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 0,
+      "active": 1,
       "blocked": 34,
-      "done": 164,
-      "running": 0,
-      "total": 198
+      "done": 165,
+      "running": 1,
+      "total": 200
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -1588,10 +1626,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785157201,
-  "generated_at_iso": "2026-07-27T21:00:01+08:00",
+  "generated_at": 1785160801,
+  "generated_at_iso": "2026-07-27T22:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "completed_at": 1785160641,
+      "created_at": 1785160091,
+      "created_by": "coovoamae-crm",
+      "id": "t_88a5bc12",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_4468340b.",
+      "started_at": 1785160097,
+      "status": "done",
+      "title": "[Auto Continue 1/2] [System note: Your previous turn was interrupted before you could process the last tool result(s",
+      "updated_at": 1785160641,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_88a5bc12"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -2113,37 +2169,19 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
       "updated_at": 1785120953,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_9b8b83f1"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_104358_bbe3c0\", \"goal\": \"好的，那你先把已经生成的图发给我吧\", \"completed\": [ \"发送已通过主图\", \"发送滚轮完整外观图\", \"发送盒内套装图\", \"发送R9外观基准方向预览\" ], \"artifacts\": [ \"/root/.hermes/shared/product-assets/PD-ROLLINGSHARPENER-20260703/images/final/01_MAIN_…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_104358_bbe3c0\", \"goal\": \"好的，那你先把已经生成的图发给我吧\", \"completed\": [ \"发送已通过主图\", \"发送滚轮完整外观图\", \"发送盒内套装图\", \"发送R9外观基准方向预览\" ], \"artifacts\": [ \"/root/.hermes/shared/product-assets/PD-ROLLINGSHARPENER-20260703/images/final/01_MAIN_…",
-      "completed_at": 1785120944,
-      "created_at": 1785120829,
-      "created_by": "coovoamae-crm",
-      "id": "t_07b7bf23",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785120834,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 好的，那你先把已经生成的图发给我吧",
-      "updated_at": 1785120944,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_07b7bf23"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 10,
+    "active": 12,
     "archived": 113,
     "blocked": 64,
-    "done": 939,
+    "done": 940,
     "pending": 0,
     "ready": 6,
-    "running": 0,
+    "running": 2,
     "todo": 1,
-    "total": 1126,
+    "total": 1129,
     "triage": 3
   },
   "tasks": [
@@ -13851,6 +13889,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260727T133955Z-p1-b0h36gyl99-listing-8d1d36c9 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangdang…",
+      "body_preview": "Ads Manager created this cross-lane Listing/operations advice for Dangdang. ## Advice - request_id: ads-dangdang-20260727T133955Z-p1-b0h36gyl99-listing-8d1d36c9 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/workspace/inbox/crosslane-advice/ads-to-dangdang…",
+      "completed_at": null,
+      "created_at": 1785159596,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_0372e5f3",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785159597,
+      "status": "running",
+      "title": "[Cross-lane Advice: Ads->Dangdang] PHOTO-BOX",
+      "updated_at": 1785159597,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_0372e5f3"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
       "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260715T095921Z-ops-20260715-p1-b0gq2zr81s-buy-box-1950cd34 - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoama…",
       "completed_at": 1784110855,
@@ -20344,6 +20400,42 @@
       "title": "[Auto Continue 3/3] 你在继续处理吗，你派给狮子干啥呢",
       "updated_at": 1785152864,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_f1580662"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "completed_at": 1785160641,
+      "created_at": 1785160091,
+      "created_by": "coovoamae-crm",
+      "id": "t_88a5bc12",
+      "priority": 100,
+      "result": "Auto-continuation round 1 handed off to t_4468340b.",
+      "started_at": 1785160097,
+      "status": "done",
+      "title": "[Auto Continue 1/2] [System note: Your previous turn was interrupted before you could process the last tool result(s",
+      "updated_at": 1785160641,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_88a5bc12"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260727_204003_ef272352\", \"goal\": \"[System note: Your previous turn was interrupted before you could process the last tool result(s). The conversation history contains tool outputs you haven't responded to yet. Please finis…",
+      "completed_at": null,
+      "created_at": 1785160641,
+      "created_by": "coovoamae-crm",
+      "id": "t_4468340b",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785160642,
+      "status": "running",
+      "title": "[Auto Continue 2/2] [System note: Your previous turn was interrupted before you could process the last tool result(s",
+      "updated_at": 1785160642,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_4468340b"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
