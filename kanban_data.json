@@ -1,24 +1,6 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
-      "completed_at": null,
-      "created_at": 1785249734,
-      "created_by": "coovoamae-crm",
-      "id": "t_16492fa4",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785250273,
-      "status": "running",
-      "title": "[Auto Continue 3/4] 确认按新路线重建模块02–08，共7张。",
-      "updated_at": 1785250273,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_16492fa4"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
       "board_name": "COOVOAMAE Product Asset Handoffs",
@@ -307,6 +289,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"核验当前有效模块01、02、07及其文件尺寸\", \"保存R14盲身份识别和发布判定证据\", \"修正delivery_state、生产记录和部分导出记录\", \"确认交付门返回await_owner_decision且禁止继续生成\", \"登记等待刘希决策\" ], \"artifacts\": [ \"/root…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"核验当前有效模块01、02、07及其文件尺寸\", \"保存R14盲身份识别和发布判定证据\", \"修正delivery_state、生产记录和部分导出记录\", \"确认交付门返回await_owner_decision且禁止继续生成\", \"登记等待刘希决策\" ], \"artifacts\": [ \"/root…",
+      "completed_at": null,
+      "created_at": 1785250999,
+      "created_by": "coovoamae-crm",
+      "id": "t_85f7505a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785251001,
+      "status": "blocked",
+      "title": "[Auto Continue 4/4] 确认按新路线重建模块02–08，共7张。",
+      "updated_at": 1785251001,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_85f7505a"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1893,10 +1893,9 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 42,
-        "done": 133,
+        "blocked": 43,
+        "done": 134,
         "ready": 4,
-        "running": 1,
         "todo": 1
       },
       "name": "Hermes Auto Continue",
@@ -1934,11 +1933,11 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 1,
-      "blocked": 50,
-      "done": 204,
-      "running": 1,
-      "total": 255
+      "active": 0,
+      "blocked": 51,
+      "done": 205,
+      "running": 0,
+      "total": 256
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2068,10 +2067,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785250802,
-  "generated_at_iso": "2026-07-28T23:00:02+08:00",
+  "generated_at": 1785254402,
+  "generated_at_iso": "2026-07-29T00:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
+      "completed_at": 1785250999,
+      "created_at": 1785249734,
+      "created_by": "coovoamae-crm",
+      "id": "t_16492fa4",
+      "priority": 100,
+      "result": "Auto-continuation round 3 handed off to t_85f7505a.",
+      "started_at": 1785250273,
+      "status": "done",
+      "title": "[Auto Continue 3/4] 确认按新路线重建模块02–08，共7张。",
+      "updated_at": 1785250999,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_16492fa4"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
@@ -2593,37 +2610,19 @@
       "title": "[Auto Continue 3/4] B0H69RZZ1R，是这个asin 的图片，你可以去鹰眼做的产品档案里查便携雪茄盒的产品信息",
       "updated_at": 1785216114,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_a32d41d8"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260728T043338Z-b0gwzsn32d-premium-a-9-8d3a63be - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260728T043338Z…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260728T043338Z-b0gwzsn32d-premium-a-9-8d3a63be - priority: P0 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260728T043338Z…",
-      "completed_at": 1785215478,
-      "created_at": 1785213220,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_4ed2758b",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785213222,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0GWZSN32D 粉色 Premium A+ 9 张移动端配套图优化",
-      "updated_at": 1785215478,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4ed2758b"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 14,
+    "active": 13,
     "archived": 113,
-    "blocked": 86,
-    "done": 996,
+    "blocked": 87,
+    "done": 997,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 3,
-    "total": 1209,
+    "total": 1210,
     "triage": 3
   },
   "tasks": [
@@ -22307,17 +22306,35 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"R14五个失败槽位各生成2个LinkFox最终返修候选，共10张\", \"完成R14匿名A-J联系表和盲身份识别\", \"完成候选与产品结构、数量、文案和视觉阈值对照\", \"确认继续冻结此前通过的模块02和模块07\" ], \"artifacts\": [ \"/root/.hermes/profiles/co…",
-      "completed_at": null,
+      "completed_at": 1785250999,
       "created_at": 1785249734,
       "created_by": "coovoamae-crm",
       "id": "t_16492fa4",
       "priority": 100,
-      "result": "",
+      "result": "Auto-continuation round 3 handed off to t_85f7505a.",
       "started_at": 1785250273,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 3/4] 确认按新路线重建模块02–08，共7张。",
-      "updated_at": 1785250273,
+      "updated_at": 1785250999,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_16492fa4"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"核验当前有效模块01、02、07及其文件尺寸\", \"保存R14盲身份识别和发布判定证据\", \"修正delivery_state、生产记录和部分导出记录\", \"确认交付门返回await_owner_decision且禁止继续生成\", \"登记等待刘希决策\" ], \"artifacts\": [ \"/root…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_220453_385bf1\", \"goal\": \"确认按新路线重建模块02–08，共7张。\", \"completed\": [ \"核验当前有效模块01、02、07及其文件尺寸\", \"保存R14盲身份识别和发布判定证据\", \"修正delivery_state、生产记录和部分导出记录\", \"确认交付门返回await_owner_decision且禁止继续生成\", \"登记等待刘希决策\" ], \"artifacts\": [ \"/root…",
+      "completed_at": null,
+      "created_at": 1785250999,
+      "created_by": "coovoamae-crm",
+      "id": "t_85f7505a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785251001,
+      "status": "blocked",
+      "title": "[Auto Continue 4/4] 确认按新路线重建模块02–08，共7张。",
+      "updated_at": 1785251001,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_85f7505a"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
