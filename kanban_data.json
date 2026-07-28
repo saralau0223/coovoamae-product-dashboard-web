@@ -294,6 +294,24 @@
       "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_195902_b16e09\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image shows a close-up of a brown leather item, likely a small bag, pouch, or wallet-style case, photographed vertically against a transl…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_195902_b16e09\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image shows a close-up of a brown leather item, likely a small bag, pouch, or wallet-style case, photographed vertically against a transl…",
+      "completed_at": null,
+      "created_at": 1785240487,
+      "created_by": "coovoamae-crm",
+      "id": "t_1de159bc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785240491,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] [The user sent an image~ Here's what I can see:",
+      "updated_at": 1785240491,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1de159bc"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_190504_26e1ff\", \"goal\": \"尽快处理好发我\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Do not generate or edit images.\", \"Wait for a new ver…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_190504_26e1ff\", \"goal\": \"尽快处理好发我\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Do not generate or edit images.\", \"Wait for a new ver…",
       "completed_at": null,
@@ -1857,7 +1875,7 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 41,
+        "blocked": 42,
         "done": 131,
         "ready": 4,
         "todo": 1
@@ -1898,10 +1916,10 @@
     },
     "coovoamae-crm": {
       "active": 0,
-      "blocked": 49,
+      "blocked": 50,
       "done": 202,
       "running": 0,
-      "total": 251
+      "total": 252
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2031,8 +2049,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785240001,
-  "generated_at_iso": "2026-07-28T20:00:01+08:00",
+  "generated_at": 1785243601,
+  "generated_at_iso": "2026-07-28T21:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -2580,13 +2598,13 @@
   "summary": {
     "active": 13,
     "archived": 113,
-    "blocked": 85,
+    "blocked": 86,
     "done": 994,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 3,
-    "total": 1205,
+    "total": 1206,
     "triage": 3
   },
   "tasks": [
@@ -22209,6 +22227,24 @@
       "title": "[Auto Continue 3/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1785239674,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_0e801493"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_195902_b16e09\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image shows a close-up of a brown leather item, likely a small bag, pouch, or wallet-style case, photographed vertically against a transl…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260728_195902_b16e09\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image shows a close-up of a brown leather item, likely a small bag, pouch, or wallet-style case, photographed vertically against a transl…",
+      "completed_at": null,
+      "created_at": 1785240487,
+      "created_by": "coovoamae-crm",
+      "id": "t_1de159bc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785240491,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] [The user sent an image~ Here's what I can see:",
+      "updated_at": 1785240491,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1de159bc"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
