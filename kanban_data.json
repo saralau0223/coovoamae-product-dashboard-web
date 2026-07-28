@@ -1,24 +1,6 @@
 {
   "active": [
     {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_072120_b33240\", \"goal\": \"6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做\", \"completed\": [ \"完成Slot 6两个候选的盲身份复核\", \"写入Slot 6盲身份与最终拒绝QA记录\", \"修正Slot 7盲身份凭证路径并通过发布校验\", \"更新LinkFox运行记录为无候选通过\", \"更新canonical deliver…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_072120_b33240\", \"goal\": \"6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做\", \"completed\": [ \"完成Slot 6两个候选的盲身份复核\", \"写入Slot 6盲身份与最终拒绝QA记录\", \"修正Slot 7盲身份凭证路径并通过发布校验\", \"更新LinkFox运行记录为无候选通过\", \"更新canonical deliver…",
-      "completed_at": null,
-      "created_at": 1785196800,
-      "created_by": "coovoamae-crm",
-      "id": "t_97eb200c",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785196801,
-      "status": "running",
-      "title": "[Auto Continue 4/4] 6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做",
-      "updated_at": 1785196801,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_97eb200c"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -253,6 +235,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_072120_b33240\", \"goal\": \"6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做\", \"completed\": [ \"完成Slot 6两个候选的盲身份复核\", \"写入Slot 6盲身份与最终拒绝QA记录\", \"修正Slot 7盲身份凭证路径并通过发布校验\", \"更新LinkFox运行记录为无候选通过\", \"更新canonical deliver…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260728_072120_b33240\", \"goal\": \"6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做\", \"completed\": [ \"完成Slot 6两个候选的盲身份复核\", \"写入Slot 6盲身份与最终拒绝QA记录\", \"修正Slot 7盲身份凭证路径并通过发布校验\", \"更新LinkFox运行记录为无候选通过\", \"更新canonical deliver…",
+      "completed_at": null,
+      "created_at": 1785196800,
+      "created_by": "coovoamae-crm",
+      "id": "t_97eb200c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785196801,
+      "status": "blocked",
+      "title": "[Auto Continue 4/4] 6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做",
+      "updated_at": 1785196801,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_97eb200c"
     },
     {
       "assignee": "coovoamae-crm",
@@ -1513,10 +1513,9 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 32,
+        "blocked": 33,
         "done": 95,
-        "ready": 4,
-        "running": 1
+        "ready": 4
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -1553,10 +1552,10 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 1,
-      "blocked": 38,
+      "active": 0,
+      "blocked": 39,
       "done": 173,
-      "running": 1,
+      "running": 0,
       "total": 212
     },
     "coovoamae-crow-qc": {
@@ -1679,8 +1678,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785196801,
-  "generated_at_iso": "2026-07-28T08:00:01+08:00",
+  "generated_at": 1785200402,
+  "generated_at_iso": "2026-07-28T09:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -2226,13 +2225,13 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 11,
+    "active": 10,
     "archived": 113,
-    "blocked": 68,
+    "blocked": 69,
     "done": 949,
     "pending": 0,
     "ready": 6,
-    "running": 1,
+    "running": 0,
     "todo": 1,
     "total": 1141,
     "triage": 3
@@ -20701,7 +20700,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1785196801,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 4/4] 6 和7 的图片外观没有问题，但是我想让你做成产品的使用场景图和人物使用场景图可以吗，你用linkfox ai 做",
       "updated_at": 1785196801,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_97eb200c"
