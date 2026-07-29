@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"完成r6现有候选A–D复检\", \"确认第8张发布校验通过，均分4.383\", \"第5张因盲识别失败及均分3.85移出final并归档\", \"回写delivery_state…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"完成r6现有候选A–D复检\", \"确认第8张发布校验通过，均分4.383\", \"第5张因盲识别失败及均分3.85移出final并归档\", \"回写delivery_state…",
+      "completed_at": null,
+      "created_at": 1785312804,
+      "created_by": "coovoamae-crm",
+      "id": "t_b7d3fba4",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 2/4] https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧",
+      "updated_at": 1785312804,
+      "workspace_path": ""
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
       "board_name": "COOVOAMAE Product Asset Handoffs",
@@ -289,6 +307,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"读取并下载ASIN B0HBPFCBHY在线Listing 8张套图作为新外观/风格锚点\", \"按新路线生成A+第2–8张各1张2K候选\", \"完成A–D QA；第5、8张…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"读取并下载ASIN B0HBPFCBHY在线Listing 8张套图作为新外观/风格锚点\", \"按新路线生成A+第2–8张各1张2K候选\", \"完成A–D QA；第5、8张…",
+      "completed_at": null,
+      "created_at": 1785312100,
+      "created_by": "coovoamae-crm",
+      "id": "t_e1c6ffdc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785312105,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧",
+      "updated_at": 1785312105,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e1c6ffdc"
     },
     {
       "assignee": "coovoamae-crm",
@@ -2109,10 +2145,10 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 48,
+        "blocked": 49,
         "done": 147,
         "ready": 4,
-        "todo": 1
+        "todo": 2
       },
       "name": "Hermes Auto Continue",
       "slug": "hermes-auto-continue"
@@ -2149,11 +2185,12 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 0,
-      "blocked": 61,
+      "active": 1,
+      "blocked": 62,
       "done": 228,
       "running": 0,
-      "total": 289
+      "todo": 1,
+      "total": 291
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2283,8 +2320,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785312001,
-  "generated_at_iso": "2026-07-29T16:00:01+08:00",
+  "generated_at": 1785315601,
+  "generated_at_iso": "2026-07-29T17:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -2830,15 +2867,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 13,
+    "active": 14,
     "archived": 115,
-    "blocked": 99,
+    "blocked": 100,
     "done": 1030,
     "pending": 0,
     "ready": 7,
     "running": 0,
-    "todo": 3,
-    "total": 1257,
+    "todo": 4,
+    "total": 1259,
     "triage": 3
   },
   "tasks": [
@@ -23361,6 +23398,42 @@
       "title": "[Auto Continue 2/4] 确认修复2",
       "updated_at": 1785309047,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_67607083"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"读取并下载ASIN B0HBPFCBHY在线Listing 8张套图作为新外观/风格锚点\", \"按新路线生成A+第2–8张各1张2K候选\", \"完成A–D QA；第5、8张…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"读取并下载ASIN B0HBPFCBHY在线Listing 8张套图作为新外观/风格锚点\", \"按新路线生成A+第2–8张各1张2K候选\", \"完成A–D QA；第5、8张…",
+      "completed_at": null,
+      "created_at": 1785312100,
+      "created_by": "coovoamae-crm",
+      "id": "t_e1c6ffdc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785312105,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧",
+      "updated_at": 1785312105,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e1c6ffdc"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"完成r6现有候选A–D复检\", \"确认第8张发布校验通过，均分4.383\", \"第5张因盲识别失败及均分3.85移出final并归档\", \"回写delivery_state…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"完成r6现有候选A–D复检\", \"确认第8张发布校验通过，均分4.383\", \"第5张因盲识别失败及均分3.85移出final并归档\", \"回写delivery_state…",
+      "completed_at": null,
+      "created_at": 1785312804,
+      "created_by": "coovoamae-crm",
+      "id": "t_b7d3fba4",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 2/4] https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧",
+      "updated_at": 1785312804,
+      "workspace_path": ""
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
