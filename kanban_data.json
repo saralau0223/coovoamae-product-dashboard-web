@@ -2,6 +2,24 @@
   "active": [
     {
       "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_225351_1fb007\", \"goal\": \"work kanban task t_eaf8d7b2\", \"completed\": [ \"核实K03产品真相与结构锚点\", \"建立9槽位delivery_state\", \"创建并通过语法验证单一可续跑LinkFox整套runner\", \"提交R1九图product-suite生成任务\" ], \"artifacts\": [ \"/root/.hermes/shared/produ…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_225351_1fb007\", \"goal\": \"work kanban task t_eaf8d7b2\", \"completed\": [ \"核实K03产品真相与结构锚点\", \"建立9槽位delivery_state\", \"创建并通过语法验证单一可续跑LinkFox整套runner\", \"提交R1九图product-suite生成任务\" ], \"artifacts\": [ \"/root/.hermes/shared/produ…",
+      "completed_at": null,
+      "created_at": 1785336866,
+      "created_by": "coovoamae-crm",
+      "id": "t_8336fb0c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785336870,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_eaf8d7b2",
+      "updated_at": 1785336870,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_8336fb0c"
+    },
+    {
+      "assignee": "coovoamae-crm",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_154741_05dfa5\", \"goal\": \"https://www.amazon.com/dp/B0HBPFCBHY 我已经把套图同步上去了，我们套图跟a+的风格要保持一致，那你结合我们的套图风格，再继续生成图片吧\", \"completed\": [ \"完成r6现有候选A–D复检\", \"确认第8张发布校验通过，均分4.383\", \"第5张因盲识别失败及均分3.85移出final并归档\", \"回写delivery_state…",
@@ -2137,7 +2155,8 @@
       "counts": {
         "archived": 64,
         "blocked": 21,
-        "done": 123
+        "done": 124,
+        "running": 1
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -2221,12 +2240,12 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 1,
+      "active": 2,
       "blocked": 62,
-      "done": 228,
-      "running": 0,
+      "done": 229,
+      "running": 1,
       "todo": 1,
-      "total": 291
+      "total": 293
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2356,10 +2375,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785333601,
-  "generated_at_iso": "2026-07-29T22:00:01+08:00",
+  "generated_at": 1785337202,
+  "generated_at_iso": "2026-07-29T23:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T143211Z-k03-handheld-photography-fill-ligh-87438e58 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T143211Z-k03-handheld-photography-fill-ligh-87438e58 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": 1785336866,
+      "created_at": 1785335532,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_eaf8d7b2",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_8336fb0c.",
+      "started_at": 1785335536,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] K03 Handheld Photography Fill Light Amazon Listing Full Suite",
+      "updated_at": 1785336866,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_eaf8d7b2"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -2881,37 +2918,19 @@
       "title": "[Auto Continue 2/4] 第7张产品图，你重新提供图片呢",
       "updated_at": 1785287762,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_b9a9212d"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_085544_5bfc90\", \"goal\": \"第7张产品图，你重新提供图片呢\", \"completed\": [ \"冻结前6张已确认图片\", \"将第7张改为安全静态产品信任图\", \"校准当前套图状态为1–6有效、第7张待生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rollin…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_085544_5bfc90\", \"goal\": \"第7张产品图，你重新提供图片呢\", \"completed\": [ \"冻结前6张已确认图片\", \"将第7张改为安全静态产品信任图\", \"校准当前套图状态为1–6有效、第7张待生成\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/2026-07-25-rollin…",
-      "completed_at": 1785287250,
-      "created_at": 1785286829,
-      "created_by": "coovoamae-crm",
-      "id": "t_688e44ce",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_b9a9212d.",
-      "started_at": 1785286830,
-      "status": "done",
-      "title": "[Auto Continue 1/4] 第7张产品图，你重新提供图片呢",
-      "updated_at": 1785287250,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_688e44ce"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 14,
+    "active": 15,
     "archived": 115,
     "blocked": 102,
-    "done": 1030,
+    "done": 1031,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 4,
-    "total": 1261,
+    "total": 1263,
     "triage": 3
   },
   "tasks": [
@@ -17085,6 +17104,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_225351_1fb007\", \"goal\": \"work kanban task t_eaf8d7b2\", \"completed\": [ \"核实K03产品真相与结构锚点\", \"建立9槽位delivery_state\", \"创建并通过语法验证单一可续跑LinkFox整套runner\", \"提交R1九图product-suite生成任务\" ], \"artifacts\": [ \"/root/.hermes/shared/produ…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_225351_1fb007\", \"goal\": \"work kanban task t_eaf8d7b2\", \"completed\": [ \"核实K03产品真相与结构锚点\", \"建立9槽位delivery_state\", \"创建并通过语法验证单一可续跑LinkFox整套runner\", \"提交R1九图product-suite生成任务\" ], \"artifacts\": [ \"/root/.hermes/shared/produ…",
+      "completed_at": null,
+      "created_at": 1785336866,
+      "created_by": "coovoamae-crm",
+      "id": "t_8336fb0c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785336870,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_eaf8d7b2",
+      "updated_at": 1785336870,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_8336fb0c"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "body_preview": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "completed_at": 1780839254,
@@ -18106,6 +18143,24 @@
       "title": "[Dangdang -> Butterfly] B0H36RKCRS 周末转化优化：补齐产品专属 A+",
       "updated_at": 1785297403,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ac81c78b"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T143211Z-k03-handheld-photography-fill-ligh-87438e58 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T143211Z-k03-handheld-photography-fill-ligh-87438e58 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": 1785336866,
+      "created_at": 1785335532,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_eaf8d7b2",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_8336fb0c.",
+      "started_at": 1785335536,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] K03 Handheld Photography Fill Light Amazon Listing Full Suite",
+      "updated_at": 1785336866,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_eaf8d7b2"
     },
     {
       "assignee": "coovoamae-crm",
