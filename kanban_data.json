@@ -2245,7 +2245,7 @@
       "counts": {
         "archived": 64,
         "blocked": 25,
-        "done": 130,
+        "done": 131,
         "todo": 2
       },
       "name": "COOVOAMAE Design Requests",
@@ -2332,10 +2332,10 @@
     "coovoamae-crm": {
       "active": 3,
       "blocked": 66,
-      "done": 235,
+      "done": 236,
       "running": 0,
       "todo": 3,
-      "total": 304
+      "total": 305
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2465,10 +2465,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785348002,
-  "generated_at_iso": "2026-07-30T02:00:02+08:00",
+  "generated_at": 1785351601,
+  "generated_at_iso": "2026-07-30T03:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "body_preview": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "completed_at": 1785349656,
+      "created_at": 1785349655,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_ee6eda26",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "started_at": 1785349656,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_fabbe795",
+      "updated_at": 1785349656,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ee6eda26"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -2990,24 +3008,6 @@
       "title": "[Auto Continue 2/4] 确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7",
       "updated_at": 1785292920,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_14704d5b"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"切换至雪茄盒A+项目\", \"冻结模块1、2、7\", \"通过LinkFox两阶段路线生成模块3、4、5、6、8\", \"完成盲身份识别和逐张发布QA\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/p…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"切换至雪茄盒A+项目\", \"冻结模块1、2、7\", \"通过LinkFox两阶段路线生成模块3、4、5、6、8\", \"完成盲身份识别和逐张发布QA\" ], \"artifacts\": [ \"/root/.hermes/profiles/coovoamae-crm/workspace/p…",
-      "completed_at": 1785292487,
-      "created_at": 1785292002,
-      "created_by": "coovoamae-crm",
-      "id": "t_6747e99c",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_14704d5b.",
-      "started_at": 1785292003,
-      "status": "done",
-      "title": "[Auto Continue 1/4] 确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7",
-      "updated_at": 1785292487,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_6747e99c"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3015,12 +3015,12 @@
     "active": 16,
     "archived": 115,
     "blocked": 106,
-    "done": 1039,
+    "done": 1040,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 6,
-    "total": 1276,
+    "total": 1277,
     "triage": 3
   },
   "tasks": [
@@ -17405,6 +17405,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_c9b27ef7",
       "updated_at": 1785347233,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_02cd173d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "body_preview": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "completed_at": 1785349656,
+      "created_at": 1785349655,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_ee6eda26",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_fabbe795 已静默/阻塞 60 分钟，当前状态=blocked；卡点：Paused duplicate QA worker; Codex executing confirmed failed-slot Route2 only 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_fabbe795.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_fabbe795：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任…",
+      "started_at": 1785349656,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_fabbe795",
+      "updated_at": 1785349656,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ee6eda26"
     },
     {
       "assignee": "coovoamae-crm",
