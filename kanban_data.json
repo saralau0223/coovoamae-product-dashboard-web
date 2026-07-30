@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
-      "completed_at": null,
-      "created_at": 1785374899,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_1c593c58",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785374901,
-      "status": "running",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
-      "updated_at": 1785374901,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -251,6 +233,24 @@
       "title": "[Website Asset Brief] warm-paper-phase1-first8-20260716",
       "updated_at": 1784164374,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260730T022203Z-p1-07-22-28-cvr-asin-pdp-561bfdac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-o…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260730T022203Z-p1-07-22-28-cvr-asin-pdp-561bfdac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-o…",
+      "completed_at": null,
+      "created_at": 1785378124,
+      "created_by": "coovoamae-lion",
+      "id": "t_082650e8",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785378125,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜07/22–28 店铺CVR下滑：三ASIN补数与PDP只读拆因",
+      "updated_at": 1785378125,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_082650e8"
     },
     {
       "assignee": "root",
@@ -2240,6 +2240,7 @@
         "archived": 1,
         "blocked": 14,
         "done": 53,
+        "running": 1,
         "todo": 1
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -2309,9 +2310,8 @@
       "counts": {
         "archived": 10,
         "blocked": 51,
-        "done": 149,
+        "done": 150,
         "ready": 4,
-        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -2329,10 +2329,10 @@
     "coovoamae-amazon-ops-lizhutian": {
       "active": 4,
       "blocked": 29,
-      "done": 94,
+      "done": 95,
       "running": 1,
       "todo": 3,
-      "total": 127
+      "total": 128
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -2484,10 +2484,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785376801,
-  "generated_at_iso": "2026-07-30T10:00:01+08:00",
+  "generated_at": 1785380401,
+  "generated_at_iso": "2026-07-30T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": 1785379063,
+      "created_at": 1785374899,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_1c593c58",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785374901,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1785379063,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -3009,24 +3027,6 @@
       "title": "[Auto Continue 3/4] 确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7",
       "updated_at": 1785293232,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_afcd9531"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"核验当前项目锁一致\", \"核验交付硬门仅允许返修槽位3、4、5、6、8\", \"完成首轮候选逐张盲身份复核\", \"创建可幂等恢复的两阶段LinkFox返修脚本\", \"已提交槽位3、4、5、6、8的第一阶段定向返修\" ], \"artifacts\": [ \"/root/.hermes/p…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"核验当前项目锁一致\", \"核验交付硬门仅允许返修槽位3、4、5、6、8\", \"完成首轮候选逐张盲身份复核\", \"创建可幂等恢复的两阶段LinkFox返修脚本\", \"已提交槽位3、4、5、6、8的第一阶段定向返修\" ], \"artifacts\": [ \"/root/.hermes/p…",
-      "completed_at": 1785292920,
-      "created_at": 1785292487,
-      "created_by": "coovoamae-crm",
-      "id": "t_14704d5b",
-      "priority": 100,
-      "result": "Auto-continuation round 2 handed off to t_afcd9531.",
-      "started_at": 1785292497,
-      "status": "done",
-      "title": "[Auto Continue 2/4] 确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7",
-      "updated_at": 1785292920,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_14704d5b"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3034,12 +3034,12 @@
     "active": 17,
     "archived": 115,
     "blocked": 106,
-    "done": 1040,
+    "done": 1041,
     "pending": 0,
     "ready": 7,
     "running": 1,
     "todo": 6,
-    "total": 1278,
+    "total": 1279,
     "triage": 3
   },
   "tasks": [
@@ -15356,6 +15356,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_06d2e43e"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260730T022203Z-p1-07-22-28-cvr-asin-pdp-561bfdac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-o…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260730T022203Z-p1-07-22-28-cvr-asin-pdp-561bfdac - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-o…",
+      "completed_at": null,
+      "created_at": 1785378124,
+      "created_by": "coovoamae-lion",
+      "id": "t_082650e8",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785378125,
+      "status": "running",
+      "title": "[Lion -> Dangdang] P1｜07/22–28 店铺CVR下滑：三ASIN补数与PDP只读拆因",
+      "updated_at": 1785378125,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_082650e8"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -23929,16 +23947,16 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
-      "completed_at": null,
+      "completed_at": 1785379063,
       "created_at": 1785374899,
       "created_by": "coovoamae-amazon-ops-lizhutian",
       "id": "t_1c593c58",
       "priority": 100,
       "result": "",
       "started_at": 1785374901,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
-      "updated_at": 1785374901,
+      "updated_at": 1785379063,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
     },
     {
