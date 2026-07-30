@@ -22,6 +22,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"锁定ASIN B0HB4VWQ8F的9张Listing+11张Premium A+范围\", \"建立20槽位delivery_state并通过delivery-first预检\", \"完成单一LinkFox product-suite runner且配置校验通过\", \"启动整套基线生成\",…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"锁定ASIN B0HB4VWQ8F的9张Listing+11张Premium A+范围\", \"建立20槽位delivery_state并通过delivery-first预检\", \"完成单一LinkFox product-suite runner且配置校验通过\", \"启动整套基线生成\",…",
+      "completed_at": null,
+      "created_at": 1785396042,
+      "created_by": "coovoamae-crm",
+      "id": "t_44e1a583",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785396043,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_9b90bca5",
+      "updated_at": 1785396043,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44e1a583"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_125840_cb2f1c\", \"goal\": \"work kanban task t_b8873012\", \"completed\": [ \"Confirmed Kanban scope is exactly slots 01,08,09,11\", \"Passed project-focus gate\", \"Passed delivery-first gate with generation allowed\", \"Verifi…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_125840_cb2f1c\", \"goal\": \"work kanban task t_b8873012\", \"completed\": [ \"Confirmed Kanban scope is exactly slots 01,08,09,11\", \"Passed project-focus gate\", \"Passed delivery-first gate with generation allowed\", \"Verifi…",
       "completed_at": null,
@@ -1929,24 +1947,6 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_53e4278e"
     },
     {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T111609Z-p0-t-42cd4c90-24-sp-60-4b8bc0b7 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T111609Z-p0-t-42cd4c90-24-sp-60-4b8bc0b7 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "completed_at": null,
-      "created_at": 1784114170,
-      "created_by": "coovoamae-lion",
-      "id": "t_02e8dfe5",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784114171,
-      "status": "blocked",
-      "title": "[Lion -> Ads Manager] P0｜执行已确认的 t_42cd4c90：24 条 SP 日预算下调至全账户 $60",
-      "updated_at": 1784114171,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_02e8dfe5"
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -1999,24 +1999,6 @@
       "title": "[Dangdang -> Butterfly] COOVOA long grill caddy final images approved 10-call LinkFoxAI scope",
       "updated_at": 1784779815,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_ba2d9342"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
-      "completed_at": null,
-      "created_at": 1785394686,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_9b90bca5",
-      "priority": 80,
-      "result": "",
-      "started_at": 1785394693,
-      "status": "blocked",
-      "title": "[Dangdang -> Butterfly] B0HB4VWQ8F grill caddy full Listing suite and Premium A+ rebuild",
-      "updated_at": 1785394693,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b90bca5"
     },
     {
       "assignee": "coovoamae-crm",
@@ -2336,7 +2318,7 @@
     },
     {
       "counts": {
-        "blocked": 1,
+        "archived": 1,
         "done": 42,
         "ready": 2
       },
@@ -2371,7 +2353,7 @@
       "counts": {
         "archived": 64,
         "blocked": 28,
-        "done": 135,
+        "done": 136,
         "running": 1,
         "todo": 4
       },
@@ -2429,10 +2411,10 @@
   "by_agent": {
     "coovoamae-ads-manager": {
       "active": 0,
-      "blocked": 1,
+      "blocked": 0,
       "done": 48,
       "running": 0,
-      "total": 49
+      "total": 48
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 3,
@@ -2457,12 +2439,12 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 5,
-      "blocked": 70,
-      "done": 240,
-      "running": 0,
+      "active": 6,
+      "blocked": 69,
+      "done": 241,
+      "running": 1,
       "todo": 5,
-      "total": 315
+      "total": 316
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2592,10 +2574,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785394801,
-  "generated_at_iso": "2026-07-30T15:00:01+08:00",
+  "generated_at": 1785398402,
+  "generated_at_iso": "2026-07-30T16:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": 1785396042,
+      "created_at": 1785394686,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9b90bca5",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_44e1a583.",
+      "started_at": 1785394693,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] B0HB4VWQ8F grill caddy full Listing suite and Premium A+ rebuild",
+      "updated_at": 1785396042,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b90bca5"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -3117,37 +3117,19 @@
       "title": "[Auto Continue 1/4] work kanban task t_214d5d7d",
       "updated_at": 1785303061,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4f713200"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_89be2583 已静默/阻塞 61 分钟，当前状态=blocked；卡点：主图最终返修仍被盲识别为门挡/门用五金，已用尽返修上限；请提供能明确呈现滚轮磨刀器身份的新实拍锚点，或明确批准另一条实质不同的生产路线。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89be2583.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89be2583：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、…",
-      "body_preview": "结论摘要：设计任务 t_89be2583 已静默/阻塞 61 分钟，当前状态=blocked；卡点：主图最终返修仍被盲识别为门挡/门用五金，已用尽返修上限；请提供能明确呈现滚轮磨刀器身份的新实拍锚点，或明确批准另一条实质不同的生产路线。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89be2583.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89be2583：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、…",
-      "completed_at": 1785302311,
-      "created_at": 1785302309,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_32f45aa7",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_89be2583 已静默/阻塞 61 分钟，当前状态=blocked；卡点：主图最终返修仍被盲识别为门挡/门用五金，已用尽返修上限；请提供能明确呈现滚轮磨刀器身份的新实拍锚点，或明确批准另一条实质不同的生产路线。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_89be2583.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_89be2583：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、…",
-      "started_at": 1785302310,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_89be2583",
-      "updated_at": 1785302311,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_32f45aa7"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 18,
-    "archived": 115,
-    "blocked": 110,
-    "done": 1049,
+    "active": 19,
+    "archived": 116,
+    "blocked": 109,
+    "done": 1050,
     "pending": 0,
     "ready": 7,
     "running": 1,
     "todo": 8,
-    "total": 1293,
+    "total": 1294,
     "triage": 3
   },
   "tasks": [
@@ -13613,24 +13595,6 @@
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
-      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T111609Z-p0-t-42cd4c90-24-sp-60-4b8bc0b7 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T111609Z-p0-t-42cd4c90-24-sp-60-4b8bc0b7 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-…",
-      "completed_at": null,
-      "created_at": 1784114170,
-      "created_by": "coovoamae-lion",
-      "id": "t_02e8dfe5",
-      "priority": 100,
-      "result": "",
-      "started_at": 1784114171,
-      "status": "blocked",
-      "title": "[Lion -> Ads Manager] P0｜执行已确认的 t_42cd4c90：24 条 SP 日预算下调至全账户 $60",
-      "updated_at": 1784114171,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_02e8dfe5"
-    },
-    {
-      "assignee": "coovoamae-ads-manager",
-      "board": "coovoamae-ads-manager-handoffs",
-      "board_name": "COOVOAMAE Ads Manager Handoffs",
       "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
       "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260715T142456Z-p0-24-sp-60-e5b3d455 - priority: P0 - task_type: ads_execution - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager…",
       "completed_at": 1784125764,
@@ -17735,6 +17699,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"锁定ASIN B0HB4VWQ8F的9张Listing+11张Premium A+范围\", \"建立20槽位delivery_state并通过delivery-first预检\", \"完成单一LinkFox product-suite runner且配置校验通过\", \"启动整套基线生成\",…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"锁定ASIN B0HB4VWQ8F的9张Listing+11张Premium A+范围\", \"建立20槽位delivery_state并通过delivery-first预检\", \"完成单一LinkFox product-suite runner且配置校验通过\", \"启动整套基线生成\",…",
+      "completed_at": null,
+      "created_at": 1785396042,
+      "created_by": "coovoamae-crm",
+      "id": "t_44e1a583",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785396043,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_9b90bca5",
+      "updated_at": 1785396043,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_44e1a583"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "body_preview": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "completed_at": 1780839254,
@@ -18799,16 +18781,16 @@
       "board_name": "COOVOAMAE Design Requests",
       "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
       "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
-      "completed_at": null,
+      "completed_at": 1785396042,
       "created_at": 1785394686,
       "created_by": "coovoamae-amazon-ops-lizhutian",
       "id": "t_9b90bca5",
       "priority": 80,
-      "result": "",
+      "result": "Auto-continuation round 0 handed off to t_44e1a583.",
       "started_at": 1785394693,
-      "status": "blocked",
+      "status": "done",
       "title": "[Dangdang -> Butterfly] B0HB4VWQ8F grill caddy full Listing suite and Premium A+ rebuild",
-      "updated_at": 1785394693,
+      "updated_at": 1785396042,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b90bca5"
     },
     {
