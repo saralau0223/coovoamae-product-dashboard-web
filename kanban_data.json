@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_112027_dd00a5\", \"goal\": \"work kanban task t_082650e8\", \"completed\": [ \"取得Amazon官方7/15-7/21 Business Report\", \"取得Amazon官方7/22-7/28 Business Report\", \"取得3个目标SKU的Listings Items快照\", \"核验3个ASIN前台PDP核心零售状态\", \"写好双窗口CVR聚合与流量…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_112027_dd00a5\", \"goal\": \"work kanban task t_082650e8\", \"completed\": [ \"取得Amazon官方7/15-7/21 Business Report\", \"取得Amazon官方7/22-7/28 Business Report\", \"取得3个目标SKU的Listings Items快照\", \"核验3个ASIN前台PDP核心零售状态\", \"写好双窗口CVR聚合与流量…",
+      "completed_at": null,
+      "created_at": 1785381652,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_fe0e45ec",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/3] work kanban task t_082650e8",
+      "updated_at": 1785381652,
+      "workspace_path": ""
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -197,6 +215,24 @@
       "title": "Repair B0H36RKCRS Ads inventory binding and complete V3 evidence",
       "updated_at": 1784632386,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T034138Z-k03-b0hc5typ8v-premium-a-6-modules-42fa2f57 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T034138Z-k03-b0hc5typ8v-premium-a-6-modules-42fa2f57 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1785382899,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_026cf5ab",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785382899,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] K03 B0HC5TYP8V Premium A+ 6 modules / 11 LinkFox assets",
+      "updated_at": 1785382899,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_026cf5ab"
     },
     {
       "assignee": "coovoamae-product-auditor",
@@ -379,6 +415,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_115026_319737\", \"goal\": \"给云台设置一个7月31号开始到8月30号的5% coupon 吧\", \"completed\": [ \"核对伟鹏美国站账号\", \"确认云台ASIN B0GQ2ZR81S、SKU Q08-US可参与Coupon\", \"核对当前Coupon费用\" ], \"artifacts\": [], \"new_conclusions\": [ \"目标商品可创建Coupon\", \"当前费用为5美元创建…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_115026_319737\", \"goal\": \"给云台设置一个7月31号开始到8月30号的5% coupon 吧\", \"completed\": [ \"核对伟鹏美国站账号\", \"确认云台ASIN B0GQ2ZR81S、SKU Q08-US可参与Coupon\", \"核对当前Coupon费用\" ], \"artifacts\": [], \"new_conclusions\": [ \"目标商品可创建Coupon\", \"当前费用为5美元创建…",
+      "completed_at": null,
+      "created_at": 1785383447,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_e6cecbbc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785383451,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 给云台设置一个7月31号开始到8月30号的5% coupon 吧",
+      "updated_at": 1785383451,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e6cecbbc"
     },
     {
       "assignee": "coovoamae-crm",
@@ -2241,7 +2295,7 @@
         "blocked": 14,
         "done": 53,
         "running": 1,
-        "todo": 1
+        "todo": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
       "slug": "coovoamae-amazon-ops-handoffs"
@@ -2265,6 +2319,7 @@
         "archived": 64,
         "blocked": 25,
         "done": 131,
+        "running": 1,
         "todo": 2
       },
       "name": "COOVOAMAE Design Requests",
@@ -2309,8 +2364,8 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 51,
-        "done": 150,
+        "blocked": 52,
+        "done": 152,
         "ready": 4,
         "todo": 2
       },
@@ -2322,17 +2377,17 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 1,
-      "done": 47,
+      "done": 48,
       "running": 0,
-      "total": 48
+      "total": 49
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 4,
-      "blocked": 29,
-      "done": 95,
+      "active": 5,
+      "blocked": 30,
+      "done": 96,
       "running": 1,
-      "todo": 3,
-      "total": 128
+      "todo": 4,
+      "total": 131
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -2349,12 +2404,12 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 3,
+      "active": 4,
       "blocked": 66,
       "done": 236,
-      "running": 0,
+      "running": 1,
       "todo": 3,
-      "total": 305
+      "total": 306
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2484,10 +2539,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785380401,
-  "generated_at_iso": "2026-07-30T11:00:01+08:00",
+  "generated_at": 1785384001,
+  "generated_at_iso": "2026-07-30T12:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_111223_b5151f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-ads-o…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_111223_b5151f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-ads-o…",
+      "completed_at": 1785382059,
+      "created_at": 1785381225,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_e037ce11",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785381226,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
+      "updated_at": 1785382059,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e037ce11"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": 1785380857,
+      "created_at": 1785380733,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_48465bd0",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785380736,
+      "status": "done",
+      "title": "[Auto Continue 2/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1785380857,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_48465bd0"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -2991,55 +3082,19 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
       "updated_at": 1785295862,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7ef53b92"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_584cc9ba 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 4 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_584cc9ba.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_584cc9ba：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "body_preview": "结论摘要：设计任务 t_584cc9ba 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 4 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_584cc9ba.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_584cc9ba：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "completed_at": 1785294181,
-      "created_at": 1785294179,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_711c6139",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_584cc9ba 已静默/阻塞 60 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped after 4 rounds 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_584cc9ba.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_584cc9ba：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结果闸和发布确认保持不变。…",
-      "started_at": 1785294181,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_584cc9ba",
-      "updated_at": 1785294181,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_711c6139"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"核验当前雪茄盒A+项目锁一致\", \"核验交付门仅允许返修槽位3、4、5、6、8并冻结1、2、7\", \"恢复既有LinkFox任务并取得五张第1轮最终候选\", \"完成五张候选的逐张盲身份审查\", \"确认槽位3、4、5可进入后续视觉评分\", \"确认槽位6、8未通过结构真实性门\" ],…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260729_102452_64d5ef\", \"goal\": \"确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7\", \"completed\": [ \"核验当前雪茄盒A+项目锁一致\", \"核验交付门仅允许返修槽位3、4、5、6、8并冻结1、2、7\", \"恢复既有LinkFox任务并取得五张第1轮最终候选\", \"完成五张候选的逐张盲身份审查\", \"确认槽位3、4、5可进入后续视觉评分\", \"确认槽位6、8未通过结构真实性门\" ],…",
-      "completed_at": 1785293232,
-      "created_at": 1785292920,
-      "created_by": "coovoamae-crm",
-      "id": "t_afcd9531",
-      "priority": 100,
-      "result": "Auto-continuation round 3 handed off to t_51d6a909.",
-      "started_at": 1785292924,
-      "status": "done",
-      "title": "[Auto Continue 3/4] 确认切换雪茄盒A+，仅重建3、4、5、6、8，保留1、2、7",
-      "updated_at": 1785293232,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_afcd9531"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 17,
+    "active": 19,
     "archived": 115,
-    "blocked": 106,
-    "done": 1041,
+    "blocked": 107,
+    "done": 1043,
     "pending": 0,
     "ready": 7,
-    "running": 1,
-    "todo": 6,
-    "total": 1279,
+    "running": 2,
+    "todo": 7,
+    "total": 1284,
     "triage": 3
   },
   "tasks": [
@@ -14693,6 +14748,24 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_112027_dd00a5\", \"goal\": \"work kanban task t_082650e8\", \"completed\": [ \"取得Amazon官方7/15-7/21 Business Report\", \"取得Amazon官方7/22-7/28 Business Report\", \"取得3个目标SKU的Listings Items快照\", \"核验3个ASIN前台PDP核心零售状态\", \"写好双窗口CVR聚合与流量…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_112027_dd00a5\", \"goal\": \"work kanban task t_082650e8\", \"completed\": [ \"取得Amazon官方7/15-7/21 Business Report\", \"取得Amazon官方7/22-7/28 Business Report\", \"取得3个目标SKU的Listings Items快照\", \"核验3个ASIN前台PDP核心零售状态\", \"写好双窗口CVR聚合与流量…",
+      "completed_at": null,
+      "created_at": 1785381652,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_fe0e45ec",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/3] work kanban task t_082650e8",
+      "updated_at": 1785381652,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
       "body": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "body_preview": "处理 PD-ORNBOX-20260701 作为新品的内部 launch readiness。先读 IDENTITY_AUDIT_20260716.json、LAUNCH_READINESS_20260716.md、PROVISIONAL_LISTING_COPY_20260716.md、12 张实拍及 taste QA。输出 `/root/.hermes/shared/product-launch/PD-ORNBOX-20260701/DANGDANG_NEW_LISTING_PACKET.md`：Seller SKU 建议、UPC/GTIN/豁免所需证据、品牌/变体方案、必填属性和规格缺…",
       "completed_at": 1784200194,
@@ -18504,6 +18577,24 @@
       "title": "[Dangdang -> Butterfly] K03 Handheld Photography Fill Light Amazon Listing Full Suite",
       "updated_at": 1785336866,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_eaf8d7b2"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T034138Z-k03-b0hc5typ8v-premium-a-6-modules-42fa2f57 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T034138Z-k03-b0hc5typ8v-premium-a-6-modules-42fa2f57 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1785382899,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_026cf5ab",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785382899,
+      "status": "running",
+      "title": "[Dangdang -> Butterfly] K03 B0HC5TYP8V Premium A+ 6 modules / 11 LinkFox assets",
+      "updated_at": 1785382899,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_026cf5ab"
     },
     {
       "assignee": "coovoamae-crm",
@@ -23958,6 +24049,60 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
       "updated_at": 1785379063,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": 1785380857,
+      "created_at": 1785380733,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_48465bd0",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785380736,
+      "status": "done",
+      "title": "[Auto Continue 2/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1785380857,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_48465bd0"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_111223_b5151f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-ads-o…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_111223_b5151f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-ads-o…",
+      "completed_at": 1785382059,
+      "created_at": 1785381225,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_e037ce11",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785381226,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
+      "updated_at": 1785382059,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e037ce11"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_115026_319737\", \"goal\": \"给云台设置一个7月31号开始到8月30号的5% coupon 吧\", \"completed\": [ \"核对伟鹏美国站账号\", \"确认云台ASIN B0GQ2ZR81S、SKU Q08-US可参与Coupon\", \"核对当前Coupon费用\" ], \"artifacts\": [], \"new_conclusions\": [ \"目标商品可创建Coupon\", \"当前费用为5美元创建…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_115026_319737\", \"goal\": \"给云台设置一个7月31号开始到8月30号的5% coupon 吧\", \"completed\": [ \"核对伟鹏美国站账号\", \"确认云台ASIN B0GQ2ZR81S、SKU Q08-US可参与Coupon\", \"核对当前Coupon费用\" ], \"artifacts\": [], \"new_conclusions\": [ \"目标商品可创建Coupon\", \"当前费用为5美元创建…",
+      "completed_at": null,
+      "created_at": 1785383447,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_e6cecbbc",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785383451,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 给云台设置一个7月31号开始到8月30号的5% coupon 吧",
+      "updated_at": 1785383451,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e6cecbbc"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
