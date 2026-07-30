@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": null,
+      "created_at": 1785374899,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_1c593c58",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785374901,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1785374901,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -2293,6 +2311,7 @@
         "blocked": 51,
         "done": 149,
         "ready": 4,
+        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -2308,12 +2327,12 @@
       "total": 48
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 3,
+      "active": 4,
       "blocked": 29,
       "done": 94,
-      "running": 0,
+      "running": 1,
       "todo": 3,
-      "total": 126
+      "total": 127
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -2465,8 +2484,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785373201,
-  "generated_at_iso": "2026-07-30T09:00:01+08:00",
+  "generated_at": 1785376801,
+  "generated_at_iso": "2026-07-30T10:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3012,15 +3031,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 16,
+    "active": 17,
     "archived": 115,
     "blocked": 106,
     "done": 1040,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 6,
-    "total": 1277,
+    "total": 1278,
     "triage": 3
   },
   "tasks": [
@@ -23903,6 +23922,24 @@
       "title": "[Auto Continue 2/3] 确认接受$19.44入库配置费，目的仓HIA1，按自有承运人海运继续生成2张箱唛",
       "updated_at": 1785346545,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fb7ead51"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260730_092801_5b74dd\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amaz…",
+      "completed_at": null,
+      "created_at": 1785374899,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_1c593c58",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785374901,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1785374901,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1c593c58"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
