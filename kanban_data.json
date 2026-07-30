@@ -2004,6 +2004,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1785394686,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9b90bca5",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785394693,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] B0HB4VWQ8F grill caddy full Listing suite and Premium A+ rebuild",
+      "updated_at": 1785394693,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b90bca5"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T035641Z-b0h36rkcrs-a-869452f6 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260729T035641Z-b0h36rkcr…",
       "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T035641Z-b0h36rkcrs-a-869452f6 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260729T035641Z-b0h36rkcr…",
       "completed_at": null,
@@ -2354,6 +2372,7 @@
         "archived": 64,
         "blocked": 28,
         "done": 135,
+        "running": 1,
         "todo": 4
       },
       "name": "COOVOAMAE Design Requests",
@@ -2439,11 +2458,11 @@
     },
     "coovoamae-crm": {
       "active": 5,
-      "blocked": 69,
+      "blocked": 70,
       "done": 240,
       "running": 0,
       "todo": 5,
-      "total": 314
+      "total": 315
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2573,8 +2592,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785391201,
-  "generated_at_iso": "2026-07-30T14:00:01+08:00",
+  "generated_at": 1785394801,
+  "generated_at_iso": "2026-07-30T15:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3126,9 +3145,9 @@
     "done": 1049,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 8,
-    "total": 1292,
+    "total": 1293,
     "triage": 3
   },
   "tasks": [
@@ -18773,6 +18792,24 @@
       "title": "[Dangdang -> Butterfly] K03 B0HC5TYP8V Premium A+ 6 modules / 11 LinkFox assets",
       "updated_at": 1785384934,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_026cf5ab"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260730T065805Z-b0hb4vwq8f-grill-caddy-full-listin-06acc788 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026…",
+      "completed_at": null,
+      "created_at": 1785394686,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_9b90bca5",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785394693,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] B0HB4VWQ8F grill caddy full Listing suite and Premium A+ rebuild",
+      "updated_at": 1785394693,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b90bca5"
     },
     {
       "assignee": "coovoamae-crm",
