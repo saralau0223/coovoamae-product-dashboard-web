@@ -1,6 +1,24 @@
 {
   "active": [
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹰眼｜今晚常青核心 10 款选品并写入利润测算表 ## 用户授权与交付时间 刘希于 2026-07-30 明确要求： > 你今晚用鹰眼获取选品需要的数据，帮我选10款适合我们的常青核心产品，并更新到利润测算表里面去，认真选哈，我明天要核实的 本任务必须在 2026-07-31 上午用户核实前完成。当前 Codex 任务是唯一交付人；鹰眼负责受约束的数据研究、利润表写入、读回与审计，不另发重复私信。 批次 ID / 幂等键：`codex-evergreen-core-10-20260730` ## 执行规范 必须完整加载并遵守 `coovoamae-product-development`…",
+      "body_preview": "# 鹰眼｜今晚常青核心 10 款选品并写入利润测算表 ## 用户授权与交付时间 刘希于 2026-07-30 明确要求： > 你今晚用鹰眼获取选品需要的数据，帮我选10款适合我们的常青核心产品，并更新到利润测算表里面去，认真选哈，我明天要核实的 本任务必须在 2026-07-31 上午用户核实前完成。当前 Codex 任务是唯一交付人；鹰眼负责受约束的数据研究、利润表写入、读回与审计，不另发重复私信。 批次 ID / 幂等键：`codex-evergreen-core-10-20260730` ## 执行规范 必须完整加载并遵守 `coovoamae-product-development`…",
+      "completed_at": null,
+      "created_at": 1785418879,
+      "created_by": "current-codex-thread",
+      "id": "t_6f7bba78",
+      "priority": 220,
+      "result": "",
+      "started_at": 1785418879,
+      "status": "running",
+      "title": "鹰眼｜2026-07-30 今晚常青核心10款选品并写入利润表",
+      "updated_at": 1785418879,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_6f7bba78"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -17,24 +35,6 @@
       "title": "[Route Change] K03 per-slot LinkFox native upload-ready finals",
       "updated_at": 1785344352,
       "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"完成20个原生槽位的尺寸、格式、黑边/空白带及QA哈希一致性核验\", \"运行20份candidate release QA，20/20通过现有校验器\", \"将Slot 10改为1464x600来源像素保留版，移除原始可见接缝并保留左侧原生文案安全区\", \"更新Slot 10候选发布QA、…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"完成20个原生槽位的尺寸、格式、黑边/空白带及QA哈希一致性核验\", \"运行20份candidate release QA，20/20通过现有校验器\", \"将Slot 10改为1464x600来源像素保留版，移除原始可见接缝并保留左侧原生文案安全区\", \"更新Slot 10候选发布QA、…",
-      "completed_at": null,
-      "created_at": 1785404775,
-      "created_by": "coovoamae-crm",
-      "id": "t_f6c34849",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785405287,
-      "status": "running",
-      "title": "[Auto Continue 4/4] work kanban task t_9b90bca5",
-      "updated_at": 1785405287,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f6c34849"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -451,6 +451,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"完成20个原生槽位的尺寸、格式、黑边/空白带及QA哈希一致性核验\", \"运行20份candidate release QA，20/20通过现有校验器\", \"将Slot 10改为1464x600来源像素保留版，移除原始可见接缝并保留左侧原生文案安全区\", \"更新Slot 10候选发布QA、…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 4, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"完成20个原生槽位的尺寸、格式、黑边/空白带及QA哈希一致性核验\", \"运行20份candidate release QA，20/20通过现有校验器\", \"将Slot 10改为1464x600来源像素保留版，移除原始可见接缝并保留左侧原生文案安全区\", \"更新Slot 10候选发布QA、…",
+      "completed_at": null,
+      "created_at": 1785404775,
+      "created_by": "coovoamae-crm",
+      "id": "t_f6c34849",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785405287,
+      "status": "blocked",
+      "title": "[Auto Continue 4/4] work kanban task t_9b90bca5",
+      "updated_at": 1785405287,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f6c34849"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -2347,7 +2365,8 @@
     {
       "counts": {
         "archived": 38,
-        "done": 576
+        "done": 576,
+        "running": 1
       },
       "name": "Default",
       "slug": "default"
@@ -2388,9 +2407,8 @@
     {
       "counts": {
         "archived": 64,
-        "blocked": 28,
+        "blocked": 29,
         "done": 145,
-        "running": 1,
         "todo": 4
       },
       "name": "COOVOAMAE Design Requests",
@@ -2475,10 +2493,10 @@
       "total": 41
     },
     "coovoamae-crm": {
-      "active": 6,
-      "blocked": 69,
+      "active": 5,
+      "blocked": 70,
       "done": 250,
-      "running": 1,
+      "running": 0,
       "todo": 5,
       "total": 325
     },
@@ -2499,11 +2517,11 @@
       "total": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 89,
-      "running": 0,
-      "total": 89
+      "running": 1,
+      "total": 90
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -2610,8 +2628,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785416401,
-  "generated_at_iso": "2026-07-30T21:00:01+08:00",
+  "generated_at": 1785420001,
+  "generated_at_iso": "2026-07-30T22:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3159,13 +3177,13 @@
   "summary": {
     "active": 20,
     "archived": 116,
-    "blocked": 110,
+    "blocked": 111,
     "done": 1060,
     "pending": 0,
     "ready": 7,
     "running": 1,
     "todo": 9,
-    "total": 1306,
+    "total": 1307,
     "triage": 3
   },
   "tasks": [
@@ -3186,6 +3204,24 @@
       "title": "上传相片收纳盒 B0H36RKCRS 套图｜Sara选中4张场景图",
       "updated_at": 1780884510,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a20453ff"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹰眼｜今晚常青核心 10 款选品并写入利润测算表 ## 用户授权与交付时间 刘希于 2026-07-30 明确要求： > 你今晚用鹰眼获取选品需要的数据，帮我选10款适合我们的常青核心产品，并更新到利润测算表里面去，认真选哈，我明天要核实的 本任务必须在 2026-07-31 上午用户核实前完成。当前 Codex 任务是唯一交付人；鹰眼负责受约束的数据研究、利润表写入、读回与审计，不另发重复私信。 批次 ID / 幂等键：`codex-evergreen-core-10-20260730` ## 执行规范 必须完整加载并遵守 `coovoamae-product-development`…",
+      "body_preview": "# 鹰眼｜今晚常青核心 10 款选品并写入利润测算表 ## 用户授权与交付时间 刘希于 2026-07-30 明确要求： > 你今晚用鹰眼获取选品需要的数据，帮我选10款适合我们的常青核心产品，并更新到利润测算表里面去，认真选哈，我明天要核实的 本任务必须在 2026-07-31 上午用户核实前完成。当前 Codex 任务是唯一交付人；鹰眼负责受约束的数据研究、利润表写入、读回与审计，不另发重复私信。 批次 ID / 幂等键：`codex-evergreen-core-10-20260730` ## 执行规范 必须完整加载并遵守 `coovoamae-product-development`…",
+      "completed_at": null,
+      "created_at": 1785418879,
+      "created_by": "current-codex-thread",
+      "id": "t_6f7bba78",
+      "priority": 220,
+      "result": "",
+      "started_at": 1785418879,
+      "status": "running",
+      "title": "鹰眼｜2026-07-30 今晚常青核心10款选品并写入利润表",
+      "updated_at": 1785418879,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_6f7bba78"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -17906,7 +17942,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1785405287,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 4/4] work kanban task t_9b90bca5",
       "updated_at": 1785405287,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f6c34849"
