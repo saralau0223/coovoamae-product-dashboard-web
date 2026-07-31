@@ -19,6 +19,42 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "completed_at": null,
+      "created_at": 1785484768,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_8a989291",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785484769,
+      "status": "running",
+      "title": "[Auto Continue 1/3] 给我推荐一个常态选品吧",
+      "updated_at": 1785484769,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a989291"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_152634_2dd572\", \"goal\": \"work kanban task t_eff794b7\", \"completed\": [ \"生成PT01与PT08受控排版候选及375px预览\", \"完成PT01/PT08原图与375px视觉QA\", \"PT08通过严格视觉QA和移动端可读性检查\", \"定位PT01三处旧文字残留并在suite runner中加入限定负空间的精准清除逻辑\" ], \"artifacts\": [ \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_152634_2dd572\", \"goal\": \"work kanban task t_eff794b7\", \"completed\": [ \"生成PT01与PT08受控排版候选及375px预览\", \"完成PT01/PT08原图与375px视觉QA\", \"PT08通过严格视觉QA和移动端可读性检查\", \"定位PT01三处旧文字残留并在suite runner中加入限定负空间的精准清除逻辑\" ], \"artifacts\": [ \"…",
+      "completed_at": null,
+      "created_at": 1785483291,
+      "created_by": "coovoamae-crm",
+      "id": "t_aa364d36",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/4] work kanban task t_eff794b7",
+      "updated_at": 1785483291,
+      "workspace_path": ""
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
       "board_name": "COOVOAMAE Product Asset Handoffs",
@@ -35,24 +71,6 @@
       "title": "[Auto Continue 1/3] work kanban task t_68f23302",
       "updated_at": 1785480983,
       "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-product-assets",
-      "board_name": "COOVOAMAE Product Asset Handoffs",
-      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966 - project_id: coovoa-20260723-long-grill-caddy - product_name: - marketplace: - asin: B0HB4VWQ8F - sku: COOVOA-GRILL-CADDY-BLK-20260723 - manifest_path: /roo…",
-      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966 - project_id: coovoa-20260723-long-grill-caddy - product_name: - marketplace: - asin: B0HB4VWQ8F - sku: COOVOA-GRILL-CADDY-BLK-20260723 - manifest_path: /roo…",
-      "completed_at": null,
-      "created_at": 1785479167,
-      "created_by": "coovoamae-crm",
-      "id": "t_68f23302",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785479167,
-      "status": "running",
-      "title": "[Product Asset Handoff] coovoa-20260723-long-grill-caddy -> Dangdang Listing/A+ precheck",
-      "updated_at": 1785479167,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_68f23302"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -487,6 +505,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966 - project_id: coovoa-20260723-long-grill-caddy - product_name: - marketplace: - asin: B0HB4VWQ8F - sku: COOVOA-GRILL-CADDY-BLK-20260723 - manifest_path: /roo…",
+      "body_preview": "你收到蝴蝶的 Amazon Listing/A+ 图片内部交接。这个任务只允许预检和向刘希确认，不允许直接上传。 ## 交接信息 - handoff_id: coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966 - project_id: coovoa-20260723-long-grill-caddy - product_name: - marketplace: - asin: B0HB4VWQ8F - sku: COOVOA-GRILL-CADDY-BLK-20260723 - manifest_path: /roo…",
+      "completed_at": null,
+      "created_at": 1785479167,
+      "created_by": "coovoamae-crm",
+      "id": "t_68f23302",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785479167,
+      "status": "blocked",
+      "title": "[Product Asset Handoff] coovoa-20260723-long-grill-caddy -> Dangdang Listing/A+ precheck",
+      "updated_at": 1785479167,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_68f23302"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -2166,6 +2202,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-coovoa-20260723-long-grill-caddy-precheck-remedi-83e314c0 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-coovoa-…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-coovoa-20260723-long-grill-caddy-precheck-remedi-83e314c0 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-coovoa-…",
+      "completed_at": null,
+      "created_at": 1785482131,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_eff794b7",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785482132,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] 修正长款烤架收纳架 5 个 Listing/A+ 槽位的结构真实性与可读性",
+      "updated_at": 1785482132,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_eff794b7"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T035641Z-b0h36rkcrs-a-869452f6 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260729T035641Z-b0h36rkcr…",
       "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-20260729T035641Z-b0h36rkcrs-a-869452f6 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-20260729T035641Z-b0h36rkcr…",
       "completed_at": null,
@@ -2515,9 +2569,9 @@
     {
       "counts": {
         "archived": 64,
-        "blocked": 29,
+        "blocked": 30,
         "done": 145,
-        "todo": 4
+        "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
       "slug": "coovoamae-design"
@@ -2525,10 +2579,9 @@
     {
       "counts": {
         "archived": 2,
-        "blocked": 9,
+        "blocked": 10,
         "done": 22,
         "ready": 1,
-        "running": 1,
         "todo": 3
       },
       "name": "COOVOAMAE Product Asset Handoffs",
@@ -2565,6 +2618,7 @@
         "blocked": 52,
         "done": 159,
         "ready": 4,
+        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -2580,10 +2634,10 @@
       "total": 48
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 6,
-      "blocked": 31,
+      "active": 5,
+      "blocked": 32,
       "done": 106,
-      "running": 1,
+      "running": 0,
       "todo": 5,
       "total": 143
     },
@@ -2602,12 +2656,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 6,
-      "blocked": 70,
+      "active": 7,
+      "blocked": 71,
       "done": 250,
       "running": 0,
-      "todo": 6,
-      "total": 326
+      "todo": 7,
+      "total": 328
     },
     "coovoamae-crow-qc": {
       "active": 1,
@@ -2626,11 +2680,11 @@
       "total": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 1,
       "blocked": 4,
       "done": 103,
-      "running": 0,
-      "total": 107
+      "running": 1,
+      "total": 108
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -2737,8 +2791,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785481201,
-  "generated_at_iso": "2026-07-31T15:00:01+08:00",
+  "generated_at": 1785484801,
+  "generated_at_iso": "2026-07-31T16:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3284,15 +3338,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 22,
+    "active": 23,
     "archived": 116,
-    "blocked": 115,
+    "blocked": 117,
     "done": 1083,
     "pending": 0,
     "ready": 7,
     "running": 1,
-    "todo": 11,
-    "total": 1336,
+    "todo": 12,
+    "total": 1339,
     "triage": 3
   },
   "tasks": [
@@ -18456,6 +18510,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_152634_2dd572\", \"goal\": \"work kanban task t_eff794b7\", \"completed\": [ \"生成PT01与PT08受控排版候选及375px预览\", \"完成PT01/PT08原图与375px视觉QA\", \"PT08通过严格视觉QA和移动端可读性检查\", \"定位PT01三处旧文字残留并在suite runner中加入限定负空间的精准清除逻辑\" ], \"artifacts\": [ \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_152634_2dd572\", \"goal\": \"work kanban task t_eff794b7\", \"completed\": [ \"生成PT01与PT08受控排版候选及375px预览\", \"完成PT01/PT08原图与375px视觉QA\", \"PT08通过严格视觉QA和移动端可读性检查\", \"定位PT01三处旧文字残留并在suite runner中加入限定负空间的精准清除逻辑\" ], \"artifacts\": [ \"…",
+      "completed_at": null,
+      "created_at": 1785483291,
+      "created_by": "coovoamae-crm",
+      "id": "t_aa364d36",
+      "priority": 100,
+      "result": "",
+      "started_at": null,
+      "status": "todo",
+      "title": "[Auto Continue 1/4] work kanban task t_eff794b7",
+      "updated_at": 1785483291,
+      "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "body_preview": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "completed_at": 1780839254,
@@ -19536,6 +19608,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-coovoa-20260723-long-grill-caddy-precheck-remedi-83e314c0 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-coovoa-…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-coovoa-20260723-long-grill-caddy-precheck-remedi-83e314c0 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-coovoa-…",
+      "completed_at": null,
+      "created_at": 1785482131,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_eff794b7",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785482132,
+      "status": "blocked",
+      "title": "[Dangdang -> Butterfly] 修正长款烤架收纳架 5 个 Listing/A+ 槽位的结构真实性与可读性",
+      "updated_at": 1785482132,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_eff794b7"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# Design Brief ## 业务目标 - 要提升/解决什么：为刘希 / Sara 设计一个适合在 COOVOAMAE Agent 休息室、飞书协作场景使用的个人头像；目标是体现“团队背后的主理人”，有辨识度、有气质，不像默认机器人/普通自拍。 - 判断依据：刘希在群里询问“我用一个什么样的头像”，并让方舟基于简历/经历提炼后交给蝴蝶设计；狮子建议不公开完整简历，只使用头像人格卡。 ## 使用场景 - 渠道：飞书个人头像 / COOVOAMAE Agent 休息室群聊 - 尺寸：优先飞书小头像 96px/128px 圆形裁切；交付 1024x1024 PNG + 小尺寸预览 - 交付数…",
       "body_preview": "# Design Brief ## 业务目标 - 要提升/解决什么：为刘希 / Sara 设计一个适合在 COOVOAMAE Agent 休息室、飞书协作场景使用的个人头像；目标是体现“团队背后的主理人”，有辨识度、有气质，不像默认机器人/普通自拍。 - 判断依据：刘希在群里询问“我用一个什么样的头像”，并让方舟基于简历/经历提炼后交给蝴蝶设计；狮子建议不公开完整简历，只使用头像人格卡。 ## 使用场景 - 渠道：飞书个人头像 / COOVOAMAE Agent 休息室群聊 - 尺寸：优先飞书小头像 96px/128px 圆形裁切；交付 1024x1024 PNG + 小尺寸预览 - 交付数…",
       "completed_at": 1779951433,
@@ -20247,7 +20337,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1785479167,
-      "status": "running",
+      "status": "blocked",
       "title": "[Product Asset Handoff] coovoa-20260723-long-grill-caddy -> Dangdang Listing/A+ precheck",
       "updated_at": 1785479167,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_68f23302"
@@ -25219,6 +25309,24 @@
       "title": "[Auto Continue 3/3] [IMPORTANT: The user has invoked the \"coovoamae-inventory-watch\" skill, indicating they want you",
       "updated_at": 1785470431,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_0f7c464d"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "completed_at": null,
+      "created_at": 1785484768,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_8a989291",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785484769,
+      "status": "running",
+      "title": "[Auto Continue 1/3] 给我推荐一个常态选品吧",
+      "updated_at": 1785484769,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a989291"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
