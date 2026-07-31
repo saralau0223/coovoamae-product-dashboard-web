@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
-      "completed_at": null,
-      "created_at": 1785484768,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_8a989291",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785484769,
-      "status": "running",
-      "title": "[Auto Continue 1/3] 给我推荐一个常态选品吧",
-      "updated_at": 1785484769,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a989291"
-    },
-    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -2616,9 +2598,8 @@
       "counts": {
         "archived": 10,
         "blocked": 52,
-        "done": 159,
+        "done": 160,
         "ready": 4,
-        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -2680,10 +2661,10 @@
       "total": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 1,
+      "active": 0,
       "blocked": 4,
-      "done": 103,
-      "running": 1,
+      "done": 104,
+      "running": 0,
       "total": 108
     },
     "coovoamae-engineering-solidworks": {
@@ -2791,10 +2772,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785484801,
-  "generated_at_iso": "2026-07-31T16:00:01+08:00",
+  "generated_at": 1785488401,
+  "generated_at_iso": "2026-07-31T17:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
+      "completed_at": 1785485067,
+      "created_at": 1785484768,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_8a989291",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785484769,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 给我推荐一个常态选品吧",
+      "updated_at": 1785485067,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a989291"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3316,35 +3315,17 @@
       "title": "[Auto Continue 1/4] work kanban task t_0b119517",
       "updated_at": 1785404171,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_df48316d"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"确认项目锁定与 delivery-first 状态\", \"执行 LinkFox 第1轮20槽修复\", \"成功下载20张真实候选\", \"逐槽完成盲识别及产品真实、视觉、文案发布初步QA\" ], \"artifacts\": [ \"/root/.hermes/kanban/boards/coov…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260730_151849_fe09a1\", \"goal\": \"work kanban task t_9b90bca5\", \"completed\": [ \"确认项目锁定与 delivery-first 状态\", \"执行 LinkFox 第1轮20槽修复\", \"成功下载20张真实候选\", \"逐槽完成盲识别及产品真实、视觉、文案发布初步QA\" ], \"artifacts\": [ \"/root/.hermes/kanban/boards/coov…",
-      "completed_at": 1785403549,
-      "created_at": 1785398639,
-      "created_by": "coovoamae-crm",
-      "id": "t_c4af2c13",
-      "priority": 100,
-      "result": "Round 2 salvage and QA phase completed; 12 candidate assets were staged, but final suite remains incomplete. Continue with the existing child task using the verified no-new-generation salvage plan and independent Codex QA corrections.",
-      "started_at": 1785399908,
-      "status": "done",
-      "title": "[Auto Continue 2/4] work kanban task t_9b90bca5",
-      "updated_at": 1785403549,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_c4af2c13"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 23,
+    "active": 22,
     "archived": 116,
     "blocked": 117,
-    "done": 1083,
+    "done": 1084,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 12,
     "total": 1339,
     "triage": 3
@@ -25316,16 +25297,16 @@
       "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_155712_cd2734\", \"goal\": \"给我推荐一个常态选品吧\", \"completed\": [ \"核对当前利润测算表与近期常态候选并完成去重\", \"筛选10个常态产品假设\", \"完成超声波清洗机官方需求、竞争、价格、退货和包装验证\", \"完成39.99美元售价下的FBA与采购成本压力测试\", \"给出唯一候选及补数据结论\" ], \"artifacts\": [ \"07_利润测算（鹰眼）/1hMxkQ\", \"POE ni…",
-      "completed_at": null,
+      "completed_at": 1785485067,
       "created_at": 1785484768,
       "created_by": "coovoamae-eagle-eye",
       "id": "t_8a989291",
       "priority": 100,
       "result": "",
       "started_at": 1785484769,
-      "status": "running",
+      "status": "done",
       "title": "[Auto Continue 1/3] 给我推荐一个常态选品吧",
-      "updated_at": 1785484769,
+      "updated_at": 1785485067,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8a989291"
     },
     {
