@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_074813_590346\", \"goal\": \"work kanban task t_98bf0f9e\", \"completed\": [ \"复核现有批次报告、回执、拒绝清单及恢复任务\", \"完成24个Amazon US POE fresh-live替代方向查询\", \"查询27个Catalog竞品并取得20个可用包装档案\", \"按2026费率完成9个原候选FBA门槛测算\", \"形成10个待深验方向及一批明确淘汰方向\" ], \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_074813_590346\", \"goal\": \"work kanban task t_98bf0f9e\", \"completed\": [ \"复核现有批次报告、回执、拒绝清单及恢复任务\", \"完成24个Amazon US POE fresh-live替代方向查询\", \"查询27个Catalog竞品并取得20个可用包装档案\", \"按2026费率完成9个原候选FBA门槛测算\", \"形成10个待深验方向及一批明确淘汰方向\" ], \"…",
+      "completed_at": null,
+      "created_at": 1785455340,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_8170ac6c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785455344,
+      "status": "running",
+      "title": "[Auto Continue 1/3] work kanban task t_98bf0f9e",
+      "updated_at": 1785455344,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_8170ac6c"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -2366,7 +2384,8 @@
       "counts": {
         "archived": 38,
         "blocked": 1,
-        "done": 579
+        "done": 580,
+        "running": 1
       },
       "name": "Default",
       "slug": "default"
@@ -2517,11 +2536,11 @@
       "total": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 0,
+      "active": 1,
       "blocked": 1,
-      "done": 92,
-      "running": 0,
-      "total": 93
+      "done": 93,
+      "running": 1,
+      "total": 95
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -2628,10 +2647,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785452402,
-  "generated_at_iso": "2026-07-31T07:00:02+08:00",
+  "generated_at": 1785456002,
+  "generated_at_iso": "2026-07-31T08:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹰眼｜常青核心 10 款批次最小恢复 1 规范批次：`codex-evergreen-core-10-20260730` 这是原任务 `t_6f7bba78` 的幂等恢复，不是新批次。先读取： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/batch.json` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30…",
+      "body_preview": "# 鹰眼｜常青核心 10 款批次最小恢复 1 规范批次：`codex-evergreen-core-10-20260730` 这是原任务 `t_6f7bba78` 的幂等恢复，不是新批次。先读取： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/batch.json` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30…",
+      "completed_at": 1785455340,
+      "created_at": 1785454373,
+      "created_by": "current-codex-thread-heartbeat",
+      "id": "t_98bf0f9e",
+      "priority": 225,
+      "result": "Auto-continuation round 0 handed off to t_8170ac6c.",
+      "started_at": 1785454382,
+      "status": "done",
+      "title": "鹰眼｜2026-07-30 常青核心10款最小恢复1",
+      "updated_at": 1785455340,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_98bf0f9e"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "default",
@@ -3153,37 +3190,19 @@
       "title": "[Auto Continue 1/3] 确认接受$19.44入库配置费，目的仓HIA1，按自有承运人海运继续生成2张箱唛",
       "updated_at": 1785344985,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_6ae20668"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_235100_8b94d5\", \"goal\": \"work kanban task t_cc563928\", \"completed\": [ \"核对 K03 产品真相与同款结构参考\", \"将 runner 更新为 r2-truth-correction-full-suite\", \"调整生成配额为 1 张白底主图、6 张卖点图、2 张场景图\", \"通过 decide_delivery_first 新锚点修复生成闸\", \"启动 Li…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260729_235100_8b94d5\", \"goal\": \"work kanban task t_cc563928\", \"completed\": [ \"核对 K03 产品真相与同款结构参考\", \"将 runner 更新为 r2-truth-correction-full-suite\", \"调整生成配额为 1 张白底主图、6 张卖点图、2 张场景图\", \"通过 decide_delivery_first 新锚点修复生成闸\", \"启动 Li…",
-      "completed_at": 1785343607,
-      "created_at": 1785340330,
-      "created_by": "coovoamae-crm",
-      "id": "t_e4a8e06c",
-      "priority": 100,
-      "result": "Auto-continuation round 1 handed off to t_92c4d726.",
-      "started_at": 1785340331,
-      "status": "done",
-      "title": "[Auto Continue 1/4] work kanban task t_cc563928",
-      "updated_at": 1785343607,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e4a8e06c"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 19,
+    "active": 20,
     "archived": 116,
     "blocked": 112,
-    "done": 1063,
+    "done": 1064,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 9,
-    "total": 1310,
+    "total": 1312,
     "triage": 3
   },
   "tasks": [
@@ -3204,6 +3223,24 @@
       "title": "上传相片收纳盒 B0H36RKCRS 套图｜Sara选中4张场景图",
       "updated_at": 1780884510,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a20453ff"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "# 鹰眼｜常青核心 10 款批次最小恢复 1 规范批次：`codex-evergreen-core-10-20260730` 这是原任务 `t_6f7bba78` 的幂等恢复，不是新批次。先读取： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/batch.json` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30…",
+      "body_preview": "# 鹰眼｜常青核心 10 款批次最小恢复 1 规范批次：`codex-evergreen-core-10-20260730` 这是原任务 `t_6f7bba78` 的幂等恢复，不是新批次。先读取： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/batch.json` - `/root/.hermes/shared/evergreen-core-selection/2026-07-30…",
+      "completed_at": 1785455340,
+      "created_at": 1785454373,
+      "created_by": "current-codex-thread-heartbeat",
+      "id": "t_98bf0f9e",
+      "priority": 225,
+      "result": "Auto-continuation round 0 handed off to t_8170ac6c.",
+      "started_at": 1785454382,
+      "status": "done",
+      "title": "鹰眼｜2026-07-30 常青核心10款最小恢复1",
+      "updated_at": 1785455340,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_98bf0f9e"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -3762,6 +3799,24 @@
       "title": "[Auto Continue 3/3] work kanban task t_6f7bba78",
       "updated_at": 1785422387,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_057f869d"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_074813_590346\", \"goal\": \"work kanban task t_98bf0f9e\", \"completed\": [ \"复核现有批次报告、回执、拒绝清单及恢复任务\", \"完成24个Amazon US POE fresh-live替代方向查询\", \"查询27个Catalog竞品并取得20个可用包装档案\", \"按2026费率完成9个原候选FBA门槛测算\", \"形成10个待深验方向及一批明确淘汰方向\" ], \"…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260731_074813_590346\", \"goal\": \"work kanban task t_98bf0f9e\", \"completed\": [ \"复核现有批次报告、回执、拒绝清单及恢复任务\", \"完成24个Amazon US POE fresh-live替代方向查询\", \"查询27个Catalog竞品并取得20个可用包装档案\", \"按2026费率完成9个原候选FBA门槛测算\", \"形成10个待深验方向及一批明确淘汰方向\" ], \"…",
+      "completed_at": null,
+      "created_at": 1785455340,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_8170ac6c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785455344,
+      "status": "running",
+      "title": "[Auto Continue 1/3] work kanban task t_98bf0f9e",
+      "updated_at": 1785455344,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_8170ac6c"
     },
     {
       "assignee": "coovoamae-eagle-eye",
