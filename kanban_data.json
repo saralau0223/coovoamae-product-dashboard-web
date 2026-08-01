@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": null,
+      "created_at": 1785581252,
+      "created_by": "coovoamae-lion",
+      "id": "t_99706e16",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785581252,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1785581252,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_99706e16"
+    },
+    {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
@@ -2618,6 +2636,7 @@
         "blocked": 53,
         "done": 171,
         "ready": 4,
+        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -2714,11 +2733,11 @@
       "total": 65
     },
     "coovoamae-lion": {
-      "active": 0,
+      "active": 1,
       "blocked": 4,
       "done": 26,
-      "running": 0,
-      "total": 30
+      "running": 1,
+      "total": 31
     },
     "coovoamae-luming": {
       "active": 0,
@@ -2790,8 +2809,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785578401,
-  "generated_at_iso": "2026-08-01T18:00:01+08:00",
+  "generated_at": 1785582001,
+  "generated_at_iso": "2026-08-01T19:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3337,15 +3356,15 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 22,
+    "active": 23,
     "archived": 116,
     "blocked": 118,
     "done": 1095,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 12,
-    "total": 1351,
+    "total": 1352,
     "triage": 3
   },
   "tasks": [
@@ -25542,6 +25561,24 @@
       "title": "[Auto Continue 2/3] 确定",
       "updated_at": 1785564126,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_6030971c"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
+      "completed_at": null,
+      "created_at": 1785581252,
+      "created_by": "coovoamae-lion",
+      "id": "t_99706e16",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785581252,
+      "status": "running",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1785581252,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_99706e16"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
