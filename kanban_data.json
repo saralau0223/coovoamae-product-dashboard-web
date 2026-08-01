@@ -289,6 +289,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260801T133340Z-6600242e-6600242e - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260801T133340…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260801T133340Z-6600242e-6600242e - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260801T133340…",
+      "completed_at": null,
+      "created_at": 1785591221,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_108a88b5",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785591221,
+      "status": "running",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0GXVNPM68",
+      "updated_at": 1785591221,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_108a88b5"
+    },
+    {
       "assignee": "coovoamae-product-auditor",
       "board": "coovoamae-video-assets",
       "board_name": "COOVOAMAE Video Assets",
@@ -2537,7 +2555,8 @@
       "counts": {
         "archived": 1,
         "done": 42,
-        "ready": 2
+        "ready": 2,
+        "running": 1
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
       "slug": "coovoamae-ads-manager-handoffs"
@@ -2616,7 +2635,7 @@
       "counts": {
         "archived": 10,
         "blocked": 53,
-        "done": 172,
+        "done": 173,
         "ready": 4,
         "todo": 2
       },
@@ -2626,11 +2645,11 @@
   ],
   "by_agent": {
     "coovoamae-ads-manager": {
-      "active": 0,
+      "active": 1,
       "blocked": 0,
       "done": 48,
-      "running": 0,
-      "total": 48
+      "running": 1,
+      "total": 49
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 5,
@@ -2681,9 +2700,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 4,
-      "done": 111,
+      "done": 112,
       "running": 0,
-      "total": 115
+      "total": 116
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -2790,10 +2809,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785589201,
-  "generated_at_iso": "2026-08-01T21:00:01+08:00",
+  "generated_at": 1785592802,
+  "generated_at_iso": "2026-08-01T22:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
+      "completed_at": 1785592755,
+      "created_at": 1785592371,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_37ae2bac",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785592374,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你在继续吗",
+      "updated_at": 1785592755,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37ae2bac"
+    },
     {
       "assignee": "coovoamae-lion",
       "board": "hermes-auto-continue",
@@ -3315,37 +3352,19 @@
       "title": "[Auto Continue 1/3] work kanban task t_087cb33a",
       "updated_at": 1785459063,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_5da69d23"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "default",
-      "board_name": "Default",
-      "body": "# 鹰眼｜常青核心 10 款批次最小恢复 2：先固化证据，再补替代项 规范批次：`codex-evergreen-core-10-20260730` 这是原批次的第二个幂等恢复点，不是新批次。上一恢复链已经终止并因 3 轮自动 continuation 上限 blocked；不得把“跑过研究”当作交付完成，也不得重复已有行、learning case、消息或 live 查询。 先读取并服从： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergree…",
-      "body_preview": "# 鹰眼｜常青核心 10 款批次最小恢复 2：先固化证据，再补替代项 规范批次：`codex-evergreen-core-10-20260730` 这是原批次的第二个幂等恢复点，不是新批次。上一恢复链已经终止并因 3 轮自动 continuation 上限 blocked；不得把“跑过研究”当作交付完成，也不得重复已有行、learning case、消息或 live 查询。 先读取并服从： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` - `/root/.hermes/shared/evergree…",
-      "completed_at": 1785458520,
-      "created_at": 1785457652,
-      "created_by": "current-codex-thread-heartbeat",
-      "id": "t_087cb33a",
-      "priority": 226,
-      "result": "Auto-continuation round 0 handed off to t_5da69d23.",
-      "started_at": 1785457755,
-      "status": "done",
-      "title": "鹰眼｜2026-07-30 常青核心10款最小恢复2",
-      "updated_at": 1785458520,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_087cb33a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 22,
+    "active": 23,
     "archived": 116,
     "blocked": 118,
-    "done": 1096,
+    "done": 1097,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 12,
-    "total": 1352,
+    "total": 1354,
     "triage": 3
   },
   "tasks": [
@@ -14418,6 +14437,24 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0H36RKCRS",
       "updated_at": 1785299370,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_5c720667"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260801T133340Z-6600242e-6600242e - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260801T133340…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260801T133340Z-6600242e-6600242e - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260801T133340…",
+      "completed_at": null,
+      "created_at": 1785591221,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_108a88b5",
+      "priority": 80,
+      "result": "",
+      "started_at": 1785591221,
+      "status": "running",
+      "title": "[Cross-lane Advice: Dangdang->Ads] B0GXVNPM68",
+      "updated_at": 1785591221,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_108a88b5"
     },
     {
       "assignee": "coovoamae-ads-manager",
@@ -25560,6 +25597,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
       "updated_at": 1785583772,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_99706e16"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
+      "completed_at": 1785592755,
+      "created_at": 1785592371,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_37ae2bac",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785592374,
+      "status": "done",
+      "title": "[Auto Continue 1/3] 你在继续吗",
+      "updated_at": 1785592755,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37ae2bac"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
