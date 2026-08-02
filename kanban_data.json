@@ -597,6 +597,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_754c17dc694d_20260802_103015\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: a…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_754c17dc694d_20260802_103015\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: a…",
+      "completed_at": null,
+      "created_at": 1785638407,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_76851f82",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785638441,
+      "status": "blocked",
+      "title": "[Auto Continue 1/1] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
+      "updated_at": 1785638441,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_76851f82"
+    },
+    {
       "assignee": "coovoamae-eagle-eye",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -2850,8 +2868,8 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 54,
-        "done": 175,
+        "blocked": 55,
+        "done": 176,
         "ready": 4,
         "todo": 2
       },
@@ -2870,10 +2888,10 @@
     },
     "coovoamae-ads-manager": {
       "active": 0,
-      "blocked": 0,
+      "blocked": 1,
       "done": 50,
       "running": 0,
-      "total": 50
+      "total": 51
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 5,
@@ -2958,9 +2976,9 @@
     "coovoamae-lion": {
       "active": 0,
       "blocked": 4,
-      "done": 27,
+      "done": 28,
       "running": 0,
-      "total": 31
+      "total": 32
     },
     "coovoamae-luming": {
       "active": 0,
@@ -3031,10 +3049,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785636001,
-  "generated_at_iso": "2026-08-02T10:00:01+08:00",
+  "generated_at": 1785639601,
+  "generated_at_iso": "2026-08-02T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_481eb48e51dd_20260802_103048\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nna…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_481eb48e51dd_20260802_103048\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nna…",
+      "completed_at": 1785638882,
+      "created_at": 1785638738,
+      "created_by": "coovoamae-lion",
+      "id": "t_edc35627",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785638742,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1785638882,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_edc35627"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3556,37 +3592,19 @@
       "title": "方舟验收｜20260731飞书产品开发缺口巡检",
       "updated_at": 1785464059,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_1b4cf51b"
-    },
-    {
-      "assignee": "coovoamae-luming",
-      "board": "coovoamae-coo",
-      "board_name": "COOVOAMAE COO Control Tower",
-      "body": "initiative_id=PD-GAP-PATROL-20260731 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-31 09:00「COOVOAMAE 单品卡→品类对比选择同步（日更）」报 RuntimeError；最近已验收基线 coovoamae-coo/t_cb55f633、t_19288163 为产品主表 exact `03_单品卡` 不可见。过去24小时鹰眼常青核心10款恢复链（default/t_6f7bba78、t_98bf0f9e、t_087…",
-      "body_preview": "initiative_id=PD-GAP-PATROL-20260731 board=coovoamae-coo owner=coovoamae-luming reviewer=coovoamae-chief-of-staff 背景：2026-07-31 09:00「COOVOAMAE 单品卡→品类对比选择同步（日更）」报 RuntimeError；最近已验收基线 coovoamae-coo/t_cb55f633、t_19288163 为产品主表 exact `03_单品卡` 不可见。过去24小时鹰眼常青核心10款恢复链（default/t_6f7bba78、t_98bf0f9e、t_087…",
-      "completed_at": 1785463864,
-      "created_at": 1785463431,
-      "created_by": "coovoamae-chief-of-staff-cron",
-      "id": "t_f2191f1a",
-      "priority": 120,
-      "result": "已完成 t_f2191f1a 的只读 QA 复测与交付物落盘。 结论： 1. 飞书产品主表当前可访问 metainfo 仍为 37 个页签；当前可访问 metainfo 中未出现 exact/fuzzy `03_单品卡`。 2. 今日 09:00「单品卡→品类对比选择同步（日更）」RuntimeError 与既有页签/授权/脚本映射阻塞一致；但不能断言页签已删除，只能说当前 app 可访问 metainfo 里不可见，可能是删除、重命名、隐藏或无权限。 3. Stage-1 缺口与 20260716 已验收基线 [已省略无关或未核实的内部任务号] 对比无变化：缺口行 108、阻塞行 90、新…",
-      "started_at": 1785463434,
-      "status": "done",
-      "title": "20260731巡检｜飞书产品主表、Stage-1缺口与鹰眼反方陈述QA",
-      "updated_at": 1785463864,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-coo/workspaces/t_f2191f1a"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 28,
     "archived": 116,
-    "blocked": 125,
-    "done": 1101,
+    "blocked": 126,
+    "done": 1102,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1370,
+    "total": 1372,
     "triage": 0
   },
   "tasks": [
@@ -26125,6 +26143,42 @@
       "title": "[Auto Continue 1/3] 你现在继续帮我找五款符合我们线上无印良品生活品牌的产品可以吗",
       "updated_at": 1785634756,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_0c8d1488"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_754c17dc694d_20260802_103015\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: a…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_754c17dc694d_20260802_103015\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-ads-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: a…",
+      "completed_at": null,
+      "created_at": 1785638407,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_76851f82",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785638441,
+      "status": "blocked",
+      "title": "[Auto Continue 1/1] [IMPORTANT: The user has invoked the \"amazon-ads-operations\" skill, indicating they want you to",
+      "updated_at": 1785638441,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_76851f82"
+    },
+    {
+      "assignee": "coovoamae-lion",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_481eb48e51dd_20260802_103048\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nna…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_481eb48e51dd_20260802_103048\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nna…",
+      "completed_at": 1785638882,
+      "created_at": 1785638738,
+      "created_by": "coovoamae-lion",
+      "id": "t_edc35627",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785638742,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
+      "updated_at": 1785638882,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_edc35627"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
