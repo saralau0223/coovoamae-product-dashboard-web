@@ -597,6 +597,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260803_081515\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260803_081515\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "completed_at": null,
+      "created_at": 1785716775,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_b15e23a5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785716817,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
+      "updated_at": 1785716817,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_b15e23a5"
+    },
+    {
       "assignee": "coovoamae-ads-manager",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -2868,8 +2886,8 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 55,
-        "done": 177,
+        "blocked": 56,
+        "done": 178,
         "ready": 4,
         "todo": 2
       },
@@ -2895,11 +2913,11 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 5,
-      "blocked": 33,
-      "done": 110,
+      "blocked": 34,
+      "done": 111,
       "running": 0,
       "todo": 5,
-      "total": 148
+      "total": 150
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3049,10 +3067,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785715201,
-  "generated_at_iso": "2026-08-03T08:00:01+08:00",
+  "generated_at": 1785718802,
+  "generated_at_iso": "2026-08-03T09:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_083144_43b8d738\", \"goal\": \"B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_083144_43b8d738\", \"goal\": \"B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume…",
+      "completed_at": 1785718577,
+      "created_at": 1785717790,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_7947a360",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785717839,
+      "status": "done",
+      "title": "[Auto Continue 1/3] B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理",
+      "updated_at": 1785718577,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7947a360"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "hermes-auto-continue",
@@ -3574,37 +3610,19 @@
       "title": "[Auto Continue 1/3] work kanban task t_bb61daac",
       "updated_at": 1785465342,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_114ac5ff"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "default",
-      "board_name": "Default",
-      "body": "# 鹰眼｜常青核心 10 款批次最小恢复 3：分段闭口，禁止重扫 规范批次：`codex-evergreen-core-10-20260730` 这是同一批次的第三个幂等恢复点，不是新批次。前两条恢复链已终止；当前规范回执为 `blocked_partial`：严格合格 `0/10`、保留待闭口 `3`、空缺 `7`、飞书写入 `0`、learning case `0`。不得重复旧查询、旧行、case、消息或把候选研究误报为完成。 先完整读取并服从： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` -…",
-      "body_preview": "# 鹰眼｜常青核心 10 款批次最小恢复 3：分段闭口，禁止重扫 规范批次：`codex-evergreen-core-10-20260730` 这是同一批次的第三个幂等恢复点，不是新批次。前两条恢复链已终止；当前规范回执为 `blocked_partial`：严格合格 `0/10`、保留待闭口 `3`、空缺 `7`、飞书写入 `0`、learning case `0`。不得重复旧查询、旧行、case、消息或把候选研究误报为完成。 先完整读取并服从： - `/root/.hermes/shared/evergreen-core-selection/2026-07-30/task.md` -…",
-      "completed_at": 1785464714,
-      "created_at": 1785463629,
-      "created_by": "current-codex-thread-heartbeat",
-      "id": "t_bb61daac",
-      "priority": 227,
-      "result": "Auto-continuation round 0 handed off to t_114ac5ff.",
-      "started_at": 1785463633,
-      "status": "done",
-      "title": "鹰眼｜2026-07-30 常青核心10款最小恢复3",
-      "updated_at": 1785464714,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_bb61daac"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 28,
     "archived": 116,
-    "blocked": 126,
-    "done": 1103,
+    "blocked": 127,
+    "done": 1104,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1373,
+    "total": 1375,
     "triage": 0
   },
   "tasks": [
@@ -26197,6 +26215,42 @@
       "title": "[Auto Continue 1/1] 按“一品一战役、四层流量、五级词、单变量闭环”做全账户广告作战地图；先只读诊断，给我当前结构偏差、各ASIN打法和最多3项P0动作，不执行任何广告修改。",
       "updated_at": 1785640426,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_94281d06"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260803_081515\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260803_081515\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "completed_at": null,
+      "created_at": 1785716775,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_b15e23a5",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785716817,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
+      "updated_at": 1785716817,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_b15e23a5"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_083144_43b8d738\", \"goal\": \"B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_083144_43b8d738\", \"goal\": \"B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume…",
+      "completed_at": 1785718577,
+      "created_at": 1785717790,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_7947a360",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785717839,
+      "status": "done",
+      "title": "[Auto Continue 1/3] B0HC5TYP8V，我们新上架的asin ,还没有fnsku ，你去检查一下看是什么原因，要怎么处理",
+      "updated_at": 1785718577,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_7947a360"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
