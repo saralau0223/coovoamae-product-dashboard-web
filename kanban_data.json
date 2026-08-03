@@ -2487,6 +2487,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fc5aa2ad"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260803T021827Z-p1-q08-7-5f634aad - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260803T021827Z-p1-q08-7-5f634aad - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "completed_at": null,
+      "created_at": 1785723508,
+      "created_by": "coovoamae-lion",
+      "id": "t_4aaa1e97",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785723509,
+      "status": "blocked",
+      "title": "[Lion -> Ads Manager] P1｜Q08+主力眼罩：既有广告干预7日只读验收",
+      "updated_at": 1785723509,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4aaa1e97"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -2806,6 +2824,7 @@
     {
       "counts": {
         "archived": 1,
+        "blocked": 1,
         "done": 44,
         "ready": 2
       },
@@ -2906,10 +2925,10 @@
     },
     "coovoamae-ads-manager": {
       "active": 0,
-      "blocked": 1,
+      "blocked": 2,
       "done": 51,
       "running": 0,
-      "total": 52
+      "total": 53
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 5,
@@ -3067,8 +3086,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785722402,
-  "generated_at_iso": "2026-08-03T10:00:02+08:00",
+  "generated_at": 1785726002,
+  "generated_at_iso": "2026-08-03T11:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3616,13 +3635,13 @@
   "summary": {
     "active": 28,
     "archived": 116,
-    "blocked": 127,
+    "blocked": 128,
     "done": 1105,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1376,
+    "total": 1377,
     "triage": 0
   },
   "tasks": [
@@ -15073,6 +15092,24 @@
       "title": "[Lion -> Ads Manager] P1｜07/21–27 广告效率下滑：ASIN/搜索词/位置只读拆因",
       "updated_at": 1785310810,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_feff3a59"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260803T021827Z-p1-q08-7-5f634aad - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260803T021827Z-p1-q08-7-5f634aad - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/wor…",
+      "completed_at": null,
+      "created_at": 1785723508,
+      "created_by": "coovoamae-lion",
+      "id": "t_4aaa1e97",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785723509,
+      "status": "blocked",
+      "title": "[Lion -> Ads Manager] P1｜Q08+主力眼罩：既有广告干预7日只读验收",
+      "updated_at": 1785723509,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4aaa1e97"
     },
     {
       "assignee": "coovoamae-ads-manager",
