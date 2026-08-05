@@ -615,6 +615,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260805_073043\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260805_073043\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": null,
+      "created_at": 1785887158,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_6a07d689",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785887178,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1785887178,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_6a07d689"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -2923,7 +2941,7 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 56,
+        "blocked": 57,
         "completed": 1,
         "done": 183,
         "ready": 4,
@@ -2997,10 +3015,10 @@
     },
     "coovoamae-eagle-eye": {
       "active": 0,
-      "blocked": 5,
+      "blocked": 6,
       "done": 115,
       "running": 0,
-      "total": 120
+      "total": 121
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -3106,8 +3124,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785884402,
-  "generated_at_iso": "2026-08-05T07:00:02+08:00",
+  "generated_at": 1785888001,
+  "generated_at_iso": "2026-08-05T08:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3655,14 +3673,14 @@
   "summary": {
     "active": 29,
     "archived": 116,
-    "blocked": 128,
+    "blocked": 129,
     "completed": 1,
     "done": 1114,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1387,
+    "total": 1388,
     "triage": 0
   },
   "tasks": [
@@ -26507,6 +26525,24 @@
       "title": "[Auto Continue 1/3] 我们现在所有的产品都有同步到加拿大市场销售吗",
       "updated_at": 1785811749,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_97a21303"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260805_073043\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260805_073043\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": null,
+      "created_at": 1785887158,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_6a07d689",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785887178,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1785887178,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_6a07d689"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
