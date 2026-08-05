@@ -22,24 +22,6 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260805_171755_66cb39\", \"goal\": \"处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZSN32D，FNSKU X004ZTPVTN，1箱36件）的 delivery window 从当前实时已确认的 Aug 9, 2026–Aug 15, 2026 修改为 Aug 23,…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260805_171755_66cb39\", \"goal\": \"处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZSN32D，FNSKU X004ZTPVTN，1箱36件）的 delivery window 从当前实时已确认的 Aug 9, 2026–Aug 15, 2026 修改为 Aug 23,…",
-      "completed_at": null,
-      "created_at": 1785923510,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_cbb59f45",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785923567,
-      "status": "running",
-      "title": "[Auto Continue 1/3] 处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZ",
-      "updated_at": 1785923567,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cbb59f45"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_181649_eb05b8\", \"goal\": \"# 当当执行指令：FBA19HRFSD40 派送窗口修改\\n\\n当前用户原话：`这个问题也要处理一下`\\n\\n用户同时提供的任务截图明确显示：\\n\\n- 客户/店铺：广州芸杰科技有限公司\\n- 物流工作号：`DNAD2607DN0102919`\\n- Amazon Shipment ID / FBA Code：`FBA19HRFSD40`\\n- 目的仓：`DEN8`\\n- 建议…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_181649_eb05b8\", \"goal\": \"# 当当执行指令：FBA19HRFSD40 派送窗口修改\\n\\n当前用户原话：`这个问题也要处理一下`\\n\\n用户同时提供的任务截图明确显示：\\n\\n- 客户/店铺：广州芸杰科技有限公司\\n- 物流工作号：`DNAD2607DN0102919`\\n- Amazon Shipment ID / FBA Code：`FBA19HRFSD40`\\n- 目的仓：`DEN8`\\n- 建议…",
       "completed_at": 1785754004,
@@ -631,6 +613,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260805_171755_66cb39\", \"goal\": \"处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZSN32D，FNSKU X004ZTPVTN，1箱36件）的 delivery window 从当前实时已确认的 Aug 9, 2026–Aug 15, 2026 修改为 Aug 23,…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260805_171755_66cb39\", \"goal\": \"处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZSN32D，FNSKU X004ZTPVTN，1箱36件）的 delivery window 从当前实时已确认的 Aug 9, 2026–Aug 15, 2026 修改为 Aug 23,…",
+      "completed_at": null,
+      "created_at": 1785923510,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_cbb59f45",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785923567,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] 处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZ",
+      "updated_at": 1785923567,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cbb59f45"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -2977,11 +2977,10 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 58,
+        "blocked": 59,
         "completed": 1,
         "done": 184,
         "ready": 4,
-        "running": 1,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -3005,11 +3004,11 @@
       "total": 53
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 7,
-      "blocked": 35,
+      "active": 6,
+      "blocked": 36,
       "completed": 1,
       "done": 115,
-      "running": 1,
+      "running": 0,
       "todo": 5,
       "total": 157
     },
@@ -3161,8 +3160,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785924002,
-  "generated_at_iso": "2026-08-05T18:00:02+08:00",
+  "generated_at": 1785927601,
+  "generated_at_iso": "2026-08-05T19:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3708,14 +3707,14 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
+    "active": 29,
     "archived": 116,
-    "blocked": 130,
+    "blocked": 131,
     "completed": 1,
     "done": 1115,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 21,
     "total": 1391,
     "triage": 0
@@ -26630,7 +26629,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1785923567,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 1/3] 处理用户当前明确授权的唯一操作：将伟鹏 Amazon US 货件 FBA19H3BH4P3（Reference 1ZKCSXEJ，仓库 RFD2，SKU HEM-PINK，ASIN B0GWZ",
       "updated_at": 1785923567,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cbb59f45"
