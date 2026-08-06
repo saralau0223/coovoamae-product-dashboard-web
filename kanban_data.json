@@ -22,24 +22,6 @@
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_092614_7c56f901\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image is a close-up of the side of a large tan/brown corrugated cardboard shipping box, photographed at a slight angle. The cardboard h…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_092614_7c56f901\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image is a close-up of the side of a large tan/brown corrugated cardboard shipping box, photographed at a slight angle. The cardboard h…",
-      "completed_at": null,
-      "created_at": 1785981583,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_e219ad4e",
-      "priority": 100,
-      "result": "",
-      "started_at": null,
-      "status": "ready",
-      "title": "[Auto Continue 1/3] [The user sent an image~ Here's what I can see:",
-      "updated_at": 1785981583,
-      "workspace_path": ""
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
       "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_181649_eb05b8\", \"goal\": \"# 当当执行指令：FBA19HRFSD40 派送窗口修改\\n\\n当前用户原话：`这个问题也要处理一下`\\n\\n用户同时提供的任务截图明确显示：\\n\\n- 客户/店铺：广州芸杰科技有限公司\\n- 物流工作号：`DNAD2607DN0102919`\\n- Amazon Shipment ID / FBA Code：`FBA19HRFSD40`\\n- 目的仓：`DEN8`\\n- 建议…",
       "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260803_181649_eb05b8\", \"goal\": \"# 当当执行指令：FBA19HRFSD40 派送窗口修改\\n\\n当前用户原话：`这个问题也要处理一下`\\n\\n用户同时提供的任务截图明确显示：\\n\\n- 客户/店铺：广州芸杰科技有限公司\\n- 物流工作号：`DNAD2607DN0102919`\\n- Amazon Shipment ID / FBA Code：`FBA19HRFSD40`\\n- 目的仓：`DEN8`\\n- 建议…",
       "completed_at": 1785754004,
@@ -631,6 +613,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_092614_7c56f901\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image is a close-up of the side of a large tan/brown corrugated cardboard shipping box, photographed at a slight angle. The cardboard h…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_092614_7c56f901\", \"goal\": \"[The user sent an image~ Here's what I can see:\\nThe image is a close-up of the side of a large tan/brown corrugated cardboard shipping box, photographed at a slight angle. The cardboard h…",
+      "completed_at": null,
+      "created_at": 1785981583,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_e219ad4e",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785981610,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] [The user sent an image~ Here's what I can see:",
+      "updated_at": 1785981610,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e219ad4e"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -2925,7 +2925,7 @@
       "counts": {
         "archived": 1,
         "blocked": 15,
-        "done": 58,
+        "done": 59,
         "todo": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -2995,10 +2995,10 @@
     {
       "counts": {
         "archived": 10,
-        "blocked": 59,
+        "blocked": 60,
         "completed": 1,
         "done": 187,
-        "ready": 5,
+        "ready": 4,
         "todo": 2
       },
       "name": "Hermes Auto Continue",
@@ -3022,14 +3022,13 @@
       "total": 53
     },
     "coovoamae-amazon-ops-lizhutian": {
-      "active": 7,
-      "blocked": 36,
+      "active": 6,
+      "blocked": 37,
       "completed": 1,
-      "done": 117,
-      "ready": 1,
+      "done": 118,
       "running": 0,
       "todo": 5,
-      "total": 160
+      "total": 161
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3179,10 +3178,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785981601,
-  "generated_at_iso": "2026-08-06T10:00:01+08:00",
+  "generated_at": 1785985202,
+  "generated_at_iso": "2026-08-06T11:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "completed_at": 1785983562,
+      "created_at": 1785982625,
+      "created_by": "coovoamae-lion",
+      "id": "t_ef10b9a0",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785982626,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜Q08库存放量闸：可售覆盖与500件在途状态只读核验",
+      "updated_at": 1785983562,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ef10b9a0"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3704,38 +3721,20 @@
       "title": "[Auto Continue 1/3] 你继续呢，为啥总是停止呢",
       "updated_at": 1785548392,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_1b56f3ed"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260801_071224_2eff2a\", \"goal\": \"没有找到你继续找呢，而不是给我一个没有找到\", \"completed\": [ \"验证3个低Review有效进入者及近30天购买量下界\", \"复核代表包装尺寸、计费重及淡旺季FBA\", \"重算39.99美元售价下的贡献利润和采购成本上限\", \"完成产品定义、样品验证合同、反方陈述和证据边界\", \"生成并回读验证证据补强报告\" ], \"artifacts\": [ \"/root/.h…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260801_071224_2eff2a\", \"goal\": \"没有找到你继续找呢，而不是给我一个没有找到\", \"completed\": [ \"验证3个低Review有效进入者及近30天购买量下界\", \"复核代表包装尺寸、计费重及淡旺季FBA\", \"重算39.99美元售价下的贡献利润和采购成本上限\", \"完成产品定义、样品验证合同、反方陈述和证据边界\", \"生成并回读验证证据补强报告\" ], \"artifacts\": [ \"/root/.h…",
-      "completed_at": 1785540386,
-      "created_at": 1785540323,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_2ec079cc",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785540339,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 没有找到你继续找呢，而不是给我一个没有找到",
-      "updated_at": 1785540386,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_2ec079cc"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
+    "active": 29,
     "archived": 116,
-    "blocked": 131,
+    "blocked": 132,
     "completed": 1,
-    "done": 1118,
+    "done": 1119,
     "pending": 0,
-    "ready": 8,
+    "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1395,
+    "total": 1396,
     "triage": 0
   },
   "tasks": [
@@ -16502,6 +16501,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_44cadf78"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
+      "completed_at": 1785983562,
+      "created_at": 1785982625,
+      "created_by": "coovoamae-lion",
+      "id": "t_ef10b9a0",
+      "priority": 70,
+      "result": "",
+      "started_at": 1785982626,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜Q08库存放量闸：可售覆盖与500件在途状态只读核验",
+      "updated_at": 1785983562,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ef10b9a0"
+    },
+    {
       "assignee": "coovoamae-finance",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -26719,11 +26736,11 @@
       "id": "t_e219ad4e",
       "priority": 100,
       "result": "",
-      "started_at": null,
-      "status": "ready",
+      "started_at": 1785981610,
+      "status": "blocked",
       "title": "[Auto Continue 1/3] [The user sent an image~ Here's what I can see:",
-      "updated_at": 1785981583,
-      "workspace_path": ""
+      "updated_at": 1785981610,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e219ad4e"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
