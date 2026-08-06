@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "default",
-      "board_name": "Default",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_182425_bbc00f\", \"goal\": \"work kanban task t_64eb1751\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_182425_bbc00f\", \"goal\": \"work kanban task t_64eb1751\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "completed_at": null,
-      "created_at": 1786013660,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_c2d0c724",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786013668,
-      "status": "running",
-      "title": "[Auto Continue 1/3] work kanban task t_64eb1751",
-      "updated_at": 1786013668,
-      "workspace_path": "/root/.hermes/kanban/workspaces/t_c2d0c724"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -631,6 +613,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_182425_bbc00f\", \"goal\": \"work kanban task t_64eb1751\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260806_182425_bbc00f\", \"goal\": \"work kanban task t_64eb1751\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1786013660,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_c2d0c724",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786013668,
+      "status": "blocked",
+      "title": "[Auto Continue 1/3] work kanban task t_64eb1751",
+      "updated_at": 1786013668,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_c2d0c724"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
@@ -2923,9 +2923,8 @@
     {
       "counts": {
         "archived": 38,
-        "blocked": 4,
-        "done": 589,
-        "running": 1
+        "blocked": 5,
+        "done": 589
       },
       "name": "Default",
       "slug": "default"
@@ -3087,10 +3086,10 @@
       "total": 1
     },
     "coovoamae-eagle-eye": {
-      "active": 1,
-      "blocked": 6,
+      "active": 0,
+      "blocked": 7,
       "done": 117,
-      "running": 1,
+      "running": 0,
       "total": 124
     },
     "coovoamae-engineering-solidworks": {
@@ -3197,8 +3196,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786014001,
-  "generated_at_iso": "2026-08-06T19:00:01+08:00",
+  "generated_at": 1786017601,
+  "generated_at_iso": "2026-08-06T20:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3744,14 +3743,14 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
+    "active": 29,
     "archived": 116,
-    "blocked": 132,
+    "blocked": 133,
     "completed": 1,
     "done": 1120,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 21,
     "total": 1398,
     "triage": 0
@@ -4562,7 +4561,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1786013668,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 1/3] work kanban task t_64eb1751",
       "updated_at": 1786013668,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_c2d0c724"
