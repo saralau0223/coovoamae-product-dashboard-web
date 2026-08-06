@@ -2979,7 +2979,7 @@
         "archived": 10,
         "blocked": 59,
         "completed": 1,
-        "done": 185,
+        "done": 186,
         "ready": 4,
         "todo": 2
       },
@@ -3007,10 +3007,10 @@
       "active": 6,
       "blocked": 36,
       "completed": 1,
-      "done": 115,
+      "done": 116,
       "running": 0,
       "todo": 5,
-      "total": 157
+      "total": 158
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3160,10 +3160,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1785974401,
-  "generated_at_iso": "2026-08-06T08:00:01+08:00",
+  "generated_at": 1785978001,
+  "generated_at_iso": "2026-08-06T09:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "completed_at": 1785976180,
+      "created_at": 1785976062,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_609c6761",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785976075,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
+      "updated_at": 1785976180,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_609c6761"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "hermes-auto-continue",
@@ -3685,24 +3703,6 @@
       "title": "[Auto Continue 1/3] 没有找到你继续找呢，而不是给我一个没有找到",
       "updated_at": 1785540323,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_2ac2732c"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260801_011753_eab0b7\", \"goal\": \"你好好的，选一款产品给我吧\", \"completed\": [ \"完成Amazon US常态候选扫描\", \"选出car wash foam gun作为唯一继续验证方向\", \"完成POE需求与竞争验证\", \"完成Catalog包装与FBA估算\", \"完成39.99美元贡献利润敏感性测算\", \"完成利润表及近期会话去重\" ], \"artifacts\": [ \"t_62f0797c\",…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 2, \"origin_session\": \"20260801_011753_eab0b7\", \"goal\": \"你好好的，选一款产品给我吧\", \"completed\": [ \"完成Amazon US常态候选扫描\", \"选出car wash foam gun作为唯一继续验证方向\", \"完成POE需求与竞争验证\", \"完成Catalog包装与FBA估算\", \"完成39.99美元贡献利润敏感性测算\", \"完成利润表及近期会话去重\" ], \"artifacts\": [ \"t_62f0797c\",…",
-      "completed_at": 1785519545,
-      "created_at": 1785519031,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_ab099814",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785519057,
-      "status": "done",
-      "title": "[Auto Continue 2/3] 你好好的，选一款产品给我吧",
-      "updated_at": 1785519545,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ab099814"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3711,12 +3711,12 @@
     "archived": 116,
     "blocked": 131,
     "completed": 1,
-    "done": 1116,
+    "done": 1117,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1392,
+    "total": 1393,
     "triage": 0
   },
   "tasks": [
@@ -26651,6 +26651,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
       "updated_at": 1785973895,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_fcb49ca6"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
+      "completed_at": 1785976180,
+      "created_at": 1785976062,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_609c6761",
+      "priority": 100,
+      "result": "",
+      "started_at": 1785976075,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
+      "updated_at": 1785976180,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_609c6761"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
