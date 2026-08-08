@@ -615,6 +615,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260808_101801_9691d4\", \"goal\": \"work kanban task t_c2d44fff\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260808_101801_9691d4\", \"goal\": \"work kanban task t_c2d44fff\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1786155798,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_837c5f83",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786155806,
+      "status": "blocked",
+      "title": "[Auto Continue 1/1] work kanban task t_c2d44fff",
+      "updated_at": 1786155806,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_837c5f83"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -2950,8 +2968,8 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 1,
-        "done": 44,
+        "blocked": 2,
+        "done": 45,
         "ready": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -3052,10 +3070,10 @@
     },
     "coovoamae-ads-manager": {
       "active": 0,
-      "blocked": 2,
-      "done": 51,
+      "blocked": 3,
+      "done": 52,
       "running": 0,
-      "total": 53
+      "total": 55
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 6,
@@ -3214,10 +3232,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786154402,
-  "generated_at_iso": "2026-08-08T10:00:02+08:00",
+  "generated_at": 1786158001,
+  "generated_at_iso": "2026-08-08T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260808T021755Z-p1-sku-57753bbd - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/works…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260808T021755Z-p1-sku-57753bbd - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/works…",
+      "completed_at": 1786155798,
+      "created_at": 1786155476,
+      "created_by": "coovoamae-lion",
+      "id": "t_c2d44fff",
+      "priority": 70,
+      "result": "Auto-continuation round 0 handed off to t_837c5f83.",
+      "started_at": 1786155477,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜无线眼罩：库存安全 SKU 的当前广告投放验证（只读）",
+      "updated_at": 1786155798,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c2d44fff"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3739,38 +3775,20 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-listing-periodic-optimization-workflow\" skill, i",
       "updated_at": 1785554001,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_82fc1785"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260801_092405_013179\", \"goal\": \"你继续呢，为啥总是停止呢\", \"completed\": [ \"完成4个候选的Amazon US POE标准验证\", \"核实代表ASIN价格、Review、近30天购买量下界及Fresh Winner\", \"核实缸压套装和木雕套装的Amazon Catalog包装元数据\", \"完成硬门槛、竞争判断、产品定义、反方陈述和最小动作\", \"生成完整Markdown报告\", \"生成机器可…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 3, \"origin_session\": \"20260801_092405_013179\", \"goal\": \"你继续呢，为啥总是停止呢\", \"completed\": [ \"完成4个候选的Amazon US POE标准验证\", \"核实代表ASIN价格、Review、近30天购买量下界及Fresh Winner\", \"核实缸压套装和木雕套装的Amazon Catalog包装元数据\", \"完成硬门槛、竞争判断、产品定义、反方陈述和最小动作\", \"生成完整Markdown报告\", \"生成机器可…",
-      "completed_at": 1785549663,
-      "created_at": 1785549059,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_8823ee63",
-      "priority": 100,
-      "result": "四候选报告与决策清单已回读；旧字段兼容修复后，4条产品学习记录已幂等写入并逐条读回，任务缺口已闭合。",
-      "started_at": 1785549069,
-      "status": "done",
-      "title": "[Auto Continue 3/3] 你继续呢，为啥总是停止呢",
-      "updated_at": 1785549663,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8823ee63"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
     "active": 29,
     "archived": 116,
-    "blocked": 134,
+    "blocked": 135,
     "completed": 1,
-    "done": 1122,
+    "done": 1123,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1401,
+    "total": 1403,
     "triage": 0
   },
   "tasks": [
@@ -14701,6 +14719,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_fead524d"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260808_101801_9691d4\", \"goal\": \"work kanban task t_c2d44fff\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260808_101801_9691d4\", \"goal\": \"work kanban task t_c2d44fff\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1786155798,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_837c5f83",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786155806,
+      "status": "blocked",
+      "title": "[Auto Continue 1/1] work kanban task t_c2d44fff",
+      "updated_at": 1786155806,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_837c5f83"
+    },
+    {
       "assignee": "ops",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -15275,6 +15311,24 @@
       "title": "[Lion -> Ads Manager] P1｜Q08+主力眼罩：既有广告干预7日只读验收",
       "updated_at": 1785723509,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_4aaa1e97"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260808T021755Z-p1-sku-57753bbd - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/works…",
+      "body_preview": "Lion assigned this advertising task to Ads Manager through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-ads-manager-20260808T021755Z-p1-sku-57753bbd - priority: P1 - task_type: ads_strategy - inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/works…",
+      "completed_at": 1786155798,
+      "created_at": 1786155476,
+      "created_by": "coovoamae-lion",
+      "id": "t_c2d44fff",
+      "priority": 70,
+      "result": "Auto-continuation round 0 handed off to t_837c5f83.",
+      "started_at": 1786155477,
+      "status": "done",
+      "title": "[Lion -> Ads Manager] P1｜无线眼罩：库存安全 SKU 的当前广告投放验证（只读）",
+      "updated_at": 1786155798,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_c2d44fff"
     },
     {
       "assignee": "coovoamae-ads-manager",
