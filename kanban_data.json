@@ -3051,7 +3051,7 @@
         "archived": 10,
         "blocked": 61,
         "completed": 1,
-        "done": 189,
+        "done": 190,
         "ready": 4,
         "todo": 2
       },
@@ -3124,9 +3124,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 7,
-      "done": 117,
+      "done": 118,
       "running": 0,
-      "total": 124
+      "total": 125
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -3232,10 +3232,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786230001,
-  "generated_at_iso": "2026-08-09T07:00:01+08:00",
+  "generated_at": 1786233602,
+  "generated_at_iso": "2026-08-09T08:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260809_073006\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260809_073006\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786233373,
+      "created_at": 1786233190,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_ae63e394",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786233210,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786233373,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ae63e394"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -3757,24 +3775,6 @@
       "title": "[Auto Continue 1/3] 确定",
       "updated_at": 1785564122,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_de6c8e93"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_105216_dccb4f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-listing-periodic-optimization-workflow\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_105216_dccb4f\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-listing-periodic-optimization-workflow\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]…",
-      "completed_at": 1785554001,
-      "created_at": 1785552787,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_82fc1785",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785552799,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-listing-periodic-optimization-workflow\" skill, i",
-      "updated_at": 1785554001,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_82fc1785"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3783,12 +3783,12 @@
     "archived": 116,
     "blocked": 135,
     "completed": 1,
-    "done": 1123,
+    "done": 1124,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1403,
+    "total": 1404,
     "triage": 0
   },
   "tasks": [
@@ -26921,6 +26921,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
       "updated_at": 1786151596,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_8e7f80c4"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260809_073006\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260809_073006\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786233373,
+      "created_at": 1786233190,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_ae63e394",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786233210,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786233373,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ae63e394"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
