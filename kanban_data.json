@@ -2979,7 +2979,7 @@
       "counts": {
         "archived": 1,
         "blocked": 15,
-        "done": 59,
+        "done": 60,
         "todo": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -3079,10 +3079,10 @@
       "active": 6,
       "blocked": 38,
       "completed": 1,
-      "done": 121,
+      "done": 122,
       "running": 0,
       "todo": 5,
-      "total": 165
+      "total": 166
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3232,10 +3232,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786240802,
-  "generated_at_iso": "2026-08-09T10:00:02+08:00",
+  "generated_at": 1786244401,
+  "generated_at_iso": "2026-08-09T11:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260809T021716Z-p1-hem-bk-8ab70b9c - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/wo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260809T021716Z-p1-hem-bk-8ab70b9c - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/wo…",
+      "completed_at": 1786242330,
+      "created_at": 1786241837,
+      "created_by": "coovoamae-lion",
+      "id": "t_a043e60a",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786241837,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜HEM-BK：库存安全候选的零售/身份/合规/价格只读预检",
+      "updated_at": 1786242330,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a043e60a"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3757,24 +3775,6 @@
       "title": "[Auto Continue 1/3] 你在继续吗",
       "updated_at": 1785592755,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37ae2bac"
-    },
-    {
-      "assignee": "coovoamae-lion",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_184650_889522\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-operations-strategy\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\nname: amazon-…",
-      "completed_at": 1785583772,
-      "created_at": 1785581252,
-      "created_by": "coovoamae-lion",
-      "id": "t_99706e16",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785581252,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-operations-strategy\" skill, indicating they want yo",
-      "updated_at": 1785583772,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_99706e16"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3783,12 +3783,12 @@
     "archived": 116,
     "blocked": 135,
     "completed": 1,
-    "done": 1125,
+    "done": 1126,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1405,
+    "total": 1406,
     "triage": 0
   },
   "tasks": [
@@ -16643,6 +16643,24 @@
       "title": "[Lion -> Dangdang] P1｜Q08库存放量闸：可售覆盖与500件在途状态只读核验",
       "updated_at": 1785983562,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ef10b9a0"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260809T021716Z-p1-hem-bk-8ab70b9c - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/wo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260809T021716Z-p1-hem-bk-8ab70b9c - priority: P1 - task_type: amazon_ops - inbox_json: /root/.hermes/profiles/coovoamae-amazon-ops-lizhutian/wo…",
+      "completed_at": 1786242330,
+      "created_at": 1786241837,
+      "created_by": "coovoamae-lion",
+      "id": "t_a043e60a",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786241837,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜HEM-BK：库存安全候选的零售/身份/合规/价格只读预检",
+      "updated_at": 1786242330,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_a043e60a"
     },
     {
       "assignee": "coovoamae-finance",
