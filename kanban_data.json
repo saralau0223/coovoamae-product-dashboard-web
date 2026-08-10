@@ -3051,7 +3051,7 @@
         "archived": 10,
         "blocked": 61,
         "completed": 1,
-        "done": 191,
+        "done": 192,
         "ready": 4,
         "todo": 2
       },
@@ -3124,9 +3124,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 7,
-      "done": 118,
+      "done": 119,
       "running": 0,
-      "total": 125
+      "total": 126
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -3232,10 +3232,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786316401,
-  "generated_at_iso": "2026-08-10T07:00:01+08:00",
+  "generated_at": 1786320001,
+  "generated_at_iso": "2026-08-10T08:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260810_073024\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260810_073024\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786319701,
+      "created_at": 1786319474,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_e3d10f8a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786319517,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786319701,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e3d10f8a"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -3757,24 +3775,6 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0GXVNPM68",
       "updated_at": 1785594871,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_108a88b5"
-    },
-    {
-      "assignee": "coovoamae-eagle-eye",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260801_214534_f2a6d8\", \"goal\": \"你在继续吗\", \"completed\": [ \"完成利润表全表分段去重\", \"完成跨品类多批候选硬筛\", \"验证美国站需求趋势、竞争和低评起量\", \"锁定4人份24件不锈钢露营餐具套装\", \"完成包装/FBA及25%关税压力利润测算\", \"形成必须做、禁止项和反方红线\" ], \"artifacts\": [ \"Feishu:Rpx6sUyyVhqrT9tE7rkcE7UMnCb/…",
-      "completed_at": 1785592755,
-      "created_at": 1785592371,
-      "created_by": "coovoamae-eagle-eye",
-      "id": "t_37ae2bac",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785592374,
-      "status": "done",
-      "title": "[Auto Continue 1/3] 你在继续吗",
-      "updated_at": 1785592755,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_37ae2bac"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3783,12 +3783,12 @@
     "archived": 116,
     "blocked": 135,
     "completed": 1,
-    "done": 1126,
+    "done": 1127,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1406,
+    "total": 1407,
     "triage": 0
   },
   "tasks": [
@@ -26975,6 +26975,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
       "updated_at": 1786235434,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_d90de51f"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260810_073024\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260810_073024\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786319701,
+      "created_at": 1786319474,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_e3d10f8a",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786319517,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786319701,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e3d10f8a"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
