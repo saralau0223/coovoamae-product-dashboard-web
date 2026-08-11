@@ -2649,6 +2649,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_fc5aa2ad"
     },
     {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260811T121322Z-b0gq2zr81s-10-coupon-b0d9aba1 - priority: P1 - task_type: coupon_preflight - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260811T121322Z-b0gq2zr81s-10-coupon-b0d9aba1 - priority: P1 - task_type: coupon_preflight - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1786450402,
+      "created_by": "coovoamae-lion",
+      "id": "t_7b06222b",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786450403,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 云台 B0GQ2ZR81S｜10% Coupon 只读预检与精确确认包",
+      "updated_at": 1786450403,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_7b06222b"
+    },
+    {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -2996,7 +3014,7 @@
     {
       "counts": {
         "archived": 1,
-        "blocked": 15,
+        "blocked": 16,
         "done": 61,
         "todo": 2
       },
@@ -3095,12 +3113,12 @@
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 6,
-      "blocked": 38,
+      "blocked": 39,
       "completed": 1,
       "done": 125,
       "running": 0,
       "todo": 5,
-      "total": 169
+      "total": 170
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3250,8 +3268,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786449601,
-  "generated_at_iso": "2026-08-11T20:00:01+08:00",
+  "generated_at": 1786453201,
+  "generated_at_iso": "2026-08-11T21:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3799,14 +3817,14 @@
   "summary": {
     "active": 29,
     "archived": 116,
-    "blocked": 136,
+    "blocked": 137,
     "completed": 1,
     "done": 1131,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1412,
+    "total": 1413,
     "triage": 0
   },
   "tasks": [
@@ -16733,6 +16751,24 @@
       "title": "[Lion -> Dangdang] P1｜Q08当前买家价与PDP购买路径只读复核（8/11）",
       "updated_at": 1786415609,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_b70cb046"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260811T121322Z-b0gq2zr81s-10-coupon-b0d9aba1 - priority: P1 - task_type: coupon_preflight - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260811T121322Z-b0gq2zr81s-10-coupon-b0d9aba1 - priority: P1 - task_type: coupon_preflight - inbox_json: /root/.hermes/profiles/coovoamae-amazon…",
+      "completed_at": null,
+      "created_at": 1786450402,
+      "created_by": "coovoamae-lion",
+      "id": "t_7b06222b",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786450403,
+      "status": "blocked",
+      "title": "[Lion -> Dangdang] 云台 B0GQ2ZR81S｜10% Coupon 只读预检与精确确认包",
+      "updated_at": 1786450403,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_7b06222b"
     },
     {
       "assignee": "coovoamae-finance",
