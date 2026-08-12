@@ -615,6 +615,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
     },
     {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "Recovery for canonical batch codex-seasonal-q4_winter_holiday-2026 following terminal blocked data result. Scope is strictly limited to verified gaps: explore only Q4 daily-use scenario roots not among the 101 previously screened live-POE niches, and do not redo or reclassify the prior pool except…",
+      "body_preview": "Recovery for canonical batch codex-seasonal-q4_winter_holiday-2026 following terminal blocked data result. Scope is strictly limited to verified gaps: explore only Q4 daily-use scenario roots not among the 101 previously screened live-POE niches, and do not redo or reclassify the prior pool except…",
+      "completed_at": null,
+      "created_at": 1786530067,
+      "created_by": "current_codex_thread",
+      "id": "t_e17317ef",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786530074,
+      "status": "blocked",
+      "title": "[Codex Seasonal Recovery 2026-08-12] Q4 2026 — non-duplicate evidence gaps only",
+      "updated_at": 1786530074,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_e17317ef"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
       "board_name": "COOVOAMAE Amazon Ops Handoffs",
@@ -2995,7 +3013,7 @@
     {
       "counts": {
         "archived": 38,
-        "blocked": 5,
+        "blocked": 6,
         "done": 589
       },
       "name": "Default",
@@ -3159,10 +3177,10 @@
     },
     "coovoamae-eagle-eye": {
       "active": 0,
-      "blocked": 7,
+      "blocked": 8,
       "done": 120,
       "running": 0,
-      "total": 127
+      "total": 128
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -3268,8 +3286,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786528801,
-  "generated_at_iso": "2026-08-12T18:00:01+08:00",
+  "generated_at": 1786532401,
+  "generated_at_iso": "2026-08-12T19:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3817,14 +3835,14 @@
   "summary": {
     "active": 29,
     "archived": 116,
-    "blocked": 137,
+    "blocked": 138,
     "completed": 1,
     "done": 1139,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1421,
+    "total": 1422,
     "triage": 0
   },
   "tasks": [
@@ -4637,6 +4655,24 @@
       "title": "[Auto Continue 1/3] work kanban task t_64eb1751",
       "updated_at": 1786013668,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_c2d0c724"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "default",
+      "board_name": "Default",
+      "body": "Recovery for canonical batch codex-seasonal-q4_winter_holiday-2026 following terminal blocked data result. Scope is strictly limited to verified gaps: explore only Q4 daily-use scenario roots not among the 101 previously screened live-POE niches, and do not redo or reclassify the prior pool except…",
+      "body_preview": "Recovery for canonical batch codex-seasonal-q4_winter_holiday-2026 following terminal blocked data result. Scope is strictly limited to verified gaps: explore only Q4 daily-use scenario roots not among the 101 previously screened live-POE niches, and do not redo or reclassify the prior pool except…",
+      "completed_at": null,
+      "created_at": 1786530067,
+      "created_by": "current_codex_thread",
+      "id": "t_e17317ef",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786530074,
+      "status": "blocked",
+      "title": "[Codex Seasonal Recovery 2026-08-12] Q4 2026 — non-duplicate evidence gaps only",
+      "updated_at": 1786530074,
+      "workspace_path": "/root/.hermes/kanban/workspaces/t_e17317ef"
     },
     {
       "assignee": "coovoamae-eagle-eye",
