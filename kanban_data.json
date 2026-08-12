@@ -3005,7 +3005,7 @@
       "counts": {
         "archived": 1,
         "blocked": 3,
-        "done": 46,
+        "done": 48,
         "ready": 2
       },
       "name": "COOVOAMAE Ads Manager Handoffs",
@@ -3107,9 +3107,9 @@
     "coovoamae-ads-manager": {
       "active": 0,
       "blocked": 4,
-      "done": 53,
+      "done": 55,
       "running": 0,
-      "total": 57
+      "total": 59
     },
     "coovoamae-amazon-ops-lizhutian": {
       "active": 6,
@@ -3268,10 +3268,46 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786525202,
-  "generated_at_iso": "2026-08-12T17:00:02+08:00",
+  "generated_at": 1786528801,
+  "generated_at_iso": "2026-08-12T18:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260812_171252_bc20a9\", \"goal\": \"work kanban task t_7cf3aa10\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260812_171252_bc20a9\", \"goal\": \"work kanban task t_7cf3aa10\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": 1786526598,
+      "created_at": 1786526528,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_b32c59a2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786526537,
+      "status": "done",
+      "title": "[Auto Continue 1/1] work kanban task t_7cf3aa10",
+      "updated_at": 1786526598,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_b32c59a2"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260812T091242Z-ctr-1fe72721 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260812T091242Z-ctr…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260812T091242Z-ctr-1fe72721 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260812T091242Z-ctr…",
+      "completed_at": 1786526516,
+      "created_at": 1786525964,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_7cf3aa10",
+      "priority": 80,
+      "result": "",
+      "started_at": 1786525964,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] photo-box-price-impact-20260812",
+      "updated_at": 1786526516,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_7cf3aa10"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-amazon-ops-handoffs",
@@ -3775,42 +3811,6 @@
       "title": "磨刀石 Amazon 30秒产品展示视频",
       "updated_at": 1785750564,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82e9e007"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-video-assets",
-      "board_name": "COOVOAMAE Video Assets",
-      "body": "目标：对最终约 30 秒视频进行逐镜检查，确认符合原始要求和 product-truth。请按时间码检查每个镜头来源：真实素材、允许的氛围/转场、字幕/图形层；重点验证真实磨刀石外观、使用动作、磨刀效果均来自刘希提供的当前聊天视频素材，Seedance 未生成产品操作演示，也未伪造产品外观或效果。检查 Amazon 展示视频基本要求：16:9、时长约 30 秒、无明显侵权/误导/夸大宣称、无黑屏坏帧、音画同步。验收标准：交付 QA 报告，列出通过项、发现的问题及修复建议；若无阻断问题，明确标记可交付。",
-      "body_preview": "目标：对最终约 30 秒视频进行逐镜检查，确认符合原始要求和 product-truth。请按时间码检查每个镜头来源：真实素材、允许的氛围/转场、字幕/图形层；重点验证真实磨刀石外观、使用动作、磨刀效果均来自刘希提供的当前聊天视频素材，Seedance 未生成产品操作演示，也未伪造产品外观或效果。检查 Amazon 展示视频基本要求：16:9、时长约 30 秒、无明显侵权/误导/夸大宣称、无黑屏坏帧、音画同步。验收标准：交付 QA 报告，列出通过项、发现的问题及修复建议；若无阻断问题，明确标记可交付。",
-      "completed_at": 1785750451,
-      "created_at": 1785749509,
-      "created_by": "auto-decomposer",
-      "id": "t_7a1b2627",
-      "priority": 0,
-      "result": "",
-      "started_at": 1785750231,
-      "status": "done",
-      "title": "逐镜 QA Amazon 视频真实性与合规性",
-      "updated_at": 1785750451,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_7a1b2627"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-video-assets",
-      "board_name": "COOVOAMAE Video Assets",
-      "body": "目标：剪辑一条约 30 秒、16:9、适合 Amazon 产品展示的磨刀石视频。必须使用 product-truth 中登记的真实素材呈现磨刀石外观、使用动作和磨刀效果；Seedance 如需使用，只能作为氛围/转场素材，且此前一次 Seedance t2v 提交状态 unknown，禁止用相同提示词/参数直接重试，应改用不同方案或不使用 Seedance。建议结构：开场产品真实外观 3-5 秒，使用动作 10-14 秒，磨刀效果/细节 6-8 秒，收尾卖点与品牌/CTA 3-5 秒。可加入简洁英文或中英文字幕，但不得夸大效果或展示素材中不存在的功能。验收标准：输出最终视频文件，约 30 秒…",
-      "body_preview": "目标：剪辑一条约 30 秒、16:9、适合 Amazon 产品展示的磨刀石视频。必须使用 product-truth 中登记的真实素材呈现磨刀石外观、使用动作和磨刀效果；Seedance 如需使用，只能作为氛围/转场素材，且此前一次 Seedance t2v 提交状态 unknown，禁止用相同提示词/参数直接重试，应改用不同方案或不使用 Seedance。建议结构：开场产品真实外观 3-5 秒，使用动作 10-14 秒，磨刀效果/细节 6-8 秒，收尾卖点与品牌/CTA 3-5 秒。可加入简洁英文或中英文字幕，但不得夸大效果或展示素材中不存在的功能。验收标准：输出最终视频文件，约 30 秒…",
-      "completed_at": 1785750210,
-      "created_at": 1785749509,
-      "created_by": "auto-decomposer",
-      "id": "t_90e0e8fe",
-      "priority": 0,
-      "result": "",
-      "started_at": 1785749930,
-      "status": "done",
-      "title": "制作 Amazon 16:9 约30秒产品展示视频",
-      "updated_at": 1785750210,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_90e0e8fe"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3819,12 +3819,12 @@
     "archived": 116,
     "blocked": 137,
     "completed": 1,
-    "done": 1137,
+    "done": 1139,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1419,
+    "total": 1421,
     "triage": 0
   },
   "tasks": [
@@ -14791,6 +14791,24 @@
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_019d28c2"
     },
     {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260812_171252_bc20a9\", \"goal\": \"work kanban task t_7cf3aa10\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260812_171252_bc20a9\", \"goal\": \"work kanban task t_7cf3aa10\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": 1786526598,
+      "created_at": 1786526528,
+      "created_by": "coovoamae-ads-manager",
+      "id": "t_b32c59a2",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786526537,
+      "status": "done",
+      "title": "[Auto Continue 1/1] work kanban task t_7cf3aa10",
+      "updated_at": 1786526598,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_b32c59a2"
+    },
+    {
       "assignee": "ops",
       "board": "coovoamae-ads-manager-handoffs",
       "board_name": "COOVOAMAE Ads Manager Handoffs",
@@ -15005,6 +15023,24 @@
       "title": "[Cross-lane Advice: Dangdang->Ads] B0GXVNPM68",
       "updated_at": 1785594871,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_108a88b5"
+    },
+    {
+      "assignee": "coovoamae-ads-manager",
+      "board": "coovoamae-ads-manager-handoffs",
+      "board_name": "COOVOAMAE Ads Manager Handoffs",
+      "body": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260812T091242Z-ctr-1fe72721 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260812T091242Z-ctr…",
+      "body_preview": "Dangdang created this cross-lane advertising advice for Ads Manager. ## Advice - request_id: dangdang-ads-20260812T091242Z-ctr-1fe72721 - priority: P1 - target_inbox_json: /root/.hermes/profiles/coovoamae-ads-manager/workspace/inbox/crosslane-advice/dangdang-to-ads/dangdang-ads-20260812T091242Z-ctr…",
+      "completed_at": 1786526516,
+      "created_at": 1786525964,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_7cf3aa10",
+      "priority": 80,
+      "result": "",
+      "started_at": 1786525964,
+      "status": "done",
+      "title": "[Cross-lane Advice: Dangdang->Ads] photo-box-price-impact-20260812",
+      "updated_at": 1786526516,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-ads-manager-handoffs/workspaces/t_7cf3aa10"
     },
     {
       "assignee": "coovoamae-ads-manager",
