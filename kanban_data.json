@@ -3105,7 +3105,7 @@
         "archived": 10,
         "blocked": 61,
         "completed": 1,
-        "done": 195,
+        "done": 196,
         "ready": 4,
         "todo": 2
       },
@@ -3178,9 +3178,9 @@
     "coovoamae-eagle-eye": {
       "active": 0,
       "blocked": 8,
-      "done": 120,
+      "done": 121,
       "running": 0,
-      "total": 128
+      "total": 129
     },
     "coovoamae-engineering-solidworks": {
       "active": 0,
@@ -3286,10 +3286,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786575601,
-  "generated_at_iso": "2026-08-13T07:00:01+08:00",
+  "generated_at": 1786579201,
+  "generated_at_iso": "2026-08-13T08:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260813_073046\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260813_073046\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786579132,
+      "created_at": 1786578933,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_cd366329",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786578982,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786579132,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cd366329"
+    },
     {
       "assignee": "coovoamae-ads-manager",
       "board": "coovoamae-ads-manager-handoffs",
@@ -3811,24 +3829,6 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
       "updated_at": 1785801063,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_e6f38fd5"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-video-assets",
-      "board_name": "COOVOAMAE Video Assets",
-      "body": "制作一条约30秒 Amazon 16:9 产品展示视频。真实磨刀石外观、使用动作、磨刀效果必须使用刘希在当前聊天提供的视频素材；Seedance 仅可作为氛围/转场，不得生成产品操作演示。当前附件源路径为 /root/.hermes/profiles/coovoamae-product-auditor/cache/documents/doc_1c3e53b52dfc_磨刀石视频.mp4，但视频工具探测返回 outside approved roots，需要先把真实素材登记/复制到 /root/.hermes/shared/video-assets/source/ 下并建立 product-t…",
-      "body_preview": "制作一条约30秒 Amazon 16:9 产品展示视频。真实磨刀石外观、使用动作、磨刀效果必须使用刘希在当前聊天提供的视频素材；Seedance 仅可作为氛围/转场，不得生成产品操作演示。当前附件源路径为 /root/.hermes/profiles/coovoamae-product-auditor/cache/documents/doc_1c3e53b52dfc_磨刀石视频.mp4，但视频工具探测返回 outside approved roots，需要先把真实素材登记/复制到 /root/.hermes/shared/video-assets/source/ 下并建立 product-t…",
-      "completed_at": 1785750564,
-      "created_at": 1785749458,
-      "created_by": "coovoamae-product-auditor",
-      "id": "t_82e9e007",
-      "priority": 80,
-      "result": "",
-      "started_at": 1785750472,
-      "status": "done",
-      "title": "磨刀石 Amazon 30秒产品展示视频",
-      "updated_at": 1785750564,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-video-assets/workspaces/t_82e9e007"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3837,12 +3837,12 @@
     "archived": 116,
     "blocked": 138,
     "completed": 1,
-    "done": 1139,
+    "done": 1140,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1422,
+    "total": 1423,
     "triage": 0
   },
   "tasks": [
@@ -27317,6 +27317,24 @@
       "title": "[Auto Continue 1/3] 10件套304不锈钢调酒工具套装,汽车运动后防汗座椅毛巾套（2件装）,电动订书机,24×36英寸、1200–1300GSM双捻车用干燥巾2件套,这几个产品的数据，你增加到利润测算表去",
       "updated_at": 1786495153,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_3a441f66"
+    },
+    {
+      "assignee": "coovoamae-eagle-eye",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260813_073046\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_ff22d6efd427_20260813_073046\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"coovoamae-product-development\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1786579132,
+      "created_at": 1786578933,
+      "created_by": "coovoamae-eagle-eye",
+      "id": "t_cd366329",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786578982,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
+      "updated_at": 1786579132,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cd366329"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
