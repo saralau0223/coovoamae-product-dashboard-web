@@ -3033,7 +3033,7 @@
       "counts": {
         "archived": 1,
         "blocked": 16,
-        "done": 67,
+        "done": 68,
         "todo": 2
       },
       "name": "COOVOAMAE Amazon Ops Handoffs",
@@ -3133,10 +3133,10 @@
       "active": 6,
       "blocked": 39,
       "completed": 1,
-      "done": 134,
+      "done": 135,
       "running": 0,
       "todo": 5,
-      "total": 179
+      "total": 180
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3286,10 +3286,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786672801,
-  "generated_at_iso": "2026-08-14T10:00:01+08:00",
+  "generated_at": 1786676402,
+  "generated_at_iso": "2026-08-14T11:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260814T021747Z-p1-q08-10-coupon-d-1-44616feb - priority: P1 - task_type: promotion_readonly_acceptance - inbox_json: /root/.hermes/profiles/coo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260814T021747Z-p1-q08-10-coupon-d-1-44616feb - priority: P1 - task_type: promotion_readonly_acceptance - inbox_json: /root/.hermes/profiles/coo…",
+      "completed_at": 1786674527,
+      "created_at": 1786673868,
+      "created_by": "coovoamae-lion",
+      "id": "t_92efc542",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786673869,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜Q08 10% Coupon D+1生效与护栏只读验收",
+      "updated_at": 1786674527,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_92efc542"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -3811,24 +3829,6 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
       "updated_at": 1785979066,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_ece37014"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_d35a2c64b2ee_20260806_081546\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-seller-central-operations\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n-…",
-      "completed_at": 1785976180,
-      "created_at": 1785976062,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_609c6761",
-      "priority": 100,
-      "result": "",
-      "started_at": 1785976075,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-seller-central-operations\" skill, indicating they w",
-      "updated_at": 1785976180,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_609c6761"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -3837,12 +3837,12 @@
     "archived": 116,
     "blocked": 138,
     "completed": 1,
-    "done": 1146,
+    "done": 1147,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1429,
+    "total": 1430,
     "triage": 0
   },
   "tasks": [
@@ -16949,6 +16949,24 @@
       "title": "[Lion -> Dangdang] [P1] 无线眼罩B0GXVNPM68前台购买路径与报价只读预检",
       "updated_at": 1786588269,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_75f92dfa"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "coovoamae-amazon-ops-handoffs",
+      "board_name": "COOVOAMAE Amazon Ops Handoffs",
+      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260814T021747Z-p1-q08-10-coupon-d-1-44616feb - priority: P1 - task_type: promotion_readonly_acceptance - inbox_json: /root/.hermes/profiles/coo…",
+      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260814T021747Z-p1-q08-10-coupon-d-1-44616feb - priority: P1 - task_type: promotion_readonly_acceptance - inbox_json: /root/.hermes/profiles/coo…",
+      "completed_at": 1786674527,
+      "created_at": 1786673868,
+      "created_by": "coovoamae-lion",
+      "id": "t_92efc542",
+      "priority": 70,
+      "result": "",
+      "started_at": 1786673869,
+      "status": "done",
+      "title": "[Lion -> Dangdang] P1｜Q08 10% Coupon D+1生效与护栏只读验收",
+      "updated_at": 1786674527,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_92efc542"
     },
     {
       "assignee": "coovoamae-finance",
