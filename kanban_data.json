@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_174757_924e59\", \"goal\": \"work kanban task t_a8b2984b\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_174757_924e59\", \"goal\": \"work kanban task t_a8b2984b\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "completed_at": null,
-      "created_at": 1786701290,
-      "created_by": "coovoamae-crm",
-      "id": "t_39185cf3",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786701338,
-      "status": "running",
-      "title": "[Auto Continue 1/4] work kanban task t_a8b2984b",
-      "updated_at": 1786701338,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_39185cf3"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -631,6 +613,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_174757_924e59\", \"goal\": \"work kanban task t_a8b2984b\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_174757_924e59\", \"goal\": \"work kanban task t_a8b2984b\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1786701290,
+      "created_by": "coovoamae-crm",
+      "id": "t_39185cf3",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786701338,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] work kanban task t_a8b2984b",
+      "updated_at": 1786701338,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_39185cf3"
     },
     {
       "assignee": "coovoamae-eagle-eye",
@@ -3074,9 +3074,8 @@
     {
       "counts": {
         "archived": 64,
-        "blocked": 30,
-        "done": 146,
-        "running": 1,
+        "blocked": 31,
+        "done": 147,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3172,12 +3171,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 8,
-      "blocked": 71,
-      "done": 251,
-      "running": 1,
+      "active": 7,
+      "blocked": 72,
+      "done": 252,
+      "running": 0,
       "todo": 7,
-      "total": 330
+      "total": 331
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3305,10 +3304,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786701601,
-  "generated_at_iso": "2026-08-14T18:00:01+08:00",
+  "generated_at": 1786705201,
+  "generated_at_iso": "2026-08-14T19:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "body_preview": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "completed_at": 1786705037,
+      "created_at": 1786705035,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_65fedbde",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "started_at": 1786705036,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_39185cf3",
+      "updated_at": 1786705037,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_65fedbde"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -3830,38 +3847,20 @@
       "title": "[Codex Seasonal] Q4 Winter Holiday 2026 — 10 product closure",
       "updated_at": 1786013660,
       "workspace_path": "/root/.hermes/kanban/workspaces/t_64eb1751"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "coovoamae-amazon-ops-handoffs",
-      "board_name": "COOVOAMAE Amazon Ops Handoffs",
-      "body": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
-      "body_preview": "Lion assigned this Amazon ops task to Dangdang through the internal handoff path. This is not a Feishu group task. ## Handoff - handoff_id: lion-dangdang-20260806T021704Z-p1-q08-500-b8881ca7 - priority: P1 - task_type: inventory_readonly_precheck - inbox_json: /root/.hermes/profiles/coovoamae-amazo…",
-      "completed_at": 1785983562,
-      "created_at": 1785982625,
-      "created_by": "coovoamae-lion",
-      "id": "t_ef10b9a0",
-      "priority": 70,
-      "result": "",
-      "started_at": 1785982626,
-      "status": "done",
-      "title": "[Lion -> Dangdang] P1｜Q08库存放量闸：可售覆盖与500件在途状态只读核验",
-      "updated_at": 1785983562,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_ef10b9a0"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
+    "active": 29,
     "archived": 116,
-    "blocked": 138,
+    "blocked": 139,
     "completed": 1,
-    "done": 1148,
+    "done": 1149,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 21,
-    "total": 1432,
+    "total": 1433,
     "triage": 0
   },
   "tasks": [
@@ -19466,10 +19465,28 @@
       "priority": 100,
       "result": "",
       "started_at": 1786701338,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 1/4] work kanban task t_a8b2984b",
       "updated_at": 1786701338,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_39185cf3"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "body_preview": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "completed_at": 1786705037,
+      "created_at": 1786705035,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_65fedbde",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
+      "started_at": 1786705036,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_39185cf3",
+      "updated_at": 1786705037,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_65fedbde"
     },
     {
       "assignee": "coovoamae-crm",
