@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_213905_a50f29\", \"goal\": \"work kanban task t_8cfef5f4\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_213905_a50f29\", \"goal\": \"work kanban task t_8cfef5f4\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "completed_at": null,
-      "created_at": 1786715739,
-      "created_by": "coovoamae-crm",
-      "id": "t_e09e6355",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786715782,
-      "status": "running",
-      "title": "[Auto Continue 1/4] work kanban task t_8cfef5f4",
-      "updated_at": 1786715782,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e09e6355"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -3091,10 +3073,9 @@
     },
     {
       "counts": {
-        "archived": 64,
+        "archived": 70,
         "blocked": 31,
         "done": 148,
-        "running": 1,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3190,12 +3171,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 8,
+      "active": 7,
       "blocked": 72,
       "done": 253,
-      "running": 1,
+      "running": 0,
       "todo": 7,
-      "total": 333
+      "total": 332
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3323,8 +3304,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786716001,
-  "generated_at_iso": "2026-08-14T22:00:01+08:00",
+  "generated_at": 1786719602,
+  "generated_at_iso": "2026-08-14T23:00:02+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -3870,16 +3851,16 @@
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
-    "archived": 116,
+    "active": 29,
+    "archived": 122,
     "blocked": 139,
     "completed": 1,
     "done": 1150,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 21,
-    "total": 1435,
+    "total": 1440,
     "triage": 0
   },
   "tasks": [
@@ -19506,24 +19487,6 @@
       "title": "P0｜设计 SLA 红色告警｜t_39185cf3",
       "updated_at": 1786705037,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_65fedbde"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_213905_a50f29\", \"goal\": \"work kanban task t_8cfef5f4\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260814_213905_a50f29\", \"goal\": \"work kanban task t_8cfef5f4\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
-      "completed_at": null,
-      "created_at": 1786715739,
-      "created_by": "coovoamae-crm",
-      "id": "t_e09e6355",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786715782,
-      "status": "running",
-      "title": "[Auto Continue 1/4] work kanban task t_8cfef5f4",
-      "updated_at": 1786715782,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e09e6355"
     },
     {
       "assignee": "coovoamae-crm",
