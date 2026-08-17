@@ -19,24 +19,6 @@
       "workspace_path": ""
     },
     {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_204714_1a29a7\", \"goal\": \"work kanban task t_3df442f2\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Repair only missing or invalid re…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_204714_1a29a7\", \"goal\": \"work kanban task t_3df442f2\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Repair only missing or invalid re…",
-      "completed_at": null,
-      "created_at": 1786972354,
-      "created_by": "coovoamae-crm",
-      "id": "t_4ecc6839",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786972372,
-      "status": "running",
-      "title": "[Auto Continue 1/4] work kanban task t_3df442f2",
-      "updated_at": 1786972372,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4ecc6839"
-    },
-    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -631,6 +613,24 @@
       "title": "[Uncapped LinkFoxAI Repair] coovoa long grill caddy final Amazon image suite",
       "updated_at": 1784785727,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_9b8da25d"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_204714_1a29a7\", \"goal\": \"work kanban task t_3df442f2\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Repair only missing or invalid re…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_204714_1a29a7\", \"goal\": \"work kanban task t_3df442f2\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"Repair only missing or invalid re…",
+      "completed_at": null,
+      "created_at": 1786972354,
+      "created_by": "coovoamae-crm",
+      "id": "t_4ecc6839",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786972372,
+      "status": "blocked",
+      "title": "[Auto Continue 1/4] work kanban task t_3df442f2",
+      "updated_at": 1786972372,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4ecc6839"
     },
     {
       "assignee": "coovoamae-crm",
@@ -3344,9 +3344,8 @@
     {
       "counts": {
         "archived": 70,
-        "blocked": 44,
-        "done": 177,
-        "running": 1,
+        "blocked": 45,
+        "done": 178,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3442,12 +3441,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 8,
-      "blocked": 85,
-      "done": 277,
-      "running": 1,
+      "active": 7,
+      "blocked": 86,
+      "done": 278,
+      "running": 0,
       "todo": 7,
-      "total": 370
+      "total": 371
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3575,10 +3574,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786975201,
-  "generated_at_iso": "2026-08-17T22:00:01+08:00",
+  "generated_at": 1786978801,
+  "generated_at_iso": "2026-08-17T23:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "body_preview": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "completed_at": 1786975987,
+      "created_at": 1786975986,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_acb2466e",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "started_at": 1786975987,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_4ecc6839",
+      "updated_at": 1786975987,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_acb2466e"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -4100,38 +4117,20 @@
       "title": "Prepare English layout and listing copy for frozen slots",
       "updated_at": 1786787841,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Resume only the project scope for designs/coovoa-20260815-720ml-stainless-food-containers-4pk and the originating continuation chain. Verify which real artifacts exist for LinkFox R02, including the reported 12 square images, 3 wide images, contact sheet, frozen slots PT01/PT04/PT05/PT06/APLUS10, a…",
-      "body_preview": "Resume only the project scope for designs/coovoa-20260815-720ml-stainless-food-containers-4pk and the originating continuation chain. Verify which real artifacts exist for LinkFox R02, including the reported 12 square images, 3 wide images, contact sheet, frozen slots PT01/PT04/PT05/PT06/APLUS10, a…",
-      "completed_at": 1786787691,
-      "created_at": 1786787583,
-      "created_by": "auto-decomposer",
-      "id": "t_04fd960a",
-      "priority": 0,
-      "result": "",
-      "started_at": 1786787583,
-      "status": "done",
-      "title": "Audit persisted project artifacts and delivery gate",
-      "updated_at": 1786787691,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 30,
+    "active": 29,
     "archived": 122,
-    "blocked": 153,
+    "blocked": 154,
     "completed": 1,
-    "done": 1184,
+    "done": 1185,
     "pending": 0,
     "ready": 7,
-    "running": 1,
+    "running": 0,
     "todo": 21,
-    "total": 1489,
+    "total": 1490,
     "triage": 0
   },
   "tasks": [
@@ -20222,7 +20221,7 @@
       "priority": 100,
       "result": "",
       "started_at": 1786972372,
-      "status": "running",
+      "status": "blocked",
       "title": "[Auto Continue 1/4] work kanban task t_3df442f2",
       "updated_at": 1786972372,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_4ecc6839"
@@ -20244,6 +20243,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_ef032cf3",
       "updated_at": 1786973433,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0c62cc68"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "body_preview": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "completed_at": 1786975987,
+      "created_at": 1786975986,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_acb2466e",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_4ecc6839 已静默/阻塞 60 分钟，当前状态=blocked；卡点：整套仍缺 PT01、A02、A02M：第二次外部背景修复虽保住产品像素，但背景仍未达到暖白无杂物硬门；需新的合规背景专用路线或干净精确实拍锚点。 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_4ecc6839.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_4ecc6839：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性…",
+      "started_at": 1786975987,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_4ecc6839",
+      "updated_at": 1786975987,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_acb2466e"
     },
     {
       "assignee": "coovoamae-crm",
