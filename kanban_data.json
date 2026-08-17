@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_144620_beab35\", \"goal\": \"[The user attached an image. Here's what it contains:\\nThe image shows a smartphone mounted on an extended selfie stick/tripod against a plain white background.\\n\\n- **Main object:** A black…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_144620_beab35\", \"goal\": \"[The user attached an image. Here's what it contains:\\nThe image shows a smartphone mounted on an extended selfie stick/tripod against a plain white background.\\n\\n- **Main object:** A black…",
+      "completed_at": null,
+      "created_at": 1786949828,
+      "created_by": "coovoamae-crm",
+      "id": "t_d84346f7",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786949876,
+      "status": "running",
+      "title": "[Auto Continue 1/4] [The user attached an image. Here's what it contains:",
+      "updated_at": 1786949876,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_d84346f7"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -3255,7 +3273,8 @@
       "counts": {
         "archived": 70,
         "blocked": 40,
-        "done": 168,
+        "done": 169,
+        "running": 1,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3351,12 +3370,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 7,
+      "active": 8,
       "blocked": 81,
-      "done": 268,
-      "running": 0,
+      "done": 269,
+      "running": 1,
       "todo": 7,
-      "total": 356
+      "total": 358
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3484,10 +3503,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786946402,
-  "generated_at_iso": "2026-08-17T14:00:02+08:00",
+  "generated_at": 1786950002,
+  "generated_at_iso": "2026-08-17T15:00:02+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r07-screen-on-cfd5df90 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r07-screen-on-cfd5df90 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
+      "completed_at": 1786949828,
+      "created_at": 1786949176,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_3aae68ac",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_d84346f7.",
+      "started_at": 1786949177,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] B0GQ2ZR81S Q08 Amazon MAIN R07 phone-screen-on repair",
+      "updated_at": 1786949828,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_3aae68ac"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -4009,38 +4046,20 @@
       "title": "[Lion -> Dangdang] P1｜Q08 10% Coupon D+1生效与护栏只读验收",
       "updated_at": 1786674527,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-amazon-ops-handoffs/workspaces/t_92efc542"
-    },
-    {
-      "assignee": "coovoamae-amazon-ops-lizhutian",
-      "board": "hermes-auto-continue",
-      "board_name": "Hermes Auto Continue",
-      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260814_090041\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
-      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260814_090041\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
-      "completed_at": 1786670340,
-      "created_at": 1786670171,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_0eaab218",
-      "priority": 100,
-      "result": "",
-      "started_at": 1786670184,
-      "status": "done",
-      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
-      "updated_at": 1786670340,
-      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_0eaab218"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 29,
+    "active": 30,
     "archived": 122,
     "blocked": 149,
     "completed": 1,
-    "done": 1175,
+    "done": 1176,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 21,
-    "total": 1475,
+    "total": 1477,
     "triage": 0
   },
   "tasks": [
@@ -19942,6 +19961,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
       "board_name": "COOVOAMAE Design Requests",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_144620_beab35\", \"goal\": \"[The user attached an image. Here's what it contains:\\nThe image shows a smartphone mounted on an extended selfie stick/tripod against a plain white background.\\n\\n- **Main object:** A black…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260817_144620_beab35\", \"goal\": \"[The user attached an image. Here's what it contains:\\nThe image shows a smartphone mounted on an extended selfie stick/tripod against a plain white background.\\n\\n- **Main object:** A black…",
+      "completed_at": null,
+      "created_at": 1786949828,
+      "created_by": "coovoamae-crm",
+      "id": "t_d84346f7",
+      "priority": 100,
+      "result": "",
+      "started_at": 1786949876,
+      "status": "running",
+      "title": "[Auto Continue 1/4] [The user attached an image. Here's what it contains:",
+      "updated_at": 1786949876,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_d84346f7"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
       "body": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "body_preview": "# Design Brief ## 业务目标 - 要提升/解决什么：Amazon Listing 转化；不能只展示“透明色外观”，必须围绕产品定义和买家使用场景解释“为什么买”。 - 判断依据：Sara 明确反馈：外观透明是对的，但套图需求还需要按照卖点和产品定义来提，需要场景使用图。 - 本轮目标：基于已确认外观，重做/优化 Amazon 7 图套图方向稿，让买家在 3 秒内理解：这是 4×6 照片/卡片收纳盒，内含 6 个可取出的透明内盒，适合家庭照片、明信片、食谱卡、手工卡片、贴纸/优惠券等分类整理。 ## 使用场景 - 渠道：Amazon US Listing 图片 - 尺寸：200…",
       "completed_at": 1780839254,
@@ -21215,6 +21252,24 @@
       "title": "[Dangdang -> Butterfly] B0GQ2ZR81S Q08 Amazon MAIN R05 native imageEditV2 SEEDREAM5",
       "updated_at": 1786942340,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a587eb7b"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r07-screen-on-cfd5df90 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
+      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r07-screen-on-cfd5df90 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
+      "completed_at": 1786949828,
+      "created_at": 1786949176,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_3aae68ac",
+      "priority": 80,
+      "result": "Auto-continuation round 0 handed off to t_d84346f7.",
+      "started_at": 1786949177,
+      "status": "done",
+      "title": "[Dangdang -> Butterfly] B0GQ2ZR81S Q08 Amazon MAIN R07 phone-screen-on repair",
+      "updated_at": 1786949828,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_3aae68ac"
     },
     {
       "assignee": "coovoamae-crm",
