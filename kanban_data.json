@@ -3291,7 +3291,7 @@
       "counts": {
         "archived": 70,
         "blocked": 42,
-        "done": 171,
+        "done": 172,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3389,10 +3389,10 @@
     "coovoamae-crm": {
       "active": 7,
       "blocked": 83,
-      "done": 271,
+      "done": 272,
       "running": 0,
       "todo": 7,
-      "total": 361
+      "total": 362
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3520,10 +3520,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1786953601,
-  "generated_at_iso": "2026-08-17T16:00:01+08:00",
+  "generated_at": 1786957201,
+  "generated_at_iso": "2026-08-17T17:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "body_preview": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "completed_at": 1786954709,
+      "created_at": 1786954708,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_0cd4052f",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "started_at": 1786954709,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_d8316c47",
+      "updated_at": 1786954709,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0cd4052f"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-design",
@@ -4045,24 +4063,6 @@
       "title": "[Dangdang -> Butterfly] 25-piece walnut-handle wood carving tool set Listing suite and Premium A+",
       "updated_at": 1786715739,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_8cfef5f4"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "body_preview": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "completed_at": 1786705037,
-      "created_at": 1786705035,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_65fedbde",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_39185cf3 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_39185cf3.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_39185cf3：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "started_at": 1786705036,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_39185cf3",
-      "updated_at": 1786705037,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_65fedbde"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -4071,12 +4071,12 @@
     "archived": 122,
     "blocked": 151,
     "completed": 1,
-    "done": 1178,
+    "done": 1179,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1480,
+    "total": 1481,
     "triage": 0
   },
   "tasks": [
@@ -20027,6 +20027,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_d84346f7",
       "updated_at": 1786953491,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_da13920b"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "body_preview": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "completed_at": 1786954709,
+      "created_at": 1786954708,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_0cd4052f",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_d8316c47 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R07 MAIN remains incomplete after the bounded second repair; please provide a clean exact-product screen-on anchor with no UI artifacts, or explicitly approve a materially different production route. 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-de…",
+      "started_at": 1786954709,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_d8316c47",
+      "updated_at": 1786954709,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0cd4052f"
     },
     {
       "assignee": "coovoamae-crm",
