@@ -643,7 +643,7 @@
       "created_by": "coovoamae-crm",
       "id": "t_4ecc6839",
       "priority": 100,
-      "result": "",
+      "result": "PD10-004 R12 is owner-review ready: 9 Listing and 11 Premium A+ native LinkFox assets passed Taste (20/20). R08 is withdrawn and must not be uploaded. Contact sheets are review-only. Amazon/ZiNiao writes remain unauthorized pending Liu Xi approval and a later upload confirmation package.",
       "started_at": 1786972372,
       "status": "blocked",
       "title": "[Auto Continue 1/4] work kanban task t_3df442f2",
@@ -3592,8 +3592,8 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787022002,
-  "generated_at_iso": "2026-08-18T11:00:02+08:00",
+  "generated_at": 1787025601,
+  "generated_at_iso": "2026-08-18T12:00:01+08:00",
   "ok": true,
   "recent_done": [
     {
@@ -20237,7 +20237,7 @@
       "created_by": "coovoamae-crm",
       "id": "t_4ecc6839",
       "priority": 100,
-      "result": "",
+      "result": "PD10-004 R12 is owner-review ready: 9 Listing and 11 Premium A+ native LinkFox assets passed Taste (20/20). R08 is withdrawn and must not be uploaded. Contact sheets are review-only. Amazon/ZiNiao writes remain unauthorized pending Liu Xi approval and a later upload confirmation package.",
       "started_at": 1786972372,
       "status": "blocked",
       "title": "[Auto Continue 1/4] work kanban task t_3df442f2",
