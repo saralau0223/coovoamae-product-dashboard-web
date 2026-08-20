@@ -3571,7 +3571,7 @@
       "counts": {
         "archived": 2,
         "blocked": 11,
-        "done": 26,
+        "done": 27,
         "ready": 11,
         "todo": 3
       },
@@ -3659,10 +3659,10 @@
     "coovoamae-crm": {
       "active": 7,
       "blocked": 86,
-      "done": 280,
+      "done": 281,
       "running": 0,
       "todo": 7,
-      "total": 373
+      "total": 374
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3798,10 +3798,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787227201,
-  "generated_at_iso": "2026-08-20T20:00:01+08:00",
+  "generated_at": 1787230801,
+  "generated_at_iso": "2026-08-20T21:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "RECOVERY: supersedes deadlocked session 20260820_191557_5dc340; original task t_b0e45269.\\nProject: coovoa-20260820-rose-pink-heated-eye-mask; keep one canonical final only.\\nCanonical state: /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/state/launch_state.json\\nRead…",
+      "body_preview": "RECOVERY: supersedes deadlocked session 20260820_191557_5dc340; original task t_b0e45269.\\nProject: coovoa-20260820-rose-pink-heated-eye-mask; keep one canonical final only.\\nCanonical state: /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/state/launch_state.json\\nRead…",
+      "completed_at": 1787229443,
+      "created_at": 1787228576,
+      "created_by": "dangdang-hub",
+      "id": "t_90c79c14",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787228578,
+      "status": "done",
+      "title": "Recover pink eye-mask pkg-004 five-image QA",
+      "updated_at": 1787229443,
+      "workspace_path": "/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/coovoa-20260820-rose-pink-heated-eye-mask"
+    },
     {
       "assignee": "coovoamae-crm",
       "board": "coovoamae-product-assets",
@@ -4323,24 +4341,6 @@
       "title": "[Dangdang -> Butterfly] Black passport organizer — evidence-locked Amazon Listing + Premium A+ visual suite",
       "updated_at": 1786796531,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_bc02c17a"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_a1f30040 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_a1f30040.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_a1f30040：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "body_preview": "结论摘要：设计任务 t_a1f30040 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_a1f30040.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_a1f30040：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "completed_at": 1786795385,
-      "created_at": 1786795384,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_e2db464b",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_a1f30040 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_a1f30040.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_a1f30040：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "started_at": 1786795385,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_a1f30040",
-      "updated_at": 1786795385,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_e2db464b"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -4349,12 +4349,12 @@
     "archived": 122,
     "blocked": 156,
     "completed": 1,
-    "done": 1191,
+    "done": 1192,
     "pending": 0,
     "ready": 17,
     "running": 0,
     "todo": 21,
-    "total": 1508,
+    "total": 1509,
     "triage": 0
   },
   "tasks": [
@@ -22681,6 +22681,24 @@
       "title": "P0｜设计 SLA 红色告警｜t_b0e45269",
       "updated_at": 1787216812,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_e2ecb6ae"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "RECOVERY: supersedes deadlocked session 20260820_191557_5dc340; original task t_b0e45269.\\nProject: coovoa-20260820-rose-pink-heated-eye-mask; keep one canonical final only.\\nCanonical state: /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/state/launch_state.json\\nRead…",
+      "body_preview": "RECOVERY: supersedes deadlocked session 20260820_191557_5dc340; original task t_b0e45269.\\nProject: coovoa-20260820-rose-pink-heated-eye-mask; keep one canonical final only.\\nCanonical state: /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/state/launch_state.json\\nRead…",
+      "completed_at": 1787229443,
+      "created_at": 1787228576,
+      "created_by": "dangdang-hub",
+      "id": "t_90c79c14",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787228578,
+      "status": "done",
+      "title": "Recover pink eye-mask pkg-004 five-image QA",
+      "updated_at": 1787229443,
+      "workspace_path": "/root/.hermes/profiles/coovoamae-crm/workspace/projects/designs/coovoa-20260820-rose-pink-heated-eye-mask"
     },
     {
       "assignee": "coovoamae-crm",
