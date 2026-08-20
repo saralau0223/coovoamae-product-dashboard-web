@@ -3411,7 +3411,7 @@
         "archived": 10,
         "blocked": 63,
         "completed": 1,
-        "done": 207,
+        "done": 208,
         "ready": 4,
         "todo": 2
       },
@@ -3439,10 +3439,10 @@
       "active": 6,
       "blocked": 40,
       "completed": 1,
-      "done": 138,
+      "done": 139,
       "running": 0,
       "todo": 5,
-      "total": 184
+      "total": 185
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3592,10 +3592,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787187601,
-  "generated_at_iso": "2026-08-20T09:00:01+08:00",
+  "generated_at": 1787191201,
+  "generated_at_iso": "2026-08-20T10:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260820_090036\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260820_090036\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1787188498,
+      "created_at": 1787188320,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_2feab38c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787188331,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1787188498,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_2feab38c"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "hermes-auto-continue",
@@ -4117,24 +4135,6 @@
       "title": "Assemble the R02 delivery package",
       "updated_at": 1786788075,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Using only artifacts verified by the audit, perform per-slot QA for the current R02 visual suite for the 720ml stainless food containers 4-pack project. Check every required slot, including square and wide images, against the frozen truth/spec constraints and note pass/fail, visible product consist…",
-      "body_preview": "Using only artifacts verified by the audit, perform per-slot QA for the current R02 visual suite for the 720ml stainless food containers 4-pack project. Check every required slot, including square and wide images, against the frozen truth/spec constraints and note pass/fail, visible product consist…",
-      "completed_at": 1786787909,
-      "created_at": 1786787583,
-      "created_by": "auto-decomposer",
-      "id": "t_c3103c2d",
-      "priority": 0,
-      "result": "",
-      "started_at": 1786787703,
-      "status": "done",
-      "title": "Run per-slot QA on the R02 visual suite",
-      "updated_at": 1786787909,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -4143,12 +4143,12 @@
     "archived": 122,
     "blocked": 155,
     "completed": 1,
-    "done": 1186,
+    "done": 1187,
     "pending": 0,
     "ready": 7,
     "running": 0,
     "todo": 21,
-    "total": 1492,
+    "total": 1493,
     "triage": 0
   },
   "tasks": [
@@ -28775,6 +28775,24 @@
       "title": "[Auto Continue 1/3] ```PLAIN_TEXT",
       "updated_at": 1787016039,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_cf3c8075"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260820_090036\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260820_090036\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1787188498,
+      "created_at": 1787188320,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_2feab38c",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787188331,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1787188498,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_2feab38c"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
