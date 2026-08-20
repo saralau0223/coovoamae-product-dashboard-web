@@ -19,6 +19,24 @@
       "workspace_path": ""
     },
     {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260820_153119_fd8baf\", \"goal\": \"work kanban task t_06824a15\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260820_153119_fd8baf\", \"goal\": \"work kanban task t_06824a15\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1787212078,
+      "created_by": "coovoamae-crm",
+      "id": "t_b0e45269",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787212095,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_06824a15",
+      "updated_at": 1787212095,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_b0e45269"
+    },
+    {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
       "board_name": "Hermes Auto Continue",
@@ -3373,8 +3391,9 @@
       "counts": {
         "archived": 2,
         "blocked": 10,
-        "done": 22,
+        "done": 23,
         "ready": 1,
+        "running": 1,
         "todo": 3
       },
       "name": "COOVOAMAE Product Asset Handoffs",
@@ -3459,12 +3478,12 @@
       "total": 42
     },
     "coovoamae-crm": {
-      "active": 7,
+      "active": 8,
       "blocked": 86,
-      "done": 278,
-      "running": 0,
+      "done": 279,
+      "running": 1,
       "todo": 7,
-      "total": 371
+      "total": 373
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3592,10 +3611,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787209201,
-  "generated_at_iso": "2026-08-20T15:00:01+08:00",
+  "generated_at": 1787212801,
+  "generated_at_iso": "2026-08-20T16:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "Run the current LinkFox-only 7-slot Amazon listing-image workflow for HEM-PINK / B0GWZSN32D. Canonical source and brief are in /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/input/. Use the real pink Amazon baseline as identity anchor; create one v1 candidate package,…",
+      "body_preview": "Run the current LinkFox-only 7-slot Amazon listing-image workflow for HEM-PINK / B0GWZSN32D. Canonical source and brief are in /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/input/. Use the real pink Amazon baseline as identity anchor; create one v1 candidate package,…",
+      "completed_at": 1787212078,
+      "created_at": 1787211075,
+      "created_by": "dangdang",
+      "id": "t_06824a15",
+      "priority": 1,
+      "result": "Auto-continuation round 0 handed off to t_b0e45269.",
+      "started_at": 1787211075,
+      "status": "done",
+      "title": "LinkFox 7-slot suite: HEM-PINK / B0GWZSN32D",
+      "updated_at": 1787212078,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_06824a15"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "hermes-auto-continue",
@@ -4117,38 +4154,20 @@
       "title": "Create manifest and concise final handoff",
       "updated_at": 1786788218,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
-    },
-    {
-      "assignee": "arzopa-data",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "After artifact audit, per-slot QA, and English layout/copy are complete, assemble the R02 delivery package from verified existing artifacts only. Include the approved square images, wide images, contact sheet if useful as preview evidence, slot-level QA notes, and English copy. Do not generate, edi…",
-      "body_preview": "After artifact audit, per-slot QA, and English layout/copy are complete, assemble the R02 delivery package from verified existing artifacts only. Include the approved square images, wide images, contact sheet if useful as preview evidence, slot-level QA notes, and English copy. Do not generate, edi…",
-      "completed_at": 1786788075,
-      "created_at": 1786787583,
-      "created_by": "auto-decomposer",
-      "id": "t_54dde5c2",
-      "priority": 0,
-      "result": "",
-      "started_at": 1786787944,
-      "status": "done",
-      "title": "Assemble the R02 delivery package",
-      "updated_at": 1786788075,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_0769b9ce"
     }
   ],
   "source": "Hermes Kanban static snapshot",
   "summary": {
-    "active": 29,
+    "active": 30,
     "archived": 122,
     "blocked": 155,
     "completed": 1,
-    "done": 1187,
+    "done": 1188,
     "pending": 0,
     "ready": 7,
-    "running": 0,
+    "running": 1,
     "todo": 21,
-    "total": 1493,
+    "total": 1495,
     "triage": 0
   },
   "tasks": [
@@ -22444,6 +22463,24 @@
       "assignee": "coovoamae-crm",
       "board": "coovoamae-product-assets",
       "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260820_153119_fd8baf\", \"goal\": \"work kanban task t_06824a15\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"20260820_153119_fd8baf\", \"goal\": \"work kanban task t_06824a15\", \"completed\": [], \"artifacts\": [], \"new_conclusions\": [ \"continuation assessment marker missing or invalid\" ], \"next_steps\": [ \"resume from the persisted convers…",
+      "completed_at": null,
+      "created_at": 1787212078,
+      "created_by": "coovoamae-crm",
+      "id": "t_b0e45269",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787212095,
+      "status": "running",
+      "title": "[Auto Continue 1/4] work kanban task t_06824a15",
+      "updated_at": 1787212095,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_b0e45269"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
       "body": "Design remediation for project coovoa-20260723-long-grill-caddy, target ASIN B0HB4VWQ8F / SKU COOVOA-GRILL-CADDY-BLK-20260723. Current committed handoff is coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966. Evidence paths: manifest /root/.hermes/shared/product-assets/coovoa-20260723-lo…",
       "body_preview": "Design remediation for project coovoa-20260723-long-grill-caddy, target ASIN B0HB4VWQ8F / SKU COOVOA-GRILL-CADDY-BLK-20260723. Current committed handoff is coovoa-20260723-long-grill-caddy-20260731-142606-437862-53b966. Evidence paths: manifest /root/.hermes/shared/product-assets/coovoa-20260723-lo…",
       "completed_at": null,
@@ -22475,6 +22512,24 @@
       "title": "退回修订 rolling sharpener r24 第2-7图：去角度/易用宣称，修正交互，06重做2048",
       "updated_at": 1785202737,
       "workspace_path": ""
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-product-assets",
+      "board_name": "COOVOAMAE Product Asset Handoffs",
+      "body": "Run the current LinkFox-only 7-slot Amazon listing-image workflow for HEM-PINK / B0GWZSN32D. Canonical source and brief are in /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/input/. Use the real pink Amazon baseline as identity anchor; create one v1 candidate package,…",
+      "body_preview": "Run the current LinkFox-only 7-slot Amazon listing-image workflow for HEM-PINK / B0GWZSN32D. Canonical source and brief are in /root/.hermes/shared/product-assets/coovoa-20260820-rose-pink-heated-eye-mask/input/. Use the real pink Amazon baseline as identity anchor; create one v1 candidate package,…",
+      "completed_at": 1787212078,
+      "created_at": 1787211075,
+      "created_by": "dangdang",
+      "id": "t_06824a15",
+      "priority": 1,
+      "result": "Auto-continuation round 0 handed off to t_b0e45269.",
+      "started_at": 1787211075,
+      "status": "done",
+      "title": "LinkFox 7-slot suite: HEM-PINK / B0GWZSN32D",
+      "updated_at": 1787212078,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-product-assets/workspaces/t_06824a15"
     },
     {
       "assignee": "coovoamae-luming",
