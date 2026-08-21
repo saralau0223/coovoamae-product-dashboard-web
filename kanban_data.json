@@ -3759,7 +3759,7 @@
       "counts": {
         "archived": 70,
         "blocked": 47,
-        "done": 178,
+        "done": 179,
         "todo": 5
       },
       "name": "COOVOAMAE Design Requests",
@@ -3857,10 +3857,10 @@
     "coovoamae-crm": {
       "active": 7,
       "blocked": 88,
-      "done": 281,
+      "done": 282,
       "running": 0,
       "todo": 7,
-      "total": 376
+      "total": 377
     },
     "coovoamae-crow-qc": {
       "active": 0,
@@ -3997,10 +3997,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787295601,
-  "generated_at_iso": "2026-08-21T15:00:01+08:00",
+  "generated_at": 1787299201,
+  "generated_at_iso": "2026-08-21T16:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "body_preview": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "completed_at": 1787296015,
+      "created_at": 1787296014,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_f4d0acf6",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "started_at": 1787296015,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_7fd06a4a",
+      "updated_at": 1787296015,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f4d0acf6"
+    },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
       "board": "coovoamae-product-assets",
@@ -4522,24 +4540,6 @@
       "title": "P0｜设计 SLA 红色告警｜t_948d0022",
       "updated_at": 1786943139,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_1247b2c3"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r05-seedream5-28311204 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
-      "body_preview": "Dangdang created this structured design request for Butterfly. ## Request - request_id: dangdang-butterfly-2026-08-17-b0gq2zr81s-q08-main-r05-seedream5-28311204 - priority: P1 - butterfly_inbox_json: /root/.hermes/profiles/coovoamae-crm/workspace/inbox/design-requests/dangdang-butterfly-2026-08-17-…",
-      "completed_at": 1786942340,
-      "created_at": 1786942042,
-      "created_by": "coovoamae-amazon-ops-lizhutian",
-      "id": "t_a587eb7b",
-      "priority": 80,
-      "result": "Auto-continuation round 0 handed off to t_70519605.",
-      "started_at": 1786942043,
-      "status": "done",
-      "title": "[Dangdang -> Butterfly] B0GQ2ZR81S Q08 Amazon MAIN R05 native imageEditV2 SEEDREAM5",
-      "updated_at": 1786942340,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_a587eb7b"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -4548,12 +4548,12 @@
     "archived": 122,
     "blocked": 164,
     "completed": 1,
-    "done": 1202,
+    "done": 1203,
     "pending": 0,
     "ready": 18,
     "running": 0,
     "todo": 23,
-    "total": 1530,
+    "total": 1531,
     "triage": 0
   },
   "tasks": [
@@ -20702,6 +20702,24 @@
       "title": "[Dangdang -> Butterfly] [Rework] CY-117 first aid kit Listing R02 exact-pouch fidelity correction (4-row source vs 3-row renders)",
       "updated_at": 1787292366,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_7fd06a4a"
+    },
+    {
+      "assignee": "coovoamae-crm",
+      "board": "coovoamae-design",
+      "board_name": "COOVOAMAE Design Requests",
+      "body": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "body_preview": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "completed_at": 1787296015,
+      "created_at": 1787296014,
+      "created_by": "coovoamae-design-watchdog",
+      "id": "t_f4d0acf6",
+      "priority": 100,
+      "result": "结论摘要：设计任务 t_7fd06a4a 已静默/阻塞 60 分钟，当前状态=blocked；卡点：R03 MAIN generation is gated: supplied pixels do not prove “source 4 vs R02 3,” and current state requires owner decision. Please provide a closed-front received-unit photo or explicitly approve main_08 as sole structure truth and confirm whether it…",
+      "started_at": 1787296015,
+      "status": "done",
+      "title": "P0｜设计 SLA 红色告警｜t_7fd06a4a",
+      "updated_at": 1787296015,
+      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_f4d0acf6"
     },
     {
       "assignee": "coovoamae-crm",
