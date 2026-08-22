@@ -3807,7 +3807,7 @@
         "archived": 10,
         "blocked": 63,
         "completed": 1,
-        "done": 209,
+        "done": 210,
         "ready": 4,
         "todo": 2
       },
@@ -3835,10 +3835,10 @@
       "active": 6,
       "blocked": 45,
       "completed": 1,
-      "done": 148,
+      "done": 149,
       "running": 0,
       "todo": 5,
-      "total": 199
+      "total": 200
     },
     "coovoamae-bazi": {
       "active": 0,
@@ -3997,10 +3997,28 @@
   },
   "current_board": "default",
   "errors": [],
-  "generated_at": 1787360402,
-  "generated_at_iso": "2026-08-22T09:00:02+08:00",
+  "generated_at": 1787364001,
+  "generated_at_iso": "2026-08-22T10:00:01+08:00",
   "ok": true,
   "recent_done": [
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260822_090034\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260822_090034\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1787361269,
+      "created_at": 1787361009,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_5b57ec91",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787361011,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1787361269,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_5b57ec91"
+    },
     {
       "assignee": "coovoamae-eagle-eye",
       "board": "hermes-auto-continue",
@@ -4522,24 +4540,6 @@
       "title": "[Dangdang -> Butterfly] B0GQ2ZR81S Q08 Amazon MAIN R07 phone-screen-on repair",
       "updated_at": 1786949828,
       "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_3aae68ac"
-    },
-    {
-      "assignee": "coovoamae-crm",
-      "board": "coovoamae-design",
-      "board_name": "COOVOAMAE Design Requests",
-      "body": "结论摘要：设计任务 t_70519605 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_70519605.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_70519605：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "body_preview": "结论摘要：设计任务 t_70519605 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_70519605.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_70519605：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "completed_at": 1786946062,
-      "created_at": 1786946061,
-      "created_by": "coovoamae-design-watchdog",
-      "id": "t_d8de22cd",
-      "priority": 100,
-      "result": "结论摘要：设计任务 t_70519605 已静默/阻塞 61 分钟，当前状态=blocked；卡点：[P0] automatic continuation stopped: no new artifact/conclusion 确认包或产出路径：/root/.hermes/kanban/boards/coovoamae-design/logs/t_70519605.log 需刘希动作：查看卡点；如涉及真实素材、付费未知结果或方向选择，请给精确补充。 可复制确认话术：继续 t_70519605：按已写明卡点处理，不扩大发布或后台权限 确认后会发生什么：仅恢复该设计任务；真实性 QA、付费未知结…",
-      "started_at": 1786946061,
-      "status": "done",
-      "title": "P0｜设计 SLA 红色告警｜t_70519605",
-      "updated_at": 1786946062,
-      "workspace_path": "/root/.hermes/kanban/boards/coovoamae-design/workspaces/t_d8de22cd"
     }
   ],
   "source": "Hermes Kanban static snapshot",
@@ -4548,12 +4548,12 @@
     "archived": 122,
     "blocked": 164,
     "completed": 1,
-    "done": 1204,
+    "done": 1205,
     "pending": 0,
     "ready": 18,
     "running": 0,
     "todo": 23,
-    "total": 1532,
+    "total": 1533,
     "triage": 0
   },
   "tasks": [
@@ -29900,6 +29900,24 @@
       "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"coovoamae-product-development\" skill, indicating they want",
       "updated_at": 1787356666,
       "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_13d1104c"
+    },
+    {
+      "assignee": "coovoamae-amazon-ops-lizhutian",
+      "board": "hermes-auto-continue",
+      "board_name": "Hermes Auto Continue",
+      "body": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260822_090034\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "body_preview": "[HERMES_AUTO_CONTINUE_META] { \"version\": 1, \"round\": 1, \"origin_session\": \"cron_583fa494292b_20260822_090034\", \"goal\": \"[IMPORTANT: The user has invoked the \\\"amazon-marketplace-growth-ops\\\" skill, indicating they want you to follow its instructions. The full skill content is loaded below.]\\n\\n---\\…",
+      "completed_at": 1787361269,
+      "created_at": 1787361009,
+      "created_by": "coovoamae-amazon-ops-lizhutian",
+      "id": "t_5b57ec91",
+      "priority": 100,
+      "result": "",
+      "started_at": 1787361011,
+      "status": "done",
+      "title": "[Auto Continue 1/3] [IMPORTANT: The user has invoked the \"amazon-marketplace-growth-ops\" skill, indicating they want",
+      "updated_at": 1787361269,
+      "workspace_path": "/root/.hermes/kanban/boards/hermes-auto-continue/workspaces/t_5b57ec91"
     },
     {
       "assignee": "coovoamae-amazon-ops-lizhutian",
